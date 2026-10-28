@@ -1,0 +1,122 @@
+{
+ "luna/self/attribute": {
+  "n": 2,
+  "inc_u": 75.0,
+  "exc": 93.8
+ },
+ "luna/self/exact": {
+  "n": 8,
+  "inc_u": 93.8,
+  "exc": 90.6
+ },
+ "luna/self/exceptions": {
+  "n": 127,
+  "inc_u": 3.5,
+  "exc": 97.2
+ },
+ "luna/self/members_enumerated": {
+  "n": 2,
+  "inc_u": 100.0,
+  "exc": 81.2
+ },
+ "luna/self/none": {
+  "n": 19,
+  "inc_u": 2.6,
+  "exc": 82.9
+ },
+ "luna/self/other_group": {
+  "n": 2,
+  "inc_u": 50.0,
+  "exc": 87.5
+ },
+ "luna/with text/attribute": {
+  "n": 14,
+  "inc_u": 46.4,
+  "exc": 67.0
+ },
+ "luna/with text/broader": {
+  "n": 18,
+  "inc_u": 63.9,
+  "exc": 81.9
+ },
+ "luna/with text/exact": {
+  "n": 217,
+  "inc_u": 86.9,
+  "exc": 92.5
+ },
+ "luna/with text/exceptions": {
+  "n": 214,
+  "inc_u": 9.1,
+  "exc": 93.8
+ },
+ "luna/with text/members_enumerated": {
+  "n": 23,
+  "inc_u": 76.1,
+  "exc": 83.2
+ },
+ "luna/with text/none": {
+  "n": 117,
+  "inc_u": 2.6,
+  "exc": 87.1
+ },
+ "luna/with text/other_group": {
+  "n": 37,
+  "inc_u": 40.5,
+  "exc": 70.3
+ },
+ "sol/self/attribute": {
+  "n": 9,
+  "inc_u": 44.4,
+  "exc": 90.3
+ },
+ "sol/self/broader": {
+  "n": 4,
+  "inc_u": 50.0,
+  "exc": 75.0
+ },
+ "sol/self/exact": {
+  "n": 68,
+  "inc_u": 98.5,
+  "exc": 98.2
+ },
+ "sol/self/exceptions": {
+  "n": 42,
+  "inc_u": 34.5,
+  "exc": 94.6
+ },
+ "sol/self/members_enumerated": {
+  "n": 21,
+  "inc_u": 83.3,
+  "exc": 85.1
+ },
+ "sol/self/other_group": {
+  "n": 16,
+  "inc_u": 43.8,
+  "exc": 80.5
+ },
+ "sol/with text/broader": {
+  "n": 11,
+  "inc_u": 63.6,
+  "exc": 80.7
+ },
+ "sol/with text/exact": {
+  "n": 104,
+  "inc_u": 98.6,
+  "exc": 97.6
+ },
+ "sol/with text/exceptions": {
+  "n": 16,
+  "inc_u": 25.0,
+  "exc": 81.2
+ },
+ "sol/with text/members_enumerated": {
+  "n": 8,
+  "inc_u": 81.2,
+  "exc": 84.4
+ },
+ "sol/with text/other_group": {
+  "n": 21,
+  "inc_u": 47.6,
+  "exc": 84.5
+ }
+}

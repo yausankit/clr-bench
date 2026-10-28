@@ -1,0 +1,60 @@
+# Template / plausible consistency check (one line per template)
+
+Each line confirms that the rule text describes the first plausible list and that the
+remaining plausible ids are same-field lists a reader could mistake for it.
+- tld_eu: rule names eu_member_cctlds (European Union member state country-code top-level domains); competitors schengen_cctlds, eurozone_cctlds, nato_cctlds -- consistent
+- tld_commonwealth: rule names commonwealth_cctlds (Commonwealth of Nations member state country-code top-level domains); competitors five_eyes_cctlds, cplp_cctlds, oif_cctlds -- consistent
+- tld_asia: rule names asean_cctlds (ASEAN member state country-code top-level domains); competitors saarc_cctlds, apec_cctlds, g20_cctlds -- consistent
+- tld_africa: rule names african_union_cctlds (African Union member state country-code top-level domains); competitors arab_league_cctlds, opec_cctlds, gcc_cctlds -- consistent
+- tld_caribbean: rule names caricom_cctlds (CARICOM member state country-code top-level domains); competitors cplp_cctlds, pacific_islands_forum_cctlds -- consistent
+- tld_sponsored: rule names sponsored_gtlds (Sponsored generic top-level domains); competitors original_gtlds, brand_gtlds, geographic_gtlds -- consistent
+- tld_idn: rule names idn_cctlds (Internationalized country-code top-level domains); competitors geographic_gtlds, brand_gtlds -- consistent
+- tld_nordic: rule names nordic_council_cctlds (Nordic Council member country-code top-level domains); competitors eu_member_cctlds, schengen_cctlds -- consistent
+- tld_g7: rule names g7_cctlds (G7 member country-code top-level domains); competitors oecd_cctlds, nato_cctlds -- consistent
+- tld_brics: rule names brics_cctlds (BRICS member country-code top-level domains); competitors g20_cctlds, apec_cctlds -- consistent
+- tld_cis: rule names cis_cctlds (Commonwealth of Independent States member country-code top-level domains); competitors opec_cctlds, saarc_cctlds -- consistent
+- port_mail: rule names mail_service_ports (Mail protocol ports assigned by IANA); competitors plaintext_protocol_ports, tls_wrapped_ports -- consistent
+- port_database: rule names database_ports (Database server ports); competitors http_service_ports, monitoring_ports -- consistent
+- port_proxy: rule names proxy_ports (HTTP and SOCKS proxy ports); competitors http_service_ports, tls_wrapped_ports -- consistent
+- port_remote: rule names remote_admin_ports (Remote administration service ports); competitors windows_networking_ports, file_transfer_ports -- consistent
+- port_infra: rule names network_infrastructure_ports (Network infrastructure service ports); competitors directory_service_ports, monitoring_ports -- consistent
+- port_media: rule names streaming_media_ports (Streaming media ports); competitors voip_ports, plaintext_protocol_ports -- consistent
+- port_container: rule names container_orchestration_ports (Container orchestration service ports); competitors http_service_ports, proxy_ports -- consistent
+- port_vpn: rule names vpn_ports (Virtual private network service ports); competitors remote_admin_ports, tls_wrapped_ports -- consistent
+- port_vcs: rule names version_control_ports (Version control service ports); competitors file_transfer_ports, http_service_ports -- consistent
+- port_print: rule names printing_ports (Printing service ports); competitors windows_networking_ports, directory_service_ports -- consistent
+- app_browser: rule names web_browsers (Web browsers); competitors download_managers, instant_messengers -- consistent
+- app_messenger: rule names instant_messengers (Instant messaging clients); competitors web_browsers, file_sync_clients -- consistent
+- app_security: rule names security_software (Endpoint security software); competitors software_updaters, remote_desktop_clients -- consistent
+- app_office: rule names office_suites (Office suites); competitors pdf_readers, media_players -- consistent
+- app_dev: rule names developer_tools (Software development tools); competitors ssh_clients, ftp_clients -- consistent
+- app_tencent: rule names tencent_products (Tencent software products); competitors instant_messengers, download_managers -- consistent
+- app_microsoft: rule names microsoft_products (Microsoft software products); competitors office_suites, developer_tools -- consistent
+- app_qihoo: rule names qihoo_products (Qihoo 360 software products); competitors security_software, web_browsers -- consistent
+- user_system: rule names linux_base_accounts (Linux base system accounts); competitors legacy_service_accounts, privileged_accounts -- consistent
+- user_database: rule names database_default_users (Default database administrator accounts); competitors bigdata_users, monitoring_users -- consistent
+- user_web: rule names web_server_users (Web server service accounts); competitors mail_server_users, ftp_accounts -- consistent
+- user_cloud: rule names cloud_image_users (Default accounts of public cloud machine images); competitors ci_cd_users, seclists_top_usernames -- consistent
+- user_network: rule names network_device_users (Default network equipment accounts); competitors iot_default_users, mirai_default_usernames -- consistent
+- user_windows: rule names windows_accounts (Default Windows local accounts); competitors privileged_accounts, network_device_users -- consistent
+- user_bigdata: rule names bigdata_users (Hadoop ecosystem service accounts); competitors monitoring_users, database_default_users -- consistent
+- user_ci: rule names ci_cd_users (Continuous integration service accounts); competitors cloud_image_users, seclists_top_usernames -- consistent
+- port_dns: rule names name_resolution_ports (Name resolution service ports); competitors network_infrastructure_ports, directory_service_ports -- consistent
+- port_smb: rule names smb_and_netbios_ports (SMB and NetBIOS service ports); competitors windows_networking_ports, file_transfer_ports -- consistent
+- port_microsoft: rule names microsoft_server_ports (Microsoft server product port assignments); competitors windows_networking_ports, directory_service_ports -- consistent
+- port_nosql: rule names nosql_database_ports (NoSQL and search database ports); competitors database_ports, http_service_ports -- consistent
+- app_chromium: rule names chromium_browsers (Chromium-based web browsers); competitors web_browsers, download_managers -- consistent
+- app_mail_chat: rule names email_chat_clients (Email and chat clients); competitors instant_messengers, office_document_apps -- consistent
+- app_docs: rule names office_document_apps (Office and document applications); competitors office_suites, pdf_readers -- consistent
+- app_video: rule names video_players (Video player programs); competitors media_players, security_update_tools -- consistent
+- app_admin: rule names developer_admin_tools (Development and system administration tools); competitors developer_tools, remote_access_tools -- consistent
+- app_secupd: rule names security_update_tools (Security and update programs); competitors security_software, software_updaters -- consistent
+- app_remote: rule names remote_access_tools (Remote access and terminal tools); competitors remote_desktop_clients, ssh_clients -- consistent
+- app_sync: rule names sync_download_tools (File synchronization and download tools); competitors file_sync_clients, download_managers -- consistent
+- user_service: rule names service_accounts (Daemon and service accounts); competitors linux_base_accounts, legacy_service_accounts -- consistent
+- user_appserver: rule names application_server_accounts (Application server service accounts); competitors web_server_users, mail_server_users -- consistent
+- user_data: rule names data_platform_accounts (Database, analytics and monitoring service accounts); competitors database_default_users, bigdata_users -- consistent
+- user_automation: rule names automation_accounts (Automation and build service accounts); competitors ci_cd_users, service_accounts -- consistent
+- user_default: rule names default_accounts (Default device and operating system accounts); competitors mirai_default_usernames, iot_default_users -- consistent
+- tld_cctld: rule names cctlds_all (Country-code top-level domains); competitors idn_cctlds -- consistent
+- tld_gtld: rule names gtlds_all (Generic top-level domains); competitors legacy_gtlds, new_gtld_program_2012, sponsored_gtlds, original_gtlds, brand_gtlds, geographic_gtlds -- consistent

@@ -1,0 +1,193 @@
+value	entity	attr:role
+root	Unix superuser	privileged
+admin	administrator account	privileged
+administrator	Windows administrator account	privileged
+sysadmin	system administrator	privileged
+operator	operator account	privileged
+0	numeric uid zero login	privileged
+daemon	legacy daemon account	system
+bin	legacy binary owner account	system
+sys	legacy system account	system
+sync	legacy sync account	system
+games	legacy games account	system
+man	legacy manual pages account	system
+lp	legacy printing account	system
+mail	legacy mail spool account	system
+news	legacy news spool account	system
+uucp	legacy UUCP account	system
+proxy	legacy proxy account	system
+backup	legacy backup account	system
+list	legacy mailing list account	system
+irc	legacy IRC account	system
+gnats	legacy bug tracking account	system
+nobody	unprivileged placeholder account	system
+systemd-network	systemd network account	system
+messagebus	D-Bus message bus account	system
+syslog	syslog daemon account	system
+_apt	APT package manager account	system
+sshd	OpenSSH daemon account	system
+debian-transmission	Transmission daemon account	system
+clamav	ClamAV daemon account	system
+vmail	virtual mail account	mail
+postfix	Postfix daemon account	mail
+dovecot	Dovecot daemon account	mail
+exim	Exim daemon account	mail
+mailnull	exim null account	mail
+cyrus	Cyrus IMAP account	mail
+anonymous	anonymous FTP account	service
+ftp	FTP account	service
+ftpuser	FTP user account	service
+mysql	MySQL administrator account	database
+postgres	PostgreSQL administrator account	database
+postgres1	PostgreSQL administrator account	database
+oracle	Oracle database administrator account	database
+oralce	misspelled Oracle account	database
+pgadmin	pgAdmin account	database
+mongo	MongoDB administrator account	database
+mongodb	MongoDB administrator account	database
+redis	Redis account	database
+cassandra	Cassandra account	database
+couchdb	CouchDB account	database
+elasticsearch	Elasticsearch account	database
+memcached	Memcached account	database
+neo4j	Neo4j account	database
+influxdb	InfluxDB account	database
+db2admin	IBM Db2 administrator account	database
+sa	SQL Server system administrator	database
+sysdba	Oracle SYSDBA account	database
+mssql	SQL Server service account	database
+rdsadmin	Amazon RDS administrator account	database
+www-data	Debian web server account	web
+www	web server account	web
+nginx	nginx service account	web
+apache	Apache service account	web
+httpd	Apache HTTP server account	web
+tomcat	Apache Tomcat account	web
+jboss	JBoss application server account	web
+glassfish	GlassFish account	web
+weblogic	WebLogic account	web
+webmaster	web site administrator	web
+webadmin	web administrator	web
+jenkins	Jenkins service account	ci
+gitlab-runner	GitLab Runner account	ci
+bamboo	Bamboo build account	ci
+teamcity	TeamCity build account	ci
+hudson	Hudson build account	ci
+buildbot	Buildbot account	ci
+travis	Travis CI account	ci
+circleci	CircleCI account	ci
+drone	Drone CI account	ci
+ec2-user	Amazon EC2 default account	cloud
+azureuser	Azure virtual machine default account	cloud
+opc	Oracle Cloud default account	cloud
+centos	CentOS default account	cloud
+debian	Debian default account	cloud
+fedora	Fedora default account	cloud
+alpine	Alpine Linux default account	cloud
+core	CoreOS default account	cloud
+vagrant	Vagrant default account	cloud
+adminuser	generic administrator account	cloud
+ubnt	Ubiquiti default account	network
+netscreen	NetScreen default account	network
+fortinet	Fortinet default account	network
+huawei	Huawei default account	network
+zte	ZTE default account	network
+mikrotik	MikroTik default account	network
+router	router default account	network
+enable	Cisco enable account	network
+cisco	Cisco default account	network
+support	support account	default
+guest	guest account	default
+default	default account	default
+PlcmSpIp	Polycom default account	network
+Management	HP management account	network
+telnet	telnet account	service
+vnc	VNC account	service
+hadoop	Hadoop service account	bigdata
+hdfs	HDFS service account	bigdata
+hive	Hive service account	bigdata
+spark	Spark service account	bigdata
+hbase	HBase service account	bigdata
+oozie	Oozie service account	bigdata
+flume	Flume service account	bigdata
+storm	Storm service account	bigdata
+kafka	Kafka service account	bigdata
+zookeeper	ZooKeeper service account	bigdata
+yarn	YARN service account	bigdata
+mapred	MapReduce service account	bigdata
+nagios	Nagios account	monitoring
+nagios1	Nagios account	monitoring
+zabbix	Zabbix account	monitoring
+cacti	Cacti account	monitoring
+icinga	Icinga account	monitoring
+prometheus	Prometheus account	monitoring
+grafana	Grafana account	monitoring
+splunk	Splunk account	monitoring
+elk	ELK stack account	monitoring
+kibana	Kibana account	monitoring
+logstash	Logstash account	monitoring
+john	personal account	human
+mary	personal account	human
+david	personal account	human
+mike	personal account	human
+alice	personal account	human
+bob	personal account	human
+charlie	personal account	human
+sarah	personal account	human
+james	personal account	human
+linda	personal account	human
+robert	personal account	human
+patricia	personal account	human
+michael	personal account	human
+jennifer	personal account	human
+william	personal account	human
+elizabeth	personal account	human
+richard	personal account	human
+susan	personal account	human
+joseph	personal account	human
+jessica	personal account	human
+thomas	personal account	human
+karen	personal account	human
+charles	personal account	human
+nancy	personal account	human
+christopher	personal account	human
+lisa	personal account	human
+daniel	personal account	human
+betty	personal account	human
+matthew	personal account	human
+margaret	personal account	human
+chen	personal account	human
+cheng	personal account	human
+zhangyan	personal account	human
+ingrid	personal account	human
+jay	personal account	human
+sandeep	personal account	human
+ted	personal account	human
+inspur	personal account	human
+abc	test account	human
+ghost	generic login name	human
+butter	generic login name	human
+eoor	generic login name	human
+dff	generic login name	human
+api	API service account	service
+boot	legacy boot account	system
+bssh	backup SSH account	service
+FILTER	filter account	service
+matlab	MATLAB account	human
+magnos	generic login name	human
+deploy	deployment account	ci
+git	Git service account	ci
+test	generic test account	human
+test1	test account	human
+test2	test account	human
+test9	test account	human
+1234	numeric login name	human
+123	numeric login name	human
+123456	numeric login name	human
+utsims	generic login name	human
+info	information account	default
+adm	administrator account	privileged
+puppet	Puppet configuration account	ci
+ansible	Ansible automation account	ci
+user	generic unprivileged account	human
+pi	Raspberry Pi default account	network

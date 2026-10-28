@@ -1,0 +1,187 @@
+{
+ "L1": {
+  "C": "brics_cctlds",
+  "competitors": [
+   {
+    "id": "apec_cctlds",
+    "name": "APEC member economy country-code top-level domains"
+   },
+   {
+    "id": "bsec_cctlds",
+    "name": "BSEC member state country-code top-level domains"
+   },
+   {
+    "id": "cctlds_all",
+    "name": "Country-code top-level domains"
+   },
+   {
+    "id": "cis_cctlds",
+    "name": "Commonwealth of Independent States member country-code top-level domains"
+   },
+   {
+    "id": "csto_cctlds",
+    "name": "CSTO member state country-code top-level domains"
+   },
+   {
+    "id": "eaeu_cctlds",
+    "name": "Eurasian Economic Union member state country-code top-level domains"
+   },
+   {
+    "id": "g20_cctlds",
+    "name": "G20 member country-code top-level domains"
+   },
+   {
+    "id": "helcom_cctlds",
+    "name": "HELCOM contracting party country-code top-level domains"
+   }
+  ],
+  "name": "BRICS member country-code top-level domains",
+  "synonyms": [
+   "BRICS countries"
+  ]
+ },
+ "L2": {
+  "C": "office_ltsc_2021_apps",
+  "competitors": [
+   {
+    "id": "microsoft_productivity_apps",
+    "name": "Microsoft productivity applications"
+   },
+   {
+    "id": "microsoft_products",
+    "name": "Microsoft software products"
+   },
+   {
+    "id": "office_document_apps",
+    "name": "Office and document applications"
+   },
+   {
+    "id": "office_ltsc_2024_apps",
+    "name": "Office LTSC Professional Plus 2024 applications"
+   },
+   {
+    "id": "office_suites",
+    "name": "Office suites"
+   },
+   {
+    "id": "uptodown_top_downloads",
+    "name": "Uptodown Windows top downloads"
+   }
+  ],
+  "name": "Office LTSC Professional Plus 2021 applications",
+  "synonyms": [
+   "Office 2021 desktop apps"
+  ]
+ },
+ "L3": {
+  "C": "microsoft_server_ports",
+  "competitors": [
+   {
+    "id": "iana_system_ports",
+    "name": "IANA system ports"
+   },
+   {
+    "id": "name_resolution_ports",
+    "name": "Name resolution service ports"
+   },
+   {
+    "id": "network_infrastructure_ports",
+    "name": "Network infrastructure service ports"
+   },
+   {
+    "id": "smb_and_netbios_ports",
+    "name": "SMB and NetBIOS service ports"
+   },
+   {
+    "id": "windows_networking_ports",
+    "name": "Microsoft Windows networking service ports"
+   }
+  ],
+  "name": "Microsoft server product port assignments",
+  "synonyms": [
+   "Windows server ports"
+  ]
+ },
+ "L4": {
+  "C": "schengen_cctlds",
+  "competitors": [
+   {
+    "id": "cbss_cctlds",
+    "name": "Council of the Baltic Sea States member state country-code top-level domains"
+   },
+   {
+    "id": "cctlds_all",
+    "name": "Country-code top-level domains"
+   },
+   {
+    "id": "danube_commission_cctlds",
+    "name": "Danube Commission member state country-code top-level domains"
+   },
+   {
+    "id": "eu_member_cctlds",
+    "name": "European Union member state country-code top-level domains"
+   },
+   {
+    "id": "eurozone_cctlds",
+    "name": "Eurozone member state country-code top-level domains"
+   },
+   {
+    "id": "g20_cctlds",
+    "name": "G20 member country-code top-level domains"
+   },
+   {
+    "id": "g7_cctlds",
+    "name": "G7 member country-code top-level domains"
+   },
+   {
+    "id": "helcom_cctlds",
+    "name": "HELCOM contracting party country-code top-level domains"
+   },
+   {
+    "id": "nato_cctlds",
+    "name": "NATO member state country-code top-level domains"
+   },
+   {
+    "id": "oecd_cctlds",
+    "name": "OECD member country country-code top-level domains"
+   }
+  ],
+  "name": "Schengen Area member state country-code top-level domains",
+  "synonyms": [
+   "Schengen states"
+  ]
+ },
+ "L5": {
+  "C": "office_suites",
+  "competitors": [
+   {
+    "id": "microsoft_productivity_apps",
+    "name": "Microsoft productivity applications"
+   },
+   {
+    "id": "microsoft_products",
+    "name": "Microsoft software products"
+   },
+   {
+    "id": "office_document_apps",
+    "name": "Office and document applications"
+   },
+   {
+    "id": "office_ltsc_2021_apps",
+    "name": "Office LTSC Professional Plus 2021 applications"
+   },
+   {
+    "id": "office_ltsc_2024_apps",
+    "name": "Office LTSC Professional Plus 2024 applications"
+   },
+   {
+    "id": "uptodown_top_downloads",
+    "name": "Uptodown Windows top downloads"
+   }
+  ],
+  "name": "Office suites",
+  "synonyms": [
+   "office software"
+  ]
+ }
+}

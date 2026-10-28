@@ -1,0 +1,363 @@
+{
+ "answer_format": "json",
+ "background": {
+  "findings.cwe": [
+   "CWE-1241",
+   "CWE-1282",
+   "CWE-224",
+   "CWE-385",
+   "CWE-637",
+   "CWE-640",
+   "CWE-649",
+   "CWE-672",
+   "CWE-835",
+   "CWE-943"
+  ],
+  "findings.language": [
+   "fi",
+   "hy",
+   "ia",
+   "kj",
+   "ms",
+   "nv",
+   "sd",
+   "sn",
+   "te",
+   "vi"
+  ],
+  "hosts.tld": [
+   "af",
+   "au",
+   "careers",
+   "fresenius",
+   "ikano",
+   "ltda",
+   "mg",
+   "porn",
+   "rodeo",
+   "wed"
+  ]
+ },
+ "course_id": "CLR_WS1",
+ "dataset": "WS",
+ "fields": [
+  "findings.cwe",
+  "findings.language",
+  "hosts.tld"
+ ],
+ "id": "WS1",
+ "seed": 20266086,
+ "slots": [
+  {
+   "A": "CWE-312",
+   "C": "cwe1400_encryption",
+   "C_name": "CWE-1400 Comprehensive Categorization for Software Assurance Trends category: Comprehensive Categorization: Encryption (CWE-1402)",
+   "N_p": "CWE-308",
+   "N_t": [
+    "CWE-321",
+    "CWE-375",
+    "CWE-530",
+    "CWE-1025",
+    "CWE-48",
+    "CWE-550",
+    "CWE-1256"
+   ],
+   "P_M": [
+    "CWE-1428",
+    "CWE-1240",
+    "CWE-916"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "cwe1000_664",
+      "cwe1000_693",
+      "encrypt_data",
+      "sfp_exposed_data",
+      "sfp_information_leak"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "cwe1000_664",
+    "cwe1000_693",
+    "encrypt_data",
+    "owasp2017_a03",
+    "owasp2021_a04",
+    "owasp2025_a06",
+    "sfp_exposed_data",
+    "sfp_information_leak"
+   ],
+   "field": "findings.cwe",
+   "label": "client folio E7",
+   "level": 1,
+   "salience": 144393.0,
+   "universe": "cwe"
+  },
+  {
+   "A": "fr",
+   "C": "italic_languages",
+   "C_name": "Italic languages",
+   "N_p": "de",
+   "N_t": [
+    "sl",
+    "ja",
+    "rw",
+    "ne",
+    "ee",
+    "xh",
+    "lv"
+   ],
+   "P_M": [
+    "an",
+    "sc",
+    "co"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "canada_knowledge_languages",
+      "canada_mother_tongue_languages",
+      "eu_official_languages",
+      "finland_native_languages",
+      "italy_law_482_languages",
+      "nepal_native_languages"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "au_working_languages",
+    "canada_knowledge_languages",
+    "canada_mother_tongue_languages",
+    "eu_official_languages",
+    "finland_native_languages",
+    "france_metropolitan_ethnologue_languages",
+    "gallo_iberian_languages",
+    "gallo_romance_languages",
+    "italy_law_482_languages",
+    "kazakhstan_census_languages",
+    "nepal_native_languages",
+    "osce_official_languages",
+    "spain_2021_census_languages",
+    "turkey_1965_census_languages",
+    "turkey_ethnologue_languages",
+    "un_official_languages"
+   ],
+   "field": "findings.language",
+   "label": "review line 97",
+   "level": 2,
+   "salience": 183631.0,
+   "universe": "language"
+  },
+  {
+   "A": "id",
+   "C": "asean_cctlds",
+   "C_name": "ASEAN member states",
+   "N_p": "kiwi",
+   "N_t": [
+    "cn",
+    "in",
+    "ru",
+    "asda",
+    "theatre",
+    "bayern",
+    "locus"
+   ],
+   "P_M": [
+    "tl",
+    "kh",
+    "la"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apec_cctlds",
+      "brics_cctlds",
+      "g20_cctlds"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apec_cctlds",
+    "brics_cctlds",
+    "d8_cctlds",
+    "g20_cctlds",
+    "oic_cctlds"
+   ],
+   "field": "hosts.tld",
+   "label": "reporting band R-34",
+   "level": 3,
+   "salience": 946505.0,
+   "universe": "tld"
+  },
+  {
+   "A": "CWE-681",
+   "C": "cwe699_numeric",
+   "C_name": "CWE-699 Software Development category: Numeric Errors",
+   "N_p": "CWE-1245",
+   "N_t": [
+    "CWE-455",
+    "CWE-118",
+    "CWE-1083",
+    "CWE-131",
+    "CWE-609",
+    "CWE-1101",
+    "CWE-925"
+   ],
+   "P_M": [
+    "CWE-1335",
+    "CWE-839",
+    "CWE-1339"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "cisq_reliability",
+      "cwe1000_664",
+      "cwe1400_resource_lifecycle_management"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "cisq_reliability",
+    "cisq_security",
+    "cwe1000_664",
+    "cwe1400_resource_lifecycle_management",
+    "sfp_risky_values"
+   ],
+   "field": "findings.cwe",
+   "label": "audit lane Y7",
+   "level": 4,
+   "salience": 79458.0,
+   "universe": "cwe"
+  },
+  {
+   "A": "en",
+   "C": "south_africa_official",
+   "C_name": "Official languages of South Africa",
+   "N_p": "os",
+   "N_t": [
+    "hi",
+    "no",
+    "lb",
+    "ta",
+    "hr",
+    "kg",
+    "si"
+   ],
+   "P_M": [
+    "zu",
+    "ts",
+    "ss"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "canada_knowledge_languages",
+      "canada_mother_tongue_languages",
+      "eu_official_languages",
+      "finland_native_languages",
+      "france_metropolitan_ethnologue_languages",
+      "germanic_languages",
+      "india_2011_census_languages",
+      "nepal_native_languages",
+      "turkey_1965_census_languages",
+      "west_germanic_languages"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "au_working_languages",
+    "canada_knowledge_languages",
+    "canada_mother_tongue_languages",
+    "eu_official_languages",
+    "finland_native_languages",
+    "france_metropolitan_ethnologue_languages",
+    "germanic_languages",
+    "india_2011_census_languages",
+    "kazakhstan_census_languages",
+    "nepal_native_languages",
+    "norway_non_native_languages",
+    "osce_official_languages",
+    "pakistan_established_languages",
+    "spain_2021_census_languages",
+    "thailand_census_languages",
+    "turkey_1965_census_languages",
+    "turkey_ethnologue_languages",
+    "un_official_languages",
+    "west_germanic_languages",
+    "zimbabwe_official"
+   ],
+   "field": "findings.language",
+   "label": "client folio 47",
+   "level": 5,
+   "salience": 194478.0,
+   "universe": "language"
+  }
+ ]
+}

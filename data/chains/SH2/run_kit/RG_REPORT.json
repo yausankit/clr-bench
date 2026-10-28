@@ -1,0 +1,77 @@
+[
+ {
+  "task": "CLR_SH2.L1.practice",
+  "rule": 1,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L2.practice",
+  "rule": 1,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L2.practice",
+  "rule": 2,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L3.practice",
+  "rule": 1,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L3.practice",
+  "rule": 2,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L3.practice",
+  "rule": 3,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L4.practice",
+  "rule": 1,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L4.practice",
+  "rule": 2,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L4.practice",
+  "rule": 3,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L4.practice",
+  "rule": 4,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L5.practice",
+  "rule": 1,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L5.practice",
+  "rule": 2,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L5.practice",
+  "rule": 3,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L5.practice",
+  "rule": 4,
+  "status": "ok"
+ },
+ {
+  "task": "CLR_SH2.L5.practice",
+  "rule": 5,
+  "status": "ok"
+ }
+]

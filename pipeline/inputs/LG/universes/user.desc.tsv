@@ -1,0 +1,193 @@
+value	description	source
+root	Unix superuser account with unrestricted system privileges.	universe
+admin	Common administrator login used to manage systems and devices.	universe
+administrator	Built-in Windows local administrator account.	universe
+sysadmin	Administrative login used for system maintenance and configuration.	universe
+operator	Operations account used to monitor and control computer systems.	universe
+0	Numeric user identifier that maps to the Unix root superuser.	universe
+daemon	Legacy Unix account used to run background system daemons.	universe
+bin	Legacy Unix account that owns system executable files.	universe
+sys	Legacy Unix account for kernel and system services.	universe
+sync	Legacy Unix account for synchronizing files to storage.	universe
+games	Legacy Unix account for game programs and score files.	universe
+man	Legacy Unix account for manual-page maintenance.	universe
+lp	Legacy Unix account for the line-printer service.	universe
+mail	Legacy Unix account for the local mail subsystem.	universe
+news	Legacy Unix account for the Usenet news service.	universe
+uucp	Legacy Unix account for Unix-to-Unix file transfers.	universe
+proxy	Legacy Unix account for proxy and gateway services.	universe
+backup	Legacy Unix account for backup operations.	universe
+list	Legacy Unix account for mailing-list management.	universe
+irc	Legacy Unix account for Internet Relay Chat services.	universe
+gnats	Legacy Unix account for the GNATS bug-tracking system.	universe
+nobody	Unprivileged placeholder account used to run guest processes.	universe
+systemd-network	Service account used by systemd network management.	universe
+messagebus	Service account used by the D-Bus message bus.	universe
+syslog	Service account used by the system logging daemon.	universe
+_apt	Service account used by the APT package manager.	universe
+sshd	Service account used by the OpenSSH server daemon.	universe
+debian-transmission	Service account used by the Transmission BitTorrent daemon.	universe
+clamav	Service account used by the ClamAV antivirus scanner.	universe
+vmail	Virtual mailbox account used by mail delivery systems.	universe
+postfix	Service account used by the Postfix mail server.	universe
+dovecot	Service account used by the Dovecot IMAP and POP3 server.	universe
+exim	Service account used by the Exim mail server.	universe
+mailnull	Unprivileged account used by Exim for null mail delivery.	universe
+cyrus	Service account used by the Cyrus IMAP mail server.	universe
+anonymous	Anonymous login account for public file-transfer access.	universe
+ftp	Generic file-transfer service login account.	universe
+ftpuser	File-transfer login account for a remote file server.	universe
+mysql	Default administrator account for the MySQL database server.	universe
+postgres	Default superuser account for the PostgreSQL database server.	universe
+postgres1	Alternate superuser account for a PostgreSQL database server.	universe
+oracle	Administrative account for an Oracle Database instance.	universe
+oralce	Misspelled variant of the Oracle Database administrator account name.	universe
+pgadmin	Login account for the pgAdmin database management tool.	universe
+mongo	Default administrator account for the MongoDB database server.	universe
+mongodb	Default administrator account for the MongoDB database server.	universe
+redis	Login account for the Redis in-memory data store.	universe
+cassandra	Default account for the Apache Cassandra database.	universe
+couchdb	Administrator account for the Apache CouchDB document database.	universe
+elasticsearch	Login account associated with the Elasticsearch search server.	universe
+memcached	Service account for the Memcached distributed cache server.	universe
+neo4j	Default administrator account for the Neo4j graph database.	universe
+influxdb	Administrative account for the InfluxDB time-series database.	universe
+db2admin	Administrator account for the IBM Db2 database server.	universe
+sa	System administrator account for Microsoft SQL Server.	universe
+sysdba	Privileged SYSDBA account for Oracle Database.	universe
+mssql	Service account used by Microsoft SQL Server.	universe
+rdsadmin	Administrator account used by Amazon RDS managed databases.	universe
+www-data	Debian service account used by web server processes.	universe
+www	Generic service account used by web server processes.	universe
+nginx	Service account used by the nginx web server.	universe
+apache	Service account used by the Apache HTTP Server.	universe
+httpd	Daemon account used by the Apache HTTP Server.	universe
+tomcat	Service account used by the Apache Tomcat application server.	universe
+jboss	Service account used by the JBoss application server.	universe
+glassfish	Service account used by the GlassFish application server.	universe
+weblogic	Administrative account used by Oracle WebLogic Server.	universe
+webmaster	Administrative login for a website operator.	universe
+webadmin	Administrative login for web server management.	universe
+jenkins	Service account used by the Jenkins automation server.	universe
+gitlab-runner	Runner account used by GitLab CI to execute jobs.	universe
+bamboo	Build account used by the Atlassian Bamboo server.	universe
+teamcity	Service account used by the JetBrains TeamCity server.	universe
+hudson	Legacy service account used by the Hudson build server.	universe
+buildbot	Service account used by the Buildbot automation system.	universe
+travis	Service account used by the Travis CI build service.	universe
+circleci	Service account used by the CircleCI build service.	universe
+drone	Service account used by the Drone CI build system.	universe
+ec2-user	Default login account on Amazon EC2 Linux machine images.	universe
+azureuser	Default administrator login on Azure Linux virtual machines.	universe
+opc	Default account on Oracle Cloud Infrastructure Linux images.	universe
+centos	Default login account on CentOS cloud machine images.	universe
+debian	Default login account on Debian cloud machine images.	universe
+fedora	Default login account on Fedora cloud machine images.	universe
+alpine	Default login account on Alpine Linux cloud images.	universe
+core	Default login account on CoreOS container-optimized images.	universe
+vagrant	Default login account for Vagrant virtual machine boxes.	universe
+adminuser	Generic administrative login for cloud virtual machines.	universe
+ubnt	Default administrator account on Ubiquiti network devices.	universe
+netscreen	Default administrator account on Juniper NetScreen firewalls.	universe
+fortinet	Default administrator account on Fortinet security appliances.	universe
+huawei	Default administrator account on Huawei network equipment.	universe
+zte	Default administrator account on ZTE network equipment.	universe
+mikrotik	Default administrator account on MikroTik routers.	universe
+router	Generic administrative login for network routers.	universe
+enable	Privileged enable-mode account on Cisco network devices.	universe
+cisco	Default login account on Cisco network equipment.	universe
+support	Support account used for assisted customer access.	universe
+guest	Low-privilege guest account for temporary access.	universe
+default	Generic factory-default login name for devices and systems.	universe
+PlcmSpIp	Default administrator account on Polycom conferencing devices.	universe
+Management	Default management account on HP network equipment.	universe
+telnet	Service login used for Telnet remote terminal access.	universe
+vnc	Service login used for VNC remote desktop access.	universe
+hadoop	Service account used by the Hadoop cluster framework.	universe
+hdfs	Service account used by the Hadoop Distributed File System.	universe
+hive	Service account used by Apache Hive.	universe
+spark	Service account used by Apache Spark jobs.	universe
+hbase	Service account used by the Apache HBase database.	universe
+oozie	Service account used by the Apache Oozie workflow engine.	universe
+flume	Service account used by the Apache Flume data collector.	universe
+storm	Service account used by Apache Storm stream processing.	universe
+kafka	Service account used by the Apache Kafka event stream platform.	universe
+zookeeper	Service account used by the Apache ZooKeeper coordinator.	universe
+yarn	Service account used by the Hadoop YARN resource manager.	universe
+mapred	Service account used by Hadoop MapReduce jobs.	universe
+nagios	Service account used by the Nagios monitoring system.	universe
+nagios1	Alternate service account used by Nagios monitoring.	universe
+zabbix	Service account used by the Zabbix monitoring platform.	universe
+cacti	Service account used by the Cacti monitoring and graphing system.	universe
+icinga	Service account used by the Icinga monitoring system.	universe
+prometheus	Service account used by the Prometheus monitoring server.	universe
+grafana	Service account used by the Grafana dashboard platform.	universe
+splunk	Service account used by the Splunk log analytics platform.	universe
+elk	Service account used by the Elasticsearch, Logstash and Kibana platform.	universe
+kibana	Service account used by the Kibana visualization application.	universe
+logstash	Service account used by the Logstash data pipeline.	universe
+john	Common personal login name for an individual user account.	universe
+mary	Common personal login name for an individual user account.	universe
+david	Common personal login name for an individual user account.	universe
+mike	Common personal login name for an individual user account.	universe
+alice	Common personal login name for an individual user account.	universe
+bob	Common personal login name for an individual user account.	universe
+charlie	Common personal login name for an individual user account.	universe
+sarah	Common personal login name for an individual user account.	universe
+james	Common personal login name for an individual user account.	universe
+linda	Common personal login name for an individual user account.	universe
+robert	Common personal login name for an individual user account.	universe
+patricia	Common personal login name for an individual user account.	universe
+michael	Common personal login name for an individual user account.	universe
+jennifer	Common personal login name for an individual user account.	universe
+william	Common personal login name for an individual user account.	universe
+elizabeth	Common personal login name for an individual user account.	universe
+richard	Common personal login name for an individual user account.	universe
+susan	Common personal login name for an individual user account.	universe
+joseph	Common personal login name for an individual user account.	universe
+jessica	Common personal login name for an individual user account.	universe
+thomas	Common personal login name for an individual user account.	universe
+karen	Common personal login name for an individual user account.	universe
+charles	Common personal login name for an individual user account.	universe
+nancy	Common personal login name for an individual user account.	universe
+christopher	Common personal login name for an individual user account.	universe
+lisa	Common personal login name for an individual user account.	universe
+daniel	Common personal login name for an individual user account.	universe
+betty	Common personal login name for an individual user account.	universe
+matthew	Common personal login name for an individual user account.	universe
+margaret	Common personal login name for an individual user account.	universe
+chen	Common personal login name for an individual user account.	universe
+cheng	Common personal login name for an individual user account.	universe
+zhangyan	Common personal login name for an individual user account.	universe
+ingrid	Common personal login name for an individual user account.	universe
+jay	Common personal login name for an individual user account.	universe
+sandeep	Common personal login name for an individual user account.	universe
+ted	Common personal login name for an individual user account.	universe
+inspur	Common personal login name for an individual user account.	universe
+abc	Generic test account used to verify login access.	universe
+ghost	Generic login name commonly found in password-audit wordlists.	universe
+butter	Generic login name commonly found in password-audit wordlists.	universe
+eoor	Generic login name commonly found in password-audit wordlists.	universe
+dff	Generic login name commonly found in password-audit wordlists.	universe
+api	Service account used by an application programming interface.	universe
+boot	Legacy Unix account for boot-time system services.	universe
+bssh	Backup account used for SSH-based data transfer.	universe
+FILTER	Service account used by mail or content filtering systems.	universe
+matlab	Login name associated with MATLAB numerical computing users.	universe
+magnos	Generic login name commonly found in password-audit wordlists.	universe
+deploy	Deployment account used for automated software releases.	universe
+git	Service account used by a Git source-code server.	universe
+test	Generic test account used to verify login access.	universe
+test1	Generic test account used to verify login access.	universe
+test2	Generic test account used to verify login access.	universe
+test9	Generic test account used to verify login access.	universe
+1234	Short numeric login name often used as a weak test credential.	universe
+123	Short numeric login name often used as a weak test credential.	universe
+123456	Common numeric login name used as a weak credential.	universe
+utsims	Generic login name commonly found in password-audit wordlists.	universe
+info	Default account for informational mail and service requests.	universe
+adm	Administrative login account on Unix systems.	universe
+puppet	Configuration account used by the Puppet management system.	universe
+ansible	Automation account used by the Ansible configuration tool.	universe
+user	Generic unprivileged login used by ordinary users.	universe
+pi	Default login account on Raspberry Pi OS devices.	universe

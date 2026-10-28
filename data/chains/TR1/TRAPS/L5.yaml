@@ -1,0 +1,42 @@
+A: SOB
+C: schengen_airports
+C_name: Airports in the Schengen Area
+N_p: MDS
+N_t:
+- SXL
+- IIA
+- VLY
+- WBU
+- DAU
+- KMZ
+- KNZ
+P_M:
+- LUG
+- ZHI
+- ZRH
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - coe_airports
+    - eea_airports
+    - eu_airports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- coe_airports
+- eea_airports
+- eu_airports
+- turkic_airports
+- visegrad_airports
+field: segments.arrival_airport
+label: desk label 11
+salience: 1141441.0
+universe: airport

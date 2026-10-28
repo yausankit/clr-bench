@@ -1,0 +1,103 @@
+business_process: "A multinational's finance team audits employee travel expenses: every flight segment on a submitted claim is reimbursable and is counted once for the department of the employee who filed the claim."
+fields:
+  segments.airline:
+    universe: airline
+    value_form: self_describing
+  segments.arrival_airport:
+    universe: airport
+    value_form: code
+  claims.currency:
+    universe: currency
+    value_form: code
+rule_templates:
+  - id: airline_partner_group
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets flown with a carrier belonging to a partner airline group are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [lufthansa_group, iag_group, air_france_klm_group, qantas_group, ana_group, hna_group, air_china_group, lion_air_group]
+  - id: airline_alliance
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets on carriers of an airline alliance are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [star_alliance_members, oneworld_members, skyteam_members, star_alliance_founding, oneworld_founding]
+  - id: airline_industry_body
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets on carriers that belong to an airline industry association are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [a4a_members, aapa_members, aaco_members, afraa_members, a4e_members]
+  - id: airline_state_carrier
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets on the state flag-carrying carrier of a country are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [flag_carrier_airlines, star_alliance_founding, oneworld_founding]
+  - id: airline_state_membership
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets on carriers based in states that belong to an intergovernmental organisation are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [oic_airlines, apec_airlines, g20_airlines, oecd_airlines, nato_airlines, brics_airlines, bsec_airlines, cis_airlines, eco_airlines, aladi_airlines, pacific_alliance_airlines, comesa_airlines, cen_sad_airlines, saarc_airlines, mgc_airlines, opec_airlines]
+  - id: airline_regional_bloc
+    field: segments.airline
+    effect: exclude_record
+    source: "Finance manual: tickets on carriers based in the member states of a regional bloc are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [eu_airlines, asean_airlines, gcc_airlines, arab_league_airlines, oas_airlines, nordic_airlines, baltic_airlines, visegrad_airlines, benelux_airlines, caricom_airlines, mercosur_airlines, andean_airlines, ecowas_airlines, sadc_airlines, eac_airlines, eaeu_airlines, turkic_airlines, cplp_airlines, pif_airlines, efta_airlines, amu_airlines, sco_airlines, african_union_airlines, commonwealth_airlines]
+  - id: airport_european_bloc
+    field: segments.arrival_airport
+    effect: exclude_record
+    source: "Finance manual: arrivals at airports inside the European blocs are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [eu_airports, eea_airports, schengen_airports, efta_airports, coe_airports, cbss_airports, bsec_airports, visegrad_airports, benelux_airports, baltic_airports, nordic_airports, eaeu_airports]
+  - id: airport_arab_african_bloc
+    field: segments.arrival_airport
+    effect: exclude_record
+    source: "Finance manual: arrivals at airports inside the Arab and African blocs are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [arab_league_airports, gcc_airports, amu_airports, opec_airports, ecowas_airports, eccas_airports, sadc_airports, sacu_airports]
+  - id: airport_asia_americas_bloc
+    field: segments.arrival_airport
+    effect: exclude_record
+    source: "Finance manual: arrivals at airports inside the Asian and American blocs are settled outside this audit unit."
+    rule: "From this level on, segments in {label} are not counted."
+    plausible: [asean_airports, sco_airports, turkic_airports, cplp_airports, caricom_airports, oic_airports, african_union_airports]
+  - id: currency_union
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in a currency of a monetary union or of the EU are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [sdr_basket_currencies, eu_non_euro_currencies, gcc_currencies, asean_currencies, brics_currencies, currency_union_currencies]
+  - id: currency_political_bloc
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in the currency of a political bloc are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [g20_currencies, arab_league_currencies, commonwealth_currencies, oic_currencies, african_union_currencies, oas_currencies, apec_currencies]
+  - id: currency_economic_forum
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in the currency of a member state of an economic or security forum are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [g7_currencies, oecd_currencies, nato_currencies, g20_currencies, brics_currencies, apec_currencies]
+  - id: currency_regional_organisation
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in the currency of a member state of a regional cooperation organisation are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [sco_currencies, eaeu_currencies, turkic_states_currencies, cplp_currencies, ecowas_currencies, eac_currencies, sadc_currencies, sacu_currencies, caricom_currencies, mercosur_currencies, amu_currencies, opec_currencies, nordic_council_currencies, pif_currencies, eccas_currencies, sica_currencies]
+  - id: currency_minor_unit
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in a currency quoted with no minor unit or with three decimal places are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [zero_minor_unit_currencies, three_minor_unit_currencies]
+  - id: currency_exchange_regime
+    field: claims.currency
+    effect: exclude_record
+    source: "Finance manual: claims paid in a currency with a fixed exchange rate against a reference currency are settled outside this audit unit."
+    rule: "From this level on, claims in {label} are not counted."
+    plausible: [usd_pegged_currencies, eur_linked_currencies, fixed_exchange_rate_currencies]
+label_nouns: [settlement lane, audit tag, handling class, review queue, routing bucket, ledger code, desk label, queue tag]

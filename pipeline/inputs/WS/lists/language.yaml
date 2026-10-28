@@ -1,0 +1,1819 @@
+- id: romance_languages
+  name: Romance languages
+  synonyms: []
+  members:
+  - an
+  - ca
+  - co
+  - es
+  - fr
+  - gl
+  - it
+  - oc
+  - pt
+  - rm
+  - ro
+  - sc
+  - wa
+  disputed: []
+  changes: []
+  out_of_universe:
+  - mo
+  official_count: 14
+  source: https://www.wikidata.org/wiki/Q19814
+  salience: 623532
+- id: germanic_languages
+  name: Germanic languages
+  synonyms: []
+  members:
+  - af
+  - da
+  - de
+  - en
+  - fo
+  - fy
+  - is
+  - lb
+  - li
+  - nb
+  - nl
+  - nn
+  - 'no'
+  - sv
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 15
+  source: https://www.wikidata.org/wiki/Q21200
+  salience: 493448
+- id: slavic_languages
+  name: Slavic languages
+  synonyms: []
+  members:
+  - be
+  - bg
+  - bs
+  - cs
+  - hr
+  - mk
+  - pl
+  - ru
+  - sk
+  - sl
+  - sr
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - cu
+  - sh
+  official_count: 14
+  source: https://www.wikidata.org/wiki/Q23526
+  salience: 275497
+- id: celtic_languages
+  name: Celtic languages
+  synonyms: []
+  members:
+  - br
+  - cy
+  - ga
+  - gd
+  - gv
+  - kw
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://www.wikidata.org/wiki/Q25293
+  salience: 363141
+- id: indo_iranian_languages
+  name: Indo-Iranian languages
+  synonyms: []
+  members:
+  - as
+  - bn
+  - dv
+  - fa
+  - gu
+  - hi
+  - ks
+  - ku
+  - mr
+  - ne
+  - or
+  - os
+  - pa
+  - ps
+  - sd
+  - si
+  - tg
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - ae
+  - bh
+  - pi
+  - sa
+  official_count: 22
+  source: https://www.wikidata.org/wiki/Q33514
+  salience: 208782
+- id: finno_ugric_languages
+  name: Finno-Ugric languages
+  synonyms: []
+  members:
+  - et
+  - fi
+  - hu
+  - kv
+  - se
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.wikidata.org/wiki/Q79890
+  salience: 114463
+- id: semitic_languages
+  name: Semitic languages
+  synonyms: []
+  members:
+  - am
+  - ar
+  - he
+  - mt
+  - ti
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.wikidata.org/wiki/Q34049
+  salience: 464842
+- id: bantu_languages
+  name: Bantu languages
+  synonyms: []
+  members:
+  - hz
+  - kg
+  - ki
+  - kj
+  - lg
+  - ln
+  - lu
+  - nd
+  - ng
+  - nr
+  - ny
+  - rn
+  - rw
+  - sn
+  - ss
+  - st
+  - sw
+  - tn
+  - ts
+  - ve
+  - xh
+  - zu
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 22
+  source: https://www.wikidata.org/wiki/Q33146
+  salience: 195462
+- id: indo_aryan_languages
+  name: Indo-Aryan languages
+  synonyms: []
+  members:
+  - as
+  - bn
+  - dv
+  - gu
+  - hi
+  - ks
+  - mr
+  - ne
+  - or
+  - pa
+  - sd
+  - si
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - bh
+  - pi
+  - sa
+  official_count: 16
+  source: https://www.wikidata.org/wiki/Q33577
+  salience: 373323
+- id: west_germanic_languages
+  name: West Germanic languages
+  synonyms: []
+  members:
+  - af
+  - de
+  - en
+  - fy
+  - lb
+  - li
+  - nl
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://www.wikidata.org/wiki/Q26721
+  salience: 288674
+- id: south_slavic_languages
+  name: South Slavic languages
+  synonyms: []
+  members:
+  - bg
+  - bs
+  - hr
+  - mk
+  - sl
+  - sr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - cu
+  - sh
+  official_count: 8
+  source: https://www.wikidata.org/wiki/Q146665
+  salience: 66934
+- id: balto_slavic_languages
+  name: Balto-Slavic languages
+  synonyms: []
+  members:
+  - be
+  - bg
+  - bs
+  - cs
+  - hr
+  - lt
+  - lv
+  - mk
+  - pl
+  - ru
+  - sk
+  - sl
+  - sr
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - cu
+  - sh
+  official_count: 16
+  source: https://www.wikidata.org/wiki/Q147356
+  salience: 106795
+- id: italic_languages
+  name: Italic languages
+  synonyms: []
+  members:
+  - an
+  - ca
+  - co
+  - es
+  - fr
+  - gl
+  - it
+  - oc
+  - pt
+  - rm
+  - ro
+  - sc
+  - wa
+  disputed: []
+  changes: []
+  out_of_universe:
+  - la
+  - mo
+  official_count: 15
+  source: https://www.wikidata.org/wiki/Q131848
+  salience: 183631
+- id: un_official_languages
+  name: Official languages of the United Nations
+  synonyms: []
+  members:
+  - ar
+  - en
+  - es
+  - fr
+  - ru
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Official_languages_of_the_United_Nations
+  salience: 84973
+- id: eu_official_languages
+  name: Official languages of the European Union
+  synonyms: []
+  members:
+  - bg
+  - cs
+  - da
+  - de
+  - el
+  - en
+  - es
+  - et
+  - fi
+  - fr
+  - ga
+  - hr
+  - hu
+  - it
+  - lt
+  - lv
+  - mt
+  - nl
+  - pl
+  - pt
+  - ro
+  - sk
+  - sl
+  - sv
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 24
+  source: https://en.wikipedia.org/wiki/Languages_of_the_European_Union
+  salience: 89530
+- id: au_working_languages
+  name: Working languages of the African Union
+  synonyms: []
+  members:
+  - ar
+  - en
+  - es
+  - fr
+  - pt
+  - sw
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Languages_of_the_African_Union
+  salience: 1501
+- id: nordic_council_languages
+  name: Working languages of the Nordic Council
+  synonyms: []
+  members:
+  - da
+  - fi
+  - is
+  - 'no'
+  - sv
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Nordic_Council
+  salience: 85440
+- id: osce_official_languages
+  name: Official languages of the OSCE
+  synonyms: []
+  members:
+  - de
+  - en
+  - es
+  - fr
+  - it
+  - ru
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Organization_for_Security_and_Co-operation_in_Europe
+  salience: 113133
+- id: india_eighth_schedule
+  name: Languages in the Eighth Schedule to the Constitution of India
+  synonyms: []
+  members:
+  - as
+  - bn
+  - gu
+  - hi
+  - kn
+  - ks
+  - ml
+  - mr
+  - ne
+  - or
+  - pa
+  - sd
+  - ta
+  - te
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Bodo
+  - Dogri
+  - Konkani
+  - Maithili
+  - Manipuri
+  - Sanskrit
+  - Santali
+  official_count: 22
+  source: https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory
+  salience: 71971
+- id: south_africa_official
+  name: Official languages of South Africa
+  synonyms: []
+  members:
+  - af
+  - en
+  - nr
+  - ss
+  - st
+  - tn
+  - ts
+  - ve
+  - xh
+  - zu
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Northern Sotho
+  - South African Sign Language
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory
+  salience: 194478
+- id: zimbabwe_official
+  name: Official languages of Zimbabwe
+  synonyms: []
+  members:
+  - en
+  - nd
+  - ny
+  - sn
+  - st
+  - tn
+  - ve
+  - xh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Kalanga
+  - Khoisan
+  - Nambya
+  - Ndau
+  - Sena
+  - Shangani
+  - Sign language
+  - Tonga
+  official_count: 16
+  source: https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory
+  salience: 54004
+- id: austria_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Austria
+  synonyms: []
+  members:
+  - cs
+  - hr
+  - hu
+  - sk
+  - sl
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Romani
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: bosnia_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Bosnia and Herzegovina
+  synonyms: []
+  members:
+  - cs
+  - de
+  - hu
+  - it
+  - pl
+  - ro
+  - sk
+  - sl
+  - sq
+  - tr
+  - uk
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Ladino
+  - Romani
+  - Rusyn
+  official_count: 15
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: croatia_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Croatia
+  synonyms: []
+  members:
+  - cs
+  - de
+  - hu
+  - it
+  - sk
+  - sl
+  - sr
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Boyash Romanian
+  - Istro-Romanian
+  - Romani
+  - Rusyn
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: finland_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Finland
+  synonyms: []
+  members:
+  - ru
+  - se
+  - sv
+  - tt
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Inari Sami
+  - Karelian
+  - Romani
+  - Skolt Sami
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: hungary_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Hungary
+  synonyms: []
+  members:
+  - bg
+  - de
+  - el
+  - hr
+  - hy
+  - pl
+  - ro
+  - sk
+  - sl
+  - sr
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Boyash Romanian
+  - Romani
+  - Rusyn
+  official_count: 14
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: poland_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Poland
+  synonyms: []
+  members:
+  - be
+  - cs
+  - de
+  - hy
+  - lt
+  - ru
+  - sk
+  - tt
+  - uk
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Karaim
+  - Kashub
+  - Lemko
+  - Romani
+  official_count: 14
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: romania_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Romania
+  synonyms: []
+  members:
+  - bg
+  - cs
+  - de
+  - el
+  - hr
+  - hu
+  - hy
+  - it
+  - mk
+  - pl
+  - ru
+  - sk
+  - sq
+  - sr
+  - tr
+  - uk
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Romani
+  - Rusyn
+  - Tatar
+  official_count: 20
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: serbia_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Serbia
+  synonyms: []
+  members:
+  - bg
+  - bs
+  - cs
+  - de
+  - hr
+  - hu
+  - mk
+  - ro
+  - sk
+  - sq
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Bunjevac
+  - Romani
+  - Rusyn
+  - Vlach
+  official_count: 15
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: slovakia_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Slovakia
+  synonyms: []
+  members:
+  - bg
+  - cs
+  - de
+  - hr
+  - hu
+  - pl
+  - ru
+  - sr
+  - uk
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Romani
+  - Rusyn
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: slovenia_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Slovenia
+  synonyms: []
+  members:
+  - de
+  - hr
+  - hu
+  - it
+  - sr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Romani
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: spain_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Spain
+  synonyms: []
+  members:
+  - an
+  - ca
+  - eu
+  - gl
+  - oc
+  - pt
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Amazigh
+  - Asturian
+  - Ceuta Arabic
+  - Extremaduran
+  - Fala
+  - Leonese
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: ukraine_charter_languages
+  name: Languages protected under the European Charter for Regional or Minority Languages
+    in Ukraine
+  synonyms: []
+  members:
+  - be
+  - bg
+  - cs
+  - de
+  - el
+  - he
+  - hu
+  - pl
+  - ro
+  - sk
+  - yi
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Crimean Tatar
+  - Gagauz
+  - Karaim
+  - Krymchak
+  - Romani
+  - Rumeika
+  - Urum
+  official_count: 18
+  source: https://en.wikipedia.org/wiki/European_Charter_for_Regional_or_Minority_Languages
+  salience: 23333
+- id: spain_official_languages
+  name: Official languages of Spain (Spanish and the co-official languages of its
+    autonomous communities)
+  synonyms: []
+  members:
+  - ca
+  - es
+  - eu
+  - gl
+  - oc
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Languages_of_Spain
+  salience: 85588
+- id: italy_law_482_languages
+  name: Languages recognised as minority languages by Italian Law 482/1999
+  synonyms: []
+  members:
+  - ca
+  - de
+  - el
+  - fr
+  - hr
+  - oc
+  - sc
+  - sl
+  - sq
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Franco-Provençal
+  - Friulian
+  - Ladin
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/Languages_of_Italy
+  salience: 133059
+- id: vojvodina_official_languages
+  name: Languages in official use by the provincial administration of Vojvodina
+  synonyms: []
+  members:
+  - hr
+  - hu
+  - ro
+  - sk
+  - sr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Rusyn
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Languages_of_Vojvodina
+  salience: 1704
+- id: ots_official_languages
+  name: Official languages of the Organization of Turkic States
+  synonyms: []
+  members:
+  - az
+  - kk
+  - ky
+  - tr
+  - uz
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Organization_of_Turkic_States
+  salience: 194924
+- id: north_germanic_languages
+  name: North Germanic languages
+  synonyms: []
+  members:
+  - da
+  - fo
+  - is
+  - nb
+  - nn
+  - 'no'
+  - sv
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://www.wikidata.org/wiki/Q106085
+  salience: 121801
+- id: west_scandinavian_languages
+  name: West Scandinavian languages
+  synonyms: []
+  members:
+  - fo
+  - is
+  - nb
+  - nn
+  - 'no'
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.wikidata.org/wiki/Q1792570
+  salience: 2348
+- id: nguni_languages
+  name: Nguni languages
+  synonyms: []
+  members:
+  - nd
+  - nr
+  - ss
+  - xh
+  - zu
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.wikidata.org/wiki/Q961559
+  salience: 36607
+- id: gallo_romance_languages
+  name: Gallo-Romance languages
+  synonyms: []
+  members:
+  - ca
+  - fr
+  - oc
+  - rm
+  - wa
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.wikidata.org/wiki/Q500394
+  salience: 77744
+- id: southern_bantu_languages
+  name: Southern Bantu languages
+  synonyms: []
+  members:
+  - nd
+  - nr
+  - sn
+  - ss
+  - st
+  - tn
+  - ts
+  - ve
+  - xh
+  - zu
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://www.wikidata.org/wiki/Q980498
+  salience: 12814
+- id: gallo_iberian_languages
+  name: Gallo-Iberian languages
+  synonyms: []
+  members:
+  - ca
+  - es
+  - fr
+  - gl
+  - oc
+  - pt
+  - rm
+  - wa
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://www.wikidata.org/wiki/Q954321
+  salience: 311
+- id: canada_mother_tongue_languages
+  name: Languages in Canada (Mother Tongue), 2016 Census
+  synonyms: []
+  members:
+  - af
+  - ak
+  - am
+  - ar
+  - bg
+  - bn
+  - bo
+  - bs
+  - cs
+  - cy
+  - da
+  - de
+  - el
+  - en
+  - es
+  - et
+  - fa
+  - fi
+  - fr
+  - gd
+  - gu
+  - he
+  - hi
+  - hr
+  - hu
+  - hy
+  - it
+  - iu
+  - ja
+  - ko
+  - ku
+  - ln
+  - lo
+  - lt
+  - lv
+  - mk
+  - ml
+  - mr
+  - ms
+  - mt
+  - my
+  - ne
+  - nl
+  - 'no'
+  - om
+  - pa
+  - pl
+  - ps
+  - pt
+  - rn
+  - ro
+  - ru
+  - rw
+  - sd
+  - si
+  - sk
+  - sl
+  - so
+  - sq
+  - sr
+  - sv
+  - sw
+  - ta
+  - te
+  - th
+  - tl
+  - tr
+  - uk
+  - ur
+  - vi
+  - yi
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - African languages, n.i.e
+  - Algonquin
+  - Atikamekw
+  - Bantu languages, n.i.e
+  - Berber languages (Kabyle)
+  - Bisayan languages
+  - Blackfoot
+  - Canadian Gaelic
+  - Cantonese
+  - Carrier
+  - Celtic languages, n.i.e
+  - Chinese, n.o.s
+  - Cree, n.o.s
+  - Creoles
+  - Dene, n.o.s
+  - Dogrib (Tlicho)
+  - Dënësųłıné
+  - Frisian
+  - Fukien (Fuzhou dialect)
+  - Gitxsan (Gitksan)
+  - Hakka
+  - Hindustani
+  - Ilocano
+  - Indo-Iranian languages, n.i.e
+  - Inuinnaqtun (Inuvialuktun)
+  - Khmer (Cambodian)
+  - Kutchin-Gwich’in (Loucheux)
+  - Malecite
+  - Mi'kmaq
+  - Michif
+  - Min Nan (Chaochow, Teochow, Fukien, Taiwanese)
+  - Mohawk
+  - Montagnais (Innu)
+  - Niger–Congo languages, n.i.e
+  - Nisga'a
+  - North Slavey
+  - Oji-Cree
+  - Ojibway
+  - Semitic languages, n.i.e
+  - Serbo-Croatian
+  - Shanghainese
+  - Shuswap (Secwepemctsin)
+  - Sign languages, n.i.e
+  - Sino-Tibetan languages, n.i.e
+  - Siouan languages (Dakota/Sioux)
+  - Slavic languages, n.i.e
+  - South Slavey
+  - Stoney
+  - Taiwanese
+  - Tibetan languages (duplicate source entry for bo)
+  - Tibeto-Burman languages, n.i.e
+  - Tigrigna
+  - Tlingit
+  - Tsilhqot'in
+  - Vlaams (Flemish)
+  - Wu (Shanghainese)
+  official_count: 128
+  source: https://en.wikipedia.org/wiki/Languages_of_Canada
+  salience: 120403
+- id: canada_knowledge_languages
+  name: Knowledge of Languages in Canada
+  synonyms: []
+  members:
+  - ar
+  - bn
+  - cr
+  - de
+  - el
+  - en
+  - es
+  - fa
+  - fr
+  - gu
+  - he
+  - ht
+  - hu
+  - it
+  - ja
+  - ko
+  - ml
+  - nl
+  - pa
+  - pl
+  - pt
+  - ro
+  - ru
+  - so
+  - sw
+  - ta
+  - te
+  - tl
+  - tr
+  - uk
+  - vi
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Hindustani
+  - Ilocano
+  - Serbo-Croatian
+  official_count: 35
+  source: https://en.wikipedia.org/wiki/Languages_of_Canada
+  salience: 120403
+- id: finland_native_languages
+  name: Residents of Finland by native language
+  synonyms: []
+  members:
+  - ar
+  - bg
+  - bn
+  - de
+  - en
+  - es
+  - et
+  - fa
+  - fi
+  - fr
+  - hi
+  - hu
+  - it
+  - ku
+  - lv
+  - ne
+  - pl
+  - pt
+  - ro
+  - ru
+  - si
+  - so
+  - sq
+  - sv
+  - sw
+  - ta
+  - th
+  - tl
+  - tr
+  - uk
+  - ur
+  - vi
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Sámi
+  official_count: 34
+  source: https://en.wikipedia.org/wiki/Languages_of_Finland
+  salience: 45724
+- id: france_metropolitan_ethnologue_languages
+  name: Ethnologue languages of metropolitan France
+  synonyms: []
+  members:
+  - br
+  - ca
+  - co
+  - en
+  - es
+  - eu
+  - fr
+  - it
+  - oc
+  - pt
+  - ta
+  - tr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Algerian Arabic
+  - Alsatian
+  - Arpitan
+  - Central Atlas Tamazight
+  - French Sign Language
+  - Kabyle
+  - Khmer
+  - Lesser Antillean French Creole
+  - Lorraine Franconian
+  - Moroccan Arabic
+  - Picard
+  - Standard German
+  - Tunisian Arabic
+  - Western Armenian
+  official_count: 26
+  source: https://en.wikipedia.org/wiki/Languages_of_France
+  salience: 93882
+- id: india_2011_census_languages
+  name: Languages by number of speakers in India (2011 Census)
+  synonyms: []
+  members:
+  - as
+  - bn
+  - en
+  - gu
+  - hi
+  - kn
+  - ks
+  - ml
+  - mr
+  - ne
+  - pa
+  - sd
+  - ta
+  - te
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Bodo
+  - Dogri
+  - Konkani
+  - Maithili
+  - Meitei
+  - Odia
+  - Sanskrit
+  - Santali
+  official_count: 23
+  source: https://en.wikipedia.org/wiki/Languages_of_India
+  salience: 641119
+- id: kazakhstan_census_languages
+  name: Languages of Kazakhstan (2021 census)
+  synonyms: []
+  members:
+  - ar
+  - az
+  - be
+  - ce
+  - de
+  - en
+  - fr
+  - kk
+  - ko
+  - ky
+  - ru
+  - tr
+  - tt
+  - ug
+  - uk
+  - uz
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 17
+  source: https://en.wikipedia.org/wiki/Languages_of_Kazakhstan
+  salience: 44366
+- id: nepal_native_languages
+  name: Native languages of Nepal (2011 census)
+  synonyms: []
+  members:
+  - ar
+  - as
+  - bn
+  - bo
+  - dz
+  - en
+  - es
+  - fr
+  - hi
+  - ne
+  - pa
+  - ru
+  - sd
+  - ur
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Aachami
+  - Aathpariya (Rai)
+  - Angika
+  - Awadhi
+  - Bahing (Rai)
+  - Baitadeli
+  - Bajhangi
+  - Bajjika
+  - Bajureli
+  - Bankariya
+  - Bantawa (Rai)
+  - Baram
+  - Belhare (Rai)
+  - Bhojpuri
+  - Bhujel
+  - Bote
+  - Byangshi
+  - Chamling (Rai)
+  - Chepang
+  - Chhantyal
+  - Chhintang (Rai)
+  - Chiling (Rai)
+  - Dadeldhuri
+  - Dailekhi
+  - Danuwar
+  - Darai
+  - Darchuleli
+  - Dhimal
+  - Dhuleli
+  - Dolpali
+  - Dotyali/Doteli
+  - Dumi (Rai)
+  - Dungmali (Rai)
+  - Dura
+  - Gangai
+  - Garhwali (Gadhawali)
+  - Ghale
+  - Gurung
+  - Hariyani/Haryanvi
+  - Hayu
+  - Hyolmo
+  - Jerung (Rai)
+  - Jirel
+  - Jumli
+  - Kagate
+  - Kaike
+  - Khaling (Rai)
+  - Kham (Magar)
+  - Khariya
+  - Khas
+  - Kisan
+  - Koch
+  - Koi (Rai)
+  - Kuki
+  - Kulung (Rai)
+  - Kumal
+  - Kurmali
+  - Kusunda
+  - Lepcha
+  - Lhomi
+  - Lhopa
+  - Limbu
+  - Lingkhim (Rai)
+  - Lohorung (Rai)
+  - Magahi
+  - Magar
+  - Maithili
+  - Majhi
+  - Malpande
+  - Manange
+  - Meche
+  - Mewahang (Rai)
+  - Mizo
+  - Musalban
+  - Nachiring (Rai)
+  - Nagamese
+  - Nepal Bhasa (Newar)
+  - Odia
+  - Pahari
+  - Phangduali (Rai)
+  - Puma (Rai)
+  - Rai (Kiranti)
+  - Rajasthani
+  - Rajbanshi
+  - Raji
+  - Raute
+  - Saam (Rai)
+  - Sadhani
+  - Sampang (Rai)
+  - Sanskrit
+  - Santhali
+  - Sherpa
+  - Sign Language
+  - Sonaha
+  - Sunuwar
+  - Surel
+  - Tajpuriya
+  - Tamang
+  - Thakali
+  - Thami
+  - Tharu
+  - Thulung (Rai)
+  - Tilung (Rai)
+  - Uranw/Kurux
+  - Waling (Rai)
+  - Wambule (Rai)
+  - Yakkha
+  - Yamphu (Rai)
+  official_count: 123
+  source: https://en.wikipedia.org/wiki/Languages_of_Nepal
+  salience: 91428
+- id: spain_2021_census_languages
+  name: First languages of Spain (2021 census)
+  synonyms: []
+  members:
+  - ar
+  - bg
+  - ca
+  - de
+  - en
+  - es
+  - eu
+  - fr
+  - gl
+  - gn
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - uk
+  - ur
+  - wo
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Asturian
+  - Berber
+  official_count: 22
+  source: https://en.wikipedia.org/wiki/Languages_of_Spain
+  salience: 85588
+- id: turkey_1965_census_languages
+  name: Languages spoken in Turkey (1965 census)
+  synonyms: []
+  members:
+  - ar
+  - bg
+  - bs
+  - ce
+  - cs
+  - de
+  - el
+  - en
+  - es
+  - fa
+  - fr
+  - hr
+  - hy
+  - it
+  - ka
+  - ku
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sq
+  - sr
+  - tr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Abaza
+  - Circassian
+  - Judæo-Spanish
+  - Laz
+  - Pomak
+  - Zaza
+  official_count: 30
+  source: https://en.wikipedia.org/wiki/Languages_of_Turkey
+  salience: 38171
+- id: turkey_ethnologue_languages
+  name: Languages by number of speakers in Turkey (Ethnologue)
+  synonyms: []
+  members:
+  - bs
+  - ce
+  - de
+  - el
+  - en
+  - es
+  - fa
+  - fr
+  - ka
+  - kk
+  - ky
+  - mk
+  - ru
+  - sr
+  - tk
+  - tr
+  - tt
+  - ug
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Abaza
+  - Abkhaz
+  - Adyghe
+  - Assyrian Neo-Aramaic
+  - Balkan Gagauz Turkish
+  - Balkan Romani
+  - Crimean Tatar
+  - Digor Ossetian
+  - Domari
+  - Gheg Albanian
+  - Hértevin
+  - Kabardian
+  - Karakalpak
+  - Kumyk
+  - Ladino
+  - Lazuri
+  - Levantine Arabic
+  - Lezgi
+  - Mesopotamian Arabic
+  - Modern Standard Arabic
+  - North Mesopotamian Arabic
+  - Northern Kurdish
+  - Northern Zazaki
+  - Pomak Bulgarian
+  - Pontic Greek
+  - South Azerbaijani
+  - Southern Uzbek
+  - Southern Zazaki
+  - Syriac
+  - Tosk Albanian
+  - Turoyo
+  - Ubykh
+  - Western Armenian
+  official_count: 52
+  source: https://en.wikipedia.org/wiki/Languages_of_Turkey
+  salience: 38171
+- id: ukraine_2001_census_languages
+  name: Languages of Ukraine (2001 census)
+  synonyms: []
+  members:
+  - be
+  - bg
+  - de
+  - el
+  - he
+  - hu
+  - hy
+  - pl
+  - ro
+  - ru
+  - sk
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Crimean Tatar
+  - Gagauz
+  - Karaim
+  - Romani
+  official_count: 16
+  source: https://en.wikipedia.org/wiki/Languages_of_Ukraine
+  salience: 51740
+- id: malaysia_indian_languages
+  name: Languages of Malaysian Indians
+  synonyms: []
+  members:
+  - bn
+  - gu
+  - hi
+  - ml
+  - pa
+  - ta
+  - te
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/Languages_of_Malaysia
+  salience: 71444
+- id: italy_foreign_languages
+  name: Mother tongues of foreign citizens in Italy
+  synonyms: []
+  members:
+  - ar
+  - bn
+  - hi
+  - ro
+  - sq
+  - uk
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Filipino
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/Languages_of_Italy
+  salience: 133059
+- id: norway_non_native_languages
+  name: Non-native first languages in Norway
+  synonyms: []
+  members:
+  - ar
+  - en
+  - fa
+  - ku
+  - ru
+  - so
+  - sq
+  - ti
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Dari
+  - Serbo-Croatian
+  official_count: 10
+  source: https://en.wikipedia.org/wiki/Languages_of_Norway
+  salience: 48940
+- id: russia_official_languages
+  name: Official languages of the republics of Russia
+  synonyms: []
+  members:
+  - av
+  - az
+  - ba
+  - ce
+  - cv
+  - os
+  - tt
+  - uk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Abaza
+  - Adyghe
+  - Altai
+  - Buryat
+  - Crimean Tatar
+  - Erzya
+  - Hill Mari, Meadow Mari
+  - Ingush
+  - Kabardian (East Circassian)
+  - Kalmyk
+  - Karachay-Balkar
+  - Karelian
+  - Khakas
+  - Komi-Zyrian
+  - Kumyk
+  - Lezgi
+  - Moksha
+  - Nogai
+  - Tuvan
+  - Udmurt
+  - Yakut
+  official_count: 29
+  source: https://en.wikipedia.org/wiki/Languages_of_Russia
+  salience: 82616
+- id: thailand_census_languages
+  name: Population of Thailand by language
+  synonyms: []
+  members:
+  - en
+  - ja
+  - ms
+  - my
+  - th
+  - vi
+  - zh
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Akha
+  - Haw Yunnanese
+  - Htin
+  - Indian
+  - Karen
+  - Khmer
+  - Khmu
+  - Lahu
+  - Lawa
+  - Lisu
+  - Miao
+  - Tai
+  - Yao
+  official_count: 20
+  source: https://en.wikipedia.org/wiki/Languages_of_Thailand
+  salience: 43662
+- id: turkey_konda_languages
+  name: Mother tongues in Turkey (KONDA 2006)
+  synonyms: []
+  members:
+  - ar
+  - el
+  - hy
+  - ku
+  - tr
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Balkan languages
+  - Circassian languages
+  - Jewish languages
+  - Laz
+  - Other Caucasian languages
+  - Other Turkic languages
+  - West European languages
+  - Zazaki
+  official_count: 13
+  source: https://en.wikipedia.org/wiki/Languages_of_Turkey
+  salience: 38171
+- id: iran_gamaan_languages
+  name: Languages spoken at home in Iran (Gamaan survey)
+  synonyms: []
+  members:
+  - ar
+  - az
+  - fa
+  - hy
+  - ku
+  - tk
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Balochi
+  - Dari
+  - Gilaki
+  - Laki
+  - Lari/Achomi
+  - Luri (& Bakhtiari)
+  - Mazandarani
+  - Qashqai
+  official_count: 14
+  source: https://en.wikipedia.org/wiki/Languages_of_Iran
+  salience: 81757
+- id: pakistan_established_languages
+  name: Established languages of Pakistan
+  synonyms: []
+  members:
+  - en
+  - gu
+  - ks
+  - ky
+  - pa
+  - sd
+  - ur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Aer
+  - Badeshi
+  - Bagri
+  - Balochi, Makrani
+  - Balochi, Rakhshani
+  - Balochi, Sulaimani
+  - Balti
+  - Bateri
+  - Bhaya
+  - Brahui
+  - Burushaski
+  - Chilisso
+  - Dameli
+  - Dari
+  - Dehwari
+  - Dhatki
+  - Domaaki
+  - Gawar-Bati
+  - Gawri
+  - Ghera
+  - Goaria
+  - Gowro
+  - Gujari
+  - Gurgula
+  - Haryanvi aka Rangri
+  - Hazaragi
+  - Hindko, Northern
+  - Hindko, Southern
+  - Jadgali
+  - Jandavra
+  - Jogi
+  - Kabutra
+  - Kacchi
+  - Kalasha
+  - Kalkoti
+  - Kamviri
+  - Kati
+  - Khetrani
+  - Khowar
+  - Kohistani, Indus
+  - Koli, Kachi
+  - Koli, Parkari
+  - Koli, Wadiyari
+  - Kundal Shahi
+  - Kutchi
+  - Lasi
+  - Loarki
+  - Mankiyali
+  - Marwari
+  - Memoni
+  - Mewati
+  - Oadki
+  - Ormuri
+  - Pahari-Pothwari
+  - Pakistan Sign Language
+  - Palula
+  - Pashto, Central
+  - Pashto, Northern
+  - Pashto, Southern
+  - Saraiki
+  - Sarikoli
+  - Savi
+  - Shina
+  - Shina, Kohistani
+  - Sindhi Bhil
+  - Torwali
+  - Ushojo
+  - Vaghri
+  - Wakhi
+  - Waneci
+  - Waziri
+  - Yadgha
+  official_count: 79
+  source: https://en.wikipedia.org/wiki/Languages_of_Pakistan
+  salience: 217791
+- id: ethiopia_official_languages
+  name: Official languages of Ethiopia
+  synonyms: []
+  members:
+  - aa
+  - am
+  - om
+  - so
+  - ti
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Languages_of_Ethiopia
+  salience: 107304

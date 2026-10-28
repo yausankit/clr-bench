@@ -1,0 +1,13 @@
+concept_id	wiki_title	match	pageviews_12m	note
+aex	AEX index	exact_title	61365	12 monthly buckets
+bel_20	BEL 20	exact_title	23473	12 monthly buckets
+cac_40	CAC 40	exact_title	158140	12 monthly buckets
+dax	DAX	exact_title	292182	12 monthly buckets
+dow_jones	Dow Jones Industrial Average	exact_title	1175407	12 monthly buckets
+euro_stoxx_50	EURO STOXX 50	exact_title	139169	12 monthly buckets
+ftse_mib	FTSE MIB	exact_title	64853	12 monthly buckets
+ibex_35	IBEX 35	exact_title	82519	12 monthly buckets
+nasdaq_100	Nasdaq-100	exact_title	1966641	12 monthly buckets
+sp_100	S&P 100	exact_title	233543	12 monthly buckets
+sp_500	List of S&P 500 companies	exact_title	8918578	12 monthly buckets
+stoxx_europe_600	STOXX Europe 600	exact_title	70340	12 monthly buckets

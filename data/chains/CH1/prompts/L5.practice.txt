@@ -1,0 +1,566 @@
+A customs broker reviews chemical import declarations and counts the declaration lines that require manual clearance.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with an importers array; each importer has an id and declarations, each declaration has an id, exporter_country, and shipments, and each shipment has an id, air_carrier, and lines.
+
+Each declaration line counts once for its importer unless the line's substance, its declaration's exporter country, or its shipment's air carrier is excluded.
+Return the largest total among the importers in the input, as an int.
+
+Field notes:
+- A line whose substance is 'Hexachlorobenzene' is in intake folder X8.
+- A declaration whose exporter_country is 'CA' is in clearance stamp 37.
+- A shipment whose air_carrier is 'Air Canada' is in review batch Q-47.
+- A line whose substance is 'Dimethyl hydrogen phosphite' is in intake folder H2.
+- A declaration whose exporter_country is 'SA' is in intake folder 84.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, lines in intake folder X8 are not counted.
+L2: From this level on, declarations in clearance stamp 37 are not counted.
+L3: From this level on, shipments in review batch Q-47 are not counted.
+L4: From this level on, lines in intake folder H2 are not counted.
+L5: From this level on, declarations in intake folder 84 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+lines.substance:
+- 1,1-Dimethylhydrazine — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- 1,3-Dichloropropene (technical-grade) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- 2,3,7,8-Tetrachlorodibenzo-p-dioxin — Persistent organic pollutant that accumulates in living organisms and the environment.
+- Aristolochic acid — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Chromium (VI) compounds — Heavy-metal compound used in industrial processes and manufactured products.
+- DF — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Dichlorvos — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Diethyl phosphite — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Dimethyl hydrogen phosphite — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Endrin — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Epichlorohydrin — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Ethylene dichloride — Industrial solvent used in cleaning, degreasing, and chemical manufacturing.
+- Ethylene oxide — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Fenthion — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- HCFC-121 — Refrigerant or blowing agent used in cooling, insulation, and air-conditioning equipment.
+- HN2 — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- HN3 — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Heptabromodiphenyl ether — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Hexachlorobenzene — Persistent organic pollutant that accumulates in living organisms and the environment.
+- Methyldiethanolamine — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Metronidazole — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Panfuran S (containing dihydroxymethylfuratrizine) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Parathion — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Perfluorooctane sulfonic acid — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Polyaromatic hydrocarbons — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Radon-222 and its decay products — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Safrole — Chemical intermediate used in the manufacture of pharmaceutical products.
+- Tetrabromodiphenyl ether — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Tetranitromethane — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Thionyl chloride — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Tributyltin fluoride — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Tributyltin naphthenate — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Trichloromethane — Industrial solvent used in cleaning, degreasing, and chemical manufacturing.
+declarations.exporter_country:
+- AD — Andorra; Andorra is a country in Southern Europe; its capital is Andorra la Vella.
+- AF — Afghanistan; Afghanistan is a country in Southern Asia; its capital is Kabul.
+- AR — Argentina; Argentina is a country in Latin America and the Caribbean; its capital is Buenos Aires.
+- BA — Bosnia; Bosnia is a country in Southern Europe; its capital is Sarajevo.
+- BG — Bulgaria; Bulgaria is a country in Eastern Europe; its capital is Sofia.
+- CA — Canada; Canada is a country in Northern America; its capital is Ottawa.
+- CG — Congo - Brazzaville; Congo - Brazzaville is a country in Sub-Saharan Africa; its capital is Brazzaville.
+- CU — Cuba; Cuba is a country in Latin America and the Caribbean; its capital is Havana.
+- CZ — Czechia; Czechia is a country in Eastern Europe; its capital is Prague.
+- DE — Germany; Germany is a country in Western Europe; its capital is Berlin.
+- DJ — Djibouti; Djibouti is a country in Sub-Saharan Africa; its capital is Djibouti.
+- DK — Denmark; Denmark is a country in Northern Europe; its capital is Copenhagen.
+- DM — Dominica; Dominica is a country in Latin America and the Caribbean; its capital is Roseau.
+- ER — Eritrea; Eritrea is a country in Sub-Saharan Africa; its capital is Asmara.
+- FJ — Fiji; Fiji is a country in Melanesia; its capital is Suva.
+- GR — Greece; Greece is a country in Southern Europe; its capital is Athens.
+- GT — Guatemala; Guatemala is a country in Latin America and the Caribbean; its capital is Guatemala City.
+- IR — Iran; Iran is a country in Southern Asia; its capital is Tehran.
+- IT — Italy; Italy is a country in Southern Europe; its capital is Rome.
+- KG — Kyrgyzstan; Kyrgyzstan is a country in Central Asia; its capital is Bishkek.
+- MK — North Macedonia; North Macedonia is a country in Southern Europe; its capital is Skopje.
+- MR — Mauritania; Mauritania is a country in Sub-Saharan Africa; its capital is Nouakchott.
+- NE — Niger; Niger is a country in Sub-Saharan Africa; its capital is Niamey.
+- NI — Nicaragua; Nicaragua is a country in Latin America and the Caribbean; its capital is Managua.
+- OM — Oman; Oman is a country in Western Asia; its capital is Muscat.
+- PH — Philippines; Philippines is a country in South-eastern Asia; its capital is Manila.
+- QA — Qatar; Qatar is a country in Western Asia; its capital is Doha.
+- SA — Saudi Arabia; Saudi Arabia is a country in Western Asia; its capital is Riyadh.
+- SD — Sudan; Sudan is a country in Northern Africa; its capital is Khartoum.
+- SI — Slovenia; Slovenia is a country in Southern Europe; its capital is Ljubljana.
+- SO — Somalia; Somalia is a country in Sub-Saharan Africa; its capital is Mogadishu.
+- VE — Venezuela; Venezuela is a country in Latin America and the Caribbean; its capital is Caracas.
+- ZA — South Africa; South Africa is a country in Sub-Saharan Africa; its capital is Pretoria.
+- ZM — Zambia; Zambia is a country in Sub-Saharan Africa; its capital is Lusaka.
+shipments.air_carrier:
+- Air Atlanta Icelandic — Airline headquartered in Kopavogur, Iceland.
+- Air Botswana — Airline headquartered in Sir Seretse Khama International Airport, Botswana.
+- Air Canada — Airline headquartered in MontrealTrudeau International Airport, Canada.
+- Air China — Airline headquartered in Beijing, People's Republic of China.
+- Air India — Airline headquartered in Gurgaon, India.
+- Air Madagascar — Airline headquartered in Antananarivo, Madagascar.
+- American Airlines — Airline headquartered in Fort Worth, United States.
+- Atlas Air — Airline headquartered in Purchase, New York, United States.
+- Avion Express — Airline headquartered in Vilnius, Lithuania.
+- Azul — Airline headquartered in Barueri, Brazil.
+- Bangkok Airways — Airline headquartered in Bangkok, Thailand.
+- British Airways — Airline headquartered in London, United Kingdom.
+- China Airlines — Airline headquartered in CAL Park, Taiwan.
+- Copa Airlines — Airline headquartered in Panama City, Panama.
+- Daallo Airlines — Airline headquartered in Dubai, Djibouti.
+- EL AL Israel Airlines Ltd — Airline headquartered in Lod, Israel.
+- HK Express — Airline headquartered in Hong Kong, People's Republic of China.
+- Hawaiian Airlines — Airline headquartered in Honolulu, United States.
+- JetBlue Airways — Airline headquartered in Long Island City, United States.
+- SriLankan Airlines — Airline headquartered in Katunayake, Sri Lanka.
+- UPS Airlines — Airline headquartered in Louisville, United States.
+- Volotea — Airline headquartered in Asturias Airport, Spain.
+
+Example input:
+{
+ "importers": [
+  {
+   "declarations": [
+    {
+     "exporter_country": "PH",
+     "id": "DEC-010-1",
+     "shipments": [
+      {
+       "air_carrier": "Air Atlanta Icelandic",
+       "id": "SHP-010-1",
+       "lines": [
+        {
+         "id": "LIN-010-1-1",
+         "substance": "Dichlorvos"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "MK",
+     "id": "DEC-010-2",
+     "shipments": [
+      {
+       "air_carrier": "SriLankan Airlines",
+       "id": "SHP-010-2",
+       "lines": [
+        {
+         "id": "LIN-010-2-1",
+         "substance": "Aristolochic acid"
+        },
+        {
+         "id": "LIN-010-2-2",
+         "substance": "Ethylene dichloride"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "DJ",
+     "id": "DEC-010-3",
+     "shipments": [
+      {
+       "air_carrier": "Volotea",
+       "id": "SHP-010-3",
+       "lines": [
+        {
+         "id": "LIN-010-3-1",
+         "substance": "Parathion"
+        },
+        {
+         "id": "LIN-010-3-2",
+         "substance": "Tributyltin naphthenate"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-010"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "SA",
+     "id": "DEC-011-1",
+     "shipments": [
+      {
+       "air_carrier": "Air Atlanta Icelandic",
+       "id": "SHP-011-1",
+       "lines": [
+        {
+         "id": "LIN-011-1-1",
+         "substance": "Trichloromethane"
+        },
+        {
+         "id": "LIN-011-1-2",
+         "substance": "Chromium (VI) compounds"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "MK",
+     "id": "DEC-011-2",
+     "shipments": [
+      {
+       "air_carrier": "SriLankan Airlines",
+       "id": "SHP-011-2",
+       "lines": [
+        {
+         "id": "LIN-011-2-1",
+         "substance": "Chromium (VI) compounds"
+        },
+        {
+         "id": "LIN-011-2-2",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "DJ",
+     "id": "DEC-011-3",
+     "shipments": [
+      {
+       "air_carrier": "HK Express",
+       "id": "SHP-011-3",
+       "lines": [
+        {
+         "id": "LIN-011-3-1",
+         "substance": "Trichloromethane"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-011"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "AF",
+     "id": "DEC-024-1",
+     "shipments": [
+      {
+       "air_carrier": "Volotea",
+       "id": "SHP-024-1",
+       "lines": [
+        {
+         "id": "LIN-024-1-1",
+         "substance": "Tributyltin naphthenate"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "CA",
+     "id": "DEC-024-2",
+     "shipments": [
+      {
+       "air_carrier": "Air Atlanta Icelandic",
+       "id": "SHP-024-2",
+       "lines": [
+        {
+         "id": "LIN-024-2-1",
+         "substance": "Tributyltin naphthenate"
+        },
+        {
+         "id": "LIN-024-2-2",
+         "substance": "Radon-222 and its decay products"
+        },
+        {
+         "id": "LIN-024-2-3",
+         "substance": "1,3-Dichloropropene (technical-grade)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "PH",
+     "id": "DEC-024-3",
+     "shipments": [
+      {
+       "air_carrier": "China Airlines",
+       "id": "SHP-024-3",
+       "lines": [
+        {
+         "id": "LIN-024-3-1",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-024"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "MK",
+     "id": "DEC-029-1",
+     "shipments": [
+      {
+       "air_carrier": "British Airways",
+       "id": "SHP-029-1",
+       "lines": [
+        {
+         "id": "LIN-029-1-1",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        },
+        {
+         "id": "LIN-029-1-2",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "KG",
+     "id": "DEC-029-2",
+     "shipments": [
+      {
+       "air_carrier": "SriLankan Airlines",
+       "id": "SHP-029-2",
+       "lines": [
+        {
+         "id": "LIN-029-2-1",
+         "substance": "Hexachlorobenzene"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "GR",
+     "id": "DEC-029-3",
+     "shipments": [
+      {
+       "air_carrier": "SriLankan Airlines",
+       "id": "SHP-029-3",
+       "lines": [
+        {
+         "id": "LIN-029-3-1",
+         "substance": "Trichloromethane"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-029"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "PH",
+     "id": "DEC-033-1",
+     "shipments": [
+      {
+       "air_carrier": "Air Botswana",
+       "id": "SHP-033-1",
+       "lines": [
+        {
+         "id": "LIN-033-1-1",
+         "substance": "Ethylene dichloride"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "PH",
+     "id": "DEC-033-2",
+     "shipments": [
+      {
+       "air_carrier": "Volotea",
+       "id": "SHP-033-2",
+       "lines": [
+        {
+         "id": "LIN-033-2-1",
+         "substance": "Parathion"
+        },
+        {
+         "id": "LIN-033-2-2",
+         "substance": "Trichloromethane"
+        },
+        {
+         "id": "LIN-033-2-3",
+         "substance": "Dimethyl hydrogen phosphite"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "GR",
+     "id": "DEC-033-3",
+     "shipments": [
+      {
+       "air_carrier": "Air Atlanta Icelandic",
+       "id": "SHP-033-3",
+       "lines": [
+        {
+         "id": "LIN-033-3-1",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        },
+        {
+         "id": "LIN-033-3-2",
+         "substance": "Aristolochic acid"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-033"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "DJ",
+     "id": "DEC-038-1",
+     "shipments": [
+      {
+       "air_carrier": "Volotea",
+       "id": "SHP-038-1",
+       "lines": [
+        {
+         "id": "LIN-038-1-1",
+         "substance": "Parathion"
+        },
+        {
+         "id": "LIN-038-1-2",
+         "substance": "Dichlorvos"
+        },
+        {
+         "id": "LIN-038-1-3",
+         "substance": "Trichloromethane"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "MK",
+     "id": "DEC-038-2",
+     "shipments": [
+      {
+       "air_carrier": "Volotea",
+       "id": "SHP-038-2",
+       "lines": [
+        {
+         "id": "LIN-038-2-1",
+         "substance": "1,3-Dichloropropene (technical-grade)"
+        },
+        {
+         "id": "LIN-038-2-2",
+         "substance": "Chromium (VI) compounds"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "PH",
+     "id": "DEC-038-3",
+     "shipments": [
+      {
+       "air_carrier": "Air Botswana",
+       "id": "SHP-038-3",
+       "lines": [
+        {
+         "id": "LIN-038-3-1",
+         "substance": "Tributyltin naphthenate"
+        },
+        {
+         "id": "LIN-038-3-2",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        },
+        {
+         "id": "LIN-038-3-3",
+         "substance": "Chromium (VI) compounds"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-038"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "AD",
+     "id": "DEC-040-1",
+     "shipments": [
+      {
+       "air_carrier": "China Airlines",
+       "id": "SHP-040-1",
+       "lines": [
+        {
+         "id": "LIN-040-1-1",
+         "substance": "Parathion"
+        },
+        {
+         "id": "LIN-040-1-2",
+         "substance": "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "IT",
+     "id": "DEC-040-2",
+     "shipments": [
+      {
+       "air_carrier": "Air Canada",
+       "id": "SHP-040-2",
+       "lines": [
+        {
+         "id": "LIN-040-2-1",
+         "substance": "Ethylene dichloride"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "IT",
+     "id": "DEC-040-3",
+     "shipments": [
+      {
+       "air_carrier": "British Airways",
+       "id": "SHP-040-3",
+       "lines": [
+        {
+         "id": "LIN-040-3-1",
+         "substance": "Aristolochic acid"
+        },
+        {
+         "id": "LIN-040-3-2",
+         "substance": "Ethylene dichloride"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-040"
+  }
+ ]
+}

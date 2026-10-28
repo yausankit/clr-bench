@@ -1,0 +1,565 @@
+A sports marketing agency reconciles sponsorship activation counts for sponsor brands before settlement.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with sponsor_brands, contracts, and activations; each activation points to one contract, and each contract points to one sponsor brand.
+
+Each activation is one unit in the total of the sponsor brand reached through its contract; an activation is left out when one of its trap-field values is rejected.
+Return the largest total among the sponsor brands in the input, as an int.
+
+Field notes:
+- An activation whose club is 'Real Madrid' is in audit lane X5.
+- An activation whose co_sponsor is 'Microsoft' is in review code 55.
+- An activation whose market_country is 'DE' is in review tag Y-25.
+- An activation whose club is 'Inter Milan' is in settlement lane D3.
+- An activation whose co_sponsor is 'ASML' is in handling class 20.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, activations in audit lane X5 are not counted.
+L2: From this level on, activations in review code 55 are not counted.
+L3: From this level on, activations in review tag Y-25 are not counted.
+L4: From this level on, activations in settlement lane D3 are not counted.
+L5: From this level on, activations in handling class 20 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+activations.club:
+- Ajax — Dutch association football team.
+- Arsenal — Association football club in London, England.
+- Atlético Madrid — Spanish professional football club in Madrid.
+- Bayern Munich — Association football club in Munich, Germany.
+- Benfica — Professional association football club based in Lisbon, Portugal.
+- Borussia Dortmund — German professional sports club based in Dortmund.
+- Botafogo — Association football team from Rio de Janeiro.
+- Brest — Association football club.
+- Crystal Palace — Association football club in London, England.
+- Dinamo Tbilisi — Association football club based in Tbilisi, Georgia.
+- Fiorentina — Association football club in Florence, Italy.
+- Fluminense — Sports club in Rio de Janeiro, Brazil best known for its professional association football team.
+- Inter Milan — Association football club based in Milan, Lombardy, Italy.
+- Los Angeles FC — Association football club in Los Angeles, California, USA.
+- Mamelodi Sundowns — Association football club in South Africa.
+- Manchester City — Association football club in Manchester, England.
+- Marseille — Association football club in Marseille, France.
+- Monaco — Association football club in Monaco.
+- Nottingham Forest — Association football club in West Bridgford, England.
+- PSV Eindhoven — Sports club from Eindhoven, the Netherlands.
+- Pachuca — Mexican men's football club.
+- Panathinaikos — Association football team in Greece.
+- Paris Saint-Germain — Association football club in Paris, France having two UCL.
+- Partizan — Association football club in Serbia.
+- Porto — Professional association football club based in Porto, Portugal.
+- Real Madrid — Association football club in Madrid, Spain.
+- River Plate — Argentine professional sports club based in Buenos Aires.
+- Slovan Bratislava — Association football club in Bratislava, Slovakia.
+- Steaua București — Association football club in Bucharest, Romania.
+- Sturm Graz — Association football club in Austria.
+- Torino — Italian football club based in Turin, Piedmont.
+- Tottenham Hotspur — Association football club in London, England.
+- Urawa Red Diamonds — Japanese football club.
+- Wydad — Association football club in Casablanca, Morocco.
+activations.co_sponsor:
+- AB InBev — Belgian-Brazilian multinational beverage and brewing company.
+- ASML — Dutch company and supplier of photolithography systems.
+- ASR Nederland — Business.
+- Aegon — Multinational life insurance, pensions and asset management company.
+- Aston Martin — British luxury sports car manufacturer.
+- Axon — US American weapons manufacturer.
+- Barratt Redrow — Company.
+- Continental — German automotive supplier and rubber processing company founded in Hanover in 1871.
+- Deutsche Börse — Financial services company of Germany.
+- Deutsche Post — German mail and parcel delivery service.
+- Disney — American multinational mass media company.
+- Exelon — Energy company headquartered in Chicago.
+- GE HealthCare — American multinational medical technology company.
+- General Motors — American multinational automotive company.
+- Honeywell Technologies — American multinational conglomerate.
+- IMCD — Series of tubules and ducts in the kidney that physically connect nephrons to a minor calyx or directly to the renal pelvis.
+- Julius Baer — Swiss banker (1857-1922).
+- L'Oréal — International cosmetics and beauty company.
+- Lindt & Sprüngli — Swiss chocolate maker.
+- Micron Technology — American multinational corporation based in Boise, Idaho.
+- Microsoft — American multinational technology corporation.
+- Moderna — American biotechnology company.
+- Monster Beverage — American beverage company.
+- Nebius Group — Dutch company developing a portfolio of AI-related technology assets.
+- Old Dominion — American transportation company.
+- PepsiCo — American soft drink company.
+- Quilter — A company.
+- Sika — Specialty chemical company.
+- Standard Life plc — Insurance company.
+- Storebrand — Norwegian financial services company.
+- Tenaris — Company.
+- Tesla — American automotive and clean energy company.
+- Traton — German commercial vehicle manufacturer.
+- Travelers — Insurance company.
+activations.market_country:
+- AG — Antigua and Barbuda; Antigua and Barbuda is a country or territory in Americas.
+- AT — Austria; Austria is a country or territory in Europe.
+- BR — Brazil; Brazil is a country or territory in Americas.
+- BZ — Belize; Belize is a country or territory in Americas.
+- CO — Colombia; Colombia is a country or territory in Americas.
+- CY — Cyprus; Cyprus is a country or territory in Asia.
+- DE — Germany; Germany is a country or territory in Europe.
+- DJ — Djibouti; Djibouti is a country or territory in Africa.
+- FM — Micronesia, Federated States of; Micronesia, Federated States of is a country or territory in Oceania.
+- GB — United Kingdom of Great Britain and Northern Ireland; United Kingdom of Great Britain and Northern Ireland is a country or territory in Europe.
+- GN — Guinea; Guinea is a country or territory in Africa.
+- GQ — Equatorial Guinea; Equatorial Guinea is a country or territory in Africa.
+- GW — Guinea-Bissau; Guinea-Bissau is a country or territory in Africa.
+- JP — Japan; Japan is a country or territory in Asia.
+- KN — Saint Kitts and Nevis; Saint Kitts and Nevis is a country or territory in Americas.
+- KR — Korea, Republic of; Korea, Republic of is a country or territory in Asia.
+- MD — Moldova, Republic of; Moldova, Republic of is a country or territory in Europe.
+- MK — North Macedonia; North Macedonia is a country or territory in Europe.
+- MT — Malta; Malta is a country or territory in Europe.
+- PW — Palau; Palau is a country or territory in Oceania.
+- SR — Suriname; Suriname is a country or territory in Americas.
+- US — United States of America; United States of America is a country or territory in Americas.
+
+Example input:
+{
+ "activations": [
+  {
+   "club": "Dinamo Tbilisi",
+   "co_sponsor": "L'Oréal",
+   "contract_id": "CT017",
+   "id": "AC0120",
+   "market_country": "AG"
+  },
+  {
+   "club": "Real Madrid",
+   "co_sponsor": "L'Oréal",
+   "contract_id": "CT017",
+   "id": "AC0121",
+   "market_country": "US"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "Micron Technology",
+   "contract_id": "CT017",
+   "id": "AC0122",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Axon",
+   "contract_id": "CT017",
+   "id": "AC0123",
+   "market_country": "PW"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Standard Life plc",
+   "contract_id": "CT017",
+   "id": "AC0124",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Los Angeles FC",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT017",
+   "id": "AC0125",
+   "market_country": "KR"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT021",
+   "id": "AC0146",
+   "market_country": "DE"
+  },
+  {
+   "club": "Dinamo Tbilisi",
+   "co_sponsor": "Axon",
+   "contract_id": "CT021",
+   "id": "AC0147",
+   "market_country": "FM"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Quilter",
+   "contract_id": "CT021",
+   "id": "AC0148",
+   "market_country": "PW"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Traton",
+   "contract_id": "CT021",
+   "id": "AC0149",
+   "market_country": "PW"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Micron Technology",
+   "contract_id": "CT021",
+   "id": "AC0150",
+   "market_country": "BZ"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Standard Life plc",
+   "contract_id": "CT021",
+   "id": "AC0151",
+   "market_country": "BZ"
+  },
+  {
+   "club": "Brest",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT021",
+   "id": "AC0152",
+   "market_country": "KR"
+  },
+  {
+   "club": "Partizan",
+   "co_sponsor": "Axon",
+   "contract_id": "CT021",
+   "id": "AC0153",
+   "market_country": "FM"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "L'Oréal",
+   "contract_id": "CT022",
+   "id": "AC0154",
+   "market_country": "BZ"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT022",
+   "id": "AC0155",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Axon",
+   "contract_id": "CT022",
+   "id": "AC0156",
+   "market_country": "AG"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Axon",
+   "contract_id": "CT022",
+   "id": "AC0157",
+   "market_country": "KR"
+  },
+  {
+   "club": "Dinamo Tbilisi",
+   "co_sponsor": "Quilter",
+   "contract_id": "CT022",
+   "id": "AC0158",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Los Angeles FC",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT022",
+   "id": "AC0159",
+   "market_country": "SR"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Axon",
+   "contract_id": "CT022",
+   "id": "AC0160",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Moderna",
+   "contract_id": "CT022",
+   "id": "AC0161",
+   "market_country": "GW"
+  },
+  {
+   "club": "Los Angeles FC",
+   "co_sponsor": "Micron Technology",
+   "contract_id": "CT022",
+   "id": "AC0162",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT025",
+   "id": "AC0178",
+   "market_country": "KR"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Micron Technology",
+   "contract_id": "CT025",
+   "id": "AC0179",
+   "market_country": "FM"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Axon",
+   "contract_id": "CT025",
+   "id": "AC0180",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Standard Life plc",
+   "contract_id": "CT025",
+   "id": "AC0181",
+   "market_country": "US"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "ASML",
+   "contract_id": "CT025",
+   "id": "AC0182",
+   "market_country": "KR"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "Barratt Redrow",
+   "contract_id": "CT025",
+   "id": "AC0183",
+   "market_country": "AG"
+  },
+  {
+   "club": "Partizan",
+   "co_sponsor": "Barratt Redrow",
+   "contract_id": "CT025",
+   "id": "AC0184",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Brest",
+   "co_sponsor": "Quilter",
+   "contract_id": "CT025",
+   "id": "AC0185",
+   "market_country": "FM"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Moderna",
+   "contract_id": "CT028",
+   "id": "AC0198",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Moderna",
+   "contract_id": "CT028",
+   "id": "AC0199",
+   "market_country": "KR"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT028",
+   "id": "AC0200",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Dinamo Tbilisi",
+   "co_sponsor": "Quilter",
+   "contract_id": "CT028",
+   "id": "AC0201",
+   "market_country": "KR"
+  },
+  {
+   "club": "Dinamo Tbilisi",
+   "co_sponsor": "L'Oréal",
+   "contract_id": "CT028",
+   "id": "AC0202",
+   "market_country": "BZ"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Traton",
+   "contract_id": "CT028",
+   "id": "AC0203",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Traton",
+   "contract_id": "CT028",
+   "id": "AC0204",
+   "market_country": "PW"
+  },
+  {
+   "club": "Inter Milan",
+   "co_sponsor": "Traton",
+   "contract_id": "CT028",
+   "id": "AC0205",
+   "market_country": "FM"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT032",
+   "id": "AC0225",
+   "market_country": "US"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Barratt Redrow",
+   "contract_id": "CT032",
+   "id": "AC0226",
+   "market_country": "GW"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT032",
+   "id": "AC0227",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT032",
+   "id": "AC0228",
+   "market_country": "GQ"
+  },
+  {
+   "club": "Brest",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT032",
+   "id": "AC0229",
+   "market_country": "SR"
+  },
+  {
+   "club": "Panathinaikos",
+   "co_sponsor": "Barratt Redrow",
+   "contract_id": "CT032",
+   "id": "AC0230",
+   "market_country": "SR"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Aston Martin",
+   "contract_id": "CT032",
+   "id": "AC0231",
+   "market_country": "KR"
+  },
+  {
+   "club": "Brest",
+   "co_sponsor": "Barratt Redrow",
+   "contract_id": "CT040",
+   "id": "AC0286",
+   "market_country": "PW"
+  },
+  {
+   "club": "Partizan",
+   "co_sponsor": "Moderna",
+   "contract_id": "CT040",
+   "id": "AC0287",
+   "market_country": "AG"
+  },
+  {
+   "club": "Fiorentina",
+   "co_sponsor": "Standard Life plc",
+   "contract_id": "CT040",
+   "id": "AC0288",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Sturm Graz",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT040",
+   "id": "AC0289",
+   "market_country": "DJ"
+  },
+  {
+   "club": "Brest",
+   "co_sponsor": "Storebrand",
+   "contract_id": "CT040",
+   "id": "AC0290",
+   "market_country": "US"
+  },
+  {
+   "club": "Nottingham Forest",
+   "co_sponsor": "Microsoft",
+   "contract_id": "CT040",
+   "id": "AC0291",
+   "market_country": "FM"
+  },
+  {
+   "club": "Botafogo",
+   "co_sponsor": "Standard Life plc",
+   "contract_id": "CT040",
+   "id": "AC0292",
+   "market_country": "PW"
+  }
+ ],
+ "contracts": [
+  {
+   "brand_id": "BR17",
+   "id": "CT017",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR21",
+   "id": "CT021",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR22",
+   "id": "CT022",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR25",
+   "id": "CT025",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR28",
+   "id": "CT028",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR32",
+   "id": "CT032",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR40",
+   "id": "CT040",
+   "year": 2026
+  }
+ ],
+ "sponsor_brands": [
+  {
+   "id": "BR17",
+   "name": "Ironwood Energy"
+  },
+  {
+   "id": "BR21",
+   "name": "Kestrel Media"
+  },
+  {
+   "id": "BR22",
+   "name": "Keystone Rail"
+  },
+  {
+   "id": "BR25",
+   "name": "Meridian Insurance"
+  },
+  {
+   "id": "BR28",
+   "name": "Northstar Brewing"
+  },
+  {
+   "id": "BR32",
+   "name": "Redwood Travel"
+  },
+  {
+   "id": "BR40",
+   "name": "Zephyr Airlines"
+  }
+ ]
+}

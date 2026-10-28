@@ -1,0 +1,19 @@
+concept_id	wiki_title	match	pageviews_12m	note
+stockholm_annex_a	Stockholm Convention	exact	1476	monthly total
+stockholm_annex_c	Persistent organic pollutant	exact	28368	monthly total
+rotterdam_pesticides	Rotterdam Convention	exact	7005	monthly total
+rotterdam_industrial	Rotterdam Convention	exact	7005	monthly total
+rotterdam_annex_iii	Rotterdam Convention	exact	7005	monthly total
+opcw_schedule_1	Chemical Weapons Convention	exact	59528	monthly total
+opcw_schedule_2	Chemical Weapons Convention	exact	59528	monthly total
+opcw_schedule_3	Chemical Weapons Convention	exact	59528	monthly total
+opcw_all_schedules	Chemical Weapons Convention	exact	59528	monthly total
+montreal_all_controlled_substances	Montreal Protocol	exact	108853	monthly total
+iarc_group_1	List of IARC Group 1 carcinogens	exact	11223	monthly total
+iarc_group_2a	List of IARC Group 2A carcinogens	exact	3533	monthly total
+iarc_group_2b	List of IARC Group 2B carcinogens	exact	3968	monthly total
+iarc_group_3	List of IARC Group 3 carcinogens	exact	997	monthly total
+wfd_priority	Water Framework Directive	exact	6917	monthly total
+wfd_hazardous	Water Framework Directive	exact	6917	monthly total
+montreal_annex_a_group_i	Montreal Protocol	exact	108853	monthly total
+stockholm_all_pops	Persistent organic pollutant	exact	28368	monthly total

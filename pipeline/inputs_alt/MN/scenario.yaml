@@ -1,0 +1,61 @@
+business_process: "A manufacturing company's procurement audit team reviews raw-material purchase lots by factory before approving sourcing exceptions."
+fields:
+  lots.origin_country: {universe: country, value_form: code}
+  lots.carrier: {universe: carrier, value_form: self_describing}
+  lots.material: {universe: material, value_form: self_describing}
+rule_templates:
+  - id: origin_intergovernmental_group
+    field: lots.origin_country
+    effect: exclude_record
+    source: "Supplement: the audit note cites published memberships of intergovernmental and economic associations."
+    rule: "A purchase lot whose origin country belongs to the named intergovernmental or economic association on the audit note is not counted."
+    plausible: [oecd_members, g20_members, g7_members, eu_members, apec_members, brics_members, asean_members, african_union_members, gcc_members, schengen_members, eurozone_members]
+  - id: origin_political_cooperation_group
+    field: lots.origin_country
+    effect: exclude_record
+    source: "Supplement: the compliance note cites published memberships of political, security and regional cooperation bodies."
+    rule: "A purchase lot whose origin country belongs to the named political, security or regional cooperation association on the compliance note is not counted."
+    plausible: [nato_members, arab_league_members, commonwealth_members, oic_members, african_union_members, asean_members, eu_members, g20_members, gcc_members, schengen_members]
+  - id: origin_producer_group
+    field: lots.origin_country
+    effect: exclude_record
+    source: "Supplement: the commodity desk cites published memberships of producer and regional country groups."
+    rule: "A purchase lot whose origin country belongs to the named commodity-producer or regional country association on the commodity note is not counted."
+    plausible: [opec_members, african_union_members, oic_members, arab_league_members]
+  - id: carrier_alliance
+    field: lots.carrier
+    effect: exclude_record
+    source: "Supplement: the logistics note cites published member rosters of airline alliances."
+    rule: "A purchase lot whose carrier belongs to the named airline alliance on the logistics note is not counted."
+    plausible: [star_alliance, oneworld, skyteam, value_alliance]
+  - id: carrier_association
+    field: lots.carrier
+    effect: exclude_record
+    source: "Supplement: the logistics note cites published member rosters of airline industry associations."
+    rule: "A purchase lot whose carrier belongs to the named airline industry association on the logistics note is not counted."
+    plausible: [a4a, aapa, aaco, afraa, a4e_airlines, iata_airlines]
+  - id: carrier_rating_or_owner
+    field: lots.carrier
+    effect: exclude_record
+    source: "Supplement: the logistics note uses a published airline rating roster or a corporate airline group roster."
+    rule: "A purchase lot whose carrier is named in the airline rating or corporate airline group cited by the logistics note is not counted."
+    plausible: [skytrax_five_star, iag_airlines, lufthansa_group_airlines, air_france_klm_airlines]
+  - id: material_element_group
+    field: lots.material
+    effect: exclude_record
+    source: "Supplement: the materials note cites published scientific classifications of related elements."
+    rule: "A purchase lot whose material belongs to the named scientific grouping of related elements on the materials note is not counted."
+    plausible: [rare_earth_elements, lanthanides, light_rare_earths, heavy_rare_earths, cerium_group, yttrium_group]
+  - id: material_metal_group
+    field: lots.material
+    effect: exclude_record
+    source: "Supplement: the materials note cites published classifications of corrosion-resistant and valuable metals."
+    rule: "A purchase lot whose material belongs to the named technical or historical group of metals on the materials note is not counted."
+    plausible: [platinum_group_metals, noble_metals, precious_metals, metals_of_antiquity]
+  - id: material_periodic_group
+    field: lots.material
+    effect: exclude_record
+    source: "Supplement: the materials note cites a published periodic-table classification of metallic elements."
+    rule: "A purchase lot whose material belongs to the named periodic-table classification on the materials note is not counted."
+    plausible: [rare_earth_elements, lanthanides, platinum_group_metals, noble_metals, period_5_elements, period_6_elements, lanthanides_and_actinides, chalcogens, pnictogens, carbon_group, boron_group, period_3_elements, period_4_elements]
+label_nouns: [audit ribbon, review tag, compliance lane, ledger mark]

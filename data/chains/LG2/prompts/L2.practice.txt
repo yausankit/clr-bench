@@ -1,0 +1,159 @@
+A corporate network gateway aggregates the proxied connections and SSH logins of its workstations into one event count per workstation.
+
+Write one Python 3 program in a single code block. Define solve(text), where text is the whole input as one string, and return the answer as an int.
+
+Input:
+The input is plain text. The first line starts with WORKSTATIONS and lists the
+workstation ids separated by |. Then come the proxy connections, one per line, as
+PROXY|<record id>|<workstation>|<time>|<target host>|<target port>|<client process>|<action>,
+and the SSH logins as SSH|<record id>|<workstation>|<time>|<user name>|<source address>.
+Every PROXY line is one proxied connection, every SSH line is one SSH login.
+
+Each proxy connection and each SSH login adds one event to the total of the workstation it belongs to.
+Return the largest total among the workstations in the input, as an int.
+
+Field notes:
+- A proxy connection whose tld is 'de' is in access lane C2.
+- A proxy connection whose client_app is 'WINWORD.EXE' is in event bucket 52.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, proxy connections in access lane C2 are not counted.
+L2: From this level on, proxy connections in event bucket 52 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+proxy_connections.tld:
+- apple — apple; Generic top-level domain associated with the name 'apple', managed by Apple Inc.
+- bg — Bulgaria; Country-code top-level domain for Bulgaria, managed by Register.BG.
+- bike — bike; Generic top-level domain associated with the name 'bike', managed by Binky Moon, LLC.
+- citic — citic; Generic top-level domain associated with the name 'citic', managed by CITIC Group Corporation.
+- cl — Chile; Country-code top-level domain for Chile, managed by NIC Chile (University of Chile).
+- compare — compare; Generic top-level domain associated with the name 'compare', managed by Registry Services, LLC.
+- cr — Costa Rica; Country-code top-level domain for Costa Rica, managed by National Academy of Sciences (Academia Nacional de Ciencias).
+- dds — dds; Generic top-level domain associated with the name 'dds', managed by Registry Services, LLC.
+- de — Germany; Country-code top-level domain for Germany, managed by DENIC eG.
+- durban — durban; Generic top-level domain associated with the name 'durban', managed by ZA Central Registry NPC trading as ZA Central Registry.
+- express — express; Generic top-level domain associated with the name 'express', managed by Binky Moon, LLC.
+- fr — France; Country-code top-level domain for France, managed by Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.).
+- gb — United Kingdom of Great Britain and Northern Ireland; Country-code top-level domain for United Kingdom of Great Britain and Northern Ireland, managed by Reserved Domain - IANA.
+- hr — Croatia; Country-code top-level domain for Croatia, managed by CARNet - Croatian Academic and Research Network.
+- il — Israel; Country-code top-level domain for Israel, managed by The Israel Internet Association (RA).
+- industries — industries; Generic top-level domain associated with the name 'industries', managed by Binky Moon, LLC.
+- jp — Japan; Country-code top-level domain for Japan, managed by Japan Registry Services Co., Ltd.
+- latrobe — latrobe; Generic top-level domain associated with the name 'latrobe', managed by La Trobe University.
+- lifeinsurance — lifeinsurance; Generic top-level domain associated with the name 'lifeinsurance', managed by American Council of Life Insurers.
+- lt — Lithuania; Country-code top-level domain for Lithuania, managed by Kaunas University of Technology.
+- mt — Malta; Country-code top-level domain for Malta, managed by NIC (Malta).
+- my — Malaysia; Country-code top-level domain for Malaysia, managed by MYNIC Berhad.
+- no — Norway; Country-code top-level domain for Norway, managed by Norid A/S.
+- om — Oman; Country-code top-level domain for Oman, managed by Telecommunications Regulatory Authority (TRA).
+- pt — Portugal; Country-code top-level domain for Portugal, managed by Associação DNS.PT.
+- seven — seven; Generic top-level domain associated with the name 'seven', managed by Seven West Media Ltd.
+- sharp — sharp; Generic top-level domain associated with the name 'sharp', managed by Sharp Corporation.
+- song — song; Generic top-level domain associated with the name 'song', managed by Amazon Registry Services, Inc.
+- tj — Tajikistan; Country-code top-level domain for Tajikistan, managed by Information Technology Center.
+- tr — Türkiye; Country-code top-level domain for Türkiye, managed by Bilgi Teknolojileri ve İletişim Kurumu (BTK).
+- us — United States of America; Country-code top-level domain for United States of America, managed by Registry Services, LLC.
+- xn--3bst00m — xn--3bst00m; Generic top-level domain associated with the name 'xn--3bst00m', managed by Eagle Horizon Limited.
+- xn--mgbi4ecexp — xn--mgbi4ecexp; Generic top-level domain associated with the name 'xn--mgbi4ecexp', managed by Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication).
+- xn--ses554g — xn--ses554g; Generic top-level domain associated with the name 'xn--ses554g', managed by KNET Co., Ltd.
+proxy_connections.client_app:
+- AcroRd32.exe — Portable document format viewer developed by Adobe.
+- Acrobat.exe — Portable document format viewer developed by Adobe.
+- Dropbox.exe — Cloud file synchronization client developed by Dropbox.
+- Illustrator.exe — Adobe Illustrator vector graphics editor.
+- MobaXterm.exe — Secure Shell client for remote terminal access, developed by Mobatek.
+- ONENOTE.EXE — Office or document application developed by Microsoft.
+- OUTLOOK.EXE — Email or messaging client developed by Microsoft.
+- OneDrive.exe — Cloud file synchronization client developed by Microsoft.
+- SecureCRT.exe — Secure Shell client for remote terminal access, developed by VanDyke Software.
+- Skype.exe — Instant messaging client developed by Microsoft.
+- SogouCloud.exe — Cloud-based Chinese input method from Sogou.
+- SogouPinyin.exe — Sogou Pinyin Chinese input method.
+- Spotify.exe — Media player developed by Spotify.
+- TeamViewer_Service.exe — Background service for TeamViewer remote access.
+- Teams.exe — Microsoft Teams collaboration and messaging client.
+- Termius.exe — Secure Shell client for remote terminal access, developed by Termius.
+- Vivaldi.exe — Web browser developed by Vivaldi Technologies.
+- WINWORD.EXE — Microsoft Word word-processing application.
+- WinSCP.exe — File transfer client developed by Martin Prikryl for remote servers.
+- Xshell.exe — Secure Shell client for remote terminal access, developed by NetSarang.
+- YodaoDict.exe — English-Chinese dictionary and translation application from NetEase.
+- aliwangwang.exe — Instant messaging client developed by Alibaba.
+- baidupinyin.exe — Baidu Pinyin Chinese input method.
+- et.exe — WPS Spreadsheets spreadsheet application from Kingsoft.
+- mpc-hc.exe — Media player developed by MPC-HC.
+- msfeedssync.exe — Background feed synchronization component of Windows.
+- opera.exe — Web browser developed by Opera Software.
+- powershell.exe — Development or system administration tool developed by Microsoft.
+- putty.exe — Secure Shell client for remote terminal access, developed by Simon Tatham.
+- spoolsv.exe — Windows Print Spooler service that manages print jobs.
+- svchost.exe — Windows service host process that runs background system services.
+- telegram.exe — Instant messaging client developed by Telegram.
+- vncviewer.exe — Remote desktop client developed by RealVNC.
+- wps.exe — WPS Office productivity suite from Kingsoft.
+proxy_connections.port:
+- 1347 — bbn-mmc; Registered service 'bbn-mmc' for TCP and UDP: multi media conferencing.
+- 143 — imap; Registered service 'imap' for TCP: Internet Message Access Protocol.
+- 1433 — ms-sql-s; Registered service 'ms-sql-s' for TCP and UDP: Microsoft-SQL-Server.
+- 21 — ftp; Registered service 'ftp' for TCP and UDP: File Transfer Protocol [Control].
+- 22 — ssh; Registered service 'ssh' for TCP and UDP: Secure Shell (SSH) Protocol.
+- 2493 — talarian-mqs; Registered service 'talarian-mqs' for TCP and UDP: Talarian MQS.
+- 2561 — mosaixcc; Registered service 'mosaixcc' for TCP and UDP: MosaixCC.
+- 2635 — backburner; Registered service 'backburner' for TCP and UDP: Back Burner.
+- 3269 — msft-gc-ssl; Registered service 'msft-gc-ssl' for TCP and UDP: Microsoft Global Catalog with Lightweight Directory Access Protocol/Secure Sockets Layer.
+- 3341 — anet-h; Registered service 'anet-h' for TCP and UDP: OMF data h.
+- 3499 — sccip-media; Registered service 'sccip-media' for TCP and UDP: SccIP Media.
+- 3656 — abatjss; Registered service 'abatjss' for TCP and UDP: ActiveBatch Job Scheduler.
+- 389 — ldap; Registered service 'ldap' for TCP and UDP: Lightweight Directory Access Protocol.
+- 4153 — mbl-battd; Registered service 'mbl-battd' for TCP and UDP: MBL Remote Battery Monitoring.
+- 43 — nicname; Registered service 'nicname' for TCP and UDP: Who Is.
+- 455 — creativepartnr; Registered service 'creativepartnr' for TCP and UDP: CreativePartnr.
+- 503 — intrinsa; Registered service 'intrinsa' for TCP and UDP: Intrinsa.
+- 5068 — bitforestsrv; Registered service 'bitforestsrv' for TCP: Bitforest Data Service.
+- 594 — tpip; Registered service 'tpip' for TCP and UDP: TPIP.
+- 624 — cryptoadmin; Registered service 'cryptoadmin' for TCP and UDP: Crypto Admin.
+- 9208 — rjcdb-vcards; Registered service 'rjcdb-vcards' for TCP and UDP: rjcdb vCard.
+- 9293 — storview; Registered service 'storview' for TCP and UDP: StorView Client.
+
+Example input:
+WORKSTATIONS|ws03|ws16|ws21|ws24
+PROXY|P0010|ws03|07.26 14:24:32|cidian.youdao.xn--3bst00m|2561|mpc-hc.exe|open
+PROXY|P0011|ws03|07.26 16:19:26|short.weixin.qq.latrobe|2561|Vivaldi.exe|open
+PROXY|P0012|ws03|07.26 14:51:31|dj1.baidu.apple|9208|baidupinyin.exe|open
+PROXY|P0013|ws03|07.26 17:40:10|lh3.googleusercontent.xn--mgbi4ecexp|9208|aliwangwang.exe|open
+PROXY|P0060|ws16|07.26 13:30:34|www.baidu.de|2561|Vivaldi.exe|open
+PROXY|P0061|ws16|10.30 20:43:46|proxy.cse.cuhk.edu.lifeinsurance|1347|AcroRd32.exe|open
+PROXY|P0062|ws16|10.30 21:05:39|proxy.cse.cuhk.edu.xn--mgbi4ecexp|3656|baidupinyin.exe|open
+PROXY|P0063|ws16|10.30 20:43:41|proxy.cse.cuhk.edu.sharp|2635|telegram.exe|open
+PROXY|P0083|ws21|10.30 20:39:44|proxy.cse.cuhk.edu.citic|2635|Illustrator.exe|open
+PROXY|P0084|ws21|07.27 06:00:11|cidian.youdao.citic|3656|opera.exe|open
+PROXY|P0085|ws21|07.26 16:21:31|api.github.om|9208|TeamViewer_Service.exe|open
+PROXY|P0086|ws21|10.30 16:49:28|proxy.cse.cuhk.edu.citic|624|mpc-hc.exe|open
+PROXY|P0087|ws21|07.26 14:45:39|sclick.baidu.xn--mgbi4ecexp|2561|AcroRd32.exe|open
+PROXY|P0088|ws21|07.26 19:00:52|fs-conn-doctor.qq.xn--mgbi4ecexp|503|AcroRd32.exe|open
+PROXY|P0098|ws24|10.30 17:07:59|proxy.cse.cuhk.edu.song|503|TeamViewer_Service.exe|open
+PROXY|P0099|ws24|07.27 10:23:07|pic01.ishuhui.song|2561|mpc-hc.exe|open
+PROXY|P0100|ws24|07.26 13:31:12|api.share.baidu.xn--3bst00m|2635|AcroRd32.exe|open
+PROXY|P0101|ws24|10.30 20:45:07|proxy.cse.cuhk.edu.sharp|1347|WINWORD.EXE|open
+PROXY|P0102|ws24|10.30 20:45:57|proxy.cse.cuhk.edu.xn--3bst00m|3656|OneDrive.exe|open
+SSH|L0011|ws03|Dec 10 10:57:31 LabSZ|root|183.62.140.253
+SSH|L0012|ws03|Dec 10 10:57:10 LabSZ|root|183.62.140.253
+SSH|L0013|ws03|Dec 10 10:54:31 LabSZ|dff|183.62.140.253
+SSH|L0014|ws03|Dec 10 09:12:00 LabSZ|test|103.99.0.122
+SSH|L0072|ws16|Dec 10 11:01:55 LabSZ|root|183.62.140.253
+SSH|L0073|ws16|Dec 10 09:10:06 LabSZ|admin|185.190.58.151
+SSH|L0074|ws16|Dec 10 07:56:14 LabSZ|support|103.207.39.165
+SSH|L0075|ws16|Dec 10 11:01:18 LabSZ|root|183.62.140.253
+SSH|L0093|ws21|Dec 10 07:28:08 LabSZ|root|112.95.230.3
+SSH|L0094|ws21|Dec 10 09:18:40 LabSZ|oralce|187.141.143.180
+SSH|L0095|ws21|Dec 10 10:58:02 LabSZ|root|183.62.140.253
+SSH|L0096|ws21|Dec 10 09:13:32 LabSZ|root|187.141.143.180
+SSH|L0097|ws21|Dec 10 11:01:01 LabSZ|root|183.62.140.253
+SSH|L0098|ws21|Dec 10 07:28:28 LabSZ|utsims|112.95.230.3
+SSH|L0107|ws24|Dec 10 07:28:05 LabSZ|pgadmin|112.95.230.3
+SSH|L0108|ws24|Dec 10 09:12:37 LabSZ|PlcmSpIp|103.99.0.122
+SSH|L0109|ws24|Dec 10 09:17:33 LabSZ|nagios|187.141.143.180
+

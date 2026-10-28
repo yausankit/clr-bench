@@ -1,0 +1,68 @@
+concept_id	wiki_title	match	pageviews_12m	note
+mesh_c_c01_infections	Infection	search	187496	search hit, shared 'infection', 12 monthly samples
+mesh_c_c05_musculoskeletal_diseases	Musculoskeletal disorder	search	17534	search hit, shared 'musculoskeletal', 12 monthly samples
+mesh_c_c08_381_lung_diseases	Respiratory disease	none	0	first hit not related to the list name
+mesh_c_c08_respiratory_tract_diseases	Respiratory tract	search	51444	search hit, shared 'respiratory', 12 monthly samples
+mesh_c_c10_nervous_system_diseases	Nervous system disease	search	4743	search hit, shared 'nervous', 12 monthly samples
+mesh_c_c14_cardiovascular_diseases	Cardiovascular disease	search	220264	search hit, shared 'cardiovascular', 12 monthly samples
+mesh_c_c18_452_metabolic_diseases	Metabolic disorder	search	32687	search hit, shared 'metabolic', 12 monthly samples
+mesh_c_c23_550_pathologic_processes	Pathology	search	176641	search hit, shared 'patholog', 12 monthly samples
+mesh_c_c23_888_592_neurologic_manifestations	Neurology	search	150268	search hit, shared 'neurolog', 12 monthly samples
+mesh_c_c23_888_852_signs_and_symptoms_respiratory	Signs and symptoms	none	0	first hit not related to the list name
+mesh_c_c23_888_signs_and_symptoms	Signs and symptoms	none	0	first hit not related to the list name
+mesh_c_c23_pathological_conditions_signs_and_symptoms	Schizophrenia	none	0	first hit not related to the list name
+snomed_106098005	Urinary system	search	73877	search hit, shared 'urinary', 12 monthly samples
+snomed_106147001	Perception	none	0	first hit not related to the list name
+snomed_111273006	COVID-19	none	0	first hit not related to the list name
+snomed_118185001	Pregnancy from rape	search	103261	search hit, shared 'pregnancy', 12 monthly samples
+snomed_118240005	Root-finding algorithm	none	0	first hit not related to the list name
+snomed_118436003	Human digestive system	none	0	first hit not related to the list name
+snomed_125605004	Bone fracture	search	67116	search hit, shared 'fracture', 12 monthly samples
+snomed_125610000	Separated shoulder	none	0	first hit not related to the list name
+snomed_126643005	Adipose tissue	none	0	first hit not related to the list name
+snomed_1269101009	Hypertensive disease of pregnancy	search	6597	search hit, shared 'pregnancy', 12 monthly samples
+snomed_128126004	Central nervous system disease	search	19081	search hit, shared 'central', 12 monthly samples
+snomed_128272009	Respiratory system	search	241839	search hit, shared 'respiratory', 12 monthly samples
+snomed_128524007	Colorectal cancer	none	0	first hit not related to the list name
+snomed_129134004	Upper respiratory tract infection	search	58622	search hit, shared 'upper', 12 monthly samples
+snomed_129681004	National Environmental Policy Act	search	24240	search hit, shared 'environmental', 12 monthly samples
+snomed_19829001	Respiratory disease	none	0	first hit not related to the list name
+snomed_198609003	Complications of pregnancy	search	24940	search hit, shared 'complication', 12 monthly samples
+snomed_22253000	Pain	search	144190	search hit, shared 'pain', 12 monthly samples
+snomed_248982007	Postpartum psychosis	none	0	first hit not related to the list name
+snomed_250132005	Costoclavicular ligament	search	2932	search hit, shared 'ligament', 12 monthly samples
+snomed_2704003	Acute (medicine)	search	24831	search hit, shared 'acute', 12 monthly samples
+snomed_271860004	Abdominal mass	search	2852	search hit, shared 'abdominal', 12 monthly samples
+snomed_275498002	Respiratory tract infection	search	35625	search hit, shared 'respiratory', 12 monthly samples
+snomed_27624003	Chronic condition	search	96300	search hit, shared 'chronic', 12 monthly samples
+snomed_279001004	Referred pain	search	34404	search hit, shared 'pain', 12 monthly samples
+snomed_300855001	Digestive system of gastropods	search	8553	search hit, shared 'digestive', 12 monthly samples
+snomed_301186004	Upper respiratory tract infection	search	58622	search hit, shared 'upper', 12 monthly samples
+snomed_301282008	Community respiration	search	223	search hit, shared 'respiration', 12 monthly samples
+snomed_312225001	Hypermobility spectrum disorder	none	0	first hit not related to the list name
+snomed_312608009	Liver injury	search	15374	search hit, shared 'injury', 12 monthly samples
+snomed_363059001	Degenerative disease	search	25181	search hit, shared 'degenerative', 12 monthly samples
+snomed_363176004	Blaschko's lines	none	0	first hit not related to the list name
+snomed_365523001	Employment	search	80483	search hit, shared 'employment', 12 monthly samples
+snomed_414029004	Immune system	search	160556	search hit, shared 'immune', 12 monthly samples
+snomed_699697007	Confessions II	none	0	first hit not related to the list name
+snomed_700010002	Limbs of the horse	search	42950	search hit, shared 'limb', 12 monthly samples
+snomed_74627003	Type 1 diabetes	search	226085	search hit, shared 'diabetes', 12 monthly samples
+snomed_82271004	Head injury	search	34595	search hit, shared 'injury', 12 monthly samples
+snomed_82423001	Chronic pain	search	69986	search hit, shared 'chronic', 12 monthly samples
+snomed_844005	Finding Forrester	none	0	first hit not related to the list name
+snomed_106028002	Musculoskeletal system	search	8323	manually selected English Wikipedia article, 12 monthly samples
+snomed_118228005	Functional symptom	search	2450	manually selected English Wikipedia article, 12 monthly samples
+snomed_118940003	Neurological disorder	search	88640	search hit, shared 'neurological', 12 monthly samples
+snomed_118953000	Bone	search	194910	manually selected English Wikipedia article, 12 monthly samples
+snomed_276435006	Pain	search	144190	search hit, shared 'pain', 12 monthly samples
+snomed_297268004	Otorhinolaryngology	search	203151	manually selected English Wikipedia article, 12 monthly samples
+snomed_363180009	Respiratory disease	search	49280	search hit, shared 'respiratory', 12 monthly samples
+snomed_384821006	Mental state	search	96152	manually selected English Wikipedia article, 12 monthly samples
+snomed_386617003	Human digestive system	search	290995	search hit, shared 'digestive', 12 monthly samples
+snomed_406123005	Viscus	search	64309	manually selected English Wikipedia article, 12 monthly samples
+snomed_40733004	Infection	search	187496	search hit, shared 'infection', 12 monthly samples
+snomed_417163006	Injury	search	62188	search hit, shared 'injury', 12 monthly samples
+snomed_49601007	Cardiovascular disease	search	220264	search hit, shared 'cardiovascular', 12 monthly samples
+snomed_55342001	Neoplasm	search	180977	search hit, shared 'neoplas', 12 monthly samples
+snomed_75934005	Metabolic disorder	search	32687	search hit, shared 'metabolic', 12 monthly samples

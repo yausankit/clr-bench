@@ -1,0 +1,584 @@
+[
+ {
+  "slot": "CH1 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "All members/non-members correct: HCB, endrin, tetra- and hepta-BDE are Annex A; TCDD is Annex C only; PFOS is Annex B; tributyltin, Panfuran S, fenthion, ethylene oxide are Rotterdam (not Stockholm). Overlapping Rotterdam Annex III grouping is ruled out by endrin."
+ },
+ {
+  "slot": "CH1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "Canada, Dominica, Zambia, Fiji are Commonwealth; Eritrea and test pool are not. No post-2023 changes."
+ },
+ {
+  "slot": "CH1 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "Air Canada, Air China, Copa, Air India are Star Alliance; Atlas Air and test pool are not."
+ },
+ {
+  "slot": "CH1 L4",
+  "severity": "ok",
+  "values": [
+   "DF"
+  ],
+  "note": "All values correct (A and P_M are Schedule 3; HN2/HN3/DF are Schedule 1). Overlap note: the Australia Group CW-precursor list contains dimethyl phosphite, methyldiethanolamine, thionyl chloride and also DF (methylphosphonyl difluoride) while excluding HN2, so it disagrees with the label on DF in the test pool."
+ },
+ {
+  "slot": "CH2 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "Triethanolamine, POCl3, cyanogen chloride, HCN are Schedule 3; ricin, sulfur mustard (Sch1), amiton (Sch2) and the rest are not Schedule 3."
+ },
+ {
+  "slot": "CH2 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "G7 values correct; no changes."
+ },
+ {
+  "slot": "CH2 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "American, Qatar, Qantas, Finnair are oneworld; Air Zimbabwe, Air Europa (SkyTeam), and the rest are not."
+ },
+ {
+  "slot": "CH2 L4",
+  "severity": "recent_change",
+  "values": [
+   "UV-328"
+  ],
+  "note": "UV-328 was listed in Annex A at COP-11 (May 2023) and the amendment entered into force only after Oct 2023 (2024). Other values correct: PCBs, alpha-HCH, BDEs in Annex A; TCDD Annex C only; methamidophos and polychlorinated terphenyls are Rotterdam, not Stockholm."
+ },
+ {
+  "slot": "GR1 L1",
+  "severity": "ok",
+  "values": [
+   "GS"
+  ],
+  "note": "GB, BD, VC, GM (rejoined 2018) are members; SI and test pool are not. GS (South Georgia) is a UK overseas territory, not itself a member; intended label is defensible."
+ },
+ {
+  "slot": "GR1 L2",
+  "severity": "recent_change",
+  "values": [
+   "Scandinavian Airlines"
+  ],
+  "note": "SAS left Star Alliance on 31 Aug 2024 and joined SkyTeam on 1 Sep 2024; it is correctly a non-member as of Oct 2026 but its status changed after Oct 2023. Other values correct (Edelweiss is Lufthansa Group but not a member)."
+ },
+ {
+  "slot": "GR1 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "Edinburgh, Copenhagen, Utrecht, Helsinki are on leru.org/members (24 members; ETH Zurich joined Jan 2024, not in pool). Bologna, Bristol and others are not LERU."
+ },
+ {
+  "slot": "GR1 L4",
+  "severity": "ok",
+  "values": [
+   "FK"
+  ],
+  "note": "IT, ME, MK, BG are NATO; MT and the test pool are not. FK (Falklands) is a UK territory outside NATO's treaty area; intended label defensible."
+ },
+ {
+  "slot": "GR2 L1",
+  "severity": "ok",
+  "values": [
+   "CY",
+   "FO"
+  ],
+  "note": "DE, LI, CH, MT are Schengen; IE is not. Cyprus is still outside Schengen as of Oct 2026 (Commission positive assessment July 2026, Council decision pending; accession expected 2027), so status may change soon. FO (Faroe) is outside Schengen."
+ },
+ {
+  "slot": "GR2 L2",
+  "severity": "ok",
+  "values": [
+   "Scandinavian Airlines"
+  ],
+  "note": "Founders (1997): Lufthansa, SAS, Thai, Air Canada, United. ANA joined 1999. Note SAS left the alliance in 2024 but remains a founding member historically."
+ },
+ {
+  "slot": "GR2 L3",
+  "severity": "not_closed",
+  "values": [
+   "Hoa Sen University",
+   "Lyceum of the Philippines University"
+  ],
+  "note": "Hoa Sen and Lyceum of the Philippines are AUN associate members, not core members (AUN has 30 core and ~165 associate members, with associates added every year). The class therefore depends on the growing associate roster; the better-known 'AUN core members' list would exclude P_M[0]. NUS and Airlangga are core members."
+ },
+ {
+  "slot": "GR2 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "BN, LA, MM, PH are ASEAN (Myanmar is excluded from summit-level representation but remains a member). Timor-Leste joined Oct 2025 but is not in this pool."
+ },
+ {
+  "slot": "LG1 L1",
+  "severity": "recent_change",
+  "values": [
+   "et",
+   "ir",
+   "ae"
+  ],
+  "note": "Ethiopia, Iran and UAE became BRICS members on 1 Jan 2024 (after Oct 2023). Benin and test pool are not members or partners."
+ },
+ {
+  "slot": "LG1 L2",
+  "severity": "error",
+  "values": [
+   "Skype.exe"
+  ],
+  "note": "Office LTSC Professional Plus 2021 includes Skype for Business, whose executable is lync.exe; Skype.exe is consumer Skype (retired May 2025), not an Office LTSC app. Other members (EXCEL, OUTLOOK, ONENOTE) correct."
+ },
+ {
+  "slot": "LG1 L3",
+  "severity": "not_closed",
+  "values": [
+   "593",
+   "162"
+  ],
+  "note": "'Microsoft server product port assignments' is not an authoritative closed list. Microsoft's own 'Service overview and network port requirements for Windows' also lists 593 (RPC over HTTP endpoint mapper) and 162 (SNMP Trap), which are test non-members here."
+ },
+ {
+  "slot": "LG1 L4",
+  "severity": "ok",
+  "values": [
+   "cy"
+  ],
+  "note": "de, li, ch, mt Schengen; ie not. Cyprus still outside Schengen as of Oct 2026 but accession pending."
+ },
+ {
+  "slot": "LG2 L1",
+  "severity": "recent_change",
+  "values": [
+   "bg",
+   "hr"
+  ],
+  "note": "de, il, cl, cr (joined 2021) are OECD; my and mt are not. Bulgaria and Croatia are in late-stage OECD accession (Croatia targeted mid-2026); I could not confirm they remain non-members as of Oct 2026, so their status is in flux."
+ },
+ {
+  "slot": "LG2 L2",
+  "severity": "not_closed",
+  "values": [
+   "Skype.exe",
+   "msfeedssync.exe"
+  ],
+  "note": "'Microsoft productivity applications' is ad hoc: Skype.exe (N_p) is itself a Microsoft communication app and msfeedssync.exe is a Microsoft component. Teams' current executable is ms-teams.exe. Skype was retired in May 2025."
+ },
+ {
+  "slot": "LG2 L3",
+  "severity": "not_closed",
+  "values": [
+   "1433"
+  ],
+  "note": "'Plaintext application protocol ports' is not a closed list. 1433 (SQL Server TDS) is plaintext unless TLS is configured, so its test label is debatable; 3269 is LDAP-over-TLS (non-member, fine)."
+ },
+ {
+  "slot": "LG2 L4",
+  "severity": "ok",
+  "values": [
+   "gb"
+  ],
+  "note": "fr, jp, gb, us are G7; tr not. Note the UK's operative ccTLD is .uk; .gb is reserved/unused."
+ },
+ {
+  "slot": "MN1 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "CA, BB, TV, NG Commonwealth; RO and test pool not."
+ },
+ {
+  "slot": "MN1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "Brussels, ANA, Copa, Shenzhen are Star Alliance; Eurowings, Air France, Mandarin and others are not."
+ },
+ {
+  "slot": "MN1 L3",
+  "severity": "error",
+  "values": [
+   "scandium",
+   "europium"
+  ],
+  "note": "Scandium is not conventionally part of the yttrium group (yttrium earths = Y plus Gd/Tb through Lu); it is usually treated separately. The grouping boundary is also not closed (two-group vs three-group schemes; Eu and Gd vary)."
+ },
+ {
+  "slot": "MN1 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "G7 values correct."
+ },
+ {
+  "slot": "MN2 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "G7 values correct."
+ },
+ {
+  "slot": "MN2 L2",
+  "severity": "recent_change",
+  "values": [
+   "SAS Link"
+  ],
+  "note": "SAS joined SkyTeam on 1 Sep 2024 (after Oct 2023). SkyTeam lists SAS as the member; SAS Link is a regional subsidiary operating under SAS, so its membership is only via affiliation. Other values correct (Transavia and Air France-KLM Cargo are not SkyTeam members)."
+ },
+ {
+  "slot": "MN2 L3",
+  "severity": "not_closed",
+  "values": [
+   "gadolinium",
+   "europium"
+  ],
+  "note": "Values are consistent with the two-group scheme (Gd-Lu + Y vs La-Eu), but the yttrium group boundary is not fixed: gadolinium is placed in the light/middle group in some schemes and europium in a middle 'terbium group' in the three-group scheme."
+ },
+ {
+  "slot": "MN2 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "IT, SA, IN, AR are G20; MU and test pool are not."
+ },
+ {
+  "slot": "SH1 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "G7 values correct."
+ },
+ {
+  "slot": "SH1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "NATO values correct."
+ },
+ {
+  "slot": "SH1 L3",
+  "severity": "not_closed",
+  "values": [
+   "NLRTM",
+   "NLLWR",
+   "GBEDI"
+  ],
+  "note": "Climate Alliance has ~2,000 member municipalities and the roster changes continuously; it is not a well-known closed list. Berlin, Batumi, Kreuzlingen, Basel confirmed on the May 2026 member list; I could not verify the non-membership of Rotterdam (N_p) or Leeuwarden."
+ },
+ {
+  "slot": "SH1 L4",
+  "severity": "recent_change",
+  "values": [
+   "SA"
+  ],
+  "note": "Saudi Arabia's BRICS status is disputed: invited in 2023, listed by BRICS/India materials as one of 11 members, but Riyadh still describes itself as an 'invited country' as of 2026. A, P_M and test pool are correct (BRICS-5 nested grouping agrees on test pool)."
+ },
+ {
+  "slot": "SH2 L1",
+  "severity": "ok",
+  "values": [
+   "SY"
+  ],
+  "note": "TN, SD, SY, IQ are Arab League members. Syria was suspended 2011 and readmitted May 2023 (before the Oct 2023 window). NG, SS and test pool are not members."
+ },
+ {
+  "slot": "SH2 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "US, Hong Kong China, Chinese Taipei, PNG are APEC economies; MU and test pool are not."
+ },
+ {
+  "slot": "SH2 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "CNNJI (Nanjing), INMAA, RULED, BRSSZ are in original BRICS states; AUADL and test pool are not. No new-member countries in the pool."
+ },
+ {
+  "slot": "SH2 L4",
+  "severity": "error",
+  "values": [
+   "AX"
+  ],
+  "note": "AX (Aland Islands) is an autonomous part of Finland and lies inside the EU and EEA, so labelling it a non-member is wrong under a territorial reading. Other values correct (CH is not EEA; MS is a UK territory)."
+ },
+ {
+  "slot": "SP1 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "All four are European Cup winners; Dinamo Zagreb and test pool have never won."
+ },
+ {
+  "slot": "SP1 L2",
+  "severity": "error",
+  "values": [
+   "Volkswagen Group",
+   "Deutsche Bank",
+   "Kering"
+  ],
+  "note": "Volkswagen Pref was deleted from the EURO STOXX 50 effective 21 Sep 2026, so it is not a constituent in Oct 2026. Deutsche Bank was re-added in Sep 2025 and Kering was removed in June 2025 (replaced by Rheinmetall), both changes after Oct 2023."
+ },
+ {
+  "slot": "SP1 L3",
+  "severity": "ok",
+  "values": [
+   "SH"
+  ],
+  "note": "CA, TZ, KI, LK Commonwealth; ES and test pool not. SH (St Helena) is a UK territory, not itself a member."
+ },
+ {
+  "slot": "SP1 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "Inter, Monterrey, Al Ahly, Palmeiras played the 2025 Club World Cup; Shakhtar, Sporting CP, Arsenal and the rest did not."
+ },
+ {
+  "slot": "SP2 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "Real Madrid, PSV, Dortmund, Porto were G-14 founders; Man City and test pool were never members. Overlapping 'European Cup winners' is excluded by Man City (2023 winner)."
+ },
+ {
+  "slot": "SP2 L2",
+  "severity": "recent_change",
+  "values": [
+   "Honeywell Technologies"
+  ],
+  "note": "Microsoft, Travelers, Disney, Honeywell are DJIA members. Honeywell stays in the Dow after its 2026 Aerospace spin-off under the new name Honeywell Technologies (post-2023 rename). Alphabet replaced Verizon June 2026 (not in pool). PepsiCo and test pool are not constituents."
+ },
+ {
+  "slot": "SP2 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "EU values correct."
+ },
+ {
+  "slot": "SP2 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "Inter, Arsenal, Tottenham, Atletico were among the 12 founding clubs (April 2021); Bayern and test pool were not."
+ },
+ {
+  "slot": "SY1 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption (tx.fhir.org): A and P_M descend from 129134004; N_p and all N_t do not."
+ },
+ {
+  "slot": "SY1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption: A and P_M descend from 118675001; N_p and all N_t do not."
+ },
+ {
+  "slot": "SY1 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "Morphine, methylphenidate, remifentanil, meperidine are DEA Schedule II; tramadol is Schedule IV, pregabalin Schedule V, the rest uncontrolled."
+ },
+ {
+  "slot": "SY1 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption: A and P_M descend from 40733004; N_p and all N_t do not."
+ },
+ {
+  "slot": "SY2 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption: A and P_M descend from 363059001; N_p and all N_t do not."
+ },
+ {
+  "slot": "SY2 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption: A and P_M descend from 118864003; N_p and all N_t do not."
+ },
+ {
+  "slot": "SY2 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "Doxorubicin, calcium folinate, docetaxel, oxaliplatin are in EML 2023 section 8.2.1; tamoxifen and hydrocortisone are 8.2.3 (hormones), others not cytotoxic. Note a 2025 EML exists; class is pinned to 2023."
+ },
+ {
+  "slot": "SY2 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "Verified via SNOMED CT subsumption: A and P_M descend from 363180009; N_p and all N_t (including COVID-19) do not."
+ },
+ {
+  "slot": "TR1 L1",
+  "severity": "ok",
+  "values": [
+   "Scandinavian Airlines"
+  ],
+  "note": "Lufthansa, Thai, SAS, United are founders; ITA and test pool are not. SAS left in 2024 but is still a historical founder."
+ },
+ {
+  "slot": "TR1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "TMR (Algeria), PMV/CUP/GDO (Venezuela) are in OPEC states; SAL (El Salvador) and test pool are not. Angola (left Jan 2024) not in pool."
+ },
+ {
+  "slot": "TR1 L3",
+  "severity": "recent_change",
+  "values": [
+   "IRR",
+   "AED"
+  ],
+  "note": "Iran and UAE joined BRICS on 1 Jan 2024. Other values correct."
+ },
+ {
+  "slot": "TR1 L4",
+  "severity": "error",
+  "values": [
+   "KLM Asia"
+  ],
+  "note": "KLM Asia is a wholly owned KLM (Netherlands) subsidiary flying KLM aircraft; it is nominally Taiwan-registered, so labelling it a non-NATO airline is contestable. Fly Lili (Romania), ETF Airways (Croatia), Air Albania correct."
+ },
+ {
+  "slot": "TR2 L1",
+  "severity": "recent_change",
+  "values": [
+   "Oman Air"
+  ],
+  "note": "Oman Air joined oneworld on 30 June 2025 (after Oct 2023). Other values correct; Vueling is IAG but not a member."
+ },
+ {
+  "slot": "TR2 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "PEV (HU), SRP (NO), TCE (RO), SXL (IE) are EEA; GVA, ZRH (CH) and test pool are not."
+ },
+ {
+  "slot": "TR2 L3",
+  "severity": "ok",
+  "values": [
+   "XAF",
+   "BMD"
+  ],
+  "note": "XAF (Cameroon, Gabon), SBD, LKR, GYD are currencies of Commonwealth members; CRC and test pool are not. BMD is a UK-territory currency, non-member reading defensible."
+ },
+ {
+  "slot": "TR2 L4",
+  "severity": "error",
+  "values": [
+   "Japan Airlines"
+  ],
+  "note": "Oneworld founders (1999) were American, British Airways, Cathay Pacific, Canadian Airlines and Qantas. Japan Airlines joined in 2007."
+ },
+ {
+  "slot": "UN1 L1",
+  "severity": "ok",
+  "values": [
+   "TC"
+  ],
+  "note": "FR, ME, US, AL NATO; CH and test pool not. TC is a UK territory, not itself a member."
+ },
+ {
+  "slot": "UN1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "ASEAN values correct; Timor-Leste not in pool."
+ },
+ {
+  "slot": "UN1 L3",
+  "severity": "recent_change",
+  "values": [
+   "Ferrovial"
+  ],
+  "note": "Ferrovial was added to the Nasdaq-100 on 22 Dec 2025. Apple, Constellation Energy, Paychex are constituents; Truist and test pool are not. Exact duplicate of UN2 L2."
+ },
+ {
+  "slot": "UN1 L4",
+  "severity": "error",
+  "values": [
+   "MQ",
+   "CX",
+   "IM"
+  ],
+  "note": "MQ (Martinique) is an integral part of France and the EU, and CX (Christmas Island) is an Australian external territory; both parents are G20 members, so their non-member labels are contestable. CA, BR, SA, AR correct. Near-duplicate of UN2 L4 (same field, same N_p TD, 5/7 shared N_t)."
+ },
+ {
+  "slot": "UN2 L1",
+  "severity": "recent_change",
+  "values": [
+   "RO",
+   "ID"
+  ],
+  "note": "CA, AT, IL, CL OECD; CM and test pool are non-members, but Romania (24/25 committee approvals by Apr 2026) and Indonesia are in OECD accession, so status is in flux and I could not confirm Romania remains a non-member in Oct 2026."
+ },
+ {
+  "slot": "UN2 L2",
+  "severity": "recent_change",
+  "values": [
+   "Ferrovial"
+  ],
+  "note": "Identical to UN1 L3 (exact duplicate slot). Ferrovial added to Nasdaq-100 on 22 Dec 2025."
+ },
+ {
+  "slot": "UN2 L3",
+  "severity": "error",
+  "values": [
+   "University of Malta"
+  ],
+  "note": "University of Malta is in Malta and is not an AUN member. NUS, Chiang Mai, USM are AUN core members."
+ },
+ {
+  "slot": "UN2 L4",
+  "severity": "error",
+  "values": [
+   "MQ",
+   "CX",
+   "ZA"
+  ],
+  "note": "MQ and CX are integral territories of G20 members (France/EU, Australia), so their non-member labels are contestable. Also ZA's participation is disputed: the US excluded South Africa from its 2026 G20 presidency although membership was not formally revoked. Near-duplicate of UN1 L4."
+ },
+ {
+  "slot": "WS1 L1",
+  "severity": "recent_change",
+  "values": [
+   "CWE-1428"
+  ],
+  "note": "CWE-1428 (Reliance on HTTP instead of HTTPS) was created after CWE 4.14 (Feb 2024) and is now a member of CWE-1402. Other members confirmed in 4.14 (312, 1240, 916). CWE-308 and CWE-321 belong to Access Control; the rest are in other categories."
+ },
+ {
+  "slot": "WS1 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "French, Aragonese, Sardinian, Corsican are Italic (Romance); German and test pool are not."
+ },
+ {
+  "slot": "WS1 L3",
+  "severity": "recent_change",
+  "values": [
+   "tl"
+  ],
+  "note": "Timor-Leste was admitted to ASEAN on 26 Oct 2025. id, kh, la correct; test pool correct."
+ },
+ {
+  "slot": "WS1 L4",
+  "severity": "ok",
+  "values": [],
+  "note": "CWE-189 (Numeric Errors) members include 681, 1335, 839, 1339; 1245 and all test values are not members (CWE 4.14)."
+ },
+ {
+  "slot": "WS2 L1",
+  "severity": "ok",
+  "values": [],
+  "note": "SFP Primary Cluster Entry Points (CWE-897) = secondary cluster 1002 {489,491,493,500,531,568,580,582,583,608,766}; A and P_M members, N_p and test pool not (CWE 4.14)."
+ },
+ {
+  "slot": "WS2 L2",
+  "severity": "ok",
+  "values": [],
+  "note": "en, ga, mt, sk are EU official languages; lb, nb and the rest are not."
+ },
+ {
+  "slot": "WS2 L3",
+  "severity": "ok",
+  "values": [],
+  "note": "Nigeria, Venezuela, Kuwait, Congo (2018) are OPEC; Chad and test pool are not. Angola left Jan 2024 but is not in pool."
+ },
+ {
+  "slot": "WS2 L4",
+  "severity": "recent_change",
+  "values": [],
+  "note": "OWASP Top 10:2025 was published Nov 2025 (grouping postdates Oct 2023). A09:2025 maps 5 CWEs (117, 221, 223, 532, 778), so A and P_M are members and 224 and test values are not. Overlapping CWE-1210 Audit/Logging Errors is excluded by N_p 224."
+ }
+]

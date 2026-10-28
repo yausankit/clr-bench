@@ -1,0 +1,42 @@
+A: Polychlorinated biphenyls
+C: stockholm_annex_a
+C_name: Stockholm Convention Annex A
+N_p: 2,3,7,8-Tetrachlorodibenzo-p-dioxin
+N_t:
+- Trichloroethylene
+- Methamidophos
+- Polychlorinated terphenyls
+- 2,2-Diphenyl-2-hydroxyacetic acid
+- CFC-213
+- 2-Nitropropane
+- Norephedrine
+P_M:
+- Alpha-hexachlorocyclohexane
+- UV-328
+- Brominated diphenyl ethers
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - iarc_group_1
+    - rotterdam_annex_iii
+    - rotterdam_industrial
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 15
+    pass: true
+comp_A:
+- iarc_group_1
+- rotterdam_annex_iii
+- rotterdam_industrial
+- stockholm_all_pops
+- stockholm_annex_c
+field: lines.substance
+label: intake folder S3
+salience: 1476.0
+universe: chemical

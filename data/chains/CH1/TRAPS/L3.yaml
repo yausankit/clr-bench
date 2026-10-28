@@ -1,0 +1,38 @@
+A: Air Canada
+C: star_alliance
+C_name: Star Alliance member airlines
+N_p: Atlas Air
+N_t:
+- UPS Airlines
+- JetBlue Airways
+- American Airlines
+- Azul
+- Daallo Airlines
+- Hawaiian Airlines
+- Avion Express
+P_M:
+- Air China
+- Copa Airlines
+- Air India
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4a
+    - alta_associate
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a4a
+- alta_associate
+field: shipments.air_carrier
+label: review batch Q-47
+salience: 630113.0
+universe: carrier

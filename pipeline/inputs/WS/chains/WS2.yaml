@@ -1,0 +1,17 @@
+id: WS2
+dataset: WS
+seed: 20266087
+period: {start: 2025, end: 2026}
+snapshot: 2026-10-16
+fields:
+  - field: findings.cwe
+    universe: cwe
+    templates: [cwe_category, cwe_owasp, cwe_cisq, cwe_view, cwe_official_category]
+  - field: findings.language
+    universe: language
+    templates: [lang_family, lang_institution, lang_schedule, lang_charter, lang_official_census]
+  - field: hosts.tld
+    universe: tld
+    templates: [tld_organisation, tld_union, tld_bloc]
+slots: 5
+probe: {criterion: soft}

@@ -1,0 +1,137 @@
+{
+ "L1": {
+  "C": "opcw_schedule_3",
+  "competitors": [
+   {
+    "id": "iarc_group_3",
+    "name": "IARC Group 3 chemical agents"
+   },
+   {
+    "id": "opcw_all_schedules",
+    "name": "Chemical Weapons Convention scheduled chemicals (Schedules 1-3)"
+   }
+  ],
+  "name": "Chemical Weapons Convention Schedule 3",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "g7",
+  "competitors": [
+   {
+    "id": "australia_group",
+    "name": "Australia Group participants"
+   },
+   {
+    "id": "eu",
+    "name": "European Union member states"
+   },
+   {
+    "id": "eu_1958",
+    "name": "EU member states since 1958"
+   },
+   {
+    "id": "mtcr",
+    "name": "Missile Technology Control Regime partners"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member countries"
+   },
+   {
+    "id": "nsg",
+    "name": "Nuclear Suppliers Group participating governments"
+   },
+   {
+    "id": "schengen",
+    "name": "Schengen area countries"
+   },
+   {
+    "id": "wassenaar",
+    "name": "Wassenaar Arrangement participating states"
+   }
+  ],
+  "name": "Group of Seven member countries",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "oneworld",
+  "competitors": [
+   {
+    "id": "a4a",
+    "name": "Airlines for America member airlines"
+   },
+   {
+    "id": "alta_associate",
+    "name": "ALTA associate member airlines"
+   }
+  ],
+  "name": "oneworld member airlines",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "stockholm_annex_a",
+  "competitors": [
+   {
+    "id": "iarc_group_1",
+    "name": "IARC Group 1 chemical agents"
+   },
+   {
+    "id": "rotterdam_annex_iii",
+    "name": "Rotterdam Convention Annex III all chemicals"
+   },
+   {
+    "id": "rotterdam_industrial",
+    "name": "Rotterdam Convention Annex III industrial chemicals"
+   },
+   {
+    "id": "stockholm_all_pops",
+    "name": "Stockholm Convention all persistent organic pollutants"
+   },
+   {
+    "id": "stockholm_annex_c",
+    "name": "Stockholm Convention Annex C"
+   }
+  ],
+  "name": "Stockholm Convention Annex A",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "mtcr",
+  "competitors": [
+   {
+    "id": "australia_group",
+    "name": "Australia Group participants"
+   },
+   {
+    "id": "eu",
+    "name": "European Union member states"
+   },
+   {
+    "id": "eu_1958",
+    "name": "EU member states since 1958"
+   },
+   {
+    "id": "g7",
+    "name": "Group of Seven member countries"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member countries"
+   },
+   {
+    "id": "nsg",
+    "name": "Nuclear Suppliers Group participating governments"
+   },
+   {
+    "id": "schengen",
+    "name": "Schengen area countries"
+   },
+   {
+    "id": "wassenaar",
+    "name": "Wassenaar Arrangement participating states"
+   }
+  ],
+  "name": "Missile Technology Control Regime partners",
+  "synonyms": []
+ }
+}

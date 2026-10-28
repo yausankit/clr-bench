@@ -1,0 +1,54 @@
+id: SP1
+dataset: SP
+seed: 20266106
+period:
+  start: 2026
+  end: 2026
+snapshot: '2026-10-16'
+fields:
+- field: activations.club
+  universe: club
+  templates:
+  - club_rule_ucl
+  - club_rule_uel
+  - club_rule_cwc
+  - club_rule_world
+  - club_rule_esl
+  - club_rule_g14
+  - club_rule_cwc25
+  - club_rule_ucl25
+  - club_rule_pl92
+  - club_rule_laliga
+  - club_rule_bundesliga
+  - club_rule_seriea
+- field: activations.co_sponsor
+  universe: co_sponsor
+  templates:
+  - company_rule_cac
+  - company_rule_ibex
+  - company_rule_mib
+  - company_rule_dax
+  - company_rule_aex
+  - company_rule_bel
+  - company_rule_euro
+  - company_rule_dow
+  - company_rule_sp100
+  - company_rule_nasdaq
+  - company_rule_sp500
+  - company_rule_stoxx
+- field: activations.market_country
+  universe: market_country
+  templates:
+  - country_rule_eu
+  - country_rule_nato
+  - country_rule_g7
+  - country_rule_g20
+  - country_rule_oecd
+  - country_rule_opec
+  - country_rule_asean
+  - country_rule_au
+  - country_rule_commonwealth
+  - country_rule_apec
+slots: 5
+probe:
+  criterion: soft

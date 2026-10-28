@@ -1,0 +1,137 @@
+business_process: "A security firm audits client web sites: the hosts of each site are scanned and every finding is recorded against the host where it was observed; the client's report totals the recorded findings per site."
+fields:
+  findings.cwe: {universe: cwe, value_form: code}
+  hosts.tld: {universe: tld, value_form: code}
+  findings.language: {universe: language, value_form: code}
+rule_templates:
+  - id: cwe_category
+    field: findings.cwe
+    effect: exclude_record
+    source: "CWE-699 and CWE-1000 views: findings are grouped by the weakness category they belong to."
+    rule: "Findings whose CWE number belongs to the named weakness category or cluster of the CWE catalogue are not counted."
+    plausible: [bad_coding_practices, audit, authenticate_actors, authorize_actors, cross_cutting,
+                encrypt_data, identify_actors, limit_access, limit_exposure, manage_user_sessions,
+                validate_inputs, verify_message_integrity, cwe1000_284, cwe1000_435, cwe1000_664,
+                cwe1000_682, cwe1000_691, cwe1000_693, cwe1000_697, cwe1000_703, cwe1000_707,
+                cwe1000_710, sfp_memory_access, sfp_information_leak, sfp_tainted_input,
+                sfp_authentication, sfp_privilege, sfp_malware, sfp_predictability, sfp_exposed_data,
+                sfp_path_traversal, sfp_tainted_input_command, cwe699_api_errors, cwe699_audit_logging,
+                cwe699_business_logic, cwe699_concurrency, cwe699_data_integrity, cwe699_memory_buffer,
+                cwe699_numeric, cwe699_resource_management]
+  - id: cwe_owasp
+    field: findings.cwe
+    effect: exclude_record
+    source: "OWASP Top Ten category pages in the CWE catalogue (2017, 2021 and 2025 editions)."
+    rule: "Findings whose CWE number falls under the named OWASP Top Ten category are not counted."
+    plausible: [owasp2017_a01, owasp2017_a02, owasp2017_a03, owasp2021_a01, owasp2021_a02,
+                owasp2021_a03, owasp2021_a04, owasp2021_a05, owasp2021_a07, owasp2021_a08,
+                owasp2025_a01, owasp2025_a02, owasp2025_a03, owasp2025_a04, owasp2025_a05,
+                owasp2025_a06, owasp2025_a07, owasp2025_a08, owasp2025_a09, owasp2025_a10]
+  - id: cwe_cisq
+    field: findings.cwe
+    effect: exclude_record
+    source: "CISQ quality-measure categories in the CWE catalogue."
+    rule: "Findings whose CWE number belongs to the named CISQ quality measure are not counted."
+    plausible: [cisq_reliability, cisq_maintainability, cisq_security, cisq_efficiency]
+  - id: cwe_view
+    field: findings.cwe
+    effect: exclude_record
+    source: "CWE-888 Software Fault Pattern (SFP) Clusters view of the CWE catalogue."
+    rule: "Findings whose CWE number belongs to the named software fault pattern cluster of the CWE catalogue are not counted."
+    plausible: [sfp_risky_values, sfp_entry_points, sfp_access_control, sfp_ui]
+  - id: cwe_official_category
+    field: findings.cwe
+    effect: exclude_record
+    source: "MITRE CWE official category and research-tree groupings: CWE-1400, CWE-700, CWE-699, CWE-1194, and CWE-1000."
+    rule: "Findings whose CWE number belongs to the named official CWE category or CWE-1000 class subtree are not counted."
+    plausible: [cwe1400_access_control, cwe1400_concurrency, cwe1400_encryption,
+                cwe1400_file_handling, cwe1400_improper_neutralization, cwe1400_injection,
+                cwe1400_memory_safety, cwe1400_poor_coding_practices,
+                cwe1400_resource_lifecycle_management, cwe1400_sensitive_information_exposure,
+                cwe700_security_features, cwe700_encapsulation,
+                cwe1194_privilege_separation, cwe1194_circuit_logic,
+                cwe699_authentication_errors, cwe699_authorization_errors,
+                cwe1000_285, cwe1000_1390]
+  - id: tld_organisation
+    field: hosts.tld
+    effect: exclude_record
+    source: "Each organisation's public member-state roster; the country-code TLD is the ISO 3166-1 alpha-2 country code."
+    rule: "Hosts whose TLD is the country-code TLD of a country on the named organisation's published member or candidate roster are not counted."
+    plausible: [eu_member_cctlds, schengen_cctlds, eea_cctlds, eurozone_cctlds, eu_candidate_cctlds,
+                nato_cctlds, oecd_cctlds, g7_cctlds, g20_cctlds, commonwealth_cctlds, asean_cctlds,
+                gcc_cctlds, brics_cctlds, mercosur_cctlds, caricom_cctlds, african_union_cctlds,
+                apec_cctlds, pif_cctlds, cplp_cctlds, arab_league_cctlds, saarc_cctlds, eaeu_cctlds,
+                sica_cctlds, five_eyes_cctlds]
+  - id: tld_union
+    field: hosts.tld
+    effect: exclude_record
+    source: "Member states of the named political or economic union, mapped to their country-code TLDs."
+    rule: "Hosts whose TLD belongs to a country that is a member of the named union or bloc are not counted."
+    plausible: [eu_member_cctlds, schengen_cctlds, eea_cctlds, eurozone_cctlds,
+                nato_cctlds, g7_cctlds, g20_cctlds, brics_cctlds, asean_cctlds, gcc_cctlds,
+                mercosur_cctlds, caricom_cctlds, african_union_cctlds, saarc_cctlds, eaeu_cctlds,
+                sica_cctlds, five_eyes_cctlds]
+  - id: tld_bloc
+    field: hosts.tld
+    effect: exclude_record
+    source: "Regional and intergovernmental blocs whose membership is a published country list."
+    rule: "Hosts using the country-code TLD of a member country of the named regional or intergovernmental bloc are not counted."
+    plausible: [commonwealth_cctlds, oecd_cctlds, apec_cctlds, pif_cctlds, cplp_cctlds,
+                arab_league_cctlds, schengen_cctlds, eea_cctlds, african_union_cctlds, caricom_cctlds]
+  - id: tld_regional_group
+    field: hosts.tld
+    effect: exclude_record
+    source: "Member-state tables of regional and intergovernmental organisations on English Wikipedia; the country-code TLD is the ISO 3166-1 alpha-2 country code."
+    rule: "Hosts whose TLD belongs to a country on the published member roster of the named regional or intergovernmental organisation are not counted."
+    plausible: [nordic_council_cctlds, igad_cctlds, comesa_cctlds, eccas_cctlds,
+                opec_cctlds, oas_cctlds, eac_cctlds, ecowas_cctlds, sadc_cctlds,
+                sco_cctlds, csto_cctlds, bimstec_cctlds, d8_cctlds, acs_cctlds,
+                oic_cctlds, amu_cctlds]
+  - id: lang_family
+    field: findings.language
+    effect: exclude_record
+    source: "Genealogical classification of languages (Wikipedia articles and Wikidata ancestor lists)."
+    rule: "Findings on pages whose language belongs to the named language family are not counted."
+    plausible: [romance_languages, germanic_languages, slavic_languages, celtic_languages,
+                indo_iranian_languages, finno_ugric_languages, semitic_languages, bantu_languages,
+                indo_aryan_languages, west_germanic_languages, south_slavic_languages,
+                balto_slavic_languages, italic_languages, north_germanic_languages, west_scandinavian_languages,
+                nguni_languages, southern_bantu_languages, gallo_romance_languages,
+                gallo_iberian_languages]
+  - id: lang_institution
+    field: findings.language
+    effect: exclude_record
+    source: "Official or working language lists of the named institution."
+    rule: "Findings on pages in one of the named institution's official or working languages are not counted."
+    plausible: [un_official_languages, eu_official_languages, au_working_languages,
+                nordic_council_languages, osce_official_languages, ots_official_languages]
+  - id: lang_schedule
+    field: findings.language
+    effect: exclude_record
+    source: "Official-language schedules of the named country or province."
+    rule: "Findings on pages in a language listed in the official-language schedule of the named country or province are not counted."
+    plausible: [india_eighth_schedule, south_africa_official, zimbabwe_official,
+                spain_official_languages, italy_law_482_languages, vojvodina_official_languages]
+  - id: lang_charter
+    field: findings.language
+    effect: exclude_record
+    source: "European Charter for Regional or Minority Languages (Council of Europe, ETS 148): the languages each state party protects."
+    rule: "Findings on pages in a language protected under the European Charter for Regional or Minority Languages in the named state are not counted."
+    plausible: [austria_charter_languages, bosnia_charter_languages, croatia_charter_languages,
+                finland_charter_languages, hungary_charter_languages, poland_charter_languages,
+                romania_charter_languages, serbia_charter_languages, slovakia_charter_languages,
+                slovenia_charter_languages, spain_charter_languages, ukraine_charter_languages]
+  - id: lang_official_census
+    field: findings.language
+    effect: exclude_record
+    source: "Country-level official-language schedules, census language tables, and established-language inventories named in the rule."
+    rule: "Findings on pages in a language on the named country's official-language schedule or in its published census or established-language inventory are not counted."
+    plausible: [canada_mother_tongue_languages, canada_knowledge_languages, finland_native_languages,
+                france_metropolitan_ethnologue_languages, india_2011_census_languages,
+                kazakhstan_census_languages, nepal_native_languages, spain_2021_census_languages,
+                turkey_1965_census_languages, turkey_ethnologue_languages,
+                ukraine_2001_census_languages, malaysia_indian_languages, italy_foreign_languages,
+                norway_non_native_languages, russia_official_languages, thailand_census_languages,
+                turkey_konda_languages, iran_gamaan_languages, pakistan_established_languages,
+                ethiopia_official_languages]
+label_nouns: [audit lane, reporting band, review line, scan queue, client folio]

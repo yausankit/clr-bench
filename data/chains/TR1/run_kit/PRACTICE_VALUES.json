@@ -1,0 +1,68 @@
+{
+ "claims.currency": {
+  "IRR": {
+   "example": "ZAR",
+   "label": "queue tag X-63",
+   "level": 3,
+   "member": true
+  },
+  "MXN": {
+   "example": "ZAR",
+   "label": "queue tag X-63",
+   "level": 3,
+   "member": false
+  }
+ },
+ "segments.airline": {
+  "Fly Lili": {
+   "example": "Air Canada",
+   "label": "settlement lane H9",
+   "level": 4,
+   "member": true
+  },
+  "ITA Airways": {
+   "example": "Lufthansa",
+   "label": "review queue B8",
+   "level": 1,
+   "member": false
+  },
+  "LATAM Airlines": {
+   "example": "Air Canada",
+   "label": "settlement lane H9",
+   "level": 4,
+   "member": false
+  },
+  "Thai Airways": {
+   "example": "Lufthansa",
+   "label": "review queue B8",
+   "level": 1,
+   "member": true
+  }
+ },
+ "segments.arrival_airport": {
+  "LUG": {
+   "example": "SOB",
+   "label": "desk label 11",
+   "level": 5,
+   "member": true
+  },
+  "MDS": {
+   "example": "SOB",
+   "label": "desk label 11",
+   "level": 5,
+   "member": false
+  },
+  "PMV": {
+   "example": "TMR",
+   "label": "routing bucket 18",
+   "level": 2,
+   "member": true
+  },
+  "SAL": {
+   "example": "TMR",
+   "label": "routing bucket 18",
+   "level": 2,
+   "member": false
+  }
+ }
+}

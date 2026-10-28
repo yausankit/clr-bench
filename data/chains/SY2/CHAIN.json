@@ -1,0 +1,351 @@
+{
+ "answer_format": "json",
+ "background": {
+  "conditions.code": [
+   "224355006",
+   "389087006",
+   "403190006",
+   "429007001",
+   "65710008",
+   "706893006",
+   "70704007",
+   "79586000",
+   "84229001",
+   "88805009"
+  ],
+  "medications.ingredient": [
+   "Alteplase",
+   "Amlodipine",
+   "Aztreonam",
+   "Cefuroxime",
+   "Doxycycline",
+   "Epirubicin",
+   "Ferrous sulfate",
+   "Losartan",
+   "Metformin",
+   "Vitamin B12"
+  ],
+  "procedures.code": [
+   "1225002",
+   "18946005",
+   "228557008",
+   "232717009",
+   "269911007",
+   "274031008",
+   "423475008",
+   "447365002",
+   "52765003",
+   "66348005"
+  ]
+ },
+ "course_id": "CLR_SY2",
+ "dataset": "SY",
+ "fields": [
+  "conditions.code",
+  "procedures.code",
+  "medications.ingredient"
+ ],
+ "id": "SY2",
+ "seed": 20266090,
+ "slots": [
+  {
+   "A": "443165006",
+   "C": "snomed_363059001",
+   "C_name": "Degenerative disorder of musculoskeletal system",
+   "N_p": "359817006",
+   "N_t": [
+    "263102004",
+    "58150001",
+    "370247008",
+    "713458007",
+    "156073000",
+    "423315002",
+    "132281000119108"
+   ],
+   "P_M": [
+    "239872002",
+    "201834006",
+    "239873007"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "snomed_106028002",
+      "snomed_118953000",
+      "snomed_125605004",
+      "snomed_417163006"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "snomed_106028002",
+    "snomed_118953000",
+    "snomed_125605004",
+    "snomed_417163006"
+   ],
+   "field": "conditions.code",
+   "label": "review tag W8",
+   "level": 1,
+   "salience": 25181.0,
+   "universe": "condition"
+  },
+  {
+   "A": "11466000",
+   "C": "snomed_118864003",
+   "C_name": "Procedure on uterus",
+   "N_p": "445912000",
+   "N_t": [
+    "236931002",
+    "433112001",
+    "392021009",
+    "31676001",
+    "169673001",
+    "275833003",
+    "398171003"
+   ],
+   "P_M": [
+    "46706006",
+    "65200003",
+    "274804006"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "mesh_e_e04_surgical_procedures_operative",
+      "snomed_118674002",
+      "snomed_118675001",
+      "snomed_118698009",
+      "snomed_609637006",
+      "snomed_74943008"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "mesh_e_e04_520_obstetric_surgical_procedures",
+    "mesh_e_e04_surgical_procedures_operative",
+    "snomed_118674002",
+    "snomed_118675001",
+    "snomed_118698009",
+    "snomed_386637004",
+    "snomed_386811000",
+    "snomed_609637006",
+    "snomed_74943008"
+   ],
+   "field": "procedures.code",
+   "label": "intake mark 85",
+   "level": 2,
+   "salience": 305025.0,
+   "universe": "procedure"
+  },
+  {
+   "A": "Doxorubicin",
+   "C": "who_eml_2023_s8_2_1_cytotoxic",
+   "C_name": "Cytotoxic medicines",
+   "N_p": "Tamoxifen",
+   "N_t": [
+    "Enoxaparin",
+    "Hydrocortisone",
+    "Propofol",
+    "Fentanyl",
+    "Acetaminophen",
+    "Fulvestrant",
+    "Tramadol"
+   ],
+   "P_M": [
+    "Leucovorin",
+    "Docetaxel",
+    "Oxaliplatin"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "mesh_d_d02_455_426_559_hydrocarbons_aromatic",
+      "mesh_d_d02_455_426_hydrocarbons_cyclic",
+      "mesh_d_d02_455_hydrocarbons",
+      "mesh_d_d04_polycyclic_compounds",
+      "mesh_d_d09_carbohydrates",
+      "who_eml_2023_s8_2_antineoplastics",
+      "who_emlc_2023_s8_2_antineoplastics"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "atc_l01",
+    "mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons",
+    "mesh_d_d02_455_426_559_hydrocarbons_aromatic",
+    "mesh_d_d02_455_426_hydrocarbons_cyclic",
+    "mesh_d_d02_455_hydrocarbons",
+    "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+    "mesh_d_d04_polycyclic_compounds",
+    "mesh_d_d09_carbohydrates",
+    "niosh_2024_table_1",
+    "who_eml_2023_s8_2_antineoplastics",
+    "who_emlc_2023_s8_2_1_cytotoxic",
+    "who_emlc_2023_s8_2_antineoplastics"
+   ],
+   "field": "medications.ingredient",
+   "label": "ledger mark A-57",
+   "level": 3,
+   "salience": 37648.0,
+   "universe": "medicine"
+  },
+  {
+   "A": "195662009",
+   "C": "snomed_363180009",
+   "C_name": "Inflammatory disorder of the respiratory tract",
+   "N_p": "67782005",
+   "N_t": [
+    "36955009",
+    "68235000",
+    "840539006",
+    "203082005",
+    "33737001",
+    "68962001",
+    "267060006"
+   ],
+   "P_M": [
+    "185086009",
+    "233604007",
+    "10509002"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "snomed_297268004",
+      "snomed_301186004",
+      "snomed_386617003",
+      "snomed_40733004"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "snomed_111273006",
+    "snomed_129134004",
+    "snomed_2704003",
+    "snomed_275498002",
+    "snomed_297268004",
+    "snomed_301186004",
+    "snomed_386617003",
+    "snomed_40733004"
+   ],
+   "field": "conditions.code",
+   "label": "batch lane Z3",
+   "level": 4,
+   "salience": 49280.0,
+   "universe": "condition"
+  },
+  {
+   "A": "122548005",
+   "C": "snomed_86273004",
+   "C_name": "Biopsy",
+   "N_p": "418891003",
+   "N_t": [
+    "71651007",
+    "88039007",
+    "90226004",
+    "395142003",
+    "443497002",
+    "165829005",
+    "408919008"
+   ],
+   "P_M": [
+    "76164006",
+    "65575008",
+    "432231006"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "mesh_e_e01_370_225_500_cytological_techniques",
+      "mesh_e_e01_370_225_clinical_laboratory_techniques",
+      "mesh_e_e01_370_diagnostic_techniques_and_procedures",
+      "mesh_e_e04_surgical_procedures_operative",
+      "mesh_e_e05_investigative_techniques",
+      "snomed_118695007",
+      "snomed_392089008"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "mesh_e_e01_370_225_500_cytological_techniques",
+    "mesh_e_e01_370_225_clinical_laboratory_techniques",
+    "mesh_e_e01_370_388_diagnostic_techniques_surgical",
+    "mesh_e_e01_370_diagnostic_techniques_and_procedures",
+    "mesh_e_e04_surgical_procedures_operative",
+    "mesh_e_e05_investigative_techniques",
+    "snomed_118695007",
+    "snomed_392089008"
+   ],
+   "field": "procedures.code",
+   "label": "desk slot 74",
+   "level": 5,
+   "salience": 64246.0,
+   "universe": "procedure"
+  }
+ ]
+}

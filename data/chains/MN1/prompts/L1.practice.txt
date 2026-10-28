@@ -1,0 +1,275 @@
+A manufacturing company's procurement audit team reviews raw-material purchase lots by factory before approving sourcing exceptions.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with a top-level 'factories' array. Each factory has a factory_id and a purchase_orders array; each purchase order has a purchase_order_id and a lots array. Each lot has lot_id, origin_country, carrier and material.
+
+Each purchase lot counts once toward its factory unless a level rule excludes one of the lot's field values.
+Return the largest total among the factories in the input, as an int.
+
+Field notes:
+- A lot whose origin_country is 'CA' is in ledger mark C8.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, lots in ledger mark C8 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+lots.origin_country:
+- AF — Afghanistan; Country in Southern Asia; ISO 3166-1 alpha-2 code AF.
+- AL — Albania; Country in Southeast Europe; ISO 3166-1 alpha-2 code AL.
+- AR — Argentina; Country in South America; ISO 3166-1 alpha-2 code AR.
+- AT — Austria; Country in Central Europe; ISO 3166-1 alpha-2 code AT.
+- BB — Barbados; Country in Caribbean; ISO 3166-1 alpha-2 code BB.
+- BE — Belgium; Country in Western Europe; ISO 3166-1 alpha-2 code BE.
+- BR — Brazil; Country in South America; ISO 3166-1 alpha-2 code BR.
+- CA — Canada; Country in North America; ISO 3166-1 alpha-2 code CA.
+- CN — China; Country in Eastern Asia; ISO 3166-1 alpha-2 code CN.
+- CO — Colombia; Country in South America; ISO 3166-1 alpha-2 code CO.
+- CV — Cape Verde; Country in Western Africa; ISO 3166-1 alpha-2 code CV.
+- DE — Germany; Country in Western Europe; ISO 3166-1 alpha-2 code DE.
+- DK — Denmark; Country in Northern Europe; ISO 3166-1 alpha-2 code DK.
+- EC — Ecuador; Country in South America; ISO 3166-1 alpha-2 code EC.
+- ES — Spain; Country in Southern Europe; ISO 3166-1 alpha-2 code ES.
+- GB — United Kingdom; Country in Northern Europe; ISO 3166-1 alpha-2 code GB.
+- IT — Italy; Country in Southern Europe; ISO 3166-1 alpha-2 code IT.
+- JO — Jordan; Country in Western Asia; ISO 3166-1 alpha-2 code JO.
+- JP — Japan; Country in Eastern Asia; ISO 3166-1 alpha-2 code JP.
+- MM — Myanmar; Country in South-Eastern Asia; ISO 3166-1 alpha-2 code MM.
+- MN — Mongolia; Country in Eastern Asia; ISO 3166-1 alpha-2 code MN.
+- MX — Mexico; Country in North America; ISO 3166-1 alpha-2 code MX.
+- NG — Nigeria; Country in Western Africa; ISO 3166-1 alpha-2 code NG.
+- NL — Netherlands; Country in Western Europe; ISO 3166-1 alpha-2 code NL.
+- PY — Paraguay; Country in South America; ISO 3166-1 alpha-2 code PY.
+- RO — Romania; Country in Southeast Europe; ISO 3166-1 alpha-2 code RO.
+- SK — Slovakia; Country in Central Europe; ISO 3166-1 alpha-2 code SK.
+- TH — Thailand; Country in South-Eastern Asia; ISO 3166-1 alpha-2 code TH.
+- TJ — Tajikistan; Country in Central Asia; ISO 3166-1 alpha-2 code TJ.
+- TR — Türkiye; Country in Western Asia; ISO 3166-1 alpha-2 code TR.
+- TV — Tuvalu; Country in Polynesia; ISO 3166-1 alpha-2 code TV.
+- UA — Ukraine; Country in Eastern Europe; ISO 3166-1 alpha-2 code UA.
+- US — United States; Country in North America; ISO 3166-1 alpha-2 code US.
+- VE — Venezuela; Country in South America; ISO 3166-1 alpha-2 code VE.
+lots.carrier:
+- Aer Lingus — Airline based in Ireland; airline designator EI.
+- Aerolíneas Argentinas — Airline based in Argentina; airline designator AR.
+- Air Astana — Airline based in Kazakhstan; airline designator KC.
+- Air France — Airline based in France; airline designator AF.
+- Air Senegal — Airline based in Senegal; airline designator HC.
+- All Nippon Airways — Airline based in Japan; airline designator NH.
+- British Airways — Airline based in United Kingdom; airline designator BA.
+- Brussels Airlines — Airline based in Belgium; airline designator SN.
+- Congo Airlines — Airline operator using designator EO.
+- Copa Airlines — Airline based in Panama; airline designator CM.
+- Eastern Airlines — Airline based in United States; airline designator 2D*.
+- EasyJet Switzerland — Airline based in Switzerland; airline designator DS.
+- Eurowings — Airline based in Germany; airline designator EW.
+- FlyGabon — Airline based in Gabon; airline designator J7.
+- Heston Airlines — Airline based in Lithuania; airline designator HN*.
+- IAG Cargo — Airline based in Vietnam.
+- JetSMART Argentina — Airline based in Argentina; airline designator WJ.
+- Lauda — Airline based in Austria; airline designator OE.
+- Malta Air — Airline based in Malta; airline designator MW.
+- Mandarin Airlines — Airline based in Chinese Taipei; airline designator AE.
+- Qantas — Airline based in Australia; airline designator QF.
+- Qatar Airways — Airline based in Qatar; airline designator QR.
+- Red Sea Airlines — Airline based in Egypt; airline designator 4S.
+- Shenzhen Airlines — Airline based in China / People's Republic of China; airline designator ZH.
+- SmartLynx Airlines Malta — Airline based in Malta.
+- Smartwings Hungary — Airline based in Hungary; airline designator 7O.
+- Smartwings Poland — Airline based in Poland; airline designator 3Z.
+- Solomon Airlines — Airline based in Solomon Islands; airline designator IE.
+- SriLankan Airlines — Airline based in Sri Lanka; airline designator UL.
+- Swiftair — Airline based in Spain; airline designator WT.
+- TACA — Airline based in El Salvador; airline designator TA.
+- TUI fly Nordic — Airline based in Denmark / Sweden; airline designator 6B.
+- Wamos Air — Airline based in Spain; airline designator EB.
+- flyadeal — Airline based in Saudi Arabia; airline designator F3.
+lots.material:
+- aluminum — Chemical element with symbol Al and atomic number 13; post-transition metal and solid at room temperature.
+- argon — Chemical element with symbol Ar and atomic number 18; noble gas and gas at room temperature.
+- cadmium — Chemical element with symbol Cd and atomic number 48; transition metal and solid at room temperature.
+- cerium — Chemical element with symbol Ce and atomic number 58; lanthanide and solid at room temperature.
+- chlorine — Chemical element with symbol Cl and atomic number 17; halogen and gas at room temperature.
+- chromium — Chemical element with symbol Cr and atomic number 24; transition metal and solid at room temperature.
+- einsteinium — Chemical element with symbol Es and atomic number 99; actinide and solid at room temperature.
+- europium — Chemical element with symbol Eu and atomic number 63; lanthanide and solid at room temperature.
+- germanium — Chemical element with symbol Ge and atomic number 32; metalloid and solid at room temperature.
+- hafnium — Chemical element with symbol Hf and atomic number 72; transition metal and solid at room temperature.
+- lutetium — Chemical element with symbol Lu and atomic number 71; lanthanide and solid at room temperature.
+- magnesium — Chemical element with symbol Mg and atomic number 12; alkaline earth metal and solid at room temperature.
+- neodymium — Chemical element with symbol Nd and atomic number 60; lanthanide and solid at room temperature.
+- nitrogen — Chemical element with symbol N and atomic number 7; nonmetal and gas at room temperature.
+- rubidium — Chemical element with symbol Rb and atomic number 37; alkali metal and solid at room temperature.
+- samarium — Chemical element with symbol Sm and atomic number 62; lanthanide and solid at room temperature.
+- scandium — Chemical element with symbol Sc and atomic number 21; transition metal and solid at room temperature.
+- sulfur — Chemical element with symbol S and atomic number 16; nonmetal and solid at room temperature.
+- tellurium — Chemical element with symbol Te and atomic number 52; metalloid and solid at room temperature.
+- thulium — Chemical element with symbol Tm and atomic number 69; lanthanide and solid at room temperature.
+- xenon — Chemical element with symbol Xe and atomic number 54; noble gas and gas at room temperature.
+- yttrium — Chemical element with symbol Y and atomic number 39; transition metal and solid at room temperature.
+
+Example input:
+{
+ "factories": [
+  {
+   "factory_id": "F008",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "TUI fly Nordic",
+       "lot_id": "L00052",
+       "material": "germanium",
+       "origin_country": "CN"
+      },
+      {
+       "carrier": "Wamos Air",
+       "lot_id": "L00053",
+       "material": "chlorine",
+       "origin_country": "CV"
+      }
+     ],
+     "purchase_order_id": "PO0015",
+     "receiving_month": "2025-04"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Congo Airlines",
+       "lot_id": "L00054",
+       "material": "argon",
+       "origin_country": "CN"
+      },
+      {
+       "carrier": "TACA",
+       "lot_id": "L00055",
+       "material": "chromium",
+       "origin_country": "AT"
+      },
+      {
+       "carrier": "Congo Airlines",
+       "lot_id": "L00056",
+       "material": "germanium",
+       "origin_country": "TH"
+      }
+     ],
+     "purchase_order_id": "PO0016",
+     "receiving_month": "2025-05"
+    }
+   ],
+   "site_name": "Plant 008"
+  },
+  {
+   "factory_id": "F033",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "Air Astana",
+       "lot_id": "L00225",
+       "material": "chlorine",
+       "origin_country": "UA"
+      },
+      {
+       "carrier": "Congo Airlines",
+       "lot_id": "L00226",
+       "material": "germanium",
+       "origin_country": "CO"
+      },
+      {
+       "carrier": "Air Astana",
+       "lot_id": "L00227",
+       "material": "aluminum",
+       "origin_country": "CV"
+      }
+     ],
+     "purchase_order_id": "PO0065",
+     "receiving_month": "2025-06"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Smartwings Poland",
+       "lot_id": "L00228",
+       "material": "aluminum",
+       "origin_country": "AF"
+      },
+      {
+       "carrier": "flyadeal",
+       "lot_id": "L00229",
+       "material": "einsteinium",
+       "origin_country": "MN"
+      },
+      {
+       "carrier": "flyadeal",
+       "lot_id": "L00230",
+       "material": "cadmium",
+       "origin_country": "AR"
+      },
+      {
+       "carrier": "TACA",
+       "lot_id": "L00231",
+       "material": "xenon",
+       "origin_country": "AT"
+      }
+     ],
+     "purchase_order_id": "PO0066",
+     "receiving_month": "2025-07"
+    }
+   ],
+   "site_name": "Plant 033"
+  },
+  {
+   "factory_id": "F036",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "flyadeal",
+       "lot_id": "L00248",
+       "material": "magnesium",
+       "origin_country": "MN"
+      },
+      {
+       "carrier": "Air Astana",
+       "lot_id": "L00249",
+       "material": "chromium",
+       "origin_country": "CA"
+      }
+     ],
+     "purchase_order_id": "PO0071",
+     "receiving_month": "2025-12"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "FlyGabon",
+       "lot_id": "L00250",
+       "material": "germanium",
+       "origin_country": "CO"
+      },
+      {
+       "carrier": "Smartwings Poland",
+       "lot_id": "L00251",
+       "material": "chlorine",
+       "origin_country": "AT"
+      },
+      {
+       "carrier": "Aerolíneas Argentinas",
+       "lot_id": "L00252",
+       "material": "chlorine",
+       "origin_country": "UA"
+      }
+     ],
+     "purchase_order_id": "PO0072",
+     "receiving_month": "2025-01"
+    }
+   ],
+   "site_name": "Plant 036"
+  }
+ ]
+}

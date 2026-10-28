@@ -1,0 +1,349 @@
+{
+ "answer_format": "json",
+ "background": {
+  "conditions.code": [
+   "162864005",
+   "239873007",
+   "26929004",
+   "368581000119106",
+   "36955009",
+   "389087006",
+   "403191005",
+   "410429000",
+   "741062008",
+   "770349000"
+  ],
+  "medications.ingredient": [
+   "Amlodipine",
+   "Cisplatin",
+   "Clopidogrel",
+   "Cyclosporine",
+   "Digoxin",
+   "Leuprolide",
+   "Levonorgestrel",
+   "Loratadine",
+   "Milnacipran",
+   "Oxaliplatin"
+  ],
+  "procedures.code": [
+   "118001005",
+   "165829005",
+   "167271000",
+   "171207006",
+   "19490002",
+   "268556000",
+   "312681000",
+   "395142003",
+   "703423002",
+   "90226004"
+  ]
+ },
+ "course_id": "CLR_SY1",
+ "dataset": "SY",
+ "fields": [
+  "conditions.code",
+  "procedures.code",
+  "medications.ingredient"
+ ],
+ "id": "SY1",
+ "seed": 20266089,
+ "slots": [
+  {
+   "A": "75498004",
+   "C": "snomed_129134004",
+   "C_name": "Inflammatory disorder of upper respiratory tract",
+   "N_p": "233604007",
+   "N_t": [
+    "267102003",
+    "45816000",
+    "68235000",
+    "57676002",
+    "80583007",
+    "423315002",
+    "126906006"
+   ],
+   "P_M": [
+    "36971009",
+    "40055000",
+    "43878008"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "snomed_297268004",
+      "snomed_301186004",
+      "snomed_40733004"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "snomed_111273006",
+    "snomed_2704003",
+    "snomed_275498002",
+    "snomed_297268004",
+    "snomed_301186004",
+    "snomed_363176004",
+    "snomed_363180009",
+    "snomed_40733004"
+   ],
+   "field": "conditions.code",
+   "label": "desk slot C2",
+   "level": 1,
+   "salience": 58622.0,
+   "universe": "condition"
+  },
+  {
+   "A": "11466000",
+   "C": "snomed_118675001",
+   "C_name": "Procedure on female genital system",
+   "N_p": "65575008",
+   "N_t": [
+    "45595009",
+    "429609002",
+    "90470006",
+    "60027007",
+    "313191000",
+    "22523008",
+    "432231006"
+   ],
+   "P_M": [
+    "35025007",
+    "236931002",
+    "65200003"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "mesh_e_e04_surgical_procedures_operative",
+      "snomed_118674002",
+      "snomed_118698009",
+      "snomed_609637006",
+      "snomed_74943008"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "mesh_e_e04_520_obstetric_surgical_procedures",
+    "mesh_e_e04_surgical_procedures_operative",
+    "snomed_118674002",
+    "snomed_118698009",
+    "snomed_118864003",
+    "snomed_386637004",
+    "snomed_386811000",
+    "snomed_609637006",
+    "snomed_74943008"
+   ],
+   "field": "procedures.code",
+   "label": "audit lane 52",
+   "level": 2,
+   "salience": 309647.0,
+   "universe": "procedure"
+  },
+  {
+   "A": "Morphine",
+   "C": "dea_schedule_ii",
+   "C_name": "Schedule II controlled substances",
+   "N_p": "Tramadol",
+   "N_t": [
+    "Pregabalin",
+    "Galantamine",
+    "Simvastatin",
+    "Vancomycin",
+    "Metformin",
+    "Naproxen",
+    "Doxycycline"
+   ],
+   "P_M": [
+    "Methylphenidate",
+    "Remifentanil",
+    "Meperidine"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "atc_n02",
+      "mesh_d_d03_132_alkaloids",
+      "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+      "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+      "mesh_d_d04_polycyclic_compounds",
+      "stopp_start_v3_section_l"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "atc_n02",
+    "atc_n02a",
+    "mesh_d_d03_132_alkaloids",
+    "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+    "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+    "mesh_d_d04_polycyclic_compounds",
+    "mesh_pa_analgesics_opioid",
+    "mesh_pa_narcotics",
+    "stopp_start_v3_section_l",
+    "who_eml_2023_s1_anaesthetics"
+   ],
+   "field": "medications.ingredient",
+   "label": "ledger mark A-70",
+   "level": 3,
+   "salience": 328386.0,
+   "universe": "medicine"
+  },
+  {
+   "A": "195662009",
+   "C": "snomed_40733004",
+   "C_name": "Infection",
+   "N_p": "24079001",
+   "N_t": [
+    "249497008",
+    "367498001",
+    "446096008",
+    "424132000",
+    "55822004",
+    "44054006",
+    "62564004"
+   ],
+   "P_M": [
+    "840539006",
+    "301011002",
+    "11218009"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "snomed_129134004",
+      "snomed_297268004",
+      "snomed_301186004",
+      "snomed_363180009",
+      "snomed_386617003"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "snomed_111273006",
+    "snomed_129134004",
+    "snomed_2704003",
+    "snomed_275498002",
+    "snomed_297268004",
+    "snomed_301186004",
+    "snomed_363180009",
+    "snomed_386617003"
+   ],
+   "field": "conditions.code",
+   "label": "routing lane J6",
+   "level": 4,
+   "salience": 187496.0,
+   "universe": "condition"
+  },
+  {
+   "A": "445912000",
+   "C": "snomed_128303001",
+   "C_name": "Surgical removal",
+   "N_p": "232717009",
+   "N_t": [
+    "287664005",
+    "76164006",
+    "85548006",
+    "290045001",
+    "47758006",
+    "385798007",
+    "29303009"
+   ],
+   "P_M": [
+    "443497002",
+    "234262008",
+    "392021009"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "snomed_118674002",
+      "snomed_118675001",
+      "snomed_118698009",
+      "snomed_386637004",
+      "snomed_609637006",
+      "snomed_74943008"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "snomed_108189003",
+    "snomed_118674002",
+    "snomed_118675001",
+    "snomed_118698009",
+    "snomed_386637004",
+    "snomed_609637006",
+    "snomed_74943008"
+   ],
+   "field": "procedures.code",
+   "label": "queue tag 93",
+   "level": 5,
+   "salience": 16518.0,
+   "universe": "procedure"
+  }
+ ]
+}

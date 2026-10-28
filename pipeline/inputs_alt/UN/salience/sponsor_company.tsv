@@ -1,0 +1,13 @@
+concept_id	wiki_title	match	pageviews_12m	note
+euro_stoxx_50	EURO_STOXX_50	exact_title	609936	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+stoxx_europe_600	STOXX_Europe_600	exact_title	143020	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+euronext_100	Euronext_100	exact_title	21881	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+ftse_100	FTSE_100_Index	exact_title	935586	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+dow_jones	List_of_Dow_Jones_Industrial_Average_companies	exact_title	76049	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+omx_nordic_40	OMX_Nordic_40	exact_title	8811	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+sp500	S&P_500	exact_title	1555797	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+nasdaq_100	Nasdaq-100	exact_title	16238813	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+dow_global_titans	Dow_Jones_Global_Titans_50	exact_title	46575	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+g_sib	List_of_systemically_important_banks	exact_title	92246	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+fortune_global_500	fortune_global_500	exact_title	14	monthly English Wikipedia pageviews, 2025-10-01 through 2026-09-30
+interbrand_top10_2025	Interbrand Best Global Brands top 10 (2025)	no_page	0	pageviews REST returned 404

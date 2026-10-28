@@ -1,0 +1,68 @@
+{
+ "conditions.code": {
+  "185086009": {
+   "example": "195662009",
+   "label": "batch lane Z3",
+   "level": 4,
+   "member": true
+  },
+  "239872002": {
+   "example": "443165006",
+   "label": "review tag W8",
+   "level": 1,
+   "member": true
+  },
+  "359817006": {
+   "example": "443165006",
+   "label": "review tag W8",
+   "level": 1,
+   "member": false
+  },
+  "67782005": {
+   "example": "195662009",
+   "label": "batch lane Z3",
+   "level": 4,
+   "member": false
+  }
+ },
+ "medications.ingredient": {
+  "Leucovorin": {
+   "example": "Doxorubicin",
+   "label": "ledger mark A-57",
+   "level": 3,
+   "member": true
+  },
+  "Tamoxifen": {
+   "example": "Doxorubicin",
+   "label": "ledger mark A-57",
+   "level": 3,
+   "member": false
+  }
+ },
+ "procedures.code": {
+  "418891003": {
+   "example": "122548005",
+   "label": "desk slot 74",
+   "level": 5,
+   "member": false
+  },
+  "445912000": {
+   "example": "11466000",
+   "label": "intake mark 85",
+   "level": 2,
+   "member": false
+  },
+  "46706006": {
+   "example": "11466000",
+   "label": "intake mark 85",
+   "level": 2,
+   "member": true
+  },
+  "76164006": {
+   "example": "122548005",
+   "label": "desk slot 74",
+   "level": 5,
+   "member": true
+  }
+ }
+}

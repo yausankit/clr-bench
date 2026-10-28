@@ -1,0 +1,17 @@
+id: CH1
+dataset: CH
+seed: 20266102
+period: {start: 2025, end: 2026}
+snapshot: 2026-10-16
+fields:
+  - field: lines.substance
+    universe: chemical
+    templates: [chem_pops, chem_weapons, chem_hazard, chem_water, chem_ozone]
+  - field: declarations.exporter_country
+    universe: country
+    templates: [country_europe, country_control, country_regional]
+  - field: shipments.air_carrier
+    universe: carrier
+    templates: [carrier_alliance, carrier_americas, carrier_europe]
+slots: 5
+probe: {criterion: soft}

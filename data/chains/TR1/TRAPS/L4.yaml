@@ -1,0 +1,48 @@
+A: Air Canada
+C: nato_airlines
+C_name: Airlines of NATO member states
+N_p: LATAM Airlines
+N_t:
+- Jetstar Airways
+- Akasa Air
+- Singapore Airlines
+- KLM Asia
+- Interair South Africa
+- Pakistan International Airlines
+- Maldivian
+P_M:
+- Fly Lili
+- ETF Airways
+- Air Albania
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - apec_airlines
+    - commonwealth_airlines
+    - flag_carrier_airlines
+    - g20_airlines
+    - oecd_airlines
+    - star_alliance_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- apec_airlines
+- commonwealth_airlines
+- flag_carrier_airlines
+- g20_airlines
+- oas_airlines
+- oecd_airlines
+- star_alliance_founding
+- star_alliance_members
+field: segments.airline
+label: settlement lane H9
+salience: 2129009.0
+universe: airline

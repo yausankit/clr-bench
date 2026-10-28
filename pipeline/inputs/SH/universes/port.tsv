@@ -1,0 +1,752 @@
+value	entity	attr:country	attr:continent
+AEDXB	Dubai	AE	?
+AESHJ	Sharjah	AE	?
+AFDHD	Dehdadi	AF	?
+AFQLT	Qalat	AF	?
+AGANU	Antigua	AG	?
+AGBBQ	Barbuda	AG	?
+AIMBB	Meads Bay Beach	AI	?
+AIRBY	Road Bay	AI	?
+ALBUT	Butrint	AL	?
+ALDRZ	Durres	AL	?
+AMJER	Jermuk	AM	?
+AOAZZ	Ambriz	AO	?
+AOBAB	Baba	AO	?
+AQABA	Aboa	AQ	?
+AQARC	Arctowski	AQ	?
+ARBUE	Buenos Aires	AR	?
+ARGEO	Agrelo	AR	?
+ASPPG	Pago Pago	AS	?
+ATATK	Paternion	AT	?
+ATATN	Asten	AT	?
+ATBFS	Bischofshofen	AT	?
+ATBRZ	Bregenz	AT	?
+ATDFC	Engerwitzdorf	AT	?
+ATDKZ	Deutschkreutz	AT	?
+ATDUE	Durnstein	AT	?
+ATDWA	Deutsch Wagram	AT	?
+ATEBR	Ebreichsdorf	AT	?
+ATFHR	Fehring	AT	?
+ATFPS	Fulpmes	AT	?
+ATGDN	Gmunden	AT	?
+ATGHH	Haugsdorf	AT	?
+ATGRN	Grein	AT	?
+ATITN	Hausleiten	AT	?
+ATJPS	Japons	AT	?
+ATKFD	Knittelfeld	AT	?
+ATKMB	Krummnussbaum	AT	?
+ATKTT	Kematen in Tirol	AT	?
+ATLTX	Hainfeld	AT	?
+ATLZD	Langenzersdorf	AT	?
+ATMBS	Morbisch am See	AT	?
+ATMKC	Mitterkirchen	AT	?
+ATNAD	Neuhofen an der Ybbs	AT	?
+ATNUZ	Nuziders	AT	?
+ATOBU	Oberneukirchen	AT	?
+ATOSH	Ottensheim	AT	?
+ATREG	Regau	AT	?
+ATSAK	Sankt Aegidi	AT	?
+ATSFT	Senftenberg	AT	?
+ATSMK	Schonau im Muhlkreis	AT	?
+ATSMR	Sankt Margarethen an der Raab	AT	?
+ATSPZ	Spitz	AT	?
+ATST6	Straden	AT	?
+ATSUS	Steinhaus	AT	?
+ATSVM	Sankt Veit im Muhlkreis	AT	?
+ATTAM	Tamsweg	AT	?
+ATTEN	Hausmannstatten	AT	?
+ATTFS	Terfens	AT	?
+ATTKP	Taufkirchen an der Pram	AT	?
+ATTMR	Traismauer	AT	?
+ATVEL	Velden	AT	?
+ATWUL	Wulkaprodersdorf	AT	?
+AUADL	Adelaide	AU	?
+AUMEL	Melbourne	AU	?
+AWAUA	Aruba	AW	?
+AWBAR	Barcadera	AW	?
+AXMHQ	Mariehamn (Maarianhamina)	AX	?
+AZBAK	Baku	AZ	?
+AZKMZ	Khachmaz	AZ	?
+BA4CA	Cazin	BA	?
+BABIR	Biracevac	BA	?
+BBBGI	Bridgetown	BB	?
+BBSTM	Saint Michael	BB	?
+BDASJ	Ashuganj	BD	?
+BDBZL	Barisal	BD	?
+BEBRU	Bruxelles (Brussel)	BE	?
+BEGNE	Gent (Ghent)	BE	?
+BEKJK	Kortrijk	BE	?
+BEZEE	Zeebrugge	BE	?
+BFOB2	Ziniare	BF	?
+BGAKH	Akhtopol	BG	?
+BGBOJ	Burgas	BG	?
+BHAHD	Al Hidd	BH	?
+BHGBQ	Al Muharraq	BH	?
+BICBK	Cibitoke	BI	?
+BJCOO	Cotonou	BJ	?
+BJPTN	Porto-Novo	BJ	?
+BLSBH	Saint-Barthelemy	BL	?
+BMBDA	Hamilton	BM	?
+BMSEV	Devonshire	BM	?
+BNBWN	Bandar Seri Begawan	BN	?
+BNKUB	Kuala Belait	BN	?
+BOCPB	Copacabana	BO	?
+BOGUQ	Guaqui	BO	?
+BQBON	Bonaire	BQ	?
+BQRIN	Dorp Rincon	BQ	?
+BRBEL	Belem	BR	?
+BRFOR	Fortaleza	BR	?
+BRSSA	Salvador	BR	?
+BRSSZ	Santos	BR	?
+BSASD	Andros Town, Andros Island	BS	?
+BSNAS	Nassau	BS	?
+BWDUK	Dukwi	BW	?
+BWMAH	Mahalapye	BW	?
+BYKLK	Kletsk	BY	?
+BYKYC	Kostyukovichi	BY	?
+BZBAR	Barranco	BZ	?
+BZBZE	Belize City	BZ	?
+CAHAL	Halifax	CA	?
+CAMTR	Montreal	CA	?
+CAPRR	Prince Rupert	CA	?
+CAQUE	Quebec	CA	?
+CATOR	Toronto	CA	?
+CAVAN	Vancouver	CA	?
+CCCCK	Cocos Islands	CC	?
+CDBNW	Banana	CD	?
+CDFIH	Kinshasa	CD	?
+CFTOG	Togo	CF	?
+CGDJE	Djeno Terminal	CG	?
+CGMOS	Mossaka	CG	?
+CHBSL	Basel	CH	?
+CHKRZ	Kreuzlingen	CH	?
+CIABJ	Abidjan	CI	?
+CIASS	Assinie-Mafia	CI	?
+CKAIT	Aitutaki	CK	?
+CKARU	Arutunga	CK	?
+CLVAP	Valparaiso	CL	?
+CLZUD	Ancud	CL	?
+CMDLA	Douala	CM	?
+CMGOU	Garoua	CM	?
+CNCNG	Chengde	CN	?
+CNCSH	Changsha	CN	?
+CNDAL	Dalian	CN	?
+CNGGZ	Guangzhou	CN	?
+CNGUI	Guilin	CN	?
+CNHRN	Harbin	CN	?
+CNNHN	Wuhan	CN	?
+CNNJI	Nanjing	CN	?
+CNQIN	Qingdao	CN	?
+CNSGH	Shanghai	CN	?
+CNSZH	Suzhou	CN	?
+CNTNJ	Tianjin	CN	?
+CNWXS	Wuxi	CN	?
+CNXAM	Xiamen	CN	?
+CNXIA	Xian	CN	?
+CNYZH	Yangzhou	CN	?
+COBUN	Buenaventura	CO	?
+COCTG	Cartagena	CO	?
+CRABG	Abangares	CR	?
+CRSJO	San Jose	CR	?
+CUCMW	Camaguey	CU	?
+CUHAV	La Habana	CU	?
+CVGRA	Porto Grande	CV	?
+CVMIN	Mindelo	CV	?
+CWBUB	Bullenbaai	CW	?
+CWWIL	Willemstad	CW	?
+CXFFC	Flying Fish Cove	CX	?
+CYAKT	Akrotiri	CY	?
+CYNIC	Nicosia	CY	?
+CZBAR	Bartosovice	CZ	?
+CZBBC	Babice	CZ	?
+DEAAH	Aachen	DE	?
+DEADT	Weinstadt	DE	?
+DEAGB	Augsburg	DE	?
+DEAND	Andernach	DE	?
+DEBAM	Bamberg	DE	?
+DEBBH	Barth	DE	?
+DEBER	Berlin	DE	?
+DEBHE	Bad Hersfeld	DE	?
+DEBON	Bonn	DE	?
+DEBOY	Bad Oeynhausen	DE	?
+DEBRE	Bremen	DE	?
+DEBRV	Bremerhaven	DE	?
+DEBSA	Bad Sackingen	DE	?
+DEBSH	Breisach	DE	?
+DEBUL	Buhl	DE	?
+DEBWE	Braunschweig	DE	?
+DECGN	Koln	DE	?
+DECRL	Castrop-Rauxel	DE	?
+DEDAT	Datteln	DE	?
+DEDIN	Dinslaken	DE	?
+DEDMG	Dormagen	DE	?
+DEDON	Dorsten	DE	?
+DEDRS	Dresden	DE	?
+DEDTM	Dortmund	DE	?
+DEDUS	Dusseldorf	DE	?
+DEEAM	Erlenbach am Main	DE	?
+DEECK	Eckernforde	DE	?
+DEELM	Elmshorn	DE	?
+DEEME	Emden	DE	?
+DEESS	Essen	DE	?
+DEFDH	Friedrichshafen	DE	?
+DEFRA	Frankfurt am Main	DE	?
+DEGEK	Gelsenkirchen	DE	?
+DEGIG	Ginsheim-Gustavsburg	DE	?
+DEGNU	Gronau	DE	?
+DEGRD	Greifswald	DE	?
+DEHAJ	Hannover	DE	?
+DEHAM	Hamburg	DE	?
+DEHAN	Hameln	DE	?
+DEHAU	Hanau	DE	?
+DEHEI	Heidelberg	DE	?
+DEHEN	Heilbronn	DE	?
+DEHMM	Hamm	DE	?
+DEHRB	Horneburg	DE	?
+DEHRT	Herten	DE	?
+DEING	Ingolstadt	DE	?
+DEKAE	Karlsruhe	DE	?
+DEKBN	Karben	DE	?
+DEKEH	Kehl	DE	?
+DEKEL	Kiel	DE	?
+DEKOB	Koblenz am Rhein	DE	?
+DEKON	Konstanz	DE	?
+DELBC	Lubeck	DE	?
+DELDH	Landshut	DE	?
+DELEV	Leverkusen	DE	?
+DELIG	Lingen	DE	?
+DELIU	Lindau	DE	?
+DELUH	Ludwigshafen	DE	?
+DEMAG	Magdeburg	DE	?
+DEMAI	Mainz	DE	?
+DEMAM	Malente	DE	?
+DEMHG	Mannheim	DE	?
+DEMHM	Monheim	DE	?
+DEMSR	Munster	DE	?
+DEMUH	Mulheim an der Ruhr	DE	?
+DENHN	Nordhorn	DE	?
+DENIE	Nienburg	DE	?
+DENUE	Nurnberg	DE	?
+DEOFF	Offenbach	DE	?
+DEOSN	Osnabruck	DE	?
+DEPAP	Papenburg	DE	?
+DEPOT	Potsdam	DE	?
+DERAD	Radolfzell	DE	?
+DEREG	Regensburg	DE	?
+DEREN	Rendsburg	DE	?
+DERHB	Rheinberg	DE	?
+DERHE	Rheine	DE	?
+DERHX	Bad Durrheim	DE	?
+DEROS	Rosenheim	DE	?
+DERSK	Rostock	DE	?
+DESCN	Saarbrucken	DE	?
+DESDT	Schwedt	DE	?
+DESLS	Schleswig	DE	?
+DESNE	Sehnde	DE	?
+DESPE	Speyer	DE	?
+DESTB	Straubing	DE	?
+DESTL	Stralsund	DE	?
+DESWZ	Schwarzenbruck	DE	?
+DETRI	Trier	DE	?
+DEUEB	Uberlingen	DE	?
+DEUEL	Uelzen	DE	?
+DEULM	Ulm	DE	?
+DEVBS	Vilsbiburg	DE	?
+DEWIB	Wiesbaden	DE	?
+DEWIS	Wismar	DE	?
+DEWOE	Worth am Rhein	DE	?
+DEWOR	Worms	DE	?
+DEWTM	Wertheim	DE	?
+DEWTP	Waltrop	DE	?
+DEWUE	Wurzburg	DE	?
+DEWVN	Wilhelmshaven	DE	?
+DJDMJ	Damerjog	DJ	?
+DJJIB	Djibouti	DJ	?
+DKAAR	Aarhus	DK	?
+DKCPH	Kobenhavn	DK	?
+DKEBJ	Esbjerg	DK	?
+DKFRC	Fredericia	DK	?
+DKHLS	Helsingor	DK	?
+DKHUN	Hundested	DK	?
+DKKAL	Kalundborg	DK	?
+DKKOL	Kolding	DK	?
+DKSKA	Skagen	DK	?
+DMADM	Anse du Mai	DM	?
+DMBEL	Belfast	DM	?
+DOAZU	Azua	DO	?
+DOSDQ	Santo Domingo	DO	?
+DZAAE	Annaba (ex Bone)	DZ	?
+DZALG	Alger (Algiers)	DZ	?
+ECBHA	Bahia de Caraquez	EC	?
+ECDUN	Duran	EC	?
+EEPRN	Parnu	EE	?
+EETLL	Tallinn	EE	?
+EGAGN	Abu Ghosoun	EG	?
+EGALY	El Iskandariya (Alexandria)	EG	?
+EHEAI	Ejbei Uad el Aabd	EH	?
+ERASA	Assab	ER	?
+ERMSW	Massawa (Mitsiwa)	ER	?
+ESBCN	Barcelona	ES	?
+ESBIO	Bilbao	ES	?
+ESCAD	Cadiz	ES	?
+ESCEU	Ceuta	ES	?
+ESFRO	Ferrol	ES	?
+ESIBZ	Ibiza	ES	?
+ESSDR	Santander	ES	?
+ESSVQ	Sevilla	ES	?
+ESTAR	Tarragona	ES	?
+ESVGO	Vigo	ES	?
+ESVLC	Valencia	ES	?
+FIHEL	Helsinki	FI	?
+FIJYV	Jyvaskyla	FI	?
+FIKTK	Kotka	FI	?
+FIPRV	Porvoo (Borga)	FI	?
+FITKU	Abo (Turku)	FI	?
+FJDEN	Denarau	FJ	?
+FJELL	Ellington Wharf	FJ	?
+FKFBE	Fox Bay	FK	?
+FKPSY	Port Stanley	FK	?
+FMEAU	Eauripik Atoll	FM	?
+FMTKK	Chuuk (ex Truk)	FM	?
+FOKVI	Klaksvik	FO	?
+FORVK	Runavik	FO	?
+FOTOR	Torshavn	FO	?
+FOTVO	Tvoroyri	FO	?
+FOVAG	Vagur	FO	?
+FRBES	Brest	FR	?
+FRBOD	Bordeaux	FR	?
+FRCFR	Caen	FR	?
+FRENC	Nancy	FR	?
+FRHON	Honfleur	FR	?
+FRLEH	Le Havre	FR	?
+FRLIO	Lyon	FR	?
+FRLRH	La Rochelle	FR	?
+FRMRS	Marseille	FR	?
+FRMZM	Metz	FR	?
+FRNCE	Nice	FR	?
+FRNTE	Nantes	FR	?
+FRPAR	Paris	FR	?
+FRSET	Sete	FR	?
+FRSML	Saint-Malo	FR	?
+FRSXB	Strasbourg	FR	?
+FRURO	Rouen	FR	?
+GACCB	Cocobeach	GA	?
+GAEKU	Equata	GA	?
+GBABD	Aberdeen	GB	?
+GBBEL	Belfast	GB	?
+GBBRF	Bradford	GB	?
+GBDUN	Dundee	GB	?
+GBDVR	Dover	GB	?
+GBEDI	Edinburgh	GB	?
+GBEXE	Exeter	GB	?
+GBFAL	Falmouth	GB	?
+GBFXT	Felixstowe	GB	?
+GBGLA	Glenarm	GB	?
+GBGLW	Glasgow	GB	?
+GBHLY	Holyhead	GB	?
+GBHRW	Harwich	GB	?
+GBHUL	Hull	GB	?
+GBINV	Inverness	GB	?
+GBIVG	Invergordon	GB	?
+GBLAR	Larne	GB	?
+GBLER	Lerwick	GB	?
+GBLIV	Liverpool	GB	?
+GBLON	London	GB	?
+GBMNC	Manchester	GB	?
+GBMON	Montrose	GB	?
+GBNCL	Newcastle upon Tyne	GB	?
+GBNRW	Norwich	GB	?
+GBNTG	Nottingham	GB	?
+GBORK	Orkney	GB	?
+GBPLY	Plymouth	GB	?
+GBPME	Portsmouth	GB	?
+GBPOO	Poole	GB	?
+GBPTL	Portland	GB	?
+GBSCR	Scrabster	GB	?
+GBSOU	Southampton	GB	?
+GBSTO	Stornoway	GB	?
+GBTOR	Torquay	GB	?
+GBTYN	Tyne	GB	?
+GDSTG	Saint George's	GD	?
+GEANA	Anaklia	GE	?
+GEBUS	Batumi	GE	?
+GFCAY	Cayenne	GF	?
+GFCCY	Awala-Yalimapo	GF	?
+GGACI	Alderney	GG	?
+GGGCI	Guernsey	GG	?
+GHSPD	Saltpond	GH	?
+GHTKD	Takoradi	GH	?
+GIGIB	Gibraltar	GI	?
+GLJEG	Aasiaat (Egedesminde)	GL	?
+GLOBY	Illorqortoormiut (Scoresbysund)	GL	?
+GMBJL	Banjul	GM	?
+GMSUK	Sukuta	GM	?
+GNCKY	Conakry	GN	?
+GNSBY	Moresby	GN	?
+GPBMH	Baie-Mahault	GP	?
+GPFPI	Anse-Bertrand	GP	?
+GQBSG	Bata	GQ	?
+GQBUL	Butuku-Luba	GQ	?
+GRCFU	Kerkira (Corfu)	GR	?
+GRHER	Iraklion (Heraklion)	GR	?
+GRIGO	Igoumenitsa	GR	?
+GRKRT	Korinthos	GR	?
+GRKVA	Kavala	GR	?
+GRPIR	Piraeus	GR	?
+GRSKG	Thessaloniki	GR	?
+GSGRV	Grytviken	GS	?
+GSLEH	Leith Harbour	GS	?
+GTCHR	Champerico	GT	?
+GTE8C	El Carmen	GT	?
+GUAPR	Apra (Agana)	GU	?
+GUBRR	Barrigada	GU	?
+GWBNT	Binta	GW	?
+GWOXB	Bissau	GW	?
+GYANT	Adventure	GY	?
+GYGFO	Bartica	GY	?
+HKABD	Aberdeen	HK	?
+HKHKG	Hong Kong	HK	?
+HMHEA	Heard Island	HM	?
+HMMCD	McDonald Island	HM	?
+HNAMP	Amapala	HN	?
+HNGJA	Guanaja	HN	?
+HRDBV	Dubrovnik	HR	?
+HRRJK	Rijeka	HR	?
+HRSPU	Split	HR	?
+HRTRO	Trogir	HR	?
+HRZAD	Zadar	HR	?
+HTCAP	Cap-Haitien	HT	?
+HTSMC	Baie de Saint-Marc	HT	?
+HUADY	Adony	HU	?
+HUBUD	Budapest	HU	?
+IDADB	Adang Bay	ID	?
+IDJKT	Jakarta, Java	ID	?
+IEDUB	Dublin	IE	?
+IEGWY	Galway	IE	?
+IEORK	Cork	IE	?
+ILHFA	Haifa	IL	?
+ILTLV	Tel Aviv-Yafo	IL	?
+IMCTN	Castletown	IM	?
+IMDGS	Douglas	IM	?
+INBOM	Mumbai (ex Bombay)	IN	?
+INMAA	Chennai (ex Madras)	IN	?
+IQALF	Abu Al Fulus	IQ	?
+IQBGW	Baghdad	IQ	?
+IRAZD	Yazd	IR	?
+IRBND	Bandar Abbas	IR	?
+IRIFN	Isfahan	IR	?
+IRSYZ	Shiraz	IR	?
+IRTBZ	Tabriz	IR	?
+ISAKU	Akureyri	IS	?
+ISGRF	Grundarfjordur	IS	?
+ISHAF	Hafnarfjordur	IS	?
+ISREY	Reykjavik	IS	?
+ISSEY	Seydisfjordur	IS	?
+ITAOI	Ancona	IT	?
+ITCRV	Crotone	IT	?
+ITFAL	Falconara	IT	?
+ITGOA	Genova	IT	?
+ITLIV	Livorno	IT	?
+ITNAP	Napoli	IT	?
+ITPES	Pesaro	IT	?
+ITPMO	Palermo	IT	?
+ITRAN	Ravenna	IT	?
+ITSDB	San Benedetto del Tronto	IT	?
+ITSEG	Senigallia	IT	?
+ITTAR	Taranto	IT	?
+ITVCE	Venezia	IT	?
+JESAB	Saint Aubin	JE	?
+JESCJ	Saint Clement	JE	?
+JMKIN	Kingston	JM	?
+JMMBJ	Montego Bay	JM	?
+JOAQB	'Aqaba	JO	?
+JODAH	Abu Alandah	JO	?
+JPHIM	Himeji	JP	?
+JPHMM	Hamamatsu	JP	?
+JPKNZ	Kanazawa	JP	?
+JPMTE	Matsue	JP	?
+JPNGO	Nagoya, Aichi	JP	?
+JPUKB	Kobe	JP	?
+KEKIL	Kilindini	KE	?
+KEMBA	Mombasa	KE	?
+KHKOS	Kampong Saom	KH	?
+KHPNH	Phnom Penh	KH	?
+KIBIR	Birnie Island	KI	?
+KIEBI	Enderbury Island	KI	?
+KMAJN	Anjouan Apt	KM	?
+KMFOU	Foumboni, Moheli	KM	?
+KNBAS	Basseterre, Saint Kitts	KN	?
+KNCHA	Charlestown	KN	?
+KPCHO	Chongjin	KP	?
+KPHAE	Haeju	KP	?
+KRPUS	Busan	KR	?
+KRSEL	Seoul	KR	?
+KRSUO	Suwon	KR	?
+KRTYG	Tongyeong	KR	?
+KWKHT	As Sulaybikhat	KW	?
+KWSAL	As Salimiyah	KW	?
+KYGEC	Georgetown, Grand Cayman	KY	?
+KZAAU	Aktau	KZ	?
+KZBTN	Bautino	KZ	?
+LBACT	Amchit	LB	?
+LBBEY	Beirut	LB	?
+LCCAS	Castries	LC	?
+LCCDS	Cul de Sac	LC	?
+LKBTC	Batticoloa	LK	?
+LKCMB	Colombo	LK	?
+LRCPA	Cape Palmas	LR	?
+LRUCN	Buchanan	LR	?
+LTBOT	Botinge	LT	?
+LTKLJ	Klaipeda	LT	?
+LUEZT	Esch-sur-Alzette	LU	?
+LULUX	Luxembourg	LU	?
+LVLPX	Liepaja	LV	?
+LVRIX	Riga	LV	?
+LYABK	Abu Kammash	LY	?
+LYKHO	Al Khums	LY	?
+MAAGA	Agadir	MA	?
+MATNG	Tangier	MA	?
+MCMCM	Monte-Carlo	MC	?
+MDGIU	Giurgiulesti	MD	?
+MDXXX	RIS Inland waterways	MD	?
+MEBAR	Bar	ME	?
+MEKOT	Kotor	ME	?
+MFGES	Galisbay	MF	?
+MFMAR	Marigot	MF	?
+MGANM	Antalaha	MG	?
+MGDIE	Antsiranana	MG	?
+MHMAJ	Majuro	MH	?
+MHTAR	Taroa	MH	?
+MKDKJ	Demir Kapija	MK	?
+MKNOD	Novi Dojran	MK	?
+MMAKY	Akyab (Sittwe)	MM	?
+MMRGN	Yangon	MM	?
+MOMFM	Macau	MO	?
+MPSPN	Saipan	MP	?
+MQFDF	Fort-de-France	MQ	?
+MQWF3	Case-Pilote	MQ	?
+MRNDB	Nouadhibou	MR	?
+MRNKC	Nouakchott	MR	?
+MSLTB	Little Bay	MS	?
+MSPLY	Plymouth	MS	?
+MTBAL	Balzan	MT	?
+MTMLA	Valletta	MT	?
+MUABN	Albion	MU	?
+MUBAM	Bambous	MU	?
+MVADU	Addu	MV	?
+MVBAL	Baa Atoll	MV	?
+MWCPK	Chipoka	MW	?
+MWTHY	Thyolo	MW	?
+MXESE	Ensenada	MX	?
+MXMID	Merida	MX	?
+MYMKZ	Malacca	MY	?
+MYPEN	Penang (Georgetown)	MY	?
+MZANO	Angoche	MZ	?
+MZBEW	Beira	MZ	?
+NALUD	Luderitz	NA	?
+NARUA	Ruacana	NA	?
+NCDUS	Ducos	NC	?
+NCKOU	Kouaoua	NC	?
+NGABM	Agbami	NG	?
+NGAKP	Akpo	NG	?
+NIBEF	Bluefields	NI	?
+NICIO	Corinto	NI	?
+NLAMS	Amsterdam	NL	?
+NLHAR	Harlingen	NL	?
+NLLID	Leiden	NL	?
+NLLWR	Leeuwarden	NL	?
+NLPUM	Purmerend	NL	?
+NLRTM	Rotterdam	NL	?
+NOAES	Alesund	NO	?
+NOBGO	Bergen	NO	?
+NOBNN	Bronnoysund	NO	?
+NOBOO	Bodo	NO	?
+NOFLA	Flam	NO	?
+NOFRK	Fredrikstad	NO	?
+NOHAU	Haugesund	NO	?
+NOHFT	Hammerfest	NO	?
+NOHRD	Harstad	NO	?
+NOHRI	Hareid	NO	?
+NOKRS	Kristiansand	NO	?
+NOKSU	Kristiansund	NO	?
+NOLKN	Leknes	NO	?
+NOMQN	Mo i Rana	NO	?
+NONFD	Nordfjordeid	NO	?
+NONVK	Narvik	NO	?
+NOOSL	Oslo	NO	?
+NOSVG	Stavanger	NO	?
+NOTOS	Tromso	NO	?
+NOTRD	Trondheim	NO	?
+NPLLU	Nawalparasi	NP	?
+NRINU	Nauru Island	NR	?
+NUALO	Alofi	NU	?
+NUIUE	Niue Island	NU	?
+NZAKL	Auckland	NZ	?
+NZWLG	Wellington	NZ	?
+OMMCT	Muscat	OM	?
+OMMNH	Al Mudayq	OM	?
+PAAGD	Aguadulce	PA	?
+PAPTY	Panama, Ciudad de	PA	?
+PEANC	Ancon	PE	?
+PELIM	Lima	PE	?
+PFAHU	Ahurei	PF	?
+PFAUT	Auti	PF	?
+PGABW	Abau	PG	?
+PGAHO	Ahioma	PG	?
+PHBAG	Baguio	PH	?
+PHCEB	Cebu	PH	?
+PKGWD	Gwadar	PK	?
+PKKHI	Karachi	PK	?
+PLGDN	Gdansk	PL	?
+PLGDY	Gdynia	PL	?
+PLSOP	Sopot	PL	?
+PLUST	Ustka	PL	?
+PMFSP	Saint-Pierre	PM	?
+PNPCN	Pitcairn Is	PN	?
+PRARE	Arecibo	PR	?
+PRBQN	Aguadilla	PR	?
+PTCAS	Cascais	PT	?
+PTFDF	Figueira da Foz	PT	?
+PTLEI	Leixoes	PT	?
+PTLIS	Lisboa	PT	?
+PTOPO	Porto	PT	?
+PWANG	Angaur	PW	?
+PWROR	Koror	PW	?
+PYASU	Asuncion	PY	?
+PYBCM	Barrio Caacupe Mi	PY	?
+QARUS	Al Ruwais Qatar	QA	?
+QASLW	As Salwa	QA	?
+RELPT	Le Port	RE	?
+REPOS	Possession	RE	?
+ROAGI	Agigea	RO	?
+ROCND	Constanta	RO	?
+RSAPT	Apatin	RS	?
+RSVRA	Vranje	RS	?
+RUIAR	Yaroslavl	RU	?
+RULED	Saint Petersburg (ex Leningrad)	RU	?
+RUMOW	Moskva	RU	?
+RWNSA	Nyagatare	RW	?
+RWRUB	Rubengera	RW	?
+SADMM	Ad Dammam	SA	?
+SAJBI	Al Jubayl Industrial City	SA	?
+SBAKS	Auki, Malaita Is	SB	?
+SBAOB	Aola Bay	SB	?
+SCVIC	Victoria	SC	?
+SDMBH	Marsa Bashayer	SD	?
+SDPZU	Port Sudan	SD	?
+SEGOT	Goteborg	SE	?
+SEHEL	Helsingborg	SE	?
+SEKAA	Karlskrona	SE	?
+SEKLR	Kalmar	SE	?
+SELLA	Lulea	SE	?
+SEMMA	Malmo	SE	?
+SENRK	Norrkoping	SE	?
+SESTO	Stockholm	SE	?
+SEVBY	Visby	SE	?
+SGCHG	Changi	SG	?
+SGSIN	Singapore	SG	?
+SHASC	Ascension	SH	?
+SHASI	Georgetown	SH	?
+SIDBO	Dobrovo	SI	?
+SIKOP	Koper	SI	?
+SJBAR	Barentsburg	SJ	?
+SJLYR	Longyearbyen	SJ	?
+SKBCK	Beckov	SK	?
+SKKAO	Kolarovo	SK	?
+SLBTE	Bonthe	SL	?
+SLFNA	Freetown	SL	?
+SMAQ8	Gualdicciolo	SM	?
+SNDKR	Dakar	SN	?
+SNXLS	Saint Louis	SN	?
+SOBBO	Berbera	SO	?
+SOELM	El Maan	SO	?
+SRABN	Albina	SR	?
+SRLLW	Lelydorp	SR	?
+STPCP	Principe	ST	?
+STSAA	Santo Antonio	ST	?
+SVAPO	Apopa	SV	?
+SVAQJ	Acajutla	SV	?
+SXGES	Gallis Bay	SX	?
+SXMAR	Marigot	SX	?
+SYALD	Al Ladhiqiyah	SY	?
+SYDAM	Damascus (Damas)	SY	?
+SZMAL	Malkerns	SZ	?
+SZNHL	Nhlangano	SZ	?
+TC9CB	Cockburn Harbour	TC	?
+TCGDT	Grand Turk Island	TC	?
+TFPFR	Port-aux-Francais	TF	?
+TGANE	Aneho	TG	?
+TGLFW	Lome	TG	?
+THBKK	Bangkok	TH	?
+THSHT	Actu-lum	TH	?
+TKAFU	Atafu	TK	?
+TKFKO	Fakaofo	TK	?
+TLDIL	Dili	TL	?
+TMALT	Altyn Asyr	TM	?
+TMCHE	Cheleken	TM	?
+TNHMM	Al Hammamat	TN	?
+TNTUN	Tunis	TN	?
+TOHPA	Ha'apai	TO	?
+TOTBU	Nuku'alofa	TO	?
+TRADA	Adana	TR	?
+TRIST	Istanbul	TR	?
+TTCRN	Carenage	TT	?
+TTPOS	Port-of-Spain	TT	?
+TVFUN	Funafuti	TV	?
+TWTNN	Tainan	TW	?
+TWTXG	Taichung	TW	?
+TZDAR	Dar es Salaam	TZ	?
+TZZNZ	Zanzibar	TZ	?
+UAODS	Odesa	UA	?
+UAZPR	Zaporizhzhia	UA	?
+UGJIN	Jinja	UG	?
+UGMKN	Galiraya	UG	?
+UMJON	Johnston Atoll	UM	?
+UMMDY	Midway Islands	UM	?
+USBAL	Baltimore	US	?
+USBOS	Boston	US	?
+USCHS	Charleston	US	?
+USDET	Detroit	US	?
+USLAX	Los Angeles	US	?
+USLGB	Long Beach	US	?
+USMIA	Miami	US	?
+USMKC	Kansas City	US	?
+USNYC	New York	US	?
+USOAK	Oakland	US	?
+USPAH	Paducah	US	?
+USPDX	Portland	US	?
+USSAN	San Diego	US	?
+USSEA	Seattle	US	?
+USSFO	San Francisco	US	?
+USSTZ	Scottsdale	US	?
+USTIW	Tacoma	US	?
+UYFZB	Fray Bentos	UY	?
+UYMVD	Montevideo	UY	?
+UYPDP	Punta del Este	UY	?
+UZAKT	Akaltyn	UZ	?
+UZASA	Asaka	UZ	?
+VCCAN	Canouan Island	VC	?
+VCCRP	Campden Park	VC	?
+VEAMY	Amuay	VE	?
+VECZE	Coro	VE	?
+VGEIS	Beef Island, Tortola	VG	?
+VGJVD	Jost Van Dyke	VG	?
+VICHA	Charlotte Amalie, Saint Thomas	VI	?
+VICTD	Christiansted, Saint Croix	VI	?
+VNHAN	Hanoi	VN	?
+VNHIA	Hoi An	VN	?
+VULUG	Luganville	VU	?
+VUPSA	Port Sandwich	VU	?
+WFHLO	Halalo	WF	?
+WFMAU	Mata'utu	WF	?
+WSAAU	Asau	WS	?
+WSAPW	Apia	WS	?
+YEADE	Aden	YE	?
+YEHOD	Hodeidah	YE	?
+YTDZA	Dzaoudzi-Pamandzi Apt	YT	?
+YTKNK	Kani-Keli	YT	?
+ZACPT	Cape Town	ZA	?
+ZADUR	Durban	ZA	?
+ZMSIA	Siavonga	ZM	?
+ZWCHE	Chegutu	ZW	?
+ZWFLU	Filabusi	ZW	?

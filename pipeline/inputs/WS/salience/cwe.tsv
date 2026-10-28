@@ -1,0 +1,87 @@
+concept_id	wiki_title	match	pageviews_12m	note
+audit	Audit	exact	72428	wikipedia article
+authenticate_actors	Authentication	exact	100494	wikipedia article
+authorize_actors	Authorization	exact	31595	wikipedia article
+bad_coding_practices		none	0	no English Wikipedia article
+cisq_efficiency	CISQ	exact	962	wikipedia article
+cisq_maintainability	CISQ	exact	962	wikipedia article
+cisq_reliability	CISQ	exact	962	wikipedia article
+cisq_security	CISQ	exact	962	wikipedia article
+cross_cutting		none	0	no English Wikipedia article
+cwe1000_284	Access_control	exact	56304	wikipedia article
+cwe1000_435		none	0	no English Wikipedia article
+cwe1000_664	Resource_management	exact	12206	wikipedia article
+cwe1000_682		none	0	no English Wikipedia article
+cwe1000_691	Control_flow	exact	53249	wikipedia article
+cwe1000_693		none	0	no English Wikipedia article
+cwe1000_697		none	0	no English Wikipedia article
+cwe1000_703	Exception_handling	exact	23350	wikipedia article
+cwe1000_707		none	0	no English Wikipedia article
+cwe1000_710	Coding_conventions	exact	17333	wikipedia article
+cwe699_api_errors	Application_programming_interface	exact	144867	wikipedia article
+cwe699_audit_logging	Audit_log	exact	119	wikipedia article
+cwe699_business_logic	Business_logic	exact	18310	wikipedia article
+cwe699_concurrency	Concurrency_(computer_science)	exact	34664	wikipedia article
+cwe699_data_integrity	Data_integrity	exact	29057	wikipedia article
+cwe699_memory_buffer	Memory_safety	exact	24445	wikipedia article
+cwe699_numeric	Integer_overflow	exact	79458	wikipedia article
+cwe699_resource_management	Resource_management	exact	12206	wikipedia article
+encrypt_data	Encryption	exact	144393	wikipedia article
+identify_actors	Identity_management	exact	17239	wikipedia article
+limit_access	Access_control	exact	56304	wikipedia article
+limit_exposure		none	0	no English Wikipedia article
+manage_user_sessions	Session_(computer_science)	exact	14296	wikipedia article
+owasp2017_a01	OWASP_Top_10	partial	31	2 monthly points
+owasp2017_a02	OWASP_Top_10	partial	31	2 monthly points
+owasp2017_a03	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a01	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a02	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a03	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a04	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a05	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a07	OWASP_Top_10	partial	31	2 monthly points
+owasp2021_a08	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a01	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a02	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a03	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a04	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a05	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a06	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a07	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a08	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a09	OWASP_Top_10	partial	31	2 monthly points
+owasp2025_a10	OWASP_Top_10	partial	31	2 monthly points
+sfp_access_control	Access_control	exact	56304	wikipedia article
+sfp_authentication	Authentication	exact	100494	wikipedia article
+sfp_entry_points	Entry_point	exact	13299	wikipedia article
+sfp_exposed_data	Data_breach	exact	80984	wikipedia article
+sfp_information_leak	Information_leakage	exact	3042	wikipedia article
+sfp_malware	Malware	exact	245782	wikipedia article
+sfp_memory_access	Memory_safety	exact	24445	wikipedia article
+sfp_path_traversal	Path_traversal	exact	261	wikipedia article
+sfp_predictability		none	0	no English Wikipedia article
+sfp_privilege	Privilege_escalation	exact	36152	wikipedia article
+sfp_risky_values		none	0	no English Wikipedia article
+sfp_tainted_input	Taint_checking	exact	22784	wikipedia article
+sfp_tainted_input_command	Code_injection	exact	308077	wikipedia article
+sfp_ui	User_interface	exact	125733	wikipedia article
+validate_inputs	Data_validation	exact	15608	wikipedia article
+verify_message_integrity	Message_authentication_code	exact	57227	wikipedia article
+cwe1400_access_control	Access_control	exact	56304	wikipedia article
+cwe1400_concurrency	Concurrency_(computer_science)	exact	34664	wikipedia article
+cwe1400_encryption	Encryption	exact	144393	wikipedia article
+cwe1400_file_handling	Computer_file	exact	62048	wikipedia article
+cwe1400_improper_neutralization	Taint_checking	exact	22784	wikipedia article
+cwe1400_injection	Code_injection	exact	308077	wikipedia article
+cwe1400_memory_safety	Memory_safety	exact	24445	wikipedia article
+cwe1400_poor_coding_practices	Coding_conventions	exact	17333	wikipedia article
+cwe1400_resource_lifecycle_management	Resource_management	exact	12206	wikipedia article
+cwe1400_sensitive_information_exposure	Information_leakage	exact	3042	wikipedia article
+cwe700_security_features	Computer_security	exact	247412	wikipedia article
+cwe700_encapsulation	Encapsulation_(computer_programming)	exact	47874	wikipedia article
+cwe1194_privilege_separation	Access_control	exact	56304	wikipedia article
+cwe1194_circuit_logic	Integrated_circuit_design	exact	20686	wikipedia article
+cwe699_authentication_errors	Authentication	exact	100494	wikipedia article
+cwe699_authorization_errors	Authorization	exact	31595	wikipedia article
+cwe1000_285	Authorization	exact	31595	wikipedia article
+cwe1000_1390	Authentication	exact	100494	wikipedia article

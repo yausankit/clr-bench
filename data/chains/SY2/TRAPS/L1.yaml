@@ -1,0 +1,42 @@
+A: '443165006'
+C: snomed_363059001
+C_name: Degenerative disorder of musculoskeletal system
+N_p: '359817006'
+N_t:
+- '263102004'
+- '58150001'
+- '370247008'
+- '713458007'
+- '156073000'
+- '423315002'
+- '132281000119108'
+P_M:
+- '239872002'
+- '201834006'
+- '239873007'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - snomed_106028002
+    - snomed_118953000
+    - snomed_125605004
+    - snomed_417163006
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- snomed_106028002
+- snomed_118953000
+- snomed_125605004
+- snomed_417163006
+field: conditions.code
+label: review tag W8
+salience: 25181.0
+universe: condition

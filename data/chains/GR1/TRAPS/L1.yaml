@@ -1,0 +1,46 @@
+A: GB
+C: commonwealth_members
+C_name: Commonwealth of Nations members
+N_p: SI
+N_t:
+- FI
+- FR
+- DE
+- IL
+- GS
+- CG
+- CO
+P_M:
+- BD
+- VC
+- GM
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe_members
+    - g20_members
+    - g7_members
+    - nato_members
+    - oecd_members
+    - un_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- council_of_europe_members
+- g20_members
+- g7_members
+- nato_members
+- oecd_members
+- un_members
+field: applicants.nationality
+label: travel note X5
+salience: 1410547.0
+universe: country

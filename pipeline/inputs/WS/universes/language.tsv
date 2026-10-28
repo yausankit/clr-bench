@@ -1,0 +1,178 @@
+value	entity	attr:family	attr:script
+aa	Afar	Afro-Asiatic	Latin
+ab	Abkhazian	Abkhaz-Adyge	Cyrillic
+af	Afrikaans	Indo-European	Latin
+ak	Akan	Atlantic-Congo	Latin
+am	Amharic	Afro-Asiatic	Ethiopic
+an	Aragonese	Indo-European	Latin
+ar	Arabic	Afro-Asiatic	Arabic
+as	Assamese	Indo-European	?
+av	Avaric	Nakh-Daghestanian	Cyrillic
+ay	Aymara	Aymaran	Latin
+az	Azerbaijani	Turkic	Latin
+ba	Bashkir	Turkic	Cyrillic
+be	Belarusian	Indo-European	Cyrillic
+bg	Bulgarian	Indo-European	Cyrillic
+bi	Bislama	Indo-European	Latin
+bm	Bambara	Mande	Latin
+bn	Bengali	Indo-European	?
+bo	Tibetan	Sino-Tibetan	Tibetan
+br	Breton	Indo-European	?
+bs	Bosnian	Indo-European	Latin
+ca	Catalan, Valencian	Indo-European	?
+ce	Chechen	Nakh-Daghestanian	Latin
+ch	Chamorro	Austronesian	Latin
+co	Corsican	Indo-European	Latin
+cr	Cree	Algic	Latin
+cs	Czech	Indo-European	?
+cv	Chuvash	Turkic	Cyrillic
+cy	Welsh	Indo-European	Latin
+da	Danish	Indo-European	Latin
+de	German	Indo-European	?
+dv	Divehi, Dhivehi, Maldivian	Indo-European	Thaana
+dz	Dzongkha	Sino-Tibetan	Tibetan
+ee	Ewe	Atlantic-Congo	Latin
+el	Greek, Modern (1453–)	Indo-European	Greek
+en	English	Indo-European	?
+eo	Esperanto	Constructed	?
+es	Spanish, Castilian	Indo-European	Latin
+et	Estonian	Uralic	Latin
+eu	Basque	?	Latin
+fa	Persian	Indo-European	Latin
+ff	Fulah	Atlantic-Congo	Latin
+fi	Finnish	Uralic	Latin
+fj	Fijian	Austronesian	Latin
+fo	Faroese	Indo-European	Latin
+fr	French	Indo-European	?
+fy	Western Frisian	Indo-European	Latin
+ga	Irish	Indo-European	Latin
+gd	Gaelic, Scottish Gaelic	Indo-European	Latin
+gl	Galician	Indo-European	Latin
+gn	Guarani	Tupian	?
+gu	Gujarati	Indo-European	Gujarati
+gv	Manx	Indo-European	Latin
+ha	Hausa	Afro-Asiatic	Latin
+he	Hebrew	Afro-Asiatic	Hebrew
+hi	Hindi	Indo-European	Devanagari
+ho	Hiri Motu	Pidgin	Latin
+hr	Croatian	Indo-European	Latin
+ht	Haitian, Haitian Creole	Indo-European	Latin
+hu	Hungarian	Uralic	?
+hy	Armenian	Indo-European	Armenian
+hz	Herero	Atlantic-Congo	Latin
+ia	Interlingua (International Auxiliary Language Association)	Constructed	Latin
+id	Indonesian	Austronesian	Latin
+ie	Interlingue, Occidental	Constructed	Latin
+ig	Igbo	Atlantic-Congo	?
+ik	Inupiaq	Eskimo-Aleut	Latin
+io	Ido	Constructed	Latin
+is	Icelandic	Indo-European	Latin
+it	Italian	Indo-European	?
+iu	Inuktitut	Eskimo-Aleut	Latin
+ja	Japanese	Japonic	Kana
+jv	Javanese	Austronesian	Latin
+ka	Georgian	Kartvelian	Georgian
+kg	Kongo	Atlantic-Congo	Latin
+ki	Kikuyu, Gikuyu	Atlantic-Congo	Latin
+kj	Kuanyama, Kwanyama	Atlantic-Congo	Latin
+kk	Kazakh	Turkic	Latin
+kl	Kalaallisut, Greenlandic	Eskimo-Aleut	?
+km	Central Khmer	Austroasiatic	Khmer
+kn	Kannada	Dravidian	Kannada
+ko	Korean	Koreanic	Han
+kr	Kanuri	Nilo-Saharan	Latin
+ks	Kashmiri	Indo-European	?
+ku	Kurdish	Indo-European	Latin
+kv	Komi	Uralic	Cyrillic
+kw	Cornish	Indo-European	Latin
+ky	Kyrgyz, Kirghiz	Turkic	Cyrillic
+lb	Luxembourgish, Letzeburgesch	Indo-European	?
+lg	Ganda	Atlantic-Congo	Latin
+li	Limburgan, Limburger, Limburgish	Indo-European	Latin
+ln	Lingala	Atlantic-Congo	Latin
+lo	Lao	Tai-Kadai	Lao
+lt	Lithuanian	Indo-European	?
+lu	Luba-Katanga	Atlantic-Congo	Latin
+lv	Latvian	Indo-European	?
+mg	Malagasy	Austronesian	Latin
+mh	Marshallese	Austronesian	Latin
+mi	Maori	Austronesian	Latin
+mk	Macedonian	Indo-European	Cyrillic
+ml	Malayalam	Dravidian	Malayalam
+mn	Mongolian	Mongolic-Khitan	Cyrillic
+mr	Marathi	Indo-European	?
+ms	Malay	Austronesian	Latin
+mt	Maltese	Afro-Asiatic	?
+my	Burmese	Sino-Tibetan	Myanmar
+na	Nauru	Austronesian	Latin
+nb	Norwegian Bokmål	Indo-European	Latin
+nd	North Ndebele	Atlantic-Congo	Latin
+ne	Nepali	Indo-European	Devanagari
+ng	Ndonga	Atlantic-Congo	Latin
+nl	Dutch, Flemish	Indo-European	?
+nn	Norwegian Nynorsk	Indo-European	Latin
+no	Norwegian	Indo-European	Latin
+nr	South Ndebele	Atlantic-Congo	Latin
+nv	Navajo, Navaho	Athabaskan-Eyak-Tlingit	Latin
+ny	Chichewa, Chewa, Nyanja	Atlantic-Congo	Latin
+oc	Occitan	Indo-European	Latin
+oj	Ojibwa	Algic	Latin
+om	Oromo	Afro-Asiatic	Latin
+or	Oriya	Indo-European	Odia
+os	Ossetian, Ossetic	Indo-European	Cyrillic
+pa	Punjabi, Panjabi	Indo-European	Gurmukhi
+pl	Polish	Indo-European	Latin
+ps	Pashto, Pushto	Indo-European	Arabic
+pt	Portuguese	Indo-European	Latin
+qu	Quechua	Quechuan	Latin
+rm	Romansh	Indo-European	Latin
+rn	Rundi	Atlantic-Congo	Latin
+ro	Romanian, Moldavian, Moldovan	Indo-European	Latin
+ru	Russian	Indo-European	Cyrillic
+rw	Kinyarwanda	Atlantic-Congo	Latin
+sc	Sardinian	Indo-European	Latin
+sd	Sindhi	Indo-European	Arabic
+se	Northern Sami	Uralic	Latin
+sg	Sango	Atlantic-Congo	Latin
+si	Sinhala, Sinhalese	Indo-European	Sinhala
+sk	Slovak	Indo-European	Latin
+sl	Slovenian	Indo-European	Latin
+sm	Samoan	Austronesian	Latin
+sn	Shona	Atlantic-Congo	Latin
+so	Somali	Afro-Asiatic	Latin
+sq	Albanian	Indo-European	?
+sr	Serbian	Indo-European	Latin
+ss	Swati	Atlantic-Congo	Latin
+st	Southern Sotho	Atlantic-Congo	Latin
+su	Sundanese	Austronesian	Latin
+sv	Swedish	Indo-European	Latin
+sw	Swahili	Atlantic-Congo	Latin
+ta	Tamil	Dravidian	Arabic
+te	Telugu	Dravidian	Telugu
+tg	Tajik	Indo-European	Latin
+th	Thai	Tai-Kadai	Thai
+ti	Tigrinya	Afro-Asiatic	Ethiopic
+tk	Turkmen	Turkic	Latin
+tl	Tagalog	Austronesian	?
+tn	Tswana	Atlantic-Congo	Latin
+to	Tonga (Tonga Islands)	Austronesian	Latin
+tr	Turkish	Turkic	?
+ts	Tsonga	Atlantic-Congo	Latin
+tt	Tatar	Turkic	Cyrillic
+tw	Twi	Atlantic-Congo	Latin
+ty	Tahitian	Austronesian	Latin
+ug	Uighur, Uyghur	Turkic	Latin
+uk	Ukrainian	Indo-European	Cyrillic
+ur	Urdu	Indo-European	?
+uz	Uzbek	Turkic	Latin
+ve	Venda	Atlantic-Congo	Latin
+vi	Vietnamese	Austroasiatic	Latin
+vo	Volapük	Constructed	Latin
+wa	Walloon	Indo-European	Latin
+wo	Wolof	Atlantic-Congo	Latin
+xh	Xhosa	Atlantic-Congo	Latin
+yi	Yiddish	Indo-European	Hebrew
+yo	Yoruba	Atlantic-Congo	?
+za	Zhuang, Chuang	Tai-Kadai	Latin
+zh	Chinese	Sino-Tibetan	Han
+zu	Zulu	Atlantic-Congo	Latin

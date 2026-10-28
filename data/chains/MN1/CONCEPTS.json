@@ -1,0 +1,125 @@
+{
+ "L1": {
+  "C": "commonwealth_members",
+  "competitors": [
+   {
+    "id": "apec_members",
+    "name": "APEC member economies"
+   },
+   {
+    "id": "g20_members",
+    "name": "G20 members"
+   },
+   {
+    "id": "g7_members",
+    "name": "G7 member states"
+   },
+   {
+    "id": "nato_members",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd_members",
+    "name": "OECD member states"
+   }
+  ],
+  "name": "Commonwealth of Nations member states",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "star_alliance",
+  "competitors": [
+   {
+    "id": "a4e_airlines",
+    "name": "Airlines participating in Airlines for Europe member groups"
+   },
+   {
+    "id": "iata_airlines",
+    "name": "IATA member airlines"
+   },
+   {
+    "id": "lufthansa_group_airlines",
+    "name": "Lufthansa Group airlines"
+   }
+  ],
+  "name": "Star Alliance member airlines",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "yttrium_group",
+  "competitors": [
+   {
+    "id": "heavy_rare_earths",
+    "name": "Heavy rare-earth elements"
+   },
+   {
+    "id": "lanthanides",
+    "name": "Lanthanides"
+   },
+   {
+    "id": "lanthanides_and_actinides",
+    "name": "Lanthanides and actinides"
+   },
+   {
+    "id": "period_6_elements",
+    "name": "Period 6 elements"
+   },
+   {
+    "id": "rare_earth_elements",
+    "name": "Rare-earth elements"
+   }
+  ],
+  "name": "Yttrium-group rare-earth elements",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "g7_members",
+  "competitors": [
+   {
+    "id": "eu_members",
+    "name": "European Union member states"
+   },
+   {
+    "id": "eurozone_members",
+    "name": "Eurozone member states"
+   },
+   {
+    "id": "g20_members",
+    "name": "G20 members"
+   },
+   {
+    "id": "nato_members",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd_members",
+    "name": "OECD member states"
+   },
+   {
+    "id": "schengen_members",
+    "name": "Schengen Area member states"
+   }
+  ],
+  "name": "G7 member states",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "oneworld",
+  "competitors": [
+   {
+    "id": "a4e_airlines",
+    "name": "Airlines participating in Airlines for Europe member groups"
+   },
+   {
+    "id": "iag_airlines",
+    "name": "International Airlines Group airlines"
+   },
+   {
+    "id": "iata_airlines",
+    "name": "IATA member airlines"
+   }
+  ],
+  "name": "Oneworld member airlines",
+  "synonyms": []
+ }
+}

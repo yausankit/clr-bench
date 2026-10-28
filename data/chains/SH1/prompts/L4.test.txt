@@ -1,0 +1,1005 @@
+A port state control office aggregates vessel inspection defects for follow-up by the vessel's ship management company.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+A JSON object lists companies, their ships, each ship's inspections, and the defect identifiers recorded for each inspection.
+
+Each defect listed in an inspection counts once for the vessel's management company.
+Return the sum of the totals of all ship management companies in the input, as an int.
+
+Field notes:
+- A ship whose flag_state is 'FR' is in follow-up docket D4.
+- A ship whose owner_country is 'DE' is in review ledger 71.
+- An inspection whose port is 'DEBER' is in monitoring schedule C-14.
+- A ship whose flag_state is 'ZA' is in follow-up docket S3.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, ships in follow-up docket D4 are not counted.
+L2: From this level on, ships in review ledger 71 are not counted.
+L3: From this level on, inspections in monitoring schedule C-14 are not counted.
+L4: From this level on, ships in follow-up docket S3 are not counted.
+
+Value reference:
+ships.flag_state:
+- AU — Australia; Country or territory in ?; capital Canberra.
+- BE — Belgium; Country or territory in ?; capital Brussels.
+- BO — Bolivia; Country or territory in ?; capital Sucre.
+- BR — Brazil; Country or territory in ?; capital Brasília.
+- CC — Cocos (Keeling) Islands; Country or territory in ?; capital West Island.
+- CN — China; Country or territory in ?; capital Beijing.
+- CO — Colombia; Country or territory in ?; capital Bogotá.
+- DO — Dominican Republic; Country or territory in ?; capital Santo Domingo.
+- FR — France; Country or territory in ?; capital Paris.
+- GB — United Kingdom; Country or territory in ?; capital London.
+- GR — Greece; Country or territory in ?; capital Athens.
+- JO — Jordan; Country or territory in ?; capital Amman.
+- JP — Japan; Country or territory in ?; capital Tokyo.
+- KE — Kenya; Country or territory in ?; capital Nairobi.
+- LA — Laos; Country or territory in ?; capital Vientiane.
+- LK — Sri Lanka; Country or territory in ?; capital Colombo.
+- MR — Mauritania; Country or territory in ?; capital Nouakchott.
+- MZ — Mozambique; Country or territory in ?; capital Maputo.
+- NO — Norway; Country or territory in ?; capital Oslo.
+- NZ — New Zealand; Country or territory in ?; capital Wellington.
+- RS — Serbia; Country or territory in ?; capital Belgrade.
+- RU — Russia; Country or territory in ?; capital Moscow.
+- SA — Saudi Arabia; Country or territory in ?; capital Riyadh.
+- SE — Sweden; Country or territory in ?; capital Stockholm.
+- SG — Singapore; Country or territory in ?; capital Singapore.
+- SR — Suriname; Country or territory in ?; capital Paramaribo.
+- ST — São Tomé and Príncipe; Country or territory in ?; capital São Tomé.
+- TH — Thailand; Country or territory in ?; capital Bangkok.
+- TR — Türkiye; Country or territory in ?; capital Ankara.
+- TZ — Tanzania; Country or territory in ?; capital Dodoma.
+- US — United States; Country or territory in ?; capital Washington D.C..
+- VE — Venezuela; Country or territory in ?; capital Caracas.
+- YE — Yemen; Country or territory in ?; capital Sana'a.
+- ZA — South Africa; Country or territory in ?; capital Pretoria.
+ships.owner_country:
+- AL — Albania; Country or territory in ?; capital Tirana.
+- AR — Argentina; Country or territory in ?; capital Buenos Aires.
+- AT — Austria; Country or territory in ?; capital Vienna.
+- AW — Aruba; Country or territory in ?; capital Oranjestad.
+- BG — Bulgaria; Country or territory in ?; capital Sofia.
+- BJ — Benin; Country or territory in ?; capital Porto-Novo.
+- BN — Brunei; Country or territory in ?; capital Bandar Seri Begawan.
+- CA — Canada; Country or territory in ?; capital Ottawa.
+- CY — Cyprus; Country or territory in ?; capital Nicosia.
+- DE — Germany; Country or territory in ?; capital Berlin.
+- FJ — Fiji; Country or territory in ?; capital Suva.
+- GA — Gabon; Country or territory in ?; capital Libreville.
+- GT — Guatemala; Country or territory in ?; capital Guatemala City.
+- ID — Indonesia; Country or territory in ?; capital Jakarta.
+- IN — India; Country or territory in ?; capital New Delhi.
+- KW — Kuwait; Country or territory in ?; capital Kuwait City.
+- LB — Lebanon; Country or territory in ?; capital Beirut.
+- LI — Liechtenstein; Country or territory in ?; capital Vaduz.
+- LS — Lesotho; Country or territory in ?; capital Maseru.
+- LU — Luxembourg; Country or territory in ?; capital Luxembourg.
+- ME — Montenegro; Country or territory in ?; capital Podgorica.
+- MK — North Macedonia; Country or territory in ?; capital Skopje.
+- MX — Mexico; Country or territory in ?; capital Mexico City.
+- MY — Malaysia; Country or territory in ?; capital Kuala Lumpur.
+- NA — Namibia; Country or territory in ?; capital Windhoek.
+- NU — Niue; Country or territory in ?; capital Alofi.
+- PG — Papua New Guinea; Country or territory in ?; capital Port Moresby.
+- SK — Slovakia; Country or territory in ?; capital Bratislava.
+- TC — Turks and Caicos Islands; Country or territory in ?; capital Cockburn Town.
+- TG — Togo; Country or territory in ?; capital Lomé.
+- TJ — Tajikistan; Country or territory in ?; capital Dushanbe.
+- UG — Uganda; Country or territory in ?; capital Kampala.
+- UY — Uruguay; Country or territory in ?; capital Montevideo.
+- YE — Yemen; Country or territory in ?; capital Sana'a.
+inspections.port:
+- BQRIN — Dorp Rincon; Port or transport location named Dorp Rincon in Caribbean Netherlands, ?.
+- CHBSL — Basel; Port or transport location named Basel in Switzerland, ?.
+- CHKRZ — Kreuzlingen; Port or transport location named Kreuzlingen in Switzerland, ?.
+- CNGUI — Guilin; Port or transport location named Guilin in China, ?.
+- DEBER — Berlin; Port or transport location named Berlin in Germany, ?.
+- DZAAE — Annaba (ex Bone); Port or transport location named Annaba (ex Bone) in Algeria, ?.
+- ECDUN — Duran; Port or transport location named Duran in Ecuador, ?.
+- ESIBZ — Ibiza; Port or transport location named Ibiza in Spain, ?.
+- FMEAU — Eauripik Atoll; Port or transport location named Eauripik Atoll in Micronesia, ?.
+- GBEDI — Edinburgh; Port or transport location named Edinburgh in United Kingdom, ?.
+- GBGLW — Glasgow; Port or transport location named Glasgow in United Kingdom, ?.
+- GBSCR — Scrabster; Port or transport location named Scrabster in United Kingdom, ?.
+- GEBUS — Batumi; Port or transport location named Batumi in Georgia, ?.
+- GYANT — Adventure; Port or transport location named Adventure in Guyana, ?.
+- JMKIN — Kingston; Port or transport location named Kingston in Jamaica, ?.
+- MGANM — Antalaha; Port or transport location named Antalaha in Madagascar, ?.
+- NLLWR — Leeuwarden; Port or transport location named Leeuwarden in Netherlands, ?.
+- NLRTM — Rotterdam; Port or transport location named Rotterdam in Netherlands, ?.
+- NOKSU — Kristiansund; Port or transport location named Kristiansund in Norway, ?.
+- SKBCK — Beckov; Port or transport location named Beckov in Slovakia, ?.
+- TKAFU — Atafu; Port or transport location named Atafu in Tokelau, ?.
+- ZADUR — Durban; Port or transport location named Durban in South Africa, ?.
+
+Example input:
+{
+ "companies": [
+  {
+   "id": "MC003",
+   "ships": [
+    {
+     "flag_state": "ST",
+     "id": "MC003-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC003-V01-I01-D01",
+        "MC003-V01-I01-D02"
+       ],
+       "id": "MC003-V01-I01",
+       "port": "GBSCR"
+      },
+      {
+       "defects": [
+        "MC003-V01-I02-D01",
+        "MC003-V01-I02-D02",
+        "MC003-V01-I02-D03"
+       ],
+       "id": "MC003-V01-I02",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC003-V01-I03-D01",
+        "MC003-V01-I03-D02"
+       ],
+       "id": "MC003-V01-I03",
+       "port": "CNGUI"
+      }
+     ],
+     "owner_country": "TJ"
+    },
+    {
+     "flag_state": "LA",
+     "id": "MC003-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC003-V02-I01-D01",
+        "MC003-V02-I01-D02",
+        "MC003-V02-I01-D03",
+        "MC003-V02-I01-D04",
+        "MC003-V02-I01-D05"
+       ],
+       "id": "MC003-V02-I01",
+       "port": "JMKIN"
+      },
+      {
+       "defects": [
+        "MC003-V02-I02-D01",
+        "MC003-V02-I02-D02",
+        "MC003-V02-I02-D03"
+       ],
+       "id": "MC003-V02-I02",
+       "port": "ECDUN"
+      },
+      {
+       "defects": [
+        "MC003-V02-I03-D01",
+        "MC003-V02-I03-D02",
+        "MC003-V02-I03-D03",
+        "MC003-V02-I03-D04"
+       ],
+       "id": "MC003-V02-I03",
+       "port": "BQRIN"
+      }
+     ],
+     "owner_country": "GT"
+    },
+    {
+     "flag_state": "LK",
+     "id": "MC003-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC003-V03-I01-D01",
+        "MC003-V03-I01-D02",
+        "MC003-V03-I01-D03"
+       ],
+       "id": "MC003-V03-I01",
+       "port": "BQRIN"
+      },
+      {
+       "defects": [
+        "MC003-V03-I02-D01",
+        "MC003-V03-I02-D02",
+        "MC003-V03-I02-D03",
+        "MC003-V03-I02-D04",
+        "MC003-V03-I02-D05"
+       ],
+       "id": "MC003-V03-I02",
+       "port": "BQRIN"
+      },
+      {
+       "defects": [
+        "MC003-V03-I03-D01",
+        "MC003-V03-I03-D02",
+        "MC003-V03-I03-D03"
+       ],
+       "id": "MC003-V03-I03",
+       "port": "BQRIN"
+      }
+     ],
+     "owner_country": "TJ"
+    },
+    {
+     "flag_state": "SR",
+     "id": "MC003-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC003-V04-I01-D01",
+        "MC003-V04-I01-D02"
+       ],
+       "id": "MC003-V04-I01",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC003-V04-I02-D01",
+        "MC003-V04-I02-D02",
+        "MC003-V04-I02-D03"
+       ],
+       "id": "MC003-V04-I02",
+       "port": "DZAAE"
+      },
+      {
+       "defects": [
+        "MC003-V04-I03-D01",
+        "MC003-V04-I03-D02",
+        "MC003-V04-I03-D03",
+        "MC003-V04-I03-D04"
+       ],
+       "id": "MC003-V04-I03",
+       "port": "DZAAE"
+      }
+     ],
+     "owner_country": "MY"
+    }
+   ]
+  },
+  {
+   "id": "MC015",
+   "ships": [
+    {
+     "flag_state": "SR",
+     "id": "MC015-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC015-V01-I01-D01",
+        "MC015-V01-I01-D02",
+        "MC015-V01-I01-D03",
+        "MC015-V01-I01-D04"
+       ],
+       "id": "MC015-V01-I01",
+       "port": "NOKSU"
+      },
+      {
+       "defects": [
+        "MC015-V01-I02-D01",
+        "MC015-V01-I02-D02",
+        "MC015-V01-I02-D03",
+        "MC015-V01-I02-D04"
+       ],
+       "id": "MC015-V01-I02",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC015-V01-I03-D01",
+        "MC015-V01-I03-D02"
+       ],
+       "id": "MC015-V01-I03",
+       "port": "GBGLW"
+      }
+     ],
+     "owner_country": "TJ"
+    },
+    {
+     "flag_state": "ST",
+     "id": "MC015-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC015-V02-I01-D01",
+        "MC015-V02-I01-D02",
+        "MC015-V02-I01-D03",
+        "MC015-V02-I01-D04"
+       ],
+       "id": "MC015-V02-I01",
+       "port": "JMKIN"
+      },
+      {
+       "defects": [
+        "MC015-V02-I02-D01",
+        "MC015-V02-I02-D02",
+        "MC015-V02-I02-D03",
+        "MC015-V02-I02-D04"
+       ],
+       "id": "MC015-V02-I02",
+       "port": "DZAAE"
+      },
+      {
+       "defects": [
+        "MC015-V02-I03-D01",
+        "MC015-V02-I03-D02"
+       ],
+       "id": "MC015-V02-I03",
+       "port": "GBGLW"
+      }
+     ],
+     "owner_country": "DE"
+    },
+    {
+     "flag_state": "MZ",
+     "id": "MC015-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC015-V03-I01-D01",
+        "MC015-V03-I01-D02",
+        "MC015-V03-I01-D03",
+        "MC015-V03-I01-D04",
+        "MC015-V03-I01-D05"
+       ],
+       "id": "MC015-V03-I01",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC015-V03-I02-D01",
+        "MC015-V03-I02-D02",
+        "MC015-V03-I02-D03",
+        "MC015-V03-I02-D04"
+       ],
+       "id": "MC015-V03-I02",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC015-V03-I03-D01",
+        "MC015-V03-I03-D02",
+        "MC015-V03-I03-D03",
+        "MC015-V03-I03-D04"
+       ],
+       "id": "MC015-V03-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "NA"
+    },
+    {
+     "flag_state": "BO",
+     "id": "MC015-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC015-V04-I01-D01",
+        "MC015-V04-I01-D02"
+       ],
+       "id": "MC015-V04-I01",
+       "port": "GBGLW"
+      },
+      {
+       "defects": [
+        "MC015-V04-I02-D01",
+        "MC015-V04-I02-D02",
+        "MC015-V04-I02-D03",
+        "MC015-V04-I02-D04",
+        "MC015-V04-I02-D05"
+       ],
+       "id": "MC015-V04-I02",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC015-V04-I03-D01",
+        "MC015-V04-I03-D02",
+        "MC015-V04-I03-D03"
+       ],
+       "id": "MC015-V04-I03",
+       "port": "JMKIN"
+      }
+     ],
+     "owner_country": "TJ"
+    }
+   ]
+  },
+  {
+   "id": "MC016",
+   "ships": [
+    {
+     "flag_state": "CC",
+     "id": "MC016-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC016-V01-I01-D01",
+        "MC016-V01-I01-D02",
+        "MC016-V01-I01-D03"
+       ],
+       "id": "MC016-V01-I01",
+       "port": "JMKIN"
+      },
+      {
+       "defects": [
+        "MC016-V01-I02-D01",
+        "MC016-V01-I02-D02",
+        "MC016-V01-I02-D03",
+        "MC016-V01-I02-D04",
+        "MC016-V01-I02-D05"
+       ],
+       "id": "MC016-V01-I02",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC016-V01-I03-D01",
+        "MC016-V01-I03-D02",
+        "MC016-V01-I03-D03",
+        "MC016-V01-I03-D04"
+       ],
+       "id": "MC016-V01-I03",
+       "port": "DZAAE"
+      }
+     ],
+     "owner_country": "LB"
+    },
+    {
+     "flag_state": "TH",
+     "id": "MC016-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC016-V02-I01-D01",
+        "MC016-V02-I01-D02",
+        "MC016-V02-I01-D03",
+        "MC016-V02-I01-D04"
+       ],
+       "id": "MC016-V02-I01",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC016-V02-I02-D01",
+        "MC016-V02-I02-D02",
+        "MC016-V02-I02-D03"
+       ],
+       "id": "MC016-V02-I02",
+       "port": "DZAAE"
+      },
+      {
+       "defects": [
+        "MC016-V02-I03-D01",
+        "MC016-V02-I03-D02"
+       ],
+       "id": "MC016-V02-I03",
+       "port": "BQRIN"
+      }
+     ],
+     "owner_country": "NA"
+    },
+    {
+     "flag_state": "SR",
+     "id": "MC016-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC016-V03-I01-D01",
+        "MC016-V03-I01-D02",
+        "MC016-V03-I01-D03",
+        "MC016-V03-I01-D04",
+        "MC016-V03-I01-D05"
+       ],
+       "id": "MC016-V03-I01",
+       "port": "NOKSU"
+      },
+      {
+       "defects": [
+        "MC016-V03-I02-D01",
+        "MC016-V03-I02-D02",
+        "MC016-V03-I02-D03"
+       ],
+       "id": "MC016-V03-I02",
+       "port": "JMKIN"
+      },
+      {
+       "defects": [
+        "MC016-V03-I03-D01",
+        "MC016-V03-I03-D02"
+       ],
+       "id": "MC016-V03-I03",
+       "port": "JMKIN"
+      }
+     ],
+     "owner_country": "AW"
+    },
+    {
+     "flag_state": "FR",
+     "id": "MC016-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC016-V04-I01-D01",
+        "MC016-V04-I01-D02",
+        "MC016-V04-I01-D03",
+        "MC016-V04-I01-D04",
+        "MC016-V04-I01-D05"
+       ],
+       "id": "MC016-V04-I01",
+       "port": "DZAAE"
+      },
+      {
+       "defects": [
+        "MC016-V04-I02-D01",
+        "MC016-V04-I02-D02",
+        "MC016-V04-I02-D03"
+       ],
+       "id": "MC016-V04-I02",
+       "port": "GBGLW"
+      },
+      {
+       "defects": [
+        "MC016-V04-I03-D01",
+        "MC016-V04-I03-D02"
+       ],
+       "id": "MC016-V04-I03",
+       "port": "DZAAE"
+      }
+     ],
+     "owner_country": "NA"
+    }
+   ]
+  },
+  {
+   "id": "MC030",
+   "ships": [
+    {
+     "flag_state": "TH",
+     "id": "MC030-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC030-V01-I01-D01",
+        "MC030-V01-I01-D02",
+        "MC030-V01-I01-D03",
+        "MC030-V01-I01-D04",
+        "MC030-V01-I01-D05"
+       ],
+       "id": "MC030-V01-I01",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC030-V01-I02-D01",
+        "MC030-V01-I02-D02",
+        "MC030-V01-I02-D03"
+       ],
+       "id": "MC030-V01-I02",
+       "port": "ECDUN"
+      },
+      {
+       "defects": [
+        "MC030-V01-I03-D01",
+        "MC030-V01-I03-D02",
+        "MC030-V01-I03-D03",
+        "MC030-V01-I03-D04"
+       ],
+       "id": "MC030-V01-I03",
+       "port": "TKAFU"
+      }
+     ],
+     "owner_country": "GA"
+    },
+    {
+     "flag_state": "MZ",
+     "id": "MC030-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC030-V02-I01-D01",
+        "MC030-V02-I01-D02",
+        "MC030-V02-I01-D03",
+        "MC030-V02-I01-D04",
+        "MC030-V02-I01-D05"
+       ],
+       "id": "MC030-V02-I01",
+       "port": "NOKSU"
+      },
+      {
+       "defects": [
+        "MC030-V02-I02-D01",
+        "MC030-V02-I02-D02",
+        "MC030-V02-I02-D03",
+        "MC030-V02-I02-D04"
+       ],
+       "id": "MC030-V02-I02",
+       "port": "BQRIN"
+      },
+      {
+       "defects": [
+        "MC030-V02-I03-D01",
+        "MC030-V02-I03-D02",
+        "MC030-V02-I03-D03"
+       ],
+       "id": "MC030-V02-I03",
+       "port": "JMKIN"
+      }
+     ],
+     "owner_country": "BJ"
+    },
+    {
+     "flag_state": "BO",
+     "id": "MC030-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC030-V03-I01-D01",
+        "MC030-V03-I01-D02",
+        "MC030-V03-I01-D03",
+        "MC030-V03-I01-D04",
+        "MC030-V03-I01-D05"
+       ],
+       "id": "MC030-V03-I01",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC030-V03-I02-D01",
+        "MC030-V03-I02-D02"
+       ],
+       "id": "MC030-V03-I02",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC030-V03-I03-D01",
+        "MC030-V03-I03-D02",
+        "MC030-V03-I03-D03",
+        "MC030-V03-I03-D04"
+       ],
+       "id": "MC030-V03-I03",
+       "port": "DZAAE"
+      }
+     ],
+     "owner_country": "BJ"
+    },
+    {
+     "flag_state": "MZ",
+     "id": "MC030-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC030-V04-I01-D01",
+        "MC030-V04-I01-D02",
+        "MC030-V04-I01-D03",
+        "MC030-V04-I01-D04"
+       ],
+       "id": "MC030-V04-I01",
+       "port": "BQRIN"
+      },
+      {
+       "defects": [
+        "MC030-V04-I02-D01",
+        "MC030-V04-I02-D02",
+        "MC030-V04-I02-D03",
+        "MC030-V04-I02-D04",
+        "MC030-V04-I02-D05"
+       ],
+       "id": "MC030-V04-I02",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC030-V04-I03-D01",
+        "MC030-V04-I03-D02",
+        "MC030-V04-I03-D03"
+       ],
+       "id": "MC030-V04-I03",
+       "port": "BQRIN"
+      }
+     ],
+     "owner_country": "KW"
+    }
+   ]
+  },
+  {
+   "id": "MC032",
+   "ships": [
+    {
+     "flag_state": "LA",
+     "id": "MC032-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC032-V01-I01-D01",
+        "MC032-V01-I01-D02",
+        "MC032-V01-I01-D03",
+        "MC032-V01-I01-D04",
+        "MC032-V01-I01-D05"
+       ],
+       "id": "MC032-V01-I01",
+       "port": "ECDUN"
+      },
+      {
+       "defects": [
+        "MC032-V01-I02-D01",
+        "MC032-V01-I02-D02"
+       ],
+       "id": "MC032-V01-I02",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC032-V01-I03-D01",
+        "MC032-V01-I03-D02"
+       ],
+       "id": "MC032-V01-I03",
+       "port": "DZAAE"
+      }
+     ],
+     "owner_country": "YE"
+    },
+    {
+     "flag_state": "TH",
+     "id": "MC032-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC032-V02-I01-D01",
+        "MC032-V02-I01-D02",
+        "MC032-V02-I01-D03",
+        "MC032-V02-I01-D04",
+        "MC032-V02-I01-D05"
+       ],
+       "id": "MC032-V02-I01",
+       "port": "NOKSU"
+      },
+      {
+       "defects": [
+        "MC032-V02-I02-D01",
+        "MC032-V02-I02-D02",
+        "MC032-V02-I02-D03",
+        "MC032-V02-I02-D04"
+       ],
+       "id": "MC032-V02-I02",
+       "port": "ECDUN"
+      },
+      {
+       "defects": [
+        "MC032-V02-I03-D01",
+        "MC032-V02-I03-D02",
+        "MC032-V02-I03-D03"
+       ],
+       "id": "MC032-V02-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "LB"
+    },
+    {
+     "flag_state": "CC",
+     "id": "MC032-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC032-V03-I01-D01",
+        "MC032-V03-I01-D02"
+       ],
+       "id": "MC032-V03-I01",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC032-V03-I02-D01",
+        "MC032-V03-I02-D02",
+        "MC032-V03-I02-D03",
+        "MC032-V03-I02-D04",
+        "MC032-V03-I02-D05"
+       ],
+       "id": "MC032-V03-I02",
+       "port": "SKBCK"
+      },
+      {
+       "defects": [
+        "MC032-V03-I03-D01",
+        "MC032-V03-I03-D02",
+        "MC032-V03-I03-D03"
+       ],
+       "id": "MC032-V03-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "GA"
+    },
+    {
+     "flag_state": "ZA",
+     "id": "MC032-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC032-V04-I01-D01",
+        "MC032-V04-I01-D02",
+        "MC032-V04-I01-D03"
+       ],
+       "id": "MC032-V04-I01",
+       "port": "GBSCR"
+      },
+      {
+       "defects": [
+        "MC032-V04-I02-D01",
+        "MC032-V04-I02-D02",
+        "MC032-V04-I02-D03"
+       ],
+       "id": "MC032-V04-I02",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC032-V04-I03-D01",
+        "MC032-V04-I03-D02",
+        "MC032-V04-I03-D03",
+        "MC032-V04-I03-D04",
+        "MC032-V04-I03-D05"
+       ],
+       "id": "MC032-V04-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "GA"
+    }
+   ]
+  },
+  {
+   "id": "MC034",
+   "ships": [
+    {
+     "flag_state": "MZ",
+     "id": "MC034-V01",
+     "inspections": [
+      {
+       "defects": [
+        "MC034-V01-I01-D01",
+        "MC034-V01-I01-D02",
+        "MC034-V01-I01-D03",
+        "MC034-V01-I01-D04"
+       ],
+       "id": "MC034-V01-I01",
+       "port": "BQRIN"
+      },
+      {
+       "defects": [
+        "MC034-V01-I02-D01",
+        "MC034-V01-I02-D02",
+        "MC034-V01-I02-D03"
+       ],
+       "id": "MC034-V01-I02",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC034-V01-I03-D01",
+        "MC034-V01-I03-D02",
+        "MC034-V01-I03-D03",
+        "MC034-V01-I03-D04",
+        "MC034-V01-I03-D05"
+       ],
+       "id": "MC034-V01-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "GT"
+    },
+    {
+     "flag_state": "SR",
+     "id": "MC034-V02",
+     "inspections": [
+      {
+       "defects": [
+        "MC034-V02-I01-D01",
+        "MC034-V02-I01-D02",
+        "MC034-V02-I01-D03",
+        "MC034-V02-I01-D04",
+        "MC034-V02-I01-D05"
+       ],
+       "id": "MC034-V02-I01",
+       "port": "DEBER"
+      },
+      {
+       "defects": [
+        "MC034-V02-I02-D01",
+        "MC034-V02-I02-D02"
+       ],
+       "id": "MC034-V02-I02",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC034-V02-I03-D01",
+        "MC034-V02-I03-D02"
+       ],
+       "id": "MC034-V02-I03",
+       "port": "SKBCK"
+      }
+     ],
+     "owner_country": "YE"
+    },
+    {
+     "flag_state": "ST",
+     "id": "MC034-V03",
+     "inspections": [
+      {
+       "defects": [
+        "MC034-V03-I01-D01",
+        "MC034-V03-I01-D02"
+       ],
+       "id": "MC034-V03-I01",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC034-V03-I02-D01",
+        "MC034-V03-I02-D02",
+        "MC034-V03-I02-D03"
+       ],
+       "id": "MC034-V03-I02",
+       "port": "CNGUI"
+      },
+      {
+       "defects": [
+        "MC034-V03-I03-D01",
+        "MC034-V03-I03-D02",
+        "MC034-V03-I03-D03",
+        "MC034-V03-I03-D04",
+        "MC034-V03-I03-D05"
+       ],
+       "id": "MC034-V03-I03",
+       "port": "NOKSU"
+      }
+     ],
+     "owner_country": "GT"
+    },
+    {
+     "flag_state": "CC",
+     "id": "MC034-V04",
+     "inspections": [
+      {
+       "defects": [
+        "MC034-V04-I01-D01",
+        "MC034-V04-I01-D02",
+        "MC034-V04-I01-D03"
+       ],
+       "id": "MC034-V04-I01",
+       "port": "TKAFU"
+      },
+      {
+       "defects": [
+        "MC034-V04-I02-D01",
+        "MC034-V04-I02-D02"
+       ],
+       "id": "MC034-V04-I02",
+       "port": "JMKIN"
+      },
+      {
+       "defects": [
+        "MC034-V04-I03-D01",
+        "MC034-V04-I03-D02",
+        "MC034-V04-I03-D03",
+        "MC034-V04-I03-D04"
+       ],
+       "id": "MC034-V04-I03",
+       "port": "JMKIN"
+      }
+     ],
+     "owner_country": "NA"
+    }
+   ]
+  }
+ ]
+}

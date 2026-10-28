@@ -1,0 +1,25 @@
+concept_id	wiki_title	match	pageviews_12m	note
+mail_service_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+database_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+plaintext_protocol_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+tls_wrapped_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+proxy_ports	Proxy server	exact	1138556	monthly pageviews 2025-10..2026-09
+remote_admin_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+file_transfer_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+directory_service_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+network_infrastructure_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+voip_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+streaming_media_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+windows_networking_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+printing_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+version_control_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+monitoring_ports	Simple Network Management Protocol	exact	344270	monthly pageviews 2025-10..2026-09
+vpn_ports	Virtual private network	exact	867596	monthly pageviews 2025-10..2026-09
+container_orchestration_ports	Kubernetes	exact	491367	monthly pageviews 2025-10..2026-09
+http_service_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+name_resolution_ports	Domain Name System	exact	758826	monthly pageviews 2025-10..2026-09
+smb_and_netbios_ports	Server Message Block	exact	185459	monthly pageviews 2025-10..2026-09
+microsoft_server_ports	Microsoft Windows	exact	1546125	monthly pageviews 2025-10..2026-09
+nosql_database_ports	NoSQL	exact	209139	monthly pageviews 2025-10..2026-09
+iana_system_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09
+iana_user_ports	List of TCP and UDP port numbers	exact	1134819	monthly pageviews 2025-10..2026-09

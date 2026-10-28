@@ -1,0 +1,202 @@
+{
+ "TR": {
+  "business": "A multinational's finance team audits employee travel expenses: every flight segment on a submitted claim is reimbursable and is counted once for the department",
+  "fields": {
+   "segments.airline": {
+    "universe": "airline",
+    "values": 1147,
+    "lists": 59
+   },
+   "segments.arrival_airport": {
+    "universe": "airport",
+    "values": 6675,
+    "lists": 27
+   },
+   "claims.currency": {
+    "universe": "currency",
+    "values": 155,
+    "lists": 37
+   }
+  }
+ },
+ "SY": {
+  "business": "A health plan's utilisation review unit totals, for each patient, the records in the patient's file that its review desk has to process: medication fills, diagn",
+  "fields": {
+   "conditions.code": {
+    "universe": "condition",
+    "values": 176,
+    "lists": 67
+   },
+   "procedures.code": {
+    "universe": "procedure",
+    "values": 165,
+    "lists": 56
+   },
+   "medications.ingredient": {
+    "universe": "medicine",
+    "values": 107,
+    "lists": 71
+   }
+  }
+ },
+ "WS": {
+  "business": "A security firm audits client web sites: the hosts of each site are scanned and every finding is recorded against the host where it was observed; the client's r",
+  "fields": {
+   "findings.cwe": {
+    "universe": "cwe",
+    "values": 934,
+    "lists": 86
+   },
+   "findings.language": {
+    "universe": "language",
+    "values": 177,
+    "lists": 63
+   },
+   "hosts.tld": {
+    "universe": "tld",
+    "values": 1285,
+    "lists": 40
+   }
+  }
+ },
+ "LG": {
+  "business": "A corporate network gateway aggregates the proxied connections and SSH logins of its workstations into one event count per workstation.",
+  "fields": {
+   "proxy_connections.tld": {
+    "universe": "tld",
+    "values": 1436,
+    "lists": 53
+   },
+   "proxy_connections.client_app": {
+    "universe": "client_app",
+    "values": 131,
+    "lists": 36
+   },
+   "proxy_connections.port": {
+    "universe": "port",
+    "values": 6063,
+    "lists": 24
+   }
+  }
+ },
+ "SP": {
+  "business": "A sports marketing agency reconciles sponsorship activation counts for sponsor brands before settlement.",
+  "fields": {
+   "activations.club": {
+    "universe": "club",
+    "values": 151,
+    "lists": 12
+   },
+   "activations.co_sponsor": {
+    "universe": "co_sponsor",
+    "values": 692,
+    "lists": 12
+   },
+   "activations.market_country": {
+    "universe": "market_country",
+    "values": 249,
+    "lists": 10
+   }
+  }
+ },
+ "CH": {
+  "business": "A customs broker reviews chemical import declarations and counts the declaration lines that require manual clearance.",
+  "fields": {
+   "lines.substance": {
+    "universe": "chemical",
+    "values": 654,
+    "lists": 18
+   },
+   "declarations.exporter_country": {
+    "universe": "country",
+    "values": 195,
+    "lists": 14
+   },
+   "shipments.air_carrier": {
+    "universe": "carrier",
+    "values": 239,
+    "lists": 7
+   }
+  }
+ },
+ "MN": {
+  "business": "A manufacturing company's procurement audit team reviews raw-material purchase lots by factory before approving sourcing exceptions.",
+  "fields": {
+   "lots.origin_country": {
+    "universe": "country",
+    "values": 194,
+    "lists": 16
+   },
+   "lots.carrier": {
+    "universe": "carrier",
+    "values": 452,
+    "lists": 14
+   },
+   "lots.material": {
+    "universe": "material",
+    "values": 118,
+    "lists": 19
+   }
+  }
+ },
+ "SH": {
+  "business": "A port state control office aggregates vessel inspection defects for follow-up by the vessel's ship management company.",
+  "fields": {
+   "ships.flag_state": {
+    "universe": "flag",
+    "values": 250,
+    "lists": 32
+   },
+   "ships.owner_country": {
+    "universe": "flag",
+    "values": 250,
+    "lists": 32
+   },
+   "inspections.port": {
+    "universe": "port",
+    "values": 751,
+    "lists": 26
+   }
+  }
+ },
+ "UN": {
+  "business": "An international education foundation reviews scholarship applications and totals cases for follow-up by funding programme.",
+  "fields": {
+   "applicants.nationality": {
+    "universe": "country",
+    "values": 249,
+    "lists": 22
+   },
+   "references.country": {
+    "universe": "country",
+    "values": 249,
+    "lists": 22
+   },
+   "applications.sponsor_company": {
+    "universe": "sponsor_company",
+    "values": 971,
+    "lists": 12
+   }
+  }
+ },
+ "GR": {
+  "business": "A research foundation reviews travel reimbursement requests for scholars attending international conferences.",
+  "fields": {
+   "applicants.nationality": {
+    "universe": "country",
+    "values": 249,
+    "lists": 15
+   },
+   "trips.airline": {
+    "universe": "airline",
+    "values": 1964,
+    "lists": 18
+   },
+   "applicants.university": {
+    "universe": "university",
+    "values": 3762,
+    "lists": 15
+   }
+  }
+ }
+}

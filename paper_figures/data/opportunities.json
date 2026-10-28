@@ -1,0 +1,98 @@
+{
+ "luna/ace": {
+  "attempts": 165,
+  "updated": 165,
+  "levels": 80,
+  "passed": 76,
+  "pass_rate": 95.0,
+  "empty_state_rate": null
+ },
+ "luna/gepa": {
+  "attempts": 182,
+  "updated": 182,
+  "levels": 80,
+  "passed": 60,
+  "pass_rate": 75.0,
+  "empty_state_rate": null
+ },
+ "luna/dc": {
+  "attempts": 195,
+  "updated": 195,
+  "levels": 80,
+  "passed": 57,
+  "pass_rate": 71.2,
+  "empty_state_rate": null
+ },
+ "luna/tfgrpo": {
+  "attempts": 240,
+  "updated": 240,
+  "levels": 80,
+  "passed": 0,
+  "pass_rate": 0.0,
+  "empty_state_rate": 100.0
+ },
+ "luna/evoskill": {
+  "attempts": 233,
+  "updated": 233,
+  "levels": 80,
+  "passed": 13,
+  "pass_rate": 16.2,
+  "empty_state_rate": 70.0
+ },
+ "luna/rb": {
+  "attempts": 234,
+  "updated": 234,
+  "levels": 80,
+  "passed": 8,
+  "pass_rate": 10.0,
+  "empty_state_rate": null
+ },
+ "sol/gepa": {
+  "attempts": 186,
+  "updated": 186,
+  "levels": 80,
+  "passed": 57,
+  "pass_rate": 71.2,
+  "empty_state_rate": null
+ },
+ "sol/tfgrpo": {
+  "attempts": 240,
+  "updated": 240,
+  "levels": 80,
+  "passed": 0,
+  "pass_rate": 0.0,
+  "empty_state_rate": 100.0
+ },
+ "sol/evoskill": {
+  "attempts": 200,
+  "updated": 200,
+  "levels": 80,
+  "passed": 46,
+  "pass_rate": 57.5,
+  "empty_state_rate": 13.8
+ },
+ "sol/rb": {
+  "attempts": 235,
+  "updated": 235,
+  "levels": 80,
+  "passed": 6,
+  "pass_rate": 7.5,
+  "empty_state_rate": null
+ },
+ "sol/ace": {
+  "attempts": 168,
+  "updated": 168,
+  "levels": 80,
+  "passed": 80,
+  "pass_rate": 100.0,
+  "empty_state_rate": null
+ },
+ "sol/dc": {
+  "attempts": 171,
+  "updated": 171,
+  "levels": 80,
+  "passed": 80,
+  "pass_rate": 100.0,
+  "empty_state_rate": null
+ }
+}

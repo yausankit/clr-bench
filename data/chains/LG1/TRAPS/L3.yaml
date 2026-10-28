@@ -1,0 +1,43 @@
+A: '137'
+C: microsoft_server_ports
+C_name: Microsoft server product port assignments
+N_p: '702'
+N_t:
+- '176'
+- '162'
+- '593'
+- '2842'
+- '3649'
+- '2188'
+- '3604'
+P_M:
+- '1433'
+- '3389'
+- '88'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - iana_system_ports
+    - network_infrastructure_ports
+    - smb_and_netbios_ports
+    - windows_networking_ports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- iana_system_ports
+- name_resolution_ports
+- network_infrastructure_ports
+- smb_and_netbios_ports
+- windows_networking_ports
+field: proxy_connections.port
+label: session tag F-88
+salience: 1546125.0
+universe: port

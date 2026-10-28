@@ -1,0 +1,333 @@
+{
+ "answer_format": "json",
+ "background": {
+  "applicants.nationality": [
+   "AI",
+   "AO",
+   "BQ",
+   "CC",
+   "MH",
+   "MX",
+   "PN",
+   "PS",
+   "RE",
+   "TW"
+  ],
+  "applicants.university": [
+   "Comboni College of Science & Technology",
+   "FH Aachen",
+   "Gaziantep University",
+   "Istanbul Aydın University",
+   "Kaduna Polytechnic",
+   "Politeknik Pembangunan Pertanian Gowa",
+   "Republic of China Naval Academy",
+   "Residential Women's Polytechnic College, Payyanur",
+   "University of Huelva",
+   "University of Southampton"
+  ],
+  "trips.airline": [
+   "Air Kerala",
+   "Canaryfly",
+   "Cargo Airways International",
+   "Cubana",
+   "Hebridean Air Services",
+   "Klaipedos Avialinijos",
+   "Nefteyugansk United Airline Transportation Company",
+   "Orenburzhye",
+   "Raya Jet",
+   "Turukhan Airlines"
+  ]
+ },
+ "course_id": "CLR_GR1",
+ "dataset": "GR",
+ "fields": [
+  "applicants.nationality",
+  "trips.airline",
+  "applicants.university"
+ ],
+ "id": "GR1",
+ "seed": 20266107,
+ "slots": [
+  {
+   "A": "GB",
+   "C": "commonwealth_members",
+   "C_name": "Commonwealth of Nations members",
+   "N_p": "SI",
+   "N_t": [
+    "FI",
+    "FR",
+    "DE",
+    "IL",
+    "GS",
+    "CG",
+    "CO"
+   ],
+   "P_M": [
+    "BD",
+    "VC",
+    "GM"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "council_of_europe_members",
+      "g20_members",
+      "g7_members",
+      "nato_members",
+      "oecd_members",
+      "un_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "council_of_europe_members",
+    "g20_members",
+    "g7_members",
+    "nato_members",
+    "oecd_members",
+    "un_members"
+   ],
+   "field": "applicants.nationality",
+   "label": "travel note X5",
+   "level": 1,
+   "salience": 1410547.0,
+   "universe": "country"
+  },
+  {
+   "A": "Lufthansa",
+   "C": "star_alliance_members",
+   "C_name": "Star Alliance member airlines",
+   "N_p": "Edelweiss Air",
+   "N_t": [
+    "Scandinavian Airlines",
+    "Sky Airline",
+    "Etihad Airways",
+    "PenAir",
+    "Maritime Air Charter",
+    "NovoAir",
+    "Servicios Aéreos Profesionales"
+   ],
+   "P_M": [
+    "Thai Airways",
+    "Austrian Airlines",
+    "Shenzhen Airlines"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "a380_operators",
+      "b787_operators",
+      "iata_members",
+      "star_alliance_founders"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a380_operators",
+    "airlines_for_europe",
+    "b787_operators",
+    "iata_members",
+    "lufthansa_group_airlines",
+    "star_alliance_founders"
+   ],
+   "field": "trips.airline",
+   "label": "audit marker 55",
+   "level": 2,
+   "salience": 630113.0,
+   "universe": "airline"
+  },
+  {
+   "A": "University of Edinburgh",
+   "C": "leru_members",
+   "C_name": "League of European Research Universities members",
+   "N_p": "Open University of the Netherlands",
+   "N_t": [
+    "University of Bristol",
+    "Tokat Gaziosmanpaşa University",
+    "University of Bologna",
+    "University of North Florida",
+    "Ukrainian Catholic University",
+    "Royal Military Academy, Woolwich",
+    "Kharkiv Polytechnic Institute"
+   ],
+   "P_M": [
+    "University of Copenhagen",
+    "Utrecht University",
+    "University of Helsinki"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "coimbra_members",
+      "eua_members",
+      "russell_group"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "coimbra_members",
+    "eua_members",
+    "russell_group"
+   ],
+   "field": "applicants.university",
+   "label": "review notation Y-25",
+   "level": 3,
+   "salience": 10924.0,
+   "universe": "university"
+  },
+  {
+   "A": "IT",
+   "C": "nato_members",
+   "C_name": "NATO member countries",
+   "N_p": "MT",
+   "N_t": [
+    "AT",
+    "CH",
+    "JP",
+    "FK",
+    "CD",
+    "NA",
+    "RW"
+   ],
+   "P_M": [
+    "ME",
+    "MK",
+    "BG"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "council_of_europe_members",
+      "eu_members",
+      "g20_members",
+      "g7_members",
+      "oecd_members",
+      "schengen_members",
+      "un_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "council_of_europe_members",
+    "eu_members",
+    "g20_members",
+    "g7_members",
+    "oecd_members",
+    "schengen_members",
+    "un_members"
+   ],
+   "field": "applicants.nationality",
+   "label": "routing code D3",
+   "level": 4,
+   "salience": 2087661.0,
+   "universe": "country"
+  },
+  {
+   "A": "Qatar Airways",
+   "C": "oneworld_members",
+   "C_name": "oneworld member airlines",
+   "N_p": "Fly2Sky",
+   "N_t": [
+    "Plus Ultra",
+    "Gulf Air",
+    "STARLUX Airlines",
+    "Airnorth",
+    "Sun Way",
+    "Shree Airlines",
+    "West Air Luxembourg"
+   ],
+   "P_M": [
+    "Fiji Airways",
+    "Finnair",
+    "SriLankan Airlines"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "aaco_members",
+      "b787_operators",
+      "iata_members",
+      "skytrax_five_star"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a380_operators",
+    "aaco_members",
+    "b787_operators",
+    "iata_members",
+    "skytrax_five_star"
+   ],
+   "field": "trips.airline",
+   "label": "expense label 20",
+   "level": 5,
+   "salience": 467145.0,
+   "universe": "airline"
+  }
+ ]
+}

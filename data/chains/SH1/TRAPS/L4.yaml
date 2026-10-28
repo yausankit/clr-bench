@@ -1,0 +1,48 @@
+A: ZA
+C: brics
+C_name: BRICS
+N_p: SA
+N_t:
+- TZ
+- AU
+- MR
+- RS
+- CO
+- SG
+- NZ
+P_M:
+- BR
+- CN
+- RU
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_continental_free_trade_area
+    - african_union
+    - commonwealth_of_nations
+    - g20
+    - international_hydrographic_organization
+    - southern_african_development_community
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 24
+    pass: true
+comp_A:
+- african_continental_free_trade_area
+- african_union
+- commonwealth_of_nations
+- g20
+- international_hydrographic_organization
+- southern_african_development_community
+- world_trade_organization
+field: ships.flag_state
+label: follow-up docket S3
+salience: 1491124.0
+universe: flag

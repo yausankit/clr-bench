@@ -1,0 +1,93 @@
+chromium_browsers: Chromium (web browser) -> 200 12 months
+email_chat_clients: Comparison of email clients -> 200 12 months
+office_document_apps: List of office suites -> 200 12 months
+video_players: Comparison of video player software -> 200 12 months
+developer_admin_tools: Comparison of integrated development environments -> 200 12 months
+security_update_tools: Comparison of antivirus software -> 200 12 months
+remote_access_tools: Comparison of remote desktop software -> 200 12 months
+sync_download_tools: Comparison of file synchronization software -> 200 12 months
+microsoft_products: Microsoft -> 200 12 months
+tencent_products: Tencent -> 200 12 months
+qihoo_products: Qihoo 360 -> 200 12 months
+mail_service_ports: List of TCP and UDP port numbers -> 200 12 months
+database_ports: List of TCP and UDP port numbers -> 200 12 months
+plaintext_protocol_ports: List of TCP and UDP port numbers -> 200 12 months
+tls_wrapped_ports: List of TCP and UDP port numbers -> 200 12 months
+proxy_ports: Proxy server -> 200 12 months
+remote_admin_ports: List of TCP and UDP port numbers -> 200 12 months
+file_transfer_ports: List of TCP and UDP port numbers -> 200 12 months
+directory_service_ports: List of TCP and UDP port numbers -> 200 12 months
+network_infrastructure_ports: List of TCP and UDP port numbers -> 200 12 months
+voip_ports: List of TCP and UDP port numbers -> 200 12 months
+streaming_media_ports: List of TCP and UDP port numbers -> 200 12 months
+windows_networking_ports: List of TCP and UDP port numbers -> 200 12 months
+printing_ports: List of TCP and UDP port numbers -> 200 12 months
+version_control_ports: List of TCP and UDP port numbers -> 200 12 months
+monitoring_ports: Simple Network Management Protocol -> 200 12 months
+vpn_ports: Virtual private network -> 200 12 months
+container_orchestration_ports: Kubernetes -> 200 12 months
+http_service_ports: List of TCP and UDP port numbers -> 200 12 months
+name_resolution_ports: Domain Name System -> 200 12 months
+smb_and_netbios_ports: Server Message Block -> 200 12 months
+microsoft_server_ports: Microsoft Windows -> 200 12 months
+nosql_database_ports: NoSQL -> 200 12 months
+iana_system_ports: List of TCP and UDP port numbers -> 200 12 months
+iana_user_ports: List of TCP and UDP port numbers -> 200 12 months
+eu_member_cctlds: European Union -> 200 12 months
+schengen_cctlds: Schengen Area -> 200 12 months
+eurozone_cctlds: Eurozone -> 200 12 months
+nato_cctlds: NATO -> 200 12 months
+commonwealth_cctlds: Commonwealth of Nations -> 200 12 months
+asean_cctlds: ASEAN -> 200 12 months
+g20_cctlds: G20 -> 200 12 months
+brics_cctlds: BRICS -> 200 12 months
+oecd_cctlds: OECD -> 200 12 months
+african_union_cctlds: African Union -> 200 12 months
+arab_league_cctlds: Arab League -> 200 12 months
+nordic_council_cctlds: Nordic Council -> 200 12 months
+gcc_cctlds: Gulf Cooperation Council -> 200 12 months
+caricom_cctlds: CARICOM -> 200 12 months
+pacific_islands_forum_cctlds: Pacific Islands Forum -> 200 12 months
+g7_cctlds: G7 -> 200 12 months
+five_eyes_cctlds: Five Eyes -> 200 12 months
+cplp_cctlds: Community of Portuguese Language Countries -> 200 12 months
+oif_cctlds: Organisation internationale de la Francophonie -> 200 12 months
+opec_cctlds: OPEC -> 200 12 months
+cis_cctlds: Commonwealth of Independent States -> 200 12 months
+saarc_cctlds: South Asian Association for Regional Cooperation -> 200 12 months
+apec_cctlds: Asia-Pacific Economic Cooperation -> 200 12 months
+idn_cctlds: Internationalized country-code top-level domain -> 404 0 months
+geographic_gtlds: Geographic top-level domain -> 200 12 months
+brand_gtlds: Brand top-level domain -> 404 0 months
+sponsored_gtlds: Sponsored top-level domain -> 200 12 months
+original_gtlds: Generic top-level domain -> 200 12 months
+cctlds_all: Country code top-level domain -> 200 12 months
+gtlds_all: Generic top-level domain -> 200 12 months
+legacy_gtlds: Generic top-level domain -> 200 12 months
+new_gtld_program_2012: Generic top-level domain -> 200 12 months
+asia_pacific_cctlds: Country code top-level domain -> 200 12 months
+linux_base_accounts: Linux user and group management -> 404 0 months
+mirai_default_usernames: Mirai (malware) -> 200 12 months
+seclists_top_usernames: SecLists -> 404 0 months
+cloud_image_users: Amazon Machine Image -> 200 12 months
+database_default_users: Database administrator -> 200 12 months
+web_server_users: Web server -> 200 12 months
+ci_cd_users: Jenkins (software) -> 200 12 months
+network_device_users: Network administrator -> 200 12 months
+iot_default_users: Internet of things -> 200 12 months
+mail_server_users: Message transfer agent -> 200 12 months
+monitoring_users: Network monitoring -> 200 12 months
+bigdata_users: Apache Hadoop -> 200 12 months
+ftp_accounts: File Transfer Protocol -> 200 12 months
+privileged_accounts: Superuser -> 200 12 months
+legacy_service_accounts: Unix system account -> 404 0 months
+windows_accounts: Windows service account -> 404 0 months
+service_accounts: System account -> 404 0 months
+application_server_accounts: Web server -> 200 12 months
+data_platform_accounts: Apache Hadoop -> 200 12 months
+automation_accounts: Jenkins (software) -> 200 12 months
+default_accounts: Internet of things -> 200 12 months
+salience/client_app.tsv: 24 rows, 23 matched
+salience/port.tsv: 24 rows, 24 matched
+salience/tld.tsv: 33 rows, 31 matched
+salience/user.tsv: 21 rows, 16 matched

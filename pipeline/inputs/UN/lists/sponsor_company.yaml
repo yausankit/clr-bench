@@ -1,0 +1,2092 @@
+- id: euro_stoxx_50
+  name: EURO STOXX 50
+  synonyms: []
+  members:
+  - Adidas
+  - Adyen
+  - Ahold Delhaize
+  - Air Liquide
+  - Airbus
+  - Allianz
+  - Anheuser-Busch InBev
+  - Argenx
+  - ASML Holding
+  - AXA
+  - Banco Santander
+  - BASF
+  - Bayer
+  - BBVA
+  - BMW
+  - BNP Paribas
+  - Danone
+  - Deutsche Bank
+  - Deutsche Börse
+  - Deutsche Post
+  - Deutsche Telekom
+  - Enel
+  - Eni
+  - EssilorLuxottica
+  - Ferrari
+  - Hermès
+  - Iberdrola
+  - Inditex
+  - Infineon Technologies
+  - ING Group
+  - Intesa Sanpaolo
+  - L'Oréal
+  - LVMH Moët Hennessy Louis Vuitton
+  - Mercedes-Benz Group
+  - Munich Re
+  - Nordea
+  - Prosus
+  - Rheinmetall
+  - Safran
+  - Saint-Gobain
+  - Sanofi
+  - SAP
+  - Schneider Electric
+  - Siemens
+  - Siemens Energy
+  - TotalEnergies
+  - UniCredit
+  - Vinci SA
+  - Volkswagen Group
+  - Wolters Kluwer
+  disputed: []
+  changes: []
+  official_count: 50
+  out_of_universe: []
+  salience: 609936
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/EURO_STOXX_50'
+- id: stoxx_europe_600
+  name: STOXX Europe 600
+  synonyms: []
+  members:
+  - 3i
+  - ABB Ltd
+  - ABN AMRO
+  - Acciona
+  - Acciona Energía
+  - Accor
+  - Acerinox
+  - ACS Group
+  - Adecco
+  - Adevinta
+  - Adidas
+  - Admiral Group
+  - Adyen
+  - Aena
+  - Ageas
+  - Air France-KLM
+  - Air Liquide
+  - Airbus
+  - AIXTRON
+  - Aker BP
+  - AkzoNobel
+  - Alcon
+  - Alfa Laval
+  - Allfunds Group
+  - Allianz
+  - Alstom
+  - Ambu
+  - ams OSRAM
+  - Anglo American plc
+  - Anheuser-Busch InBev
+  - Antofagasta plc
+  - ArcelorMittal
+  - Argenx
+  - Arkema
+  - Aroundtown
+  - ASM International
+  - ASML Holding
+  - Assa Abloy
+  - Associated British Foods
+  - Aston Martin
+  - AstraZeneca
+  - Atlas Copco
+  - Atos
+  - Auto Trader Group
+  - Aviva
+  - AXA
+  - Azelis Group
+  - B&M European Value Retail
+  - BAE Systems
+  - Balder
+  - Balfour Beatty
+  - Baloise
+  - Banco Bilbao Vizcaya Argentaria
+  - Banco Sabadell
+  - Banco Santander
+  - Bankinter
+  - Barclays
+  - Barratt Redrow
+  - Barry Callebaut
+  - BASF
+  - Bayer
+  - Beazley
+  - Beiersdorf
+  - Belimo
+  - Berkeley Group Holdings
+  - Big Yellow Group
+  - BMW
+  - BNP Paribas
+  - Boliden AB
+  - Bolloré
+  - Bouygues
+  - BP
+  - Bpost
+  - Brenntag
+  - British American Tobacco
+  - Brunello Cucinelli
+  - BT Group
+  - Bunzl
+  - Burberry
+  - Bureau Veritas
+  - CaixaBank
+  - Capgemini
+  - Carl Zeiss Meditec
+  - Carrefour
+  - Castellum
+  - CD Projekt
+  - Centrica
+  - Clariant
+  - Coca-Cola HBC
+  - Colruyt
+  - Commerzbank
+  - Compass Group
+  - Computer Center
+  - Continental
+  - ConvaTec
+  - Covestro
+  - Croda International
+  - Crédit Agricole
+  - CTS Eventim
+  - Daimler Truck
+  - Danone
+  - Davide Campari-Milano
+  - Delivery Hero
+  - Demant
+  - Derwent London
+  - Deutsche Börse
+  - Deutsche Pfandbriefbank
+  - Deutsche Telekom
+  - DHL Group
+  - Dia
+  - Diageo
+  - DIETEREN Group
+  - Diploma
+  - Direct Line
+  - DocMorris
+  - DS Smith
+  - DSM-Firmenich
+  - E.ON
+  - EasyJet
+  - Edenred
+  - EDP - Energias de Portugal
+  - EDP Renováveis
+  - Eiffage
+  - Electrolux
+  - Elisa
+  - Ems-Chemie
+  - Enagás
+  - Endeavour Mining
+  - Enel
+  - Engie
+  - Eni
+  - Entain
+  - Epiroc
+  - Ericsson
+  - Erste Group
+  - EssilorLuxottica
+  - Euronext
+  - Evonik Industries
+  - Evotec
+  - Evraz
+  - Exor
+  - Experian
+  - Falck
+  - FCC
+  - Ferrari
+  - Ferrovial
+  - Flow Traders
+  - Flutter Entertainment
+  - Fortum
+  - Forvia
+  - Freenet
+  - Fresenius Medical Care
+  - Galenica
+  - Galp Energia
+  - Games Workshop
+  - GEA Group
+  - Geberit
+  - Gecina
+  - Georg Fischer
+  - Getlink
+  - Givaudan
+  - Glanbia
+  - Glencore
+  - GN Store Nord
+  - Grafton Group
+  - Greggs
+  - Grifols
+  - Gruppo Campari
+  - GSK plc
+  - H&M
+  - Haleon
+  - Halma plc
+  - Hannover Re
+  - Hays
+  - Heidelberg Materials
+  - Helvetia
+  - Helvetia Insurance
+  - Henkel
+  - Hermès
+  - Hikma Pharmaceuticals
+  - Hiscox
+  - Holcim
+  - Howden Joinery
+  - HSBC
+  - Hugo Boss
+  - Husqvarna
+  - Iberdrola
+  - IG Group
+  - IMI
+  - Imperial Brands
+  - Inchcape
+  - Inditex
+  - Indivior
+  - Indutrade
+  - Infineon Technologies
+  - Informa
+  - ING Group
+  - InPost
+  - InterContinental Hotels Group
+  - Intermediate Capital Group
+  - International Airlines Group
+  - Interpump Group
+  - Intertek
+  - Intesa Sanpaolo
+  - Investec
+  - Ipsen
+  - Ipsos
+  - ITV
+  - JD Sports
+  - Jerónimo Martins
+  - Johnson Matthey
+  - Julius Baer
+  - Just Eat Takeaway
+  - KBC Group
+  - Kering
+  - Kingfisher
+  - Kingfisher plc
+  - Kone
+  - KPN
+  - Kuehne + Nagel
+  - L'Oréal
+  - Land Securities
+  - Lanvin Group
+  - Lanxess
+  - LEG Immobilien
+  - Legal & General
+  - Leonardo
+  - Lerøy Seafood
+  - Liberty Global
+  - LifeCo
+  - Linde plc
+  - Lindt & Sprüngli
+  - Lloyds Banking Group
+  - Logitech
+  - London Stock Exchange Group
+  - Lonza Group
+  - LPP
+  - Lufthansa
+  - Lumibird
+  - Lundin Energy
+  - LVMH
+  - M&G
+  - Maersk
+  - MAN SE
+  - Marks & Spencer
+  - Mediobanca
+  - Melexis
+  - Meliá Hotels
+  - Mercedes-Benz Group
+  - Merlin Properties
+  - Metso
+  - Michelin
+  - Millicom
+  - Mobico Group
+  - Moncler
+  - Mondi
+  - Moneysupermarket.com
+  - MorphoSys
+  - Morrisons
+  - MTU Aero Engines
+  - Munich Re
+  - National Bank of Greece
+  - National Grid
+  - Naturgy
+  - NatWest Group
+  - Nemetschek
+  - Neoen
+  - Neste
+  - Nestlé
+  - Nexans
+  - Nexi
+  - Next plc
+  - Nibe Industrier
+  - NN Group
+  - Nokia
+  - Nordea
+  - Norsk Hydro
+  - Novartis
+  - Novo Nordisk
+  - Ocado
+  - OCI
+  - Oerlikon
+  - OMV
+  - Ontex
+  - Orange S.A.
+  - Orkla ASA
+  - Pandora
+  - Partners Group
+  - Pearson
+  - Pennon Group
+  - Pernod Ricard
+  - Persimmon plc
+  - Pirelli
+  - PolyPeptide
+  - Porsche
+  - Porsche SE
+  - Poste Italiane
+  - PostNL
+  - Proximus
+  - Prudential plc
+  - Prysmian
+  - Publicis
+  - Puma
+  - Qiagen
+  - Quilter
+  - Raiffeisen Bank International
+  - Rational
+  - Reckitt
+  - Recordati
+  - Redeia
+  - RELX
+  - Renault
+  - Rentokil Initial
+  - Repsol
+  - Rexel
+  - Rheinmetall
+  - Richemont
+  - Rightmove
+  - Rio Tinto Group
+  - Roche Holding
+  - Rolls-Royce Holdings
+  - Royal Mail
+  - RWE
+  - Rémy Cointreau
+  - S4 Capital
+  - Safran
+  - Sage Group
+  - Sainsbury's
+  - Saint-Gobain
+  - SalMar
+  - Sampo Group
+  - Sandoz
+  - Sandvik AB
+  - Sanofi
+  - Sanoma
+  - SAP
+  - Sartorius
+  - Schibsted
+  - Schindler Group
+  - Schneider Electric
+  - Schroders
+  - SCOR SE
+  - Scottish Mortgage Investment Trust
+  - Scout24
+  - Securitas AB
+  - Segro
+  - Severn Trent
+  - SGS S.A.
+  - Shell
+  - Shell plc
+  - Siemens
+  - SIG Group
+  - Signify
+  - Sika
+  - Sixt
+  - Skandinaviska Enskilda Banken
+  - Skanska
+  - SKF
+  - Sky Group
+  - Smith & Nephew
+  - Smiths Group
+  - Smurfit Kappa
+  - Snam
+  - Société Générale
+  - Sodexo
+  - Softcat
+  - Software
+  - Solvay
+  - Sonova
+  - Spectris
+  - Spirax-Sarco Engineering
+  - SSE plc
+  - St. James's Place
+  - Standard Chartered
+  - Standard Life plc
+  - Stellantis
+  - STMicroelectronics
+  - Stora Enso
+  - Storebrand
+  - Straumann
+  - Sunbelt Rentals
+  - Svenska Handelsbanken
+  - Swatch Group
+  - Sweco
+  - Swedbank
+  - Swedish Match
+  - Swiss Life
+  - Swiss Prime Site
+  - Swiss Re
+  - Swisscom
+  - Symrise
+  - Talanx
+  - Tate & Lyle
+  - Taylor Wimpey
+  - TeamViewer
+  - TechnipFMC
+  - Tele2
+  - Telecom Plus
+  - Telefónica
+  - Telenor
+  - Teleperformance
+  - Telia Company
+  - Temenos Group
+  - Tenaris
+  - Terna
+  - Tesco
+  - Teva Pharmaceutical Industries
+  - TGS
+  - Thales
+  - ThyssenKrupp
+  - TIM
+  - Tomra
+  - TomTom
+  - TotalEnergies
+  - Transocean
+  - Traton
+  - Travis Perkins
+  - Trelleborg
+  - Tryg
+  - TUI Group
+  - Ubisoft
+  - UBS Group
+  - Umicore
+  - Unibail-Rodamco-Westfield
+  - UniCredit
+  - Unilever
+  - Uniper
+  - Unite Group
+  - United Utilities
+  - Universal Music Group
+  - UPM-Kymmene
+  - Valeo
+  - Vallourec
+  - Valmet
+  - Varta
+  - VAT Group
+  - Veolia
+  - Verbund
+  - Vestas
+  - Viaplay
+  - Vicat
+  - Vienna Insurance Group
+  - Vinci
+  - Vitrolife
+  - Vivendi
+  - Vodafone
+  - Voestalpine
+  - Volvo Group
+  - Vonovia
+  - Vopak
+  - Warehouses De Pauw
+  - Weir Group
+  - Wendel
+  - Whitbread
+  - Wienerberger
+  - Wihlborgs Fastigheter
+  - Wise
+  - Wolters Kluwer
+  - Worldline
+  - WPP
+  - Yara International
+  - Zalando
+  - Zurich Insurance Group
+  - Ørsted
+  disputed: []
+  changes: []
+  official_count: 464
+  out_of_universe: []
+  salience: 143020
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/STOXX_Europe_600'
+- id: euronext_100
+  name: Euronext 100
+  synonyms: []
+  members:
+  - Accor
+  - Adyen
+  - Ahold Delhaize
+  - Air Liquide
+  - Airbus
+  - AkzoNobel
+  - ArcelorMittal
+  - Argenx
+  - ASM International
+  - ASML Holding
+  - AXA
+  - BNP Paribas
+  - Bouygues
+  - Bureau Veritas
+  - Capgemini
+  - Carrefour
+  - Crédit Agricole
+  - Danone
+  - Deutsche Börse
+  - Edenred
+  - EDP Renováveis
+  - Eiffage
+  - Enel
+  - Engie
+  - Eni
+  - Euronext
+  - Ferrari
+  - Galp Energia
+  - Intesa Sanpaolo
+  - Ipsen
+  - Jerónimo Martins
+  - Kering
+  - KPN
+  - Leonardo
+  - Mediobanca
+  - Michelin
+  - Moncler
+  - Pernod Ricard
+  - Poste Italiane
+  - Prosus
+  - Prysmian
+  - Publicis
+  - Recordati
+  - Renault
+  - Safran
+  - Saint-Gobain
+  - Sanofi
+  - Schneider Electric
+  - Shell
+  - Snam
+  - Société Générale
+  - Sodexo
+  - Stellantis
+  - STMicroelectronics
+  - Telenor
+  - Tenaris
+  - Terna
+  - Thales
+  - TotalEnergies
+  - Unibail-Rodamco-Westfield
+  - UniCredit
+  - Vinci
+  - Vivendi
+  - Wolters Kluwer
+  disputed: []
+  changes: []
+  official_count: 102
+  out_of_universe:
+  - Aegon
+  - AIB
+  - Aker
+  - ASR Nederland
+  - Aéroports de Paris
+  - Bank of Ireland
+  - BE Semiconductor Industries
+  - BioMérieux
+  - Cattolica Assicurazioni
+  - Dassault Systèmes
+  - DNB
+  - DSM
+  - EDP
+  - Equinor
+  - Eramet
+  - Essilor
+  - FinecoBank
+  - Generali
+  - Groupe Bruxelles Lambert
+  - Havas
+  - Heineken
+  - Infrastrutture Wireless Italiane
+  - ING
+  - KBC Bank
+  - Kerry Group
+  - Kingspan Group
+  - Kongsberg
+  - Koninklijke Ahold Delhaize N.V.
+  - Koninklijke Philips N.V.
+  - Legrand
+  - Mowi
+  - Nationale-Nederlanden
+  - Norsk Hydro ASA
+  - Orange
+  - Ryanair
+  - Sartorius Stedim Biotech
+  - UCB
+  - Veolia Environnement
+  salience: 21881
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/Euronext_100'
+- id: ftse_100
+  name: FTSE 100
+  synonyms: []
+  members:
+  - 3i
+  - Admiral Group
+  - Anglo American plc
+  - Antofagasta plc
+  - Associated British Foods
+  - AstraZeneca
+  - Auto Trader Group
+  - Aviva
+  - BAE Systems
+  - Balfour Beatty
+  - Barclays
+  - Barratt Redrow
+  - BP
+  - British American Tobacco
+  - BT Group
+  - Bunzl
+  - Centrica
+  - Coca-Cola HBC
+  - Compass Group
+  - ConvaTec
+  - Croda International
+  - Diageo
+  - Diploma
+  - EasyJet
+  - Endeavour Mining
+  - Experian
+  - Games Workshop
+  - Glencore
+  - GSK plc
+  - Haleon
+  - Halma plc
+  - Hiscox
+  - Howden Joinery
+  - HSBC
+  - IG Group
+  - IMI
+  - Imperial Brands
+  - Informa
+  - International Airlines Group
+  - Intertek
+  - Investec
+  - JD Sports
+  - Kingfisher plc
+  - Land Securities
+  - Legal & General
+  - Lloyds Banking Group
+  - London Stock Exchange Group
+  - M&G
+  - Marks & Spencer
+  - NatWest Group
+  - Next plc
+  - Prudential plc
+  - Reckitt
+  - RELX
+  - Rentokil Initial
+  - Rolls-Royce Holdings
+  - Sage Group
+  - Sainsbury's
+  - Scottish Mortgage Investment Trust
+  - Segro
+  - Severn Trent
+  - Shell plc
+  - Smith & Nephew
+  - Smiths Group
+  - SSE plc
+  - St. James's Place
+  - Standard Chartered
+  - Tesco
+  - Unilever
+  - United Utilities
+  - Whitbread
+  - WPP
+  disputed: []
+  changes: []
+  official_count: 100
+  out_of_universe:
+  - Aberdeen Group
+  - Airtel Africa
+  - Alliance Witan
+  - Babcock International
+  - British Land
+  - Burberry Group
+  - Coca-Cola Europacific Partners
+  - Computacenter
+  - DCC Energy
+  - F & C Investment Trust
+  - Fresnillo plc
+  - ICG
+  - IHG Hotels & Resorts
+  - Ithaca Energy
+  - Lion Finance Group
+  - LondonMetric Property
+  - Melrose Industries
+  - Metlen Energy & Metals
+  - National Grid plc
+  - Pearson plc
+  - Pershing Square Holdings
+  - Polar Capital Technology Trust
+  - Rio Tinto
+  - Spirax Group
+  - Standard Life
+  - Tritax Big Box REIT
+  - Vodafone Group
+  - Weir
+  salience: 935586
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/FTSE_100_Index'
+- id: dow_jones
+  name: Dow Jones Industrial Average
+  synonyms: []
+  members:
+  - 3M
+  - Alphabet Inc.
+  - Amazon
+  - American Express
+  - Amgen
+  - Apple Inc.
+  - Boeing
+  - Caterpillar Inc.
+  - Chevron Corporation
+  - Cisco
+  - Coca-Cola Company (The)
+  - Goldman Sachs
+  - Home Depot (The)
+  - Honeywell Technologies
+  - IBM
+  - Johnson & Johnson
+  - JPMorgan Chase
+  - McDonald's
+  - Merck & Co.
+  - Microsoft
+  - Nike, Inc.
+  - Nvidia
+  - Procter & Gamble
+  - Salesforce
+  - Sherwin-Williams
+  - Travelers Companies (The)
+  - UnitedHealth Group
+  - Visa Inc.
+  - Walmart
+  - Walt Disney Company (The)
+  disputed: []
+  changes: []
+  official_count: 30
+  out_of_universe: []
+  salience: 76049
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/List_of_Dow_Jones_Industrial_Average_companies'
+- id: omx_nordic_40
+  name: OMX Nordic 40
+  synonyms: []
+  members:
+  - ABB Ltd
+  - Alfa Laval
+  - Assa Abloy
+  - AstraZeneca
+  - Atlas Copco
+  - Ericsson
+  - Kone
+  - Nibe Industrier
+  - Nokia
+  - Nordea
+  - Novo Nordisk
+  - Pandora
+  - Swedbank
+  - Tele2
+  - Telia Company
+  - UPM-Kymmene
+  - Ørsted
+  disputed: []
+  changes: []
+  official_count: 39
+  out_of_universe:
+  - A.P. Møller Maersk
+  - Boliden
+  - Carlsberg
+  - Coloplast
+  - Danske Bank
+  - DSV
+  - EQT
+  - Essity
+  - Evolution
+  - Genmab
+  - Handelsbanken
+  - Hennes & Mauritz
+  - Hexagon
+  - Investor
+  - Novonesis (Novozymes)
+  - Saab
+  - Sampo
+  - Sandvik
+  - SCA
+  - SEB
+  - Vestas Wind Systems
+  - Volvo
+  salience: 8811
+  source: 'Current constituent snapshot: https://en.wikipedia.org/wiki/OMX_Nordic_40'
+- id: sp500
+  name: S&P 500 constituents
+  synonyms: []
+  members:
+  - 3M
+  - A. O. Smith
+  - Abbott Laboratories
+  - AbbVie
+  - Accenture
+  - Adobe Inc.
+  - Advanced Micro Devices
+  - AES Corporation
+  - Aflac
+  - Agilent Technologies
+  - Air Products
+  - Airbnb
+  - Akamai Technologies
+  - Albemarle Corporation
+  - Alexandria Real Estate Equities
+  - Align Technology
+  - Allegion
+  - Alliant Energy
+  - Allstate
+  - Alphabet Inc.
+  - Altria
+  - Amazon
+  - Amcor
+  - Ameren
+  - American Electric Power
+  - American Express
+  - American International Group
+  - American Tower
+  - American Water Works
+  - Ameriprise Financial
+  - Ametek
+  - Amgen
+  - Amphenol
+  - Analog Devices
+  - Aon plc
+  - APA Corporation
+  - Apollo Global Management
+  - Apple Inc.
+  - Applied Materials
+  - AppLovin
+  - Aptiv
+  - Arch Capital Group
+  - Archer Daniels Midland
+  - Ares Management
+  - Arista Networks
+  - Arthur J. Gallagher & Co.
+  - Assurant
+  - AT&T
+  - Atmos Energy
+  - Autodesk
+  - Automatic Data Processing
+  - AutoZone
+  - Avery Dennison
+  - Axon Enterprise
+  - Baker Hughes
+  - Ball Corporation
+  - Bank of America
+  - Baxter International
+  - Becton Dickinson
+  - Berkshire Hathaway
+  - Best Buy
+  - Bio-Techne
+  - Biogen
+  - BlackRock
+  - Blackstone Inc.
+  - Block, Inc.
+  - Bloom Energy
+  - BNY Mellon
+  - Boeing
+  - Booking Holdings
+  - Boston Scientific
+  - Bristol Myers Squibb
+  - Broadcom
+  - Broadridge Financial Solutions
+  - Brown & Brown
+  - Brown–Forman
+  - Bunge Global
+  - BXP, Inc.
+  - C.H. Robinson
+  - Cadence Design Systems
+  - Camden Property Trust
+  - Capital One
+  - Cardinal Health
+  - Carnival Corporation
+  - Carrier Global
+  - Carvana
+  - Casey's
+  - Caterpillar Inc.
+  - Cboe Global Markets
+  - CBRE Group
+  - CDW Corporation
+  - Cencora
+  - Centene Corporation
+  - CenterPoint Energy
+  - CF Industries
+  - Charles River Laboratories
+  - Charles Schwab Corporation
+  - Charter Communications
+  - Chevron Corporation
+  - Chipotle Mexican Grill
+  - Chubb Limited
+  - Church & Dwight
+  - Ciena
+  - Cigna
+  - Cincinnati Financial
+  - Cintas
+  - Cisco
+  - Citigroup
+  - Citizens Financial Group
+  - Clorox
+  - CME Group
+  - CMS Energy
+  - Coca-Cola Company (The)
+  - Cognizant
+  - Coherent Corp.
+  - Coinbase
+  - Colgate-Palmolive
+  - Comcast
+  - Comfort Systems USA
+  - ConocoPhillips
+  - Consolidated Edison
+  - Constellation Brands
+  - Constellation Energy
+  - Cooper Companies (The)
+  - Copart
+  - Corning Inc.
+  - Corpay
+  - Costco
+  - CRH plc
+  - CrowdStrike
+  - Crown Castle
+  - CSX Corporation
+  - Cummins
+  - CVS Health
+  - D. R. Horton
+  - Darden Restaurants
+  - Datadog
+  - DaVita
+  - Deckers Brands
+  - Deere & Company
+  - Dell Technologies
+  - Delta Air Lines
+  - Devon Energy
+  - Dexcom
+  - Diamondback Energy
+  - Digital Realty
+  - Dollar General
+  - Dollar Tree
+  - Dominion Energy
+  - Domino's
+  - DoorDash
+  - Dover Corporation
+  - Dow Inc.
+  - DTE Energy
+  - Duke Energy
+  - DuPont
+  - Eaton Corporation
+  - eBay Inc.
+  - EchoStar
+  - Ecolab
+  - Edison International
+  - Edwards Lifesciences
+  - Elevance Health
+  - Emcor
+  - Emerson Electric
+  - Entergy
+  - EOG Resources
+  - EQT Corporation
+  - Equifax
+  - Equinix
+  - Erie Indemnity
+  - Essex Property Trust
+  - Estée Lauder Companies (The)
+  - Everest Group
+  - Evergy
+  - Everpure
+  - Eversource Energy
+  - Exelon
+  - Expand Energy
+  - Expedia Group
+  - Expeditors International
+  - Extra Space Storage
+  - ExxonMobil
+  - F5, Inc.
+  - FactSet
+  - Fair Isaac
+  - Fastenal
+  - Federal Realty Investment Trust
+  - FedEx
+  - FedEx Freight
+  - Ferguson Enterprises
+  - Fidelity National Information Services
+  - Fifth Third Bancorp
+  - First Solar
+  - FirstEnergy
+  - Fiserv
+  - Flex Ltd.
+  - Ford Motor Company
+  - Fortinet
+  - Fortive
+  - Fox Corporation
+  - Franklin Resources
+  - Freeport-McMoRan
+  - Garmin
+  - Gartner
+  - GE Aerospace
+  - GE HealthCare
+  - GE Vernova
+  - Gen Digital
+  - Generac
+  - General Dynamics
+  - General Mills
+  - General Motors
+  - Genuine Parts Company
+  - Gilead Sciences
+  - Global Payments
+  - Globe Life
+  - GoDaddy
+  - Goldman Sachs
+  - Halliburton
+  - Hartford (The)
+  - Hasbro
+  - HCA Healthcare
+  - Healthpeak Properties
+  - Henry Schein
+  - Hershey Company (The)
+  - Hewlett Packard Enterprise
+  - Hilton Worldwide
+  - Home Depot (The)
+  - Honeywell Aerospace
+  - Honeywell Technologies
+  - Hormel Foods
+  - Host Hotels & Resorts
+  - Howmet Aerospace
+  - HP Inc.
+  - Hubbell Incorporated
+  - Humana
+  - Huntington Bancshares
+  - Huntington Ingalls Industries
+  - IBM
+  - IDEX Corporation
+  - Idexx Laboratories
+  - Illinois Tool Works
+  - Illumina, Inc.
+  - Incyte
+  - Ingersoll Rand
+  - Insulet Corporation
+  - Intel
+  - Interactive Brokers
+  - Intercontinental Exchange
+  - International Flavors & Fragrances
+  - International Paper
+  - Intuit
+  - Intuitive Surgical
+  - Invesco
+  - Invitation Homes
+  - IQVIA
+  - Iron Mountain
+  - J.B. Hunt
+  - J.M. Smucker Company (The)
+  - Jabil
+  - Jack Henry & Associates
+  - Jacobs Solutions
+  - Johnson & Johnson
+  - Johnson Controls
+  - JPMorgan Chase
+  - Kenvue
+  - Keurig Dr Pepper
+  - KeyCorp
+  - Keysight Technologies
+  - Kimberly-Clark
+  - Kimco Realty
+  - Kinder Morgan
+  - KKR & Co.
+  - KLA Corporation
+  - Kraft Heinz
+  - Kroger
+  - L3Harris
+  - Labcorp
+  - Lam Research
+  - Las Vegas Sands
+  - Leidos
+  - Lennar
+  - Lennox International
+  - Lilly (Eli)
+  - Linde plc
+  - Live Nation Entertainment
+  - Lockheed Martin
+  - Loews Corporation
+  - Lowe's
+  - Lululemon Athletica
+  - Lumentum
+  - LyondellBasell
+  - M&T Bank
+  - Marathon Petroleum
+  - Marriott International
+  - Marsh McLennan
+  - Martin Marietta Materials
+  - Marvell Technology
+  - Masco
+  - Mastercard
+  - McCormick & Company
+  - McDonald's
+  - McKesson
+  - Medtronic
+  - Merck & Co.
+  - Meta Platforms
+  - MetLife
+  - Mettler Toledo
+  - MGM Resorts
+  - Microchip Technology
+  - Micron Technology
+  - Microsoft
+  - Mid-America Apartment Communities
+  - Moderna
+  - Mondelez International
+  - Monolithic Power Systems
+  - Monster Beverage
+  - Moody's Corporation
+  - Morgan Stanley
+  - Mosaic Company (The)
+  - Motorola Solutions
+  - MSCI
+  - Nasdaq, Inc.
+  - NetApp
+  - Netflix
+  - Newmont
+  - News Corp
+  - NextEra Energy
+  - Nike, Inc.
+  - NiSource
+  - Nordson Corporation
+  - Norfolk Southern
+  - Northern Trust
+  - Northrop Grumman
+  - Norwegian Cruise Line Holdings
+  - NRG Energy
+  - Nucor
+  - Nvidia
+  - NVR, Inc.
+  - NXP Semiconductors
+  - O'Reilly Automotive
+  - Occidental Petroleum
+  - Old Dominion
+  - Omnicom Group
+  - ON Semiconductor
+  - Oneok
+  - Oracle Corporation
+  - Otis Worldwide
+  - Paccar
+  - Packaging Corporation of America
+  - Palantir Technologies
+  - Palo Alto Networks
+  - Parker Hannifin
+  - Paychex
+  - PayPal
+  - Pentair
+  - PepsiCo
+  - Pfizer
+  - PG&E Corporation
+  - Philip Morris International
+  - Phillips 66
+  - Pinnacle West Capital
+  - PNC Financial Services
+  - PPG Industries
+  - PPL Corporation
+  - Principal Financial Group
+  - Procter & Gamble
+  - Progressive Corporation
+  - Prologis
+  - Prudential Financial
+  - PTC Inc.
+  - Public Service Enterprise Group
+  - Public Storage
+  - PulteGroup
+  - Qnity Electronics
+  - Qualcomm
+  - Quanta Services
+  - Quest Diagnostics
+  - Ralph Lauren Corporation
+  - Raymond James Financial
+  - Realty Income
+  - Reddit
+  - Regency Centers
+  - Regeneron Pharmaceuticals
+  - Regions Financial Corporation
+  - Republic Services
+  - ResMed
+  - Revvity
+  - Robinhood Markets
+  - Rockwell Automation
+  - Rollins, Inc.
+  - Roper Technologies
+  - Ross Stores
+  - Royal Caribbean Group
+  - RTX Corporation
+  - S&P Global
+  - Salesforce
+  - Sandisk
+  - SBA Communications
+  - Schlumberger
+  - Seagate Technology
+  - Sempra
+  - ServiceNow
+  - Sherwin-Williams
+  - Simon Property Group
+  - Skydance Corporation
+  - Skyworks Solutions
+  - Smurfit Westrock
+  - Snap-on
+  - Solventum
+  - Southern Company
+  - Southwest Airlines
+  - Stanley Black & Decker
+  - Starbucks
+  - State Street Corporation
+  - Steel Dynamics
+  - Steris
+  - Stryker Corporation
+  - Supermicro
+  - Synchrony Financial
+  - Synopsys
+  - Sysco
+  - T-Mobile US
+  - T. Rowe Price
+  - Take-Two Interactive
+  - Tapestry, Inc.
+  - Targa Resources
+  - Target Corporation
+  - TE Connectivity
+  - Teledyne Technologies
+  - Teradyne
+  - Tesla, Inc.
+  - Texas Instruments
+  - Texas Pacific Land Corporation
+  - Textron
+  - Thermo Fisher Scientific
+  - TJX Companies
+  - TKO Group Holdings
+  - Tractor Supply
+  - Trane Technologies
+  - TransDigm Group
+  - Travelers Companies (The)
+  - Trimble Inc.
+  - Truist Financial
+  - Twilio
+  - Tyler Technologies
+  - Tyson Foods
+  - U.S. Bancorp
+  - Uber
+  - UDR, Inc.
+  - Ulta Beauty
+  - Union Pacific Corporation
+  - United Airlines Holdings
+  - United Parcel Service
+  - United Rentals
+  - UnitedHealth Group
+  - Universal Health Services
+  - Valero Energy
+  - Veeva Systems
+  - Ventas
+  - Veralto
+  - Verisign
+  - Verisk Analytics
+  - Verizon
+  - Vertex Pharmaceuticals
+  - Vertiv
+  - Viatris
+  - Vici Properties
+  - Visa Inc.
+  - Vistra Corp.
+  - Vivmark Residential
+  - Vulcan Materials Company
+  - Vylor
+  - W. R. Berkley Corporation
+  - W. W. Grainger
+  - Wabtec
+  - Walmart
+  - Walt Disney Company (The)
+  - Waste Management
+  - Waters Corporation
+  - WEC Energy Group
+  - Wells Fargo
+  - Welltower
+  - West Pharmaceutical Services
+  - Western Digital
+  - Weyerhaeuser
+  - Williams Companies
+  - Williams-Sonoma, Inc.
+  - Willis Towers Watson
+  - Workday, Inc.
+  - Wynn Resorts
+  - Xcel Energy
+  - Xylem Inc.
+  - Yum! Brands
+  - Zebra Technologies
+  - Zimmer Biomet
+  - Zoetis
+  disputed: []
+  changes: []
+  official_count: 500
+  out_of_universe:
+  - CoStar Group
+  - Danaher Corporation
+  salience: 1555797
+  source: datasets/s-and-p-500-companies raw constituents.csv
+- id: nasdaq_100
+  name: Nasdaq-100 constituents
+  synonyms: []
+  members:
+  - Adobe Inc.
+  - Advanced Micro Devices
+  - Airbnb
+  - Alphabet Inc.
+  - Amazon
+  - American Electric Power
+  - Amgen
+  - Analog Devices
+  - Apple Inc.
+  - Applied Materials
+  - AppLovin
+  - ASML Holding
+  - Autodesk
+  - Automatic Data Processing
+  - Axon Enterprise
+  - Baker Hughes
+  - Booking Holdings
+  - Broadcom
+  - Cadence Design Systems
+  - Cintas
+  - Cisco
+  - Comcast
+  - Constellation Energy
+  - Copart
+  - Costco
+  - CrowdStrike
+  - CSX Corporation
+  - Datadog
+  - Dexcom
+  - Diamondback Energy
+  - DoorDash
+  - Exelon
+  - Fastenal
+  - Ferrovial
+  - Fortinet
+  - GE HealthCare
+  - Gilead Sciences
+  - Honeywell Aerospace
+  - Honeywell Technologies
+  - Idexx Laboratories
+  - Intel
+  - Intuit
+  - Intuitive Surgical
+  - Keurig Dr Pepper
+  - KLA Corporation
+  - Lam Research
+  - Linde plc
+  - Lumentum
+  - Marriott International
+  - Marvell Technology
+  - Meta Platforms
+  - Microchip Technology
+  - Micron Technology
+  - Microsoft
+  - Moderna
+  - Mondelez International
+  - Monolithic Power Systems
+  - Monster Beverage
+  - Netflix
+  - Nvidia
+  - NXP Semiconductors
+  - O'Reilly Automotive
+  - Old Dominion
+  - Paccar
+  - Palantir Technologies
+  - Palo Alto Networks
+  - Paychex
+  - PayPal
+  - PepsiCo
+  - Qualcomm
+  - Regeneron Pharmaceuticals
+  - Roper Technologies
+  - Ross Stores
+  - Sandisk
+  - Seagate Technology
+  - Starbucks
+  - Synopsys
+  - T-Mobile US
+  - Take-Two Interactive
+  - Teradyne
+  - Tesla, Inc.
+  - Texas Instruments
+  - Vertex Pharmaceuticals
+  - Walmart
+  - Western Digital
+  - Workday, Inc.
+  - Xcel Energy
+  disputed: []
+  changes: []
+  official_count: 100
+  out_of_universe:
+  - Alnylam Pharmaceuticals, Inc.
+  - Arm Holdings plc
+  - Astera Labs, Inc.
+  - Coca-Cola Europacific Partners plc
+  - CoreWeave, Inc.
+  - MercadoLibre, Inc.
+  - Nebius Group N.V.
+  - PDD Holdings Inc.
+  - Rocket Lab Corporation
+  - Shopify Inc. Class A Subordinate Voting Shares
+  - Space Exploration Technologies Corp.
+  - Strategy Inc Common Stock
+  - Thomson Reuters Corporation
+  salience: 16238813
+  source: 'Nasdaq public list screener snapshot (2026-10-22): https://api.nasdaq.com/api/quote/list-type/nasdaq100?limit=100'
+- id: dow_global_titans
+  name: Dow Jones Global Titans 50
+  synonyms: []
+  members:
+  - Abbott Laboratories
+  - AbbVie
+  - Accenture
+  - Alphabet Inc.
+  - Amazon
+  - Apple Inc.
+  - AstraZeneca
+  - Broadcom
+  - Caterpillar Inc.
+  - Chevron Corporation
+  - Cisco
+  - Coca-Cola Company (The)
+  - ExxonMobil
+  - GE Aerospace
+  - Goldman Sachs
+  - HSBC
+  - IBM
+  - Johnson & Johnson
+  - JPMorgan Chase
+  - Mastercard
+  - McDonald's
+  - Merck & Co.
+  - Meta Platforms
+  - Microsoft
+  - Nestlé
+  - Netflix
+  - Novartis
+  - Novo Nordisk
+  - Nvidia
+  - Oracle Corporation
+  - PepsiCo
+  - Pfizer
+  - Philip Morris International
+  - Procter & Gamble
+  - Salesforce
+  - SAP
+  - Shell
+  - Thermo Fisher Scientific
+  - Unilever
+  - Visa Inc.
+  disputed: []
+  changes: []
+  official_count: 47
+  out_of_universe:
+  - Eli Lilly
+  - Roche
+  - Royal Bank of Canada
+  - Samsung Electronics
+  - Tesla
+  - Toyota
+  - TSMC
+  salience: 46575
+  source: 'Current component table: https://en.wikipedia.org/wiki/Dow_Jones_Global_Titans_50'
+- id: g_sib
+  name: 2025 Financial Stability Board global systemically important banks
+  synonyms:
+  - G-SIBs
+  members:
+  - Banco Santander
+  - Bank of America
+  - Barclays
+  - BNP Paribas
+  - Citigroup
+  - Crédit Agricole
+  - Deutsche Bank
+  - HSBC
+  - Morgan Stanley
+  - Société Générale
+  - Standard Chartered
+  - Wells Fargo
+  disputed: []
+  changes: []
+  official_count: 29
+  out_of_universe:
+  - Agricultural Bank of China
+  - Bank of China
+  - Bank of Communications (BoCom)
+  - Bank of New York Mellon
+  - China Construction Bank
+  - Goldman Sachs Group
+  - Groupe BPCE
+  - ICBC
+  - ING
+  - JP Morgan Chase
+  - Mizuho FG
+  - MUFG
+  - Royal Bank of Canada
+  - State Street
+  - Sumitomo Mitsui
+  - Toronto-Dominion Bank
+  - UBS
+  salience: 92246
+  source: '2025 G-SIB table snapshot: https://en.wikipedia.org/wiki/List_of_systemically_important_banks'
+- id: fortune_global_500
+  name: Fortune Global 500
+  synonyms: []
+  members:
+  - Abbott Laboratories
+  - AbbVie
+  - Accenture
+  - Advanced Micro Devices
+  - Airbus
+  - Allianz
+  - Allstate
+  - Alphabet Inc.
+  - Amazon
+  - American Express
+  - Amgen
+  - Anheuser-Busch InBev
+  - Apple Inc.
+  - ArcelorMittal
+  - Archer Daniels Midland
+  - ASML Holding
+  - AstraZeneca
+  - AT&T
+  - AXA
+  - BAE Systems
+  - Banco Bilbao Vizcaya Argentaria
+  - Banco Santander
+  - Bank of America
+  - Barclays
+  - BASF
+  - Bayer
+  - Berkshire Hathaway
+  - Best Buy
+  - BNP Paribas
+  - Boeing
+  - Bouygues
+  - BP
+  - Bristol Myers Squibb
+  - British American Tobacco
+  - Broadcom
+  - Bunge Global
+  - Cardinal Health
+  - Carrefour
+  - Caterpillar Inc.
+  - CBRE Group
+  - Cencora
+  - Charter Communications
+  - Chevron Corporation
+  - Citigroup
+  - Coca-Cola Company (The)
+  - Comcast
+  - Compass Group
+  - ConocoPhillips
+  - Crédit Agricole
+  - Cummins
+  - CVS Health
+  - D. R. Horton
+  - Dell Technologies
+  - Delta Air Lines
+  - Deutsche Bank
+  - Deutsche Telekom
+  - DHL Group
+  - Dollar General
+  - E.ON
+  - Elevance Health
+  - Enel
+  - Engie
+  - Eni
+  - FedEx
+  - GE Aerospace
+  - GE Vernova
+  - General Dynamics
+  - General Motors
+  - Glencore
+  - HCA Healthcare
+  - Hewlett Packard Enterprise
+  - Home Depot (The)
+  - Honeywell Technologies
+  - Humana
+  - Iberdrola
+  - Inditex
+  - ING Group
+  - Intel
+  - International Airlines Group
+  - Intesa Sanpaolo
+  - Jerónimo Martins
+  - Johnson & Johnson
+  - JPMorgan Chase
+  - Kroger
+  - L'Oréal
+  - Lloyds Banking Group
+  - Lockheed Martin
+  - Lowe's
+  - Marathon Petroleum
+  - McKesson
+  - Medtronic
+  - Mercedes-Benz Group
+  - Merck & Co.
+  - Meta Platforms
+  - MetLife
+  - Micron Technology
+  - Microsoft
+  - Mondelez International
+  - Morgan Stanley
+  - NatWest Group
+  - Nestlé
+  - Netflix
+  - Nike, Inc.
+  - Northrop Grumman
+  - Novartis
+  - Novo Nordisk
+  - Nvidia
+  - Oneok
+  - PepsiCo
+  - Pfizer
+  - Philip Morris International
+  - Phillips 66
+  - Procter & Gamble
+  - Prudential Financial
+  - Qualcomm
+  - Renault
+  - Repsol
+  - Rio Tinto Group
+  - Safran
+  - Saint-Gobain
+  - Salesforce
+  - Sanofi
+  - SAP
+  - Schneider Electric
+  - Shell
+  - Siemens
+  - Siemens Energy
+  - Société Générale
+  - St. James's Place
+  - Standard Chartered
+  - Starbucks
+  - Stellantis
+  - STMicroelectronics
+  - Swiss Re
+  - Sysco
+  - Talanx
+  - Telefónica
+  - Tesco
+  - Thermo Fisher Scientific
+  - ThyssenKrupp
+  - TotalEnergies
+  - Travelers Companies (The)
+  - Tyson Foods
+  - U.S. Bancorp
+  - UBS Group
+  - Unilever
+  - Uniper
+  - United Airlines Holdings
+  - UnitedHealth Group
+  - Valero Energy
+  - Vinci
+  - Visa Inc.
+  - Volvo Group
+  - Walmart
+  - Wells Fargo
+  - Zurich Insurance Group
+  disputed: []
+  changes: []
+  official_count: 500
+  out_of_universe:
+  - ABB
+  - ACS
+  - AEON
+  - Agricultural Bank of China
+  - AIA
+  - Air France-KLM Group
+  - Aisin
+  - Albertsons
+  - Alibaba Group
+  - Alimentation Couche-Tard
+  - Aluminum Corp. of China
+  - American Airlines Group
+  - América Móvil
+  - Ansteel Group
+  - ANZ Group Holdings
+  - Assicurazioni Generali
+  - Banco Bradesco
+  - Banco do Brasil
+  - Bank of China
+  - Bank of Communications
+  - Bank of Montreal
+  - Bank of New York (BNY)
+  - Bank of Nova Scotia
+  - Beijing Automotive Group
+  - Beijing Jianlong Heavy Industry Group
+  - Bharat Petroleum
+  - BHP Group
+  - BMW Group
+  - Bosch Group
+  - Brookfield
+  - BYD
+  - Caixa Econômica Federal
+  - Canadian Imperial Bank of Commerce
+  - Capital One Financial
+  - CDP Group
+  - Cenovus Energy
+  - Centene
+  - CFE
+  - Chery Automobile
+  - China Baowu Steel Group
+  - China Communications Construction
+  - China Construction Bank
+  - China Datang
+  - China Electronics
+  - China Energy Engineering Group
+  - China Energy Investment
+  - China FAW Group
+  - China General Technology
+  - China Huadian
+  - China Huaneng Group
+  - China Life Insurance
+  - China Merchants Bank
+  - China Minmetals
+  - China Minsheng Banking
+  - China Mobile Communications
+  - China National Building Material Group
+  - China National Offshore Oil
+  - China National Petroleum
+  - China Pacific Insurance (Group)
+  - China Poly Group
+  - China Post Group
+  - China Railway Construction
+  - China Railway Engineering Group
+  - China Resources
+  - China Southern Power Grid
+  - China State Construction Engineering
+  - China Telecommunications
+  - China United Network Communications
+  - Christian Dior
+  - CHS
+  - Chubb
+  - Cigna Group
+  - Cisco Systems
+  - CITIC Group
+  - CK Hutchison Holdings
+  - COFCO
+  - Commonwealth Bank of Australia
+  - Contemporary Amperex Technology (CATL)
+  - Coop Group
+  - COSCO Shipping
+  - Costco Wholesale
+  - Coupang
+  - CRH
+  - CRRC Group
+  - Crédit Mutuel Group
+  - Daiichi Life Group
+  - Daikin Industries
+  - Daimler Truck Holding
+  - Daiwa House Industry
+  - Deere
+  - Delong Steel Industry Group
+  - Denso
+  - Deutsche Bahn
+  - Dongfeng Motor
+  - Dow
+  - DSV
+  - DZ Bank
+  - Edeka Zentrale
+  - Electricité de France
+  - Eli Lilly
+  - Emirates Group
+  - Enbridge
+  - ENEOS Holdings
+  - Energie Baden-Württemberg
+  - Energy Transfer
+  - Enterprise Products Partners
+  - EP Group
+  - Equinor
+  - Exxon Mobil Holdings
+  - Fairfax Financial Holdings
+  - Fannie Mae
+  - Fomento Económico Mexicano
+  - Ford Motor
+  - Freddie Mac
+  - Galaxy Digital
+  - Gazprom
+  - Gazprombank
+  - George Weston
+  - Goldman Sachs Group
+  - Groupe BPCE
+  - GSK
+  - Guangdong Guangxin Holdings Group
+  - Guangxi Investment Group
+  - Guangzhou Automobile Industry Group
+  - Guangzhou Industrial Investment Holdings
+  - Guangzhou Municipal Construction Group
+  - Guangzhou Pharmaceutical Holdings
+  - Haier Smart Home
+  - Hailiang Group
+  - Hangzhou Industrial Investment Group
+  - Hangzhou Iron and Steel Group
+  - Hanwha
+  - HBIS Group
+  - HD Hyundai
+  - HDFC Bank
+  - Hengli Group
+  - Heraeus Holding
+  - Hitachi
+  - Hon Hai Precision Industry
+  - Honda Motor
+  - HP
+  - HSBC Holdings
+  - Huawei Investment & Holding
+  - Hunan Iron & Steel Group
+  - Hyundai Mobis
+  - Hyundai Motor
+  - ICICI Bank
+  - Idemitsu Kosan
+  - Indian Oil
+  - Industrial & Commercial Bank of China
+  - Industrial Bank
+  - Ingka Holding (IKEA)
+  - Ingram Micro Holding
+  - International Business Machines
+  - Itau Unibanco Holding
+  - ITOCHU
+  - J Sainsbury
+  - Japan Post Holdings
+  - Jardine Matheson
+  - JBS
+  - JD.com
+  - Jiangsu Shagang Group
+  - Jiangxi Copper
+  - Jinchuan Group
+  - Jingye Group
+  - Jinneng Holding Group
+  - KB Financial Group
+  - KDDI
+  - Kia
+  - Korea Electric Power
+  - Koç Holding
+  - La Poste
+  - Landesbank Baden-Württemberg
+  - Lennar Corporation
+  - Lenovo Group
+  - LG Chem
+  - LG Electronics
+  - Liberty Mutual Insurance Group
+  - Life Insurance Corp. of India
+  - Linde
+  - Lithia Motors
+  - Louis Dreyfus
+  - Lufthansa Group
+  - Lukoil
+  - Luxshare Precision Industry
+  - Maersk Group
+  - Magna International
+  - Magnit
+  - Mapfre Group
+  - Marubeni
+  - Massachusetts Mutual Life Insurance
+  - Meiji Yasuda Life Insurance
+  - Meituan
+  - Mercadona
+  - Midea Group
+  - Migros Group
+  - Mitsubishi Corporation
+  - Mitsubishi Electric
+  - Mitsubishi Heavy Industries
+  - Mitsubishi UFJ Financial Group
+  - Mitsui
+  - Mizuho Financial Group
+  - Molina Healthcare
+  - MS&AD Insurance Group Holdings
+  - Munich Re Group
+  - National Australia Bank
+  - Nationwide
+  - New China Life Insurance
+  - New Hope Holding Group
+  - New York Life Insurance
+  - Nippon Life Insurance
+  - Nippon Steel
+  - Nissan Motor
+  - Northwestern Mutual
+  - NTT
+  - Oil & Natural Gas
+  - Olam Group
+  - OMV Group
+  - Oracle
+  - Orange
+  - Orlen
+  - Pacific Construction Group
+  - Panasonic Holdings
+  - PayPal Holdings
+  - PDD Holdings
+  - Pegatron
+  - Pemex
+  - People's Insurance Co. of China
+  - Performance Food Group
+  - Pertamina
+  - Perusahaan Listrik Negara
+  - Petrobras
+  - Petronas
+  - Ping An Insurance
+  - Plains GP Holdings
+  - PNC Financial Services Group
+  - POSCO Holdings
+  - Power Corp. of Canada
+  - PowerChina
+  - Progressive
+  - PTT
+  - Publix Super Markets
+  - QNB Group
+  - Quanta Computer
+  - Rabobank Group
+  - Rajesh Exports
+  - Reliance Industries
+  - REWE Group
+  - Roche Group
+  - Rosneft Oil
+  - Royal Ahold Delhaize
+  - Royal Bank of Canada
+  - RTX
+  - Russian Railways
+  - S.F. Holding
+  - SAIC Motor
+  - Samsung Electronics
+  - Saudi Aramco
+  - Sberbank
+  - Seven & I Holdings
+  - Shaanxi Coal & Chemical Industry
+  - Shaanxi Yanchang Petroleum (Group)
+  - Shandong Energy Group
+  - Shandong Gold Group
+  - Shandong Hi-Speed Group
+  - Shandong Weiqiao Pioneering Group
+  - Shanghai Pharmaceuticals Holding
+  - Shanghai Pudong Development Bank
+  - Shenghong Holding Group
+  - Shenzhen Investment Holdings
+  - Shudao Investment Group
+  - Sinomach
+  - Sinopec Group
+  - Sinopharm
+  - SK
+  - SK Hynix
+  - SLB
+  - SNCF Group
+  - SoftBank Group
+  - Sompo Holdings
+  - Sony
+  - Standard Life
+  - State Bank of India
+  - State Farm Insurance
+  - State Grid
+  - State Power Investment
+  - StoneX Group
+  - Sumitomo
+  - Sumitomo Electric Industries
+  - Sumitomo Life Insurance
+  - Sumitomo Mitsui Financial Group
+  - Suncor Energy
+  - Susun Construction Group
+  - Suzuki Motor
+  - Taikang Insurance Group
+  - Taiwan Semiconductor Manufacturing
+  - Target
+  - Tata Motors Passenger Vehicles
+  - TD Synnex
+  - Tencent Holdings
+  - Tesla
+  - TIAA
+  - TJX
+  - Tokio Marine Holdings
+  - Tokyo Electric Power
+  - TongLing Nonferrous Metals Group
+  - Tongwei Group
+  - Toronto-Dominion Bank
+  - Toyota Motor
+  - Toyota Tsusho
+  - Trafigura Group
+  - Tsingshan Holding Group
+  - U.S. Postal Service
+  - Uber Technologies
+  - UniCredit Group
+  - United Services Automobile Assn.
+  - UPS
+  - US Foods Holding
+  - Vale
+  - Veolia Environnement
+  - Verizon Communications
+  - Vibra Energia
+  - Vodafone Group
+  - Volkswagen
+  - VTB Bank
+  - Walt Disney
+  - Warner Bros. Discovery
+  - Westpac Banking
+  - Wilmar International
+  - Wistron
+  - Woolworths Group
+  - World Kinect
+  - Wuchan Zhongda Group
+  - X5 Group
+  - Xiamen C&D
+  - Xiamen ITG Holding Group
+  - Xiaomi
+  - XMXYG
+  - ZF Friedrichshafen
+  - Zhejiang Communications Investment Group
+  - Zhejiang Geely Holding Group
+  - Zhejiang Hengyi Group
+  - Zhejiang Rongsheng Holding Group
+  - Zijin Mining Group
+  salience: 14
+  source: 'Fortune Global 500 (2026 edition, published 2026-07-28): https://fortune.com/ranking/global500/'
+- id: interbrand_top10_2025
+  name: Interbrand Best Global Brands top 10 (2025)
+  synonyms: []
+  members:
+  - Alphabet Inc.
+  - Amazon
+  - Apple Inc.
+  - Coca-Cola Company (The)
+  - McDonald's
+  - Mercedes-Benz Group
+  - Meta Platforms
+  - Microsoft
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe:
+  - Samsung
+  - Toyota
+  salience: 0
+  source: 'Interbrand Best Global Brands 2025 landing page: https://interbrand.com/best-global-brands/'

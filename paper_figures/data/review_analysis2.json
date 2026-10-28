@@ -1,0 +1,1984 @@
+{
+ "nonunique_slots": {
+  "SH2 L4": [
+   "schengen_area"
+  ],
+  "SP2 L1": [
+   "uel_winners"
+  ],
+  "SY1 L1": [
+   "snomed_301186004",
+   "snomed_363176004",
+   "snomed_297268004"
+  ],
+  "SY2 L3": [
+   "who_emlc_2023_s8_2_antineoplastics",
+   "who_emlc_2023_s8_2_1_cytotoxic"
+  ],
+  "WS1 L2": [
+   "romance_languages"
+  ]
+ },
+ "salience_wrong_slots": [
+  "SH2 L4",
+  "SP2 L1",
+  "SY1 L1"
+ ],
+ "excluded_slots": [
+  "GR1 L2",
+  "GR2 L3",
+  "LG1 L2",
+  "LG1 L3",
+  "LG2 L2",
+  "LG2 L3",
+  "MN1 L3",
+  "MN2 L1",
+  "MN2 L3",
+  "SH1 L3",
+  "SH1 L4",
+  "SH2 L4",
+  "SP1 L2",
+  "SP2 L1",
+  "SY1 L1",
+  "SY2 L3",
+  "TR1 L4",
+  "TR2 L4",
+  "UN1 L4",
+  "UN2 L2",
+  "UN2 L3",
+  "UN2 L4",
+  "WS1 L2"
+ ],
+ "composed_slots": [
+  "TR1 L2",
+  "TR1 L3",
+  "TR1 L4",
+  "TR2 L2",
+  "TR2 L3",
+  "SH1 L3",
+  "SH2 L3",
+  "LG1 L1",
+  "LG1 L4",
+  "LG2 L1",
+  "LG2 L4",
+  "WS1 L3",
+  "WS2 L3"
+ ],
+ "levels": {
+  "ace/self": [
+   0.79,
+   0.6399999999999999,
+   0.44000000000000006,
+   0.23000000000000004
+  ],
+  "dc/self": [
+   0.8300000000000001,
+   0.62,
+   0.42000000000000004,
+   0.24
+  ],
+  "hist/ref": [
+   0.8400000000000001,
+   0.65,
+   0.37,
+   0.23000000000000004
+  ],
+  "gepaN/self": [
+   0.8099999999999999,
+   0.58,
+   0.37,
+   0.22000000000000003
+  ],
+  "frozen/ref": [
+   0.8,
+   0.5700000000000001,
+   0.34,
+   0.2
+  ],
+  "rg_ace/self": [
+   0.8300000000000001,
+   0.62,
+   0.43,
+   0.26
+  ],
+  "rg_gepa/self": [
+   0.8200000000000001,
+   0.62,
+   0.36,
+   0.22000000000000003
+  ],
+  "rg_dc/self": [
+   0.8300000000000001,
+   0.67,
+   0.44000000000000006,
+   0.25
+  ],
+  "rg_hist/self": [
+   0.9,
+   0.75,
+   0.51,
+   0.39
+  ],
+  "webm_ace/hint": [
+   0.93,
+   0.8099999999999999,
+   0.62,
+   0.39
+  ],
+  "webm_gepa/hint": [
+   0.9,
+   0.6900000000000001,
+   0.43,
+   0.38
+  ],
+  "webm_dc/hint": [
+   0.8300000000000001,
+   0.71,
+   0.6,
+   0.35
+  ],
+  "convm_ace/hint": [
+   0.86,
+   0.7100000000000001,
+   0.67,
+   0.4600000000000001
+  ],
+  "convm_gepa/hint": [
+   0.8800000000000001,
+   0.7,
+   0.42000000000000004,
+   0.42000000000000004
+  ],
+  "convm_dc/hint": [
+   0.93,
+   0.79,
+   0.58,
+   0.5
+  ],
+  "webngm_ace/hint": [
+   0.8099999999999999,
+   0.62,
+   0.51,
+   0.31
+  ],
+  "webngm_gepa/hint": [
+   0.8400000000000001,
+   0.63,
+   0.45,
+   0.31
+  ],
+  "webngm_dc/hint": [
+   0.8200000000000001,
+   0.55,
+   0.48,
+   0.33
+  ],
+  "hypm_ace/hint": [
+   0.8300000000000001,
+   0.64,
+   0.5599999999999999,
+   0.35
+  ],
+  "hypm_gepa/hint": [
+   0.8800000000000001,
+   0.6599999999999999,
+   0.41,
+   0.35
+  ],
+  "hypm_dc/hint": [
+   0.9099999999999999,
+   0.73,
+   0.53,
+   0.36
+  ]
+ },
+ "subset_excl": {
+  "ace/hint": {
+   "cells": 71.0,
+   "single": 48.0,
+   "inc_unseen": 63.5,
+   "exc": 83.6,
+   "inc_m2": 64.2,
+   "inc_m1": 62.8
+  },
+  "ace/self": {
+   "cells": 60.1,
+   "single": 10.1,
+   "inc_unseen": 13.5,
+   "exc": 93.4,
+   "inc_m2": 12.8,
+   "inc_m1": 14.2
+  },
+  "convm_ace/hint": {
+   "cells": 73.0,
+   "single": 52.0,
+   "inc_unseen": 61.8,
+   "exc": 81.8,
+   "inc_m2": 62.8,
+   "inc_m1": 60.8
+  },
+  "convm_dc/hint": {
+   "cells": 75.6,
+   "single": 49.3,
+   "inc_unseen": 62.5,
+   "exc": 88.1,
+   "inc_m2": 63.5,
+   "inc_m1": 61.5
+  },
+  "convm_gepa/hint": {
+   "cells": 65.5,
+   "single": 42.6,
+   "inc_unseen": 48.6,
+   "exc": 74.7,
+   "inc_m2": 49.3,
+   "inc_m1": 48.0
+  },
+  "dc/hint": {
+   "cells": 74.4,
+   "single": 48.6,
+   "inc_unseen": 59.5,
+   "exc": 82.6,
+   "inc_m2": 60.8,
+   "inc_m1": 58.1
+  },
+  "dc/self": {
+   "cells": 59.5,
+   "single": 8.1,
+   "inc_unseen": 11.8,
+   "exc": 95.1,
+   "inc_m2": 10.8,
+   "inc_m1": 12.8
+  },
+  "evoskill/hint": {
+   "cells": 47.7,
+   "single": 7.4,
+   "inc_unseen": 11.1,
+   "exc": 63.8,
+   "inc_m2": 11.5,
+   "inc_m1": 10.8
+  },
+  "evoskill/self": {
+   "cells": 52.9,
+   "single": 0.7,
+   "inc_unseen": 1.4,
+   "exc": 84.6,
+   "inc_m2": 1.4,
+   "inc_m1": 1.4
+  },
+  "frozen/ref": {
+   "cells": 54.9,
+   "single": 0.0,
+   "inc_unseen": 0.7,
+   "exc": 95.5,
+   "inc_m2": 0.7,
+   "inc_m1": 0.7
+  },
+  "gepa/hint": {
+   "cells": 68.4,
+   "single": 43.9,
+   "inc_unseen": 51.0,
+   "exc": 76.4,
+   "inc_m2": 55.4,
+   "inc_m1": 46.6
+  },
+  "gepa/self": {
+   "cells": 57.2,
+   "single": 5.4,
+   "inc_unseen": 6.1,
+   "exc": 93.7,
+   "inc_m2": 6.1,
+   "inc_m1": 6.1
+  },
+  "gepaN/hint": {
+   "cells": 73.0,
+   "single": 45.3,
+   "inc_unseen": 57.1,
+   "exc": 85.1,
+   "inc_m2": 57.4,
+   "inc_m1": 56.8
+  },
+  "gepaN/self": {
+   "cells": 55.7,
+   "single": 0.7,
+   "inc_unseen": 3.7,
+   "exc": 96.5,
+   "inc_m2": 3.4,
+   "inc_m1": 4.1
+  },
+  "gepaO/hint": {
+   "cells": 10.1,
+   "single": 8.1,
+   "inc_unseen": 10.5,
+   "exc": 15.6,
+   "inc_m2": 10.8,
+   "inc_m1": 10.1
+  },
+  "gepaO/self": {
+   "cells": 7.5,
+   "single": 0.0,
+   "inc_unseen": 0.3,
+   "exc": 15.5,
+   "inc_m2": 0.0,
+   "inc_m1": 0.7
+  },
+  "hist/ref": {
+   "cells": 57.2,
+   "single": 10.8,
+   "inc_unseen": 18.2,
+   "exc": 83.5,
+   "inc_m2": 18.2,
+   "inc_m1": 18.2
+  },
+  "histconv/ref": {
+   "cells": 70.1,
+   "single": 52.7,
+   "inc_unseen": 61.1,
+   "exc": 71.9,
+   "inc_m2": 62.2,
+   "inc_m1": 60.1
+  },
+  "histhint/ref": {
+   "cells": 67.2,
+   "single": 45.3,
+   "inc_unseen": 60.1,
+   "exc": 74.2,
+   "inc_m2": 59.5,
+   "inc_m1": 60.8
+  },
+  "histproc/ref": {
+   "cells": 60.6,
+   "single": 19.6,
+   "inc_unseen": 32.4,
+   "exc": 83.1,
+   "inc_m2": 32.4,
+   "inc_m1": 32.4
+  },
+  "histweb/ref": {
+   "cells": 70.7,
+   "single": 48.0,
+   "inc_unseen": 56.1,
+   "exc": 72.1,
+   "inc_m2": 59.5,
+   "inc_m1": 52.7
+  },
+  "histwebng/ref": {
+   "cells": 59.8,
+   "single": 29.7,
+   "inc_unseen": 38.5,
+   "exc": 67.1,
+   "inc_m2": 40.5,
+   "inc_m1": 36.5
+  },
+  "hypm_ace/hint": {
+   "cells": 66.4,
+   "single": 32.4,
+   "inc_unseen": 43.2,
+   "exc": 83.2,
+   "inc_m2": 41.2,
+   "inc_m1": 45.3
+  },
+  "hypm_dc/hint": {
+   "cells": 69.3,
+   "single": 40.5,
+   "inc_unseen": 52.0,
+   "exc": 80.6,
+   "inc_m2": 50.7,
+   "inc_m1": 53.4
+  },
+  "hypm_gepa/hint": {
+   "cells": 63.8,
+   "single": 27.7,
+   "inc_unseen": 37.8,
+   "exc": 85.1,
+   "inc_m2": 38.5,
+   "inc_m1": 37.2
+  },
+  "nameoracle/ref": {
+   "cells": 63.2,
+   "single": 45.9,
+   "inc_unseen": 54.4,
+   "exc": 60.1,
+   "inc_m2": 55.4,
+   "inc_m1": 53.4
+  },
+  "nameproc/ref": {
+   "cells": 66.7,
+   "single": 50.7,
+   "inc_unseen": 60.5,
+   "exc": 68.8,
+   "inc_m2": 61.5,
+   "inc_m1": 59.5
+  },
+  "oracle/ref": {
+   "cells": 34.2,
+   "single": 14.9,
+   "inc_unseen": 19.9,
+   "exc": 28.4,
+   "inc_m2": 20.3,
+   "inc_m1": 19.6
+  },
+  "rb/hint": {
+   "cells": 33.6,
+   "single": 8.8,
+   "inc_unseen": 14.2,
+   "exc": 35.1,
+   "inc_m2": 13.5,
+   "inc_m1": 14.9
+  },
+  "rb/self": {
+   "cells": 38.5,
+   "single": 3.4,
+   "inc_unseen": 8.1,
+   "exc": 52.7,
+   "inc_m2": 8.8,
+   "inc_m1": 7.4
+  },
+  "rg_ace/self": {
+   "cells": 61.5,
+   "single": 13.5,
+   "inc_unseen": 53.4,
+   "exc": 96.5,
+   "inc_m2": 12.8,
+   "inc_m1": 93.9
+  },
+  "rg_dc/self": {
+   "cells": 61.5,
+   "single": 12.8,
+   "inc_unseen": 51.4,
+   "exc": 93.1,
+   "inc_m2": 15.5,
+   "inc_m1": 87.2
+  },
+  "rg_gepa/self": {
+   "cells": 58.0,
+   "single": 5.4,
+   "inc_unseen": 40.9,
+   "exc": 96.5,
+   "inc_m2": 5.4,
+   "inc_m1": 76.4
+  },
+  "rg_hist/self": {
+   "cells": 70.1,
+   "single": 34.5,
+   "inc_unseen": 69.9,
+   "exc": 87.6,
+   "inc_m2": 46.6,
+   "inc_m1": 93.2
+  },
+  "tfgrpo/hint": {
+   "cells": 56.9,
+   "single": 0.7,
+   "inc_unseen": 1.0,
+   "exc": 96.5,
+   "inc_m2": 1.4,
+   "inc_m1": 0.7
+  },
+  "tfgrpo/self": {
+   "cells": 55.2,
+   "single": 0.0,
+   "inc_unseen": 1.4,
+   "exc": 94.2,
+   "inc_m2": 1.4,
+   "inc_m1": 1.4
+  },
+  "webm_ace/hint": {
+   "cells": 74.7,
+   "single": 45.3,
+   "inc_unseen": 49.0,
+   "exc": 87.1,
+   "inc_m2": 49.3,
+   "inc_m1": 48.6
+  },
+  "webm_dc/hint": {
+   "cells": 67.5,
+   "single": 32.4,
+   "inc_unseen": 41.2,
+   "exc": 85.9,
+   "inc_m2": 43.9,
+   "inc_m1": 38.5
+  },
+  "webm_gepa/hint": {
+   "cells": 65.8,
+   "single": 32.4,
+   "inc_unseen": 37.5,
+   "exc": 80.4,
+   "inc_m2": 38.5,
+   "inc_m1": 36.5
+  },
+  "webngm_ace/hint": {
+   "cells": 62.9,
+   "single": 24.3,
+   "inc_unseen": 27.0,
+   "exc": 91.6,
+   "inc_m2": 27.0,
+   "inc_m1": 27.0
+  },
+  "webngm_dc/hint": {
+   "cells": 61.5,
+   "single": 19.6,
+   "inc_unseen": 25.0,
+   "exc": 91.0,
+   "inc_m2": 26.4,
+   "inc_m1": 23.6
+  },
+  "webngm_gepa/hint": {
+   "cells": 62.1,
+   "single": 20.3,
+   "inc_unseen": 23.6,
+   "exc": 89.7,
+   "inc_m2": 25.0,
+   "inc_m1": 22.3
+  },
+  "webonly/ref": {
+   "cells": 51.4,
+   "single": 1.4,
+   "inc_unseen": 4.1,
+   "exc": 80.2,
+   "inc_m2": 4.1,
+   "inc_m1": 4.1
+  }
+ },
+ "recent_slots": [
+  "CH2 L4",
+  "GR1 L2",
+  "LG1 L1",
+  "LG2 L1",
+  "MN2 L2",
+  "SH1 L4",
+  "SP2 L2",
+  "TR1 L3",
+  "TR2 L1",
+  "UN1 L3",
+  "UN2 L1",
+  "UN2 L2",
+  "WS1 L1",
+  "WS1 L3",
+  "WS2 L4"
+ ],
+ "excluded_or_recent": [
+  "CH2 L4",
+  "GR1 L2",
+  "GR2 L3",
+  "LG1 L1",
+  "LG1 L2",
+  "LG1 L3",
+  "LG2 L1",
+  "LG2 L2",
+  "LG2 L3",
+  "MN1 L3",
+  "MN2 L1",
+  "MN2 L2",
+  "MN2 L3",
+  "SH1 L3",
+  "SH1 L4",
+  "SH2 L4",
+  "SP1 L2",
+  "SP2 L1",
+  "SP2 L2",
+  "SY1 L1",
+  "SY2 L3",
+  "TR1 L3",
+  "TR1 L4",
+  "TR2 L1",
+  "TR2 L4",
+  "UN1 L3",
+  "UN1 L4",
+  "UN2 L1",
+  "UN2 L2",
+  "UN2 L3",
+  "UN2 L4",
+  "WS1 L1",
+  "WS1 L2",
+  "WS1 L3",
+  "WS2 L4"
+ ],
+ "subset_excl_recent": {
+  "ace/hint": {
+   "cells": 74.2,
+   "single": 50.0,
+   "inc_unseen": 66.7,
+   "exc": 81.1,
+   "inc_m2": 66.7,
+   "inc_m1": 66.7
+  },
+  "ace/self": {
+   "cells": 65.3,
+   "single": 9.6,
+   "inc_unseen": 14.0,
+   "exc": 94.1,
+   "inc_m2": 13.2,
+   "inc_m1": 14.9
+  },
+  "convm_ace/hint": {
+   "cells": 74.8,
+   "single": 50.9,
+   "inc_unseen": 63.2,
+   "exc": 80.6,
+   "inc_m2": 64.9,
+   "inc_m1": 61.4
+  },
+  "convm_dc/hint": {
+   "cells": 79.0,
+   "single": 50.9,
+   "inc_unseen": 64.9,
+   "exc": 88.4,
+   "inc_m2": 65.8,
+   "inc_m1": 64.0
+  },
+  "convm_gepa/hint": {
+   "cells": 69.7,
+   "single": 47.4,
+   "inc_unseen": 53.1,
+   "exc": 72.7,
+   "inc_m2": 54.4,
+   "inc_m1": 51.8
+  },
+  "dc/hint": {
+   "cells": 78.0,
+   "single": 50.9,
+   "inc_unseen": 57.9,
+   "exc": 82.6,
+   "inc_m2": 58.8,
+   "inc_m1": 57.0
+  },
+  "dc/self": {
+   "cells": 65.9,
+   "single": 10.5,
+   "inc_unseen": 15.4,
+   "exc": 95.4,
+   "inc_m2": 14.0,
+   "inc_m1": 16.7
+  },
+  "evoskill/hint": {
+   "cells": 52.9,
+   "single": 9.6,
+   "inc_unseen": 14.5,
+   "exc": 64.9,
+   "inc_m2": 14.9,
+   "inc_m1": 14.0
+  },
+  "evoskill/self": {
+   "cells": 58.6,
+   "single": 0.9,
+   "inc_unseen": 1.8,
+   "exc": 82.7,
+   "inc_m2": 1.8,
+   "inc_m1": 1.8
+  },
+  "frozen/ref": {
+   "cells": 60.8,
+   "single": 0.0,
+   "inc_unseen": 0.9,
+   "exc": 96.8,
+   "inc_m2": 0.9,
+   "inc_m1": 0.9
+  },
+  "gepa/hint": {
+   "cells": 70.4,
+   "single": 42.1,
+   "inc_unseen": 50.0,
+   "exc": 73.8,
+   "inc_m2": 53.5,
+   "inc_m1": 46.5
+  },
+  "gepa/self": {
+   "cells": 63.1,
+   "single": 6.1,
+   "inc_unseen": 7.0,
+   "exc": 91.8,
+   "inc_m2": 7.0,
+   "inc_m1": 7.0
+  },
+  "gepaN/hint": {
+   "cells": 77.7,
+   "single": 50.0,
+   "inc_unseen": 60.5,
+   "exc": 88.2,
+   "inc_m2": 61.4,
+   "inc_m1": 59.6
+  },
+  "gepaN/self": {
+   "cells": 61.8,
+   "single": 0.9,
+   "inc_unseen": 4.8,
+   "exc": 98.1,
+   "inc_m2": 4.4,
+   "inc_m1": 5.3
+  },
+  "gepaO/hint": {
+   "cells": 10.5,
+   "single": 8.8,
+   "inc_unseen": 11.8,
+   "exc": 16.8,
+   "inc_m2": 12.3,
+   "inc_m1": 11.4
+  },
+  "gepaO/self": {
+   "cells": 8.3,
+   "single": 0.0,
+   "inc_unseen": 0.4,
+   "exc": 14.0,
+   "inc_m2": 0.0,
+   "inc_m1": 0.9
+  },
+  "hist/ref": {
+   "cells": 62.7,
+   "single": 12.3,
+   "inc_unseen": 20.2,
+   "exc": 81.1,
+   "inc_m2": 20.2,
+   "inc_m1": 20.2
+  },
+  "histconv/ref": {
+   "cells": 71.7,
+   "single": 51.8,
+   "inc_unseen": 61.4,
+   "exc": 69.1,
+   "inc_m2": 64.0,
+   "inc_m1": 58.8
+  },
+  "histhint/ref": {
+   "cells": 69.4,
+   "single": 44.7,
+   "inc_unseen": 55.3,
+   "exc": 71.1,
+   "inc_m2": 53.5,
+   "inc_m1": 57.0
+  },
+  "histproc/ref": {
+   "cells": 65.9,
+   "single": 21.9,
+   "inc_unseen": 37.7,
+   "exc": 80.5,
+   "inc_m2": 37.7,
+   "inc_m1": 37.7
+  },
+  "histweb/ref": {
+   "cells": 72.3,
+   "single": 45.6,
+   "inc_unseen": 56.1,
+   "exc": 70.1,
+   "inc_m2": 59.6,
+   "inc_m1": 52.6
+  },
+  "histwebng/ref": {
+   "cells": 64.3,
+   "single": 33.3,
+   "inc_unseen": 42.5,
+   "exc": 65.9,
+   "inc_m2": 43.9,
+   "inc_m1": 41.2
+  },
+  "hypm_ace/hint": {
+   "cells": 71.7,
+   "single": 36.8,
+   "inc_unseen": 47.4,
+   "exc": 81.2,
+   "inc_m2": 44.7,
+   "inc_m1": 50.0
+  },
+  "hypm_dc/hint": {
+   "cells": 75.2,
+   "single": 48.2,
+   "inc_unseen": 61.4,
+   "exc": 76.8,
+   "inc_m2": 59.6,
+   "inc_m1": 63.2
+  },
+  "hypm_gepa/hint": {
+   "cells": 68.5,
+   "single": 29.8,
+   "inc_unseen": 42.1,
+   "exc": 85.4,
+   "inc_m2": 43.0,
+   "inc_m1": 41.2
+  },
+  "nameoracle/ref": {
+   "cells": 65.9,
+   "single": 48.2,
+   "inc_unseen": 57.0,
+   "exc": 62.1,
+   "inc_m2": 58.8,
+   "inc_m1": 55.3
+  },
+  "nameproc/ref": {
+   "cells": 69.1,
+   "single": 52.6,
+   "inc_unseen": 63.2,
+   "exc": 68.8,
+   "inc_m2": 64.0,
+   "inc_m1": 62.3
+  },
+  "oracle/ref": {
+   "cells": 36.6,
+   "single": 15.8,
+   "inc_unseen": 23.2,
+   "exc": 32.1,
+   "inc_m2": 23.7,
+   "inc_m1": 22.8
+  },
+  "rb/hint": {
+   "cells": 36.9,
+   "single": 10.5,
+   "inc_unseen": 18.0,
+   "exc": 40.2,
+   "inc_m2": 16.7,
+   "inc_m1": 19.3
+  },
+  "rb/self": {
+   "cells": 42.7,
+   "single": 4.4,
+   "inc_unseen": 10.5,
+   "exc": 54.8,
+   "inc_m2": 11.4,
+   "inc_m1": 9.6
+  },
+  "rg_ace/self": {
+   "cells": 68.2,
+   "single": 17.5,
+   "inc_unseen": 54.8,
+   "exc": 96.3,
+   "inc_m2": 16.7,
+   "inc_m1": 93.0
+  },
+  "rg_dc/self": {
+   "cells": 68.2,
+   "single": 16.7,
+   "inc_unseen": 53.9,
+   "exc": 92.8,
+   "inc_m2": 20.2,
+   "inc_m1": 87.7
+  },
+  "rg_gepa/self": {
+   "cells": 64.3,
+   "single": 7.0,
+   "inc_unseen": 41.2,
+   "exc": 96.3,
+   "inc_m2": 7.0,
+   "inc_m1": 75.4
+  },
+  "rg_hist/self": {
+   "cells": 75.5,
+   "single": 38.6,
+   "inc_unseen": 72.8,
+   "exc": 84.3,
+   "inc_m2": 54.4,
+   "inc_m1": 91.2
+  },
+  "tfgrpo/hint": {
+   "cells": 63.1,
+   "single": 0.9,
+   "inc_unseen": 0.9,
+   "exc": 96.3,
+   "inc_m2": 0.9,
+   "inc_m1": 0.9
+  },
+  "tfgrpo/self": {
+   "cells": 61.1,
+   "single": 0.0,
+   "inc_unseen": 1.3,
+   "exc": 93.3,
+   "inc_m2": 0.9,
+   "inc_m1": 1.8
+  },
+  "webm_ace/hint": {
+   "cells": 78.7,
+   "single": 47.4,
+   "inc_unseen": 50.9,
+   "exc": 84.2,
+   "inc_m2": 51.8,
+   "inc_m1": 50.0
+  },
+  "webm_dc/hint": {
+   "cells": 71.7,
+   "single": 33.3,
+   "inc_unseen": 43.4,
+   "exc": 88.3,
+   "inc_m2": 48.2,
+   "inc_m1": 38.6
+  },
+  "webm_gepa/hint": {
+   "cells": 70.1,
+   "single": 34.2,
+   "inc_unseen": 36.8,
+   "exc": 79.6,
+   "inc_m2": 38.6,
+   "inc_m1": 35.1
+  },
+  "webngm_ace/hint": {
+   "cells": 69.7,
+   "single": 31.6,
+   "inc_unseen": 35.1,
+   "exc": 90.8,
+   "inc_m2": 35.1,
+   "inc_m1": 35.1
+  },
+  "webngm_dc/hint": {
+   "cells": 67.5,
+   "single": 23.7,
+   "inc_unseen": 31.6,
+   "exc": 90.2,
+   "inc_m2": 33.3,
+   "inc_m1": 29.8
+  },
+  "webngm_gepa/hint": {
+   "cells": 65.6,
+   "single": 17.5,
+   "inc_unseen": 18.4,
+   "exc": 87.7,
+   "inc_m2": 21.9,
+   "inc_m1": 14.9
+  },
+  "webonly/ref": {
+   "cells": 57.0,
+   "single": 1.8,
+   "inc_unseen": 4.8,
+   "exc": 78.4,
+   "inc_m2": 4.4,
+   "inc_m1": 5.3
+  }
+ },
+ "subset_excl_composed": {
+  "ace/hint": {
+   "cells": 72.7,
+   "single": 47.5,
+   "inc_unseen": 62.7,
+   "exc": 83.3,
+   "inc_m2": 63.9,
+   "inc_m1": 61.5
+  },
+  "ace/self": {
+   "cells": 64.6,
+   "single": 11.5,
+   "inc_unseen": 15.6,
+   "exc": 93.6,
+   "inc_m2": 14.8,
+   "inc_m1": 16.4
+  },
+  "convm_ace/hint": {
+   "cells": 75.5,
+   "single": 54.1,
+   "inc_unseen": 65.2,
+   "exc": 85.1,
+   "inc_m2": 66.4,
+   "inc_m1": 63.9
+  },
+  "convm_dc/hint": {
+   "cells": 77.3,
+   "single": 48.4,
+   "inc_unseen": 61.9,
+   "exc": 89.2,
+   "inc_m2": 62.3,
+   "inc_m1": 61.5
+  },
+  "convm_gepa/hint": {
+   "cells": 69.6,
+   "single": 48.4,
+   "inc_unseen": 52.9,
+   "exc": 73.5,
+   "inc_m2": 54.1,
+   "inc_m1": 51.6
+  },
+  "dc/hint": {
+   "cells": 75.2,
+   "single": 45.1,
+   "inc_unseen": 57.8,
+   "exc": 85.5,
+   "inc_m2": 59.8,
+   "inc_m1": 55.7
+  },
+  "dc/self": {
+   "cells": 64.3,
+   "single": 9.8,
+   "inc_unseen": 14.3,
+   "exc": 94.1,
+   "inc_m2": 13.1,
+   "inc_m1": 15.6
+  },
+  "evoskill/hint": {
+   "cells": 51.6,
+   "single": 9.0,
+   "inc_unseen": 13.5,
+   "exc": 64.2,
+   "inc_m2": 13.9,
+   "inc_m1": 13.1
+  },
+  "evoskill/self": {
+   "cells": 57.1,
+   "single": 0.8,
+   "inc_unseen": 1.6,
+   "exc": 81.4,
+   "inc_m2": 1.6,
+   "inc_m1": 1.6
+  },
+  "frozen/ref": {
+   "cells": 59.3,
+   "single": 0.0,
+   "inc_unseen": 0.8,
+   "exc": 95.4,
+   "inc_m2": 0.8,
+   "inc_m1": 0.8
+  },
+  "gepa/hint": {
+   "cells": 71.1,
+   "single": 45.9,
+   "inc_unseen": 52.0,
+   "exc": 72.1,
+   "inc_m2": 57.4,
+   "inc_m1": 46.7
+  },
+  "gepa/self": {
+   "cells": 61.8,
+   "single": 6.6,
+   "inc_unseen": 7.4,
+   "exc": 92.3,
+   "inc_m2": 7.4,
+   "inc_m1": 7.4
+  },
+  "gepaN/hint": {
+   "cells": 75.5,
+   "single": 45.9,
+   "inc_unseen": 55.3,
+   "exc": 83.5,
+   "inc_m2": 56.6,
+   "inc_m1": 54.1
+  },
+  "gepaN/self": {
+   "cells": 60.2,
+   "single": 0.8,
+   "inc_unseen": 4.5,
+   "exc": 97.4,
+   "inc_m2": 4.1,
+   "inc_m1": 4.9
+  },
+  "gepaO/hint": {
+   "cells": 10.2,
+   "single": 8.2,
+   "inc_unseen": 10.2,
+   "exc": 15.7,
+   "inc_m2": 9.8,
+   "inc_m1": 10.7
+  },
+  "gepaO/self": {
+   "cells": 8.1,
+   "single": 0.0,
+   "inc_unseen": 0.4,
+   "exc": 13.9,
+   "inc_m2": 0.0,
+   "inc_m1": 0.8
+  },
+  "hist/ref": {
+   "cells": 60.9,
+   "single": 10.7,
+   "inc_unseen": 18.9,
+   "exc": 81.0,
+   "inc_m2": 18.9,
+   "inc_m1": 18.9
+  },
+  "histconv/ref": {
+   "cells": 69.9,
+   "single": 48.4,
+   "inc_unseen": 56.6,
+   "exc": 68.0,
+   "inc_m2": 58.2,
+   "inc_m1": 54.9
+  },
+  "histhint/ref": {
+   "cells": 67.1,
+   "single": 40.2,
+   "inc_unseen": 55.7,
+   "exc": 69.3,
+   "inc_m2": 54.1,
+   "inc_m1": 57.4
+  },
+  "histproc/ref": {
+   "cells": 65.5,
+   "single": 23.8,
+   "inc_unseen": 35.2,
+   "exc": 82.7,
+   "inc_m2": 34.4,
+   "inc_m1": 36.1
+  },
+  "histweb/ref": {
+   "cells": 72.4,
+   "single": 47.5,
+   "inc_unseen": 52.0,
+   "exc": 71.3,
+   "inc_m2": 54.9,
+   "inc_m1": 49.2
+  },
+  "histwebng/ref": {
+   "cells": 63.7,
+   "single": 33.6,
+   "inc_unseen": 43.9,
+   "exc": 66.2,
+   "inc_m2": 47.5,
+   "inc_m1": 40.2
+  },
+  "hypm_ace/hint": {
+   "cells": 67.7,
+   "single": 28.7,
+   "inc_unseen": 41.0,
+   "exc": 83.7,
+   "inc_m2": 38.5,
+   "inc_m1": 43.4
+  },
+  "hypm_dc/hint": {
+   "cells": 73.9,
+   "single": 46.7,
+   "inc_unseen": 58.6,
+   "exc": 78.9,
+   "inc_m2": 59.0,
+   "inc_m1": 58.2
+  },
+  "hypm_gepa/hint": {
+   "cells": 68.6,
+   "single": 32.8,
+   "inc_unseen": 44.7,
+   "exc": 84.3,
+   "inc_m2": 45.9,
+   "inc_m1": 43.4
+  },
+  "nameoracle/ref": {
+   "cells": 64.3,
+   "single": 45.1,
+   "inc_unseen": 53.3,
+   "exc": 59.7,
+   "inc_m2": 54.1,
+   "inc_m1": 52.5
+  },
+  "nameproc/ref": {
+   "cells": 66.8,
+   "single": 47.5,
+   "inc_unseen": 58.6,
+   "exc": 67.6,
+   "inc_m2": 59.8,
+   "inc_m1": 57.4
+  },
+  "oracle/ref": {
+   "cells": 36.0,
+   "single": 15.6,
+   "inc_unseen": 23.0,
+   "exc": 30.5,
+   "inc_m2": 23.8,
+   "inc_m1": 22.1
+  },
+  "rb/hint": {
+   "cells": 36.3,
+   "single": 10.7,
+   "inc_unseen": 17.2,
+   "exc": 37.4,
+   "inc_m2": 16.4,
+   "inc_m1": 18.0
+  },
+  "rb/self": {
+   "cells": 41.6,
+   "single": 4.1,
+   "inc_unseen": 9.8,
+   "exc": 56.6,
+   "inc_m2": 10.7,
+   "inc_m1": 9.0
+  },
+  "rg_ace/self": {
+   "cells": 66.5,
+   "single": 16.4,
+   "inc_unseen": 54.1,
+   "exc": 95.7,
+   "inc_m2": 15.6,
+   "inc_m1": 92.6
+  },
+  "rg_dc/self": {
+   "cells": 66.5,
+   "single": 15.6,
+   "inc_unseen": 54.1,
+   "exc": 93.2,
+   "inc_m2": 18.9,
+   "inc_m1": 89.3
+  },
+  "rg_gepa/self": {
+   "cells": 62.7,
+   "single": 6.6,
+   "inc_unseen": 43.9,
+   "exc": 96.5,
+   "inc_m2": 6.6,
+   "inc_m1": 81.1
+  },
+  "rg_hist/self": {
+   "cells": 74.5,
+   "single": 38.5,
+   "inc_unseen": 72.5,
+   "exc": 86.5,
+   "inc_m2": 53.3,
+   "inc_m1": 91.8
+  },
+  "tfgrpo/hint": {
+   "cells": 61.5,
+   "single": 0.8,
+   "inc_unseen": 1.2,
+   "exc": 95.7,
+   "inc_m2": 1.6,
+   "inc_m1": 0.8
+  },
+  "tfgrpo/self": {
+   "cells": 59.6,
+   "single": 0.0,
+   "inc_unseen": 1.6,
+   "exc": 92.9,
+   "inc_m2": 1.6,
+   "inc_m1": 1.6
+  },
+  "webm_ace/hint": {
+   "cells": 78.0,
+   "single": 47.5,
+   "inc_unseen": 51.2,
+   "exc": 86.3,
+   "inc_m2": 51.6,
+   "inc_m1": 50.8
+  },
+  "webm_dc/hint": {
+   "cells": 69.3,
+   "single": 29.5,
+   "inc_unseen": 40.2,
+   "exc": 90.5,
+   "inc_m2": 42.6,
+   "inc_m1": 37.7
+  },
+  "webm_gepa/hint": {
+   "cells": 69.3,
+   "single": 34.4,
+   "inc_unseen": 36.5,
+   "exc": 80.3,
+   "inc_m2": 37.7,
+   "inc_m1": 35.2
+  },
+  "webngm_ace/hint": {
+   "cells": 66.8,
+   "single": 26.2,
+   "inc_unseen": 32.0,
+   "exc": 91.2,
+   "inc_m2": 32.0,
+   "inc_m1": 32.0
+  },
+  "webngm_dc/hint": {
+   "cells": 65.8,
+   "single": 22.1,
+   "inc_unseen": 28.7,
+   "exc": 91.0,
+   "inc_m2": 30.3,
+   "inc_m1": 27.0
+  },
+  "webngm_gepa/hint": {
+   "cells": 64.6,
+   "single": 18.0,
+   "inc_unseen": 20.5,
+   "exc": 88.0,
+   "inc_m2": 22.1,
+   "inc_m1": 18.9
+  },
+  "webonly/ref": {
+   "cells": 55.3,
+   "single": 0.8,
+   "inc_unseen": 4.1,
+   "exc": 77.6,
+   "inc_m2": 4.1,
+   "inc_m1": 4.1
+  }
+ },
+ "all_cells": {
+  "ace/hint": {
+   "cells": 67.0,
+   "single": 46.0,
+   "inc_unseen": 61.5,
+   "exc": 85.6,
+   "inc_m2": 60.5,
+   "inc_m1": 62.5
+  },
+  "ace/self": {
+   "cells": 52.5,
+   "single": 8.0,
+   "inc_unseen": 12.2,
+   "exc": 92.4,
+   "inc_m2": 12.0,
+   "inc_m1": 12.5
+  },
+  "convm_ace/hint": {
+   "cells": 67.5,
+   "single": 46.5,
+   "inc_unseen": 57.2,
+   "exc": 83.9,
+   "inc_m2": 56.0,
+   "inc_m1": 58.5
+  },
+  "convm_dc/hint": {
+   "cells": 70.0,
+   "single": 45.0,
+   "inc_unseen": 58.5,
+   "exc": 88.6,
+   "inc_m2": 59.0,
+   "inc_m1": 58.0
+  },
+  "convm_gepa/hint": {
+   "cells": 60.5,
+   "single": 38.5,
+   "inc_unseen": 45.8,
+   "exc": 75.2,
+   "inc_m2": 46.5,
+   "inc_m1": 45.0
+  },
+  "dc/hint": {
+   "cells": 68.2,
+   "single": 43.0,
+   "inc_unseen": 56.2,
+   "exc": 83.9,
+   "inc_m2": 55.0,
+   "inc_m1": 57.5
+  },
+  "dc/self": {
+   "cells": 52.8,
+   "single": 8.0,
+   "inc_unseen": 11.8,
+   "exc": 95.0,
+   "inc_m2": 11.0,
+   "inc_m1": 12.5
+  },
+  "evoskill/hint": {
+   "cells": 42.0,
+   "single": 6.5,
+   "inc_unseen": 9.5,
+   "exc": 61.6,
+   "inc_m2": 10.0,
+   "inc_m1": 9.0
+  },
+  "evoskill/self": {
+   "cells": 46.0,
+   "single": 0.5,
+   "inc_unseen": 1.8,
+   "exc": 84.1,
+   "inc_m2": 1.5,
+   "inc_m1": 2.0
+  },
+  "frozen/ref": {
+   "cells": 47.8,
+   "single": 0.0,
+   "inc_unseen": 0.8,
+   "exc": 94.2,
+   "inc_m2": 1.0,
+   "inc_m1": 0.5
+  },
+  "gepa/hint": {
+   "cells": 62.5,
+   "single": 38.5,
+   "inc_unseen": 49.0,
+   "exc": 76.4,
+   "inc_m2": 50.0,
+   "inc_m1": 48.0
+  },
+  "gepa/self": {
+   "cells": 50.8,
+   "single": 6.0,
+   "inc_unseen": 8.2,
+   "exc": 93.2,
+   "inc_m2": 7.0,
+   "inc_m1": 9.5
+  },
+  "gepaN/hint": {
+   "cells": 66.0,
+   "single": 38.5,
+   "inc_unseen": 51.5,
+   "exc": 82.2,
+   "inc_m2": 50.0,
+   "inc_m1": 53.0
+  },
+  "gepaN/self": {
+   "cells": 49.5,
+   "single": 2.5,
+   "inc_unseen": 5.8,
+   "exc": 95.9,
+   "inc_m2": 4.5,
+   "inc_m1": 7.0
+  },
+  "gepaO/hint": {
+   "cells": 9.0,
+   "single": 6.5,
+   "inc_unseen": 8.8,
+   "exc": 13.4,
+   "inc_m2": 9.0,
+   "inc_m1": 8.5
+  },
+  "gepaO/self": {
+   "cells": 6.8,
+   "single": 0.5,
+   "inc_unseen": 1.2,
+   "exc": 14.2,
+   "inc_m2": 1.0,
+   "inc_m1": 1.5
+  },
+  "hist/ref": {
+   "cells": 52.2,
+   "single": 13.0,
+   "inc_unseen": 19.5,
+   "exc": 81.5,
+   "inc_m2": 19.5,
+   "inc_m1": 19.5
+  },
+  "histconv/ref": {
+   "cells": 64.8,
+   "single": 46.5,
+   "inc_unseen": 59.0,
+   "exc": 73.1,
+   "inc_m2": 59.5,
+   "inc_m1": 58.5
+  },
+  "histhint/ref": {
+   "cells": 63.5,
+   "single": 43.5,
+   "inc_unseen": 59.0,
+   "exc": 74.8,
+   "inc_m2": 56.5,
+   "inc_m1": 61.5
+  },
+  "histproc/ref": {
+   "cells": 54.2,
+   "single": 17.5,
+   "inc_unseen": 32.0,
+   "exc": 82.4,
+   "inc_m2": 31.0,
+   "inc_m1": 33.0
+  },
+  "histweb/ref": {
+   "cells": 68.2,
+   "single": 49.0,
+   "inc_unseen": 60.2,
+   "exc": 74.4,
+   "inc_m2": 62.0,
+   "inc_m1": 58.5
+  },
+  "histwebng/ref": {
+   "cells": 53.5,
+   "single": 25.0,
+   "inc_unseen": 36.5,
+   "exc": 65.9,
+   "inc_m2": 38.0,
+   "inc_m1": 35.0
+  },
+  "hypm_ace/hint": {
+   "cells": 59.5,
+   "single": 27.5,
+   "inc_unseen": 39.0,
+   "exc": 82.8,
+   "inc_m2": 36.0,
+   "inc_m1": 42.0
+  },
+  "hypm_dc/hint": {
+   "cells": 63.2,
+   "single": 36.0,
+   "inc_unseen": 50.0,
+   "exc": 79.9,
+   "inc_m2": 46.0,
+   "inc_m1": 54.0
+  },
+  "hypm_gepa/hint": {
+   "cells": 57.5,
+   "single": 24.5,
+   "inc_unseen": 33.5,
+   "exc": 81.4,
+   "inc_m2": 33.5,
+   "inc_m1": 33.5
+  },
+  "nameoracle/ref": {
+   "cells": 58.0,
+   "single": 40.0,
+   "inc_unseen": 49.2,
+   "exc": 57.6,
+   "inc_m2": 49.5,
+   "inc_m1": 49.0
+  },
+  "nameproc/ref": {
+   "cells": 62.8,
+   "single": 47.0,
+   "inc_unseen": 58.5,
+   "exc": 67.0,
+   "inc_m2": 58.5,
+   "inc_m1": 58.5
+  },
+  "oracle/ref": {
+   "cells": 30.2,
+   "single": 12.0,
+   "inc_unseen": 18.5,
+   "exc": 27.6,
+   "inc_m2": 17.0,
+   "inc_m1": 20.0
+  },
+  "rb/hint": {
+   "cells": 30.0,
+   "single": 8.0,
+   "inc_unseen": 13.8,
+   "exc": 31.2,
+   "inc_m2": 13.0,
+   "inc_m1": 14.5
+  },
+  "rb/self": {
+   "cells": 33.5,
+   "single": 2.5,
+   "inc_unseen": 8.8,
+   "exc": 51.4,
+   "inc_m2": 9.0,
+   "inc_m1": 8.5
+  },
+  "rg_ace/self": {
+   "cells": 53.5,
+   "single": 10.0,
+   "inc_unseen": 51.5,
+   "exc": 95.5,
+   "inc_m2": 9.5,
+   "inc_m1": 93.5
+  },
+  "rg_dc/self": {
+   "cells": 54.8,
+   "single": 12.0,
+   "inc_unseen": 50.8,
+   "exc": 92.4,
+   "inc_m2": 14.0,
+   "inc_m1": 87.5
+  },
+  "rg_gepa/self": {
+   "cells": 50.5,
+   "single": 4.0,
+   "inc_unseen": 39.0,
+   "exc": 95.4,
+   "inc_m2": 4.0,
+   "inc_m1": 74.0
+  },
+  "rg_hist/self": {
+   "cells": 63.8,
+   "single": 31.0,
+   "inc_unseen": 67.0,
+   "exc": 87.4,
+   "inc_m2": 42.0,
+   "inc_m1": 92.0
+  },
+  "tfgrpo/hint": {
+   "cells": 49.5,
+   "single": 0.5,
+   "inc_unseen": 1.0,
+   "exc": 95.9,
+   "inc_m2": 1.0,
+   "inc_m1": 1.0
+  },
+  "tfgrpo/self": {
+   "cells": 48.0,
+   "single": 0.0,
+   "inc_unseen": 1.5,
+   "exc": 94.2,
+   "inc_m2": 1.5,
+   "inc_m1": 1.5
+  },
+  "webm_ace/hint": {
+   "cells": 68.8,
+   "single": 41.0,
+   "inc_unseen": 49.2,
+   "exc": 86.6,
+   "inc_m2": 48.0,
+   "inc_m1": 50.5
+  },
+  "webm_dc/hint": {
+   "cells": 62.2,
+   "single": 31.0,
+   "inc_unseen": 41.5,
+   "exc": 84.1,
+   "inc_m2": 43.5,
+   "inc_m1": 39.5
+  },
+  "webm_gepa/hint": {
+   "cells": 60.0,
+   "single": 29.5,
+   "inc_unseen": 35.0,
+   "exc": 83.0,
+   "inc_m2": 37.0,
+   "inc_m1": 33.0
+  },
+  "webngm_ace/hint": {
+   "cells": 56.2,
+   "single": 21.0,
+   "inc_unseen": 24.5,
+   "exc": 92.4,
+   "inc_m2": 23.5,
+   "inc_m1": 25.5
+  },
+  "webngm_dc/hint": {
+   "cells": 54.5,
+   "single": 16.5,
+   "inc_unseen": 21.0,
+   "exc": 90.8,
+   "inc_m2": 22.0,
+   "inc_m1": 20.0
+  },
+  "webngm_gepa/hint": {
+   "cells": 55.8,
+   "single": 18.5,
+   "inc_unseen": 22.2,
+   "exc": 88.1,
+   "inc_m2": 22.5,
+   "inc_m1": 22.0
+  },
+  "webonly/ref": {
+   "cells": 44.8,
+   "single": 1.0,
+   "inc_unseen": 3.2,
+   "exc": 79.9,
+   "inc_m2": 3.0,
+   "inc_m1": 3.5
+  }
+ },
+ "exc_lookalike": {
+  "ace/hint": {
+   "exc_lookalike": 85.2,
+   "n_lookalike": 919,
+   "exc_other": 86.0,
+   "n_other": 681
+  },
+  "ace/self": {
+   "exc_lookalike": 92.2,
+   "n_lookalike": 919,
+   "exc_other": 92.8,
+   "n_other": 681
+  },
+  "convm_ace/hint": {
+   "exc_lookalike": 81.8,
+   "n_lookalike": 919,
+   "exc_other": 86.6,
+   "n_other": 681
+  },
+  "convm_dc/hint": {
+   "exc_lookalike": 88.2,
+   "n_lookalike": 919,
+   "exc_other": 89.1,
+   "n_other": 681
+  },
+  "convm_gepa/hint": {
+   "exc_lookalike": 75.3,
+   "n_lookalike": 919,
+   "exc_other": 75.0,
+   "n_other": 681
+  },
+  "dc/hint": {
+   "exc_lookalike": 82.7,
+   "n_lookalike": 919,
+   "exc_other": 85.6,
+   "n_other": 681
+  },
+  "dc/self": {
+   "exc_lookalike": 94.1,
+   "n_lookalike": 919,
+   "exc_other": 96.2,
+   "n_other": 681
+  },
+  "evoskill/hint": {
+   "exc_lookalike": 59.8,
+   "n_lookalike": 919,
+   "exc_other": 64.0,
+   "n_other": 681
+  },
+  "evoskill/self": {
+   "exc_lookalike": 83.4,
+   "n_lookalike": 919,
+   "exc_other": 85.2,
+   "n_other": 681
+  },
+  "frozen/ref": {
+   "exc_lookalike": 93.8,
+   "n_lookalike": 919,
+   "exc_other": 94.7,
+   "n_other": 681
+  },
+  "gepa/hint": {
+   "exc_lookalike": 75.8,
+   "n_lookalike": 919,
+   "exc_other": 77.1,
+   "n_other": 681
+  },
+  "gepa/self": {
+   "exc_lookalike": 92.8,
+   "n_lookalike": 919,
+   "exc_other": 93.7,
+   "n_other": 681
+  },
+  "gepaN/hint": {
+   "exc_lookalike": 81.6,
+   "n_lookalike": 919,
+   "exc_other": 83.0,
+   "n_other": 681
+  },
+  "gepaN/self": {
+   "exc_lookalike": 95.9,
+   "n_lookalike": 919,
+   "exc_other": 96.0,
+   "n_other": 681
+  },
+  "gepaO/hint": {
+   "exc_lookalike": 13.5,
+   "n_lookalike": 919,
+   "exc_other": 13.4,
+   "n_other": 681
+  },
+  "gepaO/self": {
+   "exc_lookalike": 15.5,
+   "n_lookalike": 919,
+   "exc_other": 12.6,
+   "n_other": 681
+  },
+  "hist/ref": {
+   "exc_lookalike": 81.1,
+   "n_lookalike": 919,
+   "exc_other": 82.1,
+   "n_other": 681
+  },
+  "histconv/ref": {
+   "exc_lookalike": 74.4,
+   "n_lookalike": 919,
+   "exc_other": 71.4,
+   "n_other": 681
+  },
+  "histhint/ref": {
+   "exc_lookalike": 76.1,
+   "n_lookalike": 919,
+   "exc_other": 73.1,
+   "n_other": 681
+  },
+  "histproc/ref": {
+   "exc_lookalike": 79.5,
+   "n_lookalike": 919,
+   "exc_other": 86.2,
+   "n_other": 681
+  },
+  "histweb/ref": {
+   "exc_lookalike": 72.4,
+   "n_lookalike": 919,
+   "exc_other": 77.2,
+   "n_other": 681
+  },
+  "histwebng/ref": {
+   "exc_lookalike": 65.7,
+   "n_lookalike": 919,
+   "exc_other": 66.2,
+   "n_other": 681
+  },
+  "hypm_ace/hint": {
+   "exc_lookalike": 83.1,
+   "n_lookalike": 919,
+   "exc_other": 82.4,
+   "n_other": 681
+  },
+  "hypm_dc/hint": {
+   "exc_lookalike": 79.9,
+   "n_lookalike": 919,
+   "exc_other": 79.9,
+   "n_other": 681
+  },
+  "hypm_gepa/hint": {
+   "exc_lookalike": 82.4,
+   "n_lookalike": 919,
+   "exc_other": 80.0,
+   "n_other": 681
+  },
+  "nameoracle/ref": {
+   "exc_lookalike": 58.1,
+   "n_lookalike": 919,
+   "exc_other": 56.8,
+   "n_other": 681
+  },
+  "nameproc/ref": {
+   "exc_lookalike": 67.6,
+   "n_lookalike": 919,
+   "exc_other": 66.2,
+   "n_other": 681
+  },
+  "oracle/ref": {
+   "exc_lookalike": 27.1,
+   "n_lookalike": 919,
+   "exc_other": 28.2,
+   "n_other": 681
+  },
+  "rb/hint": {
+   "exc_lookalike": 30.9,
+   "n_lookalike": 919,
+   "exc_other": 31.7,
+   "n_other": 681
+  },
+  "rb/self": {
+   "exc_lookalike": 49.7,
+   "n_lookalike": 919,
+   "exc_other": 53.7,
+   "n_other": 681
+  },
+  "rg_ace/self": {
+   "exc_lookalike": 95.8,
+   "n_lookalike": 919,
+   "exc_other": 95.2,
+   "n_other": 681
+  },
+  "rg_dc/self": {
+   "exc_lookalike": 92.2,
+   "n_lookalike": 919,
+   "exc_other": 92.7,
+   "n_other": 681
+  },
+  "rg_gepa/self": {
+   "exc_lookalike": 95.8,
+   "n_lookalike": 919,
+   "exc_other": 94.9,
+   "n_other": 681
+  },
+  "rg_hist/self": {
+   "exc_lookalike": 84.8,
+   "n_lookalike": 919,
+   "exc_other": 90.9,
+   "n_other": 681
+  },
+  "tfgrpo/hint": {
+   "exc_lookalike": 95.2,
+   "n_lookalike": 919,
+   "exc_other": 96.8,
+   "n_other": 681
+  },
+  "tfgrpo/self": {
+   "exc_lookalike": 93.8,
+   "n_lookalike": 919,
+   "exc_other": 94.7,
+   "n_other": 681
+  },
+  "webm_ace/hint": {
+   "exc_lookalike": 84.8,
+   "n_lookalike": 919,
+   "exc_other": 89.0,
+   "n_other": 681
+  },
+  "webm_dc/hint": {
+   "exc_lookalike": 84.2,
+   "n_lookalike": 919,
+   "exc_other": 83.8,
+   "n_other": 681
+  },
+  "webm_gepa/hint": {
+   "exc_lookalike": 83.7,
+   "n_lookalike": 919,
+   "exc_other": 82.1,
+   "n_other": 681
+  },
+  "webngm_ace/hint": {
+   "exc_lookalike": 91.4,
+   "n_lookalike": 919,
+   "exc_other": 93.7,
+   "n_other": 681
+  },
+  "webngm_dc/hint": {
+   "exc_lookalike": 90.1,
+   "n_lookalike": 919,
+   "exc_other": 91.6,
+   "n_other": 681
+  },
+  "webngm_gepa/hint": {
+   "exc_lookalike": 86.6,
+   "n_lookalike": 919,
+   "exc_other": 90.0,
+   "n_other": 681
+  },
+  "webonly/ref": {
+   "exc_lookalike": 80.3,
+   "n_lookalike": 919,
+   "exc_other": 79.4,
+   "n_other": 681
+  }
+ },
+ "lookalike_share_of_Nt": 0.645,
+ "state_attribution_strict": {
+  "ace/self": {
+   "states": 80,
+   "revealed_member": 97.5,
+   "full_class_name": 2.5
+  },
+  "ace/hint": {
+   "states": 80,
+   "revealed_member": 92.5,
+   "full_class_name": 17.5
+  },
+  "gepa/self": {
+   "states": 80,
+   "revealed_member": 77.5,
+   "full_class_name": 5.0
+  },
+  "gepa/hint": {
+   "states": 80,
+   "revealed_member": 68.8,
+   "full_class_name": 15.0
+  },
+  "dc/self": {
+   "states": 80,
+   "revealed_member": 80.0,
+   "full_class_name": 0.0
+  },
+  "dc/hint": {
+   "states": 80,
+   "revealed_member": 77.5,
+   "full_class_name": 15.0
+  },
+  "tfgrpo/self": {
+   "states": 80,
+   "revealed_member": 0.0,
+   "full_class_name": 0.0
+  },
+  "tfgrpo/hint": {
+   "states": 80,
+   "revealed_member": 0.0,
+   "full_class_name": 0.0
+  },
+  "evoskill/self": {
+   "states": 80,
+   "revealed_member": 17.5,
+   "full_class_name": 0.0
+  },
+  "evoskill/hint": {
+   "states": 80,
+   "revealed_member": 18.8,
+   "full_class_name": 3.8
+  },
+  "rb/self": {
+   "states": 80,
+   "revealed_member": 18.8,
+   "full_class_name": 2.5
+  },
+  "rb/hint": {
+   "states": 80,
+   "revealed_member": 7.5,
+   "full_class_name": 3.8
+  },
+  "gepaN/self": {
+   "states": 80,
+   "revealed_member": 75.0,
+   "full_class_name": 0.0
+  },
+  "gepaN/hint": {
+   "states": 80,
+   "revealed_member": 66.2,
+   "full_class_name": 7.5
+  }
+ },
+ "gated_updates": {
+  "self": {
+   "tfgrpo_states": 100,
+   "tfgrpo_nonempty": 0,
+   "evoskill_chains": 20,
+   "evoskill_chains_without_skill": 9,
+   "evoskill_proposals": 449,
+   "evoskill_malformed": 148
+  },
+  "hint": {
+   "tfgrpo_states": 100,
+   "tfgrpo_nonempty": 0,
+   "evoskill_chains": 20,
+   "evoskill_chains_without_skill": 10,
+   "evoskill_proposals": 458,
+   "evoskill_malformed": 113
+  }
+ }
+}

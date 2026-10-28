@@ -1,0 +1,45 @@
+A: '75498004'
+C: snomed_129134004
+C_name: Inflammatory disorder of upper respiratory tract
+N_p: '233604007'
+N_t:
+- '267102003'
+- '45816000'
+- '68235000'
+- '57676002'
+- '80583007'
+- '423315002'
+- '126906006'
+P_M:
+- '36971009'
+- '40055000'
+- '43878008'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - snomed_297268004
+    - snomed_301186004
+    - snomed_40733004
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- snomed_111273006
+- snomed_2704003
+- snomed_275498002
+- snomed_297268004
+- snomed_301186004
+- snomed_363176004
+- snomed_363180009
+- snomed_40733004
+field: conditions.code
+label: desk slot C2
+salience: 58622.0
+universe: condition

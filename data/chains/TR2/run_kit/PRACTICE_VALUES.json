@@ -1,0 +1,68 @@
+{
+ "claims.currency": {
+  "CRC": {
+   "example": "XAF",
+   "label": "queue tag A-59",
+   "level": 3,
+   "member": false
+  },
+  "SBD": {
+   "example": "XAF",
+   "label": "queue tag A-59",
+   "level": 3,
+   "member": true
+  }
+ },
+ "segments.airline": {
+  "Alaska Airlines": {
+   "example": "Qantas Airways",
+   "label": "review queue G7",
+   "level": 4,
+   "member": false
+  },
+  "Cabo Verde Airlines": {
+   "example": "British Airways",
+   "label": "desk label P5",
+   "level": 1,
+   "member": false
+  },
+  "Japan Airlines": {
+   "example": "Qantas Airways",
+   "label": "review queue G7",
+   "level": 4,
+   "member": true
+  },
+  "Oman Air": {
+   "example": "British Airways",
+   "label": "desk label P5",
+   "level": 1,
+   "member": true
+  }
+ },
+ "segments.arrival_airport": {
+  "GAX": {
+   "example": "CZL",
+   "label": "audit tag 52",
+   "level": 5,
+   "member": false
+  },
+  "GVA": {
+   "example": "PEV",
+   "label": "ledger code 35",
+   "level": 2,
+   "member": false
+  },
+  "LTK": {
+   "example": "CZL",
+   "label": "audit tag 52",
+   "level": 5,
+   "member": true
+  },
+  "SRP": {
+   "example": "PEV",
+   "label": "ledger code 35",
+   "level": 2,
+   "member": true
+  }
+ }
+}

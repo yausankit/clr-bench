@@ -1,0 +1,68 @@
+{
+ "findings.cwe": {
+  "CWE-221": {
+   "example": "CWE-117",
+   "label": "review line X3",
+   "level": 4,
+   "member": true
+  },
+  "CWE-224": {
+   "example": "CWE-117",
+   "label": "review line X3",
+   "level": 4,
+   "member": false
+  },
+  "CWE-260": {
+   "example": "CWE-766",
+   "label": "client folio G3",
+   "level": 1,
+   "member": false
+  },
+  "CWE-500": {
+   "example": "CWE-766",
+   "label": "client folio G3",
+   "level": 1,
+   "member": true
+  }
+ },
+ "findings.language": {
+  "bo": {
+   "example": "en",
+   "label": "audit lane 39",
+   "level": 2,
+   "member": false
+  },
+  "de": {
+   "example": "ru",
+   "label": "client folio 66",
+   "level": 5,
+   "member": false
+  },
+  "ga": {
+   "example": "en",
+   "label": "audit lane 39",
+   "level": 2,
+   "member": true
+  },
+  "lv": {
+   "example": "ru",
+   "label": "client folio 66",
+   "level": 5,
+   "member": true
+  }
+ },
+ "hosts.tld": {
+  "td": {
+   "example": "ng",
+   "label": "reporting band V-65",
+   "level": 3,
+   "member": false
+  },
+  "ve": {
+   "example": "ng",
+   "label": "reporting band V-65",
+   "level": 3,
+   "member": true
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "conditions.code": {
+  "233604007": {
+   "example": "75498004",
+   "label": "desk slot C2",
+   "level": 1,
+   "member": false
+  },
+  "24079001": {
+   "example": "195662009",
+   "label": "routing lane J6",
+   "level": 4,
+   "member": false
+  },
+  "36971009": {
+   "example": "75498004",
+   "label": "desk slot C2",
+   "level": 1,
+   "member": true
+  },
+  "840539006": {
+   "example": "195662009",
+   "label": "routing lane J6",
+   "level": 4,
+   "member": true
+  }
+ },
+ "medications.ingredient": {
+  "Methylphenidate": {
+   "example": "Morphine",
+   "label": "ledger mark A-70",
+   "level": 3,
+   "member": true
+  },
+  "Tramadol": {
+   "example": "Morphine",
+   "label": "ledger mark A-70",
+   "level": 3,
+   "member": false
+  }
+ },
+ "procedures.code": {
+  "232717009": {
+   "example": "445912000",
+   "label": "queue tag 93",
+   "level": 5,
+   "member": false
+  },
+  "35025007": {
+   "example": "11466000",
+   "label": "audit lane 52",
+   "level": 2,
+   "member": true
+  },
+  "443497002": {
+   "example": "445912000",
+   "label": "queue tag 93",
+   "level": 5,
+   "member": true
+  },
+  "65575008": {
+   "example": "11466000",
+   "label": "audit lane 52",
+   "level": 2,
+   "member": false
+  }
+ }
+}

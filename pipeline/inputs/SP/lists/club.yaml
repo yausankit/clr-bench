@@ -1,0 +1,396 @@
+- id: ucl_winners
+  name: European Cup and UEFA Champions League winners
+  synonyms:
+  - Champions League winners
+  - European Cup winners
+  members:
+  - Ajax
+  - Aston Villa
+  - Barcelona
+  - Bayern Munich
+  - Benfica
+  - Borussia Dortmund
+  - Celtic
+  - Chelsea
+  - Feyenoord
+  - Hamburger SV
+  - Inter Milan
+  - Juventus
+  - Liverpool
+  - Manchester City
+  - Manchester United
+  - Marseille
+  - Milan
+  - Nottingham Forest
+  - PSV Eindhoven
+  - Paris Saint-Germain
+  - Porto
+  - Real Madrid
+  - Red Star Belgrade
+  - Steaua București
+  disputed: []
+  changes:
+  - value: Paris Saint-Germain
+    date: '2026-05-30'
+    event: joined
+  out_of_universe: []
+  official_count: 24
+  source: https://en.wikipedia.org/w/index.php?title=List_of_European_Cup_and_UEFA_Champions_League_finals&oldid=1379386025
+  salience: 2868927
+- id: uel_winners
+  name: UEFA Cup and UEFA Europa League winners
+  synonyms:
+  - Europa League winners
+  - UEFA Cup winners
+  members:
+  - Ajax
+  - Anderlecht
+  - Aston Villa
+  - Atalanta
+  - Atlético Madrid
+  - Bayer Leverkusen
+  - Bayern Munich
+  - Borussia Mönchengladbach
+  - CSKA Moscow
+  - Chelsea
+  - Eintracht Frankfurt
+  - Feyenoord
+  - Galatasaray
+  - IFK Göteborg
+  - Inter Milan
+  - Ipswich Town
+  - Juventus
+  - Liverpool
+  - Manchester United
+  - Napoli
+  - PSV Eindhoven
+  - Parma
+  - Porto
+  - Real Madrid
+  - Schalke 04
+  - Sevilla
+  - Shakhtar Donetsk
+  - Tottenham Hotspur
+  - Valencia
+  - Villarreal
+  - Zenit Saint Petersburg
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 31
+  source: https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Cup_and_Europa_League_finals&oldid=1378915016
+  salience: 368555
+- id: cup_winners_cup_winners
+  name: UEFA Cup Winners' Cup winners
+  synonyms:
+  - Cup Winners' Cup winners
+  members:
+  - 1. FC Magdeburg
+  - Aberdeen
+  - Ajax
+  - Anderlecht
+  - Arsenal
+  - Atlético Madrid
+  - Barcelona
+  - Bayern Munich
+  - Borussia Dortmund
+  - Chelsea
+  - Dinamo Tbilisi
+  - Dynamo Kyiv
+  - Everton
+  - Fiorentina
+  - Hamburger SV
+  - Juventus
+  - KV Mechelen
+  - Lazio
+  - Manchester City
+  - Manchester United
+  - Milan
+  - Paris Saint-Germain
+  - Parma
+  - Rangers
+  - Sampdoria
+  - Slovan Bratislava
+  - Sporting CP
+  - Tottenham Hotspur
+  - Valencia
+  - Werder Bremen
+  - West Ham United
+  - Zaragoza
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 32
+  source: https://en.wikipedia.org/w/index.php?title=List_of_UEFA_Cup_Winners'_Cup_finals&oldid=1378911468
+  salience: 72997
+- id: club_world_cup_winners
+  name: FIFA Club World Cup winners
+  synonyms:
+  - Club World Cup champions
+  members:
+  - Barcelona
+  - Bayern Munich
+  - Chelsea
+  - Corinthians
+  - Inter Milan
+  - Internacional
+  - Liverpool
+  - Manchester City
+  - Manchester United
+  - Milan
+  - Real Madrid
+  - São Paulo
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 12
+  source: https://en.wikipedia.org/w/index.php?title=List_of_FIFA_Club_World_Cup_finals&oldid=1366841062
+  salience: 166290
+- id: super_league_founders
+  name: European Super League founding clubs
+  synonyms:
+  - European Super League founders
+  members:
+  - Arsenal
+  - Atlético Madrid
+  - Barcelona
+  - Chelsea
+  - Inter Milan
+  - Juventus
+  - Liverpool
+  - Manchester City
+  - Manchester United
+  - Milan
+  - Real Madrid
+  - Tottenham Hotspur
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 12
+  source: https://en.wikipedia.org/w/index.php?title=European_Super_League&oldid=1379450111
+  salience: 252664
+- id: g14_members
+  name: G-14 member clubs
+  synonyms:
+  - G14 members
+  members:
+  - Ajax
+  - Barcelona
+  - Bayern Munich
+  - Borussia Dortmund
+  - Inter Milan
+  - Juventus
+  - Liverpool
+  - Manchester United
+  - Marseille
+  - Milan
+  - PSV Eindhoven
+  - Paris Saint-Germain
+  - Porto
+  - Real Madrid
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 14
+  source: https://en.wikipedia.org/w/index.php?title=G-14&oldid=1364246566
+  salience: 16098
+- id: club_world_cup_2025_participants
+  name: 2025 FIFA Club World Cup participants
+  synonyms:
+  - 2025 Club World Cup teams
+  members:
+  - Al Ahly
+  - Al Ain
+  - Al Hilal
+  - Atlético Madrid
+  - Auckland City
+  - Bayern Munich
+  - Benfica
+  - Boca Juniors
+  - Borussia Dortmund
+  - Botafogo
+  - Chelsea
+  - Espérance de Tunis
+  - Flamengo
+  - Fluminense
+  - Inter Miami
+  - Inter Milan
+  - Juventus
+  - Los Angeles FC
+  - Mamelodi Sundowns
+  - Manchester City
+  - Monterrey
+  - Pachuca
+  - Palmeiras
+  - Paris Saint-Germain
+  - Porto
+  - Real Madrid
+  - Red Bull Salzburg
+  - River Plate
+  - Seattle Sounders
+  - Ulsan HD
+  - Urawa Red Diamonds
+  - Wydad
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 32
+  source: https://en.wikipedia.org/w/index.php?title=2025_FIFA_Club_World_Cup&oldid=1380159074
+  salience: 834544
+- id: ucl_2024_25_league_phase
+  name: 2024-25 UEFA Champions League league phase teams
+  synonyms:
+  - 2024-25 Champions League participants
+  members:
+  - Arsenal
+  - Aston Villa
+  - Atalanta
+  - Atlético Madrid
+  - Barcelona
+  - Bayer Leverkusen
+  - Bayern Munich
+  - Benfica
+  - Bologna
+  - Borussia Dortmund
+  - Brest
+  - Celtic
+  - Club Brugge
+  - Dinamo Zagreb
+  - Feyenoord
+  - Girona
+  - Inter Milan
+  - Juventus
+  - Lille
+  - Liverpool
+  - Manchester City
+  - Milan
+  - Monaco
+  - PSV Eindhoven
+  - Paris Saint-Germain
+  - RB Leipzig
+  - Real Madrid
+  - Red Bull Salzburg
+  - Red Star Belgrade
+  - Shakhtar Donetsk
+  - Slovan Bratislava
+  - Sparta Prague
+  - Sporting CP
+  - Sturm Graz
+  - VfB Stuttgart
+  - Young Boys
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 36
+  source: https://en.wikipedia.org/w/index.php?title=2024–25_UEFA_Champions_League&oldid=1373690724
+  salience: 919359
+- id: premier_league_1992_93
+  name: 1992-93 FA Premier League teams
+  synonyms:
+  - inaugural Premier League clubs
+  members:
+  - Arsenal
+  - Aston Villa
+  - Blackburn Rovers
+  - Chelsea
+  - Coventry City
+  - Crystal Palace
+  - Everton
+  - Ipswich Town
+  - Leeds United
+  - Liverpool
+  - Manchester City
+  - Manchester United
+  - Middlesbrough
+  - Norwich City
+  - Nottingham Forest
+  - Oldham Athletic
+  - Queens Park Rangers
+  - Sheffield United
+  - Sheffield Wednesday
+  - Southampton
+  - Tottenham Hotspur
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Wimbledon
+  official_count: 22
+  source: https://en.wikipedia.org/w/index.php?title=1992–93_FA_Premier_League&oldid=1371793412
+  salience: 197583
+- id: laliga_1929
+  name: 1929 La Liga teams
+  synonyms:
+  - inaugural La Liga clubs
+  members:
+  - Arenas
+  - Athletic Bilbao
+  - Atlético Madrid
+  - Barcelona
+  - Español
+  - Europa
+  - Racing Santander
+  - Real Madrid
+  - Real Sociedad
+  - Real Unión
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://en.wikipedia.org/w/index.php?title=1929_La_Liga&oldid=1350811641
+  salience: 15744
+- id: bundesliga_1963_64
+  name: 1963-64 Bundesliga teams
+  synonyms:
+  - inaugural Bundesliga clubs
+  members:
+  - 1. FC Kaiserslautern
+  - 1. FC Köln
+  - 1. FC Nürnberg
+  - 1. FC Saarbrücken
+  - 1860 Munich
+  - Borussia Dortmund
+  - Eintracht Braunschweig
+  - Eintracht Frankfurt
+  - Hamburger SV
+  - Hertha BSC
+  - Karlsruher SC
+  - Meidericher SV
+  - Preußen Münster
+  - Schalke 04
+  - VfB Stuttgart
+  - Werder Bremen
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 16
+  source: https://en.wikipedia.org/w/index.php?title=1963–64_Bundesliga&oldid=1339292252
+  salience: 13484
+- id: seriea_1929_30
+  name: 1929-30 Serie A teams
+  synonyms:
+  - 1929-30 Serie A clubs
+  members:
+  - Alessandria
+  - Bologna
+  - Brescia
+  - Cremonese
+  - Genoa
+  - Inter Milan
+  - Juventus
+  - Lazio
+  - Livorno
+  - Milan
+  - Modena
+  - Napoli
+  - Padova
+  - Pro Patria
+  - Pro Vercelli
+  - Roma
+  - Torino
+  - Triestina
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 18
+  source: https://en.wikipedia.org/w/index.php?title=1929–30_Serie_A&oldid=1367210465
+  salience: 8804

@@ -1,0 +1,13 @@
+id	name	source	search
+who_eml_2023_s1_anaesthetics	Anaesthetics	WHO Model List of Essential Medicines, 23rd list (2023), section 1 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Anesthetic
+who_eml_2023_s6_2_antibacterials	Antibacterials	WHO Model List of Essential Medicines, 23rd list (2023), section 6.2 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Antibacterials
+who_eml_2023_s6_2_1_access_antibiotics	Access group antibiotics	WHO Model List of Essential Medicines, 23rd list (2023), section 6.2.1 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	WHO AWaRe
+who_eml_2023_s8_2_antineoplastics	Chemotherapeutic agents	WHO Model List of Essential Medicines, 23rd list (2023), section 8.2 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Chemotherapeutic agents
+who_eml_2023_s8_2_1_cytotoxic	Cytotoxic medicines	WHO Model List of Essential Medicines, 23rd list (2023), section 8.2.1 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Cytotoxicity
+who_eml_2023_s12_cardiovascular	Cardiovascular medicines	WHO Model List of Essential Medicines, 23rd list (2023), section 12 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Cardiovascular medicines
+who_eml_2023_s22_1_contraceptives	Contraceptives	WHO Model List of Essential Medicines, 23rd list (2023), section 22.1 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02	Contraceptives
+who_emlc_2023_s8_2_antineoplastics	Childhood antineoplastic medicines	WHO Model List of Essential Medicines for Children, 9th list (2023), section 8.2 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.03	Childhood cancer
+who_emlc_2023_s8_2_1_cytotoxic	Childhood cytotoxic medicines	WHO Model List of Essential Medicines for Children, 9th list (2023), section 8.2.1 — https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.03	Cytotoxicity
+dea_schedule_ii	Schedule II controlled substances	21 CFR 1308.12, Schedule II — https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol9/xml/CFR-2024-title21-vol9-sec1308-12.xml	Schedule II controlled substances
+atc_g03a	Hormonal contraceptives	WHO ATC/DDD index G03A HORMONAL CONTRACEPTIVES FOR SYSTEMIC USE — https://atcddd.fhi.no/atc_ddd_index/?code=G03A&showdescription=no	Hormonal contraceptives
+atc_n02a	Opioids	WHO ATC/DDD index N02A OPIOIDS — https://atcddd.fhi.no/atc_ddd_index/?code=N02A&showdescription=no	Opioids

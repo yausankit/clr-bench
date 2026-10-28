@@ -1,0 +1,68 @@
+{
+ "applicants.nationality": {
+  "FI": {
+   "example": "BN",
+   "label": "travel note H7",
+   "level": 4,
+   "member": false
+  },
+  "IE": {
+   "example": "DE",
+   "label": "ledger annotation K6",
+   "level": 1,
+   "member": false
+  },
+  "LA": {
+   "example": "BN",
+   "label": "travel note H7",
+   "level": 4,
+   "member": true
+  },
+  "LI": {
+   "example": "DE",
+   "label": "ledger annotation K6",
+   "level": 1,
+   "member": true
+  }
+ },
+ "applicants.university": {
+  "High Council for the Evaluation of Research and Higher Education": {
+   "example": "National University of Singapore",
+   "label": "audit marker C-39",
+   "level": 3,
+   "member": false
+  },
+  "Hoa Sen University": {
+   "example": "National University of Singapore",
+   "label": "audit marker C-39",
+   "level": 3,
+   "member": true
+  }
+ },
+ "trips.airline": {
+  "All Nippon Airways": {
+   "example": "Lufthansa",
+   "label": "expense label 26",
+   "level": 2,
+   "member": false
+  },
+  "Qantas": {
+   "example": "Singapore Airlines",
+   "label": "routing code 13",
+   "level": 5,
+   "member": false
+  },
+  "STARLUX Airlines": {
+   "example": "Singapore Airlines",
+   "label": "routing code 13",
+   "level": 5,
+   "member": true
+  },
+  "Scandinavian Airlines": {
+   "example": "Lufthansa",
+   "label": "expense label 26",
+   "level": 2,
+   "member": true
+  }
+ }
+}

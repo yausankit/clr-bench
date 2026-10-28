@@ -1,0 +1,46 @@
+A: Inter Milan
+C: super_league_founders
+C_name: European Super League founding clubs
+N_p: Bayern Munich
+N_t:
+- Paris Saint-Germain
+- Slovan Bratislava
+- Benfica
+- Ajax
+- Crystal Palace
+- Marseille
+- River Plate
+P_M:
+- Arsenal
+- Tottenham Hotspur
+- Atlético Madrid
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - club_world_cup_2025_participants
+    - g14_members
+    - ucl_2024_25_league_phase
+    - ucl_winners
+    - uel_winners
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- club_world_cup_2025_participants
+- club_world_cup_winners
+- g14_members
+- seriea_1929_30
+- ucl_2024_25_league_phase
+- ucl_winners
+- uel_winners
+field: activations.club
+label: settlement lane D3
+salience: 252664.0
+universe: club

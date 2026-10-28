@@ -1,0 +1,40 @@
+A: Walmart
+C: dow_jones
+C_name: Dow Jones Industrial Average constituents, October 2026
+N_p: Danaher Corporation
+N_t:
+- Datadog
+- Micron Technology
+- Union Pacific Corporation
+- AppLovin
+- Fluidra
+- Bureau Veritas
+- Microchip Technology
+P_M:
+- Sherwin-Williams
+- Nike
+- Johnson & Johnson
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - nasdaq_100
+    - sp_100
+    - sp_500
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- nasdaq_100
+- sp_100
+- sp_500
+field: activations.co_sponsor
+label: settlement lane 60
+salience: 1175407.0
+universe: co_sponsor

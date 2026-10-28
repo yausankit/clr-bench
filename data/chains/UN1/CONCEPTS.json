@@ -1,0 +1,161 @@
+{
+ "L1": {
+  "C": "nato",
+  "competitors": [
+   {
+    "id": "council_of_europe",
+    "name": "Council of Europe member states"
+   },
+   {
+    "id": "ehea",
+    "name": "European Higher Education Area members"
+   },
+   {
+    "id": "erasmus_countries",
+    "name": "Erasmus+ programme countries"
+   },
+   {
+    "id": "european_union",
+    "name": "European Union member states"
+   },
+   {
+    "id": "francophonie",
+    "name": "Francophonie member states and governments"
+   },
+   {
+    "id": "g20",
+    "name": "G20 members"
+   },
+   {
+    "id": "g7",
+    "name": "G7 members"
+   },
+   {
+    "id": "oecd",
+    "name": "OECD member countries"
+   },
+   {
+    "id": "schengen_area",
+    "name": "Schengen Area countries"
+   }
+  ],
+  "name": "NATO member states",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "asean",
+  "competitors": [
+   {
+    "id": "commonwealth",
+    "name": "Commonwealth member countries"
+   },
+   {
+    "id": "cptpp",
+    "name": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership parties"
+   },
+   {
+    "id": "oic",
+    "name": "Organisation of Islamic Cooperation member states"
+   }
+  ],
+  "name": "ASEAN member states",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "nasdaq_100",
+  "competitors": [
+   {
+    "id": "dow_global_titans",
+    "name": "Dow Jones Global Titans 50"
+   },
+   {
+    "id": "dow_jones",
+    "name": "Dow Jones Industrial Average"
+   },
+   {
+    "id": "fortune_global_500",
+    "name": "Fortune Global 500"
+   },
+   {
+    "id": "interbrand_top10_2025",
+    "name": "Interbrand Best Global Brands top 10 (2025)"
+   },
+   {
+    "id": "sp500",
+    "name": "S&P 500 constituents"
+   }
+  ],
+  "name": "Nasdaq-100 constituents",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "g20",
+  "competitors": [
+   {
+    "id": "arctic_council",
+    "name": "Arctic Council member states"
+   },
+   {
+    "id": "commonwealth",
+    "name": "Commonwealth member countries"
+   },
+   {
+    "id": "cptpp",
+    "name": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership parties"
+   },
+   {
+    "id": "five_eyes",
+    "name": "Five Eyes intelligence alliance members"
+   },
+   {
+    "id": "francophonie",
+    "name": "Francophonie member states and governments"
+   },
+   {
+    "id": "g7",
+    "name": "G7 members"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd",
+    "name": "OECD member countries"
+   }
+  ],
+  "name": "G20 members",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "oic",
+  "competitors": [
+   {
+    "id": "council_of_europe",
+    "name": "Council of Europe member states"
+   },
+   {
+    "id": "ehea",
+    "name": "European Higher Education Area members"
+   },
+   {
+    "id": "erasmus_countries",
+    "name": "Erasmus+ programme countries"
+   },
+   {
+    "id": "g20",
+    "name": "G20 members"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd",
+    "name": "OECD member countries"
+   }
+  ],
+  "name": "Organisation of Islamic Cooperation member states",
+  "synonyms": []
+ }
+}

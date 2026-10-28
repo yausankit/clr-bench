@@ -1,0 +1,48 @@
+A: ru
+C: brics_cctlds
+C_name: BRICS member country-code top-level domains
+N_p: bj
+N_t:
+- fr
+- am
+- vu
+- ipiranga
+- aeg
+- gbiz
+- cc
+P_M:
+- et
+- ir
+- ae
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - bsec_cctlds
+    - cctlds_all
+    - cis_cctlds
+    - csto_cctlds
+    - eaeu_cctlds
+    - g20_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- apec_cctlds
+- bsec_cctlds
+- cctlds_all
+- cis_cctlds
+- csto_cctlds
+- eaeu_cctlds
+- g20_cctlds
+- helcom_cctlds
+field: proxy_connections.tld
+label: gateway lane T9
+salience: 1804321.0
+universe: tld

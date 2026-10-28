@@ -1,0 +1,628 @@
+{
+ "_path": "STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "opcw_schedule_3",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "g7",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "oneworld",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.963
+    },
+    "4": {
+     "C": "stockholm_annex_a",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.8889
+    },
+    "5": {
+     "C": "gcc",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "5": {
+     "C": "mtcr",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 1.0
+    }
+   }
+  }
+ ],
+ "requests": 78,
+ "rounds": 2,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "Triethanolamine",
+    "C": "opcw_schedule_3",
+    "C_name": "Chemical Weapons Convention Schedule 3",
+    "N_p": "Ricin",
+    "N_t": [
+     "Sulfur mustard",
+     "Decabromodiphenyl ether",
+     "Amiton",
+     "Aziridine",
+     "Dichloromethane",
+     "Lysergic acid",
+     "Heptabromodiphenyl ether"
+    ],
+    "P_M": [
+     "Phosphorus oxychloride",
+     "Cyanogen chloride",
+     "Hydrogen cyanide"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_3",
+       "opcw_all_schedules"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 4,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_3",
+     "opcw_all_schedules"
+    ],
+    "field": "lines.substance",
+    "salience": 59528.0,
+    "universe": "chemical"
+   },
+   "field": "lines.substance",
+   "level": 1,
+   "pinned": {
+    "A": "Triethanolamine",
+    "C": "opcw_schedule_3",
+    "C_name": "Chemical Weapons Convention Schedule 3",
+    "N_p": "Ricin",
+    "N_t": [
+     "Sulfur mustard",
+     "Decabromodiphenyl ether",
+     "Amiton",
+     "Aziridine",
+     "Dichloromethane",
+     "Lysergic acid",
+     "Heptabromodiphenyl ether"
+    ],
+    "P_M": [
+     "Phosphorus oxychloride",
+     "Cyanogen chloride",
+     "Hydrogen cyanide"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_3",
+       "opcw_all_schedules"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 4,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_3",
+     "opcw_all_schedules"
+    ],
+    "field": "lines.substance",
+    "salience": 59528.0,
+    "universe": "chemical"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "FR",
+    "C": "g7",
+    "C_name": "Group of Seven member countries",
+    "N_p": "PL",
+    "N_t": [
+     "CZ",
+     "LT",
+     "BE",
+     "BB",
+     "SG",
+     "MM",
+     "EG"
+    ],
+    "P_M": [
+     "JP",
+     "US",
+     "GB"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "eu",
+       "eu_1958",
+       "mtcr",
+       "nato",
+       "nsg",
+       "schengen",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "eu",
+     "eu_1958",
+     "mtcr",
+     "nato",
+     "nsg",
+     "schengen",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 808964.0,
+    "universe": "country"
+   },
+   "field": "declarations.exporter_country",
+   "level": 2,
+   "pinned": {
+    "A": "FR",
+    "C": "g7",
+    "C_name": "Group of Seven member countries",
+    "N_p": "PL",
+    "N_t": [
+     "CZ",
+     "LT",
+     "BE",
+     "BB",
+     "SG",
+     "MM",
+     "EG"
+    ],
+    "P_M": [
+     "JP",
+     "US",
+     "GB"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "eu",
+       "eu_1958",
+       "mtcr",
+       "nato",
+       "nsg",
+       "schengen",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "eu",
+     "eu_1958",
+     "mtcr",
+     "nato",
+     "nsg",
+     "schengen",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 808964.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "American Airlines",
+    "C": "oneworld",
+    "C_name": "oneworld member airlines",
+    "N_p": "Air Zimbabwe",
+    "N_t": [
+     "UPS Airlines",
+     "Air Europa",
+     "Southwest Airlines",
+     "Nauru Airlines",
+     "Yakutia Airlines",
+     "Libyan Airlines",
+     "Gol Transportes Aereos"
+    ],
+    "P_M": [
+     "Qatar Airways",
+     "Qantas Airways",
+     "Finnair"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4a",
+       "alta_associate"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4a",
+     "alta_associate"
+    ],
+    "field": "shipments.air_carrier",
+    "salience": 467145.0,
+    "universe": "carrier"
+   },
+   "field": "shipments.air_carrier",
+   "level": 3,
+   "pinned": {
+    "A": "American Airlines",
+    "C": "oneworld",
+    "C_name": "oneworld member airlines",
+    "N_p": "Air Zimbabwe",
+    "N_t": [
+     "UPS Airlines",
+     "Air Europa",
+     "Southwest Airlines",
+     "Nauru Airlines",
+     "Yakutia Airlines",
+     "Libyan Airlines",
+     "Gol Transportes Aereos"
+    ],
+    "P_M": [
+     "Qatar Airways",
+     "Qantas Airways",
+     "Finnair"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4a",
+       "alta_associate"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4a",
+     "alta_associate"
+    ],
+    "field": "shipments.air_carrier",
+    "salience": 467145.0,
+    "universe": "carrier"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Polychlorinated biphenyls",
+    "C": "stockholm_annex_a",
+    "C_name": "Stockholm Convention Annex A",
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Trichloroethylene",
+     "Methamidophos",
+     "Polychlorinated terphenyls",
+     "2,2-Diphenyl-2-hydroxyacetic acid",
+     "CFC-213",
+     "2-Nitropropane",
+     "Norephedrine"
+    ],
+    "P_M": [
+     "Alpha-hexachlorocyclohexane",
+     "UV-328",
+     "Brominated diphenyl ethers"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_1",
+       "rotterdam_annex_iii",
+       "rotterdam_industrial"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 15,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_1",
+     "rotterdam_annex_iii",
+     "rotterdam_industrial",
+     "stockholm_all_pops",
+     "stockholm_annex_c"
+    ],
+    "field": "lines.substance",
+    "salience": 1476.0,
+    "universe": "chemical"
+   },
+   "field": "lines.substance",
+   "level": 4,
+   "pinned": {
+    "A": "Polychlorinated biphenyls",
+    "C": "stockholm_annex_a",
+    "C_name": "Stockholm Convention Annex A",
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Trichloroethylene",
+     "Methamidophos",
+     "Polychlorinated terphenyls",
+     "2,2-Diphenyl-2-hydroxyacetic acid",
+     "CFC-213",
+     "2-Nitropropane",
+     "Norephedrine"
+    ],
+    "P_M": [
+     "Alpha-hexachlorocyclohexane",
+     "UV-328",
+     "Brominated diphenyl ethers"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_1",
+       "rotterdam_annex_iii",
+       "rotterdam_industrial"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 15,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_1",
+     "rotterdam_annex_iii",
+     "rotterdam_industrial",
+     "stockholm_all_pops",
+     "stockholm_annex_c"
+    ],
+    "field": "lines.substance",
+    "salience": 1476.0,
+    "universe": "chemical"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "DE",
+    "C": "mtcr",
+    "C_name": "Missile Technology Control Regime partners",
+    "N_p": "EE",
+    "N_t": [
+     "RO",
+     "ME",
+     "SK",
+     "SR",
+     "LS",
+     "NI",
+     "DJ"
+    ],
+    "P_M": [
+     "IN",
+     "BR",
+     "RU"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "eu",
+       "nato",
+       "nsg",
+       "schengen",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "eu",
+     "eu_1958",
+     "g7",
+     "nato",
+     "nsg",
+     "schengen",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 42351.0,
+    "universe": "country"
+   },
+   "field": "declarations.exporter_country",
+   "level": 5,
+   "pinned": {
+    "A": "DE",
+    "C": "mtcr",
+    "C_name": "Missile Technology Control Regime partners",
+    "N_p": "EE",
+    "N_t": [
+     "RO",
+     "ME",
+     "SK",
+     "SR",
+     "LS",
+     "NI",
+     "DJ"
+    ],
+    "P_M": [
+     "IN",
+     "BR",
+     "RU"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "eu",
+       "nato",
+       "nsg",
+       "schengen",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "eu",
+     "eu_1958",
+     "g7",
+     "nato",
+     "nsg",
+     "schengen",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 42351.0,
+    "universe": "country"
+   },
+   "tried": [
+    "gcc"
+   ]
+  }
+ ],
+ "stage": "done"
+}

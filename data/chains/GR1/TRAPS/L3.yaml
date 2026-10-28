@@ -1,0 +1,40 @@
+A: University of Edinburgh
+C: leru_members
+C_name: League of European Research Universities members
+N_p: Open University of the Netherlands
+N_t:
+- University of Bristol
+- Tokat Gaziosmanpaşa University
+- University of Bologna
+- University of North Florida
+- Ukrainian Catholic University
+- Royal Military Academy, Woolwich
+- Kharkiv Polytechnic Institute
+P_M:
+- University of Copenhagen
+- Utrecht University
+- University of Helsinki
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - coimbra_members
+    - eua_members
+    - russell_group
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- coimbra_members
+- eua_members
+- russell_group
+field: applicants.university
+label: review notation Y-25
+salience: 10924.0
+universe: university

@@ -1,0 +1,156 @@
+A corporate network gateway aggregates the proxied connections and SSH logins of its workstations into one event count per workstation.
+
+Write one Python 3 program in a single code block. Define solve(text), where text is the whole input as one string, and return the answer as an int.
+
+Input:
+The input is plain text. The first line starts with WORKSTATIONS and lists the
+workstation ids separated by |. Then come the proxy connections, one per line, as
+PROXY|<record id>|<workstation>|<time>|<target host>|<target port>|<client process>|<action>,
+and the SSH logins as SSH|<record id>|<workstation>|<time>|<user name>|<source address>.
+Every PROXY line is one proxied connection, every SSH line is one SSH login.
+
+Each proxy connection and each SSH login adds one event to the total of the workstation it belongs to.
+Return the sum of the totals of all workstations in the input, as an int.
+
+Field notes:
+- A proxy connection whose tld is 'ru' is in gateway lane T9.
+- A proxy connection whose client_app is 'EXCEL.EXE' is in event bucket 30.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, proxy connections in gateway lane T9 are not counted.
+L2: From this level on, proxy connections in event bucket 30 are not counted.
+
+Value reference:
+proxy_connections.tld:
+- abb — abb; Generic top-level domain associated with the name 'abb', managed by ABB Ltd.
+- ae — United Arab Emirates; Country-code top-level domain for United Arab Emirates, managed by Telecommunications and Digital Government Regulatory Authority (TDRA).
+- aeg — aeg; Generic top-level domain associated with the name 'aeg', managed by Aktiebolaget Electrolux.
+- am — Armenia; Country-code top-level domain for Armenia, managed by "Internet Society" Non-governmental Organization.
+- bj — Benin; Country-code top-level domain for Benin, managed by Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN).
+- ca — Canada; Country-code top-level domain for Canada, managed by Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI).
+- casino — casino; Generic top-level domain associated with the name 'casino', managed by Binky Moon, LLC.
+- cc — Cocos (Keeling) Islands; Country-code top-level domain for Cocos (Keeling) Islands, managed by eNIC Cocos (Keeling) Islands Pty. Ltd. d/b/a Island Internet Services.
+- ch — Switzerland; Country-code top-level domain for Switzerland, managed by SWITCH The Swiss Education & Research Network.
+- chanel — chanel; Generic top-level domain associated with the name 'chanel', managed by Chanel International B.V.
+- cy — Cyprus; Country-code top-level domain for Cyprus, managed by University of Cyprus.
+- de — Germany; Country-code top-level domain for Germany, managed by DENIC eG.
+- dubai — dubai; Generic top-level domain associated with the name 'dubai', managed by Dubai Smart Government Department.
+- et — Ethiopia; Country-code top-level domain for Ethiopia, managed by Ethio telecom.
+- fr — France; Country-code top-level domain for France, managed by Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.).
+- gbiz — gbiz; Generic top-level domain associated with the name 'gbiz', managed by Charleston Road Registry Inc.
+- gop — gop; Generic top-level domain associated with the name 'gop', managed by Republican State Leadership Committee, Inc.
+- holdings — holdings; Generic top-level domain associated with the name 'holdings', managed by Binky Moon, LLC.
+- honda — honda; Generic top-level domain associated with the name 'honda', managed by Honda Motor Co., Ltd.
+- ie — Ireland; Country-code top-level domain for Ireland, managed by IE Domain Registry CLG.
+- ipiranga — ipiranga; Generic top-level domain associated with the name 'ipiranga', managed by Ipiranga Produtos de Petroleo S.A.
+- ir — Iran, Islamic Republic of; Country-code top-level domain for Iran, Islamic Republic of, managed by Institute for Research in Fundamental Sciences.
+- juegos — juegos; Generic top-level domain associated with the name 'juegos', managed by Dog Beach, LLC.
+- komatsu — komatsu; Generic top-level domain associated with the name 'komatsu', managed by Komatsu Ltd.
+- kr — Korea, Republic of; Country-code top-level domain for Korea, Republic of, managed by Korea Internet & Security Agency (KISA).
+- li — Liechtenstein; Country-code top-level domain for Liechtenstein, managed by SWITCH The Swiss Education & Research Network.
+- mt — Malta; Country-code top-level domain for Malta, managed by NIC (Malta).
+- office — office; Generic top-level domain associated with the name 'office', managed by Microsoft Corporation.
+- parts — parts; Generic top-level domain associated with the name 'parts', managed by Binky Moon, LLC.
+- ru — Russian Federation; Country-code top-level domain for Russian Federation, managed by Coordination Center for TLD RU.
+- vu — Vanuatu; Country-code top-level domain for Vanuatu, managed by Telecommunications Radiocommunications and Broadcasting Regulator (TRBR).
+- xn--42c2d9a — xn--42c2d9a; Generic top-level domain associated with the name 'xn--42c2d9a', managed by VeriSign Sarl.
+- xn--mgbai9azgqp6j — Pakistan (پاکستان); Country-code top-level domain for Pakistan, managed by National Telecommunication Corporation.
+- xn--mix891f — Macau (澳門); Country-code top-level domain for Macau, managed by Macao Post and Telecommunications Bureau (CTT).
+proxy_connections.client_app:
+- 360chrome.exe — Web browser developed by Qihoo 360.
+- EXCEL.EXE — Microsoft Excel spreadsheet application.
+- FoxitReader.exe — Portable document format viewer developed by Foxit.
+- GoogleDriveFS.exe — Cloud file synchronization client developed by Google.
+- Kaspersky.exe — Endpoint security program developed by Kaspersky.
+- Line.exe — Instant messaging client developed by LY Corporation.
+- ONENOTE.EXE — Office or document application developed by Microsoft.
+- OUTLOOK.EXE — Email or messaging client developed by Microsoft.
+- OneDrive.exe — Cloud file synchronization client developed by Microsoft.
+- POWERPNT.EXE — Microsoft PowerPoint presentation application.
+- Picasa3.exe — Google Picasa photo viewer and organizer.
+- QQLive.exe — Tencent QQLive video streaming client.
+- Skype.exe — Instant messaging client developed by Microsoft.
+- SogouPinyin.exe — Sogou Pinyin Chinese input method.
+- Teams.exe — Microsoft Teams collaboration and messaging client.
+- WINWORD.EXE — Microsoft Word word-processing application.
+- WeCom.exe — WeCom enterprise messaging and collaboration client.
+- WinSCP.exe — File transfer client developed by Martin Prikryl for remote servers.
+- Wiz.exe — Note-taking and knowledge management application from WizNote.
+- et.exe — WPS Spreadsheets spreadsheet application from Kingsoft.
+- explorer.exe — Windows File Explorer shell and file manager.
+- java.exe — Java runtime environment from Oracle for running JVM applications.
+- maxthon.exe — Web browser developed by Maxthon.
+- mstsc.exe — Remote desktop client developed by Microsoft.
+- nginx.exe — nginx web server and reverse proxy from F5.
+- opera.exe — Web browser developed by Opera Software.
+- powershell.exe — Development or system administration tool developed by Microsoft.
+- soffice.exe — LibreOffice productivity suite from The Document Foundation.
+- spoolsv.exe — Windows Print Spooler service that manages print jobs.
+- telegram.exe — Instant messaging client developed by Telegram.
+- vlc.exe — Media player developed by VideoLAN.
+- wpp.exe — WPS Presentation presentation application from Kingsoft.
+- wps.exe — WPS Office productivity suite from Kingsoft.
+- wuauclt.exe — Security or software update program developed by Microsoft.
+proxy_connections.port:
+- 10001 — scp-config; Registered service 'scp-config' for TCP and UDP: SCP Configuration.
+- 11174 — oemcacao-rmi; Registered service 'oemcacao-rmi' for TCP: OEM cacao rmi registry access point.
+- 1146 — audit-transfer; Registered service 'audit-transfer' for TCP and UDP: audit transfer.
+- 137 — netbios-ns; Registered service 'netbios-ns' for TCP and UDP: NETBIOS Name Service.
+- 1433 — ms-sql-s; Registered service 'ms-sql-s' for TCP and UDP: Microsoft-SQL-Server.
+- 1529 — coauthor; Registered service 'coauthor' for TCP and UDP: oracle.
+- 162 — snmptrap; Registered service 'snmptrap' for TCP and UDP: SNMPTRAP.
+- 176 — genrad-mux; Registered service 'genrad-mux' for TCP and UDP: GENRAD-MUX.
+- 2188 — radware-rpm; Registered service 'radware-rpm' for TCP: Radware Resource Pool Manager.
+- 2408 — railgun-webaccl; Registered service 'railgun-webaccl' for TCP: CloudFlare Railgun Web Acceleration Protocol.
+- 2823 — cqg-netlan; Registered service 'cqg-netlan' for TCP and UDP: CQG Net/LAN.
+- 2842 — l3-hawk; Registered service 'l3-hawk' for TCP and UDP: l3-hawk.
+- 3389 — ms-wbt-server; Registered service 'ms-wbt-server' for TCP and UDP: MS WBT Server.
+- 3604 — bmc-jmx-port; Registered service 'bmc-jmx-port' for TCP and UDP: BMC JMX Port.
+- 3649 — nmmp; Registered service 'nmmp' for TCP and UDP: Nishioka Miyuki Msg Protocol.
+- 3823 — acp-conduit; Registered service 'acp-conduit' for TCP and UDP: Compute Pool Conduit.
+- 5424 — beyond-remote; Registered service 'beyond-remote' for TCP and UDP: Beyond Remote.
+- 56 — xns-auth; Registered service 'xns-auth' for TCP and UDP: XNS Authentication.
+- 593 — http-rpc-epmap; Registered service 'http-rpc-epmap' for TCP and UDP: Hypertext Transfer Protocol RPC Ep Map.
+- 702 — iris-beep; Registered service 'iris-beep' for TCP and UDP: IRIS over BEEP.
+- 88 — kerberos; Registered service 'kerberos' for TCP and UDP: Kerberos.
+- 9216 — acme; Registered service 'acme' for TCP and UDP: Aionex Communication Management Engine.
+
+Example input:
+WORKSTATIONS|ws03|ws07|ws12|ws36
+PROXY|P0008|ws03|10.30 18:03:16|proxy.cse.cuhk.edu.xn--42c2d9a|2408|Picasa3.exe|open
+PROXY|P0009|ws03|10.30 18:00:15|proxy.cse.cuhk.edu.xn--mgbai9azgqp6j|9216|SogouPinyin.exe|open
+PROXY|P0010|ws03|10.30 20:39:44|proxy.cse.cuhk.edu.ru|3823|GoogleDriveFS.exe|open
+PROXY|P0026|ws07|07.27 03:00:21|hangouts.google.honda|9216|GoogleDriveFS.exe|open
+PROXY|P0027|ws07|07.26 14:51:35|sclick.baidu.juegos|3823|spoolsv.exe|open
+PROXY|P0028|ws07|10.30 16:49:30|proxy.cse.cuhk.edu.holdings|9216|EXCEL.EXE|open
+PROXY|P0046|ws12|10.30 21:12:32|proxy.cse.cuhk.edu.honda|2408|mstsc.exe|open
+PROXY|P0047|ws12|07.26 21:31:57|www.evernote.xn--mix891f|1529|Kaspersky.exe|open
+PROXY|P0048|ws12|10.30 18:00:24|proxy.cse.cuhk.edu.xn--mgbai9azgqp6j|10001|powershell.exe|open
+PROXY|P0049|ws12|07.26 15:30:07|js.t.sinajs.abb|56|Line.exe|open
+PROXY|P0050|ws12|07.26 15:30:08|wx3.sinaimg.casino|1146|mstsc.exe|open
+PROXY|P0150|ws36|07.26 13:46:51|cpro.baidustatic.xn--mix891f|9216|Line.exe|open
+PROXY|P0151|ws36|07.26 16:43:23|collector.githubapp.juegos|5424|mstsc.exe|open
+PROXY|P0152|ws36|07.27 09:00:14|clientservices.googleapis.honda|3823|SogouPinyin.exe|open
+PROXY|P0153|ws36|07.26 13:30:48|www.4399.dubai|11174|Kaspersky.exe|open
+SSH|L0009|ws03|Dec 10 10:57:10 LabSZ|root|183.62.140.253
+SSH|L0010|ws03|Dec 10 10:55:39 LabSZ|oracle|183.62.140.253
+SSH|L0011|ws03|Dec 10 07:55:55 LabSZ|test|52.80.34.196
+SSH|L0012|ws03|Dec 10 11:00:18 LabSZ|root|183.62.140.253
+SSH|L0013|ws03|Dec 10 11:04:40 LabSZ|root|183.62.140.253
+SSH|L0031|ws07|Dec 10 10:55:45 LabSZ|oracle|183.62.140.253
+SSH|L0032|ws07|Dec 10 08:25:28 LabSZ|admin|5.188.10.180
+SSH|L0033|ws07|Dec 10 09:07:23 LabSZ|0|185.190.58.151
+SSH|L0034|ws07|Dec 10 09:10:11 LabSZ|admin|185.190.58.151
+SSH|L0035|ws07|Dec 10 09:17:11 LabSZ|oracle|187.141.143.180
+SSH|L0036|ws07|Dec 10 08:25:35 LabSZ|admin|5.188.10.180
+SSH|L0053|ws12|Dec 10 11:01:59 LabSZ|root|183.62.140.253
+SSH|L0054|ws12|Dec 10 09:18:27 LabSZ|support|103.207.39.16
+SSH|L0055|ws12|Dec 10 07:13:56 LabSZ|root|5.36.59.76
+SSH|L0056|ws12|Dec 10 11:02:55 LabSZ|root|183.62.140.253
+SSH|L0057|ws12|Dec 10 07:08:30 LabSZ|webmaster|173.234.31.186
+SSH|L0165|ws36|Dec 10 08:25:41 LabSZ|admin|5.188.10.180
+SSH|L0166|ws36|Dec 10 11:00:59 LabSZ|sandeep|88.147.143.242
+SSH|L0167|ws36|Dec 10 10:54:35 LabSZ|root|183.62.140.253
+SSH|L0168|ws36|Dec 10 08:25:58 LabSZ|default|5.188.10.180
+

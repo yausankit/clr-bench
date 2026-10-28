@@ -1,0 +1,38 @@
+A: National University of Singapore
+C: aun_members
+C_name: ASEAN University Network members
+N_p: High Council for the Evaluation of Research and Higher Education
+N_t:
+- University of Science and Technology of China
+- University of Cape Town
+- Nagoya University
+- University of Amsterdam
+- Stendhal University
+- Zhetysu University
+- Politeknik Kesehatan Kementerian Kesehatan Banten
+P_M:
+- Hoa Sen University
+- Airlangga University
+- Lyceum of the Philippines University
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - apru_members
+    - iaru_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- apru_members
+- iaru_members
+field: applicants.university
+label: audit marker C-39
+salience: 7660.0
+universe: university

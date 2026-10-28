@@ -1,0 +1,555 @@
+A security firm audits client web sites: the hosts of each site are scanned and every finding is recorded against the host where it was observed; the client's report totals the recorded findings per site.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The top-level JSON object has one key, sites. Each site has id, name, and hosts. Each host has id, hostname, tld, and scans. Each scan has id, profile, and findings. Each finding has id, title, cwe, language, and severity.
+
+Each finding counts once toward the total of the site that owns the host on which it was recorded; a site's total is the number of its findings that are counted.
+Return the sum of the totals of all sites in the input, as an int.
+
+Field notes:
+- A finding whose cwe is 'CWE-766' is in client folio G3.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, findings in client folio G3 are not counted.
+
+Value reference:
+findings.cwe:
+- CWE-1063 — Creation of Class Instance within a Static Code Block; A static code block creates an instance of a class.
+- CWE-117 — Improper Output Neutralization for Logs; The product constructs a log message from external input, but it does not neutralize or incorrectly neutralizes special elements when the message is written to a log file.
+- CWE-1244 — Internal Asset Exposed to Unsafe Debug Access Level or State; Weakness: Internal Asset Exposed to Unsafe Debug Access Level or State.
+- CWE-1257 — Improper Access Control Applied to Mirrored or Aliased Memory Regions; Aliased or mirrored memory regions in hardware designs may have inconsistent read/write permissions enforced by the hardware.
+- CWE-1327 — Binding to an Unrestricted IP Address; The product assigns the address 0.0.0.0 for a database server, a cloud service/instance, or any computing resource that communicates remotely.
+- CWE-149 — Improper Neutralization of Quoting Syntax; Quotes injected into a product can be used to compromise a system.
+- CWE-214 — Invocation of Process Using Visible Sensitive Information; A process is invoked with sensitive command-line arguments, environment variables, or other elements that can be seen by other processes on the operating system.
+- CWE-221 — Information Loss or Omission; The product does not record, or improperly records, security-relevant information that leads to an incorrect decision or hampers later analysis.
+- CWE-223 — Omission of Security-relevant Information; The product does not record or display information that would be important for identifying the source or nature of an attack, or determining if an action is safe.
+- CWE-224 — Obscured Security-relevant Information by Alternate Name; The product records security-relevant information according to an alternate name of the affected entity, instead of the canonical name.
+- CWE-238 — Improper Handling of Incomplete Structural Elements; The product does not handle or incorrectly handles when a particular structural element is not completely specified.
+- CWE-244 — Improper Clearing of Heap Memory Before Release ('Heap Inspection'); Using realloc() to resize buffers that store sensitive information can leave the sensitive information exposed to attack, because it is not removed from memory.
+- CWE-260 — Password in Configuration File; The product stores a password in a configuration file that might be accessible to actors who do not know the password.
+- CWE-304 — Missing Critical Step in Authentication; The product implements an authentication technique, but it skips a step that weakens the technique.
+- CWE-368 — Context Switching Race Condition; Weakness: Context Switching Race Condition.
+- CWE-462 — Duplicate Key in Associative List (Alist); Duplicate keys in associative lists can lead to non-unique keys being mistaken for an error.
+- CWE-468 — Incorrect Pointer Scaling; In C and C++, one may often accidentally refer to the wrong memory due to the semantics of when math operations are implicitly scaled.
+- CWE-472 — External Control of Assumed-Immutable Web Parameter; The web application does not sufficiently verify inputs that are assumed to be immutable but are actually externally controllable, such as hidden form fields.
+- CWE-49 — Path Equivalence: 'filename/' (Trailing Slash); Weakness: Path Equivalence: 'filename/' (Trailing Slash).
+- CWE-498 — Cloneable Class Containing Sensitive Information; The code contains a class with sensitive data, but the class is cloneable.
+- CWE-500 — Public Static Field Not Marked Final; An object contains a public static field that is not marked final, which might allow it to be modified in unexpected ways.
+- CWE-531 — Inclusion of Sensitive Information in Test Code; Accessible test applications can pose a variety of security risks.
+- CWE-547 — Use of Hard-coded, Security-relevant Constants; The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
+- CWE-573 — Improper Following of Specification by Caller; The product does not follow or incorrectly follows the specifications as required by the implementation language, environment, framework, protocol, or platform.
+- CWE-583 — finalize() Method Declared Public; The product violates secure coding principles for mobile code by declaring a finalize() method public.
+- CWE-589 — Call to Non-ubiquitous API; The product uses an programming interface function that does not exist on all versions of the target platform.
+- CWE-617 — Reachable Assertion; The product contains an assert() or similar statement that can be triggered by an attacker, which leads to an application exit or other behavior that is more severe than necessary.
+- CWE-669 — Incorrect Resource Transfer Between Spheres; Weakness: Incorrect Resource Transfer Between Spheres.
+- CWE-760 — Use of a One-Way Hash with a Predictable Salt; The product uses a one-way cryptographic hash against an input that should not be reversible, such as a password, but the product uses a predictable salt as part of the input.
+- CWE-766 — Critical Data Element Declared Public; The product declares a critical variable, field, or member to be public when intended security policy requires it to be private.
+- CWE-778 — Insufficient Logging; When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.
+- CWE-779 — Logging of Excessive Data; The product logs too much information, making log files hard to process and possibly hindering recovery efforts or forensic analysis after an attack.
+- CWE-925 — Improper Verification of Intent by Broadcast Receiver; The Android application uses a Broadcast Receiver that receives an Intent but does not properly verify that the Intent came from an authorized source.
+- CWE-926 — Improper Export of Android Application Components; The Android application exports a component for use by other applications, but does not properly restrict which applications can launch the component or access the data it contains.
+findings.language:
+- ak — Akan; Akan is a language of the Atlantic-Congo family, spoken in Ghana and Togo.
+- an — Aragonese; Aragonese is a language of the Indo-European family, spoken in Spain and France.
+- az — Azerbaijani; Azerbaijani is a language of the Turkic family, spoken in 6 countries including Armenia, Azerbaijan, Georgia and Iran.
+- ba — Bashkir; Bashkir is a language of the Turkic family, spoken in Kazakhstan, Russia and Ukraine.
+- bo — Tibetan; Tibetan is a language of the Sino-Tibetan family, spoken in Bhutan, China, India and Nepal.
+- cy — Welsh; Welsh is a language of the Indo-European family, spoken in Argentina and the United Kingdom.
+- de — German; German is a language of the Indo-European family, spoken in 16 countries including Austria, Belgium, Switzerland and Czechia.
+- en — English; English is a language of the Indo-European family, spoken in 34 countries including Australia, Bermuda, Brazil and Belize.
+- es — Spanish, Castilian; Spanish is a language of the Indo-European family, spoken in 30 countries including Andorra, Argentina, Bolivia and Brazil.
+- fj — Fijian; Fijian is a language of the Austronesian family, spoken in Fiji.
+- fo — Faroese; Faroese is a language of the Indo-European family, spoken in Denmark and the Faroe Islands.
+- fr — French; French is a language of the Indo-European family, spoken in 12 countries including Andorra, Belgium, Canada and Switzerland.
+- ga — Irish; Irish is a language of the Indo-European family, spoken in the United Kingdom and Ireland.
+- ht — Haitian, Haitian Creole; Haitian is a language of the Indo-European family, spoken in the Dominican Republic and Haiti.
+- id — Indonesian; Indonesian is a language of the Austronesian family, spoken in 6 countries including Indonesia, the Netherlands, the Philippines and Saudi Arabia.
+- ie — Interlingue, Occidental; Interlingue is a constructed international auxiliary language.
+- kk — Kazakh; Kazakh is a language of the Turkic family, spoken in 10 countries including Afghanistan, China, Iran and Kyrgyzstan.
+- kl — Kalaallisut, Greenlandic; Kalaallisut is a language of the Eskimo-Aleut family, spoken in Denmark and Greenland.
+- kv — Komi; Komi is a language of the Uralic family, spoken in Russia.
+- lb — Luxembourgish, Letzeburgesch; Luxembourgish is a language of the Indo-European family, spoken in Belgium, Germany, France and Luxembourg.
+- lt — Lithuanian; Lithuanian is a language of the Indo-European family, spoken in 5 countries including Belarus, Lithuania, Latvia and Poland.
+- lv — Latvian; Latvian is a language of the Indo-European family, spoken in 5 countries including Belarus, Estonia, Lithuania and Latvia.
+- mt — Maltese; Maltese is a language of the Afro-Asiatic family, spoken in Malta.
+- nb — Norwegian Bokmål; Norwegian Bokmål is a language of the Indo-European family, spoken in Norway.
+- ne — Nepali; Nepali is a language of the Indo-European family, spoken in Nepal.
+- nv — Navajo, Navaho; Navajo is a language of the Athabaskan-Eyak-Tlingit family, spoken in the United States.
+- pa — Punjabi, Panjabi; Punjabi is a language of the Indo-European family, spoken in Bangladesh, India and Pakistan.
+- ru — Russian; Russian is a language of the Indo-European family, spoken in 20 countries including Belarus, China, Estonia and Finland.
+- rw — Kinyarwanda; Kinyarwanda is a language of the Atlantic-Congo family, spoken in 5 countries including Burundi, the Democratic Republic of the Congo, Rwanda and Tanzania.
+- se — Northern Sami; Northern Sami is a language of the Uralic family, spoken in Finland, Norway, Russia and Sweden.
+- sk — Slovak; Slovak is a language of the Indo-European family, spoken in 7 countries including Austria, Czechia, Hungary and Poland.
+- sl — Slovenian; Slovenian is a language of the Indo-European family, spoken in 5 countries including Austria, Croatia, Hungary and Italy.
+- st — Southern Sotho; Southern Sotho is a language of the Atlantic-Congo family, spoken in Lesotho and South Africa.
+- zh — Chinese; Chinese is a language of the Sino-Tibetan family, spoken in 8 countries including China, North Korea, Laos and Myanmar.
+hosts.tld:
+- amex — generic top-level domain; Generic top-level domain .amex managed by American Express Travel Related Services Company, Inc.
+- bb — Barbados country-code top-level domain; Country-code top-level domain for Barbados in North America.
+- build — generic top-level domain; Generic top-level domain .build managed by Plan Bee LLC.
+- cg — Congo country-code top-level domain; Country-code top-level domain for the Republic of the Congo.
+- creditunion — generic top-level domain; Generic top-level domain .creditunion managed by DotCooperation, LLC.
+- cu — Cuba country-code top-level domain; Country-code top-level domain for Cuba in North America.
+- cv — Cabo Verde country-code top-level domain; Country-code top-level domain for Cabo Verde in Africa.
+- fairwinds — generic top-level domain; Generic top-level domain .fairwinds managed by FairWinds Partners, LLC.
+- forum — generic top-level domain; Generic top-level domain .forum managed by Fegistry, LLC.
+- godaddy — generic top-level domain; Generic top-level domain .godaddy managed by Go Daddy East, LLC.
+- helsinki — generic top-level domain; Generic top-level domain .helsinki managed by City of Helsinki.
+- id — Indonesia country-code top-level domain; Country-code top-level domain for Indonesia in Asia.
+- kw — Kuwait country-code top-level domain; Country-code top-level domain for Kuwait in Asia.
+- mu — Mauritius country-code top-level domain; Country-code top-level domain for Mauritius in Africa.
+- nagoya — generic top-level domain; Generic top-level domain .nagoya managed by GMO Registry, Inc.
+- ng — Nigeria country-code top-level domain; Country-code top-level domain for Nigeria in Africa.
+- plus — generic top-level domain; Generic top-level domain .plus managed by Binky Moon, LLC.
+- td — Chad country-code top-level domain; Country-code top-level domain for Chad in Africa.
+- teva — generic top-level domain; Generic top-level domain .teva managed by Teva Pharmaceutical Industries Limited.
+- travelers — generic top-level domain; Generic top-level domain .travelers managed by Travelers TLD, LLC.
+- tz — Tanzania, United Republic of country-code top-level domain; Country-code top-level domain for Tanzania in Africa.
+- ve — Venezuela, Bolivarian Republic of country-code top-level domain; Country-code top-level domain for Venezuela in South America.
+
+Example input:
+{
+ "sites": [
+  {
+   "hosts": [
+    {
+     "hostname": "node1.client08.example.plus",
+     "id": "host-036",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-462",
+         "id": "finding-00072",
+         "language": "kl",
+         "severity": "serious",
+         "title": "Unvalidated redirect in the sign-out flow"
+        }
+       ],
+       "id": "scan-0054",
+       "profile": "authenticated"
+      }
+     ],
+     "tld": "plus"
+    },
+    {
+     "hostname": "node2.client08.example.helsinki",
+     "id": "host-037",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-669",
+         "id": "finding-00073",
+         "language": "kk",
+         "severity": "warning",
+         "title": "Predictable identifier in a password reset link"
+        },
+        {
+         "cwe": "CWE-498",
+         "id": "finding-00074",
+         "language": "az",
+         "severity": "info",
+         "title": "Missing rate limit on the authentication form"
+        }
+       ],
+       "id": "scan-0055",
+       "profile": "payment-flow"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-468",
+         "id": "finding-00075",
+         "language": "cy",
+         "severity": "info",
+         "title": "Mixed content on the account settings page"
+        }
+       ],
+       "id": "scan-0056",
+       "profile": "baseline"
+      }
+     ],
+     "tld": "helsinki"
+    },
+    {
+     "hostname": "node3.client08.example.teva",
+     "id": "host-038",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-760",
+         "id": "finding-00076",
+         "language": "kk",
+         "severity": "serious",
+         "title": "Reflected input in the search form"
+        }
+       ],
+       "id": "scan-0057",
+       "profile": "deep"
+      }
+     ],
+     "tld": "teva"
+    },
+    {
+     "hostname": "node4.client08.example.plus",
+     "id": "host-039",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-462",
+         "id": "finding-00077",
+         "language": "pa",
+         "severity": "serious",
+         "title": "Missing security header on the admin console"
+        },
+        {
+         "cwe": "CWE-766",
+         "id": "finding-00078",
+         "language": "cy",
+         "severity": "warning",
+         "title": "Weak TLS configuration on the login endpoint"
+        }
+       ],
+       "id": "scan-0058",
+       "profile": "authenticated"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-589",
+         "id": "finding-00079",
+         "language": "kk",
+         "severity": "warning",
+         "title": "Session cookie without the secure attribute"
+        }
+       ],
+       "id": "scan-0059",
+       "profile": "payment-flow"
+      }
+     ],
+     "tld": "plus"
+    },
+    {
+     "hostname": "node5.client08.example.fairwinds",
+     "id": "host-040",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-214",
+         "id": "finding-00080",
+         "language": "ak",
+         "severity": "critical",
+         "title": "Directory listing enabled on a static path"
+        }
+       ],
+       "id": "scan-0060",
+       "profile": "baseline"
+      }
+     ],
+     "tld": "fairwinds"
+    },
+    {
+     "hostname": "node6.client08.example.id",
+     "id": "host-041",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-926",
+         "id": "finding-00081",
+         "language": "st",
+         "severity": "info",
+         "title": "Outdated library used by the checkout page"
+        },
+        {
+         "cwe": "CWE-214",
+         "id": "finding-00082",
+         "language": "cy",
+         "severity": "serious",
+         "title": "Verbose error page exposes a stack trace"
+        }
+       ],
+       "id": "scan-0061",
+       "profile": "deep"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-589",
+         "id": "finding-00083",
+         "language": "st",
+         "severity": "warning",
+         "title": "Permissive cross-origin policy on the API"
+        }
+       ],
+       "id": "scan-0062",
+       "profile": "authenticated"
+      }
+     ],
+     "tld": "id"
+    }
+   ],
+   "id": "site-08",
+   "name": "Client 08 web estate"
+  },
+  {
+   "hosts": [
+    {
+     "hostname": "node1.client18.example.nagoya",
+     "id": "host-087",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-760",
+         "id": "finding-00173",
+         "language": "kk",
+         "severity": "serious",
+         "title": "Mixed content on the account settings page"
+        },
+        {
+         "cwe": "CWE-926",
+         "id": "finding-00174",
+         "language": "kk",
+         "severity": "info",
+         "title": "Reflected input in the search form"
+        }
+       ],
+       "id": "scan-0130",
+       "profile": "baseline"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-214",
+         "id": "finding-00175",
+         "language": "ak",
+         "severity": "warning",
+         "title": "Missing security header on the admin console"
+        }
+       ],
+       "id": "scan-0131",
+       "profile": "deep"
+      }
+     ],
+     "tld": "nagoya"
+    },
+    {
+     "hostname": "node2.client18.example.amex",
+     "id": "host-088",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-472",
+         "id": "finding-00176",
+         "language": "id",
+         "severity": "info",
+         "title": "Weak TLS configuration on the login endpoint"
+        }
+       ],
+       "id": "scan-0132",
+       "profile": "authenticated"
+      }
+     ],
+     "tld": "amex"
+    },
+    {
+     "hostname": "node3.client18.example.amex",
+     "id": "host-089",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-468",
+         "id": "finding-00177",
+         "language": "pa",
+         "severity": "serious",
+         "title": "Session cookie without the secure attribute"
+        },
+        {
+         "cwe": "CWE-589",
+         "id": "finding-00178",
+         "language": "cy",
+         "severity": "serious",
+         "title": "Directory listing enabled on a static path"
+        }
+       ],
+       "id": "scan-0133",
+       "profile": "payment-flow"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-669",
+         "id": "finding-00179",
+         "language": "cy",
+         "severity": "critical",
+         "title": "Outdated library used by the checkout page"
+        }
+       ],
+       "id": "scan-0134",
+       "profile": "baseline"
+      }
+     ],
+     "tld": "amex"
+    },
+    {
+     "hostname": "node4.client18.example.teva",
+     "id": "host-090",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-1063",
+         "id": "finding-00180",
+         "language": "st",
+         "severity": "critical",
+         "title": "Verbose error page exposes a stack trace"
+        }
+       ],
+       "id": "scan-0135",
+       "profile": "deep"
+      }
+     ],
+     "tld": "teva"
+    }
+   ],
+   "id": "site-18",
+   "name": "Client 18 web estate"
+  },
+  {
+   "hosts": [
+    {
+     "hostname": "node1.client21.example.cu",
+     "id": "host-102",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-760",
+         "id": "finding-00204",
+         "language": "ak",
+         "severity": "critical",
+         "title": "Predictable identifier in a password reset link"
+        }
+       ],
+       "id": "scan-0153",
+       "profile": "authenticated"
+      }
+     ],
+     "tld": "cu"
+    },
+    {
+     "hostname": "node2.client21.example.id",
+     "id": "host-103",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-1063",
+         "id": "finding-00205",
+         "language": "ak",
+         "severity": "info",
+         "title": "Missing rate limit on the authentication form"
+        },
+        {
+         "cwe": "CWE-214",
+         "id": "finding-00206",
+         "language": "ht",
+         "severity": "warning",
+         "title": "Mixed content on the account settings page"
+        }
+       ],
+       "id": "scan-0154",
+       "profile": "payment-flow"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-669",
+         "id": "finding-00207",
+         "language": "se",
+         "severity": "warning",
+         "title": "Reflected input in the search form"
+        }
+       ],
+       "id": "scan-0155",
+       "profile": "baseline"
+      }
+     ],
+     "tld": "id"
+    },
+    {
+     "hostname": "node3.client21.example.cu",
+     "id": "host-104",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-214",
+         "id": "finding-00208",
+         "language": "st",
+         "severity": "warning",
+         "title": "Missing security header on the admin console"
+        }
+       ],
+       "id": "scan-0156",
+       "profile": "deep"
+      }
+     ],
+     "tld": "cu"
+    },
+    {
+     "hostname": "node4.client21.example.plus",
+     "id": "host-105",
+     "scans": [
+      {
+       "findings": [
+        {
+         "cwe": "CWE-669",
+         "id": "finding-00209",
+         "language": "cy",
+         "severity": "critical",
+         "title": "Weak TLS configuration on the login endpoint"
+        },
+        {
+         "cwe": "CWE-498",
+         "id": "finding-00210",
+         "language": "ak",
+         "severity": "info",
+         "title": "Session cookie without the secure attribute"
+        }
+       ],
+       "id": "scan-0157",
+       "profile": "authenticated"
+      },
+      {
+       "findings": [
+        {
+         "cwe": "CWE-498",
+         "id": "finding-00211",
+         "language": "ak",
+         "severity": "warning",
+         "title": "Directory listing enabled on a static path"
+        }
+       ],
+       "id": "scan-0158",
+       "profile": "payment-flow"
+      }
+     ],
+     "tld": "plus"
+    }
+   ],
+   "id": "site-21",
+   "name": "Client 21 web estate"
+  }
+ ]
+}

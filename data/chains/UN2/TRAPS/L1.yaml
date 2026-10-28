@@ -1,0 +1,43 @@
+A: CA
+C: oecd
+C_name: OECD member countries
+N_p: CM
+N_t:
+- RO
+- SL
+- ID
+- NE
+- PN
+- NC
+- NI
+P_M:
+- AT
+- IL
+- CL
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - commonwealth
+    - francophonie
+    - g20
+    - nato
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- commonwealth
+- francophonie
+- g20
+- g7
+- nato
+field: applicants.nationality
+label: review docket W8
+salience: 807032.0
+universe: country

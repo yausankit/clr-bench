@@ -1,0 +1,48 @@
+A: DE
+C: schengen_members
+C_name: Schengen Area member states
+N_p: IE
+N_t:
+- CY
+- ME
+- CA
+- KN
+- FO
+- ZA
+- TH
+P_M:
+- LI
+- CH
+- MT
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe_members
+    - eu_members
+    - g20_members
+    - g7_members
+    - nato_members
+    - oecd_members
+    - un_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- council_of_europe_members
+- eu_members
+- g20_members
+- g7_members
+- nato_members
+- oecd_members
+- un_members
+field: applicants.nationality
+label: ledger annotation K6
+salience: 1116871.0
+universe: country

@@ -1,0 +1,205 @@
+{
+ "L1": {
+  "C": "snomed_129134004",
+  "competitors": [
+   {
+    "id": "snomed_111273006",
+    "name": "Acute respiratory disease"
+   },
+   {
+    "id": "snomed_2704003",
+    "name": "Acute disease"
+   },
+   {
+    "id": "snomed_275498002",
+    "name": "Respiratory tract infection"
+   },
+   {
+    "id": "snomed_297268004",
+    "name": "Ear, nose and throat finding"
+   },
+   {
+    "id": "snomed_301186004",
+    "name": "Upper respiratory tract finding"
+   },
+   {
+    "id": "snomed_363176004",
+    "name": "Inflammatory disorder of head"
+   },
+   {
+    "id": "snomed_363180009",
+    "name": "Inflammatory disorder of the respiratory tract"
+   },
+   {
+    "id": "snomed_40733004",
+    "name": "Infection"
+   }
+  ],
+  "name": "Inflammatory disorder of upper respiratory tract",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "snomed_118675001",
+  "competitors": [
+   {
+    "id": "mesh_e_e04_520_obstetric_surgical_procedures",
+    "name": "Obstetric Surgical Procedures"
+   },
+   {
+    "id": "mesh_e_e04_surgical_procedures_operative",
+    "name": "Surgical Procedures, Operative"
+   },
+   {
+    "id": "snomed_118674002",
+    "name": "Procedure on genitourinary system"
+   },
+   {
+    "id": "snomed_118698009",
+    "name": "Procedure on abdomen"
+   },
+   {
+    "id": "snomed_118864003",
+    "name": "Procedure on uterus"
+   },
+   {
+    "id": "snomed_386637004",
+    "name": "Obstetric procedure"
+   },
+   {
+    "id": "snomed_386811000",
+    "name": "Fetal procedure"
+   },
+   {
+    "id": "snomed_609637006",
+    "name": "Procedure on pelvic region of trunk"
+   },
+   {
+    "id": "snomed_74943008",
+    "name": "Operation on trunk"
+   }
+  ],
+  "name": "Procedure on female genital system",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "dea_schedule_ii",
+  "competitors": [
+   {
+    "id": "atc_n02",
+    "name": "ANALGESICS"
+   },
+   {
+    "id": "atc_n02a",
+    "name": "Opioids"
+   },
+   {
+    "id": "mesh_d_d03_132_alkaloids",
+    "name": "Alkaloids"
+   },
+   {
+    "id": "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+    "name": "Heterocyclic Compounds, Fused-Ring"
+   },
+   {
+    "id": "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+    "name": "Polycyclic Aromatic Hydrocarbons"
+   },
+   {
+    "id": "mesh_d_d04_polycyclic_compounds",
+    "name": "Polycyclic Compounds"
+   },
+   {
+    "id": "mesh_pa_analgesics_opioid",
+    "name": "Analgesics, Opioid"
+   },
+   {
+    "id": "mesh_pa_narcotics",
+    "name": "Narcotics"
+   },
+   {
+    "id": "stopp_start_v3_section_l",
+    "name": "STOPP/START v3, STOPP Section L: Analgesic Drugs"
+   },
+   {
+    "id": "who_eml_2023_s1_anaesthetics",
+    "name": "Anaesthetics"
+   }
+  ],
+  "name": "Schedule II controlled substances",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "snomed_40733004",
+  "competitors": [
+   {
+    "id": "snomed_111273006",
+    "name": "Acute respiratory disease"
+   },
+   {
+    "id": "snomed_129134004",
+    "name": "Inflammatory disorder of upper respiratory tract"
+   },
+   {
+    "id": "snomed_2704003",
+    "name": "Acute disease"
+   },
+   {
+    "id": "snomed_275498002",
+    "name": "Respiratory tract infection"
+   },
+   {
+    "id": "snomed_297268004",
+    "name": "Ear, nose and throat finding"
+   },
+   {
+    "id": "snomed_301186004",
+    "name": "Upper respiratory tract finding"
+   },
+   {
+    "id": "snomed_363180009",
+    "name": "Inflammatory disorder of the respiratory tract"
+   },
+   {
+    "id": "snomed_386617003",
+    "name": "Digestive system finding"
+   }
+  ],
+  "name": "Infection",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "snomed_128303001",
+  "competitors": [
+   {
+    "id": "snomed_108189003",
+    "name": "Abdomen excision"
+   },
+   {
+    "id": "snomed_118674002",
+    "name": "Procedure on genitourinary system"
+   },
+   {
+    "id": "snomed_118675001",
+    "name": "Procedure on female genital system"
+   },
+   {
+    "id": "snomed_118698009",
+    "name": "Procedure on abdomen"
+   },
+   {
+    "id": "snomed_386637004",
+    "name": "Obstetric procedure"
+   },
+   {
+    "id": "snomed_609637006",
+    "name": "Procedure on pelvic region of trunk"
+   },
+   {
+    "id": "snomed_74943008",
+    "name": "Operation on trunk"
+   }
+  ],
+  "name": "Surgical removal",
+  "synonyms": []
+ }
+}

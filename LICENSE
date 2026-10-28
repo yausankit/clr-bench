@@ -1,0 +1,5 @@
+License to be decided. Until a license is added, no rights are granted beyond those of applicable law.
+
+Third-party material keeps its own license: methods/shared/rb_memory_instruction.py carries the Apache-2.0 header of
+its source, and the upstream repositories fetched by methods/fetch_upstream.sh are under their own licenses.
+Chain data derive from public sources listed in pipeline/inputs/*/sources/FETCH.md (e.g. Wikidata, Synthea).

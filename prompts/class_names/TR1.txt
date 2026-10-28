@@ -1,0 +1,5 @@
+review queue B8 stands for: Founding member airlines of Star Alliance
+routing bucket 18 stands for: Airports in OPEC member states
+queue tag X-63 stands for: Currencies of BRICS member states
+settlement lane H9 stands for: Airlines of NATO member states
+desk label 11 stands for: Airports in the Schengen Area

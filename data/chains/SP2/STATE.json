@@ -1,0 +1,716 @@
+{
+ "_path": "../run/out/SP/SP2/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "uel_winners",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.3333,
+     "soft": 0.6481
+    },
+    "2": {
+     "C": "ftse_mib",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 0.9815
+    },
+    "3": {
+     "C": "asean_members",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "4": {
+     "C": "super_league_founders",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.8333
+    },
+    "5": {
+     "C": "aex",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8333
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "1": {
+     "C": "premier_league_1992_93",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 0.8889
+    },
+    "2": {
+     "C": "dow_jones",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.1667,
+     "soft": 0.8889
+    },
+    "3": {
+     "C": "opec_members",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0,
+     "soft": 0.9815
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "1": {
+     "C": "club_world_cup_winners",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.9444
+    },
+    "3": {
+     "C": "g7_members",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "1": {
+     "C": "cup_winners_cup_winners",
+     "P0": true,
+     "P1": false,
+     "P1H": false,
+     "g": 0.0,
+     "soft": 0.3148
+    },
+    "3": {
+     "C": "eu_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "1": {
+     "C": "g14_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.25,
+     "soft": 0.8148
+    }
+   }
+  }
+ ],
+ "requests": 171,
+ "rounds": 5,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "Real Madrid",
+    "C": "g14_members",
+    "C_name": "G-14 member clubs",
+    "N_p": "Manchester City",
+    "N_t": [
+     "Steaua București",
+     "Monaco",
+     "Fluminense",
+     "Pachuca",
+     "Mamelodi Sundowns",
+     "Wydad",
+     "Urawa Red Diamonds"
+    ],
+    "P_M": [
+     "PSV Eindhoven",
+     "Borussia Dortmund",
+     "Porto"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "club_world_cup_2025_participants",
+       "ucl_2024_25_league_phase",
+       "ucl_winners"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "club_world_cup_2025_participants",
+     "club_world_cup_winners",
+     "laliga_1929",
+     "super_league_founders",
+     "ucl_2024_25_league_phase",
+     "ucl_winners",
+     "uel_winners"
+    ],
+    "field": "activations.club",
+    "salience": 16098.0,
+    "universe": "club"
+   },
+   "field": "activations.club",
+   "level": 1,
+   "pinned": {
+    "A": "Real Madrid",
+    "C": "g14_members",
+    "C_name": "G-14 member clubs",
+    "N_p": "Manchester City",
+    "N_t": [
+     "Steaua București",
+     "Monaco",
+     "Fluminense",
+     "Pachuca",
+     "Mamelodi Sundowns",
+     "Wydad",
+     "Urawa Red Diamonds"
+    ],
+    "P_M": [
+     "PSV Eindhoven",
+     "Borussia Dortmund",
+     "Porto"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "club_world_cup_2025_participants",
+       "ucl_2024_25_league_phase",
+       "ucl_winners"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "club_world_cup_2025_participants",
+     "club_world_cup_winners",
+     "laliga_1929",
+     "super_league_founders",
+     "ucl_2024_25_league_phase",
+     "ucl_winners",
+     "uel_winners"
+    ],
+    "field": "activations.club",
+    "salience": 16098.0,
+    "universe": "club"
+   },
+   "tried": [
+    "uel_winners",
+    "premier_league_1992_93",
+    "club_world_cup_winners",
+    "cup_winners_cup_winners"
+   ]
+  },
+  {
+   "current": {
+    "A": "Microsoft",
+    "C": "dow_jones",
+    "C_name": "Dow Jones Industrial Average constituents, October 2026",
+    "N_p": "PepsiCo",
+    "N_t": [
+     "Exelon",
+     "GE HealthCare",
+     "General Motors",
+     "Tesla",
+     "Deutsche Börse",
+     "Sika",
+     "Continental"
+    ],
+    "P_M": [
+     "Travelers",
+     "Disney",
+     "Honeywell Technologies"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "nasdaq_100",
+       "sp_100",
+       "sp_500"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 16,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "nasdaq_100",
+     "sp_100",
+     "sp_500"
+    ],
+    "field": "activations.co_sponsor",
+    "salience": 1175407.0,
+    "universe": "co_sponsor"
+   },
+   "field": "activations.co_sponsor",
+   "level": 2,
+   "pinned": {
+    "A": "Microsoft",
+    "C": "dow_jones",
+    "C_name": "Dow Jones Industrial Average constituents, October 2026",
+    "N_p": "PepsiCo",
+    "N_t": [
+     "Exelon",
+     "GE HealthCare",
+     "General Motors",
+     "Tesla",
+     "Deutsche Börse",
+     "Sika",
+     "Continental"
+    ],
+    "P_M": [
+     "Travelers",
+     "Disney",
+     "Honeywell Technologies"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "nasdaq_100",
+       "sp_100",
+       "sp_500"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 16,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "nasdaq_100",
+     "sp_100",
+     "sp_500"
+    ],
+    "field": "activations.co_sponsor",
+    "salience": 1175407.0,
+    "universe": "co_sponsor"
+   },
+   "tried": [
+    "ftse_mib"
+   ]
+  },
+  {
+   "current": {
+    "A": "DE",
+    "C": "eu_members",
+    "C_name": "European Union member states",
+    "N_p": "CO",
+    "N_t": [
+     "MK",
+     "JP",
+     "BR",
+     "MD",
+     "GN",
+     "GB",
+     "KN"
+    ],
+    "P_M": [
+     "CY",
+     "MT",
+     "AT"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members"
+    ],
+    "field": "activations.market_country",
+    "salience": 678362.0,
+    "universe": "market_country"
+   },
+   "field": "activations.market_country",
+   "level": 3,
+   "pinned": {
+    "A": "DE",
+    "C": "eu_members",
+    "C_name": "European Union member states",
+    "N_p": "CO",
+    "N_t": [
+     "MK",
+     "JP",
+     "BR",
+     "MD",
+     "GN",
+     "GB",
+     "KN"
+    ],
+    "P_M": [
+     "CY",
+     "MT",
+     "AT"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members"
+    ],
+    "field": "activations.market_country",
+    "salience": 678362.0,
+    "universe": "market_country"
+   },
+   "tried": [
+    "asean_members",
+    "opec_members",
+    "g7_members"
+   ]
+  },
+  {
+   "current": {
+    "A": "Inter Milan",
+    "C": "super_league_founders",
+    "C_name": "European Super League founding clubs",
+    "N_p": "Bayern Munich",
+    "N_t": [
+     "Paris Saint-Germain",
+     "Slovan Bratislava",
+     "Benfica",
+     "Ajax",
+     "Crystal Palace",
+     "Marseille",
+     "River Plate"
+    ],
+    "P_M": [
+     "Arsenal",
+     "Tottenham Hotspur",
+     "Atlético Madrid"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "club_world_cup_2025_participants",
+       "g14_members",
+       "ucl_2024_25_league_phase",
+       "ucl_winners",
+       "uel_winners"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "club_world_cup_2025_participants",
+     "club_world_cup_winners",
+     "g14_members",
+     "seriea_1929_30",
+     "ucl_2024_25_league_phase",
+     "ucl_winners",
+     "uel_winners"
+    ],
+    "field": "activations.club",
+    "salience": 252664.0,
+    "universe": "club"
+   },
+   "field": "activations.club",
+   "level": 4,
+   "pinned": {
+    "A": "Inter Milan",
+    "C": "super_league_founders",
+    "C_name": "European Super League founding clubs",
+    "N_p": "Bayern Munich",
+    "N_t": [
+     "Paris Saint-Germain",
+     "Slovan Bratislava",
+     "Benfica",
+     "Ajax",
+     "Crystal Palace",
+     "Marseille",
+     "River Plate"
+    ],
+    "P_M": [
+     "Arsenal",
+     "Tottenham Hotspur",
+     "Atlético Madrid"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "club_world_cup_2025_participants",
+       "g14_members",
+       "ucl_2024_25_league_phase",
+       "ucl_winners",
+       "uel_winners"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "club_world_cup_2025_participants",
+     "club_world_cup_winners",
+     "g14_members",
+     "seriea_1929_30",
+     "ucl_2024_25_league_phase",
+     "ucl_winners",
+     "uel_winners"
+    ],
+    "field": "activations.club",
+    "salience": 252664.0,
+    "universe": "club"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "ASML",
+    "C": "aex",
+    "C_name": "AEX index constituents, October 2026",
+    "N_p": "Tenaris",
+    "N_t": [
+     "Old Dominion",
+     "Deutsche Post",
+     "Lindt & Sprüngli",
+     "Monster Beverage",
+     "AB InBev",
+     "Julius Baer",
+     "Nebius Group"
+    ],
+    "P_M": [
+     "Aegon",
+     "IMCD",
+     "ASR Nederland"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "euro_stoxx_50",
+       "nasdaq_100",
+       "stoxx_europe_600"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "leaks": [],
+      "pass": true,
+      "repaired": [
+       {
+        "attr": "country",
+        "in": "Nebius Group",
+        "out": "Brenntag",
+        "value": "Netherlands"
+       }
+      ]
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "euro_stoxx_50",
+     "nasdaq_100",
+     "stoxx_europe_600"
+    ],
+    "field": "activations.co_sponsor",
+    "salience": 61365.0,
+    "universe": "co_sponsor"
+   },
+   "field": "activations.co_sponsor",
+   "level": 5,
+   "pinned": {
+    "A": "ASML",
+    "C": "aex",
+    "C_name": "AEX index constituents, October 2026",
+    "N_p": "Tenaris",
+    "N_t": [
+     "Old Dominion",
+     "Deutsche Post",
+     "Lindt & Sprüngli",
+     "Monster Beverage",
+     "AB InBev",
+     "Julius Baer",
+     "Nebius Group"
+    ],
+    "P_M": [
+     "Aegon",
+     "IMCD",
+     "ASR Nederland"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "euro_stoxx_50",
+       "nasdaq_100",
+       "stoxx_europe_600"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "leaks": [],
+      "pass": true,
+      "repaired": [
+       {
+        "attr": "country",
+        "in": "Nebius Group",
+        "out": "Brenntag",
+        "value": "Netherlands"
+       }
+      ]
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "euro_stoxx_50",
+     "nasdaq_100",
+     "stoxx_europe_600"
+    ],
+    "field": "activations.co_sponsor",
+    "salience": 61365.0,
+    "universe": "co_sponsor"
+   },
+   "tried": []
+  }
+ ],
+ "stage": "done"
+}

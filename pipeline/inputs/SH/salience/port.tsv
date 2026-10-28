@@ -1,0 +1,27 @@
+concept_id	wiki_title	match	pageviews_12m	note
+medcruise_ports	MedCruise	unmatched	0	No pageview response for requested title
+cruise_britain_ports	Cruise Britain	unmatched	0	No pageview response for requested title
+green_marine_ports	Green Marine	exact	0	
+cruise_baltic_ports	Cruise Baltic ports	unmatched	0	No pageview response for requested title
+cruise_europe_ports	Cruise Europe	unmatched	0	No pageview response for requested title
+ports_in_african_union_countries	Ports in African Union countries	unmatched	0	No pageview response for requested title
+ports_in_arab_league_countries	Ports in Arab League countries	unmatched	0	No pageview response for requested title
+ports_in_brics_countries	Ports in BRICS countries	unmatched	0	No pageview response for requested title
+ports_in_caribbean_community_countries	Ports in Caribbean Community countries	unmatched	0	No pageview response for requested title
+ports_in_commonwealth_of_nations_countries	Ports in Commonwealth of Nations countries	unmatched	0	No pageview response for requested title
+ports_in_european_union_countries	Ports in European Union countries	unmatched	0	No pageview response for requested title
+ports_in_nato_countries	Ports in NATO countries	unmatched	0	No pageview response for requested title
+ports_in_organization_for_economic_cooperation_and_development_countries	Ports in Organization for Economic Cooperation and Development countries	unmatched	0	No pageview response for requested title
+ports_in_organization_of_the_petroleum_exporting_countries_countries	Ports in Organization of the Petroleum Exporting Countries countries	unmatched	0	No pageview response for requested title
+ports_in_schengen_area_countries	Ports in Schengen Area countries	unmatched	0	No pageview response for requested title
+ports_in_asia_pacific_economic_cooperation_countries	Ports in Asia-Pacific Economic Cooperation countries	unmatched	0	No pageview response for requested title
+ports_in_g20_countries	Ports in G20 countries	unmatched	0	No pageview response for requested title
+creative_cities_network_ports	Creative Cities Network	exact	23955	
+world_heritage_cities_ports	Organization of World Heritage Cities	exact	7446	
+league_of_historical_cities_ports	League of Historical Cities	exact	1593	
+world_tourism_cities_federation_ports	World Tourism Cities Federation	unmatched	0	No pageview response for requested title
+union_of_the_baltic_cities_ports	Union of the Baltic Cities	exact	1012	
+international_cities_of_refuge_ports	International Cities of Refuge Network	exact	1827	
+c40_cities_ports	C40 Cities Climate Leadership Group	exact	21807	
+climate_alliance_city_ports	Climate Alliance	exact	1109	
+sports_and_leisure_facility_cities_ports	International Association for Sports and Leisure Facilities	exact	855	

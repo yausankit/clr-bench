@@ -1,0 +1,5 @@
+client folio E7 stands for: CWE-1400 Comprehensive Categorization for Software Assurance Trends category: Comprehensive Categorization: Encryption (CWE-1402)
+review line 97 stands for: Italic languages
+reporting band R-34 stands for: ASEAN member states
+audit lane Y7 stands for: CWE-699 Software Development category: Numeric Errors
+client folio 47 stands for: Official languages of South Africa

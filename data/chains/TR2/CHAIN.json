@@ -1,0 +1,338 @@
+{
+ "answer_format": "json",
+ "background": {
+  "claims.currency": [
+   "ERN",
+   "GIP",
+   "GNF",
+   "HKD",
+   "HTG",
+   "IDR",
+   "KZT",
+   "NIO",
+   "SYP",
+   "ZWG"
+  ],
+  "segments.airline": [
+   "ABX Air",
+   "Boutique Air",
+   "Caucasus Airlines",
+   "EL AL Israel Airlines Ltd.",
+   "MAYAir",
+   "Orient Thai Airlines",
+   "Somon Air",
+   "Urumqi Air",
+   "Vanilla Air",
+   "Volaris"
+  ],
+  "segments.arrival_airport": [
+   "BMQ",
+   "CYA",
+   "HUD",
+   "HYF",
+   "MJJ",
+   "MKG",
+   "PLF",
+   "PUU",
+   "TRL",
+   "YHA"
+  ]
+ },
+ "course_id": "CLR_TR2",
+ "dataset": "TR",
+ "fields": [
+  "segments.airline",
+  "segments.arrival_airport",
+  "claims.currency"
+ ],
+ "id": "TR2",
+ "seed": 20266094,
+ "slots": [
+  {
+   "A": "British Airways",
+   "C": "oneworld_members",
+   "C_name": "Oneworld member airlines",
+   "N_p": "Cabo Verde Airlines",
+   "N_t": [
+    "Pacific Coastal Airlines",
+    "Safair",
+    "Sky Gates Airlines",
+    "Phoebus Apollo Aviation",
+    "Vueling",
+    "Phoenix Air",
+    "InterCaribbean Airways"
+   ],
+   "P_M": [
+    "Oman Air",
+    "Royal Jordanian",
+    "Royal Air Maroc"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "a4e_members",
+      "commonwealth_airlines",
+      "g20_airlines",
+      "iag_group",
+      "nato_airlines",
+      "oecd_airlines"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a4e_members",
+    "commonwealth_airlines",
+    "flag_carrier_airlines",
+    "g20_airlines",
+    "iag_group",
+    "nato_airlines",
+    "oecd_airlines",
+    "oneworld_founding"
+   ],
+   "field": "segments.airline",
+   "label": "desk label P5",
+   "level": 1,
+   "salience": 471950.0,
+   "universe": "airline"
+  },
+  {
+   "A": "PEV",
+   "C": "eea_airports",
+   "C_name": "Airports in the European Economic Area",
+   "N_p": "GVA",
+   "N_t": [
+    "ZRH",
+    "ZBK",
+    "SKD",
+    "NLF",
+    "KOZ",
+    "ZAJ",
+    "CHL"
+   ],
+   "P_M": [
+    "SRP",
+    "TCE",
+    "SXL"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "coe_airports",
+      "schengen_airports",
+      "turkic_airports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "coe_airports",
+    "eu_airports",
+    "schengen_airports",
+    "turkic_airports",
+    "visegrad_airports"
+   ],
+   "field": "segments.arrival_airport",
+   "label": "ledger code 35",
+   "level": 2,
+   "salience": 322322.0,
+   "universe": "airport"
+  },
+  {
+   "A": "XAF",
+   "C": "commonwealth_currencies",
+   "C_name": "Currencies of Commonwealth of Nations member states",
+   "N_p": "CRC",
+   "N_t": [
+    "VES",
+    "JPY",
+    "SOS",
+    "GTQ",
+    "BMD",
+    "SRD",
+    "SDG"
+   ],
+   "P_M": [
+    "SBD",
+    "LKR",
+    "GYD"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_union_currencies",
+      "fixed_exchange_rate_currencies",
+      "oic_currencies",
+      "opec_currencies",
+      "zero_minor_unit_currencies"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_union_currencies",
+    "cplp_currencies",
+    "currency_union_currencies",
+    "eccas_currencies",
+    "eur_linked_currencies",
+    "fixed_exchange_rate_currencies",
+    "oic_currencies",
+    "opec_currencies",
+    "zero_minor_unit_currencies"
+   ],
+   "field": "claims.currency",
+   "label": "queue tag A-59",
+   "level": 3,
+   "salience": 1422475.0,
+   "universe": "currency"
+  },
+  {
+   "A": "Qantas Airways",
+   "C": "oneworld_founding",
+   "C_name": "Founding member airlines of Oneworld",
+   "N_p": "Alaska Airlines",
+   "N_t": [
+    "Auric Air",
+    "HeavyLift Cargo Airlines",
+    "Wizz Air UK",
+    "Virgin Australia Regional Airlines",
+    "Smartwings Hungary",
+    "Sunday Airlines",
+    "DHL Aero Expreso"
+   ],
+   "P_M": [
+    "Japan Airlines",
+    "Cathay Pacific",
+    "American Airlines"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apec_airlines",
+      "commonwealth_airlines",
+      "g20_airlines",
+      "oecd_airlines",
+      "pif_airlines"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apec_airlines",
+    "commonwealth_airlines",
+    "flag_carrier_airlines",
+    "g20_airlines",
+    "oecd_airlines",
+    "oneworld_members",
+    "pif_airlines",
+    "qantas_group"
+   ],
+   "field": "segments.airline",
+   "label": "review queue G7",
+   "level": 4,
+   "salience": 471950.0,
+   "universe": "airline"
+  },
+  {
+   "A": "CZL",
+   "C": "arab_league_airports",
+   "C_name": "Airports in Arab League member states",
+   "N_p": "GAX",
+   "N_t": [
+    "VLN",
+    "BXE",
+    "PSI",
+    "NNX",
+    "PGK",
+    "SWY",
+    "SRL"
+   ],
+   "P_M": [
+    "LTK",
+    "SCT",
+    "AOM"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_union_airports",
+      "oic_airports",
+      "opec_airports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_union_airports",
+    "amu_airports",
+    "oic_airports",
+    "opec_airports"
+   ],
+   "field": "segments.arrival_airport",
+   "label": "audit tag 52",
+   "level": 5,
+   "salience": 386459.0,
+   "universe": "airport"
+  }
+ ]
+}

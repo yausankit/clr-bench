@@ -1,0 +1,532 @@
+- id: eu
+  name: European Union member states
+  synonyms: []
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  changes: []
+  official_count: 27
+  out_of_universe: []
+  salience: 2427987
+  source: eu_member_states.html EU country index (27)
+- id: eu_1958
+  name: EU member states since 1958
+  synonyms: []
+  members:
+  - BE
+  - DE
+  - FR
+  - IT
+  - LU
+  - NL
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  salience: 27130
+  source: eu_member_states.html country cards marked EU Member State since 1958
+- id: nato
+  name: NATO member countries
+  synonyms: []
+  members:
+  - AL
+  - BE
+  - BG
+  - CA
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LT
+  - LU
+  - LV
+  - ME
+  - MK
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SI
+  - SK
+  - TR
+  - US
+  disputed:
+  - FI
+  - SE
+  changes:
+  - value: FI
+    date: '2023-04-04'
+    change: added
+  - value: SE
+    date: '2024-03-07'
+    change: added
+  official_count: 32
+  out_of_universe: []
+  salience: 2087661
+  source: nato_member_states.html member country pages (30)
+- id: commonwealth
+  name: Commonwealth of Nations member states
+  synonyms: []
+  members:
+  - AG
+  - AU
+  - BB
+  - BD
+  - BN
+  - BS
+  - BW
+  - BZ
+  - CA
+  - CM
+  - CY
+  - DM
+  - FJ
+  - GA
+  - GD
+  - GH
+  - GM
+  - GY
+  - IN
+  - JM
+  - KE
+  - KI
+  - KN
+  - LC
+  - LK
+  - LS
+  - MT
+  - MU
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NR
+  - NZ
+  - PG
+  - PK
+  - RW
+  - SB
+  - SC
+  - SG
+  - SL
+  - SZ
+  - TG
+  - TO
+  - TT
+  - TV
+  - TZ
+  - UG
+  - VC
+  - VU
+  - WS
+  - ZA
+  - ZM
+  disputed: []
+  changes: []
+  official_count: 55
+  out_of_universe: []
+  salience: 1410547
+  source: commonwealth_member_countries.html; Wikidata current membership
+- id: g7
+  name: Group of Seven member countries
+  synonyms: []
+  members:
+  - CA
+  - DE
+  - FR
+  - GB
+  - IT
+  - JP
+  - US
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  salience: 808964
+  source: wikidata_g7_entity.json P710 participants (7); wikipedia_g7.txt
+- id: gcc
+  name: Gulf Cooperation Council member states
+  synonyms: []
+  members:
+  - AE
+  - BH
+  - KW
+  - OM
+  - QA
+  - SA
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  salience: 760907
+  source: wikidata_gcc_entity.json P527 members (6); wikipedia_gcc.txt
+- id: asean
+  name: ASEAN member states
+  synonyms: []
+  members:
+  - BN
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - PH
+  - SG
+  - TH
+  - VN
+  disputed:
+  - AU
+  - TL
+  changes:
+  - value: TL
+    date: '2025-10-26'
+    change: added
+  official_count: 12
+  out_of_universe: []
+  salience: 933074
+  source: Wikidata current association membership; observer and 2025 accession disputed
+- id: arab_league
+  name: Arab League member states
+  synonyms: []
+  members:
+  - AE
+  - BH
+  - DJ
+  - DZ
+  - EG
+  - IQ
+  - JO
+  - KM
+  - KW
+  - LB
+  - LY
+  - MA
+  - MR
+  - OM
+  - QA
+  - SA
+  - SD
+  - SO
+  - TN
+  - YE
+  disputed:
+  - SY
+  changes: []
+  official_count: 22
+  out_of_universe:
+  - PS
+  salience: 379074
+  source: Wikidata current Arab League membership
+- id: mtcr
+  name: Missile Technology Control Regime partners
+  synonyms: []
+  members:
+  - AR
+  - AT
+  - AU
+  - BE
+  - BG
+  - BR
+  - CA
+  - CH
+  - CZ
+  - DE
+  - DK
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HU
+  - IE
+  - IN
+  - IS
+  - IT
+  - JP
+  - KR
+  - LU
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - RU
+  - SE
+  - TR
+  - UA
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  official_count: 35
+  out_of_universe: []
+  salience: 42351
+  source: mtcr_partners.html partner country headings
+- id: nsg
+  name: Nuclear Suppliers Group participating governments
+  synonyms: []
+  members:
+  - AR
+  - AT
+  - AU
+  - BE
+  - BG
+  - BR
+  - BY
+  - CA
+  - CH
+  - CN
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - JP
+  - KR
+  - KZ
+  - LT
+  - LU
+  - LV
+  - MT
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  official_count: 48
+  out_of_universe: []
+  salience: 27313
+  source: Wikidata current Nuclear Suppliers Group membership
+- id: australia_group
+  name: Australia Group participants
+  synonyms: []
+  members:
+  - AR
+  - AT
+  - AU
+  - BE
+  - BG
+  - CA
+  - CH
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - JP
+  - KR
+  - LU
+  - LV
+  - MT
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+  - US
+  disputed: []
+  changes: []
+  official_count: 40
+  out_of_universe: []
+  salience: 13483
+  source: Wikidata current Australia Group membership
+- id: wassenaar
+  name: Wassenaar Arrangement participating states
+  synonyms: []
+  members:
+  - AR
+  - AT
+  - AU
+  - BE
+  - BG
+  - CA
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IE
+  - IN
+  - IT
+  - JP
+  - KR
+  - LT
+  - LU
+  - LV
+  - MT
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - RO
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  official_count: 42
+  out_of_universe: []
+  salience: 27588
+  source: wassenaar_home.html participating-state flags
+- id: schengen
+  name: Schengen area countries
+  synonyms: []
+  members:
+  - AT
+  - BE
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  disputed:
+  - BG
+  - RO
+  changes:
+  - value: BG
+    date: '2025-01-01'
+    change: added
+  - value: RO
+    date: '2025-01-01'
+    change: added
+  official_count: 29
+  out_of_universe: []
+  salience: 1116871
+  source: schengen_area.html Schengen country list
+- id: opec
+  name: OPEC member countries
+  synonyms: []
+  members:
+  - AE
+  - AO
+  - CG
+  - DZ
+  - GQ
+  - IQ
+  - IR
+  - KW
+  - LY
+  - NG
+  - SA
+  - VE
+  disputed:
+  - GA
+  changes:
+  - value: GA
+    date: '2025-01-01'
+    change: withdrawn
+  official_count: 13
+  out_of_universe: []
+  salience: 880838
+  source: wikidata_opec_members.json current membership statements

@@ -1,0 +1,57 @@
+concept_id	wiki_title	match	pageviews_12m	note
+mesh_e_e01_370_225_500_cytological_techniques	Cell biology	none	0	first hit not related to the list name
+mesh_e_e01_370_225_clinical_laboratory_techniques	Medical laboratory	search	22642	search hit, shared 'laboratory', 12 monthly samples
+mesh_e_e01_370_350_diagnostic_imaging	Medical imaging	search	76448	search hit, shared 'imaging', 12 monthly samples
+mesh_e_e01_370_388_diagnostic_techniques_surgical	Phalloplasty	none	0	first hit not related to the list name
+mesh_e_e01_370_diagnostic_techniques_and_procedures	Medical test	none	0	first hit not related to the list name
+mesh_e_e02_therapeutics	United Therapeutics	search	24581	search hit, shared 'therapeutics', 12 monthly samples
+mesh_e_e04_502_minimally_invasive_surgical_procedures	Minimally invasive surgeries	search	4111	search hit, shared 'minimally', 8 monthly samples
+mesh_e_e04_520_obstetric_surgical_procedures	Obstetrics and gynaecology	search	108839	search hit, shared 'obstetric', 12 monthly samples
+mesh_e_e04_surgical_procedures_operative	Surgery	none	0	first hit not related to the list name
+mesh_e_e05_478_immunologic_techniques	Serology	none	0	first hit not related to the list name
+mesh_e_e05_investigative_techniques	Network Investigative Technique	search	6848	search hit, shared 'investigative', 12 monthly samples
+snomed_118669005	Acute respiratory distress syndrome	search	71341	search hit, shared 'respiratory', 12 monthly samples
+snomed_14734007	Administrative law	search	36999	search hit, shared 'administrative', 12 monthly samples
+snomed_16310003	Medical ultrasound	search	73515	search hit, shared 'ultraso', 12 monthly samples
+snomed_225365006	Vichy France	none	0	first hit not related to the list name
+snomed_445536008	Educational assessment	search	21625	search hit, shared 'assessment', 12 monthly samples
+snomed_5880005	Physical examination	search	40027	search hit, shared 'physical', 12 monthly samples
+snomed_86273004	Biopsy	search	64246	search hit, shared 'biopsy', 12 monthly samples
+snomed_386637004	Obstetrical forceps	search	24345	search hit, shared 'obstetric', 12 monthly samples
+snomed_118675001	Female reproductive system	search	309647	search hit, shared 'female', 12 monthly samples
+snomed_20135006	Cervical screening	search	6664	search hit, shared 'screening', 12 monthly samples
+snomed_413815006	Chest radiograph	search	42978	search hit, shared 'chest', 12 monthly samples
+snomed_252318005	List of medical tests	search	6171	search hit, shared 'test', 12 monthly samples
+snomed_59108006	Injection	search	2986	search hit, shared 'injection', 12 monthly samples
+snomed_118797008	Fontan procedure	none	0	first hit not related to the list name
+snomed_118838009	Large intestine	search	173040	search hit, shared 'large', 12 monthly samples
+snomed_392089008	Breast augmentation	search	180969	search hit, shared 'breast', 12 monthly samples
+snomed_18629005	Route of administration	search	55906	search hit, shared 'administration', 12 monthly samples
+snomed_305056002	Army Institute of Business Administration, Savar	none	0	first hit not related to the list name
+snomed_276341003	Olpasiran	none	0	first hit not related to the list name
+snomed_284366008	Imperial examination	search	184677	search hit, shared 'examination', 12 monthly samples
+snomed_108217004	Physical examination	search	40027	manually selected English Wikipedia article, 12 monthly samples
+snomed_108252007	Medical laboratory	search	22642	manually selected English Wikipedia article, 12 monthly samples
+snomed_118666003	Human musculoskeletal system	search	41206	search hit, shared 'musculoskeletal', 12 monthly samples
+snomed_118674002	Genitourinary system	search	38184	manually selected English Wikipedia article, 12 monthly samples
+snomed_118698009	Abdomen	search	309067	search hit, shared 'abdomen', 12 monthly samples
+snomed_118804001	Blood vessel	search	103088	manually selected English Wikipedia article, 12 monthly samples
+snomed_118821005	Human digestive system	search	290995	search hit, shared 'digestive', 12 monthly samples
+snomed_122869004	Measurement	search	99306	search hit, shared 'measurement', 12 monthly samples
+snomed_127801007	Body fluid	search	58671	manually selected English Wikipedia article, 12 monthly samples
+snomed_19838004	Immunology	search	55313	manually selected English Wikipedia article, 12 monthly samples
+snomed_315306007	Physical examination	search	40027	manually selected English Wikipedia article, 12 monthly samples
+snomed_362961001	Medical procedure	search	12079	manually selected English Wikipedia article, 12 monthly samples
+snomed_386811000	Fetal surgery	search	9597	manually selected English Wikipedia article, 12 monthly samples
+snomed_387662008	Respiratory disease	search	49280	search hit, shared 'respiratory', 12 monthly samples
+snomed_609637006	Pelvis	search	205190	manually selected English Wikipedia article, 12 monthly samples
+snomed_118695007	Thorax	search	126898	manually selected search hit, 12 monthly samples
+snomed_118738001	Soft tissue	search	32335	manually selected search hit, 12 monthly samples
+snomed_118672003	Circulatory system	search	329678	manually selected search hit, 12 monthly samples
+snomed_128303001	List of -ectomies	search	16518	manually selected search hit, 12 monthly samples
+snomed_74943008	Surgery	search	293521	manually selected search hit, 12 monthly samples
+snomed_363679005	Medical imaging	search	76448	manually selected search hit, 12 monthly samples
+snomed_118696008	Mediastinum	search	57219	manually selected search hit, 12 monthly samples
+snomed_108189003	Abdominal surgery	search	7033	manually selected search hit, 12 monthly samples
+snomed_118864003	Uterus	search	305025	manually selected search hit, 12 monthly samples
+snomed_74040009	Protein	search	350312	manually selected search hit, 12 monthly samples

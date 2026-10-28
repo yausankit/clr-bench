@@ -1,0 +1,68 @@
+{
+ "activations.club": {
+  "Dinamo Zagreb": {
+   "example": "Real Madrid",
+   "label": "handling class P8",
+   "level": 1,
+   "member": false
+  },
+  "Monterrey": {
+   "example": "Inter Milan",
+   "label": "review code W2",
+   "level": 4,
+   "member": true
+  },
+  "Shakhtar Donetsk": {
+   "example": "Inter Milan",
+   "label": "review code W2",
+   "level": 4,
+   "member": false
+  },
+  "Steaua București": {
+   "example": "Real Madrid",
+   "label": "handling class P8",
+   "level": 1,
+   "member": true
+  }
+ },
+ "activations.co_sponsor": {
+  "Danaher Corporation": {
+   "example": "Walmart",
+   "label": "settlement lane 60",
+   "level": 5,
+   "member": false
+  },
+  "Deutsche Post": {
+   "example": "ASML",
+   "label": "review tag 70",
+   "level": 2,
+   "member": true
+  },
+  "Kering": {
+   "example": "ASML",
+   "label": "review tag 70",
+   "level": 2,
+   "member": false
+  },
+  "Sherwin-Williams": {
+   "example": "Walmart",
+   "label": "settlement lane 60",
+   "level": 5,
+   "member": true
+  }
+ },
+ "activations.market_country": {
+  "ES": {
+   "example": "CA",
+   "label": "audit lane N-59",
+   "level": 3,
+   "member": false
+  },
+  "TZ": {
+   "example": "CA",
+   "label": "audit lane N-59",
+   "level": 3,
+   "member": true
+  }
+ }
+}

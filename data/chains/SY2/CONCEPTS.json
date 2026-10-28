@@ -1,0 +1,201 @@
+{
+ "L1": {
+  "C": "snomed_363059001",
+  "competitors": [
+   {
+    "id": "snomed_106028002",
+    "name": "Musculoskeletal finding"
+   },
+   {
+    "id": "snomed_118953000",
+    "name": "Bone finding"
+   },
+   {
+    "id": "snomed_125605004",
+    "name": "Fracture of bone"
+   },
+   {
+    "id": "snomed_417163006",
+    "name": "Injury"
+   }
+  ],
+  "name": "Degenerative disorder of musculoskeletal system",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "snomed_118864003",
+  "competitors": [
+   {
+    "id": "mesh_e_e04_520_obstetric_surgical_procedures",
+    "name": "Obstetric Surgical Procedures"
+   },
+   {
+    "id": "mesh_e_e04_surgical_procedures_operative",
+    "name": "Surgical Procedures, Operative"
+   },
+   {
+    "id": "snomed_118674002",
+    "name": "Procedure on genitourinary system"
+   },
+   {
+    "id": "snomed_118675001",
+    "name": "Procedure on female genital system"
+   },
+   {
+    "id": "snomed_118698009",
+    "name": "Procedure on abdomen"
+   },
+   {
+    "id": "snomed_386637004",
+    "name": "Obstetric procedure"
+   },
+   {
+    "id": "snomed_386811000",
+    "name": "Fetal procedure"
+   },
+   {
+    "id": "snomed_609637006",
+    "name": "Procedure on pelvic region of trunk"
+   },
+   {
+    "id": "snomed_74943008",
+    "name": "Operation on trunk"
+   }
+  ],
+  "name": "Procedure on uterus",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "who_eml_2023_s8_2_1_cytotoxic",
+  "competitors": [
+   {
+    "id": "atc_l01",
+    "name": "ANTINEOPLASTIC AGENTS"
+   },
+   {
+    "id": "mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons",
+    "name": "Polycyclic Aromatic Hydrocarbons"
+   },
+   {
+    "id": "mesh_d_d02_455_426_559_hydrocarbons_aromatic",
+    "name": "Hydrocarbons, Aromatic"
+   },
+   {
+    "id": "mesh_d_d02_455_426_hydrocarbons_cyclic",
+    "name": "Hydrocarbons, Cyclic"
+   },
+   {
+    "id": "mesh_d_d02_455_hydrocarbons",
+    "name": "Hydrocarbons"
+   },
+   {
+    "id": "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+    "name": "Polycyclic Aromatic Hydrocarbons"
+   },
+   {
+    "id": "mesh_d_d04_polycyclic_compounds",
+    "name": "Polycyclic Compounds"
+   },
+   {
+    "id": "mesh_d_d09_carbohydrates",
+    "name": "Carbohydrates"
+   },
+   {
+    "id": "niosh_2024_table_1",
+    "name": "NIOSH 2024 hazardous drugs, Table 1"
+   },
+   {
+    "id": "who_eml_2023_s8_2_antineoplastics",
+    "name": "Chemotherapeutic agents"
+   },
+   {
+    "id": "who_emlc_2023_s8_2_1_cytotoxic",
+    "name": "Childhood cytotoxic medicines"
+   },
+   {
+    "id": "who_emlc_2023_s8_2_antineoplastics",
+    "name": "Childhood antineoplastic medicines"
+   }
+  ],
+  "name": "Cytotoxic medicines",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "snomed_363180009",
+  "competitors": [
+   {
+    "id": "snomed_111273006",
+    "name": "Acute respiratory disease"
+   },
+   {
+    "id": "snomed_129134004",
+    "name": "Inflammatory disorder of upper respiratory tract"
+   },
+   {
+    "id": "snomed_2704003",
+    "name": "Acute disease"
+   },
+   {
+    "id": "snomed_275498002",
+    "name": "Respiratory tract infection"
+   },
+   {
+    "id": "snomed_297268004",
+    "name": "Ear, nose and throat finding"
+   },
+   {
+    "id": "snomed_301186004",
+    "name": "Upper respiratory tract finding"
+   },
+   {
+    "id": "snomed_386617003",
+    "name": "Digestive system finding"
+   },
+   {
+    "id": "snomed_40733004",
+    "name": "Infection"
+   }
+  ],
+  "name": "Inflammatory disorder of the respiratory tract",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "snomed_86273004",
+  "competitors": [
+   {
+    "id": "mesh_e_e01_370_225_500_cytological_techniques",
+    "name": "Cytological Techniques"
+   },
+   {
+    "id": "mesh_e_e01_370_225_clinical_laboratory_techniques",
+    "name": "Clinical Laboratory Techniques"
+   },
+   {
+    "id": "mesh_e_e01_370_388_diagnostic_techniques_surgical",
+    "name": "Diagnostic Techniques, Surgical"
+   },
+   {
+    "id": "mesh_e_e01_370_diagnostic_techniques_and_procedures",
+    "name": "Diagnostic Techniques and Procedures"
+   },
+   {
+    "id": "mesh_e_e04_surgical_procedures_operative",
+    "name": "Surgical Procedures, Operative"
+   },
+   {
+    "id": "mesh_e_e05_investigative_techniques",
+    "name": "Investigative Techniques"
+   },
+   {
+    "id": "snomed_118695007",
+    "name": "Procedure on thorax"
+   },
+   {
+    "id": "snomed_392089008",
+    "name": "Breast procedure"
+   }
+  ],
+  "name": "Biopsy",
+  "synonyms": []
+ }
+}

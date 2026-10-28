@@ -1,0 +1,491 @@
+universe	list_id	list_name	role	value	evidence
+country	eurozone_members	Eurozone member states	member	AT	raw/wiki/Eurozone.json#table[0].row[2].cell[0] anchor title='Austria'; roster membership confirmed
+country	eurozone_members	Eurozone member states	member	BE	raw/wiki/Eurozone.json#table[0].row[3].cell[0] anchor title='Belgium'; roster membership confirmed
+country	eurozone_members	Eurozone member states	member	CY	raw/wiki/Eurozone.json#table[0].row[6].cell[0] anchor title='Cyprus'; roster membership confirmed
+country	eurozone_members	Eurozone member states	member	DE	raw/wiki/Eurozone.json#table[0].row[10].cell[0] anchor title='Germany'; roster membership confirmed
+country	eurozone_members	Eurozone member states	member	EE	raw/wiki/Eurozone.json#table[0].row[7].cell[0] anchor title='Estonia'; roster membership confirmed
+country	eurozone_members	Eurozone member states	nonmember	AD	raw/wiki/Eurozone.json#table[0].rows (21 member rows); searched all entries: 0 matches for 'AD'
+country	eurozone_members	Eurozone member states	nonmember	AE	raw/wiki/Eurozone.json#table[0].rows (21 member rows); searched all entries: 0 matches for 'AE'
+country	eurozone_members	Eurozone member states	nonmember	AF	raw/wiki/Eurozone.json#table[0].rows (21 member rows); searched all entries: 0 matches for 'AF'
+country	eurozone_members	Eurozone member states	nonmember	AG	raw/wiki/Eurozone.json#table[0].rows (21 member rows); searched all entries: 0 matches for 'AG'
+country	eurozone_members	Eurozone member states	nonmember	AL	raw/wiki/Eurozone.json#table[0].rows (21 member rows); searched all entries: 0 matches for 'AL'
+country	gcc_members	Gulf Cooperation Council member states	member	AE	raw/wiki/Gulf_Cooperation_Council.json#table[2].row[6].cell[0] anchor title='United Arab Emirates'; roster membership confirmed
+country	gcc_members	Gulf Cooperation Council member states	member	BH	raw/wiki/Gulf_Cooperation_Council.json#table[2].row[2].cell[0] anchor title='Bahrain'; roster membership confirmed
+country	gcc_members	Gulf Cooperation Council member states	member	KW	raw/wiki/Gulf_Cooperation_Council.json#table[2].row[7].cell[0] anchor title='Kuwait'; roster membership confirmed
+country	gcc_members	Gulf Cooperation Council member states	member	OM	raw/wiki/Gulf_Cooperation_Council.json#table[2].row[3].cell[0] anchor title='Oman'; roster membership confirmed
+country	gcc_members	Gulf Cooperation Council member states	member	QA	raw/wiki/Gulf_Cooperation_Council.json#table[2].row[4].cell[0] anchor title='Qatar'; roster membership confirmed
+country	gcc_members	Gulf Cooperation Council member states	nonmember	AD	raw/wiki/Gulf_Cooperation_Council.json#table[2].rows (6 member rows); searched all entries: 0 matches for 'AD'
+country	gcc_members	Gulf Cooperation Council member states	nonmember	AF	raw/wiki/Gulf_Cooperation_Council.json#table[2].rows (6 member rows); searched all entries: 0 matches for 'AF'
+country	gcc_members	Gulf Cooperation Council member states	nonmember	AG	raw/wiki/Gulf_Cooperation_Council.json#table[2].rows (6 member rows); searched all entries: 0 matches for 'AG'
+country	gcc_members	Gulf Cooperation Council member states	nonmember	AL	raw/wiki/Gulf_Cooperation_Council.json#table[2].rows (6 member rows); searched all entries: 0 matches for 'AL'
+country	gcc_members	Gulf Cooperation Council member states	nonmember	AM	raw/wiki/Gulf_Cooperation_Council.json#table[2].rows (6 member rows); searched all entries: 0 matches for 'AM'
+country	schengen_members	Schengen Area member states	member	AT	raw/wiki/Schengen_Area.json#table[0].row[1].cell[0] anchor title='Austria'; roster membership confirmed
+country	schengen_members	Schengen Area member states	member	BE	raw/wiki/Schengen_Area.json#table[0].row[2].cell[0] anchor title='Belgium'; roster membership confirmed
+country	schengen_members	Schengen Area member states	member	CH	raw/wiki/Schengen_Area.json#table[0].row[29].cell[0] anchor title='Switzerland'; roster membership confirmed
+country	schengen_members	Schengen Area member states	member	CZ	raw/wiki/Schengen_Area.json#table[0].row[5].cell[0] anchor title='Czech Republic'; roster membership confirmed
+country	schengen_members	Schengen Area member states	member	DE	raw/wiki/Schengen_Area.json#table[0].row[10].cell[0] anchor title='Germany'; roster membership confirmed
+country	schengen_members	Schengen Area member states	nonmember	AD	raw/wiki/Schengen_Area.json#table[0].rows (29 member rows); searched all entries: 0 matches for 'AD'
+country	schengen_members	Schengen Area member states	nonmember	AE	raw/wiki/Schengen_Area.json#table[0].rows (29 member rows); searched all entries: 0 matches for 'AE'
+country	schengen_members	Schengen Area member states	nonmember	AF	raw/wiki/Schengen_Area.json#table[0].rows (29 member rows); searched all entries: 0 matches for 'AF'
+country	schengen_members	Schengen Area member states	nonmember	AG	raw/wiki/Schengen_Area.json#table[0].rows (29 member rows); searched all entries: 0 matches for 'AG'
+country	schengen_members	Schengen Area member states	nonmember	AL	raw/wiki/Schengen_Area.json#table[0].rows (29 member rows); searched all entries: 0 matches for 'AL'
+carrier	a4a	Airlines for America member airlines	member	Alaska Airlines	raw/Airlines_for_America.json#heading[ATA_Airline_Members].ul.li[1]; roster membership confirmed
+carrier	a4a	Airlines for America member airlines	member	American Airlines	raw/Airlines_for_America.json#heading[ATA_Airline_Members].ul.li[2]; roster membership confirmed
+carrier	a4a	Airlines for America member airlines	member	Atlas Air	raw/Airlines_for_America.json#heading[ATA_Airline_Members].ul.li[3]; roster membership confirmed
+carrier	a4a	Airlines for America member airlines	member	Delta Air Lines	raw/Airlines_for_America.json#heading[ATA_Airline_Members].ul.li[4]; roster membership confirmed
+carrier	a4a	Airlines for America member airlines	member	Federal Express Corporation	raw/Airlines_for_America.json#heading[ATA_Airline_Members].ul.li[5]; roster membership confirmed
+carrier	a4a	Airlines for America member airlines	nonmember	AB Aviation	raw/Airlines_for_America.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	a4a	Airlines for America member airlines	nonmember	ABX Air	raw/Airlines_for_America.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	a4a	Airlines for America member airlines	nonmember	AIRZETA	raw/Airlines_for_America.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	a4a	Airlines for America member airlines	nonmember	AJet	raw/Airlines_for_America.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	a4a	Airlines for America member airlines	nonmember	ANA	raw/Airlines_for_America.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	member	Aegean Airlines	raw/Airlines_for_Europe.json#table[0].row[1].cell[1]; roster membership confirmed
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	member	Aer Lingus	raw/Airlines_for_Europe.json#table[0].row[7].cell[1]; roster membership confirmed
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	member	Air France	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	member	Air France-KLM Cargo	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	member	AirBaltic	raw/Airlines_for_Europe.json#table[0].row[2].cell[1]; roster membership confirmed
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	nonmember	AB Aviation	raw/Airlines_for_Europe.json#parsed roster (45 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	nonmember	ABX Air	raw/Airlines_for_Europe.json#parsed roster (45 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	nonmember	AIRZETA	raw/Airlines_for_Europe.json#parsed roster (45 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	nonmember	AJet	raw/Airlines_for_Europe.json#parsed roster (45 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	a4e_airlines	Airlines participating in Airlines for Europe member groups	nonmember	ANA	raw/Airlines_for_Europe.json#parsed roster (45 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	aaco	Arab Air Carriers' Organization member airlines	member	Afriqiyah Airways	raw/Arab_Air_Carriers_Organization2.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	aaco	Arab Air Carriers' Organization member airlines	member	Air Algérie	raw/Arab_Air_Carriers_Organization2.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	aaco	Arab Air Carriers' Organization member airlines	member	Air Arabia	raw/Arab_Air_Carriers_Organization2.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	aaco	Arab Air Carriers' Organization member airlines	member	Air Cairo	raw/Arab_Air_Carriers_Organization2.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	aaco	Arab Air Carriers' Organization member airlines	member	Badr Airlines	raw/Arab_Air_Carriers_Organization2.json#table[0].row[5].cell[0]; roster membership confirmed
+carrier	aaco	Arab Air Carriers' Organization member airlines	nonmember	AB Aviation	raw/Arab_Air_Carriers_Organization2.json#parsed roster (36 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	aaco	Arab Air Carriers' Organization member airlines	nonmember	ABX Air	raw/Arab_Air_Carriers_Organization2.json#parsed roster (36 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	aaco	Arab Air Carriers' Organization member airlines	nonmember	AIRZETA	raw/Arab_Air_Carriers_Organization2.json#parsed roster (36 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	aaco	Arab Air Carriers' Organization member airlines	nonmember	AJet	raw/Arab_Air_Carriers_Organization2.json#parsed roster (36 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	aaco	Arab Air Carriers' Organization member airlines	nonmember	ANA	raw/Arab_Air_Carriers_Organization2.json#parsed roster (36 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	aapa	Association of Asia Pacific Airlines member airlines	member	Air Astana	raw/Association_of_Asia_Pacific_Airlines.json#heading[Members].ul.li[1]; roster membership confirmed
+carrier	aapa	Association of Asia Pacific Airlines member airlines	member	Air India	raw/Association_of_Asia_Pacific_Airlines.json#heading[Members].ul.li[2]; roster membership confirmed
+carrier	aapa	Association of Asia Pacific Airlines member airlines	member	Air New Zealand	raw/Association_of_Asia_Pacific_Airlines.json#heading[Members].ul.li[3]; roster membership confirmed
+carrier	aapa	Association of Asia Pacific Airlines member airlines	member	All Nippon Airways	raw/Association_of_Asia_Pacific_Airlines.json#heading[Members].ul.li[4]; roster membership confirmed
+carrier	aapa	Association of Asia Pacific Airlines member airlines	member	Bangkok Airways	raw/Association_of_Asia_Pacific_Airlines.json#heading[Members].ul.li[5]; roster membership confirmed
+carrier	aapa	Association of Asia Pacific Airlines member airlines	nonmember	AB Aviation	raw/Association_of_Asia_Pacific_Airlines.json#parsed roster (17 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	aapa	Association of Asia Pacific Airlines member airlines	nonmember	ABX Air	raw/Association_of_Asia_Pacific_Airlines.json#parsed roster (17 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	aapa	Association of Asia Pacific Airlines member airlines	nonmember	AIRZETA	raw/Association_of_Asia_Pacific_Airlines.json#parsed roster (17 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	aapa	Association of Asia Pacific Airlines member airlines	nonmember	AJet	raw/Association_of_Asia_Pacific_Airlines.json#parsed roster (17 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	aapa	Association of Asia Pacific Airlines member airlines	nonmember	ANA	raw/Association_of_Asia_Pacific_Airlines.json#parsed roster (17 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	afraa	African Airlines Association member airlines	member	AB Aviation	raw/African_Airlines_Association.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	afraa	African Airlines Association member airlines	member	ASKY Airlines	raw/African_Airlines_Association.json#table[0].row[16].cell[0]; roster membership confirmed
+carrier	afraa	African Airlines Association member airlines	member	AfriJet	raw/African_Airlines_Association.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	afraa	African Airlines Association member airlines	member	Afriqiyah Airways	raw/African_Airlines_Association.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	afraa	African Airlines Association member airlines	member	Air Algérie	raw/African_Airlines_Association.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	afraa	African Airlines Association member airlines	nonmember	ABX Air	raw/African_Airlines_Association.json#parsed roster (46 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	afraa	African Airlines Association member airlines	nonmember	AIRZETA	raw/African_Airlines_Association.json#parsed roster (46 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	afraa	African Airlines Association member airlines	nonmember	AJet	raw/African_Airlines_Association.json#parsed roster (46 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	afraa	African Airlines Association member airlines	nonmember	ANA	raw/African_Airlines_Association.json#parsed roster (46 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	afraa	African Airlines Association member airlines	nonmember	APG Airlines	raw/African_Airlines_Association.json#parsed roster (46 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'APG Airlines'
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	member	Air France	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	member	Air France-KLM Cargo	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	member	KLM	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	member	Martinair	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	member	Transavia	raw/Airlines_for_Europe.json#table[0].row[3].cell[1]; roster membership confirmed
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	nonmember	AB Aviation	raw/Airlines_for_Europe.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	nonmember	ABX Air	raw/Airlines_for_Europe.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	nonmember	AIRZETA	raw/Airlines_for_Europe.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	nonmember	AJet	raw/Airlines_for_Europe.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	air_france_klm_airlines	Air France-KLM Group airlines	nonmember	ANA	raw/Airlines_for_Europe.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	iag_airlines	International Airlines Group airlines	member	Aer Lingus	raw/International_Airlines_Group.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	iag_airlines	International Airlines Group airlines	member	British Airways	raw/International_Airlines_Group.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	iag_airlines	International Airlines Group airlines	member	Iberia	raw/International_Airlines_Group.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	iag_airlines	International Airlines Group airlines	member	LEVEL	raw/International_Airlines_Group.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	iag_airlines	International Airlines Group airlines	member	Vueling	raw/International_Airlines_Group.json#table[0].row[5].cell[0]; roster membership confirmed
+carrier	iag_airlines	International Airlines Group airlines	nonmember	AB Aviation	raw/International_Airlines_Group.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	iag_airlines	International Airlines Group airlines	nonmember	ABX Air	raw/International_Airlines_Group.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	iag_airlines	International Airlines Group airlines	nonmember	AIRZETA	raw/International_Airlines_Group.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	iag_airlines	International Airlines Group airlines	nonmember	AJet	raw/International_Airlines_Group.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	iag_airlines	International Airlines Group airlines	nonmember	ANA	raw/International_Airlines_Group.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	iata_airlines	IATA member airlines	member	ABX Air	raw/iata/airline-list-page-01.html#table.datatable.tbody.tr[1].td[0]; roster membership confirmed
+carrier	iata_airlines	IATA member airlines	member	AIRZETA	raw/iata/airline-list-page-06.html#table.datatable.tbody.tr[6].td[0]; roster membership confirmed
+carrier	iata_airlines	IATA member airlines	member	AJet	raw/iata/airline-list-page-06.html#table.datatable.tbody.tr[7].td[0]; roster membership confirmed
+carrier	iata_airlines	IATA member airlines	member	ANA	raw/iata/airline-list-page-07.html#table.datatable.tbody.tr[4].td[0]; roster membership confirmed
+carrier	iata_airlines	IATA member airlines	member	APG Airlines	raw/iata/airline-list-page-07.html#table.datatable.tbody.tr[5].td[0]; roster membership confirmed
+carrier	iata_airlines	IATA member airlines	nonmember	AB Aviation	raw/iata/airline-list-page-01.html#parsed roster (381 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	iata_airlines	IATA member airlines	nonmember	ASKY Airlines	raw/iata/airline-list-page-01.html#parsed roster (381 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ASKY Airlines'
+carrier	iata_airlines	IATA member airlines	nonmember	Aerolíneas Argentinas	raw/iata/airline-list-page-01.html#parsed roster (381 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'Aerolíneas Argentinas'
+carrier	iata_airlines	IATA member airlines	nonmember	Aeroméxico	raw/iata/airline-list-page-01.html#parsed roster (381 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'Aeroméxico'
+carrier	iata_airlines	IATA member airlines	nonmember	AfriJet	raw/iata/airline-list-page-01.html#parsed roster (381 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AfriJet'
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	member	Austrian Airlines	raw/Airlines_for_Europe.json#table[0].row[10].cell[1]; roster membership confirmed
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	member	Brussels Airlines	raw/Airlines_for_Europe.json#table[0].row[10].cell[1]; roster membership confirmed
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	member	Eurowings	raw/Airlines_for_Europe.json#table[0].row[10].cell[1]; roster membership confirmed
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	member	Lufthansa	raw/Airlines_for_Europe.json#table[0].row[10].cell[1]; roster membership confirmed
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	member	Lufthansa Cargo	raw/Airlines_for_Europe.json#table[0].row[10].cell[1]; roster membership confirmed
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	nonmember	AB Aviation	raw/Airlines_for_Europe.json#parsed roster (6 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	nonmember	ABX Air	raw/Airlines_for_Europe.json#parsed roster (6 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	nonmember	AIRZETA	raw/Airlines_for_Europe.json#parsed roster (6 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	nonmember	AJet	raw/Airlines_for_Europe.json#parsed roster (6 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	lufthansa_group_airlines	Lufthansa Group airlines	nonmember	ANA	raw/Airlines_for_Europe.json#parsed roster (6 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	oneworld	Oneworld member airlines	member	American Airlines	raw/Oneworld.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	oneworld	Oneworld member airlines	member	British Airways	raw/Oneworld.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	oneworld	Oneworld member airlines	member	Cathay Pacific	raw/Oneworld.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	oneworld	Oneworld member airlines	member	Finnair	raw/Oneworld.json#table[0].row[6].cell[0]; roster membership confirmed
+carrier	oneworld	Oneworld member airlines	member	Iberia	raw/Oneworld.json#table[0].row[7].cell[0]; roster membership confirmed
+carrier	oneworld	Oneworld member airlines	nonmember	AB Aviation	raw/Oneworld.json#parsed roster (16 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	oneworld	Oneworld member airlines	nonmember	ABX Air	raw/Oneworld.json#parsed roster (16 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	oneworld	Oneworld member airlines	nonmember	AIRZETA	raw/Oneworld.json#parsed roster (16 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	oneworld	Oneworld member airlines	nonmember	AJet	raw/Oneworld.json#parsed roster (16 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	oneworld	Oneworld member airlines	nonmember	ANA	raw/Oneworld.json#parsed roster (16 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	skyteam	SkyTeam member airlines	member	Aerolíneas Argentinas	raw/SkyTeam.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	skyteam	SkyTeam member airlines	member	Aeroméxico	raw/SkyTeam.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	skyteam	SkyTeam member airlines	member	Air Europa	raw/SkyTeam.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	skyteam	SkyTeam member airlines	member	Air France	raw/SkyTeam.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	skyteam	SkyTeam member airlines	member	China Airlines	raw/SkyTeam.json#table[0].row[5].cell[0]; roster membership confirmed
+carrier	skyteam	SkyTeam member airlines	nonmember	AB Aviation	raw/SkyTeam.json#parsed roster (19 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	skyteam	SkyTeam member airlines	nonmember	ABX Air	raw/SkyTeam.json#parsed roster (19 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	skyteam	SkyTeam member airlines	nonmember	AIRZETA	raw/SkyTeam.json#parsed roster (19 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	skyteam	SkyTeam member airlines	nonmember	AJet	raw/SkyTeam.json#parsed roster (19 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	skyteam	SkyTeam member airlines	nonmember	ANA	raw/SkyTeam.json#parsed roster (19 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	skytrax_five_star	Skytrax five-star airlines	member	All Nippon Airways	raw/Skytrax.json#paragraph.ul.li[1]; roster membership confirmed
+carrier	skytrax_five_star	Skytrax five-star airlines	member	Asiana Airlines	raw/Skytrax.json#paragraph.ul.li[2]; roster membership confirmed
+carrier	skytrax_five_star	Skytrax five-star airlines	member	Cathay Pacific	raw/Skytrax.json#paragraph.ul.li[3]; roster membership confirmed
+carrier	skytrax_five_star	Skytrax five-star airlines	member	EVA Air	raw/Skytrax.json#paragraph.ul.li[4]; roster membership confirmed
+carrier	skytrax_five_star	Skytrax five-star airlines	member	Hainan Airlines	raw/Skytrax.json#paragraph.ul.li[5]; roster membership confirmed
+carrier	skytrax_five_star	Skytrax five-star airlines	nonmember	AB Aviation	raw/Skytrax.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	skytrax_five_star	Skytrax five-star airlines	nonmember	ABX Air	raw/Skytrax.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	skytrax_five_star	Skytrax five-star airlines	nonmember	AIRZETA	raw/Skytrax.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	skytrax_five_star	Skytrax five-star airlines	nonmember	AJet	raw/Skytrax.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	skytrax_five_star	Skytrax five-star airlines	nonmember	ANA	raw/Skytrax.json#parsed roster (10 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	star_alliance	Star Alliance member airlines	member	Aegean Airlines	raw/Star_Alliance.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	star_alliance	Star Alliance member airlines	member	Air Canada	raw/Star_Alliance.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	star_alliance	Star Alliance member airlines	member	Air China	raw/Star_Alliance.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	star_alliance	Star Alliance member airlines	member	Air India	raw/Star_Alliance.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	star_alliance	Star Alliance member airlines	member	Air New Zealand	raw/Star_Alliance.json#table[0].row[5].cell[0]; roster membership confirmed
+carrier	star_alliance	Star Alliance member airlines	nonmember	AB Aviation	raw/Star_Alliance.json#parsed roster (26 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	star_alliance	Star Alliance member airlines	nonmember	ABX Air	raw/Star_Alliance.json#parsed roster (26 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	star_alliance	Star Alliance member airlines	nonmember	AIRZETA	raw/Star_Alliance.json#parsed roster (26 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	star_alliance	Star Alliance member airlines	nonmember	AJet	raw/Star_Alliance.json#parsed roster (26 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	star_alliance	Star Alliance member airlines	nonmember	ANA	raw/Star_Alliance.json#parsed roster (26 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+carrier	value_alliance	Value Alliance member airlines	member	Cebgo	raw/Value_Alliance.json#table[0].row[2].cell[0]; roster membership confirmed
+carrier	value_alliance	Value Alliance member airlines	member	Cebu Pacific	raw/Value_Alliance.json#table[0].row[1].cell[0]; roster membership confirmed
+carrier	value_alliance	Value Alliance member airlines	member	Jeju Air	raw/Value_Alliance.json#table[0].row[4].cell[0]; roster membership confirmed
+carrier	value_alliance	Value Alliance member airlines	member	Nok Air	raw/Value_Alliance.json#table[0].row[5].cell[0]; roster membership confirmed
+carrier	value_alliance	Value Alliance member airlines	member	Scoot	raw/Value_Alliance.json#table[0].row[3].cell[0]; roster membership confirmed
+carrier	value_alliance	Value Alliance member airlines	nonmember	AB Aviation	raw/Value_Alliance.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AB Aviation'
+carrier	value_alliance	Value Alliance member airlines	nonmember	ABX Air	raw/Value_Alliance.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ABX Air'
+carrier	value_alliance	Value Alliance member airlines	nonmember	AIRZETA	raw/Value_Alliance.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AIRZETA'
+carrier	value_alliance	Value Alliance member airlines	nonmember	AJet	raw/Value_Alliance.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'AJet'
+carrier	value_alliance	Value Alliance member airlines	nonmember	ANA	raw/Value_Alliance.json#parsed roster (5 member values; 0 matches for the listed non-member); searched all entries: 0 matches for 'ANA'
+material	boron_group	Boron group (group 13 elements)	member	aluminum	raw/periodic_table_groups.json#elements[12] (name='Aluminium', group=13, period=3); roster membership confirmed
+material	boron_group	Boron group (group 13 elements)	member	boron	raw/periodic_table_groups.json#elements[4] (name='Boron', group=13, period=2); roster membership confirmed
+material	boron_group	Boron group (group 13 elements)	member	gallium	raw/periodic_table_groups.json#elements[30] (name='Gallium', group=13, period=4); roster membership confirmed
+material	boron_group	Boron group (group 13 elements)	member	indium	raw/periodic_table_groups.json#elements[48] (name='Indium', group=13, period=5); roster membership confirmed
+material	boron_group	Boron group (group 13 elements)	member	nihonium	raw/periodic_table_groups.json#elements[112] (name='Nihonium', group=13, period=7); roster membership confirmed
+material	boron_group	Boron group (group 13 elements)	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	boron_group	Boron group (group 13 elements)	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	boron_group	Boron group (group 13 elements)	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	boron_group	Boron group (group 13 elements)	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	boron_group	Boron group (group 13 elements)	nonmember	carbon	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'carbon'
+material	carbon_group	Carbon group (group 14 elements)	member	carbon	raw/periodic_table_groups.json#elements[5] (name='Carbon', group=14, period=2); roster membership confirmed
+material	carbon_group	Carbon group (group 14 elements)	member	flerovium	raw/periodic_table_groups.json#elements[113] (name='Flerovium', group=14, period=7); roster membership confirmed
+material	carbon_group	Carbon group (group 14 elements)	member	germanium	raw/periodic_table_groups.json#elements[31] (name='Germanium', group=14, period=4); roster membership confirmed
+material	carbon_group	Carbon group (group 14 elements)	member	lead	raw/periodic_table_groups.json#elements[81] (name='Lead', group=14, period=6); roster membership confirmed
+material	carbon_group	Carbon group (group 14 elements)	member	silicon	raw/periodic_table_groups.json#elements[13] (name='Silicon', group=14, period=3); roster membership confirmed
+material	carbon_group	Carbon group (group 14 elements)	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	carbon_group	Carbon group (group 14 elements)	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	carbon_group	Carbon group (group 14 elements)	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	carbon_group	Carbon group (group 14 elements)	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	carbon_group	Carbon group (group 14 elements)	nonmember	boron	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'boron'
+material	cerium_group	Cerium-group rare-earth elements	member	cerium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	cerium_group	Cerium-group rare-earth elements	member	europium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	cerium_group	Cerium-group rare-earth elements	member	lanthanum	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	cerium_group	Cerium-group rare-earth elements	member	neodymium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	cerium_group	Cerium-group rare-earth elements	member	praseodymium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	cerium_group	Cerium-group rare-earth elements	nonmember	hydrogen	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'hydrogen'
+material	cerium_group	Cerium-group rare-earth elements	nonmember	helium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'helium'
+material	cerium_group	Cerium-group rare-earth elements	nonmember	lithium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'lithium'
+material	cerium_group	Cerium-group rare-earth elements	nonmember	beryllium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'beryllium'
+material	cerium_group	Cerium-group rare-earth elements	nonmember	boron	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'boron'
+material	chalcogens	Chalcogens (group 16 elements)	member	livermorium	raw/periodic_table_groups.json#elements[115] (name='Livermorium', group=16, period=7); roster membership confirmed
+material	chalcogens	Chalcogens (group 16 elements)	member	oxygen	raw/periodic_table_groups.json#elements[7] (name='Oxygen', group=16, period=2); roster membership confirmed
+material	chalcogens	Chalcogens (group 16 elements)	member	polonium	raw/periodic_table_groups.json#elements[83] (name='Polonium', group=16, period=6); roster membership confirmed
+material	chalcogens	Chalcogens (group 16 elements)	member	selenium	raw/periodic_table_groups.json#elements[33] (name='Selenium', group=16, period=4); roster membership confirmed
+material	chalcogens	Chalcogens (group 16 elements)	member	sulfur	raw/periodic_table_groups.json#elements[15] (name='Sulfur', group=16, period=3); roster membership confirmed
+material	chalcogens	Chalcogens (group 16 elements)	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	chalcogens	Chalcogens (group 16 elements)	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	chalcogens	Chalcogens (group 16 elements)	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	chalcogens	Chalcogens (group 16 elements)	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	chalcogens	Chalcogens (group 16 elements)	nonmember	boron	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'boron'
+material	heavy_rare_earths	Heavy rare-earth elements	member	dysprosium	raw/pubchem_periodictable.json#Table.Row[65].Cell[Name='Dysprosium', AtomicNumber=66]; roster membership confirmed
+material	heavy_rare_earths	Heavy rare-earth elements	member	erbium	raw/pubchem_periodictable.json#Table.Row[67].Cell[Name='Erbium', AtomicNumber=68]; roster membership confirmed
+material	heavy_rare_earths	Heavy rare-earth elements	member	europium	raw/pubchem_periodictable.json#Table.Row[62].Cell[Name='Europium', AtomicNumber=63]; roster membership confirmed
+material	heavy_rare_earths	Heavy rare-earth elements	member	gadolinium	raw/pubchem_periodictable.json#Table.Row[63].Cell[Name='Gadolinium', AtomicNumber=64]; roster membership confirmed
+material	heavy_rare_earths	Heavy rare-earth elements	member	holmium	raw/pubchem_periodictable.json#Table.Row[66].Cell[Name='Holmium', AtomicNumber=67]; roster membership confirmed
+material	heavy_rare_earths	Heavy rare-earth elements	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	heavy_rare_earths	Heavy rare-earth elements	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	heavy_rare_earths	Heavy rare-earth elements	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	heavy_rare_earths	Heavy rare-earth elements	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	heavy_rare_earths	Heavy rare-earth elements	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	lanthanides	Lanthanides	member	cerium	raw/pubchem_periodictable.json#Table.Row[57].Cell[Name='Cerium', AtomicNumber=58]; roster membership confirmed
+material	lanthanides	Lanthanides	member	dysprosium	raw/pubchem_periodictable.json#Table.Row[65].Cell[Name='Dysprosium', AtomicNumber=66]; roster membership confirmed
+material	lanthanides	Lanthanides	member	erbium	raw/pubchem_periodictable.json#Table.Row[67].Cell[Name='Erbium', AtomicNumber=68]; roster membership confirmed
+material	lanthanides	Lanthanides	member	europium	raw/pubchem_periodictable.json#Table.Row[62].Cell[Name='Europium', AtomicNumber=63]; roster membership confirmed
+material	lanthanides	Lanthanides	member	gadolinium	raw/pubchem_periodictable.json#Table.Row[63].Cell[Name='Gadolinium', AtomicNumber=64]; roster membership confirmed
+material	lanthanides	Lanthanides	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	lanthanides	Lanthanides	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	lanthanides	Lanthanides	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	lanthanides	Lanthanides	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	lanthanides	Lanthanides	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	lanthanides_and_actinides	Lanthanides and actinides	member	actinium	raw/pubchem_periodictable.json#Table.Row[88].Cell[Name='Actinium', AtomicNumber=89]; roster membership confirmed
+material	lanthanides_and_actinides	Lanthanides and actinides	member	americium	raw/pubchem_periodictable.json#Table.Row[94].Cell[Name='Americium', AtomicNumber=95]; roster membership confirmed
+material	lanthanides_and_actinides	Lanthanides and actinides	member	berkelium	raw/pubchem_periodictable.json#Table.Row[96].Cell[Name='Berkelium', AtomicNumber=97]; roster membership confirmed
+material	lanthanides_and_actinides	Lanthanides and actinides	member	californium	raw/pubchem_periodictable.json#Table.Row[97].Cell[Name='Californium', AtomicNumber=98]; roster membership confirmed
+material	lanthanides_and_actinides	Lanthanides and actinides	member	cerium	raw/pubchem_periodictable.json#Table.Row[57].Cell[Name='Cerium', AtomicNumber=58]; roster membership confirmed
+material	lanthanides_and_actinides	Lanthanides and actinides	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	lanthanides_and_actinides	Lanthanides and actinides	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	lanthanides_and_actinides	Lanthanides and actinides	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	lanthanides_and_actinides	Lanthanides and actinides	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	lanthanides_and_actinides	Lanthanides and actinides	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	light_rare_earths	Light rare-earth elements	member	cerium	raw/pubchem_periodictable.json#Table.Row[57].Cell[Name='Cerium', AtomicNumber=58]; roster membership confirmed
+material	light_rare_earths	Light rare-earth elements	member	lanthanum	raw/pubchem_periodictable.json#Table.Row[56].Cell[Name='Lanthanum', AtomicNumber=57]; roster membership confirmed
+material	light_rare_earths	Light rare-earth elements	member	neodymium	raw/pubchem_periodictable.json#Table.Row[59].Cell[Name='Neodymium', AtomicNumber=60]; roster membership confirmed
+material	light_rare_earths	Light rare-earth elements	member	praseodymium	raw/pubchem_periodictable.json#Table.Row[58].Cell[Name='Praseodymium', AtomicNumber=59]; roster membership confirmed
+material	light_rare_earths	Light rare-earth elements	member	promethium	raw/pubchem_periodictable.json#Table.Row[60].Cell[Name='Promethium', AtomicNumber=61]; roster membership confirmed
+material	light_rare_earths	Light rare-earth elements	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	light_rare_earths	Light rare-earth elements	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	light_rare_earths	Light rare-earth elements	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	light_rare_earths	Light rare-earth elements	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	light_rare_earths	Light rare-earth elements	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	metals_of_antiquity	Metals of antiquity	member	copper	raw/wiki/Metals_of_antiquity.json#p[1] sentence 'The metals of antiquity'; roster membership confirmed
+material	metals_of_antiquity	Metals of antiquity	member	gold	raw/wiki/Metals_of_antiquity.json#p[1] sentence 'The metals of antiquity'; roster membership confirmed
+material	metals_of_antiquity	Metals of antiquity	member	iron	raw/wiki/Metals_of_antiquity.json#p[1] sentence 'The metals of antiquity'; roster membership confirmed
+material	metals_of_antiquity	Metals of antiquity	member	lead	raw/wiki/Metals_of_antiquity.json#p[1] sentence 'The metals of antiquity'; roster membership confirmed
+material	metals_of_antiquity	Metals of antiquity	member	mercury	raw/wiki/Metals_of_antiquity.json#p[1] sentence 'The metals of antiquity'; roster membership confirmed
+material	metals_of_antiquity	Metals of antiquity	nonmember	hydrogen	raw/wiki/Metals_of_antiquity.json#p[1] membership list; searched all entries: 0 matches for 'hydrogen'
+material	metals_of_antiquity	Metals of antiquity	nonmember	helium	raw/wiki/Metals_of_antiquity.json#p[1] membership list; searched all entries: 0 matches for 'helium'
+material	metals_of_antiquity	Metals of antiquity	nonmember	lithium	raw/wiki/Metals_of_antiquity.json#p[1] membership list; searched all entries: 0 matches for 'lithium'
+material	metals_of_antiquity	Metals of antiquity	nonmember	beryllium	raw/wiki/Metals_of_antiquity.json#p[1] membership list; searched all entries: 0 matches for 'beryllium'
+material	metals_of_antiquity	Metals of antiquity	nonmember	boron	raw/wiki/Metals_of_antiquity.json#p[1] membership list; searched all entries: 0 matches for 'boron'
+material	noble_metals	Noble metals	member	gold	raw/wiki/Noble_metal.json#p[1] sentence 'Gold, platinum, and the other platinum group metals'; roster membership confirmed
+material	noble_metals	Noble metals	member	iridium	raw/wiki/Noble_metal.json#p[1] sentence 'Gold, platinum, and the other platinum group metals'; roster membership confirmed
+material	noble_metals	Noble metals	member	osmium	raw/wiki/Noble_metal.json#p[1] sentence 'Gold, platinum, and the other platinum group metals'; roster membership confirmed
+material	noble_metals	Noble metals	member	palladium	raw/wiki/Noble_metal.json#p[1] sentence 'Gold, platinum, and the other platinum group metals'; roster membership confirmed
+material	noble_metals	Noble metals	member	platinum	raw/wiki/Noble_metal.json#p[1] sentence 'Gold, platinum, and the other platinum group metals'; roster membership confirmed
+material	noble_metals	Noble metals	nonmember	hydrogen	raw/wiki/Noble_metal.json#p[1] membership list; searched all entries: 0 matches for 'hydrogen'
+material	noble_metals	Noble metals	nonmember	helium	raw/wiki/Noble_metal.json#p[1] membership list; searched all entries: 0 matches for 'helium'
+material	noble_metals	Noble metals	nonmember	lithium	raw/wiki/Noble_metal.json#p[1] membership list; searched all entries: 0 matches for 'lithium'
+material	noble_metals	Noble metals	nonmember	beryllium	raw/wiki/Noble_metal.json#p[1] membership list; searched all entries: 0 matches for 'beryllium'
+material	noble_metals	Noble metals	nonmember	boron	raw/wiki/Noble_metal.json#p[1] membership list; searched all entries: 0 matches for 'boron'
+material	period_3_elements	Period 3 elements	member	aluminum	raw/periodic_table_groups.json#elements[12] (name='Aluminium', group=13, period=3); roster membership confirmed
+material	period_3_elements	Period 3 elements	member	argon	raw/periodic_table_groups.json#elements[17] (name='Argon', group=18, period=3); roster membership confirmed
+material	period_3_elements	Period 3 elements	member	chlorine	raw/periodic_table_groups.json#elements[16] (name='Chlorine', group=17, period=3); roster membership confirmed
+material	period_3_elements	Period 3 elements	member	magnesium	raw/periodic_table_groups.json#elements[11] (name='Magnesium', group=2, period=3); roster membership confirmed
+material	period_3_elements	Period 3 elements	member	phosphorus	raw/periodic_table_groups.json#elements[14] (name='Phosphorus', group=15, period=3); roster membership confirmed
+material	period_3_elements	Period 3 elements	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	period_3_elements	Period 3 elements	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	period_3_elements	Period 3 elements	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	period_3_elements	Period 3 elements	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	period_3_elements	Period 3 elements	nonmember	boron	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'boron'
+material	period_4_elements	Period 4 elements	member	arsenic	raw/periodic_table_groups.json#elements[32] (name='Arsenic', group=15, period=4); roster membership confirmed
+material	period_4_elements	Period 4 elements	member	bromine	raw/periodic_table_groups.json#elements[34] (name='Bromine', group=17, period=4); roster membership confirmed
+material	period_4_elements	Period 4 elements	member	calcium	raw/periodic_table_groups.json#elements[19] (name='Calcium', group=2, period=4); roster membership confirmed
+material	period_4_elements	Period 4 elements	member	chromium	raw/periodic_table_groups.json#elements[23] (name='Chromium', group=6, period=4); roster membership confirmed
+material	period_4_elements	Period 4 elements	member	cobalt	raw/periodic_table_groups.json#elements[26] (name='Cobalt', group=9, period=4); roster membership confirmed
+material	period_4_elements	Period 4 elements	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	period_4_elements	Period 4 elements	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	period_4_elements	Period 4 elements	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	period_4_elements	Period 4 elements	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	period_4_elements	Period 4 elements	nonmember	boron	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'boron'
+material	period_5_elements	Period 5 elements	member	antimony	raw/pubchem_periodictable.json#Table.Row[50].Cell[Name='Antimony', AtomicNumber=51]; roster membership confirmed
+material	period_5_elements	Period 5 elements	member	cadmium	raw/pubchem_periodictable.json#Table.Row[47].Cell[Name='Cadmium', AtomicNumber=48]; roster membership confirmed
+material	period_5_elements	Period 5 elements	member	indium	raw/pubchem_periodictable.json#Table.Row[48].Cell[Name='Indium', AtomicNumber=49]; roster membership confirmed
+material	period_5_elements	Period 5 elements	member	iodine	raw/pubchem_periodictable.json#Table.Row[52].Cell[Name='Iodine', AtomicNumber=53]; roster membership confirmed
+material	period_5_elements	Period 5 elements	member	molybdenum	raw/pubchem_periodictable.json#Table.Row[41].Cell[Name='Molybdenum', AtomicNumber=42]; roster membership confirmed
+material	period_5_elements	Period 5 elements	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	period_5_elements	Period 5 elements	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	period_5_elements	Period 5 elements	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	period_5_elements	Period 5 elements	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	period_5_elements	Period 5 elements	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	period_6_elements	Period 6 elements	member	astatine	raw/pubchem_periodictable.json#Table.Row[84].Cell[Name='Astatine', AtomicNumber=85]; roster membership confirmed
+material	period_6_elements	Period 6 elements	member	barium	raw/pubchem_periodictable.json#Table.Row[55].Cell[Name='Barium', AtomicNumber=56]; roster membership confirmed
+material	period_6_elements	Period 6 elements	member	bismuth	raw/pubchem_periodictable.json#Table.Row[82].Cell[Name='Bismuth', AtomicNumber=83]; roster membership confirmed
+material	period_6_elements	Period 6 elements	member	cerium	raw/pubchem_periodictable.json#Table.Row[57].Cell[Name='Cerium', AtomicNumber=58]; roster membership confirmed
+material	period_6_elements	Period 6 elements	member	cesium	raw/pubchem_periodictable.json#Table.Row[54].Cell[Name='Cesium', AtomicNumber=55]; roster membership confirmed
+material	period_6_elements	Period 6 elements	nonmember	hydrogen	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'hydrogen'
+material	period_6_elements	Period 6 elements	nonmember	helium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'helium'
+material	period_6_elements	Period 6 elements	nonmember	lithium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'lithium'
+material	period_6_elements	Period 6 elements	nonmember	beryllium	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'beryllium'
+material	period_6_elements	Period 6 elements	nonmember	boron	raw/pubchem_periodictable.json#Table.Row[] filtered by atomic number or GroupBlock; searched all entries: 0 matches for 'boron'
+material	platinum_group_metals	Platinum-group metals	member	iridium	raw/wiki/Platinum_group.json#p[1] sentence 'six platinum-group metals'; roster membership confirmed
+material	platinum_group_metals	Platinum-group metals	member	osmium	raw/wiki/Platinum_group.json#p[1] sentence 'six platinum-group metals'; roster membership confirmed
+material	platinum_group_metals	Platinum-group metals	member	palladium	raw/wiki/Platinum_group.json#p[1] sentence 'six platinum-group metals'; roster membership confirmed
+material	platinum_group_metals	Platinum-group metals	member	platinum	raw/wiki/Platinum_group.json#p[1] sentence 'six platinum-group metals'; roster membership confirmed
+material	platinum_group_metals	Platinum-group metals	member	rhodium	raw/wiki/Platinum_group.json#p[1] sentence 'six platinum-group metals'; roster membership confirmed
+material	platinum_group_metals	Platinum-group metals	nonmember	hydrogen	raw/wiki/Platinum_group.json#p[1] membership list; searched all entries: 0 matches for 'hydrogen'
+material	platinum_group_metals	Platinum-group metals	nonmember	helium	raw/wiki/Platinum_group.json#p[1] membership list; searched all entries: 0 matches for 'helium'
+material	platinum_group_metals	Platinum-group metals	nonmember	lithium	raw/wiki/Platinum_group.json#p[1] membership list; searched all entries: 0 matches for 'lithium'
+material	platinum_group_metals	Platinum-group metals	nonmember	beryllium	raw/wiki/Platinum_group.json#p[1] membership list; searched all entries: 0 matches for 'beryllium'
+material	platinum_group_metals	Platinum-group metals	nonmember	boron	raw/wiki/Platinum_group.json#p[1] membership list; searched all entries: 0 matches for 'boron'
+material	pnictogens	Pnictogens (group 15 elements)	member	antimony	raw/periodic_table_groups.json#elements[50] (name='Antimony', group=15, period=5); roster membership confirmed
+material	pnictogens	Pnictogens (group 15 elements)	member	arsenic	raw/periodic_table_groups.json#elements[32] (name='Arsenic', group=15, period=4); roster membership confirmed
+material	pnictogens	Pnictogens (group 15 elements)	member	bismuth	raw/periodic_table_groups.json#elements[82] (name='Bismuth', group=15, period=6); roster membership confirmed
+material	pnictogens	Pnictogens (group 15 elements)	member	moscovium	raw/periodic_table_groups.json#elements[114] (name='Moscovium', group=15, period=7); roster membership confirmed
+material	pnictogens	Pnictogens (group 15 elements)	member	nitrogen	raw/periodic_table_groups.json#elements[6] (name='Nitrogen', group=15, period=2); roster membership confirmed
+material	pnictogens	Pnictogens (group 15 elements)	nonmember	hydrogen	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'hydrogen'
+material	pnictogens	Pnictogens (group 15 elements)	nonmember	helium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'helium'
+material	pnictogens	Pnictogens (group 15 elements)	nonmember	lithium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'lithium'
+material	pnictogens	Pnictogens (group 15 elements)	nonmember	beryllium	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'beryllium'
+material	pnictogens	Pnictogens (group 15 elements)	nonmember	boron	raw/periodic_table_groups.json#elements[] filtered by group/period; searched all entries: 0 matches for 'boron'
+material	precious_metals	Precious metals	member	gold	raw/wiki/Precious_metal.json#p[2] sentence 'Other precious metals include'; roster membership confirmed
+material	precious_metals	Precious metals	member	iridium	raw/wiki/Precious_metal.json#p[2] sentence 'Other precious metals include'; roster membership confirmed
+material	precious_metals	Precious metals	member	osmium	raw/wiki/Precious_metal.json#p[2] sentence 'Other precious metals include'; roster membership confirmed
+material	precious_metals	Precious metals	member	palladium	raw/wiki/Precious_metal.json#p[2] sentence 'Other precious metals include'; roster membership confirmed
+material	precious_metals	Precious metals	member	platinum	raw/wiki/Precious_metal.json#p[2] sentence 'Other precious metals include'; roster membership confirmed
+material	precious_metals	Precious metals	nonmember	hydrogen	raw/wiki/Precious_metal.json#p[2] membership list; searched all entries: 0 matches for 'hydrogen'
+material	precious_metals	Precious metals	nonmember	helium	raw/wiki/Precious_metal.json#p[2] membership list; searched all entries: 0 matches for 'helium'
+material	precious_metals	Precious metals	nonmember	lithium	raw/wiki/Precious_metal.json#p[2] membership list; searched all entries: 0 matches for 'lithium'
+material	precious_metals	Precious metals	nonmember	beryllium	raw/wiki/Precious_metal.json#p[2] membership list; searched all entries: 0 matches for 'beryllium'
+material	precious_metals	Precious metals	nonmember	boron	raw/wiki/Precious_metal.json#p[2] membership list; searched all entries: 0 matches for 'boron'
+material	rare_earth_elements	Rare-earth elements	member	cerium	raw/wiki/Rare-earth_element.json#table[0].row[4].cell[2]; roster membership confirmed
+material	rare_earth_elements	Rare-earth elements	member	dysprosium	raw/wiki/Rare-earth_element.json#table[0].row[12].cell[2]; roster membership confirmed
+material	rare_earth_elements	Rare-earth elements	member	erbium	raw/wiki/Rare-earth_element.json#table[0].row[14].cell[2]; roster membership confirmed
+material	rare_earth_elements	Rare-earth elements	member	europium	raw/wiki/Rare-earth_element.json#table[0].row[9].cell[2]; roster membership confirmed
+material	rare_earth_elements	Rare-earth elements	member	gadolinium	raw/wiki/Rare-earth_element.json#table[0].row[10].cell[2]; roster membership confirmed
+material	rare_earth_elements	Rare-earth elements	nonmember	hydrogen	raw/wiki/Rare-earth_element.json#table[0].column[2]; searched all entries: 0 matches for 'hydrogen'
+material	rare_earth_elements	Rare-earth elements	nonmember	helium	raw/wiki/Rare-earth_element.json#table[0].column[2]; searched all entries: 0 matches for 'helium'
+material	rare_earth_elements	Rare-earth elements	nonmember	lithium	raw/wiki/Rare-earth_element.json#table[0].column[2]; searched all entries: 0 matches for 'lithium'
+material	rare_earth_elements	Rare-earth elements	nonmember	beryllium	raw/wiki/Rare-earth_element.json#table[0].column[2]; searched all entries: 0 matches for 'beryllium'
+material	rare_earth_elements	Rare-earth elements	nonmember	boron	raw/wiki/Rare-earth_element.json#table[0].column[2]; searched all entries: 0 matches for 'boron'
+material	yttrium_group	Yttrium-group rare-earth elements	member	dysprosium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	yttrium_group	Yttrium-group rare-earth elements	member	erbium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	yttrium_group	Yttrium-group rare-earth elements	member	gadolinium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	yttrium_group	Yttrium-group rare-earth elements	member	holmium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	yttrium_group	Yttrium-group rare-earth elements	member	lutetium	raw/wiki/Rare-earth_element.json#p[28] sentence 'first half (La-Eu) ... yttrium group'; roster membership confirmed
+material	yttrium_group	Yttrium-group rare-earth elements	nonmember	hydrogen	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'hydrogen'
+material	yttrium_group	Yttrium-group rare-earth elements	nonmember	helium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'helium'
+material	yttrium_group	Yttrium-group rare-earth elements	nonmember	lithium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'lithium'
+material	yttrium_group	Yttrium-group rare-earth elements	nonmember	beryllium	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'beryllium'
+material	yttrium_group	Yttrium-group rare-earth elements	nonmember	boron	raw/wiki/Rare-earth_element.json#p[28] membership list (La-Eu or second half Gd-Yb plus Sc, Y, Lu); searched all entries: 0 matches for 'boron'
+country	african_union_members	African Union member states	member	AO	raw/membership/wikipedia/african_union_members.json#table[2].row[2].cell[0] ('Angola'); snapshot roster confirms AO
+country	african_union_members	African Union member states	member	BF	raw/membership/wikipedia/african_union_members.json#table[2].row[5].cell[0] ('Burkina Faso'); snapshot roster confirms BF
+country	african_union_members	African Union member states	member	BI	raw/membership/wikipedia/african_union_members.json#table[2].row[6].cell[0] ('Burundi'); snapshot roster confirms BI
+country	african_union_members	African Union member states	member	BJ	raw/membership/wikipedia/african_union_members.json#table[2].row[3].cell[0] ('Benin'); snapshot roster confirms BJ
+country	african_union_members	African Union member states	member	BW	raw/membership/wikipedia/african_union_members.json#table[2].row[4].cell[0] ('Botswana'); snapshot roster confirms BW
+country	african_union_members	African Union member states	nonmember	AD	raw/membership/wikipedia/african_union_members.json#table[2] (55 source members; searched all roster rows; no match for AD)
+country	african_union_members	African Union member states	nonmember	AE	raw/membership/wikipedia/african_union_members.json#table[2] (55 source members; searched all roster rows; no match for AE)
+country	african_union_members	African Union member states	nonmember	AF	raw/membership/wikipedia/african_union_members.json#table[2] (55 source members; searched all roster rows; no match for AF)
+country	african_union_members	African Union member states	nonmember	AG	raw/membership/wikipedia/african_union_members.json#table[2] (55 source members; searched all roster rows; no match for AG)
+country	african_union_members	African Union member states	nonmember	AL	raw/membership/wikipedia/african_union_members.json#table[2] (55 source members; searched all roster rows; no match for AL)
+country	apec_members	APEC member economies	member	AU	raw/membership/wikipedia/apec_members.json#table[2].row[1].cell[0] ('Australia'); snapshot roster confirms AU
+country	apec_members	APEC member economies	member	BN	raw/membership/wikipedia/apec_members.json#table[2].row[2].cell[0] ('Brunei'); snapshot roster confirms BN
+country	apec_members	APEC member economies	member	CA	raw/membership/wikipedia/apec_members.json#table[2].row[3].cell[0] ('Canada'); snapshot roster confirms CA
+country	apec_members	APEC member economies	member	CL	raw/membership/wikipedia/apec_members.json#table[2].row[4].cell[0] ('Chile'); snapshot roster confirms CL
+country	apec_members	APEC member economies	member	CN	raw/membership/wikipedia/apec_members.json#table[2].row[5].cell[0] ('China'); snapshot roster confirms CN
+country	apec_members	APEC member economies	nonmember	AD	raw/membership/wikipedia/apec_members.json#table[2] (21 source members; searched all roster rows; no match for AD)
+country	apec_members	APEC member economies	nonmember	AE	raw/membership/wikipedia/apec_members.json#table[2] (21 source members; searched all roster rows; no match for AE)
+country	apec_members	APEC member economies	nonmember	AF	raw/membership/wikipedia/apec_members.json#table[2] (21 source members; searched all roster rows; no match for AF)
+country	apec_members	APEC member economies	nonmember	AG	raw/membership/wikipedia/apec_members.json#table[2] (21 source members; searched all roster rows; no match for AG)
+country	apec_members	APEC member economies	nonmember	AL	raw/membership/wikipedia/apec_members.json#table[2] (21 source members; searched all roster rows; no match for AL)
+country	arab_league_members	Arab League member states	member	AE	raw/membership/wikipedia/arab_league_members.json#table[3].row[12].cell[1] ('United Arab Emirates'); snapshot roster confirms AE
+country	arab_league_members	Arab League member states	member	BH	raw/membership/wikipedia/arab_league_members.json#table[3].row[20].cell[1] ('Bahrain'); snapshot roster confirms BH
+country	arab_league_members	Arab League member states	member	DJ	raw/membership/wikipedia/arab_league_members.json#table[3].row[21].cell[1] ('Djibouti'); snapshot roster confirms DJ
+country	arab_league_members	Arab League member states	member	DZ	raw/membership/wikipedia/arab_league_members.json#table[3].row[3].cell[1] ('Algeria'); snapshot roster confirms DZ
+country	arab_league_members	Arab League member states	member	EG	raw/membership/wikipedia/arab_league_members.json#table[3].row[1].cell[1] ('Egypt'); snapshot roster confirms EG
+country	arab_league_members	Arab League member states	nonmember	AD	raw/membership/wikipedia/arab_league_members.json#table[3] (22 source members; searched all roster rows; no match for AD)
+country	arab_league_members	Arab League member states	nonmember	AF	raw/membership/wikipedia/arab_league_members.json#table[3] (22 source members; searched all roster rows; no match for AF)
+country	arab_league_members	Arab League member states	nonmember	AG	raw/membership/wikipedia/arab_league_members.json#table[3] (22 source members; searched all roster rows; no match for AG)
+country	arab_league_members	Arab League member states	nonmember	AL	raw/membership/wikipedia/arab_league_members.json#table[3] (22 source members; searched all roster rows; no match for AL)
+country	arab_league_members	Arab League member states	nonmember	AM	raw/membership/wikipedia/arab_league_members.json#table[3] (22 source members; searched all roster rows; no match for AM)
+country	asean_members	ASEAN member states	member	BN	raw/membership/wikipedia/asean_members.json#table[1].row[1].cell[0] ('Brunei Darussalam'); snapshot roster confirms BN
+country	asean_members	ASEAN member states	member	ID	raw/membership/wikipedia/asean_members.json#table[1].row[3].cell[0] ('Indonesia'); snapshot roster confirms ID
+country	asean_members	ASEAN member states	member	KH	raw/membership/wikipedia/asean_members.json#table[1].row[2].cell[0] ('Cambodia'); snapshot roster confirms KH
+country	asean_members	ASEAN member states	member	LA	raw/membership/wikipedia/asean_members.json#table[1].row[4].cell[0] ('Laos'); snapshot roster confirms LA
+country	asean_members	ASEAN member states	member	MM	raw/membership/wikipedia/asean_members.json#table[1].row[6].cell[0] ('Myanmar'); snapshot roster confirms MM
+country	asean_members	ASEAN member states	nonmember	AD	raw/membership/wikipedia/asean_members.json#table[1] (11 source members; searched all roster rows; no match for AD)
+country	asean_members	ASEAN member states	nonmember	AE	raw/membership/wikipedia/asean_members.json#table[1] (11 source members; searched all roster rows; no match for AE)
+country	asean_members	ASEAN member states	nonmember	AF	raw/membership/wikipedia/asean_members.json#table[1] (11 source members; searched all roster rows; no match for AF)
+country	asean_members	ASEAN member states	nonmember	AG	raw/membership/wikipedia/asean_members.json#table[1] (11 source members; searched all roster rows; no match for AG)
+country	asean_members	ASEAN member states	nonmember	AL	raw/membership/wikipedia/asean_members.json#table[1] (11 source members; searched all roster rows; no match for AL)
+country	brics_members	BRICS member countries	member	AE	raw/membership/wikipedia/brics_members.json#table[2].row[9].cell[0] ('United Arab Emirates'); snapshot roster confirms AE
+country	brics_members	BRICS member countries	member	BR	raw/membership/wikipedia/brics_members.json#table[2].row[1].cell[0] ('Brazil , Federative Republic of'); snapshot roster confirms BR
+country	brics_members	BRICS member countries	member	CN	"raw/membership/wikipedia/brics_members.json#table[2].row[4].cell[0] (""China , People's Republic of""); snapshot roster confirms CN"
+country	brics_members	BRICS member countries	member	EG	raw/membership/wikipedia/brics_members.json#table[2].row[6].cell[0] ('Egypt , Arab Republic of'); snapshot roster confirms EG
+country	brics_members	BRICS member countries	member	ET	raw/membership/wikipedia/brics_members.json#table[2].row[7].cell[0] ('Ethiopia , Federal Democratic Republic of'); snapshot roster confirms ET
+country	brics_members	BRICS member countries	nonmember	AD	raw/membership/wikipedia/brics_members.json#table[2] (10 source members; searched all roster rows; no match for AD)
+country	brics_members	BRICS member countries	nonmember	AF	raw/membership/wikipedia/brics_members.json#table[2] (10 source members; searched all roster rows; no match for AF)
+country	brics_members	BRICS member countries	nonmember	AG	raw/membership/wikipedia/brics_members.json#table[2] (10 source members; searched all roster rows; no match for AG)
+country	brics_members	BRICS member countries	nonmember	AL	raw/membership/wikipedia/brics_members.json#table[2] (10 source members; searched all roster rows; no match for AL)
+country	brics_members	BRICS member countries	nonmember	AM	raw/membership/wikipedia/brics_members.json#table[2] (10 source members; searched all roster rows; no match for AM)
+country	commonwealth_members	Commonwealth of Nations member states	member	AG	raw/membership/wikipedia/commonwealth_members.json#table[0].row[1].cell[0] ('Antigua and Barbuda'); snapshot roster confirms AG
+country	commonwealth_members	Commonwealth of Nations member states	member	AU	raw/membership/wikipedia/commonwealth_members.json#table[0].row[2].cell[0] ('Australia'); snapshot roster confirms AU
+country	commonwealth_members	Commonwealth of Nations member states	member	BB	raw/membership/wikipedia/commonwealth_members.json#table[0].row[5].cell[0] ('Barbados'); snapshot roster confirms BB
+country	commonwealth_members	Commonwealth of Nations member states	member	BD	raw/membership/wikipedia/commonwealth_members.json#table[0].row[4].cell[0] ('Bangladesh'); snapshot roster confirms BD
+country	commonwealth_members	Commonwealth of Nations member states	member	BN	raw/membership/wikipedia/commonwealth_members.json#table[0].row[8].cell[0] ('Brunei'); snapshot roster confirms BN
+country	commonwealth_members	Commonwealth of Nations member states	nonmember	AD	raw/membership/wikipedia/commonwealth_members.json#table[0] (56 source members; searched all roster rows; no match for AD)
+country	commonwealth_members	Commonwealth of Nations member states	nonmember	AE	raw/membership/wikipedia/commonwealth_members.json#table[0] (56 source members; searched all roster rows; no match for AE)
+country	commonwealth_members	Commonwealth of Nations member states	nonmember	AF	raw/membership/wikipedia/commonwealth_members.json#table[0] (56 source members; searched all roster rows; no match for AF)
+country	commonwealth_members	Commonwealth of Nations member states	nonmember	AL	raw/membership/wikipedia/commonwealth_members.json#table[0] (56 source members; searched all roster rows; no match for AL)
+country	commonwealth_members	Commonwealth of Nations member states	nonmember	AM	raw/membership/wikipedia/commonwealth_members.json#table[0] (56 source members; searched all roster rows; no match for AM)
+country	eu_members	European Union member states	member	AT	raw/membership/wikipedia/eu_members.json#table[0].row[1].cell[0] ('Austria'); snapshot roster confirms AT
+country	eu_members	European Union member states	member	BE	raw/membership/wikipedia/eu_members.json#table[0].row[2].cell[0] ('Belgium'); snapshot roster confirms BE
+country	eu_members	European Union member states	member	BG	raw/membership/wikipedia/eu_members.json#table[0].row[3].cell[0] ('Bulgaria'); snapshot roster confirms BG
+country	eu_members	European Union member states	member	CY	raw/membership/wikipedia/eu_members.json#table[0].row[5].cell[0] ('Cyprus'); snapshot roster confirms CY
+country	eu_members	European Union member states	member	CZ	raw/membership/wikipedia/eu_members.json#table[0].row[6].cell[0] ('Czech Republic'); snapshot roster confirms CZ
+country	eu_members	European Union member states	nonmember	AD	raw/membership/wikipedia/eu_members.json#table[0] (27 source members; searched all roster rows; no match for AD)
+country	eu_members	European Union member states	nonmember	AE	raw/membership/wikipedia/eu_members.json#table[0] (27 source members; searched all roster rows; no match for AE)
+country	eu_members	European Union member states	nonmember	AF	raw/membership/wikipedia/eu_members.json#table[0] (27 source members; searched all roster rows; no match for AF)
+country	eu_members	European Union member states	nonmember	AG	raw/membership/wikipedia/eu_members.json#table[0] (27 source members; searched all roster rows; no match for AG)
+country	eu_members	European Union member states	nonmember	AL	raw/membership/wikipedia/eu_members.json#table[0] (27 source members; searched all roster rows; no match for AL)
+country	g20_members	G20 members	member	AR	raw/membership/wikipedia/g20_members.json#table[2].row[1].cell[0] ('Argentina'); snapshot roster confirms AR
+country	g20_members	G20 members	member	AU	raw/membership/wikipedia/g20_members.json#table[2].row[2].cell[0] ('Australia'); snapshot roster confirms AU
+country	g20_members	G20 members	member	BR	raw/membership/wikipedia/g20_members.json#table[2].row[3].cell[0] ('Brazil'); snapshot roster confirms BR
+country	g20_members	G20 members	member	CA	raw/membership/wikipedia/g20_members.json#table[2].row[4].cell[0] ('Canada'); snapshot roster confirms CA
+country	g20_members	G20 members	member	CN	raw/membership/wikipedia/g20_members.json#table[2].row[5].cell[0] ('China'); snapshot roster confirms CN
+country	g20_members	G20 members	nonmember	AD	raw/membership/wikipedia/g20_members.json#table[2] (21 source members; searched all roster rows; no match for AD)
+country	g20_members	G20 members	nonmember	AE	raw/membership/wikipedia/g20_members.json#table[2] (21 source members; searched all roster rows; no match for AE)
+country	g20_members	G20 members	nonmember	AF	raw/membership/wikipedia/g20_members.json#table[2] (21 source members; searched all roster rows; no match for AF)
+country	g20_members	G20 members	nonmember	AG	raw/membership/wikipedia/g20_members.json#table[2] (21 source members; searched all roster rows; no match for AG)
+country	g20_members	G20 members	nonmember	AL	raw/membership/wikipedia/g20_members.json#table[2] (21 source members; searched all roster rows; no match for AL)
+country	g7_members	G7 member states	member	CA	raw/membership/wikipedia/g7_members.json#table[1].row[1].cell[0] ('Canada'); snapshot roster confirms CA
+country	g7_members	G7 member states	member	DE	raw/membership/wikipedia/g7_members.json#table[1].row[3].cell[0] ('Germany'); snapshot roster confirms DE
+country	g7_members	G7 member states	member	FR	raw/membership/wikipedia/g7_members.json#table[1].row[2].cell[0] ('France'); snapshot roster confirms FR
+country	g7_members	G7 member states	member	GB	raw/membership/wikipedia/g7_members.json#table[1].row[6].cell[0] ('United Kingdom'); snapshot roster confirms GB
+country	g7_members	G7 member states	member	IT	raw/membership/wikipedia/g7_members.json#table[1].row[4].cell[0] ('Italy'); snapshot roster confirms IT
+country	g7_members	G7 member states	nonmember	AD	raw/membership/wikipedia/g7_members.json#table[1] (7 source members; searched all roster rows; no match for AD)
+country	g7_members	G7 member states	nonmember	AE	raw/membership/wikipedia/g7_members.json#table[1] (7 source members; searched all roster rows; no match for AE)
+country	g7_members	G7 member states	nonmember	AF	raw/membership/wikipedia/g7_members.json#table[1] (7 source members; searched all roster rows; no match for AF)
+country	g7_members	G7 member states	nonmember	AG	raw/membership/wikipedia/g7_members.json#table[1] (7 source members; searched all roster rows; no match for AG)
+country	g7_members	G7 member states	nonmember	AL	raw/membership/wikipedia/g7_members.json#table[1] (7 source members; searched all roster rows; no match for AL)
+country	nato_members	NATO member states	member	AL	raw/membership/wikipedia/nato_members.json#table[0].row[1].cell[2] ('Albania'); snapshot roster confirms AL
+country	nato_members	NATO member states	member	BE	raw/membership/wikipedia/nato_members.json#table[0].row[2].cell[2] ('Belgium'); snapshot roster confirms BE
+country	nato_members	NATO member states	member	BG	raw/membership/wikipedia/nato_members.json#table[0].row[3].cell[2] ('Bulgaria'); snapshot roster confirms BG
+country	nato_members	NATO member states	member	CA	raw/membership/wikipedia/nato_members.json#table[0].row[4].cell[2] ('Canada'); snapshot roster confirms CA
+country	nato_members	NATO member states	member	CZ	raw/membership/wikipedia/nato_members.json#table[0].row[6].cell[2] ('Czech Republic [ b ]'); snapshot roster confirms CZ
+country	nato_members	NATO member states	nonmember	AD	raw/membership/wikipedia/nato_members.json#table[0] (32 source members; searched all roster rows; no match for AD)
+country	nato_members	NATO member states	nonmember	AE	raw/membership/wikipedia/nato_members.json#table[0] (32 source members; searched all roster rows; no match for AE)
+country	nato_members	NATO member states	nonmember	AF	raw/membership/wikipedia/nato_members.json#table[0] (32 source members; searched all roster rows; no match for AF)
+country	nato_members	NATO member states	nonmember	AG	raw/membership/wikipedia/nato_members.json#table[0] (32 source members; searched all roster rows; no match for AG)
+country	nato_members	NATO member states	nonmember	AM	raw/membership/wikipedia/nato_members.json#table[0] (32 source members; searched all roster rows; no match for AM)
+country	oecd_members	OECD member states	member	AT	raw/membership/wikipedia/oecd_members.json#table[3].row[2].cell[0] ('Austria'); snapshot roster confirms AT
+country	oecd_members	OECD member states	member	AU	raw/membership/wikipedia/oecd_members.json#table[3].row[1].cell[0] ('Australia'); snapshot roster confirms AU
+country	oecd_members	OECD member states	member	BE	raw/membership/wikipedia/oecd_members.json#table[3].row[3].cell[0] ('Belgium'); snapshot roster confirms BE
+country	oecd_members	OECD member states	member	CA	raw/membership/wikipedia/oecd_members.json#table[3].row[4].cell[0] ('Canada'); snapshot roster confirms CA
+country	oecd_members	OECD member states	member	CH	raw/membership/wikipedia/oecd_members.json#table[3].row[35].cell[0] ('Switzerland'); snapshot roster confirms CH
+country	oecd_members	OECD member states	nonmember	AD	raw/membership/wikipedia/oecd_members.json#table[3] (38 source members; searched all roster rows; no match for AD)
+country	oecd_members	OECD member states	nonmember	AE	raw/membership/wikipedia/oecd_members.json#table[3] (38 source members; searched all roster rows; no match for AE)
+country	oecd_members	OECD member states	nonmember	AF	raw/membership/wikipedia/oecd_members.json#table[3] (38 source members; searched all roster rows; no match for AF)
+country	oecd_members	OECD member states	nonmember	AG	raw/membership/wikipedia/oecd_members.json#table[3] (38 source members; searched all roster rows; no match for AG)
+country	oecd_members	OECD member states	nonmember	AL	raw/membership/wikipedia/oecd_members.json#table[3] (38 source members; searched all roster rows; no match for AL)
+country	oic_members	Organisation of Islamic Cooperation member states	member	AE	raw/membership/wikipedia/oic_members.json#table[1].row[30].cell[0] ('United Arab Emirates Capital: Abu Dhabi'); snapshot roster confirms AE
+country	oic_members	Organisation of Islamic Cooperation member states	member	AF	raw/membership/wikipedia/oic_members.json#table[1].row[1].cell[0] ('Afghanistan Capital: Kabul'); snapshot roster confirms AF
+country	oic_members	Organisation of Islamic Cooperation member states	member	AL	raw/membership/wikipedia/oic_members.json#table[1].row[47].cell[0] ('Albania Capital: Tirana'); snapshot roster confirms AL
+country	oic_members	Organisation of Islamic Cooperation member states	member	AZ	raw/membership/wikipedia/oic_members.json#table[1].row[46].cell[0] ('Azerbaijan Capital: Baku'); snapshot roster confirms AZ
+country	oic_members	Organisation of Islamic Cooperation member states	member	BD	raw/membership/wikipedia/oic_members.json#table[1].row[32].cell[0] ('Bangladesh Capital: Dhaka'); snapshot roster confirms BD
+country	oic_members	Organisation of Islamic Cooperation member states	nonmember	AD	raw/membership/wikipedia/oic_members.json#table[1] (57 source members; searched all roster rows; no match for AD)
+country	oic_members	Organisation of Islamic Cooperation member states	nonmember	AG	raw/membership/wikipedia/oic_members.json#table[1] (57 source members; searched all roster rows; no match for AG)
+country	oic_members	Organisation of Islamic Cooperation member states	nonmember	AM	raw/membership/wikipedia/oic_members.json#table[1] (57 source members; searched all roster rows; no match for AM)
+country	oic_members	Organisation of Islamic Cooperation member states	nonmember	AO	raw/membership/wikipedia/oic_members.json#table[1] (57 source members; searched all roster rows; no match for AO)
+country	oic_members	Organisation of Islamic Cooperation member states	nonmember	AR	raw/membership/wikipedia/oic_members.json#table[1] (57 source members; searched all roster rows; no match for AR)
+country	opec_members	OPEC member countries	member	CG	raw/membership/wikipedia/opec_members.json#table[0].row[2].cell[0] ('Republic of the Congo'); snapshot roster confirms CG
+country	opec_members	OPEC member countries	member	DZ	raw/membership/wikipedia/opec_members.json#table[0].row[1].cell[0] ('Algeria'); snapshot roster confirms DZ
+country	opec_members	OPEC member countries	member	GA	raw/membership/wikipedia/opec_members.json#table[0].row[4].cell[0] ('Gabon'); snapshot roster confirms GA
+country	opec_members	OPEC member countries	member	GQ	raw/membership/wikipedia/opec_members.json#table[0].row[3].cell[0] ('Equatorial Guinea'); snapshot roster confirms GQ
+country	opec_members	OPEC member countries	member	IQ	raw/membership/wikipedia/opec_members.json#table[0].row[6].cell[0] ('Iraq'); snapshot roster confirms IQ
+country	opec_members	OPEC member countries	nonmember	AD	raw/membership/wikipedia/opec_members.json#table[0] (11 source members; searched all roster rows; no match for AD)
+country	opec_members	OPEC member countries	nonmember	AE	raw/membership/wikipedia/opec_members.json#table[0] (11 source members; searched all roster rows; no match for AE)
+country	opec_members	OPEC member countries	nonmember	AF	raw/membership/wikipedia/opec_members.json#table[0] (11 source members; searched all roster rows; no match for AF)
+country	opec_members	OPEC member countries	nonmember	AG	raw/membership/wikipedia/opec_members.json#table[0] (11 source members; searched all roster rows; no match for AG)
+country	opec_members	OPEC member countries	nonmember	AL	raw/membership/wikipedia/opec_members.json#table[0] (11 source members; searched all roster rows; no match for AL)

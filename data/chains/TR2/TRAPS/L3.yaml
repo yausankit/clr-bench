@@ -1,0 +1,48 @@
+A: XAF
+C: commonwealth_currencies
+C_name: Currencies of Commonwealth of Nations member states
+N_p: CRC
+N_t:
+- VES
+- JPY
+- SOS
+- GTQ
+- BMD
+- SRD
+- SDG
+P_M:
+- SBD
+- LKR
+- GYD
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_union_currencies
+    - fixed_exchange_rate_currencies
+    - oic_currencies
+    - opec_currencies
+    - zero_minor_unit_currencies
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- african_union_currencies
+- cplp_currencies
+- currency_union_currencies
+- eccas_currencies
+- eur_linked_currencies
+- fixed_exchange_rate_currencies
+- oic_currencies
+- opec_currencies
+- zero_minor_unit_currencies
+field: claims.currency
+label: queue tag A-59
+salience: 1422475.0
+universe: currency

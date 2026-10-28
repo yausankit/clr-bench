@@ -1,0 +1,42 @@
+A: id
+C: asean_cctlds
+C_name: ASEAN member states
+N_p: kiwi
+N_t:
+- cn
+- in
+- ru
+- asda
+- theatre
+- bayern
+- locus
+P_M:
+- tl
+- kh
+- la
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - apec_cctlds
+    - brics_cctlds
+    - g20_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- apec_cctlds
+- brics_cctlds
+- d8_cctlds
+- g20_cctlds
+- oic_cctlds
+field: hosts.tld
+label: reporting band R-34
+salience: 946505.0
+universe: tld

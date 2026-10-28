@@ -1,0 +1,46 @@
+A: Inter Milan
+C: club_world_cup_2025_participants
+C_name: 2025 FIFA Club World Cup participants
+N_p: Shakhtar Donetsk
+N_t:
+- Feyenoord
+- Arsenal
+- Anderlecht
+- Bayer Leverkusen
+- Sporting CP
+- Roma
+- Arenas
+P_M:
+- Monterrey
+- Al Ahly
+- Palmeiras
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - seriea_1929_30
+    - super_league_founders
+    - ucl_2024_25_league_phase
+    - ucl_winners
+    - uel_winners
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- club_world_cup_winners
+- g14_members
+- seriea_1929_30
+- super_league_founders
+- ucl_2024_25_league_phase
+- ucl_winners
+- uel_winners
+field: activations.club
+label: review code W2
+salience: 834544.0
+universe: club

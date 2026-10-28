@@ -1,0 +1,318 @@
+{
+ "answer_format": "json",
+ "background": {
+  "declarations.exporter_country": [
+   "AD",
+   "AF",
+   "DJ",
+   "GR",
+   "GT",
+   "IT",
+   "KG",
+   "MK",
+   "NI",
+   "PH"
+  ],
+  "lines.substance": [
+   "1,3-Dichloropropene (technical-grade)",
+   "Aristolochic acid",
+   "Chromium (VI) compounds",
+   "Dichlorvos",
+   "Ethylene dichloride",
+   "N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)",
+   "Parathion",
+   "Radon-222 and its decay products",
+   "Tributyltin naphthenate",
+   "Trichloromethane"
+  ],
+  "shipments.air_carrier": [
+   "Air Atlanta Icelandic",
+   "Air Botswana",
+   "Air Madagascar",
+   "Bangkok Airways",
+   "British Airways",
+   "China Airlines",
+   "EL AL Israel Airlines Ltd",
+   "HK Express",
+   "SriLankan Airlines",
+   "Volotea"
+  ]
+ },
+ "course_id": "CLR_CH1",
+ "dataset": "CH",
+ "fields": [
+  "lines.substance",
+  "declarations.exporter_country",
+  "shipments.air_carrier"
+ ],
+ "id": "CH1",
+ "seed": 20266102,
+ "slots": [
+  {
+   "A": "Hexachlorobenzene",
+   "C": "stockholm_annex_a",
+   "C_name": "Stockholm Convention Annex A",
+   "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+   "N_t": [
+    "Fenthion",
+    "Ethylene oxide",
+    "Perfluorooctane sulfonic acid",
+    "Tributyltin fluoride",
+    "Metronidazole",
+    "Epichlorohydrin",
+    "Panfuran S (containing dihydroxymethylfuratrizine)"
+   ],
+   "P_M": [
+    "Endrin",
+    "Heptabromodiphenyl ether",
+    "Tetrabromodiphenyl ether"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "iarc_group_2b",
+      "rotterdam_annex_iii",
+      "rotterdam_pesticides",
+      "wfd_hazardous",
+      "wfd_priority"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "iarc_group_2b",
+    "rotterdam_annex_iii",
+    "rotterdam_pesticides",
+    "stockholm_all_pops",
+    "stockholm_annex_c",
+    "wfd_hazardous",
+    "wfd_priority"
+   ],
+   "field": "lines.substance",
+   "label": "intake folder X8",
+   "level": 1,
+   "salience": 1476.0,
+   "universe": "chemical"
+  },
+  {
+   "A": "CA",
+   "C": "commonwealth",
+   "C_name": "Commonwealth of Nations member states",
+   "N_p": "ER",
+   "N_t": [
+    "SI",
+    "DE",
+    "BG",
+    "SD",
+    "BA",
+    "CZ",
+    "DK"
+   ],
+   "P_M": [
+    "DM",
+    "ZM",
+    "FJ"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "australia_group",
+      "g7",
+      "mtcr",
+      "nato",
+      "nsg",
+      "wassenaar"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "australia_group",
+    "g7",
+    "mtcr",
+    "nato",
+    "nsg",
+    "wassenaar"
+   ],
+   "field": "declarations.exporter_country",
+   "label": "clearance stamp 37",
+   "level": 2,
+   "salience": 1410547.0,
+   "universe": "country"
+  },
+  {
+   "A": "Air Canada",
+   "C": "star_alliance",
+   "C_name": "Star Alliance member airlines",
+   "N_p": "Atlas Air",
+   "N_t": [
+    "UPS Airlines",
+    "JetBlue Airways",
+    "American Airlines",
+    "Azul",
+    "Daallo Airlines",
+    "Hawaiian Airlines",
+    "Avion Express"
+   ],
+   "P_M": [
+    "Air China",
+    "Copa Airlines",
+    "Air India"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "a4a",
+      "alta_associate"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a4a",
+    "alta_associate"
+   ],
+   "field": "shipments.air_carrier",
+   "label": "review batch Q-47",
+   "level": 3,
+   "salience": 630113.0,
+   "universe": "carrier"
+  },
+  {
+   "A": "Dimethyl hydrogen phosphite",
+   "C": "opcw_schedule_3",
+   "C_name": "Chemical Weapons Convention Schedule 3",
+   "N_p": "HN2",
+   "N_t": [
+    "DF",
+    "1,1-Dimethylhydrazine",
+    "HN3",
+    "Safrole",
+    "Tetranitromethane",
+    "HCFC-121",
+    "Polyaromatic hydrocarbons"
+   ],
+   "P_M": [
+    "Methyldiethanolamine",
+    "Diethyl phosphite",
+    "Thionyl chloride"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "iarc_group_2b",
+      "opcw_all_schedules"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "iarc_group_2b",
+    "opcw_all_schedules"
+   ],
+   "field": "lines.substance",
+   "label": "intake folder H2",
+   "level": 4,
+   "salience": 59528.0,
+   "universe": "chemical"
+  },
+  {
+   "A": "SA",
+   "C": "opec",
+   "C_name": "OPEC member countries",
+   "N_p": "CU",
+   "N_t": [
+    "QA",
+    "SO",
+    "OM",
+    "AR",
+    "MR",
+    "NE",
+    "ZA"
+   ],
+   "P_M": [
+    "VE",
+    "CG",
+    "IR"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "arab_league",
+      "gcc"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "arab_league",
+    "gcc"
+   ],
+   "field": "declarations.exporter_country",
+   "label": "intake folder 84",
+   "level": 5,
+   "salience": 880838.0,
+   "universe": "country"
+  }
+ ]
+}

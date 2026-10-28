@@ -1,0 +1,670 @@
+{
+ "_path": "../run/out/GR/GR2/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "schengen_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9444
+    },
+    "2": {
+     "C": "star_alliance_founders",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.8148
+    },
+    "3": {
+     "C": "aun_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.1667,
+     "soft": 0.8148
+    },
+    "4": {
+     "C": "asean_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 1.0
+    },
+    "5": {
+     "C": "qantas_group_airlines",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.9444
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "5": {
+     "C": "skyteam_members",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0833,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "5": {
+     "C": "iag_airlines",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9815
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "5": {
+     "C": "air_france_klm_airlines",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8889
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "5": {
+     "C": "lufthansa_group_airlines",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 6,
+   "verdicts": {
+    "5": {
+     "C": "skytrax_five_star",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8519
+    }
+   }
+  }
+ ],
+ "requests": 138,
+ "rounds": 6,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "DE",
+    "C": "schengen_members",
+    "C_name": "Schengen Area member states",
+    "N_p": "IE",
+    "N_t": [
+     "CY",
+     "ME",
+     "CA",
+     "KN",
+     "FO",
+     "ZA",
+     "TH"
+    ],
+    "P_M": [
+     "LI",
+     "CH",
+     "MT"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "eu_members",
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "eu_members",
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 1116871.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 1,
+   "pinned": {
+    "A": "DE",
+    "C": "schengen_members",
+    "C_name": "Schengen Area member states",
+    "N_p": "IE",
+    "N_t": [
+     "CY",
+     "ME",
+     "CA",
+     "KN",
+     "FO",
+     "ZA",
+     "TH"
+    ],
+    "P_M": [
+     "LI",
+     "CH",
+     "MT"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "eu_members",
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "eu_members",
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 1116871.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Lufthansa",
+    "C": "star_alliance_founders",
+    "C_name": "Five original Star Alliance member airlines",
+    "N_p": "All Nippon Airways",
+    "N_t": [
+     "EgyptAir",
+     "Lucky Air",
+     "EVA Air",
+     "Air Calédonie",
+     "Stellar Airways",
+     "Transworld Aviation",
+     "LATAM Airlines Ecuador"
+    ],
+    "P_M": [
+     "Scandinavian Airlines",
+     "Thai Airways International",
+     "Air Canada"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "b787_operators",
+       "iata_members",
+       "star_alliance_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "airlines_for_europe",
+     "b787_operators",
+     "iata_members",
+     "lufthansa_group_airlines",
+     "star_alliance_members"
+    ],
+    "field": "trips.airline",
+    "salience": 630113.0,
+    "universe": "airline"
+   },
+   "field": "trips.airline",
+   "level": 2,
+   "pinned": {
+    "A": "Lufthansa",
+    "C": "star_alliance_founders",
+    "C_name": "Five original Star Alliance member airlines",
+    "N_p": "All Nippon Airways",
+    "N_t": [
+     "EgyptAir",
+     "Lucky Air",
+     "EVA Air",
+     "Air Calédonie",
+     "Stellar Airways",
+     "Transworld Aviation",
+     "LATAM Airlines Ecuador"
+    ],
+    "P_M": [
+     "Scandinavian Airlines",
+     "Thai Airways International",
+     "Air Canada"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "b787_operators",
+       "iata_members",
+       "star_alliance_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "airlines_for_europe",
+     "b787_operators",
+     "iata_members",
+     "lufthansa_group_airlines",
+     "star_alliance_members"
+    ],
+    "field": "trips.airline",
+    "salience": 630113.0,
+    "universe": "airline"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "National University of Singapore",
+    "C": "aun_members",
+    "C_name": "ASEAN University Network members",
+    "N_p": "High Council for the Evaluation of Research and Higher Education",
+    "N_t": [
+     "University of Science and Technology of China",
+     "University of Cape Town",
+     "Nagoya University",
+     "University of Amsterdam",
+     "Stendhal University",
+     "Zhetysu University",
+     "Politeknik Kesehatan Kementerian Kesehatan Banten"
+    ],
+    "P_M": [
+     "Hoa Sen University",
+     "Airlangga University",
+     "Lyceum of the Philippines University"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "apru_members",
+       "iaru_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "apru_members",
+     "iaru_members"
+    ],
+    "field": "applicants.university",
+    "salience": 7660.0,
+    "universe": "university"
+   },
+   "field": "applicants.university",
+   "level": 3,
+   "pinned": {
+    "A": "National University of Singapore",
+    "C": "aun_members",
+    "C_name": "ASEAN University Network members",
+    "N_p": "High Council for the Evaluation of Research and Higher Education",
+    "N_t": [
+     "University of Science and Technology of China",
+     "University of Cape Town",
+     "Nagoya University",
+     "University of Amsterdam",
+     "Stendhal University",
+     "Zhetysu University",
+     "Politeknik Kesehatan Kementerian Kesehatan Banten"
+    ],
+    "P_M": [
+     "Hoa Sen University",
+     "Airlangga University",
+     "Lyceum of the Philippines University"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "apru_members",
+       "iaru_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "apru_members",
+     "iaru_members"
+    ],
+    "field": "applicants.university",
+    "salience": 7660.0,
+    "universe": "university"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "BN",
+    "C": "asean_members",
+    "C_name": "ASEAN member states",
+    "N_p": "FI",
+    "N_t": [
+     "DM",
+     "KE",
+     "CM",
+     "IL",
+     "YT",
+     "GY",
+     "NP"
+    ],
+    "P_M": [
+     "LA",
+     "MM",
+     "PH"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "commonwealth_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "commonwealth_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 933074.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 4,
+   "pinned": {
+    "A": "BN",
+    "C": "asean_members",
+    "C_name": "ASEAN member states",
+    "N_p": "FI",
+    "N_t": [
+     "DM",
+     "KE",
+     "CM",
+     "IL",
+     "YT",
+     "GY",
+     "NP"
+    ],
+    "P_M": [
+     "LA",
+     "MM",
+     "PH"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "commonwealth_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "commonwealth_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 933074.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Singapore Airlines",
+    "C": "skytrax_five_star",
+    "C_name": "Skytrax five-star rated airlines",
+    "N_p": "Qantas",
+    "N_t": [
+     "Turkish Airlines",
+     "TAAG Angola Airlines",
+     "WestJet",
+     "Pawan Hans",
+     "Flamingo Air",
+     "IrAero",
+     "Libyan Arab Air Cargo"
+    ],
+    "P_M": [
+     "STARLUX Airlines",
+     "Cathay Pacific",
+     "Korean Air"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "b787_operators",
+       "iata_members",
+       "star_alliance_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "aapa_members",
+     "b787_operators",
+     "iata_members",
+     "star_alliance_members"
+    ],
+    "field": "trips.airline",
+    "salience": 58252.0,
+    "universe": "airline"
+   },
+   "field": "trips.airline",
+   "level": 5,
+   "pinned": {
+    "A": "Singapore Airlines",
+    "C": "skytrax_five_star",
+    "C_name": "Skytrax five-star rated airlines",
+    "N_p": "Qantas",
+    "N_t": [
+     "Turkish Airlines",
+     "TAAG Angola Airlines",
+     "WestJet",
+     "Pawan Hans",
+     "Flamingo Air",
+     "IrAero",
+     "Libyan Arab Air Cargo"
+    ],
+    "P_M": [
+     "STARLUX Airlines",
+     "Cathay Pacific",
+     "Korean Air"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "b787_operators",
+       "iata_members",
+       "star_alliance_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "aapa_members",
+     "b787_operators",
+     "iata_members",
+     "star_alliance_members"
+    ],
+    "field": "trips.airline",
+    "salience": 58252.0,
+    "universe": "airline"
+   },
+   "tried": [
+    "qantas_group_airlines",
+    "skyteam_members",
+    "iag_airlines",
+    "air_france_klm_airlines",
+    "lufthansa_group_airlines"
+   ]
+  }
+ ],
+ "stage": "done"
+}

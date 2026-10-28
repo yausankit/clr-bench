@@ -1,0 +1,68 @@
+{
+ "activations.club": {
+  "Arsenal": {
+   "example": "Inter Milan",
+   "label": "settlement lane D3",
+   "level": 4,
+   "member": true
+  },
+  "Bayern Munich": {
+   "example": "Inter Milan",
+   "label": "settlement lane D3",
+   "level": 4,
+   "member": false
+  },
+  "Manchester City": {
+   "example": "Real Madrid",
+   "label": "audit lane X5",
+   "level": 1,
+   "member": false
+  },
+  "PSV Eindhoven": {
+   "example": "Real Madrid",
+   "label": "audit lane X5",
+   "level": 1,
+   "member": true
+  }
+ },
+ "activations.co_sponsor": {
+  "Aegon": {
+   "example": "ASML",
+   "label": "handling class 20",
+   "level": 5,
+   "member": true
+  },
+  "PepsiCo": {
+   "example": "Microsoft",
+   "label": "review code 55",
+   "level": 2,
+   "member": false
+  },
+  "Tenaris": {
+   "example": "ASML",
+   "label": "handling class 20",
+   "level": 5,
+   "member": false
+  },
+  "Travelers": {
+   "example": "Microsoft",
+   "label": "review code 55",
+   "level": 2,
+   "member": true
+  }
+ },
+ "activations.market_country": {
+  "CO": {
+   "example": "DE",
+   "label": "review tag Y-25",
+   "level": 3,
+   "member": false
+  },
+  "CY": {
+   "example": "DE",
+   "label": "review tag Y-25",
+   "level": 3,
+   "member": true
+  }
+ }
+}

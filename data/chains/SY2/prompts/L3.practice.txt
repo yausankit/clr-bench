@@ -1,0 +1,627 @@
+A health plan's utilisation review unit totals, for each patient, the records in the patient's file that its review desk has to process: medication fills, diagnoses and procedures.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The top-level JSON object has keys patients (ids), medications, conditions and procedures.  Each record row carries the patient id and its trap field: medications have ingredient, conditions and procedures have code (and a description).
+
+Every record in a patient's file adds one to that patient's review total: each medication fill, each diagnosis and each procedure counts one.
+Return the largest total among the patients in the input, as an int.
+
+Field notes:
+- A condition whose code is 443165006 is in review tag W8.
+- A procedure whose code is 11466000 is in intake mark 85.
+- A medication whose ingredient is 'Doxorubicin' is in ledger mark A-57.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, conditions in review tag W8 are not counted.
+L2: From this level on, procedures in intake mark 85 are not counted.
+L3: From this level on, medications in ledger mark A-57 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+conditions.code:
+- 10509002 — Acute bronchitis; Sudden irritation and swelling of the breathing tubes, often producing cough.
+- 132281000119108 — Acute deep venous thrombosis; Sudden clot in a deep vein, usually in the leg, that can block blood flow.
+- 156073000 — Fetus with unknown complication; An unborn baby whose gestation has a problem that has not yet been identified.
+- 185086009 — Chronic obstructive bronchitis; Long-standing swelling and narrowing of the breathing tubes with limited airflow.
+- 195662009 — Acute viral pharyngitis; Sudden viral irritation of the pharynx.
+- 201834006 — Localized  primary osteoarthritis of the hand; Cartilage wear affecting the knuckles and fingers of one hand.
+- 203082005 — Fibromyalgia; Long-standing widespread muscle soreness with fatigue, sleep and thinking difficulties.
+- 224355006 — Served in armed forces; A recorded work background in a country's military.
+- 233604007 — Pneumonia; Swelling of the air sacs in the lungs, usually caused by germs and filled with fluid.
+- 239872002 — Osteoarthritis of hip; Cartilage wear in the hip that causes stiffness and discomfort.
+- 239873007 — Osteoarthritis of knee; Cartilage wear in the knee that causes stiffness and discomfort.
+- 263102004 — Fracture subluxation of wrist; A broken wrist with partial displacement of its skeletal parts.
+- 267060006 — Diarrhea symptom; Loose or watery stools occurring more often than usual.
+- 33737001 — Fracture of rib; A break in a rib.
+- 359817006 — Closed fracture of hip; A break around the hip without an open wound through the skin.
+- 36955009 — Loss of taste; Reduced or absent ability to detect flavors.
+- 370247008 — Facial laceration; A cut through the skin of the face.
+- 389087006 — Hypoxemia; A below-normal amount of oxygen in the blood.
+- 403190006 — First degree burn; A surface burn affecting only the outer skin layer, with redness and soreness.
+- 423315002 — Limited social contact; A recorded pattern of few interactions with other people.
+- 429007001 — History of cardiac arrest; A recorded previous episode in which the heart stopped pumping.
+- 443165006 — Pathological fracture due to osteoporosis; A skeletal break caused by weakened strength from osteoporosis.
+- 58150001 — Fracture of clavicle; A break in the collarbone.
+- 65710008 — Acute respiratory failure; Sudden failure of the lungs to keep oxygen and carbon dioxide in balance.
+- 67782005 — Acute respiratory distress syndrome; Sudden severe swelling of the lungs with low oxygen and fluid in the air sacs.
+- 68235000 — Nasal congestion; Blocked or stuffy nasal passages from swollen lining and mucus.
+- 68962001 — Muscle pain; Soreness or aching in muscle.
+- 706893006 — Victim of intimate partner abuse; A recorded state of having been harmed by a current or former intimate partner.
+- 70704007 — Sprain of wrist; Stretching or tearing of bands around the wrist after a twist.
+- 713458007 — Lack of access to transportation; A recorded inability to obtain reliable transport to needed places.
+- 79586000 — Tubal pregnancy; A gestation that implants in a fallopian tube instead of the womb.
+- 840539006 — COVID-19; An illness caused by the SARS-CoV-2 virus, often with fever, cough and breathing difficulty.
+- 84229001 — Fatigue; Persistent tiredness or low energy that makes usual activity difficult.
+- 88805009 — Chronic congestive heart failure; Long-standing weakness of heart pumping that causes fluid buildup and breathlessness.
+procedures.code:
+- 11466000 — Cesarean section; Birth of a baby through a cut in the mother's belly.
+- 1225002 — Upper arm X-ray; X-ray view of the humerus and surrounding parts of the upper arm.
+- 122548005 — Biopsy of breast; Cell sample taken from a lump or area in the mammary gland.
+- 165829005 — Gonorrhea infection test; Lab check for the germ that causes gonorrhea.
+- 169673001 — Antenatal RhD antibody screening; Check during pregnancy for antibodies that could affect an Rh-positive unborn baby.
+- 18946005 — Epidural anesthesia; Numbing drug placed near the spinal cord for labor or surgery.
+- 228557008 — Cognitive and behavioral therapy; Structured talking treatment that changes unhelpful thoughts and actions.
+- 232717009 — Coronary artery bypass grafting; Cardiac surgery in which a graft from elsewhere bypasses narrowed coronary arteries.
+- 236931002 — Methotrexate injection into tubal pregnancy; Drug shot directly into a fallopian-tube pregnancy to end it without surgery.
+- 269911007 — Sputum examination; Lab study of mucus coughed up from the airways.
+- 274031008 — Rectal polypectomy; Cutting a growth out of the rectum.
+- 274804006 — Evaluation of uterine fundal height; Reading of womb height to track an unborn baby's growth.
+- 275833003 — Alpha-fetoprotein test; Check of a pregnant person's sample for alpha-fetoprotein, a marker of open spinal or belly-wall defects.
+- 31676001 — Human immunodeficiency virus antigen test; Lab check for HIV antigen in a sample.
+- 392021009 — Lumpectomy of breast; Surgery that takes out a mammary lump while preserving most of the mammary gland.
+- 395142003 — Allergy screening test; Check for sensitivity to common allergens such as pollen, food or venom.
+- 398171003 — Hearing examination; Check of how well a person detects sounds of different pitch and volume.
+- 408919008 — Psychosocial care; Emotional and social support for a person and family.
+- 418891003 — Computed tomography of chest and abdomen; Computed tomography scan of the thoracic and belly regions.
+- 423475008 — Heart failure education; Teaching about daily steps, warning features and drugs for a weak cardiac pump.
+- 432231006 — Fine needle aspiration biopsy of lung; Cell sample drawn through a thin needle from a lung lump.
+- 433112001 — Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance; Catheter-based taking out of a clot from the main vein into the liver, guided by X-ray.
+- 443497002 — Excision of sentinel lymph node; Cutting out the first lymph node that drains a tumor.
+- 445912000 — Excision of fallopian tube and surgical removal of ectopic pregnancy; Surgery that takes out a fallopian tube and an implanted early pregnancy.
+- 447365002 — Insertion of biventricular implantable cardioverter defibrillator; Placement of a device that shocks the cardiac muscle out of a dangerous rhythm.
+- 46706006 — Replacement of contraceptive intrauterine device; Taking out an old intrauterine contraceptive and placing a new one.
+- 52765003 — Intubation; Placement of a tube in the windpipe to support breathing.
+- 65200003 — Insertion of intrauterine contraceptive device; Placement of a small contraceptive device inside the womb.
+- 65575008 — Biopsy of prostate; Cell samples taken from the prostate with a needle.
+- 66348005 — Childbirth; The process of labor and delivery of a baby.
+- 71651007 — Mammography; X-ray image of the mammary gland used to look for cancer.
+- 76164006 — Biopsy of colon; Cell samples taken from the bowel lining during a camera view.
+- 88039007 — Transplant of lung; Surgery that replaces an unhealthy lung with a donor lung.
+- 90226004 — Cytopathology procedure  preparation of smear  genital source; Microscope study of cells wiped from the reproductive passage.
+medications.ingredient:
+- Acetaminophen — Fever and pain reliever commonly taken by mouth.
+- Alteplase — Clot-dissolving enzyme given by injection after a stroke or other clot-related emergency.
+- Amlodipine — Taken by mouth to lower blood pressure and prevent chest discomfort from narrowed arteries.
+- Aztreonam — Injectable antibacterial used for serious infections caused by Gram-negative germs.
+- Cefuroxime — Cephalosporin antibacterial taken by mouth for respiratory, urinary and skin infections.
+- Docetaxel — Taxane chemotherapy given by injection to treat breast, lung, prostate and other cancers.
+- Doxorubicin — Anthracycline chemotherapy given by injection to treat many cancers, including breast cancer and lymphoma.
+- Doxycycline — Tetracycline antibacterial taken by mouth for acne, respiratory infections and tick-borne illness.
+- Enoxaparin — Injectable anticoagulant used to prevent and treat dangerous blood clots.
+- Epirubicin — Anthracycline chemotherapy given by injection to treat breast cancer and other tumors.
+- Fentanyl — Strong injectable pain reliever also available as a skin patch.
+- Ferrous sulfate — Iron supplement taken by mouth to treat or prevent iron-deficiency anemia.
+- Fulvestrant — Injectable estrogen blocker used to treat advanced breast cancer.
+- Hydrocortisone — Topical corticosteroid that reduces redness, itching and inflammation.
+- Leucovorin — Injectable folate form used to reduce toxicity from methotrexate and support chemotherapy.
+- Losartan — Angiotensin-II blocker taken by mouth to lower blood pressure and protect kidneys.
+- Metformin — Taken by mouth to lower blood sugar in type 2 diabetes and improve insulin sensitivity.
+- Oxaliplatin — Platinum-based chemotherapy given by injection to treat colorectal cancer.
+- Propofol — Injectable anesthetic that produces rapid unconsciousness for surgery and sedation.
+- Tamoxifen — Taken by mouth to block estrogen and treat or prevent breast cancer.
+- Tramadol — Taken by mouth for pain and also affects brain signaling.
+- Vitamin B12 — Injectable vitamin used to treat deficiency that causes anemia and nerve problems.
+
+Example input:
+{
+ "conditions": [
+  {
+   "code": "88805009",
+   "description": "Chronic congestive heart failure",
+   "id": "C00014",
+   "onset": "2016-08-24",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "224355006",
+   "description": "Served in armed forces",
+   "id": "C00015",
+   "onset": "2017-08-30",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "706893006",
+   "description": "Victim of intimate partner abuse",
+   "id": "C00016",
+   "onset": "2018-09-05",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "429007001",
+   "description": "History of cardiac arrest",
+   "id": "C00017",
+   "onset": "2019-09-11",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "706893006",
+   "description": "Victim of intimate partner abuse",
+   "id": "C00018",
+   "onset": "2019-10-16",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "403190006",
+   "description": "First degree burn",
+   "id": "C00019",
+   "onset": "2020-09-16",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00080",
+   "onset": "2015-01-19",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00081",
+   "onset": "2015-08-22",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00082",
+   "onset": "2018-09-15",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "79586000",
+   "description": "Tubal pregnancy",
+   "id": "C00083",
+   "onset": "2021-08-28",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00111",
+   "onset": "2016-08-08",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00112",
+   "onset": "2019-08-26",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00113",
+   "onset": "2021-09-06",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "403190006",
+   "description": "First degree burn",
+   "id": "C00123",
+   "onset": "2015-05-07",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "403190006",
+   "description": "First degree burn",
+   "id": "C00124",
+   "onset": "2017-03-06",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "84229001",
+   "description": "Fatigue",
+   "id": "C00125",
+   "onset": "2017-03-06",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "79586000",
+   "description": "Tubal pregnancy",
+   "id": "C00126",
+   "onset": "2018-01-09",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "443165006",
+   "description": "Pathological fracture due to osteoporosis",
+   "id": "C00127",
+   "onset": "2019-03-23",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "706893006",
+   "description": "Victim of intimate partner abuse",
+   "id": "C00128",
+   "onset": "2019-12-03",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "706893006",
+   "description": "Victim of intimate partner abuse",
+   "id": "C00155",
+   "onset": "2016-12-24",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "224355006",
+   "description": "Served in armed forces",
+   "id": "C00156",
+   "onset": "2018-03-10",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "88805009",
+   "description": "Chronic congestive heart failure",
+   "id": "C00157",
+   "onset": "2021-03-27",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "84229001",
+   "description": "Fatigue",
+   "id": "C00158",
+   "onset": "2021-10-02",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  }
+ ],
+ "medications": [
+  {
+   "dispenses": "12",
+   "id": "M00013",
+   "ingredient": "Cefuroxime",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a",
+   "start": "2015-02-05"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00014",
+   "ingredient": "Vitamin B12",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a",
+   "start": "2015-08-19"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00015",
+   "ingredient": "Cefuroxime",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a",
+   "start": "2017-08-30"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00016",
+   "ingredient": "Ferrous sulfate",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a",
+   "start": "2020-09-16"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00017",
+   "ingredient": "Doxycycline",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a",
+   "start": "2021-02-03"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00082",
+   "ingredient": "Epirubicin",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190",
+   "start": "2017-07-18"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00083",
+   "ingredient": "Cefuroxime",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190",
+   "start": "2018-05-25"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00084",
+   "ingredient": "Metformin",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190",
+   "start": "2019-07-08"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00085",
+   "ingredient": "Alteplase",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190",
+   "start": "2020-07-02"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00113",
+   "ingredient": "Ferrous sulfate",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2016-08-08"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00114",
+   "ingredient": "Doxorubicin",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2017-08-14"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00115",
+   "ingredient": "Doxycycline",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2019-05-31"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00116",
+   "ingredient": "Vitamin B12",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2020-05-30"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00117",
+   "ingredient": "Amlodipine",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2021-05-30"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00118",
+   "ingredient": "Epirubicin",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa",
+   "start": "2021-09-06"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00125",
+   "ingredient": "Alteplase",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f",
+   "start": "2017-03-06"
+  },
+  {
+   "dispenses": "4",
+   "id": "M00126",
+   "ingredient": "Ferrous sulfate",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f",
+   "start": "2019-03-23"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00127",
+   "ingredient": "Losartan",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f",
+   "start": "2019-03-23"
+  },
+  {
+   "dispenses": "2",
+   "id": "M00128",
+   "ingredient": "Metformin",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f",
+   "start": "2020-07-08"
+  },
+  {
+   "dispenses": "2",
+   "id": "M00129",
+   "ingredient": "Alteplase",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f",
+   "start": "2020-07-08"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00160",
+   "ingredient": "Alteplase",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29",
+   "start": "2015-02-21"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00161",
+   "ingredient": "Ferrous sulfate",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29",
+   "start": "2019-03-16"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00162",
+   "ingredient": "Aztreonam",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29",
+   "start": "2020-03-21"
+  }
+ ],
+ "patients": [
+  {
+   "id": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "id": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "id": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "id": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "id": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  }
+ ],
+ "procedures": [
+  {
+   "code": "1225002",
+   "date": "2018-09-05",
+   "description": "Upper arm X-ray",
+   "id": "P00013",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "66348005",
+   "date": "2019-09-11",
+   "description": "Childbirth",
+   "id": "P00014",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "274031008",
+   "date": "2021-09-22",
+   "description": "Rectal polypectomy",
+   "id": "P00015",
+   "patient": "0898d650-cebe-426f-01c4-5ddf8b68ef6a"
+  },
+  {
+   "code": "66348005",
+   "date": "2015-02-07",
+   "description": "Childbirth",
+   "id": "P00078",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "274031008",
+   "date": "2015-04-04",
+   "description": "Rectal polypectomy",
+   "id": "P00079",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "18946005",
+   "date": "2018-09-15",
+   "description": "Epidural anesthesia",
+   "id": "P00080",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "18946005",
+   "date": "2018-09-15",
+   "description": "Epidural anesthesia",
+   "id": "P00081",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "228557008",
+   "date": "2018-09-15",
+   "description": "Cognitive and behavioral therapy",
+   "id": "P00082",
+   "patient": "58a3b04c-07b8-fd55-b008-316dbd1fe190"
+  },
+  {
+   "code": "274031008",
+   "date": "2015-08-03",
+   "description": "Rectal polypectomy",
+   "id": "P00111",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "228557008",
+   "date": "2017-08-14",
+   "description": "Cognitive and behavioral therapy",
+   "id": "P00112",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "228557008",
+   "date": "2021-09-06",
+   "description": "Cognitive and behavioral therapy",
+   "id": "P00113",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "423475008",
+   "date": "2021-09-06",
+   "description": "Heart failure education",
+   "id": "P00114",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "52765003",
+   "date": "2021-09-06",
+   "description": "Intubation",
+   "id": "P00115",
+   "patient": "81d85a6d-8dc1-a067-0d33-832e589a20fa"
+  },
+  {
+   "code": "228557008",
+   "date": "2017-11-21",
+   "description": "Cognitive and behavioral therapy",
+   "id": "P00125",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "447365002",
+   "date": "2018-11-27",
+   "description": "Insertion of biventricular implantable cardioverter defibrillator",
+   "id": "P00126",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "18946005",
+   "date": "2019-12-03",
+   "description": "Epidural anesthesia",
+   "id": "P00127",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "423475008",
+   "date": "2020-12-08",
+   "description": "Heart failure education",
+   "id": "P00128",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "228557008",
+   "date": "2020-12-08",
+   "description": "Cognitive and behavioral therapy",
+   "id": "P00129",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "274031008",
+   "date": "2020-12-08",
+   "description": "Rectal polypectomy",
+   "id": "P00130",
+   "patient": "9b94051f-59a9-c941-61af-9acf2a9af22f"
+  },
+  {
+   "code": "18946005",
+   "date": "2016-09-24",
+   "description": "Epidural anesthesia",
+   "id": "P00161",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "269911007",
+   "date": "2017-04-15",
+   "description": "Sputum examination",
+   "id": "P00162",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "447365002",
+   "date": "2019-04-06",
+   "description": "Insertion of biventricular implantable cardioverter defibrillator",
+   "id": "P00163",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  },
+  {
+   "code": "11466000",
+   "date": "2021-10-02",
+   "description": "Cesarean section",
+   "id": "P00164",
+   "patient": "aa07a9f0-6cce-5e67-519a-2e2c5f93db29"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+A: Dimethyl hydrogen phosphite
+C: opcw_schedule_3
+C_name: Chemical Weapons Convention Schedule 3
+N_p: HN2
+N_t:
+- DF
+- 1,1-Dimethylhydrazine
+- HN3
+- Safrole
+- Tetranitromethane
+- HCFC-121
+- Polyaromatic hydrocarbons
+P_M:
+- Methyldiethanolamine
+- Diethyl phosphite
+- Thionyl chloride
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - iarc_group_2b
+    - opcw_all_schedules
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- iarc_group_2b
+- opcw_all_schedules
+field: lines.substance
+label: intake folder H2
+salience: 59528.0
+universe: chemical

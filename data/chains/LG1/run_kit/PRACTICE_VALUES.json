@@ -1,0 +1,68 @@
+{
+ "proxy_connections.client_app": {
+  "Skype.exe": {
+   "example": "EXCEL.EXE",
+   "label": "event bucket 30",
+   "level": 2,
+   "member": true
+  },
+  "Teams.exe": {
+   "example": "WINWORD.EXE",
+   "label": "audit zone 83",
+   "level": 5,
+   "member": false
+  },
+  "et.exe": {
+   "example": "WINWORD.EXE",
+   "label": "audit zone 83",
+   "level": 5,
+   "member": true
+  },
+  "wuauclt.exe": {
+   "example": "EXCEL.EXE",
+   "label": "event bucket 30",
+   "level": 2,
+   "member": false
+  }
+ },
+ "proxy_connections.port": {
+  "1433": {
+   "example": "137",
+   "label": "session tag F-88",
+   "level": 3,
+   "member": true
+  },
+  "702": {
+   "example": "137",
+   "label": "session tag F-88",
+   "level": 3,
+   "member": false
+  }
+ },
+ "proxy_connections.tld": {
+  "bj": {
+   "example": "ru",
+   "label": "gateway lane T9",
+   "level": 1,
+   "member": false
+  },
+  "et": {
+   "example": "ru",
+   "label": "gateway lane T9",
+   "level": 1,
+   "member": true
+  },
+  "ie": {
+   "example": "de",
+   "label": "access lane D5",
+   "level": 4,
+   "member": false
+  },
+  "li": {
+   "example": "de",
+   "label": "access lane D5",
+   "level": 4,
+   "member": true
+  }
+ }
+}

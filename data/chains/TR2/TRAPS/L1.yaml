@@ -1,0 +1,48 @@
+A: British Airways
+C: oneworld_members
+C_name: Oneworld member airlines
+N_p: Cabo Verde Airlines
+N_t:
+- Pacific Coastal Airlines
+- Safair
+- Sky Gates Airlines
+- Phoebus Apollo Aviation
+- Vueling
+- Phoenix Air
+- InterCaribbean Airways
+P_M:
+- Oman Air
+- Royal Jordanian
+- Royal Air Maroc
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4e_members
+    - commonwealth_airlines
+    - g20_airlines
+    - iag_group
+    - nato_airlines
+    - oecd_airlines
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a4e_members
+- commonwealth_airlines
+- flag_carrier_airlines
+- g20_airlines
+- iag_group
+- nato_airlines
+- oecd_airlines
+- oneworld_founding
+field: segments.airline
+label: desk label P5
+salience: 471950.0
+universe: airline

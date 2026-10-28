@@ -1,0 +1,666 @@
+{
+ "_path": "../run/out/UN/UN1/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "nato",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.4167,
+     "soft": 0.9074
+    },
+    "2": {
+     "C": "asean",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "nasdaq_100",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.9444
+    },
+    "4": {
+     "C": "g20",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9074
+    },
+    "5": {
+     "C": "oecd",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "5": {
+     "C": "african_union",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "5": {
+     "C": "arab_league",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "5": {
+     "C": "oic",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.1667,
+     "soft": 0.9074
+    }
+   }
+  }
+ ],
+ "requests": 108,
+ "rounds": 4,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "FR",
+    "C": "nato",
+    "C_name": "NATO member states",
+    "N_p": "CH",
+    "N_t": [
+     "ID",
+     "JP",
+     "IL",
+     "TC",
+     "SV",
+     "MH",
+     "OM"
+    ],
+    "P_M": [
+     "ME",
+     "US",
+     "AL"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20",
+       "g7",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "ehea",
+     "erasmus_countries",
+     "european_union",
+     "francophonie",
+     "g20",
+     "g7",
+     "oecd",
+     "schengen_area"
+    ],
+    "field": "applicants.nationality",
+    "salience": 2551051.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 1,
+   "pinned": {
+    "A": "FR",
+    "C": "nato",
+    "C_name": "NATO member states",
+    "N_p": "CH",
+    "N_t": [
+     "ID",
+     "JP",
+     "IL",
+     "TC",
+     "SV",
+     "MH",
+     "OM"
+    ],
+    "P_M": [
+     "ME",
+     "US",
+     "AL"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20",
+       "g7",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "ehea",
+     "erasmus_countries",
+     "european_union",
+     "francophonie",
+     "g20",
+     "g7",
+     "oecd",
+     "schengen_area"
+    ],
+    "field": "applicants.nationality",
+    "salience": 2551051.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "MY",
+    "C": "asean",
+    "C_name": "ASEAN member states",
+    "N_p": "CK",
+    "N_t": [
+     "BB",
+     "LB",
+     "PE",
+     "SS",
+     "EG",
+     "GE",
+     "TW"
+    ],
+    "P_M": [
+     "MM",
+     "LA",
+     "PH"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "commonwealth",
+       "cptpp",
+       "oic"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "commonwealth",
+     "cptpp",
+     "oic"
+    ],
+    "field": "references.country",
+    "salience": 1292950.0,
+    "universe": "country"
+   },
+   "field": "references.country",
+   "level": 2,
+   "pinned": {
+    "A": "MY",
+    "C": "asean",
+    "C_name": "ASEAN member states",
+    "N_p": "CK",
+    "N_t": [
+     "BB",
+     "LB",
+     "PE",
+     "SS",
+     "EG",
+     "GE",
+     "TW"
+    ],
+    "P_M": [
+     "MM",
+     "LA",
+     "PH"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "commonwealth",
+       "cptpp",
+       "oic"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "commonwealth",
+     "cptpp",
+     "oic"
+    ],
+    "field": "references.country",
+    "salience": 1292950.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Apple Inc.",
+    "C": "nasdaq_100",
+    "C_name": "Nasdaq-100 constituents",
+    "N_p": "Truist Financial",
+    "N_t": [
+     "Chevron Corporation",
+     "Sherwin-Williams",
+     "ExxonMobil",
+     "Warehouses De Pauw",
+     "Acciona",
+     "United Parcel Service",
+     "3M"
+    ],
+    "P_M": [
+     "Ferrovial",
+     "Constellation Energy",
+     "Paychex"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "dow_global_titans",
+       "dow_jones",
+       "fortune_global_500",
+       "sp500"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "dow_global_titans",
+     "dow_jones",
+     "fortune_global_500",
+     "interbrand_top10_2025",
+     "sp500"
+    ],
+    "field": "applications.sponsor_company",
+    "salience": 16238813.0,
+    "universe": "sponsor_company"
+   },
+   "field": "applications.sponsor_company",
+   "level": 3,
+   "pinned": {
+    "A": "Apple Inc.",
+    "C": "nasdaq_100",
+    "C_name": "Nasdaq-100 constituents",
+    "N_p": "Truist Financial",
+    "N_t": [
+     "Chevron Corporation",
+     "Sherwin-Williams",
+     "ExxonMobil",
+     "Warehouses De Pauw",
+     "Acciona",
+     "United Parcel Service",
+     "3M"
+    ],
+    "P_M": [
+     "Ferrovial",
+     "Constellation Energy",
+     "Paychex"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "dow_global_titans",
+       "dow_jones",
+       "fortune_global_500",
+       "sp500"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "dow_global_titans",
+     "dow_jones",
+     "fortune_global_500",
+     "interbrand_top10_2025",
+     "sp500"
+    ],
+    "field": "applications.sponsor_company",
+    "salience": 16238813.0,
+    "universe": "sponsor_company"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "CA",
+    "C": "g20",
+    "C_name": "G20 members",
+    "N_p": "TD",
+    "N_t": [
+     "IS",
+     "GH",
+     "CZ",
+     "IM",
+     "CX",
+     "MQ",
+     "HR"
+    ],
+    "P_M": [
+     "BR",
+     "SA",
+     "AR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arctic_council",
+       "commonwealth",
+       "nato",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 24,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arctic_council",
+     "commonwealth",
+     "cptpp",
+     "five_eyes",
+     "francophonie",
+     "g7",
+     "nato",
+     "oecd"
+    ],
+    "field": "applicants.nationality",
+    "salience": 995333.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 4,
+   "pinned": {
+    "A": "CA",
+    "C": "g20",
+    "C_name": "G20 members",
+    "N_p": "TD",
+    "N_t": [
+     "IS",
+     "GH",
+     "CZ",
+     "IM",
+     "CX",
+     "MQ",
+     "HR"
+    ],
+    "P_M": [
+     "BR",
+     "SA",
+     "AR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arctic_council",
+       "commonwealth",
+       "nato",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 24,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arctic_council",
+     "commonwealth",
+     "cptpp",
+     "five_eyes",
+     "francophonie",
+     "g7",
+     "nato",
+     "oecd"
+    ],
+    "field": "applicants.nationality",
+    "salience": 995333.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "TR",
+    "C": "oic",
+    "C_name": "Organisation of Islamic Cooperation member states",
+    "N_p": "MX",
+    "N_t": [
+     "IT",
+     "GB",
+     "SE",
+     "LV",
+     "AX",
+     "KR",
+     "VN"
+    ],
+    "P_M": [
+     "ML",
+     "GY",
+     "TJ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe",
+       "ehea",
+       "erasmus_countries",
+       "g20",
+       "nato",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "ehea",
+     "erasmus_countries",
+     "g20",
+     "nato",
+     "oecd"
+    ],
+    "field": "references.country",
+    "salience": 272956.0,
+    "universe": "country"
+   },
+   "field": "references.country",
+   "level": 5,
+   "pinned": {
+    "A": "TR",
+    "C": "oic",
+    "C_name": "Organisation of Islamic Cooperation member states",
+    "N_p": "MX",
+    "N_t": [
+     "IT",
+     "GB",
+     "SE",
+     "LV",
+     "AX",
+     "KR",
+     "VN"
+    ],
+    "P_M": [
+     "ML",
+     "GY",
+     "TJ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe",
+       "ehea",
+       "erasmus_countries",
+       "g20",
+       "nato",
+       "oecd"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "ehea",
+     "erasmus_countries",
+     "g20",
+     "nato",
+     "oecd"
+    ],
+    "field": "references.country",
+    "salience": 272956.0,
+    "universe": "country"
+   },
+   "tried": [
+    "oecd",
+    "african_union",
+    "arab_league"
+   ]
+  }
+ ],
+ "stage": "done"
+}

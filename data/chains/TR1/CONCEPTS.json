@@ -1,0 +1,163 @@
+{
+ "L1": {
+  "C": "star_alliance_founding",
+  "competitors": [
+   {
+    "id": "a4e_members",
+    "name": "Airlines for Europe member airlines"
+   },
+   {
+    "id": "eu_airlines",
+    "name": "Airlines of European Union member states"
+   },
+   {
+    "id": "flag_carrier_airlines",
+    "name": "Flag-carrying airlines of their countries"
+   },
+   {
+    "id": "g20_airlines",
+    "name": "Airlines of Group of Twenty member states"
+   },
+   {
+    "id": "lufthansa_group",
+    "name": "Lufthansa Group airlines"
+   },
+   {
+    "id": "nato_airlines",
+    "name": "Airlines of NATO member states"
+   },
+   {
+    "id": "oecd_airlines",
+    "name": "Airlines of OECD member states"
+   },
+   {
+    "id": "star_alliance_members",
+    "name": "Star Alliance member airlines"
+   }
+  ],
+  "name": "Founding member airlines of Star Alliance",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "opec_airports",
+  "competitors": [
+   {
+    "id": "african_union_airports",
+    "name": "Airports in African Union member states"
+   },
+   {
+    "id": "amu_airports",
+    "name": "Airports in Arab Maghreb Union member states"
+   },
+   {
+    "id": "arab_league_airports",
+    "name": "Airports in Arab League member states"
+   },
+   {
+    "id": "oic_airports",
+    "name": "Airports in Organisation of Islamic Cooperation member states"
+   }
+  ],
+  "name": "Airports in OPEC member states",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "brics_currencies",
+  "competitors": [
+   {
+    "id": "african_union_currencies",
+    "name": "Currencies of African Union member states"
+   },
+   {
+    "id": "commonwealth_currencies",
+    "name": "Currencies of Commonwealth of Nations member states"
+   },
+   {
+    "id": "currency_union_currencies",
+    "name": "Currencies of existing currency unions listed in the Currency union article"
+   },
+   {
+    "id": "g20_currencies",
+    "name": "Currencies of G20 member states"
+   },
+   {
+    "id": "sacu_currencies",
+    "name": "Currencies of Southern African Customs Union member states"
+   },
+   {
+    "id": "sadc_currencies",
+    "name": "Currencies of Southern African Development Community member states"
+   }
+  ],
+  "name": "Currencies of BRICS member states",
+  "synonyms": [
+   "BRICS currencies"
+  ]
+ },
+ "L4": {
+  "C": "nato_airlines",
+  "competitors": [
+   {
+    "id": "apec_airlines",
+    "name": "Airlines of Asia-Pacific Economic Cooperation member economies"
+   },
+   {
+    "id": "commonwealth_airlines",
+    "name": "Airlines of Commonwealth of Nations member states"
+   },
+   {
+    "id": "flag_carrier_airlines",
+    "name": "Flag-carrying airlines of their countries"
+   },
+   {
+    "id": "g20_airlines",
+    "name": "Airlines of Group of Twenty member states"
+   },
+   {
+    "id": "oas_airlines",
+    "name": "Airlines of Organization of American States member states"
+   },
+   {
+    "id": "oecd_airlines",
+    "name": "Airlines of OECD member states"
+   },
+   {
+    "id": "star_alliance_founding",
+    "name": "Founding member airlines of Star Alliance"
+   },
+   {
+    "id": "star_alliance_members",
+    "name": "Star Alliance member airlines"
+   }
+  ],
+  "name": "Airlines of NATO member states",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "schengen_airports",
+  "competitors": [
+   {
+    "id": "coe_airports",
+    "name": "Airports in Council of Europe member states"
+   },
+   {
+    "id": "eea_airports",
+    "name": "Airports in the European Economic Area"
+   },
+   {
+    "id": "eu_airports",
+    "name": "Airports in the European Union"
+   },
+   {
+    "id": "turkic_airports",
+    "name": "Airports in Organization of Turkic States member states"
+   },
+   {
+    "id": "visegrad_airports",
+    "name": "Airports in Visegrad Group member states"
+   }
+  ],
+  "name": "Airports in the Schengen Area",
+  "synonyms": []
+ }
+}

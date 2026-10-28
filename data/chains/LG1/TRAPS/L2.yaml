@@ -1,0 +1,43 @@
+A: EXCEL.EXE
+C: office_ltsc_2021_apps
+C_name: Office LTSC Professional Plus 2021 applications
+N_p: wuauclt.exe
+N_t:
+- explorer.exe
+- wpp.exe
+- soffice.exe
+- WinSCP.exe
+- Wiz.exe
+- WeCom.exe
+- telegram.exe
+P_M:
+- Skype.exe
+- OUTLOOK.EXE
+- ONENOTE.EXE
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - microsoft_products
+    - office_document_apps
+    - office_suites
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- microsoft_productivity_apps
+- microsoft_products
+- office_document_apps
+- office_ltsc_2024_apps
+- office_suites
+- uptodown_top_downloads
+field: proxy_connections.client_app
+label: event bucket 30
+salience: 84299.0
+universe: client_app

@@ -1,0 +1,250 @@
+value	entity	aliases	attr:continent	attr:region
+AD	Andorra		EU	Europe
+AE	United Arab Emirates		AS	Asia
+AF	Afghanistan		AS	Asia
+AG	Antigua and Barbuda		NA	Americas
+AI	Anguilla		NA	Americas
+AL	Albania		EU	Europe
+AM	Armenia		AS	Asia
+AO	Angola		AF	Africa
+AQ	Antarctica		AN	?
+AR	Argentina		SA	Americas
+AS	American Samoa		OC	Oceania
+AT	Austria		EU	Europe
+AU	Australia		OC	Oceania
+AW	Aruba		NA	Americas
+AX	Åland Islands		EU	Europe
+AZ	Azerbaijan		AS	Asia
+BA	Bosnia and Herzegovina		EU	Europe
+BB	Barbados		NA	Americas
+BD	Bangladesh		AS	Asia
+BE	Belgium		EU	Europe
+BF	Burkina Faso		AF	Africa
+BG	Bulgaria		EU	Europe
+BH	Bahrain		AS	Asia
+BI	Burundi		AF	Africa
+BJ	Benin		AF	Africa
+BL	Saint Barthélemy		NA	Americas
+BM	Bermuda		NA	Americas
+BN	Brunei Darussalam		AS	Asia
+BO	Bolivia (Plurinational State of)		SA	Americas
+BQ	Bonaire, Sint Eustatius and Saba		NA	Americas
+BR	Brazil		SA	Americas
+BS	Bahamas		NA	Americas
+BT	Bhutan		AS	Asia
+BV	Bouvet Island		AN	Americas
+BW	Botswana		AF	Africa
+BY	Belarus		EU	Europe
+BZ	Belize		NA	Americas
+CA	Canada		NA	Americas
+CC	Cocos (Keeling) Islands		AS	Oceania
+CD	Democratic Republic of the Congo		AF	Africa
+CF	Central African Republic		AF	Africa
+CG	Congo		AF	Africa
+CH	Switzerland		EU	Europe
+CI	Ivory Coast		AF	Africa
+CK	Cook Islands		OC	Oceania
+CL	Chile		SA	Americas
+CM	Cameroon		AF	Africa
+CN	China		AS	Asia
+CO	Colombia		SA	Americas
+CR	Costa Rica		NA	Americas
+CU	Cuba		NA	Americas
+CV	Cabo Verde		AF	Africa
+CW	Curaçao		NA	Americas
+CX	Christmas Island		OC	Oceania
+CY	Cyprus		EU	Asia
+CZ	Czechia		EU	Europe
+DE	Germany		EU	Europe
+DJ	Djibouti		AF	Africa
+DK	Denmark		EU	Europe
+DM	Dominica		NA	Americas
+DO	Dominican Republic		NA	Americas
+DZ	Algeria		AF	Africa
+EC	Ecuador		SA	Americas
+EE	Estonia		EU	Europe
+EG	Egypt		AF	Africa
+EH	Western Sahara		AF	Africa
+ER	Eritrea		AF	Africa
+ES	Spain		EU	Europe
+ET	Ethiopia		AF	Africa
+FI	Finland		EU	Europe
+FJ	Fiji		OC	Oceania
+FK	Falkland Islands		SA	Americas
+FM	Micronesia (Federated States of)		OC	Oceania
+FO	Faroe Islands		EU	Europe
+FR	France		EU	Europe
+GA	Gabon		AF	Africa
+GB	United Kingdom of Great Britain and Northern Ireland		EU	Europe
+GD	Grenada		NA	Americas
+GE	Georgia		AS	Asia
+GF	French Guiana		SA	Americas
+GG	Guernsey		EU	Europe
+GH	Ghana		AF	Africa
+GI	Gibraltar		EU	Europe
+GL	Greenland		NA	Americas
+GM	Gambia		AF	Africa
+GN	Guinea		AF	Africa
+GP	Guadeloupe		NA	Americas
+GQ	Equatorial Guinea		AF	Africa
+GR	Greece		EU	Europe
+GS	South Georgia and the South Sandwich Islands		AN	Americas
+GT	Guatemala		NA	Americas
+GU	Guam		OC	Oceania
+GW	Guinea-Bissau		AF	Africa
+GY	Guyana		SA	Americas
+HK	China, Hong Kong Special Administrative Region		AS	Asia
+HM	Heard Island and McDonald Islands		AN	Oceania
+HN	Honduras		NA	Americas
+HR	Croatia		EU	Europe
+HT	Haiti		NA	Americas
+HU	Hungary		EU	Europe
+ID	Indonesia		AS	Asia
+IE	Ireland		EU	Europe
+IL	Israel		AS	Asia
+IM	Isle of Man		EU	Europe
+IN	India		AS	Asia
+IO	British Indian Ocean Territory		AS	Africa
+IQ	Iraq		AS	Asia
+IR	Iran (Islamic Republic of)		AS	Asia
+IS	Iceland		EU	Europe
+IT	Italy		EU	Europe
+JE	Jersey		EU	Europe
+JM	Jamaica		NA	Americas
+JO	Jordan		AS	Asia
+JP	Japan		AS	Asia
+KE	Kenya		AF	Africa
+KG	Kyrgyzstan		AS	Asia
+KH	Cambodia		AS	Asia
+KI	Kiribati		OC	Oceania
+KM	Comoros		AF	Africa
+KN	Saint Kitts and Nevis		NA	Americas
+KP	Democratic People's Republic of Korea		AS	Asia
+KR	Republic of Korea		AS	Asia
+KW	Kuwait		AS	Asia
+KY	Cayman Islands		NA	Americas
+KZ	Kazakhstan		AS	Asia
+LA	Lao People's Democratic Republic		AS	Asia
+LB	Lebanon		AS	Asia
+LC	Saint Lucia		NA	Americas
+LI	Liechtenstein		EU	Europe
+LK	Sri Lanka		AS	Asia
+LR	Liberia		AF	Africa
+LS	Lesotho		AF	Africa
+LT	Lithuania		EU	Europe
+LU	Luxembourg		EU	Europe
+LV	Latvia		EU	Europe
+LY	Libya		AF	Africa
+MA	Morocco		AF	Africa
+MC	Monaco		EU	Europe
+MD	Republic of Moldova		EU	Europe
+ME	Montenegro		EU	Europe
+MF	Saint Martin (French Part)		NA	Americas
+MG	Madagascar		AF	Africa
+MH	Marshall Islands		OC	Oceania
+MK	North Macedonia		EU	Europe
+ML	Mali		AF	Africa
+MM	Myanmar		AS	Asia
+MN	Mongolia		AS	Asia
+MO	China, Macao Special Administrative Region		AS	Asia
+MP	Northern Mariana Islands		OC	Oceania
+MQ	Martinique		NA	Americas
+MR	Mauritania		AF	Africa
+MS	Montserrat		NA	Americas
+MT	Malta		EU	Europe
+MU	Mauritius		AF	Africa
+MV	Maldives		AS	Asia
+MW	Malawi		AF	Africa
+MX	Mexico		NA	Americas
+MY	Malaysia		AS	Asia
+MZ	Mozambique		AF	Africa
+NA	Namibia		AF	Africa
+NC	New Caledonia		OC	Oceania
+NE	Niger		AF	Africa
+NF	Norfolk Island		OC	Oceania
+NG	Nigeria		AF	Africa
+NI	Nicaragua		NA	Americas
+NL	Netherlands		EU	Europe
+NO	Norway		EU	Europe
+NP	Nepal		AS	Asia
+NR	Nauru		OC	Oceania
+NU	Niue		OC	Oceania
+NZ	New Zealand		OC	Oceania
+OM	Oman		AS	Asia
+PA	Panama		NA	Americas
+PE	Peru		SA	Americas
+PF	French Polynesia		OC	Oceania
+PG	Papua New Guinea		OC	Oceania
+PH	Philippines		AS	Asia
+PK	Pakistan		AS	Asia
+PL	Poland		EU	Europe
+PM	Saint Pierre and Miquelon		NA	Americas
+PN	Pitcairn		OC	Oceania
+PR	Puerto Rico		NA	Americas
+PS	State of Palestine		AS	Asia
+PT	Portugal		EU	Europe
+PW	Palau		OC	Oceania
+PY	Paraguay		SA	Americas
+QA	Qatar		AS	Asia
+RE	Réunion		AF	Africa
+RO	Romania		EU	Europe
+RS	Serbia		EU	Europe
+RU	Russian Federation		EU	Europe
+RW	Rwanda		AF	Africa
+SA	Saudi Arabia		AS	Asia
+SB	Solomon Islands		OC	Oceania
+SC	Seychelles		AF	Africa
+SD	Sudan		AF	Africa
+SE	Sweden		EU	Europe
+SG	Singapore		AS	Asia
+SH	Saint Helena		AF	Africa
+SI	Slovenia		EU	Europe
+SJ	Svalbard and Jan Mayen Islands		EU	Europe
+SK	Slovakia		EU	Europe
+SL	Sierra Leone		AF	Africa
+SM	San Marino		EU	Europe
+SN	Senegal		AF	Africa
+SO	Somalia		AF	Africa
+SR	Suriname		SA	Americas
+SS	South Sudan		AF	Africa
+ST	Sao Tome and Principe		AF	Africa
+SV	El Salvador		NA	Americas
+SX	Sint Maarten (Dutch part)		NA	Americas
+SY	Syrian Arab Republic		AS	Asia
+SZ	Eswatini		AF	Africa
+TC	Turks and Caicos Islands		NA	Americas
+TD	Chad		AF	Africa
+TF	French Southern Territories		AN	Africa
+TG	Togo		AF	Africa
+TH	Thailand		AS	Asia
+TJ	Tajikistan		AS	Asia
+TK	Tokelau		OC	Oceania
+TL	Timor-Leste		OC	Asia
+TM	Turkmenistan		AS	Asia
+TN	Tunisia		AF	Africa
+TO	Tonga		OC	Oceania
+TR	Türkiye		AS	Asia
+TT	Trinidad and Tobago		NA	Americas
+TV	Tuvalu		OC	Oceania
+TW	Taiwan		AS	Asia
+TZ	United Republic of Tanzania		AF	Africa
+UA	Ukraine		EU	Europe
+UG	Uganda		AF	Africa
+UM	United States Minor Outlying Islands		OC	Oceania
+US	United States of America		NA	Americas
+UY	Uruguay		SA	Americas
+UZ	Uzbekistan		AS	Asia
+VA	Holy See		EU	Europe
+VC	Saint Vincent and the Grenadines		NA	Americas
+VE	Venezuela (Bolivarian Republic of)		SA	Americas
+VG	British Virgin Islands		NA	Americas
+VI	United States Virgin Islands		NA	Americas
+VN	Viet Nam		AS	Asia
+VU	Vanuatu		OC	Oceania
+WF	Wallis and Futuna Islands		OC	Oceania
+WS	Samoa		OC	Oceania
+YE	Yemen		AS	Asia
+YT	Mayotte		AF	Africa
+ZA	South Africa		AF	Africa
+ZM	Zambia		AF	Africa
+ZW	Zimbabwe		AF	Africa

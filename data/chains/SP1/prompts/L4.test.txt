@@ -1,0 +1,510 @@
+A sports marketing agency reconciles sponsorship activation counts for sponsor brands before settlement.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with sponsor_brands, contracts, and activations; each activation points to one contract, and each contract points to one sponsor brand.
+
+Each activation is one unit in the total of the sponsor brand reached through its contract; an activation is left out when one of its trap-field values is rejected.
+Return the sum of the totals of all sponsor brands in the input, as an int.
+
+Field notes:
+- An activation whose club is 'Real Madrid' is in handling class P8.
+- An activation whose co_sponsor is 'ASML' is in review tag 70.
+- An activation whose market_country is 'CA' is in audit lane N-59.
+- An activation whose club is 'Inter Milan' is in review code W2.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, activations in handling class P8 are not counted.
+L2: From this level on, activations in review tag 70 are not counted.
+L3: From this level on, activations in audit lane N-59 are not counted.
+L4: From this level on, activations in review code W2 are not counted.
+
+Value reference:
+activations.club:
+- 1. FC Köln — German football club based in Cologne, in North Rhine-Westphalia.
+- 1. FC Saarbrücken — German association football club based in the city of Saarbrücken, Saarland.
+- Al Ahly — Association football club in Cairo, Egypt.
+- Anderlecht — Belgian association football club.
+- Arenas — Association football club.
+- Arsenal — Association football club in London, England.
+- Bayer Leverkusen — Association football club in Leverkusen, Germany.
+- Boca Juniors — Argentine sports club.
+- CSKA Moscow — Russian association football club in Moscow.
+- Club Brugge — Association football club in Belgium.
+- Dinamo Zagreb — Association football club in Zagreb, Croatia.
+- Dynamo Kyiv — Professional association football club based in Kyiv, Ukraine.
+- Eintracht Frankfurt — Sports club based in Frankfurt am Main, Hesse, Germany.
+- Everton — Association football club in Liverpool, England.
+- Feyenoord — Dutch football club based in Rotterdam.
+- Galatasaray — Turkish association football team.
+- Hamburger SV — German sports club based in Hamburg, with its largest branch being its football department.
+- Inter Milan — Association football club based in Milan, Lombardy, Italy.
+- Ipswich Town — Association football club in Ipswich, England.
+- Monterrey — Mexican association football club.
+- Nottingham Forest — Association football club in West Bridgford, England.
+- Padova — Italian association football club.
+- Palmeiras — Brazilian sports club.
+- Racing Santander — Spanish football club.
+- Real Madrid — Association football club in Madrid, Spain.
+- Roma — Association football club in Rome, Italy.
+- Shakhtar Donetsk — Professional football club based in Donetsk, Ukraine.
+- Sparta Prague — Professional football club based in Prague, Czechia.
+- Sporting CP — Sports club based in Lisbon, Portugal.
+- Steaua București — Association football club in Bucharest, Romania.
+- VfB Stuttgart — German football team based in the city of Stuttgart, founded in 1893.
+- West Ham United — Association football club in London, England.
+- Zaragoza — Spanish association football team based in Zaragoza.
+- Zenit Saint Petersburg — Association football club in Saint Petersburg.
+activations.co_sponsor:
+- ABB Ltd — Swedish-Swiss robotics and electrical equipment company.
+- ASML — Dutch company and supplier of photolithography systems.
+- ASR Nederland — Business.
+- Alfa Laval — Swedish manufacturing company.
+- AppLovin — American company.
+- Auto Trader Group — Automotive classified advertising business.
+- Bureau Veritas — French company.
+- Crédit Agricole — International cooperative financial group headquartered in France.
+- Danaher Corporation — American conglomerate.
+- Datadog — US IT company.
+- Deutsche Bank — German global banking and financial services company.
+- Deutsche Post — German mail and parcel delivery service.
+- Eurofins Scientific — French laboratory group.
+- Fluidra — Swimming pool and wellness equipment company.
+- Hiscox — Bermuda-incorporated insurance provider, listed on the London Stock Exchange.
+- Johnson & Johnson — U.S. multinational manufacturer of pharmaceuticals and medical devices.
+- Kering — French business (1962-).
+- Lam Research — American company.
+- Lloyds Banking Group — British financial institution.
+- Microchip Technology — American integrated circuit company.
+- Micron Technology — American multinational corporation based in Boise, Idaho.
+- Monolithic Power Systems — U.S. information technology company.
+- Nike — American athletic equipment company.
+- Partners Group — Swiss-based global private equity firm.
+- Puma — German multinational corporation.
+- Sherwin-Williams — American paint and coatings manufacturing company.
+- Solvay — Belgian chemical company.
+- Taylor Wimpey — British based housebuilding company.
+- Thermo Fisher Scientific — Multinational company providing scientific instrumentation.
+- Union Pacific Corporation — American railroad company.
+- Veolia — Company.
+- Verizon — American broadband and telecommunications company.
+- Volkswagen Group — German automotive manufacturing conglomerate.
+- Walmart — U.S. discount retailer based in Arkansas.
+activations.market_country:
+- CA — Canada; Canada is a country or territory in Americas.
+- CG — Congo; Congo is a country or territory in Africa.
+- CL — Chile; Chile is a country or territory in Americas.
+- CX — Christmas Island; Christmas Island is a country or territory in Oceania.
+- DE — Germany; Germany is a country or territory in Europe.
+- ES — Spain; Spain is a country or territory in Europe.
+- FI — Finland; Finland is a country or territory in Europe.
+- GF — French Guiana; French Guiana is a country or territory in Americas.
+- GI — Gibraltar; Gibraltar is a country or territory in Europe.
+- HU — Hungary; Hungary is a country or territory in Europe.
+- KI — Kiribati; Kiribati is a country or territory in Oceania.
+- LA — Lao People's Democratic Republic; Lao People's Democratic Republic is a country or territory in Asia.
+- LK — Sri Lanka; Sri Lanka is a country or territory in Asia.
+- LR — Liberia; Liberia is a country or territory in Africa.
+- MM — Myanmar; Myanmar is a country or territory in Asia.
+- MX — Mexico; Mexico is a country or territory in Americas.
+- RU — Russian Federation; Russian Federation is a country or territory in Europe.
+- SH — Saint Helena, Ascension and Tristan da Cunha; Saint Helena, Ascension and Tristan da Cunha is a country or territory in Africa.
+- SI — Slovenia; Slovenia is a country or territory in Europe.
+- TD — Chad; Chad is a country or territory in Africa.
+- TZ — Tanzania, United Republic of; Tanzania, United Republic of is a country or territory in Africa.
+- VI — Virgin Islands (U.S.); Virgin Islands (U.S.) is a country or territory in Americas.
+
+Example input:
+{
+ "activations": [
+  {
+   "club": "1. FC Köln",
+   "co_sponsor": "Partners Group",
+   "contract_id": "CT010",
+   "id": "AC0068",
+   "market_country": "TD"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Lam Research",
+   "contract_id": "CT010",
+   "id": "AC0069",
+   "market_country": "CL"
+  },
+  {
+   "club": "Zenit Saint Petersburg",
+   "co_sponsor": "Puma",
+   "contract_id": "CT010",
+   "id": "AC0070",
+   "market_country": "VI"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Veolia",
+   "contract_id": "CT010",
+   "id": "AC0071",
+   "market_country": "CG"
+  },
+  {
+   "club": "Inter Milan",
+   "co_sponsor": "Puma",
+   "contract_id": "CT010",
+   "id": "AC0072",
+   "market_country": "MM"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Lam Research",
+   "contract_id": "CT010",
+   "id": "AC0073",
+   "market_country": "GI"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT010",
+   "id": "AC0074",
+   "market_country": "LA"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT010",
+   "id": "AC0075",
+   "market_country": "TD"
+  },
+  {
+   "club": "1. FC Saarbrücken",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT023",
+   "id": "AC0160",
+   "market_country": "CX"
+  },
+  {
+   "club": "West Ham United",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT023",
+   "id": "AC0161",
+   "market_country": "CA"
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "co_sponsor": "Taylor Wimpey",
+   "contract_id": "CT023",
+   "id": "AC0162",
+   "market_country": "CG"
+  },
+  {
+   "club": "1. FC Köln",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT023",
+   "id": "AC0163",
+   "market_country": "HU"
+  },
+  {
+   "club": "Zenit Saint Petersburg",
+   "co_sponsor": "Taylor Wimpey",
+   "contract_id": "CT023",
+   "id": "AC0164",
+   "market_country": "CX"
+  },
+  {
+   "club": "Club Brugge",
+   "co_sponsor": "Lam Research",
+   "contract_id": "CT023",
+   "id": "AC0165",
+   "market_country": "SI"
+  },
+  {
+   "club": "Club Brugge",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT023",
+   "id": "AC0166",
+   "market_country": "CL"
+  },
+  {
+   "club": "West Ham United",
+   "co_sponsor": "Lam Research",
+   "contract_id": "CT027",
+   "id": "AC0189",
+   "market_country": "HU"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Veolia",
+   "contract_id": "CT027",
+   "id": "AC0190",
+   "market_country": "VI"
+  },
+  {
+   "club": "Zenit Saint Petersburg",
+   "co_sponsor": "Lloyds Banking Group",
+   "contract_id": "CT027",
+   "id": "AC0191",
+   "market_country": "CL"
+  },
+  {
+   "club": "Real Madrid",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT027",
+   "id": "AC0192",
+   "market_country": "GI"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT027",
+   "id": "AC0193",
+   "market_country": "GI"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Partners Group",
+   "contract_id": "CT027",
+   "id": "AC0194",
+   "market_country": "HU"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT027",
+   "id": "AC0195",
+   "market_country": "HU"
+  },
+  {
+   "club": "Padova",
+   "co_sponsor": "Lloyds Banking Group",
+   "contract_id": "CT027",
+   "id": "AC0196",
+   "market_country": "GI"
+  },
+  {
+   "club": "West Ham United",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT033",
+   "id": "AC0240",
+   "market_country": "LA"
+  },
+  {
+   "club": "1. FC Saarbrücken",
+   "co_sponsor": "Puma",
+   "contract_id": "CT033",
+   "id": "AC0241",
+   "market_country": "HU"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT033",
+   "id": "AC0242",
+   "market_country": "GI"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT033",
+   "id": "AC0243",
+   "market_country": "HU"
+  },
+  {
+   "club": "Padova",
+   "co_sponsor": "Veolia",
+   "contract_id": "CT033",
+   "id": "AC0244",
+   "market_country": "MM"
+  },
+  {
+   "club": "Club Brugge",
+   "co_sponsor": "ASML",
+   "contract_id": "CT033",
+   "id": "AC0245",
+   "market_country": "CG"
+  },
+  {
+   "club": "Padova",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT033",
+   "id": "AC0246",
+   "market_country": "CL"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Taylor Wimpey",
+   "contract_id": "CT033",
+   "id": "AC0247",
+   "market_country": "MM"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT034",
+   "id": "AC0248",
+   "market_country": "HU"
+  },
+  {
+   "club": "Club Brugge",
+   "co_sponsor": "Lam Research",
+   "contract_id": "CT034",
+   "id": "AC0249",
+   "market_country": "TD"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Veolia",
+   "contract_id": "CT034",
+   "id": "AC0250",
+   "market_country": "CG"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT034",
+   "id": "AC0251",
+   "market_country": "MM"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT034",
+   "id": "AC0252",
+   "market_country": "HU"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Veolia",
+   "contract_id": "CT034",
+   "id": "AC0253",
+   "market_country": "TD"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Verizon",
+   "contract_id": "CT034",
+   "id": "AC0254",
+   "market_country": "VI"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Partners Group",
+   "contract_id": "CT034",
+   "id": "AC0255",
+   "market_country": "MM"
+  },
+  {
+   "club": "Padova",
+   "co_sponsor": "Puma",
+   "contract_id": "CT034",
+   "id": "AC0256",
+   "market_country": "LA"
+  },
+  {
+   "club": "1. FC Saarbrücken",
+   "co_sponsor": "Puma",
+   "contract_id": "CT035",
+   "id": "AC0257",
+   "market_country": "LA"
+  },
+  {
+   "club": "West Ham United",
+   "co_sponsor": "Puma",
+   "contract_id": "CT035",
+   "id": "AC0258",
+   "market_country": "SI"
+  },
+  {
+   "club": "Everton",
+   "co_sponsor": "Thermo Fisher Scientific",
+   "contract_id": "CT035",
+   "id": "AC0259",
+   "market_country": "HU"
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "co_sponsor": "Taylor Wimpey",
+   "contract_id": "CT035",
+   "id": "AC0260",
+   "market_country": "TD"
+  },
+  {
+   "club": "Racing Santander",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT035",
+   "id": "AC0261",
+   "market_country": "CL"
+  },
+  {
+   "club": "CSKA Moscow",
+   "co_sponsor": "Auto Trader Group",
+   "contract_id": "CT035",
+   "id": "AC0262",
+   "market_country": "VI"
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "co_sponsor": "Crédit Agricole",
+   "contract_id": "CT035",
+   "id": "AC0263",
+   "market_country": "LA"
+  }
+ ],
+ "contracts": [
+  {
+   "brand_id": "BR10",
+   "id": "CT010",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR23",
+   "id": "CT023",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR27",
+   "id": "CT027",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR33",
+   "id": "CT033",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR34",
+   "id": "CT034",
+   "year": 2026
+  },
+  {
+   "brand_id": "BR35",
+   "id": "CT035",
+   "year": 2026
+  }
+ ],
+ "sponsor_brands": [
+  {
+   "id": "BR10",
+   "name": "Evergreen Foods"
+  },
+  {
+   "id": "BR23",
+   "name": "Lighthouse Telecom"
+  },
+  {
+   "id": "BR27",
+   "name": "Nimbus Networks"
+  },
+  {
+   "id": "BR33",
+   "name": "Silverline Apparel"
+  },
+  {
+   "id": "BR34",
+   "name": "Terra Agritech"
+  },
+  {
+   "id": "BR35",
+   "name": "Union Payments"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "inspections.port": {
+  "GEBUS": {
+   "example": "DEBER",
+   "label": "monitoring schedule C-14",
+   "level": 3,
+   "member": true
+  },
+  "NLRTM": {
+   "example": "DEBER",
+   "label": "monitoring schedule C-14",
+   "level": 3,
+   "member": false
+  }
+ },
+ "ships.flag_state": {
+  "BR": {
+   "example": "ZA",
+   "label": "follow-up docket S3",
+   "level": 4,
+   "member": true
+  },
+  "JP": {
+   "example": "FR",
+   "label": "follow-up docket D4",
+   "level": 1,
+   "member": true
+  },
+  "SA": {
+   "example": "ZA",
+   "label": "follow-up docket S3",
+   "level": 4,
+   "member": false
+  },
+  "TR": {
+   "example": "FR",
+   "label": "follow-up docket D4",
+   "level": 1,
+   "member": false
+  }
+ },
+ "ships.owner_country": {
+  "AL": {
+   "example": "DE",
+   "label": "review ledger 71",
+   "level": 2,
+   "member": true
+  },
+  "CY": {
+   "example": "DE",
+   "label": "review ledger 71",
+   "level": 2,
+   "member": false
+  },
+  "IN": {
+   "example": "CA",
+   "label": "follow-up docket 11",
+   "level": 5,
+   "member": true
+  },
+  "PG": {
+   "example": "CA",
+   "label": "follow-up docket 11",
+   "level": 5,
+   "member": false
+  }
+ }
+}

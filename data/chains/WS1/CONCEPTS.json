@@ -1,0 +1,256 @@
+{
+ "L1": {
+  "C": "cwe1400_encryption",
+  "competitors": [
+   {
+    "id": "cwe1000_664",
+    "name": "CWE-1000 Research Concepts subtree: Improper Control of a Resource Through its Lifetime (CWE-664)"
+   },
+   {
+    "id": "cwe1000_693",
+    "name": "CWE-1000 Research Concepts subtree: Protection Mechanism Failure (CWE-693)"
+   },
+   {
+    "id": "encrypt_data",
+    "name": "Encrypt Data"
+   },
+   {
+    "id": "owasp2017_a03",
+    "name": "OWASP Top Ten 2017 Category A3 - Sensitive Data Exposure"
+   },
+   {
+    "id": "owasp2021_a04",
+    "name": "OWASP Top Ten 2021 Category A04:2021 - Insecure Design"
+   },
+   {
+    "id": "owasp2025_a06",
+    "name": "OWASP Top Ten 2025 Category A06:2025 - Insecure Design"
+   },
+   {
+    "id": "sfp_exposed_data",
+    "name": "SFP Secondary Cluster: Exposed Data"
+   },
+   {
+    "id": "sfp_information_leak",
+    "name": "SFP Primary Cluster: Information Leak"
+   }
+  ],
+  "name": "CWE-1400 Comprehensive Categorization for Software Assurance Trends category: Comprehensive Categorization: Encryption (CWE-1402)",
+  "synonyms": [
+   "Comprehensive Categorization: Encryption",
+   "CWE-1402 category"
+  ]
+ },
+ "L2": {
+  "C": "italic_languages",
+  "competitors": [
+   {
+    "id": "au_working_languages",
+    "name": "Working languages of the African Union"
+   },
+   {
+    "id": "canada_knowledge_languages",
+    "name": "Knowledge of Languages in Canada"
+   },
+   {
+    "id": "canada_mother_tongue_languages",
+    "name": "Languages in Canada (Mother Tongue), 2016 Census"
+   },
+   {
+    "id": "eu_official_languages",
+    "name": "Official languages of the European Union"
+   },
+   {
+    "id": "finland_native_languages",
+    "name": "Residents of Finland by native language"
+   },
+   {
+    "id": "france_metropolitan_ethnologue_languages",
+    "name": "Ethnologue languages of metropolitan France"
+   },
+   {
+    "id": "gallo_iberian_languages",
+    "name": "Gallo-Iberian languages"
+   },
+   {
+    "id": "gallo_romance_languages",
+    "name": "Gallo-Romance languages"
+   },
+   {
+    "id": "italy_law_482_languages",
+    "name": "Languages recognised as minority languages by Italian Law 482/1999"
+   },
+   {
+    "id": "kazakhstan_census_languages",
+    "name": "Languages of Kazakhstan (2021 census)"
+   },
+   {
+    "id": "nepal_native_languages",
+    "name": "Native languages of Nepal (2011 census)"
+   },
+   {
+    "id": "osce_official_languages",
+    "name": "Official languages of the OSCE"
+   },
+   {
+    "id": "spain_2021_census_languages",
+    "name": "First languages of Spain (2021 census)"
+   },
+   {
+    "id": "turkey_1965_census_languages",
+    "name": "Languages spoken in Turkey (1965 census)"
+   },
+   {
+    "id": "turkey_ethnologue_languages",
+    "name": "Languages by number of speakers in Turkey (Ethnologue)"
+   },
+   {
+    "id": "un_official_languages",
+    "name": "Official languages of the United Nations"
+   }
+  ],
+  "name": "Italic languages",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "asean_cctlds",
+  "competitors": [
+   {
+    "id": "apec_cctlds",
+    "name": "APEC member economies"
+   },
+   {
+    "id": "brics_cctlds",
+    "name": "BRICS member states"
+   },
+   {
+    "id": "d8_cctlds",
+    "name": "D-8 member countries"
+   },
+   {
+    "id": "g20_cctlds",
+    "name": "G20 members"
+   },
+   {
+    "id": "oic_cctlds",
+    "name": "OIC member states"
+   }
+  ],
+  "name": "ASEAN member states",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "cwe699_numeric",
+  "competitors": [
+   {
+    "id": "cisq_reliability",
+    "name": "CISQ Quality Measures - Reliability"
+   },
+   {
+    "id": "cisq_security",
+    "name": "CISQ Quality Measures - Security"
+   },
+   {
+    "id": "cwe1000_664",
+    "name": "CWE-1000 Research Concepts subtree: Improper Control of a Resource Through its Lifetime (CWE-664)"
+   },
+   {
+    "id": "cwe1400_resource_lifecycle_management",
+    "name": "CWE-1400 Comprehensive Categorization for Software Assurance Trends category: Comprehensive Categorization: Resource Lifecycle Management (CWE-1416)"
+   },
+   {
+    "id": "sfp_risky_values",
+    "name": "SFP Primary Cluster: Risky Values"
+   }
+  ],
+  "name": "CWE-699 Software Development category: Numeric Errors",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "south_africa_official",
+  "competitors": [
+   {
+    "id": "au_working_languages",
+    "name": "Working languages of the African Union"
+   },
+   {
+    "id": "canada_knowledge_languages",
+    "name": "Knowledge of Languages in Canada"
+   },
+   {
+    "id": "canada_mother_tongue_languages",
+    "name": "Languages in Canada (Mother Tongue), 2016 Census"
+   },
+   {
+    "id": "eu_official_languages",
+    "name": "Official languages of the European Union"
+   },
+   {
+    "id": "finland_native_languages",
+    "name": "Residents of Finland by native language"
+   },
+   {
+    "id": "france_metropolitan_ethnologue_languages",
+    "name": "Ethnologue languages of metropolitan France"
+   },
+   {
+    "id": "germanic_languages",
+    "name": "Germanic languages"
+   },
+   {
+    "id": "india_2011_census_languages",
+    "name": "Languages by number of speakers in India (2011 Census)"
+   },
+   {
+    "id": "kazakhstan_census_languages",
+    "name": "Languages of Kazakhstan (2021 census)"
+   },
+   {
+    "id": "nepal_native_languages",
+    "name": "Native languages of Nepal (2011 census)"
+   },
+   {
+    "id": "norway_non_native_languages",
+    "name": "Non-native first languages in Norway"
+   },
+   {
+    "id": "osce_official_languages",
+    "name": "Official languages of the OSCE"
+   },
+   {
+    "id": "pakistan_established_languages",
+    "name": "Established languages of Pakistan"
+   },
+   {
+    "id": "spain_2021_census_languages",
+    "name": "First languages of Spain (2021 census)"
+   },
+   {
+    "id": "thailand_census_languages",
+    "name": "Population of Thailand by language"
+   },
+   {
+    "id": "turkey_1965_census_languages",
+    "name": "Languages spoken in Turkey (1965 census)"
+   },
+   {
+    "id": "turkey_ethnologue_languages",
+    "name": "Languages by number of speakers in Turkey (Ethnologue)"
+   },
+   {
+    "id": "un_official_languages",
+    "name": "Official languages of the United Nations"
+   },
+   {
+    "id": "west_germanic_languages",
+    "name": "West Germanic languages"
+   },
+   {
+    "id": "zimbabwe_official",
+    "name": "Official languages of Zimbabwe"
+   }
+  ],
+  "name": "Official languages of South Africa",
+  "synonyms": []
+ }
+}

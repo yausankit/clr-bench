@@ -1,0 +1,38 @@
+A: American Airlines
+C: oneworld
+C_name: oneworld member airlines
+N_p: Air Zimbabwe
+N_t:
+- UPS Airlines
+- Air Europa
+- Southwest Airlines
+- Nauru Airlines
+- Yakutia Airlines
+- Libyan Airlines
+- Gol Transportes Aereos
+P_M:
+- Qatar Airways
+- Qantas Airways
+- Finnair
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4a
+    - alta_associate
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a4a
+- alta_associate
+field: shipments.air_carrier
+label: clearance stamp C-14
+salience: 467145.0
+universe: carrier

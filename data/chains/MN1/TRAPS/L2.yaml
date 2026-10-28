@@ -1,0 +1,40 @@
+A: Brussels Airlines
+C: star_alliance
+C_name: Star Alliance member airlines
+N_p: Red Sea Airlines
+N_t:
+- Air France
+- Eurowings
+- EasyJet Switzerland
+- JetSMART Argentina
+- Mandarin Airlines
+- Air Senegal
+- Heston Airlines
+P_M:
+- All Nippon Airways
+- Copa Airlines
+- Shenzhen Airlines
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4e_airlines
+    - iata_airlines
+    - lufthansa_group_airlines
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a4e_airlines
+- iata_airlines
+- lufthansa_group_airlines
+field: lots.carrier
+label: compliance lane 38
+salience: 633554.0
+universe: carrier

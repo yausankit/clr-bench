@@ -1,0 +1,972 @@
+value	entity	attr:country	attr:sector
+3i	3i	United Kingdom of Great Britain and Northern Ireland	Financial Services
+3M	3M	United States of America	Industrials
+A. O. Smith	A. O. Smith	United States of America	Industrials
+ABB Ltd	ABB Ltd	Switzerland	Industrial Goods and Services
+Abbott Laboratories	Abbott Laboratories	United States of America	Health Care
+AbbVie	AbbVie	United States of America	Health Care
+ABN AMRO	ABN AMRO	Netherlands	Banks
+Accenture	Accenture	Ireland	Information Technology
+Acciona	Acciona	Spain	Construction and Materials
+Acciona Energía	Acciona Energía	Spain	Utilities
+Accor	Accor	France	Travel and Leisure
+Acerinox	Acerinox	Spain	Basic Resources
+ACS Group	ACS Group	Spain	Construction and Materials
+Adecco	Adecco	Switzerland	Industrial Goods and Services
+Adevinta	Adevinta	Norway	Consumer Products and Services
+Adidas	Adidas	Germany	Consumer Discretionary
+Admiral Group	Admiral Group	United Kingdom of Great Britain and Northern Ireland	Insurance
+Adobe Inc.	Adobe Inc.	United States of America	Information Technology
+Advanced Micro Devices	Advanced Micro Devices	United States of America	Information Technology
+Adyen	Adyen	Netherlands	Financials
+Aena	Aena	Spain	Travel and Leisure
+AES Corporation	AES Corporation	United States of America	Utilities
+Aflac	Aflac	United States of America	Financials
+Ageas	Ageas	Belgium	Insurance
+Agilent Technologies	Agilent Technologies	United States of America	Health Care
+Ahold Delhaize	Ahold Delhaize	Netherlands	Consumer Staples
+Air France-KLM	Air France-KLM	France	Travel and Leisure
+Air Liquide	Air Liquide	France	Materials
+Air Products	Air Products	United States of America	Materials
+Airbnb	Airbnb	United States of America	Consumer Discretionary
+Airbus	Airbus	France	Industrials
+AIXTRON	AIXTRON	Germany	Technology
+Akamai Technologies	Akamai Technologies	United States of America	Information Technology
+Aker BP	Aker BP	Norway	Energy
+AkzoNobel	AkzoNobel	Netherlands	Chemicals
+Albemarle Corporation	Albemarle Corporation	United States of America	Materials
+Alcon	Alcon	Switzerland	Health Care
+Alexandria Real Estate Equities	Alexandria Real Estate Equities	United States of America	Real Estate
+Alfa Laval	Alfa Laval	Sweden	Industrial Goods and Services
+Align Technology	Align Technology	United States of America	Health Care
+Allegion	Allegion	Ireland	Industrials
+Allfunds Group	Allfunds Group	Spain	Financial Services
+Alliant Energy	Alliant Energy	United States of America	Utilities
+Allianz	Allianz	Germany	Financials
+Allstate	Allstate	United States of America	Financials
+Alphabet Inc.	Alphabet Inc.	United States of America	Communication Services
+Alstom	Alstom	France	Industrial Goods and Services
+Altria	Altria	United States of America	Consumer Staples
+Amazon	Amazon	United States of America	Consumer Discretionary
+Ambu	Ambu	Denmark	Health Care
+Amcor	Amcor	United Kingdom of Great Britain and Northern Ireland	Materials
+Ameren	Ameren	United States of America	Utilities
+American Electric Power	American Electric Power	United States of America	Utilities
+American Express	American Express	United States of America	Financials
+American International Group	American International Group	United States of America	Financials
+American Tower	American Tower	United States of America	Real Estate
+American Water Works	American Water Works	United States of America	Utilities
+Ameriprise Financial	Ameriprise Financial	United States of America	Financials
+Ametek	Ametek	United States of America	Industrials
+Amgen	Amgen	United States of America	Health Care
+Amphenol	Amphenol	United States of America	Information Technology
+ams OSRAM	ams OSRAM	Austria	Technology
+Analog Devices	Analog Devices	United States of America	Information Technology
+Anglo American plc	Anglo American plc	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Anheuser-Busch InBev	Anheuser-Busch InBev	Belgium	Consumer Staples
+Antofagasta plc	Antofagasta plc	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Aon plc	Aon plc	United Kingdom of Great Britain and Northern Ireland	Financials
+APA Corporation	APA Corporation	United States of America	Energy
+Apollo Global Management	Apollo Global Management	United States of America	Financials
+Apple Inc.	Apple Inc.	United States of America	Information Technology
+Applied Materials	Applied Materials	United States of America	Information Technology
+AppLovin	AppLovin	United States of America	Communication Services
+Aptiv	Aptiv	Switzerland	Consumer Discretionary
+ArcelorMittal	ArcelorMittal	Luxembourg	Basic Resources
+Arch Capital Group	Arch Capital Group	Bermuda	Financials
+Archer Daniels Midland	Archer Daniels Midland	United States of America	Consumer Staples
+Ares Management	Ares Management	United States of America	Financials
+Argenx	Argenx	Netherlands	Health Care
+Arista Networks	Arista Networks	United States of America	Information Technology
+Arkema	Arkema	France	Chemicals
+Aroundtown	Aroundtown	Germany	Real Estate
+Arthur J. Gallagher & Co.	Arthur J. Gallagher & Co.	United States of America	Financials
+ASM International	ASM International	Netherlands	Technology
+ASML Holding	ASML Holding	Netherlands	Information Technology
+Assa Abloy	Assa Abloy	Sweden	Construction and Materials
+Associated British Foods	Associated British Foods	United Kingdom of Great Britain and Northern Ireland	Food, Beverage and Tobacco
+Assurant	Assurant	United States of America	Financials
+Aston Martin	Aston Martin	United Kingdom of Great Britain and Northern Ireland	Automobiles and Parts
+AstraZeneca	AstraZeneca	United Kingdom of Great Britain and Northern Ireland	Health Care
+AT&T	AT&T	United States of America	Communication Services
+Atlas Copco	Atlas Copco	Sweden	Industrial Goods and Services
+Atmos Energy	Atmos Energy	United States of America	Utilities
+Atos	Atos	France	Technology
+Auto Trader Group	Auto Trader Group	United Kingdom of Great Britain and Northern Ireland	Media
+Autodesk	Autodesk	United States of America	Information Technology
+Automatic Data Processing	Automatic Data Processing	United States of America	Industrials
+AutoZone	AutoZone	United States of America	Consumer Discretionary
+Avery Dennison	Avery Dennison	United States of America	Materials
+Aviva	Aviva	United Kingdom of Great Britain and Northern Ireland	Insurance
+Axa	Axa	France	Financials
+AXA	AXA	France	Insurance
+Axon Enterprise	Axon Enterprise	United States of America	Industrials
+Azelis Group	Azelis Group	Belgium	Industrial Goods and Services
+B&M European Value Retail	B&M European Value Retail	United Kingdom of Great Britain and Northern Ireland	Retail
+BAE Systems	BAE Systems	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Baker Hughes	Baker Hughes	United States of America	Energy
+Balder	Balder	Sweden	Real Estate
+Balfour Beatty	Balfour Beatty	United Kingdom of Great Britain and Northern Ireland	Construction and Materials
+Ball Corporation	Ball Corporation	United States of America	Materials
+Baloise	Baloise	Switzerland	Insurance
+Banco Bilbao Vizcaya Argentaria	Banco Bilbao Vizcaya Argentaria	Spain	Banks
+Banco Sabadell	Banco Sabadell	Spain	Banks
+Banco Santander	Banco Santander	Spain	Financials
+Bank of America	Bank of America	United States of America	Financials
+Bankinter	Bankinter	Spain	Banks
+Barclays	Barclays	United Kingdom of Great Britain and Northern Ireland	Banks
+Barratt Redrow	Barratt Redrow	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Barry Callebaut	Barry Callebaut	Switzerland	Food, Beverage and Tobacco
+BASF	BASF	Germany	Materials
+Baxter International	Baxter International	United States of America	Health Care
+Bayer	Bayer	Germany	Health Care
+BBVA	BBVA	Spain	Financials
+Beazley	Beazley	United Kingdom of Great Britain and Northern Ireland	Insurance
+Becton Dickinson	Becton Dickinson	United States of America	Health Care
+Beiersdorf	Beiersdorf	Germany	Consumer Products and Services
+Belimo	Belimo	Switzerland	Construction and Materials
+Berkeley Group Holdings	Berkeley Group Holdings	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Berkshire Hathaway	Berkshire Hathaway	United States of America	Financials
+Best Buy	Best Buy	United States of America	Consumer Discretionary
+Big Yellow Group	Big Yellow Group	United Kingdom of Great Britain and Northern Ireland	Real Estate
+Bio-Techne	Bio-Techne	United States of America	Health Care
+Biogen	Biogen	United States of America	Health Care
+BlackRock	BlackRock	United States of America	Financials
+Blackstone Inc.	Blackstone Inc.	United States of America	Financials
+Block, Inc.	Block, Inc.	United States of America	Financials
+Bloom Energy	Bloom Energy	United States of America	Industrials
+BMW	BMW	Germany	Consumer Discretionary
+BNP Paribas	BNP Paribas	France	Financials
+BNY Mellon	BNY Mellon	United States of America	Financials
+Boeing	Boeing	United States of America	Industrials
+Boliden AB	Boliden AB	Sweden	Basic Resources
+Bolloré	Bolloré	France	Industrial Goods and Services
+Booking Holdings	Booking Holdings	United States of America	Consumer Discretionary
+Boston Scientific	Boston Scientific	United States of America	Health Care
+Bouygues	Bouygues	France	Construction and Materials
+BP	BP	United Kingdom of Great Britain and Northern Ireland	Energy
+Bpost	Bpost	Belgium	Industrial Goods and Services
+Brenntag	Brenntag	Germany	Chemicals
+Bristol Myers Squibb	Bristol Myers Squibb	United States of America	Health Care
+British American Tobacco	British American Tobacco	United Kingdom of Great Britain and Northern Ireland	Food, Beverage and Tobacco
+Broadcom	Broadcom	United States of America	Information Technology
+Broadridge Financial Solutions	Broadridge Financial Solutions	United States of America	Industrials
+Brown & Brown	Brown & Brown	United States of America	Financials
+Brown–Forman	Brown–Forman	United States of America	Consumer Staples
+Brunello Cucinelli	Brunello Cucinelli	Italy	Consumer Products and Services
+BT Group	BT Group	United Kingdom of Great Britain and Northern Ireland	Telecommunications
+Bunge Global	Bunge Global	United States of America	Consumer Staples
+Bunzl	Bunzl	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Burberry	Burberry	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Bureau Veritas	Bureau Veritas	France	Industrial Goods and Services
+BXP, Inc.	BXP, Inc.	United States of America	Real Estate
+C.H. Robinson	C.H. Robinson	United States of America	Industrials
+Cadence Design Systems	Cadence Design Systems	United States of America	Information Technology
+CaixaBank	CaixaBank	Spain	Banks
+Camden Property Trust	Camden Property Trust	United States of America	Real Estate
+Capgemini	Capgemini	France	Technology
+Capital One	Capital One	United States of America	Financials
+Cardinal Health	Cardinal Health	United States of America	Health Care
+Carl Zeiss Meditec	Carl Zeiss Meditec	Germany	Health Care
+Carnival Corporation	Carnival Corporation	United States of America	Consumer Discretionary
+Carrefour	Carrefour	France	Retail
+Carrier Global	Carrier Global	United States of America	Industrials
+Carvana	Carvana	United States of America	Consumer Discretionary
+Casey's	Casey's	United States of America	Consumer Staples
+Castellum	Castellum	Sweden	Real Estate
+Caterpillar Inc.	Caterpillar Inc.	United States of America	Industrials
+Cboe Global Markets	Cboe Global Markets	United States of America	Financials
+CBRE Group	CBRE Group	United States of America	Real Estate
+CD Projekt	CD Projekt	Poland	Consumer Products and Services
+CDW Corporation	CDW Corporation	United States of America	Information Technology
+Cencora	Cencora	United States of America	Health Care
+Centene Corporation	Centene Corporation	United States of America	Health Care
+CenterPoint Energy	CenterPoint Energy	United States of America	Utilities
+Centrica	Centrica	United Kingdom of Great Britain and Northern Ireland	Utilities
+CF Industries	CF Industries	United States of America	Materials
+Charles River Laboratories	Charles River Laboratories	United States of America	Health Care
+Charles Schwab Corporation	Charles Schwab Corporation	United States of America	Financials
+Charter Communications	Charter Communications	United States of America	Communication Services
+Chevron Corporation	Chevron Corporation	United States of America	Energy
+Chipotle Mexican Grill	Chipotle Mexican Grill	United States of America	Consumer Discretionary
+Chubb Limited	Chubb Limited	Switzerland	Financials
+Church & Dwight	Church & Dwight	United States of America	Consumer Staples
+Ciena	Ciena	United States of America	Information Technology
+Cigna	Cigna	United States of America	Health Care
+Cincinnati Financial	Cincinnati Financial	United States of America	Financials
+Cintas	Cintas	United States of America	Industrials
+Cisco	Cisco	United States of America	Information Technology
+Citigroup	Citigroup	United States of America	Financials
+Citizens Financial Group	Citizens Financial Group	United States of America	Financials
+Clariant	Clariant	Switzerland	Chemicals
+Clorox	Clorox	United States of America	Consumer Staples
+CME Group	CME Group	United States of America	Financials
+CMS Energy	CMS Energy	United States of America	Utilities
+Coca-Cola Company (The)	Coca-Cola Company (The)	United States of America	Consumer Staples
+Coca-Cola HBC	Coca-Cola HBC	Switzerland	Food, Beverage and Tobacco
+Cognizant	Cognizant	United States of America	Information Technology
+Coherent Corp.	Coherent Corp.	United States of America	Information Technology
+Coinbase	Coinbase	United States of America	Financials
+Colgate-Palmolive	Colgate-Palmolive	United States of America	Consumer Staples
+Colruyt	Colruyt	Belgium	Personal Care, Drug and Grocery Stores
+Comcast	Comcast	United States of America	Communication Services
+Comfort Systems USA	Comfort Systems USA	United States of America	Industrials
+Commerzbank	Commerzbank	Germany	Banks
+Compass Group	Compass Group	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Computer Center	Computer Center	United Kingdom of Great Britain and Northern Ireland	Technology
+ConocoPhillips	ConocoPhillips	United States of America	Energy
+Consolidated Edison	Consolidated Edison	United States of America	Utilities
+Constellation Brands	Constellation Brands	United States of America	Consumer Staples
+Constellation Energy	Constellation Energy	United States of America	Utilities
+Continental	Continental	Germany	Automobiles and Parts
+ConvaTec	ConvaTec	United Kingdom of Great Britain and Northern Ireland	Health Care
+Cooper Companies (The)	Cooper Companies (The)	United States of America	Health Care
+Copart	Copart	United States of America	Industrials
+Corning Inc.	Corning Inc.	United States of America	Information Technology
+Corpay	Corpay	United States of America	Financials
+Costco	Costco	United States of America	Consumer Staples
+Covestro	Covestro	Germany	Chemicals
+CRH plc	CRH plc	Ireland	Materials
+Croda International	Croda International	United Kingdom of Great Britain and Northern Ireland	Chemicals
+CrowdStrike	CrowdStrike	United States of America	Information Technology
+Crown Castle	Crown Castle	United States of America	Real Estate
+Crédit Agricole	Crédit Agricole	France	Banks
+CSX Corporation	CSX Corporation	United States of America	Industrials
+CTS Eventim	CTS Eventim	Germany	Media
+Cummins	Cummins	United States of America	Industrials
+CVS Health	CVS Health	United States of America	Health Care
+D. R. Horton	D. R. Horton	United States of America	Consumer Discretionary
+Daimler Truck	Daimler Truck	Germany	Industrial Goods and Services
+Danone	Danone	France	Consumer Staples
+Darden Restaurants	Darden Restaurants	United States of America	Consumer Discretionary
+Datadog	Datadog	United States of America	Information Technology
+Davide Campari-Milano	Davide Campari-Milano	Italy	Food, Beverage and Tobacco
+DaVita	DaVita	United States of America	Health Care
+Deckers Brands	Deckers Brands	United States of America	Consumer Discretionary
+Deere & Company	Deere & Company	United States of America	Industrials
+Delivery Hero	Delivery Hero	Germany	Retail
+Dell Technologies	Dell Technologies	United States of America	Information Technology
+Delta Air Lines	Delta Air Lines	United States of America	Industrials
+Demant	Demant	Denmark	Health Care
+Derwent London	Derwent London	United Kingdom of Great Britain and Northern Ireland	Real Estate
+Deutsche Bank	Deutsche Bank	Germany	Financials
+Deutsche Börse	Deutsche Börse	Germany	Financials
+Deutsche Pfandbriefbank	Deutsche Pfandbriefbank	Germany	Banks
+Deutsche Post	Deutsche Post	Germany	Industrials
+Deutsche Telekom	Deutsche Telekom	Germany	Communication
+Devon Energy	Devon Energy	United States of America	Energy
+Dexcom	Dexcom	United States of America	Health Care
+DHL Group	DHL Group	Germany	Industrial Goods and Services
+Dia	Dia	Spain	Personal Care, Drug and Grocery Stores
+Diageo	Diageo	United Kingdom of Great Britain and Northern Ireland	Food, Beverage and Tobacco
+Diamondback Energy	Diamondback Energy	United States of America	Energy
+DIETEREN Group	DIETEREN Group	Belgium	Automobiles and Parts
+Digital Realty	Digital Realty	United States of America	Real Estate
+Diploma	Diploma	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Direct Line	Direct Line	United Kingdom of Great Britain and Northern Ireland	Insurance
+DocMorris	DocMorris	Switzerland	Health Care
+Dollar General	Dollar General	United States of America	Consumer Staples
+Dollar Tree	Dollar Tree	United States of America	Consumer Staples
+Dominion Energy	Dominion Energy	United States of America	Utilities
+Domino's	Domino's	United States of America	Consumer Discretionary
+DoorDash	DoorDash	United States of America	Consumer Discretionary
+Dover Corporation	Dover Corporation	United States of America	Industrials
+Dow Inc.	Dow Inc.	United States of America	Materials
+DS Smith	DS Smith	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+DSM-Firmenich	DSM-Firmenich	Switzerland	Chemicals
+DTE Energy	DTE Energy	United States of America	Utilities
+Duke Energy	Duke Energy	United States of America	Utilities
+DuPont	DuPont	United States of America	Industrials
+E.ON	E.ON	Germany	Utilities
+EasyJet	EasyJet	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Eaton Corporation	Eaton Corporation	Ireland	Industrials
+eBay Inc.	eBay Inc.	United States of America	Consumer Discretionary
+EchoStar	EchoStar	United States of America	Communication Services
+Ecolab	Ecolab	United States of America	Materials
+Edenred	Edenred	France	Industrial Goods and Services
+Edison International	Edison International	United States of America	Utilities
+EDP - Energias de Portugal	EDP - Energias de Portugal	Portugal	Utilities
+EDP Renováveis	EDP Renováveis	Portugal	Utilities
+Edwards Lifesciences	Edwards Lifesciences	United States of America	Health Care
+Eiffage	Eiffage	France	Construction and Materials
+Electrolux	Electrolux	Sweden	Consumer Products and Services
+Elevance Health	Elevance Health	United States of America	Health Care
+Elisa	Elisa	Finland	Telecommunications
+Emcor	Emcor	United States of America	Industrials
+Emerson Electric	Emerson Electric	United States of America	Industrials
+Ems-Chemie	Ems-Chemie	Switzerland	Chemicals
+Enagás	Enagás	Spain	Utilities
+Endeavour Mining	Endeavour Mining	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Enel	Enel	Italy	Utilities
+Engie	Engie	France	Utilities
+Eni	Eni	Italy	Energy
+Entain	Entain	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Entergy	Entergy	United States of America	Utilities
+EOG Resources	EOG Resources	United States of America	Energy
+Epiroc	Epiroc	Sweden	Industrial Goods and Services
+EQT Corporation	EQT Corporation	United States of America	Energy
+Equifax	Equifax	United States of America	Industrials
+Equinix	Equinix	United States of America	Real Estate
+Ericsson	Ericsson	Sweden	Telecommunications
+Erie Indemnity	Erie Indemnity	United States of America	Financials
+Erste Group	Erste Group	Austria	Banks
+Essex Property Trust	Essex Property Trust	United States of America	Real Estate
+EssilorLuxottica	EssilorLuxottica	France	Health Care
+Estée Lauder Companies (The)	Estée Lauder Companies (The)	United States of America	Consumer Staples
+Euronext	Euronext	Netherlands	Financial Services
+Everest Group	Everest Group	Bermuda	Financials
+Evergy	Evergy	United States of America	Utilities
+Everpure	Everpure	United States of America	Information Technology
+Eversource Energy	Eversource Energy	United States of America	Utilities
+Evonik Industries	Evonik Industries	Germany	Chemicals
+Evotec	Evotec	Germany	Health Care
+Evraz	Evraz	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Exelon	Exelon	United States of America	Utilities
+Exor	Exor	Netherlands	Financial Services
+Expand Energy	Expand Energy	United States of America	Energy
+Expedia Group	Expedia Group	United States of America	Consumer Discretionary
+Expeditors International	Expeditors International	United States of America	Industrials
+Experian	Experian	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Extra Space Storage	Extra Space Storage	United States of America	Real Estate
+ExxonMobil	ExxonMobil	United States of America	Energy
+F5, Inc.	F5, Inc.	United States of America	Information Technology
+FactSet	FactSet	United States of America	Financials
+Fair Isaac	Fair Isaac	United States of America	Information Technology
+Falck	Falck	Denmark	Health Care
+Fastenal	Fastenal	United States of America	Industrials
+FCC	FCC	Spain	Construction and Materials
+Federal Realty Investment Trust	Federal Realty Investment Trust	United States of America	Real Estate
+FedEx	FedEx	United States of America	Industrials
+FedEx Freight	FedEx Freight	United States of America	Industrials
+Ferguson Enterprises	Ferguson Enterprises	United States of America	Industrials
+Ferrari	Ferrari	Netherlands	Consumer Discretionary
+Ferrovial	Ferrovial	Netherlands	Construction and Materials
+Fidelity National Information Services	Fidelity National Information Services	United States of America	Financials
+Fifth Third Bancorp	Fifth Third Bancorp	United States of America	Financials
+First Solar	First Solar	United States of America	Information Technology
+FirstEnergy	FirstEnergy	United States of America	Utilities
+Fiserv	Fiserv	United States of America	Financials
+Flex Ltd.	Flex Ltd.	United States of America	Information Technology
+Flow Traders	Flow Traders	Netherlands	Financial Services
+Flutter Entertainment	Flutter Entertainment	Ireland	Travel and Leisure
+Ford Motor Company	Ford Motor Company	United States of America	Consumer Discretionary
+Fortinet	Fortinet	United States of America	Information Technology
+Fortive	Fortive	United States of America	Industrials
+Fortum	Fortum	Finland	Utilities
+Forvia	Forvia	France	Automobiles and Parts
+Fox Corporation	Fox Corporation	United States of America	Communication Services
+Franklin Resources	Franklin Resources	United States of America	Financials
+Freenet	Freenet	Germany	Telecommunications
+Freeport-McMoRan	Freeport-McMoRan	United States of America	Materials
+Fresenius Medical Care	Fresenius Medical Care	Germany	Health Care
+Galenica	Galenica	Switzerland	Health Care
+Galp Energia	Galp Energia	Portugal	Energy
+Games Workshop	Games Workshop	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Garmin	Garmin	Switzerland	Consumer Discretionary
+Gartner	Gartner	United States of America	Information Technology
+GE Aerospace	GE Aerospace	United States of America	Industrials
+GE HealthCare	GE HealthCare	United States of America	Health Care
+GE Vernova	GE Vernova	United States of America	Industrials
+GEA Group	GEA Group	Germany	Industrial Goods and Services
+Geberit	Geberit	Switzerland	Construction and Materials
+Gecina	Gecina	France	Real Estate
+Gen Digital	Gen Digital	United States of America	Information Technology
+Generac	Generac	United States of America	Industrials
+General Dynamics	General Dynamics	United States of America	Industrials
+General Mills	General Mills	United States of America	Consumer Staples
+General Motors	General Motors	United States of America	Consumer Discretionary
+Genuine Parts Company	Genuine Parts Company	United States of America	Consumer Discretionary
+Georg Fischer	Georg Fischer	Switzerland	Industrial Goods and Services
+Getlink	Getlink	France	Industrial Goods and Services
+Gilead Sciences	Gilead Sciences	United States of America	Health Care
+Givaudan	Givaudan	Switzerland	Chemicals
+Glanbia	Glanbia	Ireland	Food, Beverage and Tobacco
+Glencore	Glencore	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Global Payments	Global Payments	United States of America	Financials
+Globe Life	Globe Life	United States of America	Financials
+GN Store Nord	GN Store Nord	Denmark	Health Care
+GoDaddy	GoDaddy	United States of America	Information Technology
+Goldman Sachs	Goldman Sachs	United States of America	Financials
+Grafton Group	Grafton Group	Ireland	Industrial Goods and Services
+Greggs	Greggs	United Kingdom of Great Britain and Northern Ireland	Retail
+Grifols	Grifols	Spain	Health Care
+Gruppo Campari	Gruppo Campari	Italy	Food, Beverage and Tobacco
+GSK plc	GSK plc	United Kingdom of Great Britain and Northern Ireland	Health Care
+H&M	H&M	Sweden	Retail
+Haleon	Haleon	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Halliburton	Halliburton	United States of America	Energy
+Halma plc	Halma plc	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Hannover Re	Hannover Re	Germany	Insurance
+Hartford (The)	Hartford (The)	United States of America	Financials
+Hasbro	Hasbro	United States of America	Consumer Discretionary
+Hays	Hays	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+HCA Healthcare	HCA Healthcare	United States of America	Health Care
+Healthpeak Properties	Healthpeak Properties	United States of America	Real Estate
+Heidelberg Materials	Heidelberg Materials	Germany	Construction and Materials
+Helvetia	Helvetia	Switzerland	Insurance
+Helvetia Insurance	Helvetia Insurance	Switzerland	Insurance
+Henkel	Henkel	Germany	Consumer Products and Services
+Henry Schein	Henry Schein	United States of America	Health Care
+Hermès	Hermès	France	Consumer Discretionary
+Hershey Company (The)	Hershey Company (The)	United States of America	Consumer Staples
+Hewlett Packard Enterprise	Hewlett Packard Enterprise	United States of America	Information Technology
+Hikma Pharmaceuticals	Hikma Pharmaceuticals	United Kingdom of Great Britain and Northern Ireland	Health Care
+Hilton Worldwide	Hilton Worldwide	United States of America	Consumer Discretionary
+Hiscox	Hiscox	Bermuda	Insurance
+Holcim	Holcim	Switzerland	Construction and Materials
+Home Depot (The)	Home Depot (The)	United States of America	Consumer Discretionary
+Honeywell Aerospace	Honeywell Aerospace	United States of America	Industrials
+Honeywell Technologies	Honeywell Technologies	United States of America	Industrials
+Hormel Foods	Hormel Foods	United States of America	Consumer Staples
+Host Hotels & Resorts	Host Hotels & Resorts	United States of America	Real Estate
+Howden Joinery	Howden Joinery	United Kingdom of Great Britain and Northern Ireland	Retail
+Howmet Aerospace	Howmet Aerospace	United States of America	Industrials
+HP Inc.	HP Inc.	United States of America	Information Technology
+HSBC	HSBC	United Kingdom of Great Britain and Northern Ireland	Banks
+Hubbell Incorporated	Hubbell Incorporated	United States of America	Industrials
+Hugo Boss	Hugo Boss	Germany	Consumer Products and Services
+Humana	Humana	United States of America	Health Care
+Huntington Bancshares	Huntington Bancshares	United States of America	Financials
+Huntington Ingalls Industries	Huntington Ingalls Industries	United States of America	Industrials
+Husqvarna	Husqvarna	Sweden	Consumer Products and Services
+Iberdrola	Iberdrola	Spain	Utilities
+IBM	IBM	United States of America	Information Technology
+IDEX Corporation	IDEX Corporation	United States of America	Industrials
+Idexx Laboratories	Idexx Laboratories	United States of America	Health Care
+IG Group	IG Group	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Illinois Tool Works	Illinois Tool Works	United States of America	Industrials
+Illumina, Inc.	Illumina, Inc.	United States of America	Health Care
+IMI	IMI	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Imperial Brands	Imperial Brands	United Kingdom of Great Britain and Northern Ireland	Food, Beverage and Tobacco
+Inchcape	Inchcape	United Kingdom of Great Britain and Northern Ireland	Retail
+Incyte	Incyte	United States of America	Health Care
+Inditex	Inditex	Spain	Consumer Discretionary
+Indivior	Indivior	United Kingdom of Great Britain and Northern Ireland	Health Care
+Indutrade	Indutrade	Sweden	Industrial Goods and Services
+Infineon Technologies	Infineon Technologies	Germany	Information Technology
+Informa	Informa	United Kingdom of Great Britain and Northern Ireland	Media
+ING Group	ING Group	Netherlands	Financials
+Ingersoll Rand	Ingersoll Rand	United States of America	Industrials
+InPost	InPost	Luxembourg	Industrial Goods and Services
+Insulet Corporation	Insulet Corporation	United States of America	Health Care
+Intel	Intel	United States of America	Information Technology
+Interactive Brokers	Interactive Brokers	United States of America	Financials
+Intercontinental Exchange	Intercontinental Exchange	United States of America	Financials
+InterContinental Hotels Group	InterContinental Hotels Group	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Intermediate Capital Group	Intermediate Capital Group	United Kingdom of Great Britain and Northern Ireland	Financial Services
+International Airlines Group	International Airlines Group	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+International Flavors & Fragrances	International Flavors & Fragrances	United States of America	Materials
+International Paper	International Paper	United States of America	Materials
+Interpump Group	Interpump Group	Italy	Industrial Goods and Services
+Intertek	Intertek	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Intesa Sanpaolo	Intesa Sanpaolo	Italy	Financials
+Intuit	Intuit	United States of America	Information Technology
+Intuitive Surgical	Intuitive Surgical	United States of America	Health Care
+Invesco	Invesco	United States of America	Financials
+Investec	Investec	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Invitation Homes	Invitation Homes	United States of America	Real Estate
+Ipsen	Ipsen	France	Health Care
+Ipsos	Ipsos	France	Media
+IQVIA	IQVIA	United States of America	Health Care
+Iron Mountain	Iron Mountain	United States of America	Real Estate
+ITV	ITV	United Kingdom of Great Britain and Northern Ireland	Media
+J.B. Hunt	J.B. Hunt	United States of America	Industrials
+J.M. Smucker Company (The)	J.M. Smucker Company (The)	United States of America	Consumer Staples
+Jabil	Jabil	United States of America	Information Technology
+Jack Henry & Associates	Jack Henry & Associates	United States of America	Financials
+Jacobs Solutions	Jacobs Solutions	United States of America	Industrials
+JD Sports	JD Sports	United Kingdom of Great Britain and Northern Ireland	Retail
+Jerónimo Martins	Jerónimo Martins	Portugal	Retail
+Johnson & Johnson	Johnson & Johnson	United States of America	Health Care
+Johnson Controls	Johnson Controls	Ireland	Industrials
+Johnson Matthey	Johnson Matthey	United Kingdom of Great Britain and Northern Ireland	Chemicals
+JPMorgan Chase	JPMorgan Chase	United States of America	Financials
+Julius Baer	Julius Baer	Switzerland	Banks
+Just Eat Takeaway	Just Eat Takeaway	Netherlands	Retail
+KBC Group	KBC Group	Belgium	Banks
+Kenvue	Kenvue	United States of America	Consumer Staples
+Kering	Kering	France	Consumer Products and Services
+Keurig Dr Pepper	Keurig Dr Pepper	United States of America	Consumer Staples
+KeyCorp	KeyCorp	United States of America	Financials
+Keysight Technologies	Keysight Technologies	United States of America	Information Technology
+Kimberly-Clark	Kimberly-Clark	United States of America	Consumer Staples
+Kimco Realty	Kimco Realty	United States of America	Real Estate
+Kinder Morgan	Kinder Morgan	United States of America	Energy
+Kingfisher	Kingfisher	United Kingdom of Great Britain and Northern Ireland	Retail
+Kingfisher plc	Kingfisher plc	United Kingdom of Great Britain and Northern Ireland	Retail
+KKR & Co.	KKR & Co.	United States of America	Financials
+KLA Corporation	KLA Corporation	United States of America	Information Technology
+Kone	Kone	Finland	Industrial Goods and Services
+KPN	KPN	Netherlands	Telecommunications
+Kraft Heinz	Kraft Heinz	United States of America	Consumer Staples
+Kroger	Kroger	United States of America	Consumer Staples
+Kuehne + Nagel	Kuehne + Nagel	Switzerland	Industrial Goods and Services
+L'Oréal	L'Oréal	France	Consumer Staples
+L3Harris	L3Harris	United States of America	Industrials
+Labcorp	Labcorp	United States of America	Health Care
+Lam Research	Lam Research	United States of America	Information Technology
+Land Securities	Land Securities	United Kingdom of Great Britain and Northern Ireland	Real Estate
+Lanvin Group	Lanvin Group	France	Consumer Products and Services
+Lanxess	Lanxess	Germany	Chemicals
+Las Vegas Sands	Las Vegas Sands	United States of America	Consumer Discretionary
+LEG Immobilien	LEG Immobilien	Germany	Real Estate
+Legal & General	Legal & General	United Kingdom of Great Britain and Northern Ireland	Insurance
+Leidos	Leidos	United States of America	Industrials
+Lennar	Lennar	United States of America	Consumer Discretionary
+Lennox International	Lennox International	United States of America	Industrials
+Leonardo	Leonardo	Italy	Industrial Goods and Services
+Lerøy Seafood	Lerøy Seafood	Norway	Food, Beverage and Tobacco
+Liberty Global	Liberty Global	United Kingdom of Great Britain and Northern Ireland	Telecommunications
+LifeCo	LifeCo	Ireland	Insurance
+Lilly (Eli)	Lilly (Eli)	United States of America	Health Care
+Linde plc	Linde plc	United Kingdom of Great Britain and Northern Ireland	Chemicals
+Lindt & Sprüngli	Lindt & Sprüngli	Switzerland	Food, Beverage and Tobacco
+Live Nation Entertainment	Live Nation Entertainment	United States of America	Communication Services
+Lloyds Banking Group	Lloyds Banking Group	United Kingdom of Great Britain and Northern Ireland	Banks
+Lockheed Martin	Lockheed Martin	United States of America	Industrials
+Loews Corporation	Loews Corporation	United States of America	Financials
+Logitech	Logitech	Switzerland	Technology
+London Stock Exchange Group	London Stock Exchange Group	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Lonza Group	Lonza Group	Switzerland	Health Care
+Lowe's	Lowe's	United States of America	Consumer Discretionary
+LPP	LPP	Poland	Consumer Products and Services
+Lufthansa	Lufthansa	Germany	Travel and Leisure
+Lululemon Athletica	Lululemon Athletica	Canada	Consumer Discretionary
+Lumentum	Lumentum	United States of America	Information Technology
+Lumibird	Lumibird	France	Technology
+Lundin Energy	Lundin Energy	Sweden	Energy
+LVMH	LVMH	France	Consumer Products and Services
+LVMH Moët Hennessy Louis Vuitton	LVMH Moët Hennessy Louis Vuitton	France	Consumer Discretionary
+LyondellBasell	LyondellBasell	Netherlands	Materials
+M&G	M&G	United Kingdom of Great Britain and Northern Ireland	Financial Services
+M&T Bank	M&T Bank	United States of America	Financials
+Maersk	Maersk	Denmark	Industrial Goods and Services
+MAN SE	MAN SE	Germany	Industrial Goods and Services
+Marathon Petroleum	Marathon Petroleum	United States of America	Energy
+Marks & Spencer	Marks & Spencer	United Kingdom of Great Britain and Northern Ireland	Retail
+Marriott International	Marriott International	United States of America	Consumer Discretionary
+Marsh McLennan	Marsh McLennan	United States of America	Financials
+Martin Marietta Materials	Martin Marietta Materials	United States of America	Materials
+Marvell Technology	Marvell Technology	United States of America	Information Technology
+Masco	Masco	United States of America	Industrials
+Mastercard	Mastercard	United States of America	Financials
+McCormick & Company	McCormick & Company	United States of America	Consumer Staples
+McDonald's	McDonald's	United States of America	Consumer Discretionary
+McKesson	McKesson	United States of America	Health Care
+Mediobanca	Mediobanca	Italy	Financial Services
+Medtronic	Medtronic	Ireland	Health Care
+Melexis	Melexis	Belgium	Technology
+Meliá Hotels	Meliá Hotels	Spain	Travel and Leisure
+Mercedes-Benz Group	Mercedes-Benz Group	Germany	Consumer Discretionary
+Merck & Co.	Merck & Co.	United States of America	Health Care
+Merlin Properties	Merlin Properties	Spain	Real Estate
+Meta Platforms	Meta Platforms	United States of America	Communication Services
+MetLife	MetLife	United States of America	Financials
+Metso	Metso	Finland	Industrial Goods and Services
+Mettler Toledo	Mettler Toledo	United States of America	Health Care
+MGM Resorts	MGM Resorts	United States of America	Consumer Discretionary
+Michelin	Michelin	France	Automobiles and Parts
+Microchip Technology	Microchip Technology	United States of America	Information Technology
+Micron Technology	Micron Technology	United States of America	Information Technology
+Microsoft	Microsoft	United States of America	Information Technology
+Mid-America Apartment Communities	Mid-America Apartment Communities	United States of America	Real Estate
+Millicom	Millicom	Sweden	Telecommunications
+Mobico Group	Mobico Group	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Moderna	Moderna	United States of America	Health Care
+Moncler	Moncler	Italy	Consumer Products and Services
+Mondelez International	Mondelez International	United States of America	Consumer Staples
+Mondi	Mondi	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Moneysupermarket.com	Moneysupermarket.com	United Kingdom of Great Britain and Northern Ireland	Media
+Monolithic Power Systems	Monolithic Power Systems	United States of America	Information Technology
+Monster Beverage	Monster Beverage	United States of America	Consumer Staples
+Moody's Corporation	Moody's Corporation	United States of America	Financials
+Morgan Stanley	Morgan Stanley	United States of America	Financials
+MorphoSys	MorphoSys	Germany	Health Care
+Morrisons	Morrisons	United Kingdom of Great Britain and Northern Ireland	Retail
+Mosaic Company (The)	Mosaic Company (The)	United States of America	Materials
+Motorola Solutions	Motorola Solutions	United States of America	Information Technology
+MSCI	MSCI	United States of America	Financials
+MTU Aero Engines	MTU Aero Engines	Germany	Industrial Goods and Services
+Munich Re	Munich Re	Germany	Financials
+Nasdaq, Inc.	Nasdaq, Inc.	United States of America	Financials
+National Bank of Greece	National Bank of Greece	Greece	Banks
+National Grid	National Grid	United Kingdom of Great Britain and Northern Ireland	Utilities
+Naturgy	Naturgy	Spain	Utilities
+NatWest Group	NatWest Group	United Kingdom of Great Britain and Northern Ireland	Banks
+Nemetschek	Nemetschek	Germany	Technology
+Neoen	Neoen	France	Utilities
+Neste	Neste	Finland	Energy
+Nestlé	Nestlé	Switzerland	Food, Beverage and Tobacco
+NetApp	NetApp	United States of America	Information Technology
+Netflix	Netflix	United States of America	Communication Services
+Newmont	Newmont	United States of America	Materials
+News Corp	News Corp	United States of America	Communication Services
+Nexans	Nexans	France	Industrial Goods and Services
+Nexi	Nexi	Italy	Industrial Goods and Services
+Next plc	Next plc	United Kingdom of Great Britain and Northern Ireland	Retail
+NextEra Energy	NextEra Energy	United States of America	Utilities
+Nibe Industrier	Nibe Industrier	Sweden	Construction and Materials
+Nike, Inc.	Nike, Inc.	United States of America	Consumer Discretionary
+NiSource	NiSource	United States of America	Utilities
+NN Group	NN Group	Netherlands	Insurance
+Nokia	Nokia	Finland	Technology
+Nordea	Nordea	Finland	Financials
+Nordson Corporation	Nordson Corporation	United States of America	Industrials
+Norfolk Southern	Norfolk Southern	United States of America	Industrials
+Norsk Hydro	Norsk Hydro	Norway	Basic Resources
+Northern Trust	Northern Trust	United States of America	Financials
+Northrop Grumman	Northrop Grumman	United States of America	Industrials
+Norwegian Cruise Line Holdings	Norwegian Cruise Line Holdings	United States of America	Consumer Discretionary
+Novartis	Novartis	Switzerland	Health Care
+Novo Nordisk	Novo Nordisk	Denmark	Health Care
+NRG Energy	NRG Energy	United States of America	Utilities
+Nucor	Nucor	United States of America	Materials
+Nvidia	Nvidia	United States of America	Information Technology
+NVR, Inc.	NVR, Inc.	United States of America	Consumer Discretionary
+NXP Semiconductors	NXP Semiconductors	Netherlands	Information Technology
+O'Reilly Automotive	O'Reilly Automotive	United States of America	Consumer Discretionary
+Ocado	Ocado	United Kingdom of Great Britain and Northern Ireland	Retail
+Occidental Petroleum	Occidental Petroleum	United States of America	Energy
+OCI	OCI	Netherlands	Chemicals
+Oerlikon	Oerlikon	Switzerland	Industrial Goods and Services
+Old Dominion	Old Dominion	United States of America	Industrials
+Omnicom Group	Omnicom Group	United States of America	Communication Services
+OMV	OMV	Austria	Energy
+ON Semiconductor	ON Semiconductor	United States of America	Information Technology
+Oneok	Oneok	United States of America	Energy
+Ontex	Ontex	Belgium	Personal Care, Drug and Grocery Stores
+Oracle Corporation	Oracle Corporation	United States of America	Information Technology
+Orange S.A.	Orange S.A.	France	Telecommunications
+Orkla ASA	Orkla ASA	Norway	Food, Beverage and Tobacco
+Otis Worldwide	Otis Worldwide	United States of America	Industrials
+Paccar	Paccar	United States of America	Industrials
+Packaging Corporation of America	Packaging Corporation of America	United States of America	Materials
+Palantir Technologies	Palantir Technologies	United States of America	Information Technology
+Palo Alto Networks	Palo Alto Networks	United States of America	Information Technology
+Pandora	Pandora	Denmark	Consumer Products and Services
+Parker Hannifin	Parker Hannifin	United States of America	Industrials
+Partners Group	Partners Group	Switzerland	Financial Services
+Paychex	Paychex	United States of America	Industrials
+PayPal	PayPal	United States of America	Financials
+Pearson	Pearson	United Kingdom of Great Britain and Northern Ireland	Media
+Pennon Group	Pennon Group	United Kingdom of Great Britain and Northern Ireland	Utilities
+Pentair	Pentair	United Kingdom of Great Britain and Northern Ireland	Industrials
+PepsiCo	PepsiCo	United States of America	Consumer Staples
+Pernod Ricard	Pernod Ricard	France	Food, Beverage and Tobacco
+Persimmon plc	Persimmon plc	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+Pfizer	Pfizer	United States of America	Health Care
+PG&E Corporation	PG&E Corporation	United States of America	Utilities
+Philip Morris International	Philip Morris International	United States of America	Consumer Staples
+Phillips 66	Phillips 66	United States of America	Energy
+Pinnacle West Capital	Pinnacle West Capital	United States of America	Utilities
+Pirelli	Pirelli	Italy	Automobiles and Parts
+PNC Financial Services	PNC Financial Services	United States of America	Financials
+PolyPeptide	PolyPeptide	Switzerland	Health Care
+Porsche	Porsche	Germany	Automobiles and Parts
+Porsche SE	Porsche SE	Germany	Automobiles and Parts
+Poste Italiane	Poste Italiane	Italy	Insurance
+PostNL	PostNL	Netherlands	Industrial Goods and Services
+PPG Industries	PPG Industries	United States of America	Materials
+PPL Corporation	PPL Corporation	United States of America	Utilities
+Principal Financial Group	Principal Financial Group	United States of America	Financials
+Procter & Gamble	Procter & Gamble	United States of America	Consumer Staples
+Progressive Corporation	Progressive Corporation	United States of America	Financials
+Prologis	Prologis	United States of America	Real Estate
+Prosus	Prosus	Netherlands	Consumer Discretionary
+Proximus	Proximus	Belgium	Telecommunications
+Prudential Financial	Prudential Financial	United States of America	Financials
+Prudential plc	Prudential plc	United Kingdom of Great Britain and Northern Ireland	Insurance
+Prysmian	Prysmian	Italy	Industrial Goods and Services
+PTC Inc.	PTC Inc.	United States of America	Information Technology
+Public Service Enterprise Group	Public Service Enterprise Group	United States of America	Utilities
+Public Storage	Public Storage	United States of America	Real Estate
+Publicis	Publicis	France	Media
+PulteGroup	PulteGroup	United States of America	Consumer Discretionary
+Puma	Puma	Germany	Consumer Products and Services
+Qiagen	Qiagen	Netherlands	Health Care
+Qnity Electronics	Qnity Electronics	United States of America	Information Technology
+Qualcomm	Qualcomm	United States of America	Information Technology
+Quanta Services	Quanta Services	United States of America	Industrials
+Quest Diagnostics	Quest Diagnostics	United States of America	Health Care
+Quilter	Quilter	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Raiffeisen Bank International	Raiffeisen Bank International	Austria	Banks
+Ralph Lauren Corporation	Ralph Lauren Corporation	United States of America	Consumer Discretionary
+Rational	Rational	Germany	Industrial Goods and Services
+Raymond James Financial	Raymond James Financial	United States of America	Financials
+Realty Income	Realty Income	United States of America	Real Estate
+Reckitt	Reckitt	United Kingdom of Great Britain and Northern Ireland	Personal Care, Drug and Grocery Stores
+Recordati	Recordati	Italy	Health Care
+Reddit	Reddit	United States of America	Communication Services
+Redeia	Redeia	Spain	Utilities
+Regency Centers	Regency Centers	United States of America	Real Estate
+Regeneron Pharmaceuticals	Regeneron Pharmaceuticals	United States of America	Health Care
+Regions Financial Corporation	Regions Financial Corporation	United States of America	Financials
+RELX	RELX	United Kingdom of Great Britain and Northern Ireland	Media
+Renault	Renault	France	Automobiles and Parts
+Rentokil Initial	Rentokil Initial	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Repsol	Repsol	Spain	Energy
+Republic Services	Republic Services	United States of America	Industrials
+ResMed	ResMed	United States of America	Health Care
+Revvity	Revvity	United States of America	Health Care
+Rexel	Rexel	France	Industrial Goods and Services
+Rheinmetall	Rheinmetall	Germany	Industrials
+Richemont	Richemont	Switzerland	Consumer Products and Services
+Rightmove	Rightmove	United Kingdom of Great Britain and Northern Ireland	Real Estate
+Rio Tinto Group	Rio Tinto Group	United Kingdom of Great Britain and Northern Ireland	Basic Resources
+Robinhood Markets	Robinhood Markets	United States of America	Financials
+Roche Holding	Roche Holding	Switzerland	Health Care
+Rockwell Automation	Rockwell Automation	United States of America	Industrials
+Rollins, Inc.	Rollins, Inc.	United States of America	Industrials
+Rolls-Royce Holdings	Rolls-Royce Holdings	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Roper Technologies	Roper Technologies	United States of America	Information Technology
+Ross Stores	Ross Stores	United States of America	Consumer Discretionary
+Royal Caribbean Group	Royal Caribbean Group	United States of America	Consumer Discretionary
+Royal Mail	Royal Mail	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+RTX Corporation	RTX Corporation	United States of America	Industrials
+RWE	RWE	Germany	Utilities
+Rémy Cointreau	Rémy Cointreau	France	Food, Beverage and Tobacco
+S&P Global	S&P Global	United States of America	Financials
+S4 Capital	S4 Capital	United Kingdom of Great Britain and Northern Ireland	Media
+Safran	Safran	France	Industrials
+Sage Group	Sage Group	United Kingdom of Great Britain and Northern Ireland	Technology
+Sainsbury's	Sainsbury's	United Kingdom of Great Britain and Northern Ireland	Personal Care, Drug and Grocery Stores
+Saint-Gobain	Saint-Gobain	France	Industrials
+Salesforce	Salesforce	United States of America	Information Technology
+SalMar	SalMar	Norway	Food, Beverage and Tobacco
+Sampo Group	Sampo Group	Finland	Insurance
+Sandisk	Sandisk	United States of America	Information Technology
+Sandoz	Sandoz	Switzerland	Health Care
+Sandvik AB	Sandvik AB	Sweden	Industrial Goods and Services
+Sanofi	Sanofi	France	Health Care
+Sanoma	Sanoma	Finland	Media
+SAP	SAP	Germany	Information Technology
+Sartorius	Sartorius	Germany	Health Care
+SBA Communications	SBA Communications	United States of America	Real Estate
+Schibsted	Schibsted	Norway	Media
+Schindler Group	Schindler Group	Switzerland	Industrial Goods and Services
+Schlumberger	Schlumberger	United States of America	Energy
+Schneider Electric	Schneider Electric	France	Industrials
+Schroders	Schroders	United Kingdom of Great Britain and Northern Ireland	Financial Services
+SCOR SE	SCOR SE	France	Insurance
+Scottish Mortgage Investment Trust	Scottish Mortgage Investment Trust	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Scout24	Scout24	Germany	Technology
+Seagate Technology	Seagate Technology	Ireland	Information Technology
+Securitas AB	Securitas AB	Sweden	Industrial Goods and Services
+Segro	Segro	United Kingdom of Great Britain and Northern Ireland	Real Estate
+Sempra	Sempra	United States of America	Utilities
+ServiceNow	ServiceNow	United States of America	Information Technology
+Severn Trent	Severn Trent	United Kingdom of Great Britain and Northern Ireland	Utilities
+SGS S.A.	SGS S.A.	Switzerland	Industrial Goods and Services
+Shell	Shell	United Kingdom of Great Britain and Northern Ireland	Energy
+Shell plc	Shell plc	United Kingdom of Great Britain and Northern Ireland	Energy
+Sherwin-Williams	Sherwin-Williams	United States of America	Materials
+Siemens	Siemens	Germany	Industrials
+Siemens Energy	Siemens Energy	Germany	Industrials
+SIG Group	SIG Group	Switzerland	Industrial Goods and Services
+Signify	Signify	Netherlands	Construction and Materials
+Sika	Sika	Switzerland	Construction and Materials
+Simon Property Group	Simon Property Group	United States of America	Real Estate
+Sixt	Sixt	Germany	Consumer Products and Services
+Skandinaviska Enskilda Banken	Skandinaviska Enskilda Banken	Sweden	Banks
+Skanska	Skanska	Sweden	Construction and Materials
+SKF	SKF	Sweden	Industrial Goods and Services
+Sky Group	Sky Group	United Kingdom of Great Britain and Northern Ireland	Media
+Skydance Corporation	Skydance Corporation	United States of America	Communication Services
+Skyworks Solutions	Skyworks Solutions	United States of America	Information Technology
+Smith & Nephew	Smith & Nephew	United Kingdom of Great Britain and Northern Ireland	Health Care
+Smiths Group	Smiths Group	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Smurfit Kappa	Smurfit Kappa	Ireland	Industrial Goods and Services
+Smurfit Westrock	Smurfit Westrock	Ireland	Materials
+Snam	Snam	Italy	Energy
+Snap-on	Snap-on	United States of America	Industrials
+Société Générale	Société Générale	France	Banks
+Sodexo	Sodexo	France	Travel and Leisure
+Softcat	Softcat	United Kingdom of Great Britain and Northern Ireland	Technology
+Software	Software	Germany	Technology
+Solvay	Solvay	Belgium	Chemicals
+Solventum	Solventum	United States of America	Health Care
+Sonova	Sonova	Switzerland	Health Care
+Southern Company	Southern Company	United States of America	Utilities
+Southwest Airlines	Southwest Airlines	United States of America	Industrials
+Spectris	Spectris	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Spirax-Sarco Engineering	Spirax-Sarco Engineering	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+SSE plc	SSE plc	United Kingdom of Great Britain and Northern Ireland	Utilities
+St. James's Place	St. James's Place	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Standard Chartered	Standard Chartered	United Kingdom of Great Britain and Northern Ireland	Banks
+Standard Life plc	Standard Life plc	United Kingdom of Great Britain and Northern Ireland	Insurance
+Stanley Black & Decker	Stanley Black & Decker	United States of America	Industrials
+Starbucks	Starbucks	United States of America	Consumer Discretionary
+State Street Corporation	State Street Corporation	United States of America	Financials
+Steel Dynamics	Steel Dynamics	United States of America	Materials
+Stellantis	Stellantis	Netherlands	Automobiles and Parts
+Steris	Steris	Ireland	Health Care
+STMicroelectronics	STMicroelectronics	Switzerland	Technology
+Stora Enso	Stora Enso	Finland	Basic Resources
+Storebrand	Storebrand	Norway	Insurance
+Straumann	Straumann	Switzerland	Health Care
+Stryker Corporation	Stryker Corporation	United States of America	Health Care
+Sunbelt Rentals	Sunbelt Rentals	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Supermicro	Supermicro	United States of America	Information Technology
+Svenska Handelsbanken	Svenska Handelsbanken	Sweden	Banks
+Swatch Group	Swatch Group	Switzerland	Consumer Products and Services
+Sweco	Sweco	Sweden	Construction and Materials
+Swedbank	Swedbank	Sweden	Banks
+Swedish Match	Swedish Match	Sweden	Food, Beverage and Tobacco
+Swiss Life	Swiss Life	Switzerland	Insurance
+Swiss Prime Site	Swiss Prime Site	Switzerland	Real Estate
+Swiss Re	Swiss Re	Switzerland	Insurance
+Swisscom	Swisscom	Switzerland	Telecommunications
+Symrise	Symrise	Germany	Chemicals
+Synchrony Financial	Synchrony Financial	United States of America	Financials
+Synopsys	Synopsys	United States of America	Information Technology
+Sysco	Sysco	United States of America	Consumer Staples
+T-Mobile US	T-Mobile US	United States of America	Communication Services
+T. Rowe Price	T. Rowe Price	United States of America	Financials
+Take-Two Interactive	Take-Two Interactive	United States of America	Communication Services
+Talanx	Talanx	Germany	Insurance
+Tapestry, Inc.	Tapestry, Inc.	United States of America	Consumer Discretionary
+Targa Resources	Targa Resources	United States of America	Energy
+Target Corporation	Target Corporation	United States of America	Consumer Staples
+Tate & Lyle	Tate & Lyle	United Kingdom of Great Britain and Northern Ireland	Food, Beverage and Tobacco
+Taylor Wimpey	Taylor Wimpey	United Kingdom of Great Britain and Northern Ireland	Consumer Products and Services
+TE Connectivity	TE Connectivity	Ireland	Information Technology
+TeamViewer	TeamViewer	Germany	Technology
+TechnipFMC	TechnipFMC	United Kingdom of Great Britain and Northern Ireland	Energy
+Tele2	Tele2	Sweden	Telecommunications
+Telecom Plus	Telecom Plus	United Kingdom of Great Britain and Northern Ireland	Telecommunications
+Teledyne Technologies	Teledyne Technologies	United States of America	Information Technology
+Telefónica	Telefónica	Spain	Telecommunications
+Telenor	Telenor	Norway	Telecommunications
+Teleperformance	Teleperformance	France	Industrial Goods and Services
+Telia Company	Telia Company	Sweden	Telecommunications
+Temenos Group	Temenos Group	Switzerland	Technology
+Tenaris	Tenaris	Luxembourg	Energy
+Teradyne	Teradyne	United States of America	Information Technology
+Terna	Terna	Italy	Utilities
+Tesco	Tesco	United Kingdom of Great Britain and Northern Ireland	Retail
+Tesla, Inc.	Tesla, Inc.	United States of America	Consumer Discretionary
+Teva Pharmaceutical Industries	Teva Pharmaceutical Industries	Israel	Health Care
+Texas Instruments	Texas Instruments	United States of America	Information Technology
+Texas Pacific Land Corporation	Texas Pacific Land Corporation	United States of America	Energy
+Textron	Textron	United States of America	Industrials
+TGS	TGS	Norway	Energy
+Thales	Thales	France	Industrial Goods and Services
+Thermo Fisher Scientific	Thermo Fisher Scientific	United States of America	Health Care
+ThyssenKrupp	ThyssenKrupp	Germany	Industrial Goods and Services
+TIM	TIM	Italy	Telecommunications
+TJX Companies	TJX Companies	United States of America	Consumer Discretionary
+TKO Group Holdings	TKO Group Holdings	United States of America	Communication Services
+Tomra	Tomra	Norway	Industrial Goods and Services
+TomTom	TomTom	Netherlands	Technology
+TotalEnergies	TotalEnergies	France	Energy
+Tractor Supply	Tractor Supply	United States of America	Consumer Discretionary
+Trane Technologies	Trane Technologies	Ireland	Industrials
+TransDigm Group	TransDigm Group	United States of America	Industrials
+Transocean	Transocean	Switzerland	Energy
+Traton	Traton	Germany	Industrial Goods and Services
+Travelers Companies (The)	Travelers Companies (The)	United States of America	Financials
+Travis Perkins	Travis Perkins	United Kingdom of Great Britain and Northern Ireland	Retail
+Trelleborg	Trelleborg	Sweden	Industrial Goods and Services
+Trimble Inc.	Trimble Inc.	United States of America	Information Technology
+Truist Financial	Truist Financial	United States of America	Financials
+Tryg	Tryg	Denmark	Insurance
+TUI Group	TUI Group	Germany	Travel and Leisure
+Twilio	Twilio	United States of America	Information Technology
+Tyler Technologies	Tyler Technologies	United States of America	Information Technology
+Tyson Foods	Tyson Foods	United States of America	Consumer Staples
+U.S. Bancorp	U.S. Bancorp	United States of America	Financials
+Uber	Uber	United States of America	Industrials
+Ubisoft	Ubisoft	France	Consumer Products and Services
+UBS Group	UBS Group	Switzerland	Banks
+UDR, Inc.	UDR, Inc.	United States of America	Real Estate
+Ulta Beauty	Ulta Beauty	United States of America	Consumer Discretionary
+Umicore	Umicore	Belgium	Chemicals
+Unibail-Rodamco-Westfield	Unibail-Rodamco-Westfield	France	Real Estate
+UniCredit	UniCredit	Italy	Financials
+Unilever	Unilever	United Kingdom of Great Britain and Northern Ireland	Personal Care, Drug and Grocery Stores
+Union Pacific Corporation	Union Pacific Corporation	United States of America	Industrials
+Uniper	Uniper	Germany	Utilities
+Unite Group	Unite Group	United Kingdom of Great Britain and Northern Ireland	Real Estate
+United Airlines Holdings	United Airlines Holdings	United States of America	Industrials
+United Parcel Service	United Parcel Service	United States of America	Industrials
+United Rentals	United Rentals	United States of America	Industrials
+United Utilities	United Utilities	United Kingdom of Great Britain and Northern Ireland	Utilities
+UnitedHealth Group	UnitedHealth Group	United States of America	Health Care
+Universal Health Services	Universal Health Services	United States of America	Health Care
+Universal Music Group	Universal Music Group	Netherlands	Media
+UPM-Kymmene	UPM-Kymmene	Finland	Basic Resources
+Valeo	Valeo	France	Automobiles and Parts
+Valero Energy	Valero Energy	United States of America	Energy
+Vallourec	Vallourec	France	Basic Resources
+Valmet	Valmet	Finland	Industrial Goods and Services
+Varta	Varta	Germany	Industrial Goods and Services
+VAT Group	VAT Group	Switzerland	Industrial Goods and Services
+Veeva Systems	Veeva Systems	United States of America	Health Care
+Ventas	Ventas	United States of America	Real Estate
+Veolia	Veolia	France	Utilities
+Veralto	Veralto	United States of America	Industrials
+Verbund	Verbund	Austria	Utilities
+Verisign	Verisign	United States of America	Information Technology
+Verisk Analytics	Verisk Analytics	United States of America	Industrials
+Verizon	Verizon	United States of America	Communication Services
+Vertex Pharmaceuticals	Vertex Pharmaceuticals	United States of America	Health Care
+Vertiv	Vertiv	United States of America	Industrials
+Vestas	Vestas	Denmark	Energy
+Viaplay	Viaplay	Sweden	Media
+Viatris	Viatris	United States of America	Health Care
+Vicat	Vicat	France	Construction and Materials
+Vici Properties	Vici Properties	United States of America	Real Estate
+Vienna Insurance Group	Vienna Insurance Group	Austria	Insurance
+Vinci	Vinci	France	Construction and Materials
+Vinci SA	Vinci SA	France	Industrials
+Visa Inc.	Visa Inc.	United States of America	Financials
+Vistra Corp.	Vistra Corp.	United States of America	Utilities
+Vitrolife	Vitrolife	Sweden	Health Care
+Vivendi	Vivendi	France	Media
+Vivmark Residential	Vivmark Residential	United States of America	Real Estate
+Vodafone	Vodafone	United Kingdom of Great Britain and Northern Ireland	Telecommunications
+Voestalpine	Voestalpine	Austria	Basic Resources
+Volkswagen Group	Volkswagen Group	Germany	Consumer Discretionary
+Volvo Group	Volvo Group	Sweden	Industrial Goods and Services
+Vonovia	Vonovia	Germany	Real Estate
+Vopak	Vopak	Netherlands	Industrial Goods and Services
+Vulcan Materials Company	Vulcan Materials Company	United States of America	Materials
+Vylor	Vylor	United States of America	Consumer Staples
+W. R. Berkley Corporation	W. R. Berkley Corporation	United States of America	Financials
+W. W. Grainger	W. W. Grainger	United States of America	Industrials
+Wabtec	Wabtec	United States of America	Industrials
+Walmart	Walmart	United States of America	Consumer Staples
+Walt Disney Company (The)	Walt Disney Company (The)	United States of America	Communication Services
+Warehouses De Pauw	Warehouses De Pauw	Belgium	Real Estate
+Waste Management	Waste Management	United States of America	Industrials
+Waters Corporation	Waters Corporation	United States of America	Health Care
+WEC Energy Group	WEC Energy Group	United States of America	Utilities
+Weir Group	Weir Group	United Kingdom of Great Britain and Northern Ireland	Industrial Goods and Services
+Wells Fargo	Wells Fargo	United States of America	Financials
+Welltower	Welltower	United States of America	Real Estate
+Wendel	Wendel	France	Financial Services
+West Pharmaceutical Services	West Pharmaceutical Services	United States of America	Health Care
+Western Digital	Western Digital	United States of America	Information Technology
+Weyerhaeuser	Weyerhaeuser	United States of America	Real Estate
+Whitbread	Whitbread	United Kingdom of Great Britain and Northern Ireland	Travel and Leisure
+Wienerberger	Wienerberger	Austria	Construction and Materials
+Wihlborgs Fastigheter	Wihlborgs Fastigheter	Sweden	Real Estate
+Williams Companies	Williams Companies	United States of America	Energy
+Williams-Sonoma, Inc.	Williams-Sonoma, Inc.	United States of America	Consumer Discretionary
+Willis Towers Watson	Willis Towers Watson	United Kingdom of Great Britain and Northern Ireland	Financials
+Wise	Wise	United Kingdom of Great Britain and Northern Ireland	Financial Services
+Wolters Kluwer	Wolters Kluwer	Netherlands	Industrials
+Workday, Inc.	Workday, Inc.	United States of America	Information Technology
+Worldline	Worldline	France	Industrial Goods and Services
+WPP	WPP	United Kingdom of Great Britain and Northern Ireland	Media
+Wynn Resorts	Wynn Resorts	United States of America	Consumer Discretionary
+Xcel Energy	Xcel Energy	United States of America	Utilities
+Xylem Inc.	Xylem Inc.	United States of America	Industrials
+Yara International	Yara International	Norway	Chemicals
+Yum! Brands	Yum! Brands	United States of America	Consumer Discretionary
+Zalando	Zalando	Germany	Retail
+Zebra Technologies	Zebra Technologies	United States of America	Information Technology
+Zimmer Biomet	Zimmer Biomet	United States of America	Health Care
+Zoetis	Zoetis	United States of America	Health Care
+Zurich Insurance Group	Zurich Insurance Group	Switzerland	Insurance
+Ørsted	Ørsted	Denmark	Utilities

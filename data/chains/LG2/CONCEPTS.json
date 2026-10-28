@@ -1,0 +1,171 @@
+{
+ "L1": {
+  "C": "oecd_cctlds",
+  "competitors": [
+   {
+    "id": "cbss_cctlds",
+    "name": "Council of the Baltic Sea States member state country-code top-level domains"
+   },
+   {
+    "id": "cctlds_all",
+    "name": "Country-code top-level domains"
+   },
+   {
+    "id": "danube_commission_cctlds",
+    "name": "Danube Commission member state country-code top-level domains"
+   },
+   {
+    "id": "eu_member_cctlds",
+    "name": "European Union member state country-code top-level domains"
+   },
+   {
+    "id": "eurozone_cctlds",
+    "name": "Eurozone member state country-code top-level domains"
+   },
+   {
+    "id": "g20_cctlds",
+    "name": "G20 member country-code top-level domains"
+   },
+   {
+    "id": "g7_cctlds",
+    "name": "G7 member country-code top-level domains"
+   },
+   {
+    "id": "helcom_cctlds",
+    "name": "HELCOM contracting party country-code top-level domains"
+   },
+   {
+    "id": "nato_cctlds",
+    "name": "NATO member state country-code top-level domains"
+   },
+   {
+    "id": "schengen_cctlds",
+    "name": "Schengen Area member state country-code top-level domains"
+   }
+  ],
+  "name": "OECD member country country-code top-level domains",
+  "synonyms": [
+   "Organisation for Economic Co-operation and Development members"
+  ]
+ },
+ "L2": {
+  "C": "microsoft_productivity_apps",
+  "competitors": [
+   {
+    "id": "microsoft_products",
+    "name": "Microsoft software products"
+   },
+   {
+    "id": "office_document_apps",
+    "name": "Office and document applications"
+   },
+   {
+    "id": "office_ltsc_2021_apps",
+    "name": "Office LTSC Professional Plus 2021 applications"
+   },
+   {
+    "id": "office_ltsc_2024_apps",
+    "name": "Office LTSC Professional Plus 2024 applications"
+   },
+   {
+    "id": "office_suites",
+    "name": "Office suites"
+   },
+   {
+    "id": "uptodown_top_downloads",
+    "name": "Uptodown Windows top downloads"
+   }
+  ],
+  "name": "Microsoft productivity applications",
+  "synonyms": [
+   "Microsoft Office and Teams apps"
+  ]
+ },
+ "L3": {
+  "C": "plaintext_protocol_ports",
+  "competitors": [
+   {
+    "id": "directory_service_ports",
+    "name": "Directory service ports"
+   },
+   {
+    "id": "iana_system_ports",
+    "name": "IANA system ports"
+   },
+   {
+    "id": "microsoft_server_ports",
+    "name": "Microsoft server product port assignments"
+   }
+  ],
+  "name": "Plaintext application protocol ports",
+  "synonyms": [
+   "cleartext protocol ports"
+  ]
+ },
+ "L4": {
+  "C": "g7_cctlds",
+  "competitors": [
+   {
+    "id": "cctlds_all",
+    "name": "Country-code top-level domains"
+   },
+   {
+    "id": "eu_member_cctlds",
+    "name": "European Union member state country-code top-level domains"
+   },
+   {
+    "id": "eurozone_cctlds",
+    "name": "Eurozone member state country-code top-level domains"
+   },
+   {
+    "id": "g20_cctlds",
+    "name": "G20 member country-code top-level domains"
+   },
+   {
+    "id": "nato_cctlds",
+    "name": "NATO member state country-code top-level domains"
+   },
+   {
+    "id": "oecd_cctlds",
+    "name": "OECD member country country-code top-level domains"
+   },
+   {
+    "id": "oif_cctlds",
+    "name": "Organisation internationale de la Francophonie member country-code top-level domains"
+   },
+   {
+    "id": "schengen_cctlds",
+    "name": "Schengen Area member state country-code top-level domains"
+   }
+  ],
+  "name": "G7 member country-code top-level domains",
+  "synonyms": [
+   "Group of Seven members"
+  ]
+ },
+ "L5": {
+  "C": "ftp_clients",
+  "competitors": [
+   {
+    "id": "developer_admin_tools",
+    "name": "Development and system administration tools"
+   },
+   {
+    "id": "ninite_catalog",
+    "name": "Ninite application catalog"
+   },
+   {
+    "id": "portableapps_directory",
+    "name": "Portable App Directory"
+   },
+   {
+    "id": "remote_access_tools",
+    "name": "Remote access and terminal tools"
+   }
+  ],
+  "name": "FTP clients",
+  "synonyms": [
+   "FTP programs"
+  ]
+ }
+}

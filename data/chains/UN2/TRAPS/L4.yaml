@@ -1,0 +1,45 @@
+A: FR
+C: g20
+C_name: G20 members
+N_p: TD
+N_t:
+- IS
+- CH
+- VN
+- IM
+- CX
+- MQ
+- HR
+P_M:
+- BR
+- CN
+- ZA
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - ehea
+    - erasmus_countries
+    - francophonie
+    - nato
+    - oecd
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- ehea
+- erasmus_countries
+- francophonie
+- g7
+- nato
+- oecd
+field: applicants.nationality
+label: audit pass T6
+salience: 995333.0
+universe: country

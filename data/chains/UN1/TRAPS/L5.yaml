@@ -1,0 +1,46 @@
+A: TR
+C: oic
+C_name: Organisation of Islamic Cooperation member states
+N_p: MX
+N_t:
+- IT
+- GB
+- SE
+- LV
+- AX
+- KR
+- VN
+P_M:
+- ML
+- GY
+- TJ
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe
+    - ehea
+    - erasmus_countries
+    - g20
+    - nato
+    - oecd
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 36
+    pass: true
+comp_A:
+- council_of_europe
+- ehea
+- erasmus_countries
+- g20
+- nato
+- oecd
+field: references.country
+label: review docket 93
+salience: 272956.0
+universe: country

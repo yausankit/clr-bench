@@ -1,0 +1,374 @@
+{
+ "answer_format": "json",
+ "background": {
+  "inspections.port": [
+   "BQRIN",
+   "CNGUI",
+   "DZAAE",
+   "ECDUN",
+   "GBGLW",
+   "GBSCR",
+   "JMKIN",
+   "NOKSU",
+   "SKBCK",
+   "TKAFU"
+  ],
+  "ships.flag_state": [
+   "BE",
+   "BO",
+   "CC",
+   "LA",
+   "LK",
+   "MZ",
+   "SR",
+   "ST",
+   "TH",
+   "VE"
+  ],
+  "ships.owner_country": [
+   "AW",
+   "BJ",
+   "GA",
+   "GT",
+   "KW",
+   "LB",
+   "MY",
+   "NA",
+   "TJ",
+   "YE"
+  ]
+ },
+ "course_id": "CLR_SH1",
+ "dataset": "SH",
+ "fields": [
+  "ships.flag_state",
+  "ships.owner_country",
+  "inspections.port"
+ ],
+ "id": "SH1",
+ "seed": 20266103,
+ "slots": [
+  {
+   "A": "FR",
+   "C": "g7",
+   "C_name": "G7",
+   "N_p": "TR",
+   "N_t": [
+    "SE",
+    "NO",
+    "GR",
+    "DO",
+    "KE",
+    "JO",
+    "YE"
+   ],
+   "P_M": [
+    "JP",
+    "US",
+    "GB"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "council_of_europe",
+      "european_economic_area",
+      "european_union",
+      "international_hydrographic_organization",
+      "nato",
+      "organisation_internationale_de_la_francophonie",
+      "organization_for_economic_cooperation_and_development",
+      "organization_for_security_and_co_operation_in_europe",
+      "schengen_area",
+      "world_trade_organization"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 24,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "council_of_europe",
+    "european_economic_area",
+    "european_union",
+    "g20",
+    "international_hydrographic_organization",
+    "nato",
+    "organisation_internationale_de_la_francophonie",
+    "organization_for_economic_cooperation_and_development",
+    "organization_for_security_and_co_operation_in_europe",
+    "schengen_area",
+    "world_trade_organization"
+   ],
+   "field": "ships.flag_state",
+   "label": "follow-up docket D4",
+   "level": 1,
+   "salience": 802164.0,
+   "universe": "flag"
+  },
+  {
+   "A": "DE",
+   "C": "nato",
+   "C_name": "NATO",
+   "N_p": "CY",
+   "N_t": [
+    "AT",
+    "LI",
+    "MX",
+    "LS",
+    "BN",
+    "TG",
+    "UY"
+   ],
+   "P_M": [
+    "AL",
+    "MK",
+    "ME"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "council_of_europe",
+      "european_economic_area",
+      "european_union",
+      "g20",
+      "international_hydrographic_organization",
+      "organization_for_economic_cooperation_and_development",
+      "organization_for_security_and_co_operation_in_europe",
+      "schengen_area",
+      "world_trade_organization"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "council_of_europe",
+    "council_of_the_baltic_sea_states",
+    "european_economic_area",
+    "european_union",
+    "g20",
+    "g7",
+    "international_hydrographic_organization",
+    "organization_for_economic_cooperation_and_development",
+    "organization_for_security_and_co_operation_in_europe",
+    "schengen_area",
+    "world_trade_organization"
+   ],
+   "field": "ships.owner_country",
+   "label": "review ledger 71",
+   "level": 2,
+   "salience": 2129009.0,
+   "universe": "flag"
+  },
+  {
+   "A": "DEBER",
+   "C": "climate_alliance_city_ports",
+   "C_name": "Port locations recorded in Climate Alliance member cities",
+   "N_p": "NLRTM",
+   "N_t": [
+    "NLLWR",
+    "ZADUR",
+    "ESIBZ",
+    "FMEAU",
+    "MGANM",
+    "GYANT",
+    "GBEDI"
+   ],
+   "P_M": [
+    "GEBUS",
+    "CHKRZ",
+    "CHBSL"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "c40_cities_ports",
+      "creative_cities_network_ports",
+      "ports_in_european_union_countries",
+      "ports_in_g20_countries",
+      "ports_in_nato_countries",
+      "ports_in_organization_for_economic_cooperation_and_development_countries",
+      "ports_in_schengen_area_countries",
+      "world_heritage_cities_ports",
+      "world_tourism_cities_federation_ports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "c40_cities_ports",
+    "creative_cities_network_ports",
+    "international_cities_of_refuge_ports",
+    "ports_in_european_union_countries",
+    "ports_in_g20_countries",
+    "ports_in_nato_countries",
+    "ports_in_organization_for_economic_cooperation_and_development_countries",
+    "ports_in_schengen_area_countries",
+    "world_heritage_cities_ports",
+    "world_tourism_cities_federation_ports"
+   ],
+   "field": "inspections.port",
+   "label": "monitoring schedule C-14",
+   "level": 3,
+   "salience": 1109.0,
+   "universe": "port"
+  },
+  {
+   "A": "ZA",
+   "C": "brics",
+   "C_name": "BRICS",
+   "N_p": "SA",
+   "N_t": [
+    "TZ",
+    "AU",
+    "MR",
+    "RS",
+    "CO",
+    "SG",
+    "NZ"
+   ],
+   "P_M": [
+    "BR",
+    "CN",
+    "RU"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_continental_free_trade_area",
+      "african_union",
+      "commonwealth_of_nations",
+      "g20",
+      "international_hydrographic_organization",
+      "southern_african_development_community",
+      "world_trade_organization"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 24,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_continental_free_trade_area",
+    "african_union",
+    "commonwealth_of_nations",
+    "g20",
+    "international_hydrographic_organization",
+    "southern_african_development_community",
+    "world_trade_organization"
+   ],
+   "field": "ships.flag_state",
+   "label": "follow-up docket S3",
+   "level": 4,
+   "salience": 1491124.0,
+   "universe": "flag"
+  },
+  {
+   "A": "CA",
+   "C": "g20",
+   "C_name": "G20",
+   "N_p": "PG",
+   "N_t": [
+    "SK",
+    "UG",
+    "LU",
+    "NU",
+    "TC",
+    "FJ",
+    "BG"
+   ],
+   "P_M": [
+    "IN",
+    "ID",
+    "AR"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "commonwealth_of_nations",
+      "international_hydrographic_organization",
+      "nato",
+      "organisation_internationale_de_la_francophonie",
+      "organization_for_economic_cooperation_and_development",
+      "organization_for_security_and_co_operation_in_europe",
+      "world_trade_organization"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 36,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "arctic_council",
+    "asia_pacific_economic_cooperation",
+    "commonwealth_of_nations",
+    "g7",
+    "international_hydrographic_organization",
+    "nato",
+    "organisation_internationale_de_la_francophonie",
+    "organization_for_economic_cooperation_and_development",
+    "organization_for_security_and_co_operation_in_europe",
+    "organization_of_american_states",
+    "world_trade_organization"
+   ],
+   "field": "ships.owner_country",
+   "label": "follow-up docket 11",
+   "level": 5,
+   "salience": 746828.0,
+   "universe": "flag"
+  }
+ ]
+}

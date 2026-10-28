@@ -1,0 +1,48 @@
+A: '11466000'
+C: snomed_118675001
+C_name: Procedure on female genital system
+N_p: '65575008'
+N_t:
+- '45595009'
+- '429609002'
+- '90470006'
+- '60027007'
+- '313191000'
+- '22523008'
+- '432231006'
+P_M:
+- '35025007'
+- '236931002'
+- '65200003'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - mesh_e_e04_surgical_procedures_operative
+    - snomed_118674002
+    - snomed_118698009
+    - snomed_609637006
+    - snomed_74943008
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- mesh_e_e04_520_obstetric_surgical_procedures
+- mesh_e_e04_surgical_procedures_operative
+- snomed_118674002
+- snomed_118698009
+- snomed_118864003
+- snomed_386637004
+- snomed_386811000
+- snomed_609637006
+- snomed_74943008
+field: procedures.code
+label: audit lane 52
+salience: 309647.0
+universe: procedure

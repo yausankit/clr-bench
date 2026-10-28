@@ -1,0 +1,72 @@
+concept_id	wiki_title	match	pageviews_12m	note
+atc_b01	Antithrombotic	search	10594	search hit, shared 'antithrombotic', 12 monthly samples
+atc_c01	Cardiac resynchronization therapy	search	10249	search hit, shared 'cardiac', 12 monthly samples
+atc_j01	ATC code J01	none	0	first hit not related to the list name
+atc_l01	Antineoplastic	search	18014	search hit, shared 'antineoplastic', 12 monthly samples
+atc_n02	Analgesic	search	232947	search hit, shared 'analgesic', 12 monthly samples
+atc_n06	Analeptic	search	15583	search hit, shared 'analeptic', 12 monthly samples
+atc_s01	Ophthalmology	search	189513	search hit, shared 'ophthalmolog', 12 monthly samples
+mesh_d_d02_033_alcohols	Alcohol (chemistry)	search	110416	search hit, shared 'alcohol', 12 monthly samples
+mesh_d_d02_065_amides	Amide	search	75955	search hit, shared 'amide', 12 monthly samples
+mesh_d_d02_092_amines	Amine	search	129950	search hit, shared 'amine', 12 monthly samples
+mesh_d_d02_455_426_559_389_benzene_derivatives	Benzene	search	376622	search hit, shared 'benzene', 12 monthly samples
+mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons	Polycyclic aromatic hydrocarbon	search	76950	search hit, shared 'polycyclic', 12 monthly samples
+mesh_d_d02_455_426_559_hydrocarbons_aromatic	Polycyclic aromatic hydrocarbon	search	76950	search hit, shared 'hydrocarbon', 12 monthly samples
+mesh_d_d02_455_426_hydrocarbons_cyclic	Cyclic compound	search	15784	search hit, shared 'cyclic', 12 monthly samples
+mesh_d_d02_455_hydrocarbons	Hydrocarbon	search	172715	search hit, shared 'hydrocarbon', 12 monthly samples
+mesh_d_d02_886_sulfur_compounds	Sulfur compounds	search	7853	search hit, shared 'sulfur', 12 monthly samples
+mesh_d_d03_132_alkaloids	Alkaloid	search	159288	search hit, shared 'alkaloid', 12 monthly samples
+mesh_d_d03_383_129_azoles	Azole	search	18014	search hit, shared 'azole', 12 monthly samples
+mesh_d_d03_383_621_piperidines	Piperidine	search	81727	search hit, shared 'piperidine', 12 monthly samples
+mesh_d_d03_383_heterocyclic_compounds_1_ring	Heterocyclic compound	search	63921	search hit, shared 'heterocyclic', 12 monthly samples
+mesh_d_d03_633_100_heterocyclic_compounds_2_ring	Heterocyclic compound	search	63921	search hit, shared 'heterocyclic', 12 monthly samples
+mesh_d_d03_633_heterocyclic_compounds_fused_ring	Heterocyclic compound	search	63921	search hit, shared 'heterocyclic', 12 monthly samples
+mesh_d_d04_210_500_steroids	Steroid	search	182060	search hit, shared 'steroid', 12 monthly samples
+mesh_d_d04_615_polycyclic_aromatic_hydrocarbons	Polycyclic aromatic hydrocarbon	search	76950	search hit, shared 'polycyclic', 12 monthly samples
+mesh_d_d04_polycyclic_compounds	Polycyclic compound	search	3707	search hit, shared 'polycyclic', 12 monthly samples
+mesh_d_d09_carbohydrates	Carbohydrate	search	268777	search hit, shared 'carbohydrate', 12 monthly samples
+mesh_d_d12_644_peptides	Peptide	search	370417	search hit, shared 'peptide', 12 monthly samples
+mesh_pa_adjuvants_anesthesia	Adjuvant	search	16754	search hit, shared 'adjuvant', 12 monthly samples
+mesh_pa_analgesics_opioid	Opioid	search	257083	search hit, shared 'opioid', 12 monthly samples
+mesh_pa_anti_arrhythmia_agents	Antiarrhythmic agent	search	34088	search hit, shared 'anti', 12 monthly samples
+mesh_pa_anti_bacterial_agents	Bactericide	search	11448	search hit, shared 'bacteri', 12 monthly samples
+mesh_pa_antihypertensive_agents	Antihypertensive	search	28021	search hit, shared 'antihypertensive', 12 monthly samples
+mesh_pa_antineoplastic_agents_hormonal	Hormonal therapy (oncology)	search	6457	search hit, shared 'hormonal', 12 monthly samples
+mesh_pa_narcotics	Narcotic	search	108669	search hit, shared 'narcotic', 12 monthly samples
+mesh_pa_vasodilator_agents	Vasodilation	search	75121	search hit, shared 'vasodilat', 12 monthly samples
+who_eml_2023_s1_anaesthetics	Anesthetic	search	72697	search hit, shared 'anesthetic', 12 monthly samples
+who_eml_2023_s6_2_antibacterials	Antibiotic	search	253629	search hit, shared 'antib', 12 monthly samples
+who_eml_2023_s6_2_1_access_antibiotics	WHO AWaRe	search	5581	search hit, shared 'aware', 12 monthly samples
+who_eml_2023_s8_2_antineoplastics	Chemotherapy	search	256184	search hit, shared 'chemotherap', 12 monthly samples
+who_eml_2023_s8_2_1_cytotoxic	Cytotoxicity	search	37648	search hit, shared 'cytotoxicity', 12 monthly samples
+who_eml_2023_s12_cardiovascular	Cardiology	search	71073	search hit, shared 'cardio', 12 monthly samples
+who_eml_2023_s22_1_contraceptives	Birth control	search	137287	search hit, shared 'contr', 12 monthly samples
+who_emlc_2023_s8_2_antineoplastics	Childhood cancer	search	13995	search hit, shared 'cancer', 12 monthly samples
+who_emlc_2023_s8_2_1_cytotoxic	Cytotoxicity	search	37648	search hit, shared 'cytotoxicity', 12 monthly samples
+dea_schedule_ii	Controlled Substances Act	search	328386	search hit, shared 'controlled', 12 monthly samples
+atc_g03a	Hormonal contraception	search	17753	search hit, shared 'hormonal', 12 monthly samples
+atc_n02a	Opioid	search	257083	search hit, shared 'opioid', 12 monthly samples
+beers_2023_t6_renal	Beers criteria	search	9209	search hit, shared 'beers', 12 monthly samples
+eu7_pim_2015_t1	Beers criteria	none	0	first hit not related to the list name
+stopp_start_v3_section_l	Polypharmacy	none	0	first hit not related to the list name
+crediblemeds_composite_qt_2013	Drug-induced QT prolongation	search	23397	search hit, shared 'prolongation', 12 monthly samples
+fda_cyp_moderate_sensitive_substrates	CYP3A4	search	74247	search hit, shared 'cyp3a4', 12 monthly samples
+fda_transporter_substrates	Membrane transport protein	search	12880	search hit, shared 'membrane', 12 monthly samples
+who_eml_2023_s3_antiallergics	Anaphylaxis	search	241085	search hit, shared 'anaphylaxis', 12 monthly samples
+who_eml_2023_s8_2_4_hormones	Hormone therapy	search	20779	search hit, shared 'hormone', 12 monthly samples
+who_eml_2023_s12_2_antiarrhythmics	Antiarrhythmic agent	search	34088	search hit, shared 'antiarrhythmic', 12 monthly samples
+who_eml_2023_s12_4_heart_failure	Heart failure	search	344700	search hit, shared 'heart', 12 monthly samples
+niosh_2024_table_1	Hazardous drug	search	459	search hit, shared 'hazardous', 12 monthly samples
+niosh_2024_table_2	Hazardous drug	search	459	search hit, shared 'hazardous', 12 monthly samples
+atc_l02	Hormone therapy	search	20779	search hit, shared 'hormone', 12 monthly samples
+rxclass_chloride_channel_interactions	Chloride channel	search	5080	search hit, shared 'chloride', 12 monthly samples
+rxclass_adrenal_cortical_effect	Adrenal cortex	search	30686	search hit, shared 'adrenal', 12 monthly samples
+rxclass_norepinephrine_effect	Norepinephrine	search	228581	search hit, shared 'norepinephrine', 12 monthly samples
+rxclass_serotonin_effect	Serotonin	search	346734	search hit, shared 'serotonin', 12 monthly samples
+rxclass_nervous_system_effect	Nervous system	search	278271	search hit, shared 'nervous', 12 monthly samples
+rxclass_transcription_factor_activity	Transcription factor	search	50213	search hit, shared 'transcription', 12 monthly samples
+rxclass_cyp3a_inhibitors	CYP3A4	search	74247	search hit, shared 'cyp3a4', 12 monthly samples
+rxclass_hormone_receptor_interactions	Hormone receptor	search	6393	search hit, shared 'hormone', 12 monthly samples
+rxclass_membrane_transporter_interactions	Membrane transport protein	search	12880	search hit, shared 'membrane', 12 monthly samples
+rxclass_cellular_structure_effect	Bacterial cell structure	search	21674	search hit, shared 'cell', 12 monthly samples
+rxclass_decreased_protein_synthesis	Protein biosynthesis	search	60346	search hit, shared 'protein', 12 monthly samples

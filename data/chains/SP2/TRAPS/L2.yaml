@@ -1,0 +1,40 @@
+A: Microsoft
+C: dow_jones
+C_name: Dow Jones Industrial Average constituents, October 2026
+N_p: PepsiCo
+N_t:
+- Exelon
+- GE HealthCare
+- General Motors
+- Tesla
+- Deutsche Börse
+- Sika
+- Continental
+P_M:
+- Travelers
+- Disney
+- Honeywell Technologies
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - nasdaq_100
+    - sp_100
+    - sp_500
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 16
+    pass: true
+comp_A:
+- nasdaq_100
+- sp_100
+- sp_500
+field: activations.co_sponsor
+label: review code 55
+salience: 1175407.0
+universe: co_sponsor

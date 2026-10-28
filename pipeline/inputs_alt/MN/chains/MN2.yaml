@@ -1,0 +1,17 @@
+id: MN2
+dataset: MN
+seed: 20266106
+period: {start: 2025-01-01, end: 2026-10-16}
+snapshot: 2026-10-16
+fields:
+  - field: lots.origin_country
+    universe: country
+    templates: [origin_intergovernmental_group, origin_political_cooperation_group, origin_producer_group]
+  - field: lots.carrier
+    universe: carrier
+    templates: [carrier_alliance, carrier_association, carrier_rating_or_owner]
+  - field: lots.material
+    universe: material
+    templates: [material_element_group, material_metal_group, material_periodic_group]
+slots: 5
+probe: {criterion: soft}

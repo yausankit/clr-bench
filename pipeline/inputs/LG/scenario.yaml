@@ -1,0 +1,1057 @@
+business_process: A corporate network gateway aggregates the proxied connections and
+  SSH logins of its workstations into one event count per workstation.
+fields:
+  proxy_connections.tld:
+    universe: tld
+    value_form: code
+  proxy_connections.port:
+    universe: port
+    value_form: code
+  proxy_connections.client_app:
+    universe: client_app
+    value_form: self_describing
+  ssh_logins.user:
+    universe: user
+    value_form: self_describing
+rule_templates:
+- id: tld_eu
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the European Union lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a European Union member state is not counted.
+  plausible:
+  - eu_member_cctlds
+  - schengen_cctlds
+  - eurozone_cctlds
+  - nato_cctlds
+- id: tld_commonwealth
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the Commonwealth secretariat lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a Commonwealth member state is not counted.
+  plausible:
+  - commonwealth_cctlds
+  - five_eyes_cctlds
+  - cplp_cctlds
+  - oif_cctlds
+- id: tld_asia
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: ASEAN lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of an ASEAN member state is not counted.
+  plausible:
+  - asean_cctlds
+  - saarc_cctlds
+  - apec_cctlds
+  - g20_cctlds
+- id: tld_africa
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the African Union lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of an African Union member state is not counted.
+  plausible:
+  - african_union_cctlds
+  - arab_league_cctlds
+  - opec_cctlds
+  - gcc_cctlds
+- id: tld_caribbean
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: CARICOM publishes its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a CARICOM member state is not counted.
+  plausible:
+  - caricom_cctlds
+  - cplp_cctlds
+  - pacific_islands_forum_cctlds
+- id: tld_sponsored
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: ICANN''s sponsored top-level domains are defined in its applicant
+    guidebook.'
+  rule: A proxy connection to a target host under a sponsored generic top-level domain
+    is not counted.
+  plausible:
+  - sponsored_gtlds
+  - original_gtlds
+  - brand_gtlds
+  - geographic_gtlds
+- id: tld_idn
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: ICANN''s IDN ccTLD fast track defines the internationalized
+    country-code top-level domains.'
+  rule: A proxy connection to a target host under an internationalized country-code
+    top-level domain is not counted.
+  plausible:
+  - idn_cctlds
+  - geographic_gtlds
+  - brand_gtlds
+- id: tld_nordic
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the Nordic Council lists its member countries.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a Nordic Council member country is not counted.
+  plausible:
+  - nordic_council_cctlds
+  - eu_member_cctlds
+  - schengen_cctlds
+- id: tld_g7
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the G7 lists its member countries.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a G7 member country is not counted.
+  plausible:
+  - g7_cctlds
+  - oecd_cctlds
+  - nato_cctlds
+- id: tld_brics
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the BRICS group lists its member countries.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a BRICS member country is not counted.
+  plausible:
+  - brics_cctlds
+  - g20_cctlds
+  - apec_cctlds
+- id: tld_cis
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the Commonwealth of Independent States lists its members.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a CIS member country is not counted.
+  plausible:
+  - cis_cctlds
+  - opec_cctlds
+  - saarc_cctlds
+- id: port_mail
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: the IANA port registry assigns these ports to mail protocols.'
+  rule: A proxy connection whose target port is a mail protocol port is not counted.
+  plausible:
+  - mail_service_ports
+  - plaintext_protocol_ports
+  - tls_wrapped_ports
+- id: port_database
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: database vendors document these listener ports.'
+  rule: A proxy connection whose target port is a database server port is not counted.
+  plausible:
+  - database_ports
+  - http_service_ports
+  - monitoring_ports
+- id: port_proxy
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: proxy software listens on these ports.'
+  rule: A proxy connection whose target port is an HTTP or SOCKS proxy port is not
+    counted.
+  plausible:
+  - proxy_ports
+  - http_service_ports
+  - tls_wrapped_ports
+- id: port_remote
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: remote administration services use these ports.'
+  rule: A proxy connection whose target port is a remote administration port is not
+    counted.
+  plausible:
+  - remote_admin_ports
+  - windows_networking_ports
+  - file_transfer_ports
+- id: port_infra
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: the IANA registry assigns these ports to core network services.'
+  rule: A proxy connection whose target port is a network infrastructure port is not
+    counted.
+  plausible:
+  - network_infrastructure_ports
+  - directory_service_ports
+  - monitoring_ports
+- id: port_media
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: streaming and voice services use these ports.'
+  rule: A proxy connection whose target port is a streaming media port is not counted.
+  plausible:
+  - streaming_media_ports
+  - voip_ports
+  - plaintext_protocol_ports
+- id: port_container
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: container platforms document these service ports.'
+  rule: A proxy connection whose target port is a container orchestration port is
+    not counted.
+  plausible:
+  - container_orchestration_ports
+  - http_service_ports
+  - proxy_ports
+- id: port_vpn
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: VPN implementations use these well-known ports.'
+  rule: A proxy connection whose target port is a VPN service port is not counted.
+  plausible:
+  - vpn_ports
+  - remote_admin_ports
+  - tls_wrapped_ports
+- id: port_vcs
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: version control servers use these ports.'
+  rule: A proxy connection whose target port is a version control service port is
+    not counted.
+  plausible:
+  - version_control_ports
+  - file_transfer_ports
+  - http_service_ports
+- id: port_print
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: printing services use these ports.'
+  rule: A proxy connection whose target port is a printing service port is not counted.
+  plausible:
+  - printing_ports
+  - windows_networking_ports
+  - directory_service_ports
+- id: app_browser
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: browser vendors publish their Windows program names.'
+  rule: A proxy connection made by a web browser is not counted.
+  plausible:
+  - web_browsers
+  - download_managers
+  - instant_messengers
+- id: app_messenger
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: messaging vendors publish their Windows clients.'
+  rule: A proxy connection made by an instant messaging client is not counted.
+  plausible:
+  - instant_messengers
+  - web_browsers
+  - file_sync_clients
+- id: app_security
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: endpoint security vendors publish their Windows programs.'
+  rule: A proxy connection made by endpoint security software is not counted.
+  plausible:
+  - security_software
+  - software_updaters
+  - remote_desktop_clients
+- id: app_office
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: office suite vendors publish their Windows programs.'
+  rule: A proxy connection made by an office suite is not counted.
+  plausible:
+  - office_suites
+  - pdf_readers
+  - media_players
+- id: app_dev
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: development tool vendors publish their Windows programs.'
+  rule: A proxy connection made by a software development tool is not counted.
+  plausible:
+  - developer_tools
+  - ssh_clients
+  - ftp_clients
+- id: app_tencent
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Tencent publishes its product list.'
+  rule: A proxy connection made by a Tencent product is not counted.
+  plausible:
+  - tencent_products
+  - instant_messengers
+  - download_managers
+- id: app_microsoft
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Microsoft publishes its product list.'
+  rule: A proxy connection made by a Microsoft product is not counted.
+  plausible:
+  - microsoft_products
+  - office_suites
+  - developer_tools
+- id: app_qihoo
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Qihoo 360 publishes its product list.'
+  rule: A proxy connection made by a Qihoo 360 product is not counted.
+  plausible:
+  - qihoo_products
+  - security_software
+  - web_browsers
+- id: user_system
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Debian base-passwd defines the Linux base system accounts.'
+  rule: An SSH login whose user name is a Linux base system account is not counted.
+  plausible:
+  - linux_base_accounts
+  - legacy_service_accounts
+  - privileged_accounts
+- id: user_database
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: database vendors document their administrator accounts.'
+  rule: An SSH login whose user name is a database administrator account is not counted.
+  plausible:
+  - database_default_users
+  - bigdata_users
+  - monitoring_users
+- id: user_web
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: web and mail servers create these service accounts.'
+  rule: An SSH login whose user name is a web server service account is not counted.
+  plausible:
+  - web_server_users
+  - mail_server_users
+  - ftp_accounts
+- id: user_cloud
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: cloud providers document their image default accounts.'
+  rule: An SSH login whose user name is a public cloud image default account is not
+    counted.
+  plausible:
+  - cloud_image_users
+  - ci_cd_users
+  - seclists_top_usernames
+- id: user_network
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: network equipment vendors document their default accounts.'
+  rule: An SSH login whose user name is a default network equipment account is not
+    counted.
+  plausible:
+  - network_device_users
+  - iot_default_users
+  - mirai_default_usernames
+- id: user_windows
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Microsoft documents the default Windows local accounts.'
+  rule: An SSH login whose user name is a default Windows local account is not counted.
+  plausible:
+  - windows_accounts
+  - privileged_accounts
+  - network_device_users
+- id: user_bigdata
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: the Hadoop project documents its service accounts.'
+  rule: An SSH login whose user name is a Hadoop ecosystem service account is not
+    counted.
+  plausible:
+  - bigdata_users
+  - monitoring_users
+  - database_default_users
+- id: user_ci
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: continuous integration servers create these service accounts.'
+  rule: An SSH login whose user name is a continuous integration service account is
+    not counted.
+  plausible:
+  - ci_cd_users
+  - cloud_image_users
+  - seclists_top_usernames
+- id: port_dns
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: name resolution services use these ports.'
+  rule: A proxy connection whose target port is a name resolution service port is
+    not counted.
+  plausible:
+  - name_resolution_ports
+  - network_infrastructure_ports
+  - directory_service_ports
+- id: port_smb
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: Windows file sharing uses these ports.'
+  rule: A proxy connection whose target port is an SMB or NetBIOS service port is
+    not counted.
+  plausible:
+  - smb_and_netbios_ports
+  - windows_networking_ports
+  - file_transfer_ports
+- id: port_microsoft
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: Microsoft documents its server product port requirements.'
+  rule: A proxy connection whose target port is a Microsoft server product port is
+    not counted.
+  plausible:
+  - microsoft_server_ports
+  - windows_networking_ports
+  - directory_service_ports
+- id: port_nosql
+  field: proxy_connections.port
+  effect: exclude_record
+  source: 'Supplement: NoSQL vendors document their default listener ports.'
+  rule: A proxy connection whose target port is a NoSQL or search database port is
+    not counted.
+  plausible:
+  - nosql_database_ports
+  - database_ports
+  - http_service_ports
+- id: app_chromium
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: the Chromium project lists the browsers built on its engine.'
+  rule: A proxy connection made by a Chromium-based web browser is not counted.
+  plausible:
+  - chromium_browsers
+  - web_browsers
+  - download_managers
+- id: app_mail_chat
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: mail and chat clients are documented by their vendors.'
+  rule: A proxy connection made by an email or chat client is not counted.
+  plausible:
+  - email_chat_clients
+  - instant_messengers
+  - office_document_apps
+- id: app_docs
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: office and PDF vendors publish their Windows programs.'
+  rule: A proxy connection made by an office or document application is not counted.
+  plausible:
+  - office_document_apps
+  - office_suites
+  - pdf_readers
+- id: app_video
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: video player vendors publish their Windows programs.'
+  rule: A proxy connection made by a video player is not counted.
+  plausible:
+  - video_players
+  - media_players
+  - security_update_tools
+- id: app_admin
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: development and administration tools publish their Windows
+    programs.'
+  rule: A proxy connection made by a development or system administration tool is
+    not counted.
+  plausible:
+  - developer_admin_tools
+  - developer_tools
+  - remote_access_tools
+- id: app_secupd
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: security and update programs publish their Windows programs.'
+  rule: A proxy connection made by a security or update program is not counted.
+  plausible:
+  - security_update_tools
+  - security_software
+  - software_updaters
+- id: app_remote
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: remote access tools publish their Windows programs.'
+  rule: A proxy connection made by a remote access tool is not counted.
+  plausible:
+  - remote_access_tools
+  - remote_desktop_clients
+  - ssh_clients
+- id: app_sync
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: synchronization and download tools publish their Windows programs.'
+  rule: A proxy connection made by a file synchronization or download tool is not
+    counted.
+  plausible:
+  - sync_download_tools
+  - file_sync_clients
+  - download_managers
+- id: user_service
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Debian and service vendors document their daemon accounts.'
+  rule: An SSH login whose user name is a daemon or service account is not counted.
+  plausible:
+  - service_accounts
+  - linux_base_accounts
+  - legacy_service_accounts
+- id: user_appserver
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: web and mail servers create these service accounts.'
+  rule: An SSH login whose user name is an application server service account is not
+    counted.
+  plausible:
+  - application_server_accounts
+  - web_server_users
+  - mail_server_users
+- id: user_data
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: database, Hadoop and monitoring vendors document their service
+    accounts.'
+  rule: An SSH login whose user name is a database, analytics or monitoring service
+    account is not counted.
+  plausible:
+  - data_platform_accounts
+  - database_default_users
+  - bigdata_users
+- id: user_automation
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: build servers and configuration tools create these accounts.'
+  rule: An SSH login whose user name is an automation or build service account is
+    not counted.
+  plausible:
+  - automation_accounts
+  - ci_cd_users
+  - service_accounts
+- id: user_default
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: device vendors and Mirai document these default accounts.'
+  rule: An SSH login whose user name is a default device or operating system account
+    is not counted.
+  plausible:
+  - default_accounts
+  - mirai_default_usernames
+  - iot_default_users
+- id: tld_cctld
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the IANA root zone lists the country-code top-level domains.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    is not counted.
+  plausible:
+  - cctlds_all
+  - idn_cctlds
+- id: tld_gtld
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: the IANA root zone lists the generic top-level domains.'
+  rule: A proxy connection to a target host under a generic top-level domain is not
+    counted.
+  plausible:
+  - gtlds_all
+  - legacy_gtlds
+  - new_gtld_program_2012
+  - sponsored_gtlds
+  - original_gtlds
+  - brand_gtlds
+  - geographic_gtlds
+- id: tld_bimstec
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Bay of Bengal Initiative for Multi-Sectoral Technical and Economic
+    Cooperation lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Bay of Bengal Initiative for Multi-Sectoral Technical
+    and Economic Cooperation is not counted.
+  plausible:
+  - bimstec_cctlds
+  - saarc_cctlds
+  - asean_cctlds
+- id: tld_bsec
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Organization of the Black Sea Economic Cooperation lists its
+    member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Organization of the Black Sea Economic Cooperation is
+    not counted.
+  plausible:
+  - bsec_cctlds
+  - eu_member_cctlds
+  - nato_cctlds
+- id: tld_cbss
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Council of the Baltic Sea States lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Council of the Baltic Sea States is not counted.
+  plausible:
+  - cbss_cctlds
+  - eu_member_cctlds
+  - nordic_council_cctlds
+- id: tld_eac
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: East African Community lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a partner state of the East African Community is not counted.
+  plausible:
+  - eac_cctlds
+  - african_union_cctlds
+  - commonwealth_cctlds
+- id: tld_eco
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Economic Cooperation Organization lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Economic Cooperation Organization is not counted.
+  plausible:
+  - eco_cctlds
+  - opec_cctlds
+  - cis_cctlds
+- id: tld_oecs
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Organisation of Eastern Caribbean States lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Organisation of Eastern Caribbean States is not counted.
+  plausible:
+  - oecs_cctlds
+  - caricom_cctlds
+  - commonwealth_cctlds
+- id: tld_nordefco
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Nordic Defence Cooperation lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member country of the Nordic Defence Cooperation is not counted.
+  plausible:
+  - nordefco_cctlds
+  - nordic_council_cctlds
+  - nato_cctlds
+- id: tld_ecowas
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Economic Community of West African States lists its member
+    states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Economic Community of West African States is not counted.
+  plausible:
+  - ecowas_cctlds
+  - african_union_cctlds
+  - oif_cctlds
+- id: tld_sadc
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Southern African Development Community lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Southern African Development Community is not counted.
+  plausible:
+  - sadc_cctlds
+  - african_union_cctlds
+  - commonwealth_cctlds
+- id: tld_sacu
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Southern African Customs Union lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Southern African Customs Union is not counted.
+  plausible:
+  - sacu_cctlds
+  - sadc_cctlds
+  - african_union_cctlds
+- id: tld_cemac
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Central African Economic and Monetary Community lists its member
+    states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Central African Economic and Monetary Community is not
+    counted.
+  plausible:
+  - cemac_cctlds
+  - african_union_cctlds
+  - oif_cctlds
+- id: tld_eaeu
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Eurasian Economic Union lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Eurasian Economic Union is not counted.
+  plausible:
+  - eaeu_cctlds
+  - cis_cctlds
+  - csto_cctlds
+- id: tld_csto
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Collective Security Treaty Organization lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Collective Security Treaty Organization is not counted.
+  plausible:
+  - csto_cctlds
+  - cis_cctlds
+  - eaeu_cctlds
+- id: tld_igad
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Intergovernmental Authority on Development lists its member
+    states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Intergovernmental Authority on Development is not counted.
+  plausible:
+  - igad_cctlds
+  - african_union_cctlds
+  - oif_cctlds
+- id: tld_danube
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Danube Commission lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Danube Commission is not counted.
+  plausible:
+  - danube_commission_cctlds
+  - eu_member_cctlds
+  - nato_cctlds
+- id: tld_cei
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Central European Initiative lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Central European Initiative is not counted.
+  plausible:
+  - cei_cctlds
+  - eu_member_cctlds
+  - schengen_cctlds
+- id: tld_oapec
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Organization of Arab Petroleum Exporting Countries lists its
+    member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Organization of Arab Petroleum Exporting Countries is
+    not counted.
+  plausible:
+  - oapec_cctlds
+  - arab_league_cctlds
+  - opec_cctlds
+- id: tld_comesa
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Common Market for Eastern and Southern Africa lists its member
+    states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the Common Market for Eastern and Southern Africa is not
+    counted.
+  plausible:
+  - comesa_cctlds
+  - african_union_cctlds
+  - commonwealth_cctlds
+- id: tld_three_seas
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Three Seas Initiative lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a participating state of the Three Seas Initiative is not counted.
+  plausible:
+  - three_seas_cctlds
+  - eu_member_cctlds
+  - schengen_cctlds
+- id: tld_uemoa
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: West African Economic and Monetary Union lists its member states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a member state of the West African Economic and Monetary Union is not counted.
+  plausible:
+  - uemoa_cctlds
+  - african_union_cctlds
+  - oif_cctlds
+- id: tld_helcom
+  field: proxy_connections.tld
+  effect: exclude_record
+  source: 'Supplement: Baltic Marine Environment Protection Commission lists its member
+    states.'
+  rule: A proxy connection to a target host under a country-code top-level domain
+    of a contracting party of the Baltic Marine Environment Protection Commission
+    is not counted.
+  plausible:
+  - helcom_cctlds
+  - eu_member_cctlds
+  - nordic_council_cctlds
+- id: add_freebsd_master_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: FreeBSD src etc/master.passwd.'
+  rule: An SSH login by an account on the FreeBSD master.passwd system accounts list
+    is not counted.
+  plausible:
+  - freebsd_master_passwd
+  - dragonfly_master_passwd
+  - netbsd_master_passwd
+  - linux_base_accounts
+- id: add_dragonfly_master_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: DragonFly BSD etc/master.passwd.'
+  rule: An SSH login by an account on the DragonFly BSD master.passwd system accounts
+    list is not counted.
+  plausible:
+  - dragonfly_master_passwd
+  - freebsd_master_passwd
+  - netbsd_master_passwd
+  - linux_base_accounts
+- id: add_netbsd_master_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: NetBSD src etc/master.passwd.'
+  rule: An SSH login by an account on the NetBSD master.passwd system accounts list
+    is not counted.
+  plausible:
+  - netbsd_master_passwd
+  - freebsd_master_passwd
+  - openbsd_master_passwd
+  - linux_base_accounts
+- id: add_openbsd_master_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: OpenBSD src etc/master.passwd.'
+  rule: An SSH login by an account on the OpenBSD master.passwd system accounts list
+    is not counted.
+  plausible:
+  - openbsd_master_passwd
+  - netbsd_master_passwd
+  - freebsd_master_passwd
+  - linux_base_accounts
+- id: add_alpine_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: alpine-baselayout/passwd.'
+  rule: An SSH login by an account on the Alpine Linux base-layout passwd accounts
+    list is not counted.
+  plausible:
+  - alpine_passwd
+  - debian_passwd_master
+  - buildroot_passwd
+  - linux_base_accounts
+- id: add_debian_passwd_master
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: base-passwd/passwd.master.'
+  rule: An SSH login by an account on the Debian base-passwd master accounts list
+    is not counted.
+  plausible:
+  - debian_passwd_master
+  - alpine_passwd
+  - buildroot_passwd
+  - linux_base_accounts
+- id: add_buildroot_passwd
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Buildroot system/skeleton/etc/passwd.'
+  rule: An SSH login by an account on the Buildroot skeleton passwd accounts list
+    is not counted.
+  plausible:
+  - buildroot_passwd
+  - alpine_passwd
+  - debian_passwd_master
+  - linux_base_accounts
+- id: add_fedora_uidgid
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Fedora setup package uidgid (user rows).'
+  rule: An SSH login by an account on the Fedora setup package user accounts list
+    is not counted.
+  plausible:
+  - fedora_uidgid
+  - debian_passwd_master
+  - alpine_passwd
+  - linux_base_accounts
+- id: add_nmap_usernames
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Nmap nselib/data/usernames.lst.'
+  rule: An SSH login by an account on the Nmap username wordlist list is not counted.
+  plausible:
+  - nmap_usernames
+  - metasploit_unix_users
+  - defaultcreds_usernames
+  - seclists_top_usernames
+- id: add_metasploit_unix_users
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: Metasploit data/wordlists/unix_users.txt.'
+  rule: An SSH login by an account on the Metasploit Unix users wordlist list is not
+    counted.
+  plausible:
+  - metasploit_unix_users
+  - nmap_usernames
+  - defaultcreds_usernames
+  - seclists_top_usernames
+- id: add_rfc2142_mailboxes
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: RFC 2142 mailbox names (sections 3-5).'
+  rule: An SSH login by an account on the RFC 2142 service and role mailboxes list
+    is not counted.
+  plausible:
+  - rfc2142_mailboxes
+  - mail_server_users
+  - defaultcreds_usernames
+  - web_server_users
+- id: add_defaultcreds_usernames
+  field: ssh_logins.user
+  effect: exclude_record
+  source: 'Supplement: DefaultCreds Cheat Sheet username column.'
+  rule: An SSH login by an account on the DefaultCreds cheat-sheet usernames list
+    is not counted.
+  plausible:
+  - defaultcreds_usernames
+  - nmap_usernames
+  - metasploit_unix_users
+  - default_accounts
+- id: add_office_ltsc_2024_apps
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Overview of Office LTSC 2024 (Professional Plus 2024 applications).'
+  rule: A proxy connection made by a client in the Office LTSC Professional Plus 2024
+    applications list is not counted.
+  plausible:
+  - office_ltsc_2024_apps
+  - office_ltsc_2021_apps
+  - microsoft_productivity_apps
+  - office_document_apps
+- id: add_adobe_cc_current_apps
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Adobe Creative Cloud: Current applications and services.'
+  rule: A proxy connection made by a client in the Adobe Creative Cloud current applications
+    list is not counted.
+  plausible:
+  - adobe_cc_current_apps
+  - office_ltsc_2024_apps
+  - office_document_apps
+  - microsoft_products
+- id: add_windows_components_apps_utilities
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: List of Microsoft Windows components: Applications and utilities.'
+  rule: A proxy connection made by a client in the Microsoft Windows applications
+    and utilities list is not counted.
+  plausible:
+  - windows_components_apps_utilities
+  - microsoft_productivity_apps
+  - office_ltsc_2024_apps
+  - microsoft_products
+- id: add_microsoft_productivity_apps
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: List of Microsoft software: Productivity - Applications.'
+  rule: A proxy connection made by a client in the Microsoft productivity applications
+    list is not counted.
+  plausible:
+  - microsoft_productivity_apps
+  - office_ltsc_2024_apps
+  - office_ltsc_2021_apps
+  - microsoft_products
+- id: add_ninite_catalog
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Ninite application picker.'
+  rule: A proxy connection made by a client in the Ninite application catalog list
+    is not counted.
+  plausible:
+  - ninite_catalog
+  - portableapps_directory
+  - comparison_browsers_general
+  - remote_access_tools
+- id: add_portableapps_directory
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Portable App Directory.'
+  rule: A proxy connection made by a client in the Portable App Directory list is
+    not counted.
+  plausible:
+  - portableapps_directory
+  - ninite_catalog
+  - comparison_browsers_general
+  - developer_admin_tools
+- id: add_comparison_browsers_general
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Comparison of web browsers: General information.'
+  rule: 'A proxy connection made by a client in the Comparison of web browsers: general
+    information list is not counted.'
+  plausible:
+  - comparison_browsers_general
+  - ninite_catalog
+  - web_browsers
+  - chromium_browsers
+- id: add_uptodown_top_downloads
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Uptodown Apps for Windows: Top downloads.'
+  rule: A proxy connection made by a client in the Uptodown Windows top downloads
+    list is not counted.
+  plausible:
+  - uptodown_top_downloads
+  - ninite_catalog
+  - portableapps_directory
+  - office_document_apps
+- id: add_office_ltsc_2021_apps
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Overview of Office LTSC 2021 (Professional Plus 2021 applications).'
+  rule: A proxy connection made by a client in the Office LTSC Professional Plus 2021
+    applications list is not counted.
+  plausible:
+  - office_ltsc_2021_apps
+  - office_ltsc_2024_apps
+  - microsoft_productivity_apps
+  - office_document_apps
+- id: add_comparison_im_clients_general
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Comparison of instant messaging clients: General information.'
+  rule: A proxy connection made by a client in the Comparison of instant messaging
+    clients list is not counted.
+  plausible:
+  - comparison_im_clients_general
+  - ninite_catalog
+  - instant_messengers
+  - email_chat_clients
+- id: add_comparison_video_players_general
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: Comparison of video player software: General information.'
+  rule: A proxy connection made by a client in the Comparison of video player software
+    list is not counted.
+  plausible:
+  - comparison_video_players_general
+  - ninite_catalog
+  - media_players
+  - video_players
+- id: add_pdf_windows_viewers
+  field: proxy_connections.client_app
+  effect: exclude_record
+  source: 'Supplement: List of PDF software: Microsoft Windows - Viewers.'
+  rule: A proxy connection made by a client in the PDF viewers for Microsoft Windows
+    list is not counted.
+  plausible:
+  - pdf_windows_viewers
+  - portableapps_directory
+  - ninite_catalog
+  - pdf_readers
+label_nouns:
+- gateway lane
+- audit zone
+- event bucket
+- access lane
+- session tag

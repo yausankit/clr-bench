@@ -1,0 +1,155 @@
+{
+ "L1": {
+  "C": "commonwealth_members",
+  "competitors": [
+   {
+    "id": "council_of_europe_members",
+    "name": "Council of Europe member states"
+   },
+   {
+    "id": "g20_members",
+    "name": "G20 member countries"
+   },
+   {
+    "id": "g7_members",
+    "name": "Group of Seven members"
+   },
+   {
+    "id": "nato_members",
+    "name": "NATO member countries"
+   },
+   {
+    "id": "oecd_members",
+    "name": "OECD member countries"
+   },
+   {
+    "id": "un_members",
+    "name": "United Nations member states"
+   }
+  ],
+  "name": "Commonwealth of Nations members",
+  "synonyms": [
+   "Commonwealth"
+  ]
+ },
+ "L2": {
+  "C": "star_alliance_members",
+  "competitors": [
+   {
+    "id": "a380_operators",
+    "name": "Airlines that have received Airbus A380 deliveries"
+   },
+   {
+    "id": "airlines_for_europe",
+    "name": "Airlines for Europe (A4E) association member airlines"
+   },
+   {
+    "id": "b787_operators",
+    "name": "Boeing 787 operators"
+   },
+   {
+    "id": "iata_members",
+    "name": "IATA current airline members"
+   },
+   {
+    "id": "lufthansa_group_airlines",
+    "name": "Lufthansa Group operating airlines"
+   },
+   {
+    "id": "star_alliance_founders",
+    "name": "Five original Star Alliance member airlines"
+   }
+  ],
+  "name": "Star Alliance member airlines",
+  "synonyms": [
+   "Star Alliance"
+  ]
+ },
+ "L3": {
+  "C": "leru_members",
+  "competitors": [
+   {
+    "id": "coimbra_members",
+    "name": "Coimbra Group universities"
+   },
+   {
+    "id": "eua_members",
+    "name": "European University Association members"
+   },
+   {
+    "id": "russell_group",
+    "name": "Russell Group universities"
+   }
+  ],
+  "name": "League of European Research Universities members",
+  "synonyms": [
+   "LERU"
+  ]
+ },
+ "L4": {
+  "C": "nato_members",
+  "competitors": [
+   {
+    "id": "council_of_europe_members",
+    "name": "Council of Europe member states"
+   },
+   {
+    "id": "eu_members",
+    "name": "European Union member states"
+   },
+   {
+    "id": "g20_members",
+    "name": "G20 member countries"
+   },
+   {
+    "id": "g7_members",
+    "name": "Group of Seven members"
+   },
+   {
+    "id": "oecd_members",
+    "name": "OECD member countries"
+   },
+   {
+    "id": "schengen_members",
+    "name": "Schengen Area member states"
+   },
+   {
+    "id": "un_members",
+    "name": "United Nations member states"
+   }
+  ],
+  "name": "NATO member countries",
+  "synonyms": [
+   "NATO"
+  ]
+ },
+ "L5": {
+  "C": "oneworld_members",
+  "competitors": [
+   {
+    "id": "a380_operators",
+    "name": "Airlines that have received Airbus A380 deliveries"
+   },
+   {
+    "id": "aaco_members",
+    "name": "Arab Air Carriers' Organization member airlines"
+   },
+   {
+    "id": "b787_operators",
+    "name": "Boeing 787 operators"
+   },
+   {
+    "id": "iata_members",
+    "name": "IATA current airline members"
+   },
+   {
+    "id": "skytrax_five_star",
+    "name": "Skytrax five-star rated airlines"
+   }
+  ],
+  "name": "oneworld member airlines",
+  "synonyms": [
+   "oneworld"
+  ]
+ }
+}

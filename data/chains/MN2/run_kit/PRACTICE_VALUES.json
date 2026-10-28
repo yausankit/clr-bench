@@ -1,0 +1,68 @@
+{
+ "lots.carrier": {
+  "Aeroméxico": {
+   "example": "Air France",
+   "label": "review tag 70",
+   "level": 2,
+   "member": true
+  },
+  "Finnair": {
+   "example": "British Airways",
+   "label": "ledger mark 60",
+   "level": 5,
+   "member": false
+  },
+  "Heston Airlines": {
+   "example": "Air France",
+   "label": "review tag 70",
+   "level": 2,
+   "member": false
+  },
+  "LEVEL": {
+   "example": "British Airways",
+   "label": "ledger mark 60",
+   "level": 5,
+   "member": true
+  }
+ },
+ "lots.material": {
+  "gadolinium": {
+   "example": "holmium",
+   "label": "compliance lane N-59",
+   "level": 3,
+   "member": true
+  },
+  "samarium": {
+   "example": "holmium",
+   "label": "compliance lane N-59",
+   "level": 3,
+   "member": false
+  }
+ },
+ "lots.origin_country": {
+  "JP": {
+   "example": "DE",
+   "label": "ledger mark P8",
+   "level": 1,
+   "member": true
+  },
+  "MU": {
+   "example": "IT",
+   "label": "audit ribbon W2",
+   "level": 4,
+   "member": false
+  },
+  "SA": {
+   "example": "IT",
+   "label": "audit ribbon W2",
+   "level": 4,
+   "member": true
+  },
+  "TR": {
+   "example": "DE",
+   "label": "ledger mark P8",
+   "level": 1,
+   "member": false
+  }
+ }
+}

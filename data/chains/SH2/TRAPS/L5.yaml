@@ -1,0 +1,50 @@
+A: IT
+C: council_of_europe
+C_name: Council of Europe
+N_p: BY
+N_t:
+- JP
+- RU
+- VA
+- SN
+- KH
+- VC
+- TM
+P_M:
+- SM
+- AZ
+- AD
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - g20
+    - g7
+    - international_hydrographic_organization
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 36
+    pass: true
+comp_A:
+- european_economic_area
+- european_union
+- g20
+- g7
+- international_hydrographic_organization
+- nato
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- schengen_area
+- world_trade_organization
+field: ships.owner_country
+label: review ledger 34
+salience: 261776.0
+universe: flag

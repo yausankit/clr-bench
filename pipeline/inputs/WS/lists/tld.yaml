@@ -1,0 +1,1159 @@
+- id: eu_member_cctlds
+  name: European Union member states
+  synonyms: []
+  members:
+  - at
+  - be
+  - bg
+  - cy
+  - cz
+  - de
+  - dk
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hr
+  - hu
+  - ie
+  - it
+  - lt
+  - lu
+  - lv
+  - mt
+  - nl
+  - pl
+  - pt
+  - ro
+  - se
+  - si
+  - sk
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 27
+  source: https://en.wikipedia.org/wiki/Member_state_of_the_European_Union
+  salience: 678362
+- id: schengen_cctlds
+  name: Schengen Area participating states
+  synonyms: []
+  members:
+  - at
+  - be
+  - bg
+  - ch
+  - cz
+  - de
+  - dk
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hr
+  - hu
+  - is
+  - it
+  - li
+  - lt
+  - lu
+  - lv
+  - mt
+  - nl
+  - 'no'
+  - pl
+  - pt
+  - ro
+  - se
+  - si
+  - sk
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 29
+  source: https://en.wikipedia.org/wiki/Schengen_Area
+  salience: 1141441
+- id: eea_cctlds
+  name: European Economic Area contracting parties
+  synonyms: []
+  members:
+  - at
+  - be
+  - bg
+  - cy
+  - cz
+  - de
+  - dk
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hr
+  - hu
+  - ie
+  - is
+  - it
+  - li
+  - lt
+  - lu
+  - lv
+  - mt
+  - nl
+  - 'no'
+  - pl
+  - pt
+  - ro
+  - se
+  - si
+  - sk
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 30
+  source: https://en.wikipedia.org/wiki/European_Economic_Area
+  salience: 322322
+- id: eurozone_cctlds
+  name: Eurozone member states
+  synonyms: []
+  members:
+  - at
+  - be
+  - bg
+  - cy
+  - de
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hr
+  - ie
+  - it
+  - lt
+  - lu
+  - lv
+  - mt
+  - nl
+  - pt
+  - si
+  - sk
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 21
+  source: https://en.wikipedia.org/wiki/Eurozone
+  salience: 516397
+- id: eu_candidate_cctlds
+  name: European Union candidate countries
+  synonyms: []
+  members:
+  - al
+  - ba
+  - ge
+  - md
+  - me
+  - mk
+  - rs
+  - tr
+  - ua
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union
+  salience: 166670
+- id: nato_cctlds
+  name: NATO member states
+  synonyms: []
+  members:
+  - al
+  - be
+  - bg
+  - ca
+  - cz
+  - de
+  - dk
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hr
+  - hu
+  - is
+  - it
+  - lt
+  - lu
+  - lv
+  - me
+  - mk
+  - nl
+  - 'no'
+  - pl
+  - pt
+  - ro
+  - se
+  - si
+  - sk
+  - tr
+  - uk
+  - us
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 32
+  source: https://en.wikipedia.org/wiki/NATO
+  salience: 2129009
+- id: oecd_cctlds
+  name: OECD member states
+  synonyms: []
+  members:
+  - at
+  - au
+  - be
+  - ca
+  - ch
+  - cl
+  - co
+  - cr
+  - cz
+  - de
+  - dk
+  - ee
+  - es
+  - fi
+  - fr
+  - gr
+  - hu
+  - ie
+  - il
+  - is
+  - it
+  - jp
+  - kr
+  - lt
+  - lu
+  - lv
+  - mx
+  - nl
+  - 'no'
+  - nz
+  - pl
+  - pt
+  - se
+  - si
+  - sk
+  - tr
+  - uk
+  - us
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 38
+  source: https://en.wikipedia.org/wiki/OECD
+  salience: 583168
+- id: g7_cctlds
+  name: Group of Seven members
+  synonyms: []
+  members:
+  - ca
+  - de
+  - eu
+  - fr
+  - it
+  - jp
+  - uk
+  - us
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/Group_of_Seven
+  salience: 35922
+- id: g20_cctlds
+  name: G20 members
+  synonyms: []
+  members:
+  - ar
+  - au
+  - br
+  - ca
+  - cn
+  - de
+  - eu
+  - fr
+  - id
+  - in
+  - it
+  - jp
+  - kr
+  - mx
+  - ru
+  - sa
+  - tr
+  - uk
+  - us
+  - za
+  disputed: []
+  changes: []
+  out_of_universe:
+  - African Union
+  official_count: 21
+  source: https://en.wikipedia.org/wiki/G20
+  salience: 746828
+- id: commonwealth_cctlds
+  name: Commonwealth of Nations member states
+  synonyms: []
+  members:
+  - ag
+  - au
+  - bb
+  - bd
+  - bn
+  - bs
+  - bw
+  - bz
+  - ca
+  - cm
+  - cy
+  - dm
+  - fj
+  - ga
+  - gd
+  - gh
+  - gm
+  - gy
+  - in
+  - jm
+  - ke
+  - ki
+  - kn
+  - lc
+  - lk
+  - ls
+  - mt
+  - mu
+  - mv
+  - mw
+  - my
+  - mz
+  - na
+  - ng
+  - nr
+  - nz
+  - pg
+  - pk
+  - rw
+  - sb
+  - sc
+  - sg
+  - sl
+  - sz
+  - tg
+  - to
+  - tt
+  - tv
+  - tz
+  - ug
+  - uk
+  - vc
+  - vu
+  - ws
+  - za
+  - zm
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 56
+  source: https://en.wikipedia.org/wiki/Commonwealth_of_Nations
+  salience: 1422475
+- id: asean_cctlds
+  name: ASEAN member states
+  synonyms: []
+  members:
+  - bn
+  - id
+  - kh
+  - la
+  - mm
+  - my
+  - ph
+  - sg
+  - th
+  - tl
+  - vn
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 11
+  source: https://en.wikipedia.org/wiki/ASEAN
+  salience: 946505
+- id: gcc_cctlds
+  name: Gulf Cooperation Council member states
+  synonyms: []
+  members:
+  - ae
+  - bh
+  - kw
+  - om
+  - qa
+  - sa
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Gulf_Cooperation_Council
+  salience: 767528
+- id: brics_cctlds
+  name: BRICS member states
+  synonyms: []
+  members:
+  - ae
+  - br
+  - cn
+  - eg
+  - et
+  - id
+  - in
+  - ir
+  - ru
+  - za
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://en.wikipedia.org/wiki/BRICS
+  salience: 1491124
+- id: mercosur_cctlds
+  name: Mercosur full member states
+  synonyms: []
+  members:
+  - ar
+  - bo
+  - br
+  - py
+  - uy
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Mercosur
+  salience: 429384
+- id: caricom_cctlds
+  name: Caribbean Community member states
+  synonyms: []
+  members:
+  - ag
+  - bb
+  - bs
+  - bz
+  - dm
+  - gd
+  - gy
+  - ht
+  - jm
+  - kn
+  - lc
+  - ms
+  - sr
+  - tt
+  - vc
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 15
+  source: https://en.wikipedia.org/wiki/Caribbean_Community
+  salience: 123057
+- id: african_union_cctlds
+  name: African Union member states
+  synonyms: []
+  members:
+  - ao
+  - bf
+  - bi
+  - bj
+  - bw
+  - cd
+  - cf
+  - cg
+  - ci
+  - cm
+  - cv
+  - dj
+  - dz
+  - eg
+  - er
+  - et
+  - ga
+  - gh
+  - gm
+  - gn
+  - gq
+  - gw
+  - ke
+  - km
+  - lr
+  - ls
+  - ly
+  - ma
+  - mg
+  - ml
+  - mr
+  - mu
+  - mw
+  - mz
+  - na
+  - ne
+  - ng
+  - rw
+  - sc
+  - sd
+  - sl
+  - sn
+  - so
+  - ss
+  - st
+  - sz
+  - td
+  - tg
+  - tn
+  - tz
+  - ug
+  - za
+  - zm
+  - zw
+  disputed: []
+  changes: []
+  out_of_universe:
+  - EH
+  official_count: 55
+  source: https://en.wikipedia.org/wiki/African_Union
+  salience: 382745
+- id: apec_cctlds
+  name: APEC member economies
+  synonyms: []
+  members:
+  - au
+  - bn
+  - ca
+  - cl
+  - cn
+  - hk
+  - id
+  - jp
+  - kr
+  - mx
+  - my
+  - nz
+  - pe
+  - pg
+  - ph
+  - ru
+  - sg
+  - th
+  - tw
+  - us
+  - vn
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 21
+  source: https://en.wikipedia.org/wiki/Asia-Pacific_Economic_Cooperation
+  salience: 215960
+- id: pif_cctlds
+  name: Pacific Islands Forum member states
+  synonyms: []
+  members:
+  - au
+  - ck
+  - fj
+  - fm
+  - ki
+  - mh
+  - nc
+  - nr
+  - nu
+  - nz
+  - pf
+  - pg
+  - pw
+  - sb
+  - to
+  - tv
+  - vu
+  - ws
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 18
+  source: https://en.wikipedia.org/wiki/Pacific_Islands_Forum
+  salience: 43071
+- id: cplp_cctlds
+  name: CPLP member states
+  synonyms: []
+  members:
+  - ao
+  - br
+  - cv
+  - gq
+  - gw
+  - mz
+  - pt
+  - st
+  - tl
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/Community_of_Portuguese_Language_Countries
+  salience: 84216
+- id: arab_league_cctlds
+  name: Arab League member states
+  synonyms: []
+  members:
+  - ae
+  - bh
+  - dj
+  - dz
+  - eg
+  - iq
+  - jo
+  - km
+  - kw
+  - lb
+  - ly
+  - ma
+  - mr
+  - om
+  - ps
+  - qa
+  - sa
+  - sd
+  - so
+  - sy
+  - tn
+  - ye
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 22
+  source: https://en.wikipedia.org/wiki/Arab_League
+  salience: 386459
+- id: saarc_cctlds
+  name: SAARC member states
+  synonyms: []
+  members:
+  - af
+  - bd
+  - bt
+  - in
+  - lk
+  - mv
+  - np
+  - pk
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation
+  salience: 238879
+- id: eaeu_cctlds
+  name: Eurasian Economic Union member states
+  synonyms: []
+  members:
+  - am
+  - by
+  - kg
+  - kz
+  - ru
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Eurasian_Economic_Union
+  salience: 160582
+- id: sica_cctlds
+  name: SICA member states
+  synonyms: []
+  members:
+  - bz
+  - cr
+  - do
+  - gt
+  - hn
+  - ni
+  - pa
+  - sv
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/Central_American_Integration_System
+  salience: 30645
+- id: five_eyes_cctlds
+  name: Five Eyes member states
+  synonyms: []
+  members:
+  - au
+  - ca
+  - nz
+  - uk
+  - us
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Five_Eyes
+  salience: 538347
+
+# --- lists added by ADD_WS_a1 (generated by build_add_lists.py) ---
+- id: nordic_council_cctlds
+  name: Nordic Council member states
+  synonyms:
+  - Nordic Council
+  members:
+  - dk
+  - fi
+  - is
+  - 'no'
+  - se
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Nordic_Council
+  salience: 85440
+- id: igad_cctlds
+  name: IGAD member states
+  synonyms:
+  - Intergovernmental Authority on Development
+  - IGAD
+  members:
+  - dj
+  - et
+  - ke
+  - sd
+  - so
+  - ss
+  - ug
+  disputed: []
+  changes:
+  - value: sd
+    date: '2026-02-08'
+    event: rejoined
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/Intergovernmental_Authority_on_Development
+  salience: 21883
+- id: comesa_cctlds
+  name: COMESA member states
+  synonyms:
+  - Common Market for Eastern and Southern Africa
+  - COMESA
+  members:
+  - bi
+  - cd
+  - dj
+  - eg
+  - er
+  - et
+  - ke
+  - km
+  - ly
+  - mg
+  - mu
+  - mw
+  - rw
+  - sc
+  - sd
+  - so
+  - sz
+  - tn
+  - ug
+  - zm
+  - zw
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 21
+  source: https://en.wikipedia.org/wiki/Common_Market_for_Eastern_and_Southern_Africa
+  salience: 27146
+- id: eccas_cctlds
+  name: ECCAS member states
+  synonyms:
+  - Economic Community of Central African States
+  - ECCAS
+  members:
+  - ao
+  - bi
+  - cd
+  - cf
+  - cg
+  - cm
+  - ga
+  - gq
+  - st
+  - td
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://en.wikipedia.org/wiki/Economic_Community_of_Central_African_States
+  salience: 22222
+- id: opec_cctlds
+  name: OPEC member countries
+  synonyms:
+  - Organization of the Petroleum Exporting Countries
+  - OPEC
+  members:
+  - cg
+  - dz
+  - ga
+  - gq
+  - iq
+  - ir
+  - kw
+  - ly
+  - ng
+  - sa
+  - ve
+  disputed: []
+  changes:
+  - value: ae
+    date: '2026-04-28'
+    event: left
+  out_of_universe: []
+  official_count: 11
+  source: https://en.wikipedia.org/wiki/OPEC
+  salience: 891426
+- id: oas_cctlds
+  name: OAS member states
+  synonyms:
+  - Organization of American States
+  - OAS
+  members:
+  - ag
+  - ar
+  - bb
+  - bo
+  - br
+  - bs
+  - bz
+  - ca
+  - cl
+  - co
+  - cr
+  - dm
+  - do
+  - ec
+  - gd
+  - gt
+  - gy
+  - hn
+  - ht
+  - jm
+  - kn
+  - lc
+  - mx
+  - pa
+  - pe
+  - py
+  - sr
+  - sv
+  - tt
+  - us
+  - uy
+  - vc
+  - ve
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 33
+  source: https://en.wikipedia.org/wiki/Member_states_of_the_Organization_of_American_States
+  salience: 218695
+- id: eac_cctlds
+  name: East African Community partner states
+  synonyms:
+  - East African Community
+  - EAC
+  members:
+  - bi
+  - cd
+  - ke
+  - rw
+  - so
+  - ss
+  - tz
+  - ug
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/East_African_Community
+  salience: 103713
+- id: ecowas_cctlds
+  name: ECOWAS member states
+  synonyms:
+  - Economic Community of West African States
+  - ECOWAS
+  members:
+  - bj
+  - ci
+  - cv
+  - gh
+  - gm
+  - gn
+  - gw
+  - lr
+  - ng
+  - sl
+  - sn
+  - tg
+  disputed: []
+  changes:
+  - value: bf
+    date: '2025-01-29'
+    event: left
+  - value: ml
+    date: '2025-01-29'
+    event: left
+  - value: ne
+    date: '2025-01-29'
+    event: left
+  out_of_universe: []
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/ECOWAS
+  salience: 213051
+- id: sadc_cctlds
+  name: SADC member states
+  synonyms:
+  - Southern African Development Community
+  - SADC
+  members:
+  - ao
+  - bw
+  - cd
+  - km
+  - ls
+  - mg
+  - mu
+  - mw
+  - mz
+  - na
+  - sc
+  - sz
+  - tz
+  - za
+  - zm
+  - zw
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 16
+  source: https://en.wikipedia.org/wiki/Southern_African_Development_Community
+  salience: 69472
+- id: sco_cctlds
+  name: Shanghai Cooperation Organisation member states
+  synonyms:
+  - Shanghai Cooperation Organisation
+  - SCO
+  members:
+  - by
+  - cn
+  - in
+  - ir
+  - kg
+  - kz
+  - pk
+  - ru
+  - tj
+  - uz
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://en.wikipedia.org/wiki/Shanghai_Cooperation_Organisation
+  salience: 346826
+- id: csto_cctlds
+  name: CSTO member states
+  synonyms:
+  - Collective Security Treaty Organization
+  - CSTO
+  members:
+  - am
+  - by
+  - kg
+  - kz
+  - ru
+  - tj
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Collective_Security_Treaty_Organization
+  salience: 262133
+- id: bimstec_cctlds
+  name: BIMSTEC member states
+  synonyms:
+  - Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation
+  - BIMSTEC
+  members:
+  - bd
+  - bt
+  - in
+  - lk
+  - mm
+  - np
+  - th
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/BIMSTEC
+  salience: 96671
+- id: d8_cctlds
+  name: D-8 member countries
+  synonyms:
+  - D-8 Organization for Economic Cooperation
+  - Developing-8
+  members:
+  - az
+  - bd
+  - eg
+  - id
+  - ir
+  - my
+  - ng
+  - pk
+  - tr
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/D-8_Organization_for_Economic_Cooperation
+  salience: 21272
+- id: acs_cctlds
+  name: Association of Caribbean States member states
+  synonyms:
+  - Association of Caribbean States
+  - ACS
+  members:
+  - ag
+  - bb
+  - bs
+  - bz
+  - co
+  - cr
+  - cu
+  - dm
+  - do
+  - gd
+  - gt
+  - gy
+  - hn
+  - ht
+  - jm
+  - kn
+  - lc
+  - mx
+  - ni
+  - pa
+  - sr
+  - sv
+  - tt
+  - vc
+  - ve
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 25
+  source: https://en.wikipedia.org/wiki/Association_of_Caribbean_States
+  salience: 13519
+- id: oic_cctlds
+  name: OIC member states
+  synonyms:
+  - Organisation of Islamic Cooperation
+  - OIC
+  members:
+  - ae
+  - af
+  - al
+  - az
+  - bd
+  - bf
+  - bh
+  - bj
+  - bn
+  - ci
+  - cm
+  - dj
+  - dz
+  - eg
+  - ga
+  - gm
+  - gn
+  - gw
+  - gy
+  - id
+  - iq
+  - ir
+  - jo
+  - kg
+  - km
+  - kw
+  - kz
+  - lb
+  - ly
+  - ma
+  - ml
+  - mr
+  - mv
+  - my
+  - mz
+  - ne
+  - ng
+  - om
+  - pk
+  - ps
+  - qa
+  - sa
+  - sd
+  - sl
+  - sn
+  - so
+  - sr
+  - sy
+  - td
+  - tg
+  - tj
+  - tm
+  - tn
+  - tr
+  - ug
+  - uz
+  - ye
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 57
+  source: https://en.wikipedia.org/wiki/Member_states_of_the_Organisation_of_Islamic_Cooperation
+  salience: 209910
+- id: amu_cctlds
+  name: Arab Maghreb Union member states
+  synonyms:
+  - Arab Maghreb Union
+  - AMU
+  members:
+  - dz
+  - ly
+  - ma
+  - mr
+  - tn
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Arab_Maghreb_Union
+  salience: 33254

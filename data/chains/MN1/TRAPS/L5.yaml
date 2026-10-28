@@ -1,0 +1,40 @@
+A: British Airways
+C: oneworld
+C_name: Oneworld member airlines
+N_p: Solomon Airlines
+N_t:
+- Aer Lingus
+- Eastern Airlines
+- Lauda
+- SmartLynx Airlines Malta
+- Swiftair
+- Malta Air
+- Smartwings Hungary
+P_M:
+- Qatar Airways
+- Qantas
+- SriLankan Airlines
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4e_airlines
+    - iag_airlines
+    - iata_airlines
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- a4e_airlines
+- iag_airlines
+- iata_airlines
+field: lots.carrier
+label: ledger mark 98
+salience: 471950.0
+universe: carrier

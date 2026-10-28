@@ -1,0 +1,47 @@
+A: '195662009'
+C: snomed_40733004
+C_name: Infection
+N_p: '24079001'
+N_t:
+- '249497008'
+- '367498001'
+- '446096008'
+- '424132000'
+- '55822004'
+- '44054006'
+- '62564004'
+P_M:
+- '840539006'
+- '301011002'
+- '11218009'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - snomed_129134004
+    - snomed_297268004
+    - snomed_301186004
+    - snomed_363180009
+    - snomed_386617003
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- snomed_111273006
+- snomed_129134004
+- snomed_2704003
+- snomed_275498002
+- snomed_297268004
+- snomed_301186004
+- snomed_363180009
+- snomed_386617003
+field: conditions.code
+label: routing lane J6
+salience: 187496.0
+universe: condition

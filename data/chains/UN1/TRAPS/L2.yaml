@@ -1,0 +1,40 @@
+A: MY
+C: asean
+C_name: ASEAN member states
+N_p: CK
+N_t:
+- BB
+- LB
+- PE
+- SS
+- EG
+- GE
+- TW
+P_M:
+- MM
+- LA
+- PH
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - commonwealth
+    - cptpp
+    - oic
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- commonwealth
+- cptpp
+- oic
+field: references.country
+label: settlement note 59
+salience: 1292950.0
+universe: country

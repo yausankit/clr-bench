@@ -1,0 +1,391 @@
+A research foundation reviews travel reimbursement requests for scholars attending international conferences.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+A JSON object containing batches, each with its applicant records and itinerary segment records.
+
+Each eligible itinerary segment contributes one to the total for its funding call.
+Return the largest total among the funding calls in the input, as an int.
+
+Field notes:
+- An applicant whose nationality is 'DE' is in ledger annotation K6.
+- A trip whose airline is 'Lufthansa' is in expense label 26.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, applicants in ledger annotation K6 are not counted.
+L2: From this level on, trips in expense label 26 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+applicants.nationality:
+- AR — Argentina; Sovereign state or territory in South America.
+- BD — Bangladesh; Sovereign state or territory in Asia.
+- BN — Brunei Darussalam; Sovereign state or territory in Asia.
+- CA — Canada; Sovereign state or territory in North America.
+- CH — Switzerland; Sovereign state or territory in Europe.
+- CM — Cameroon; Sovereign state or territory in Africa.
+- CY — Cyprus; Sovereign state or territory in Asia.
+- DE — Germany; Sovereign state or territory in Europe.
+- DM — Dominica; Sovereign state or territory in North America.
+- FI — Finland; Sovereign state or territory in Europe.
+- FO — Faroe Islands; Sovereign state or territory in Europe.
+- GD — Grenada; Sovereign state or territory in North America.
+- GF — French Guiana; Sovereign state or territory in South America.
+- GY — Guyana; Sovereign state or territory in South America.
+- IE — Ireland; Sovereign state or territory in Europe.
+- IL — Israel; Sovereign state or territory in Asia.
+- IQ — Iraq; Sovereign state or territory in Asia.
+- JP — Japan; Sovereign state or territory in Asia.
+- KE — Kenya; Sovereign state or territory in Africa.
+- KN — Saint Kitts and Nevis; Sovereign state or territory in North America.
+- LA — Lao People's Democratic Republic; Sovereign state or territory in Asia.
+- LI — Liechtenstein; Sovereign state or territory in Europe.
+- MA — Morocco; Sovereign state or territory in Africa.
+- ME — Montenegro; Sovereign state or territory in Europe.
+- MM — Myanmar; Sovereign state or territory in Asia.
+- MT — Malta; Sovereign state or territory in Europe.
+- NC — New Caledonia; Sovereign state or territory in Insular Oceania.
+- NP — Nepal; Sovereign state or territory in Asia.
+- PH — Philippines; Sovereign state or territory in Asia.
+- PM — Saint Pierre and Miquelon; Sovereign state or territory in North America.
+- TF — French Southern Territories; Sovereign state or territory in Antarctica.
+- TH — Thailand; Sovereign state or territory in Asia.
+- YT — Mayotte; Sovereign state or territory in Africa.
+- ZA — South Africa; Sovereign state or territory in Africa.
+trips.airline:
+- Air Calédonie — Airline from New Caledonia.
+- Air Canada — Flag-carrier and largest airline of Canada.
+- All Nippon Airways — Japanese airline.
+- Asian Wings Airways — Myanmar domestic airline.
+- Cathay Pacific — Flag carrier of Hong Kong.
+- EVA Air — Taiwanese international airline.
+- EgyptAir — National airline of Egypt.
+- Flamingo Air — Small charter airline.
+- Flugfélag Íslands — Icelandic airline.
+- Hillman's Airways — Defunt British airline.
+- IrAero — Russian airline.
+- Jet2.com — British low cost airline.
+- Korean Air — Flag-carrier airline of South Korea.
+- LATAM Airlines Ecuador — Subsidiary of LATAM Airlines. Based in Quito, Ecuador.
+- Libyan Arab Air Cargo — Cargo airline division of Libyan Airlines.
+- Lucky Air — Chinese low cost carrier.
+- Lufthansa — Flag-carrier and largest airline of Germany.
+- Northwest Airlink — Regional airline service.
+- Pawan Hans — Helicopter service company based in India.
+- Porter Airlines — Canadian regional airline.
+- Qantas — Operating airline service.
+- Regional Air Services — Airline in Tanzania.
+- STARLUX Airlines — Taiwanese airline based on Taiwan Taoyuan International Airport.
+- Scandinavian Airlines — Flag-carrier airline of Denmark, Norway and Sweden.
+- Singapore Airlines — The flag carrier airline of Singapore.
+- Stellar Airways — Congolese airline (DRC).
+- TAAG Angola Airlines — State-owned flag carrier of Angola.
+- Thai Airways International — Flag carrier airline of Thailand.
+- Transworld Aviation — Airline based in Jordan.
+- Turkish Airlines — National flag-carrier airline of Turkey.
+- Ukraine Air Enterprise — Based in Kiev.
+- United Libya Airlines — Airline based in Libya.
+- WestJet — Airline in Canada.
+- Yuzhmashavia — Airline based in Dnipro, Ukraine.
+applicants.university:
+- Airlangga University — National university in East Java, Indonesia.
+- Asian Institute of Technology — University in Thailand.
+- Boston College — Private research university in Chestnut Hill, Massachusetts, United States.
+- California State University — Public university system in California, United States.
+- Government Polytechnic College, Adoor — Government Polytechnic in Kerala approved by AICTE.
+- Government Polytechnic College, Kunnamkulam — Educational institute in Kerala approved by AICTE.
+- High Council for the Evaluation of Research and Higher Education — The French independent public agency dedicated to the evaluation of HEIs (higher education institutions) and of research organizations in France.
+- Hoa Sen University — Private university in Ho Chi Minh City, Vietnam.
+- Lake Superior State University — Public university in Sault Ste. Marie, Michigan, United States.
+- Lyceum of the Philippines University — Private university located at Intramuros in the City of Manila, Philippines.
+- Nagoya University — National university of Japan.
+- National University of Singapore — Autonomous research university in Singapore.
+- Palawan State University — Public university in Palawan, Philippines.
+- Politeknik Ilmu Pelayaran Balikpapan — Polytechnic in Balikpapan, Indonesia.
+- Politeknik Kesehatan Kementerian Kesehatan Banten — Higher education institution in Serang, Indonesia.
+- St. Petersburg Naval Institute — Russian officer training school.
+- Stendhal University — French university (1987-2015).
+- University of Amsterdam — Public university in Amsterdam, Netherlands.
+- University of Cape Town — Public university in Cape Town, South Africa.
+- University of Science and Technology of China — University in Hefei, China.
+- Visva-Bharati University — Central University in Santiniketan, West Bengal, India, founded by Rabindranath Tagore.
+- Zhetysu University — University in Taldykorgan, Kazakhstan.
+
+Example input:
+{
+ "batches": [
+  {
+   "applicants": [
+    {
+     "id": "FC010-A1",
+     "nationality": "GF",
+     "university": "Asian Institute of Technology"
+    },
+    {
+     "id": "FC010-A2",
+     "nationality": "GD",
+     "university": "California State University"
+    },
+    {
+     "id": "FC010-A3",
+     "nationality": "BD",
+     "university": "Palawan State University"
+    },
+    {
+     "id": "FC010-A4",
+     "nationality": "TF",
+     "university": "Government Polytechnic College, Kunnamkulam"
+    }
+   ],
+   "id": "FC010",
+   "trips": [
+    {
+     "airline": "Northwest Airlink",
+     "applicant_id": "FC010-A1",
+     "id": "FC010-T01",
+     "reimbursement_usd": 1627
+    },
+    {
+     "airline": "Regional Air Services",
+     "applicant_id": "FC010-A2",
+     "id": "FC010-T02",
+     "reimbursement_usd": 426
+    },
+    {
+     "airline": "Northwest Airlink",
+     "applicant_id": "FC010-A2",
+     "id": "FC010-T03",
+     "reimbursement_usd": 1253
+    },
+    {
+     "airline": "Regional Air Services",
+     "applicant_id": "FC010-A2",
+     "id": "FC010-T04",
+     "reimbursement_usd": 818
+    },
+    {
+     "airline": "Flugfélag Íslands",
+     "applicant_id": "FC010-A3",
+     "id": "FC010-T05",
+     "reimbursement_usd": 1728
+    },
+    {
+     "airline": "Yuzhmashavia",
+     "applicant_id": "FC010-A3",
+     "id": "FC010-T06",
+     "reimbursement_usd": 1131
+    },
+    {
+     "airline": "Northwest Airlink",
+     "applicant_id": "FC010-A3",
+     "id": "FC010-T07",
+     "reimbursement_usd": 377
+    },
+    {
+     "airline": "Northwest Airlink",
+     "applicant_id": "FC010-A4",
+     "id": "FC010-T08",
+     "reimbursement_usd": 684
+    },
+    {
+     "airline": "Asian Wings Airways",
+     "applicant_id": "FC010-A4",
+     "id": "FC010-T09",
+     "reimbursement_usd": 1769
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC012-A1",
+     "nationality": "NC",
+     "university": "Visva-Bharati University"
+    },
+    {
+     "id": "FC012-A2",
+     "nationality": "PM",
+     "university": "Boston College"
+    },
+    {
+     "id": "FC012-A3",
+     "nationality": "AR",
+     "university": "California State University"
+    },
+    {
+     "id": "FC012-A4",
+     "nationality": "MA",
+     "university": "Boston College"
+    }
+   ],
+   "id": "FC012",
+   "trips": [
+    {
+     "airline": "Yuzhmashavia",
+     "applicant_id": "FC012-A1",
+     "id": "FC012-T01",
+     "reimbursement_usd": 840
+    },
+    {
+     "airline": "Asian Wings Airways",
+     "applicant_id": "FC012-A1",
+     "id": "FC012-T02",
+     "reimbursement_usd": 405
+    },
+    {
+     "airline": "United Libya Airlines",
+     "applicant_id": "FC012-A2",
+     "id": "FC012-T03",
+     "reimbursement_usd": 1778
+    },
+    {
+     "airline": "Asian Wings Airways",
+     "applicant_id": "FC012-A2",
+     "id": "FC012-T04",
+     "reimbursement_usd": 404
+    },
+    {
+     "airline": "Hillman's Airways",
+     "applicant_id": "FC012-A3",
+     "id": "FC012-T05",
+     "reimbursement_usd": 1380
+    },
+    {
+     "airline": "Flugfélag Íslands",
+     "applicant_id": "FC012-A4",
+     "id": "FC012-T06",
+     "reimbursement_usd": 488
+    },
+    {
+     "airline": "United Libya Airlines",
+     "applicant_id": "FC012-A4",
+     "id": "FC012-T07",
+     "reimbursement_usd": 84
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC019-A1",
+     "nationality": "DE",
+     "university": "Palawan State University"
+    },
+    {
+     "id": "FC019-A2",
+     "nationality": "IQ",
+     "university": "Politeknik Ilmu Pelayaran Balikpapan"
+    },
+    {
+     "id": "FC019-A3",
+     "nationality": "TF",
+     "university": "Palawan State University"
+    },
+    {
+     "id": "FC019-A4",
+     "nationality": "BD",
+     "university": "Government Polytechnic College, Adoor"
+    }
+   ],
+   "id": "FC019",
+   "trips": [
+    {
+     "airline": "Asian Wings Airways",
+     "applicant_id": "FC019-A1",
+     "id": "FC019-T01",
+     "reimbursement_usd": 1065
+    },
+    {
+     "airline": "Jet2.com",
+     "applicant_id": "FC019-A1",
+     "id": "FC019-T02",
+     "reimbursement_usd": 1274
+    },
+    {
+     "airline": "Hillman's Airways",
+     "applicant_id": "FC019-A2",
+     "id": "FC019-T03",
+     "reimbursement_usd": 1511
+    },
+    {
+     "airline": "Porter Airlines",
+     "applicant_id": "FC019-A2",
+     "id": "FC019-T04",
+     "reimbursement_usd": 562
+    },
+    {
+     "airline": "Porter Airlines",
+     "applicant_id": "FC019-A3",
+     "id": "FC019-T05",
+     "reimbursement_usd": 1773
+    },
+    {
+     "airline": "Jet2.com",
+     "applicant_id": "FC019-A4",
+     "id": "FC019-T06",
+     "reimbursement_usd": 865
+    },
+    {
+     "airline": "Hillman's Airways",
+     "applicant_id": "FC019-A4",
+     "id": "FC019-T07",
+     "reimbursement_usd": 263
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC031-A1",
+     "nationality": "AR",
+     "university": "Politeknik Ilmu Pelayaran Balikpapan"
+    },
+    {
+     "id": "FC031-A2",
+     "nationality": "IQ",
+     "university": "Government Polytechnic College, Kunnamkulam"
+    },
+    {
+     "id": "FC031-A3",
+     "nationality": "BD",
+     "university": "Lake Superior State University"
+    },
+    {
+     "id": "FC031-A4",
+     "nationality": "AR",
+     "university": "Visva-Bharati University"
+    }
+   ],
+   "id": "FC031",
+   "trips": [
+    {
+     "airline": "Asian Wings Airways",
+     "applicant_id": "FC031-A1",
+     "id": "FC031-T01",
+     "reimbursement_usd": 1411
+    },
+    {
+     "airline": "Regional Air Services",
+     "applicant_id": "FC031-A2",
+     "id": "FC031-T02",
+     "reimbursement_usd": 486
+    },
+    {
+     "airline": "Lufthansa",
+     "applicant_id": "FC031-A3",
+     "id": "FC031-T03",
+     "reimbursement_usd": 1561
+    },
+    {
+     "airline": "Porter Airlines",
+     "applicant_id": "FC031-A4",
+     "id": "FC031-T04",
+     "reimbursement_usd": 758
+    }
+   ]
+  }
+ ]
+}

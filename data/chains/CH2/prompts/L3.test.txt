@@ -1,0 +1,458 @@
+A customs broker reviews chemical import declarations and counts the declaration lines that require manual clearance.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with an importers array; each importer has an id and declarations, each declaration has an id, exporter_country, and shipments, and each shipment has an id, air_carrier, and lines.
+
+Each declaration line counts once for its importer unless the line's substance, its declaration's exporter country, or its shipment's air carrier is excluded.
+Return the sum of the totals of all importers in the input, as an int.
+
+Field notes:
+- A line whose substance is 'Triethanolamine' is in intake folder D4.
+- A declaration whose exporter_country is 'FR' is in review batch 71.
+- A shipment whose air_carrier is 'American Airlines' is in clearance stamp C-14.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, lines in intake folder D4 are not counted.
+L2: From this level on, declarations in review batch 71 are not counted.
+L3: From this level on, shipments in clearance stamp C-14 are not counted.
+
+Value reference:
+lines.substance:
+- 2,2-Diphenyl-2-hydroxyacetic acid — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- 2,3,7,8-Tetrachlorodibenzo-p-dioxin — Persistent organic pollutant that accumulates in living organisms and the environment.
+- 2-Nitropropane — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- 4,4'-Methylenedianiline — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Alpha-hexachlorocyclohexane — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Amiton — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Aziridine — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Brominated diphenyl ethers — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- CFC-12 — Refrigerant or blowing agent used in cooling, insulation, and air-conditioning equipment.
+- CFC-213 — Refrigerant or blowing agent used in cooling, insulation, and air-conditioning equipment.
+- Carrageenan, degraded (Poligeenan) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Cyanogen chloride — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Decabromodiphenyl ether — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Dibenzo[a,l]pyrene — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Dichloromethane — Industrial solvent used in cleaning, degreasing, and chemical manufacturing.
+- Dichloromethane (Methylene chloride) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- HFC-236fa — Refrigerant or blowing agent used in cooling, insulation, and air-conditioning equipment.
+- Heptabromodiphenyl ether — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Hydrogen cyanide — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Lysergic acid — Chemical intermediate used in the manufacture of pharmaceutical products.
+- Methamidophos — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Methylazoxymethanol acetate — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Norephedrine — Chemical intermediate used in the manufacture of pharmaceutical products.
+- Phosphorus oxychloride — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Polychlorinated biphenyls — Persistent organic pollutant that accumulates in living organisms and the environment.
+- Polychlorinated terphenyls — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Quinoxyfen — Pesticide used to control insects, weeds, fungi, or other agricultural pests.
+- Ricin — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Sulfur mustard — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- Toxaphene (Polychlorinated camphenes) — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- Trichloroethylene — Industrial solvent used in cleaning, degreasing, and chemical manufacturing.
+- Triethanolamine — Highly toxic chemical agent whose production and transfer are tightly controlled.
+- UV-328 — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+- ortho-Phenylenediamine dihydrochloride — Industrial chemical used in manufacturing, coatings, plastics, or other processes.
+declarations.exporter_country:
+- AD — Andorra; Andorra is a country in Southern Europe; its capital is Andorra la Vella.
+- AG — Antigua & Barbuda; Antigua & Barbuda is a country in Latin America and the Caribbean; its capital is St. John's.
+- BB — Barbados; Barbados is a country in Latin America and the Caribbean; its capital is Bridgetown.
+- BE — Belgium; Belgium is a country in Western Europe; its capital is Brussels.
+- BR — Brazil; Brazil is a country in Latin America and the Caribbean; its capital is Brasilia.
+- BW — Botswana; Botswana is a country in Sub-Saharan Africa; its capital is Gaborone.
+- CZ — Czechia; Czechia is a country in Eastern Europe; its capital is Prague.
+- DE — Germany; Germany is a country in Western Europe; its capital is Berlin.
+- DJ — Djibouti; Djibouti is a country in Sub-Saharan Africa; its capital is Djibouti.
+- EE — Estonia; Estonia is a country in Northern Europe; its capital is Tallinn.
+- EG — Egypt; Egypt is a country in Northern Africa; its capital is Cairo.
+- ET — Ethiopia; Ethiopia is a country in Sub-Saharan Africa; its capital is Addis Ababa.
+- FM — Micronesia; Micronesia is a country in Micronesia; its capital is Palikir.
+- FR — France; France is a country in Western Europe; its capital is Paris.
+- GB — UK; UK is a country in Northern Europe; its capital is London.
+- IN — India; India is a country in Southern Asia; its capital is New Delhi.
+- IR — Iran; Iran is a country in Southern Asia; its capital is Tehran.
+- JO — Jordan; Jordan is a country in Western Asia; its capital is Amman.
+- JP — Japan; Japan is a country in Eastern Asia; its capital is Tokyo.
+- LB — Lebanon; Lebanon is a country in Western Asia; its capital is Beirut.
+- LS — Lesotho; Lesotho is a country in Sub-Saharan Africa; its capital is Maseru.
+- LT — Lithuania; Lithuania is a country in Northern Europe; its capital is Vilnius.
+- ME — Montenegro; Montenegro is a country in Southern Europe; its capital is Podgorica.
+- MM — Myanmar; Myanmar is a country in South-eastern Asia; its capital is Nay Pyi Taw.
+- NI — Nicaragua; Nicaragua is a country in Latin America and the Caribbean; its capital is Managua.
+- PL — Poland; Poland is a country in Eastern Europe; its capital is Warsaw.
+- RO — Romania; Romania is a country in Eastern Europe; its capital is Bucharest.
+- RU — Russia; Russia is a country in Eastern Europe; its capital is Moscow.
+- SG — Singapore; Singapore is a country in South-eastern Asia; its capital is Singapore.
+- SK — Slovakia; Slovakia is a country in Eastern Europe; its capital is Bratislava.
+- SR — Suriname; Suriname is a country in Latin America and the Caribbean; its capital is Paramaribo.
+- US — US; US is a country in Northern America; its capital is Washington.
+- VE — Venezuela; Venezuela is a country in Latin America and the Caribbean; its capital is Caracas.
+- YE — Yemen; Yemen is a country in Western Asia; its capital is Sanaa.
+shipments.air_carrier:
+- Air Europa — Airline headquartered in Llucmajor, Spain.
+- Air Serbia — Airline headquartered in Belgrade, Serbia.
+- Air Zimbabwe — Airline headquartered in Harare, Zimbabwe.
+- American Airlines — Airline headquartered in Fort Worth, United States.
+- Boliviana de Aviacion — Airline headquartered in Cochabamba, Bolivia.
+- Croatia Airlines — Airline headquartered in Zagreb, Croatia.
+- Edelweiss Air — Airline headquartered in Kloten, Switzerland.
+- Enter Air — Airline headquartered in Warsaw, Poland.
+- Finnair — Airline headquartered in Veromies, Finland.
+- Gol Transportes Aereos — Airline headquartered in Sao Paulo, Brazil.
+- Kam Air — Airline headquartered in Kabul, Afghanistan.
+- Kenya Airways — Airline headquartered in Embakasi, Kenya.
+- Libyan Airlines — Airline headquartered in Tripoli, Libya.
+- Nauru Airlines — Airline headquartered in Nauru International Airport, Nauru.
+- Nok Air — Airline headquartered in Sathon, Thailand.
+- Qantas Airways — Airline headquartered in Mascot, Australia.
+- Qatar Airways — Airline headquartered in Doha, Qatar.
+- Saudia — Airline headquartered in Jeddah, Saudi Arabia.
+- Southwest Airlines — Airline headquartered in Dallas, United States.
+- UPS Airlines — Airline headquartered in Louisville, United States.
+- Yakutia Airlines — Airline headquartered in Yakutsk Airport, Russia.
+- flydubai — Airline headquartered in Dubai International Airport, United Arab Emirates.
+
+Example input:
+{
+ "importers": [
+  {
+   "declarations": [
+    {
+     "exporter_country": "ET",
+     "id": "DEC-001-1",
+     "shipments": [
+      {
+       "air_carrier": "Kam Air",
+       "id": "SHP-001-1",
+       "lines": [
+        {
+         "id": "LIN-001-1-1",
+         "substance": "CFC-12"
+        },
+        {
+         "id": "LIN-001-1-2",
+         "substance": "ortho-Phenylenediamine dihydrochloride"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "BW",
+     "id": "DEC-001-2",
+     "shipments": [
+      {
+       "air_carrier": "Croatia Airlines",
+       "id": "SHP-001-2",
+       "lines": [
+        {
+         "id": "LIN-001-2-1",
+         "substance": "ortho-Phenylenediamine dihydrochloride"
+        },
+        {
+         "id": "LIN-001-2-2",
+         "substance": "4,4'-Methylenedianiline"
+        },
+        {
+         "id": "LIN-001-2-3",
+         "substance": "4,4'-Methylenedianiline"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "FM",
+     "id": "DEC-001-3",
+     "shipments": [
+      {
+       "air_carrier": "Nok Air",
+       "id": "SHP-001-3",
+       "lines": [
+        {
+         "id": "LIN-001-3-1",
+         "substance": "Methylazoxymethanol acetate"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-001"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "FM",
+     "id": "DEC-003-1",
+     "shipments": [
+      {
+       "air_carrier": "flydubai",
+       "id": "SHP-003-1",
+       "lines": [
+        {
+         "id": "LIN-003-1-1",
+         "substance": "Toxaphene (Polychlorinated camphenes)"
+        },
+        {
+         "id": "LIN-003-1-2",
+         "substance": "Dibenzo[a,l]pyrene"
+        },
+        {
+         "id": "LIN-003-1-3",
+         "substance": "Dichloromethane (Methylene chloride)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "LB",
+     "id": "DEC-003-2",
+     "shipments": [
+      {
+       "air_carrier": "Air Serbia",
+       "id": "SHP-003-2",
+       "lines": [
+        {
+         "id": "LIN-003-2-1",
+         "substance": "4,4'-Methylenedianiline"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "BW",
+     "id": "DEC-003-3",
+     "shipments": [
+      {
+       "air_carrier": "Enter Air",
+       "id": "SHP-003-3",
+       "lines": [
+        {
+         "id": "LIN-003-3-1",
+         "substance": "Triethanolamine"
+        },
+        {
+         "id": "LIN-003-3-2",
+         "substance": "Quinoxyfen"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-003"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "LB",
+     "id": "DEC-019-1",
+     "shipments": [
+      {
+       "air_carrier": "Edelweiss Air",
+       "id": "SHP-019-1",
+       "lines": [
+        {
+         "id": "LIN-019-1-1",
+         "substance": "Toxaphene (Polychlorinated camphenes)"
+        },
+        {
+         "id": "LIN-019-1-2",
+         "substance": "Toxaphene (Polychlorinated camphenes)"
+        },
+        {
+         "id": "LIN-019-1-3",
+         "substance": "ortho-Phenylenediamine dihydrochloride"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "FR",
+     "id": "DEC-019-2",
+     "shipments": [
+      {
+       "air_carrier": "Nok Air",
+       "id": "SHP-019-2",
+       "lines": [
+        {
+         "id": "LIN-019-2-1",
+         "substance": "Dibenzo[a,l]pyrene"
+        },
+        {
+         "id": "LIN-019-2-2",
+         "substance": "Carrageenan, degraded (Poligeenan)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "JO",
+     "id": "DEC-019-3",
+     "shipments": [
+      {
+       "air_carrier": "Boliviana de Aviacion",
+       "id": "SHP-019-3",
+       "lines": [
+        {
+         "id": "LIN-019-3-1",
+         "substance": "Quinoxyfen"
+        },
+        {
+         "id": "LIN-019-3-2",
+         "substance": "Carrageenan, degraded (Poligeenan)"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-019"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "JO",
+     "id": "DEC-033-1",
+     "shipments": [
+      {
+       "air_carrier": "Saudia",
+       "id": "SHP-033-1",
+       "lines": [
+        {
+         "id": "LIN-033-1-1",
+         "substance": "Carrageenan, degraded (Poligeenan)"
+        },
+        {
+         "id": "LIN-033-1-2",
+         "substance": "Methylazoxymethanol acetate"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "BW",
+     "id": "DEC-033-2",
+     "shipments": [
+      {
+       "air_carrier": "Kenya Airways",
+       "id": "SHP-033-2",
+       "lines": [
+        {
+         "id": "LIN-033-2-1",
+         "substance": "Methylazoxymethanol acetate"
+        },
+        {
+         "id": "LIN-033-2-2",
+         "substance": "4,4'-Methylenedianiline"
+        },
+        {
+         "id": "LIN-033-2-3",
+         "substance": "Dichloromethane (Methylene chloride)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "IR",
+     "id": "DEC-033-3",
+     "shipments": [
+      {
+       "air_carrier": "Kenya Airways",
+       "id": "SHP-033-3",
+       "lines": [
+        {
+         "id": "LIN-033-3-1",
+         "substance": "CFC-12"
+        },
+        {
+         "id": "LIN-033-3-2",
+         "substance": "Methylazoxymethanol acetate"
+        },
+        {
+         "id": "LIN-033-3-3",
+         "substance": "Methylazoxymethanol acetate"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-033"
+  },
+  {
+   "declarations": [
+    {
+     "exporter_country": "ET",
+     "id": "DEC-040-1",
+     "shipments": [
+      {
+       "air_carrier": "Nok Air",
+       "id": "SHP-040-1",
+       "lines": [
+        {
+         "id": "LIN-040-1-1",
+         "substance": "Methylazoxymethanol acetate"
+        },
+        {
+         "id": "LIN-040-1-2",
+         "substance": "4,4'-Methylenedianiline"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "AG",
+     "id": "DEC-040-2",
+     "shipments": [
+      {
+       "air_carrier": "Enter Air",
+       "id": "SHP-040-2",
+       "lines": [
+        {
+         "id": "LIN-040-2-1",
+         "substance": "Dichloromethane (Methylene chloride)"
+        },
+        {
+         "id": "LIN-040-2-2",
+         "substance": "ortho-Phenylenediamine dihydrochloride"
+        },
+        {
+         "id": "LIN-040-2-3",
+         "substance": "CFC-12"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "exporter_country": "FM",
+     "id": "DEC-040-3",
+     "shipments": [
+      {
+       "air_carrier": "American Airlines",
+       "id": "SHP-040-3",
+       "lines": [
+        {
+         "id": "LIN-040-3-1",
+         "substance": "Dibenzo[a,l]pyrene"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "id": "IMP-040"
+  }
+ ]
+}

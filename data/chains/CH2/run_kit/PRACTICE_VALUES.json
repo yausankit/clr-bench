@@ -1,0 +1,68 @@
+{
+ "declarations.exporter_country": {
+  "EE": {
+   "example": "DE",
+   "label": "intake folder 11",
+   "level": 5,
+   "member": false
+  },
+  "IN": {
+   "example": "DE",
+   "label": "intake folder 11",
+   "level": 5,
+   "member": true
+  },
+  "JP": {
+   "example": "FR",
+   "label": "review batch 71",
+   "level": 2,
+   "member": true
+  },
+  "PL": {
+   "example": "FR",
+   "label": "review batch 71",
+   "level": 2,
+   "member": false
+  }
+ },
+ "lines.substance": {
+  "2,3,7,8-Tetrachlorodibenzo-p-dioxin": {
+   "example": "Polychlorinated biphenyls",
+   "label": "intake folder S3",
+   "level": 4,
+   "member": false
+  },
+  "Alpha-hexachlorocyclohexane": {
+   "example": "Polychlorinated biphenyls",
+   "label": "intake folder S3",
+   "level": 4,
+   "member": true
+  },
+  "Phosphorus oxychloride": {
+   "example": "Triethanolamine",
+   "label": "intake folder D4",
+   "level": 1,
+   "member": true
+  },
+  "Ricin": {
+   "example": "Triethanolamine",
+   "label": "intake folder D4",
+   "level": 1,
+   "member": false
+  }
+ },
+ "shipments.air_carrier": {
+  "Air Zimbabwe": {
+   "example": "American Airlines",
+   "label": "clearance stamp C-14",
+   "level": 3,
+   "member": false
+  },
+  "Qatar Airways": {
+   "example": "American Airlines",
+   "label": "clearance stamp C-14",
+   "level": 3,
+   "member": true
+  }
+ }
+}

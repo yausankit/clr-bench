@@ -1,0 +1,42 @@
+A: ng
+C: opec_cctlds
+C_name: OPEC member countries
+N_p: td
+N_t:
+- bb
+- tz
+- cv
+- build
+- godaddy
+- creditunion
+- mu
+P_M:
+- ve
+- kw
+- cg
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_union_cctlds
+    - commonwealth_cctlds
+    - ecowas_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- african_union_cctlds
+- commonwealth_cctlds
+- d8_cctlds
+- ecowas_cctlds
+- oic_cctlds
+field: hosts.tld
+label: reporting band V-65
+salience: 891426.0
+universe: tld

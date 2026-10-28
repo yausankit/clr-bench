@@ -1,0 +1,168 @@
+{
+ "sol6_more": {
+  "gepa": {
+   "acc": null,
+   "levels": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "single": null,
+   "inc_u": null,
+   "exc": null,
+   "n": 0
+  },
+  "tfgrpo": {
+   "acc": null,
+   "levels": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "single": null,
+   "inc_u": null,
+   "exc": null,
+   "n": 0
+  },
+  "evoskill": {
+   "acc": null,
+   "levels": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "single": null,
+   "inc_u": null,
+   "exc": null,
+   "n": 0
+  },
+  "rb": {
+   "acc": null,
+   "levels": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "single": null,
+   "inc_u": null,
+   "exc": null,
+   "n": 0
+  }
+ },
+ "lessn": {
+  "ace": {
+   "acc": 72.0,
+   "levels": [
+    89.0,
+    83.0,
+    66.0,
+    50.0
+   ],
+   "single": 47.5,
+   "inc_u": 60.2,
+   "exc": 93.7,
+   "n": 80
+  },
+  "dc": {
+   "acc": 53.75,
+   "levels": [
+    82.0,
+    63.0,
+    44.0,
+    26.0
+   ],
+   "single": 15.0,
+   "inc_u": 19.8,
+   "exc": 80.7,
+   "n": 80
+  }
+ },
+ "convn": {
+  "ace": {
+   "acc": 71.5,
+   "levels": [
+    91.0,
+    85.0,
+    65.0,
+    45.0
+   ],
+   "single": 47.0,
+   "inc_u": 57.2,
+   "exc": 91.0,
+   "n": 80
+  },
+  "dc": {
+   "acc": 65.75,
+   "levels": [
+    87.0,
+    73.0,
+    61.0,
+    42.0
+   ],
+   "single": 37.5,
+   "inc_u": 50.5,
+   "exc": 87.2,
+   "n": 80
+  }
+ },
+ "procn": {
+  "ace": {
+   "acc": 55.0,
+   "levels": [
+    83.0,
+    65.0,
+    45.0,
+    27.0
+   ],
+   "single": 10.0,
+   "inc_u": 15.0,
+   "exc": 98.5,
+   "n": 80
+  },
+  "dc": {
+   "acc": 55.0,
+   "levels": [
+    77.0,
+    64.0,
+    46.0,
+    33.0
+   ],
+   "single": 17.5,
+   "inc_u": 27.5,
+   "exc": 90.3,
+   "n": 80
+  }
+ },
+ "namem": {
+  "ace": {
+   "acc": 73.5,
+   "levels": [
+    93.0,
+    82.0,
+    64.0,
+    55.0
+   ],
+   "single": 52.0,
+   "inc_u": 66.0,
+   "exc": 88.4,
+   "n": 80
+  },
+  "dc": {
+   "acc": 75.75,
+   "levels": [
+    94.0,
+    83.0,
+    68.0,
+    58.0
+   ],
+   "single": 57.0,
+   "inc_u": 73.2,
+   "exc": 87.4,
+   "n": 80
+  }
+ }
+}

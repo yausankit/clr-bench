@@ -1,0 +1,41 @@
+A: BNP Paribas
+C: g_sib
+C_name: 2025 Financial Stability Board global systemically important banks
+N_p: Eni
+N_t:
+- Argenx
+- FCC
+- Prysmian
+- UDR, Inc.
+- Schibsted
+- LyondellBasell
+- Aroundtown
+P_M:
+- Morgan Stanley
+- HSBC
+- Citigroup
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - euro_stoxx_50
+    - euronext_100
+    - stoxx_europe_600
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- euro_stoxx_50
+- euronext_100
+- fortune_global_500
+- stoxx_europe_600
+field: applications.sponsor_company
+label: review docket 93
+salience: 92246.0
+universe: sponsor_company

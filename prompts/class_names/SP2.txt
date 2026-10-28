@@ -1,0 +1,5 @@
+audit lane X5 stands for: G-14 member clubs
+review code 55 stands for: Dow Jones Industrial Average constituents, October 2026
+review tag Y-25 stands for: European Union member states
+settlement lane D3 stands for: European Super League founding clubs
+handling class 20 stands for: AEX index constituents, October 2026

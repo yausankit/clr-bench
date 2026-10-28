@@ -1,0 +1,45 @@
+A: CWE-766
+C: sfp_entry_points
+C_name: 'SFP Primary Cluster: Entry Points'
+N_p: CWE-260
+N_t:
+- CWE-304
+- CWE-1244
+- CWE-573
+- CWE-547
+- CWE-1327
+- CWE-617
+- CWE-49
+P_M:
+- CWE-500
+- CWE-531
+- CWE-583
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cwe1000_284
+    - cwe1000_285
+    - cwe1000_664
+    - cwe1000_710
+    - cwe1400_poor_coding_practices
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- cwe1000_284
+- cwe1000_285
+- cwe1000_664
+- cwe1000_710
+- cwe1400_poor_coding_practices
+- owasp2021_a01
+field: findings.cwe
+label: client folio G3
+salience: 13299.0
+universe: cwe

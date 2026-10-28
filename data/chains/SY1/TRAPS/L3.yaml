@@ -1,0 +1,50 @@
+A: Morphine
+C: dea_schedule_ii
+C_name: Schedule II controlled substances
+N_p: Tramadol
+N_t:
+- Pregabalin
+- Galantamine
+- Simvastatin
+- Vancomycin
+- Metformin
+- Naproxen
+- Doxycycline
+P_M:
+- Methylphenidate
+- Remifentanil
+- Meperidine
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - atc_n02
+    - mesh_d_d03_132_alkaloids
+    - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+    - mesh_d_d04_615_polycyclic_aromatic_hydrocarbons
+    - mesh_d_d04_polycyclic_compounds
+    - stopp_start_v3_section_l
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- atc_n02
+- atc_n02a
+- mesh_d_d03_132_alkaloids
+- mesh_d_d03_633_heterocyclic_compounds_fused_ring
+- mesh_d_d04_615_polycyclic_aromatic_hydrocarbons
+- mesh_d_d04_polycyclic_compounds
+- mesh_pa_analgesics_opioid
+- mesh_pa_narcotics
+- stopp_start_v3_section_l
+- who_eml_2023_s1_anaesthetics
+field: medications.ingredient
+label: ledger mark A-70
+salience: 328386.0
+universe: medicine

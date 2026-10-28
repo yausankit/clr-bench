@@ -1,0 +1,325 @@
+business_process: A sports marketing agency reconciles sponsorship activation counts
+  for sponsor brands before settlement.
+fields:
+  activations.club:
+    universe: club
+    value_form: self_describing
+  activations.co_sponsor:
+    universe: co_sponsor
+    value_form: self_describing
+  activations.market_country:
+    universe: market_country
+    value_form: code
+rule_templates:
+- id: club_rule_ucl
+  field: activations.club
+  effect: exclude_record
+  source: UEFA competition records
+  rule: A club that has won the top European club cup is left out.
+  plausible:
+  - ucl_winners
+  - uel_winners
+  - cup_winners_cup_winners
+- id: club_rule_uel
+  field: activations.club
+  effect: exclude_record
+  source: UEFA competition records
+  rule: A club that has won the second-tier European club cup is left out.
+  plausible:
+  - uel_winners
+  - cup_winners_cup_winners
+  - ucl_winners
+- id: club_rule_cwc
+  field: activations.club
+  effect: exclude_record
+  source: UEFA competition records
+  rule: A club that has won the former European cup-winners' competition is left out.
+  plausible:
+  - cup_winners_cup_winners
+  - uel_winners
+  - ucl_winners
+- id: club_rule_world
+  field: activations.club
+  effect: exclude_record
+  source: FIFA competition records
+  rule: A club that has won the world club championship is left out.
+  plausible:
+  - club_world_cup_winners
+  - ucl_winners
+  - club_world_cup_2025_participants
+- id: club_rule_esl
+  field: activations.club
+  effect: exclude_record
+  source: public launch list
+  rule: A club named as a founder of the breakaway European league is left out.
+  plausible:
+  - super_league_founders
+  - ucl_winners
+  - g14_members
+- id: club_rule_g14
+  field: activations.club
+  effect: exclude_record
+  source: G-14 membership
+  rule: A club in the former G-14 group is left out.
+  plausible:
+  - g14_members
+  - super_league_founders
+  - ucl_winners
+- id: club_rule_cwc25
+  field: activations.club
+  effect: exclude_record
+  source: FIFA entry list
+  rule: A club entered in the 2025 world club championship is left out.
+  plausible:
+  - club_world_cup_2025_participants
+  - club_world_cup_winners
+  - ucl_2024_25_league_phase
+- id: club_rule_ucl25
+  field: activations.club
+  effect: exclude_record
+  source: UEFA entry list
+  rule: A club in the 2024-25 Champions League league phase is left out.
+  plausible:
+  - ucl_2024_25_league_phase
+  - club_world_cup_2025_participants
+  - ucl_winners
+- id: club_rule_pl92
+  field: activations.club
+  effect: exclude_record
+  source: league season list
+  rule: A club in the first Premier League season is left out.
+  plausible:
+  - premier_league_1992_93
+  - laliga_1929
+  - bundesliga_1963_64
+- id: club_rule_laliga
+  field: activations.club
+  effect: exclude_record
+  source: league season list
+  rule: A club in the first La Liga season is left out.
+  plausible:
+  - laliga_1929
+  - seriea_1929_30
+  - premier_league_1992_93
+- id: club_rule_bundesliga
+  field: activations.club
+  effect: exclude_record
+  source: league season list
+  rule: A club in the first Bundesliga season is left out.
+  plausible:
+  - bundesliga_1963_64
+  - premier_league_1992_93
+  - seriea_1929_30
+- id: club_rule_seriea
+  field: activations.club
+  effect: exclude_record
+  source: league season list
+  rule: A club in the 1929-30 Serie A season is left out.
+  plausible:
+  - seriea_1929_30
+  - laliga_1929
+  - bundesliga_1963_64
+- id: company_rule_cac
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the French large-cap equity index is left out.
+  plausible:
+  - cac_40
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_ibex
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the Spanish large-cap equity index is left out.
+  plausible:
+  - ibex_35
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_mib
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the Italian large-cap equity index is left out.
+  plausible:
+  - ftse_mib
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_dax
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the German large-cap equity index is left out.
+  plausible:
+  - dax
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_aex
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the Dutch large-cap equity index is left out.
+  plausible:
+  - aex
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_bel
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the Belgian large-cap equity index is left out.
+  plausible:
+  - bel_20
+  - euro_stoxx_50
+  - stoxx_europe_600
+- id: company_rule_euro
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the euro-area blue-chip equity index is left out.
+  plausible:
+  - euro_stoxx_50
+  - stoxx_europe_600
+  - cac_40
+- id: company_rule_dow
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the oldest United States industrial equity index is left out.
+  plausible:
+  - dow_jones
+  - sp_100
+  - sp_500
+- id: company_rule_sp100
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the large United States blue-chip equity index is left out.
+  plausible:
+  - sp_100
+  - sp_500
+  - dow_jones
+- id: company_rule_nasdaq
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the technology-heavy United States equity index is left out.
+  plausible:
+  - nasdaq_100
+  - sp_500
+  - sp_100
+- id: company_rule_sp500
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the broad United States large-cap equity index is left out.
+  plausible:
+  - sp_500
+  - sp_100
+  - dow_jones
+- id: company_rule_stoxx
+  field: activations.co_sponsor
+  effect: exclude_record
+  source: index constituent list
+  rule: A company in the broad European blue-chip equity index is left out.
+  plausible:
+  - stoxx_europe_600
+  - euro_stoxx_50
+  - dax
+- id: country_rule_eu
+  field: activations.market_country
+  effect: exclude_record
+  source: treaty membership list
+  rule: A country that is a European Union member state is left out.
+  plausible:
+  - eu_members
+  - nato_members
+  - oecd_members
+- id: country_rule_nato
+  field: activations.market_country
+  effect: exclude_record
+  source: alliance membership list
+  rule: A country that is a NATO member state is left out.
+  plausible:
+  - nato_members
+  - eu_members
+  - oecd_members
+- id: country_rule_g7
+  field: activations.market_country
+  effect: exclude_record
+  source: summit membership list
+  rule: A country in the Group of Seven is left out.
+  plausible:
+  - g7_members
+  - g20_members
+  - oecd_members
+- id: country_rule_g20
+  field: activations.market_country
+  effect: exclude_record
+  source: forum membership list
+  rule: A country in the Group of Twenty is left out.
+  plausible:
+  - g20_members
+  - g7_members
+  - oecd_members
+- id: country_rule_oecd
+  field: activations.market_country
+  effect: exclude_record
+  source: organisation membership list
+  rule: A country in the OECD is left out.
+  plausible:
+  - oecd_members
+  - eu_members
+  - g20_members
+- id: country_rule_opec
+  field: activations.market_country
+  effect: exclude_record
+  source: organisation membership list
+  rule: A country in OPEC is left out.
+  plausible:
+  - opec_members
+  - african_union_members
+  - g20_members
+- id: country_rule_asean
+  field: activations.market_country
+  effect: exclude_record
+  source: regional association membership list
+  rule: A country in ASEAN is left out.
+  plausible:
+  - asean_members
+  - apec_members
+  - commonwealth_members
+- id: country_rule_au
+  field: activations.market_country
+  effect: exclude_record
+  source: continental union membership list
+  rule: A country in the African Union is left out.
+  plausible:
+  - african_union_members
+  - commonwealth_members
+  - opec_members
+- id: country_rule_commonwealth
+  field: activations.market_country
+  effect: exclude_record
+  source: association membership list
+  rule: A country in the Commonwealth of Nations is left out.
+  plausible:
+  - commonwealth_members
+  - african_union_members
+  - asean_members
+- id: country_rule_apec
+  field: activations.market_country
+  effect: exclude_record
+  source: forum membership list
+  rule: A country in APEC is left out.
+  plausible:
+  - apec_members
+  - asean_members
+  - g20_members
+label_nouns:
+- settlement lane
+- review tag
+- audit lane
+- handling class
+- review code

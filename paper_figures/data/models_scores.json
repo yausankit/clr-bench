@@ -1,0 +1,62 @@
+{
+ "gpt-5.6-luna": {
+  "frozen_levels": [
+   0.8,
+   0.6,
+   0.4,
+   0.18000000000000002
+  ],
+  "frozen_chains": 20,
+  "frozen_above_staircase": 0,
+  "oracle_levels": [
+   0.87,
+   0.73,
+   0.59,
+   0.32
+  ],
+  "oracle_chains": 20,
+  "oracle_single": 44.5,
+  "oracle_inc": 54.0,
+  "oracle_exc": 62.7
+ },
+ "gpt-5.6-terra": {
+  "frozen_levels": [
+   0.76,
+   0.48,
+   0.38,
+   0.14
+  ],
+  "frozen_chains": 20,
+  "frozen_above_staircase": 1,
+  "oracle_levels": [
+   0.91,
+   0.67,
+   0.37,
+   0.33
+  ],
+  "oracle_chains": 20,
+  "oracle_single": 42.0,
+  "oracle_inc": 48.7,
+  "oracle_exc": 51.2
+ },
+ "gpt-6-astra": {
+  "frozen_levels": [
+   0.5,
+   0.14,
+   0.04,
+   0.02
+  ],
+  "frozen_chains": 20,
+  "frozen_above_staircase": 3,
+  "oracle_levels": [
+   0.91,
+   0.71,
+   0.61,
+   0.47
+  ],
+  "oracle_chains": 20,
+  "oracle_single": 55.5,
+  "oracle_inc": 68.5,
+  "oracle_exc": 68.0
+ }
+}

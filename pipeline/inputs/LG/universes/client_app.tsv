@@ -1,0 +1,132 @@
+value	entity	attr:vendor
+chrome.exe	Google Chrome	Google
+firefox.exe	Mozilla Firefox	Mozilla
+msedge.exe	Microsoft Edge	Microsoft
+opera.exe	Opera	Opera Software
+360se.exe	360 Secure Browser	Qihoo 360
+360chrome.exe	360 Chrome	Qihoo 360
+SogouExplorer.exe	Sogou Explorer	Sogou
+maxthon.exe	Maxthon	Maxthon
+baidubrowser.exe	Baidu Browser	Baidu
+Brave.exe	Brave	Brave Software
+Vivaldi.exe	Vivaldi	Vivaldi Technologies
+QQBrowser.exe	QQ Browser	Tencent
+Dropbox.exe	Dropbox	Dropbox
+OneDrive.exe	Microsoft OneDrive	Microsoft
+GoogleDriveFS.exe	Google Drive	Google
+BaiduNetdisk.exe	Baidu Netdisk	Baidu
+Weiyun.exe	Tencent Weiyun	Tencent
+WeChat.exe	WeChat	Tencent
+QQ.exe	QQ	Tencent
+QQPlayer.exe	QQ Player	Tencent
+QQExternal.exe	QQ External	Tencent
+QQProtect.exe	QQ Protect	Tencent
+QQProtectUpd.exe	QQ Protect Updater	Tencent
+tencentdl.exe	Tencent Downloader	Tencent
+Skype.exe	Skype	Microsoft
+msnmsgr.exe	Windows Live Messenger	Microsoft
+telegram.exe	Telegram	Telegram
+WhatsApp.exe	WhatsApp	Meta
+Line.exe	LINE	LY Corporation
+DingTalk.exe	DingTalk	Alibaba
+Feishu.exe	Feishu	ByteDance
+aliwangwang.exe	AliWangWang	Alibaba
+YodaoDict.exe	Youdao Dictionary	NetEase
+YoudaoDict.exe	Youdao Dictionary	NetEase
+PowerWord.exe	Kingsoft PowerWord	Kingsoft
+SogouCloud.exe	Sogou Cloud Input	Sogou
+SGTool.exe	Sogou Tool	Sogou
+SohuNews.exe	Sohu News	Sohu
+Wiz.exe	WizNote	WizNote
+GitHub.exe	GitHub Desktop	GitHub
+git-remote-https.exe	Git remote helper	Git
+svchost.exe	Windows Service Host	Microsoft
+msfeedssync.exe	Microsoft Feeds Synchronization	Microsoft
+spoolsv.exe	Print Spooler	Microsoft
+GoogleUpdate.exe	Google Update	Google
+Acrobat.exe	Adobe Acrobat	Adobe
+AcroRd32.exe	Adobe Acrobat Reader	Adobe
+AdobeARM.exe	Adobe Reader and Acrobat Manager	Adobe
+FlashPlayerPlugin_18_0_0_209.exe	Adobe Flash Player	Adobe
+putty.exe	PuTTY	Simon Tatham
+MobaXterm.exe	MobaXterm	Mobatek
+WinSCP.exe	WinSCP	Martin Prikryl
+FileZilla.exe	FileZilla	Tim Kosse
+Xshell.exe	Xshell	NetSarang
+SecureCRT.exe	SecureCRT	VanDyke Software
+Termius.exe	Termius	Termius
+TeamViewer_Service.exe	TeamViewer	TeamViewer
+TeamViewer.exe	TeamViewer	TeamViewer
+AnyDesk.exe	AnyDesk	AnyDesk
+RustDesk.exe	RustDesk	RustDesk
+mstsc.exe	Remote Desktop Connection	Microsoft
+vncviewer.exe	VNC Viewer	RealVNC
+vlc.exe	VLC media player	VideoLAN
+PotPlayerMini.exe	PotPlayer	Kakao
+mpc-hc.exe	MPC-HC	MPC-HC
+KMPlayer.exe	KMPlayer	Pandora TV
+iTunes.exe	iTunes	Apple
+Spotify.exe	Spotify	Spotify
+QQMusic.exe	QQ Music	Tencent
+FoxitReader.exe	Foxit Reader	Foxit
+SumatraPDF.exe	SumatraPDF	SumatraPDF
+PDFXCview.exe	PDF-XChange Viewer	Tracker Software
+WINWORD.EXE	Microsoft Word	Microsoft
+EXCEL.EXE	Microsoft Excel	Microsoft
+POWERPNT.EXE	Microsoft PowerPoint	Microsoft
+wps.exe	WPS Office	Kingsoft
+et.exe	WPS Spreadsheets	Kingsoft
+wpp.exe	WPS Presentation	Kingsoft
+soffice.exe	LibreOffice	The Document Foundation
+avastui.exe	Avast Antivirus	Avast
+avgui.exe	AVG Antivirus	AVG
+McAfee.exe	McAfee	McAfee
+Kaspersky.exe	Kaspersky	Kaspersky
+360sd.exe	360 Total Security	Qihoo 360
+360tray.exe	360 Safe	Qihoo 360
+360AP.exe	360 Antivirus	Qihoo 360
+MsMpEng.exe	Microsoft Defender	Microsoft
+HiSuiteDownLoader.exe	HiSuite Downloader	Huawei
+SGPicFaceTool.exe	Sogou Picture Face Tool	Sogou
+BSvcProcessor.exe	Baidu Service Processor	Baidu
+devenv.exe	Visual Studio	Microsoft
+code.exe	Visual Studio Code	Microsoft
+pycharm64.exe	PyCharm	JetBrains
+idea64.exe	IntelliJ IDEA	JetBrains
+eclipse.exe	Eclipse	Eclipse Foundation
+java.exe	Java Runtime	Oracle
+javaw.exe	Java Runtime	Oracle
+jusched.exe	Java Update Scheduler	Oracle
+SunJavaUpdateSched.exe	Java Update Scheduler	Oracle
+AppleSoftwareUpdate.exe	Apple Software Update	Apple
+Thunder.exe	Thunder	Xunlei
+IDMan.exe	Internet Download Manager	Tonec
+FreeDownloadManager.exe	Free Download Manager	FreeDownloadManager
+uGet.exe	uGet	uGet
+aria2c.exe	aria2	aria2
+nginx.exe	nginx	F5
+httpd.exe	Apache HTTP Server	Apache Software Foundation
+tomcat.exe	Apache Tomcat	Apache Software Foundation
+googleearth.exe	Google Earth	Google
+Picasa3.exe	Picasa	Google
+Photoshop.exe	Adobe Photoshop	Adobe
+Illustrator.exe	Adobe Illustrator	Adobe
+InDesign.exe	Adobe InDesign	Adobe
+PremierePro.exe	Adobe Premiere Pro	Adobe
+OUTLOOK.EXE	Microsoft Outlook	Microsoft
+ONENOTE.EXE	Microsoft OneNote	Microsoft
+Teams.exe	Microsoft Teams	Microsoft
+wuauclt.exe	Windows Update Client	Microsoft
+explorer.exe	Windows Explorer	Microsoft
+notepad.exe	Notepad	Microsoft
+powershell.exe	PowerShell	Microsoft
+wmplayer.exe	Windows Media Player	Microsoft
+Foxmail.exe	Foxmail	Tencent
+WeGame.exe	WeGame	Tencent
+TencentMeeting.exe	Tencent Meeting	Tencent
+WeCom.exe	WeCom	Tencent
+QQLive.exe	QQLive	Tencent
+SogouPinyin.exe	Sogou Pinyin	Sogou
+baidupinyin.exe	Baidu Pinyin	Baidu
+BaiduHi.exe	Baidu Hi	Baidu
+ACDSee.exe	ACDSee	ACD Systems

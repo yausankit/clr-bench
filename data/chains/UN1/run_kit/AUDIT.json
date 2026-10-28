@@ -1,0 +1,842 @@
+{
+ "chain": "data/chains/UN1",
+ "dest": "runs/UN1",
+ "course": "CLR_UN1",
+ "format": "json",
+ "adapter": "python_json",
+ "legacy_contract": false,
+ "harness_test": {
+  "pass_": true,
+  "rows": [
+   {
+    "level": 1,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 5,
+    "direct_pass": 5,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 1,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 4,
+    "direct_pass": 4,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "level": 2,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 5,
+    "direct_pass": 5,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 2,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 3,
+    "direct_pass": 3,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 3,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 5,
+    "direct_pass": 5,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 3,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 4,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 5,
+    "direct_pass": 5,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 4,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 1,
+    "direct_pass": 1,
+    "total": 5,
+    "cases": [
+     true,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 5,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 5,
+    "direct_pass": 5,
+    "total": 5,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 5,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 0,
+    "direct_pass": 0,
+    "total": 5,
+    "cases": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   }
+  ]
+ },
+ "harness_practice": {
+  "pass_": true,
+  "rows": [
+   {
+    "level": 1,
+    "control": "reference",
+    "agree": true,
+    "hidden": 3,
+    "already_executed": true,
+    "evaluator_pass": 4,
+    "direct_pass": 4,
+    "total": 4,
+    "cases": [
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 1,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 3,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 4,
+    "cases": [
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 2,
+    "control": "reference",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 6,
+    "direct_pass": 6,
+    "total": 6,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 2,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 5,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 6,
+    "cases": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 3,
+    "control": "reference",
+    "agree": true,
+    "hidden": 7,
+    "already_executed": true,
+    "evaluator_pass": 8,
+    "direct_pass": 8,
+    "total": 8,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 3,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 7,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 8,
+    "cases": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 4,
+    "control": "reference",
+    "agree": true,
+    "hidden": 9,
+    "already_executed": true,
+    "evaluator_pass": 10,
+    "direct_pass": 10,
+    "total": 10,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 4,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 9,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 10,
+    "cases": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "level": 5,
+    "control": "reference",
+    "agree": true,
+    "hidden": 11,
+    "already_executed": true,
+    "evaluator_pass": 12,
+    "direct_pass": 12,
+    "total": 12,
+    "cases": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "level": 5,
+    "control": "L-lit",
+    "agree": true,
+    "hidden": 11,
+    "already_executed": true,
+    "evaluator_pass": 2,
+    "direct_pass": 2,
+    "total": 12,
+    "cases": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   }
+  ]
+ },
+ "score_k1_v3": {
+  "pass_": true,
+  "rows": [
+   {
+    "level": 1,
+    "control": "reference",
+    "version": 0,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 1,
+    "control": "reference",
+    "version": 1,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 1,
+    "control": "reference",
+    "version": 2,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 1,
+    "control": "L-lit",
+    "version": 0,
+    "score": 0.8,
+    "expected": 0.8,
+    "pass_": true,
+    "instances": 4
+   },
+   {
+    "level": 1,
+    "control": "L-lit",
+    "version": 1,
+    "score": 0.8,
+    "expected": 0.8,
+    "pass_": true,
+    "instances": 4
+   },
+   {
+    "level": 1,
+    "control": "L-lit",
+    "version": 2,
+    "score": 0.8,
+    "expected": 0.8,
+    "pass_": true,
+    "instances": 4
+   },
+   {
+    "level": 2,
+    "control": "reference",
+    "version": 0,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 2,
+    "control": "reference",
+    "version": 1,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 2,
+    "control": "reference",
+    "version": 2,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 2,
+    "control": "L-lit",
+    "version": 0,
+    "score": 0.6,
+    "expected": 0.6,
+    "pass_": true,
+    "instances": 3
+   },
+   {
+    "level": 2,
+    "control": "L-lit",
+    "version": 1,
+    "score": 0.6,
+    "expected": 0.6,
+    "pass_": true,
+    "instances": 3
+   },
+   {
+    "level": 2,
+    "control": "L-lit",
+    "version": 2,
+    "score": 0.6,
+    "expected": 0.6,
+    "pass_": true,
+    "instances": 3
+   },
+   {
+    "level": 3,
+    "control": "reference",
+    "version": 0,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 3,
+    "control": "reference",
+    "version": 1,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 3,
+    "control": "reference",
+    "version": 2,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 3,
+    "control": "L-lit",
+    "version": 0,
+    "score": 0.4,
+    "expected": 0.4,
+    "pass_": true,
+    "instances": 2
+   },
+   {
+    "level": 3,
+    "control": "L-lit",
+    "version": 1,
+    "score": 0.4,
+    "expected": 0.4,
+    "pass_": true,
+    "instances": 2
+   },
+   {
+    "level": 3,
+    "control": "L-lit",
+    "version": 2,
+    "score": 0.4,
+    "expected": 0.4,
+    "pass_": true,
+    "instances": 2
+   },
+   {
+    "level": 4,
+    "control": "reference",
+    "version": 0,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 4,
+    "control": "reference",
+    "version": 1,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 4,
+    "control": "reference",
+    "version": 2,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 4,
+    "control": "L-lit",
+    "version": 0,
+    "score": 0.2,
+    "expected": 0.2,
+    "pass_": true,
+    "instances": 1
+   },
+   {
+    "level": 4,
+    "control": "L-lit",
+    "version": 1,
+    "score": 0.2,
+    "expected": 0.2,
+    "pass_": true,
+    "instances": 1
+   },
+   {
+    "level": 4,
+    "control": "L-lit",
+    "version": 2,
+    "score": 0.2,
+    "expected": 0.2,
+    "pass_": true,
+    "instances": 1
+   },
+   {
+    "level": 5,
+    "control": "reference",
+    "version": 0,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 5,
+    "control": "reference",
+    "version": 1,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 5,
+    "control": "reference",
+    "version": 2,
+    "score": 1.0,
+    "expected": 1.0,
+    "pass_": true,
+    "instances": 5
+   },
+   {
+    "level": 5,
+    "control": "L-lit",
+    "version": 0,
+    "score": 0.0,
+    "expected": 0.0,
+    "pass_": true,
+    "instances": 0
+   },
+   {
+    "level": 5,
+    "control": "L-lit",
+    "version": 1,
+    "score": 0.0,
+    "expected": 0.0,
+    "pass_": true,
+    "instances": 0
+   },
+   {
+    "level": 5,
+    "control": "L-lit",
+    "version": 2,
+    "score": 0.0,
+    "expected": 0.0,
+    "pass_": true,
+    "instances": 0
+   }
+  ]
+ },
+ "prompt_render": {
+  "pass_": true,
+  "rows": [
+   {
+    "level": 1,
+    "split": "practice",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 14913,
+    "prompt_chars": 14913
+   },
+   {
+    "level": 2,
+    "split": "practice",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 17679,
+    "prompt_chars": 17679
+   },
+   {
+    "level": 3,
+    "split": "practice",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 18354,
+    "prompt_chars": 18354
+   },
+   {
+    "level": 4,
+    "split": "practice",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 22746,
+    "prompt_chars": 22746
+   },
+   {
+    "level": 5,
+    "split": "practice",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 22846,
+    "prompt_chars": 22846
+   },
+   {
+    "level": 1,
+    "split": "test",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 14789,
+    "prompt_chars": 14789
+   },
+   {
+    "level": 2,
+    "split": "test",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 17555,
+    "prompt_chars": 17555
+   },
+   {
+    "level": 3,
+    "split": "test",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 18230,
+    "prompt_chars": 18230
+   },
+   {
+    "level": 4,
+    "split": "test",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 22622,
+    "prompt_chars": 22622
+   },
+   {
+    "level": 5,
+    "split": "test",
+    "exact": true,
+    "equal_ignoring_trailing_newline": true,
+    "rendered_chars": 22722,
+    "prompt_chars": 22722
+   }
+  ]
+ },
+ "inspect_source": {
+  "pass_": true,
+  "rows": [
+   {
+    "split": "practice",
+    "level": 1,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "practice",
+    "level": 2,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "practice",
+    "level": 3,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "practice",
+    "level": 4,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "practice",
+    "level": 5,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "test",
+    "level": 1,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "test",
+    "level": 2,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "test",
+    "level": 3,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "test",
+    "level": 4,
+    "same": true,
+    "public_input_same": true
+   },
+   {
+    "split": "test",
+    "level": 5,
+    "same": true,
+    "public_input_same": true
+   }
+  ]
+ },
+ "plans": {
+  "pass_": true,
+  "frozen": true,
+  "stage_b": true,
+  "stage_b_sessions": 60,
+  "scripts": true
+ },
+ "hint_methods": {
+  "pass_": true,
+  "injections": 10,
+  "old_injections": 4,
+  "new_injections": 6,
+  "identical_after_removing_all": true,
+  "self_has_no_injection": true,
+  "regex_1_5": true,
+  "hint_verbatim": true
+ },
+ "chain_data": {
+  "pass_": true,
+  "foreign": [],
+  "allowed": [
+   "CLR",
+   "CLR_UN1",
+   "HINT_NC100",
+   "NC100_MAX_LEVEL"
+  ]
+ },
+ "test_public_example_note": "each test task carries the shared practice example at index 0; its expected value is the practice answer, and the scored instances are the 5 hidden cells (test_k1_v*.json), so the test evaluator grades hidden instances only",
+ "pass_": true
+}

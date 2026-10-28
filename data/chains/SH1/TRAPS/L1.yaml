@@ -1,0 +1,55 @@
+A: FR
+C: g7
+C_name: G7
+N_p: TR
+N_t:
+- SE
+- 'NO'
+- GR
+- DO
+- KE
+- JO
+- YE
+P_M:
+- JP
+- US
+- GB
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe
+    - european_economic_area
+    - european_union
+    - international_hydrographic_organization
+    - nato
+    - organisation_internationale_de_la_francophonie
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - schengen_area
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 24
+    pass: true
+comp_A:
+- council_of_europe
+- european_economic_area
+- european_union
+- g20
+- international_hydrographic_organization
+- nato
+- organisation_internationale_de_la_francophonie
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- schengen_area
+- world_trade_organization
+field: ships.flag_state
+label: follow-up docket D4
+salience: 802164.0
+universe: flag

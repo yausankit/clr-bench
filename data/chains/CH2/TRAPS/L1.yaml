@@ -1,0 +1,38 @@
+A: Triethanolamine
+C: opcw_schedule_3
+C_name: Chemical Weapons Convention Schedule 3
+N_p: Ricin
+N_t:
+- Sulfur mustard
+- Decabromodiphenyl ether
+- Amiton
+- Aziridine
+- Dichloromethane
+- Lysergic acid
+- Heptabromodiphenyl ether
+P_M:
+- Phosphorus oxychloride
+- Cyanogen chloride
+- Hydrogen cyanide
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - iarc_group_3
+    - opcw_all_schedules
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 4
+    pass: true
+comp_A:
+- iarc_group_3
+- opcw_all_schedules
+field: lines.substance
+label: intake folder D4
+salience: 59528.0
+universe: chemical

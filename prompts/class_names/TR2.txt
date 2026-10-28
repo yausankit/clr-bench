@@ -1,0 +1,5 @@
+desk label P5 stands for: Oneworld member airlines
+ledger code 35 stands for: Airports in the European Economic Area
+queue tag A-59 stands for: Currencies of Commonwealth of Nations member states
+review queue G7 stands for: Founding member airlines of Oneworld
+audit tag 52 stands for: Airports in Arab League member states

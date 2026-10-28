@@ -1,0 +1,147 @@
+business_process: A port state control office aggregates vessel inspection defects
+  for follow-up by the vessel's ship management company.
+fields:
+  ships.flag_state:
+    universe: flag
+    value_form: code
+  ships.owner_country:
+    universe: flag
+    value_form: code
+  inspections.port:
+    universe: port
+    value_form: code
+rule_templates:
+- id: flag_regional
+  field: ships.flag_state
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists.'
+  rule: Exclude a ship when its flag state is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: &id001
+  - asean
+  - african_union
+  - arab_league
+  - brics
+  - caribbean_community
+  - commonwealth_of_nations
+  - european_union
+  - nato
+  - nordic_council
+  - organisation_internationale_de_la_francophonie
+  - organization_for_economic_cooperation_and_development
+  - organization_for_security_and_co_operation_in_europe
+  - organization_of_the_petroleum_exporting_countries
+  - schengen_area
+  - african_continental_free_trade_area
+  - arab_maghreb_union
+  - arctic_council
+  - asia_pacific_economic_cooperation
+  - bay_of_bengal_initiative_for_multi_sectoral_technical_and_economic_cooperation
+  - community_of_portuguese_language_countries
+  - council_of_europe
+  - council_of_the_baltic_sea_states
+  - european_economic_area
+  - g20
+  - g7
+  - international_hydrographic_organization
+  - organisation_of_islamic_cooperation
+  - organization_of_american_states
+  - organization_of_turkic_states
+  - southern_african_development_community
+  - world_trade_organization
+  - pif_members
+- id: flag_security
+  field: ships.flag_state
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists.'
+  rule: Exclude a ship when its flag state is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: *id001
+- id: flag_economic
+  field: ships.flag_state
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists.'
+  rule: Exclude a ship when its flag state is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: *id001
+- id: owner_regional
+  field: ships.owner_country
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists for ship owners.'
+  rule: Exclude a ship when its owner country is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: *id001
+- id: owner_membership
+  field: ships.owner_country
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists for ship owners.'
+  rule: Exclude a ship when its owner country is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: *id001
+- id: owner_cooperation
+  field: ships.owner_country
+  effect: exclude_record
+  source: 'Supplement: the office refers to published intergovernmental organization
+    member-country lists for ship owners.'
+  rule: Exclude a ship when its owner country is a member country of a named intergovernmental
+    organization in the office register.
+  plausible: *id001
+- id: port_performance
+  field: inspections.port
+  effect: exclude_record
+  source: 'Supplement: the office uses published port-network rosters and cruise destination
+    directories.'
+  rule: Exclude an inspection when its port is listed in a named port-network roster
+    or cruise destination directory.
+  plausible:
+  - medcruise_ports
+  - cruise_britain_ports
+  - green_marine_ports
+  - cruise_baltic_ports
+  - cruise_europe_ports
+- id: port_environment
+  field: inspections.port
+  effect: exclude_record
+  source: 'Supplement: the office combines intergovernmental member-country lists
+    with UN/LOCODE port locations.'
+  rule: Exclude an inspection when its port is in a country listed as a member of
+    a named intergovernmental organization.
+  plausible:
+  - ports_in_african_union_countries
+  - ports_in_arab_league_countries
+  - ports_in_brics_countries
+  - ports_in_caribbean_community_countries
+  - ports_in_commonwealth_of_nations_countries
+  - ports_in_european_union_countries
+  - ports_in_nato_countries
+  - ports_in_organization_for_economic_cooperation_and_development_countries
+  - ports_in_organization_of_the_petroleum_exporting_countries_countries
+  - ports_in_schengen_area_countries
+  - ports_in_asia_pacific_economic_cooperation_countries
+  - ports_in_g20_countries
+- id: port_association
+  field: inspections.port
+  effect: exclude_record
+  source: 'Supplement: the office combines public city-network member tables with
+    UN/LOCODE port locations.'
+  rule: Exclude an inspection when its port is located in a city listed as a member
+    of a named international city network.
+  plausible:
+  - creative_cities_network_ports
+  - world_heritage_cities_ports
+  - league_of_historical_cities_ports
+  - world_tourism_cities_federation_ports
+  - union_of_the_baltic_cities_ports
+  - international_cities_of_refuge_ports
+  - c40_cities_ports
+  - climate_alliance_city_ports
+  - sports_and_leisure_facility_cities_ports
+label_nouns:
+- review ledger
+- follow-up docket
+- monitoring schedule

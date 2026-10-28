@@ -1,0 +1,44 @@
+A: Lufthansa
+C: star_alliance_members
+C_name: Star Alliance member airlines
+N_p: Edelweiss Air
+N_t:
+- Scandinavian Airlines
+- Sky Airline
+- Etihad Airways
+- PenAir
+- Maritime Air Charter
+- NovoAir
+- Servicios Aéreos Profesionales
+P_M:
+- Thai Airways
+- Austrian Airlines
+- Shenzhen Airlines
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a380_operators
+    - b787_operators
+    - iata_members
+    - star_alliance_founders
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a380_operators
+- airlines_for_europe
+- b787_operators
+- iata_members
+- lufthansa_group_airlines
+- star_alliance_founders
+field: trips.airline
+label: audit marker 55
+salience: 630113.0
+universe: airline

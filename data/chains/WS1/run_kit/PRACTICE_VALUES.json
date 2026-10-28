@@ -1,0 +1,68 @@
+{
+ "findings.cwe": {
+  "CWE-1245": {
+   "example": "CWE-681",
+   "label": "audit lane Y7",
+   "level": 4,
+   "member": false
+  },
+  "CWE-1335": {
+   "example": "CWE-681",
+   "label": "audit lane Y7",
+   "level": 4,
+   "member": true
+  },
+  "CWE-1428": {
+   "example": "CWE-312",
+   "label": "client folio E7",
+   "level": 1,
+   "member": true
+  },
+  "CWE-308": {
+   "example": "CWE-312",
+   "label": "client folio E7",
+   "level": 1,
+   "member": false
+  }
+ },
+ "findings.language": {
+  "an": {
+   "example": "fr",
+   "label": "review line 97",
+   "level": 2,
+   "member": true
+  },
+  "de": {
+   "example": "fr",
+   "label": "review line 97",
+   "level": 2,
+   "member": false
+  },
+  "os": {
+   "example": "en",
+   "label": "client folio 47",
+   "level": 5,
+   "member": false
+  },
+  "zu": {
+   "example": "en",
+   "label": "client folio 47",
+   "level": 5,
+   "member": true
+  }
+ },
+ "hosts.tld": {
+  "kiwi": {
+   "example": "id",
+   "label": "reporting band R-34",
+   "level": 3,
+   "member": false
+  },
+  "tl": {
+   "example": "id",
+   "label": "reporting band R-34",
+   "level": 3,
+   "member": true
+  }
+ }
+}

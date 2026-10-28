@@ -1,0 +1,90 @@
+id: LG1
+dataset: LG
+seed: 20266088
+period:
+  start: 2025
+  end: 2026
+snapshot: '2026-10-16'
+fields:
+- field: proxy_connections.tld
+  universe: tld
+  templates:
+  - tld_eu
+  - tld_commonwealth
+  - tld_asia
+  - tld_africa
+  - tld_caribbean
+  - tld_sponsored
+  - tld_idn
+  - tld_nordic
+  - tld_g7
+  - tld_brics
+  - tld_cis
+  - tld_bimstec
+  - tld_bsec
+  - tld_cbss
+  - tld_eac
+  - tld_eco
+  - tld_oecs
+  - tld_nordefco
+  - tld_ecowas
+  - tld_sadc
+  - tld_sacu
+  - tld_cemac
+  - tld_eaeu
+  - tld_csto
+  - tld_igad
+  - tld_danube
+  - tld_cei
+  - tld_oapec
+  - tld_comesa
+  - tld_three_seas
+  - tld_uemoa
+  - tld_helcom
+- field: proxy_connections.client_app
+  universe: client_app
+  templates:
+  - app_browser
+  - app_messenger
+  - app_security
+  - app_office
+  - app_dev
+  - app_tencent
+  - app_microsoft
+  - app_qihoo
+  - app_chromium
+  - app_mail_chat
+  - app_docs
+  - app_video
+  - app_admin
+  - app_secupd
+  - app_remote
+  - app_sync
+  - add_office_ltsc_2024_apps
+  - add_adobe_cc_current_apps
+  - add_windows_components_apps_utilities
+  - add_microsoft_productivity_apps
+  - add_ninite_catalog
+  - add_portableapps_directory
+  - add_comparison_browsers_general
+  - add_uptodown_top_downloads
+  - add_office_ltsc_2021_apps
+  - add_comparison_im_clients_general
+  - add_comparison_video_players_general
+  - add_pdf_windows_viewers
+- field: proxy_connections.port
+  universe: port
+  templates:
+  - port_mail
+  - port_database
+  - port_proxy
+  - port_remote
+  - port_infra
+  - port_media
+  - port_container
+  - port_vpn
+  - port_vcs
+  - port_print
+slots: 5
+probe:
+  criterion: soft

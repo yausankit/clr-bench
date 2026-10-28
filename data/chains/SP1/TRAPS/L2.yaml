@@ -1,0 +1,40 @@
+A: ASML
+C: euro_stoxx_50
+C_name: EURO STOXX 50 constituents, October 2026
+N_p: Kering
+N_t:
+- Monolithic Power Systems
+- Hiscox
+- ASR Nederland
+- Solvay
+- Eurofins Scientific
+- ABB Ltd
+- Alfa Laval
+P_M:
+- Deutsche Post
+- Deutsche Bank
+- Volkswagen Group
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - aex
+    - nasdaq_100
+    - stoxx_europe_600
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- aex
+- nasdaq_100
+- stoxx_europe_600
+field: activations.co_sponsor
+label: review tag 70
+salience: 139169.0
+universe: co_sponsor

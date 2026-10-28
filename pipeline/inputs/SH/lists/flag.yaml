@@ -1,0 +1,1517 @@
+- id: asean
+  name: ASEAN
+  synonyms:
+  - ASEAN
+  members:
+  - BN
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - PH
+  - SG
+  - TH
+  - VN
+  disputed:
+  - TL
+  out_of_universe: []
+  changes:
+  - date: '2025-10-26'
+    value: TL
+    change: Timor-Leste admitted as the 11th ASEAN member; marked disputed because
+      admission occurred within three years of the 2026-10-16 snapshot.
+  official_count: 11
+  source: English Wikipedia, ASEAN (revision 2026-10-16T19:23:19Z); official membership
+    source https://asean.org/member-states/; snapshot 2026-10-16
+  salience: 946505
+- id: african_union
+  name: African Union
+  synonyms:
+  - African Union
+  members:
+  - AO
+  - BI
+  - BJ
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - ER
+  - ET
+  - GH
+  - GM
+  - GQ
+  - KE
+  - KM
+  - LR
+  - LS
+  - LY
+  - MA
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NG
+  - RW
+  - SC
+  - SL
+  - SN
+  - SO
+  - SS
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TN
+  - TZ
+  - UG
+  - ZA
+  - ZM
+  - ZW
+  disputed:
+  - BF
+  - EH
+  - GA
+  - GN
+  - GW
+  - MG
+  - ML
+  - NE
+  - SD
+  out_of_universe: []
+  changes:
+  - date: '2025'
+    value: MG
+    change: Madagascar suspended after the 2025 coup; membership is disputed.
+  - date: 2025-04
+    value: GA
+    change: Gabon readmitted after suspension; restored membership is within three
+      years of snapshot and remains disputed.
+  - date: '2025-11-28'
+    value: GW
+    change: Guinea-Bissau suspended following the 2025 coup; membership is disputed.
+  - date: '2026-01-25'
+    value: GN
+    change: Guinea readmitted after the 2021 suspension; restored membership is within
+      three years of snapshot and remains disputed.
+  official_count: 55
+  source: English Wikipedia, Member states of the African Union (revision 2026-06-16T21:38:54Z);
+    official membership source https://au.int/en/memberstates; snapshot 2026-10-16
+  salience: 382745
+- id: arab_league
+  name: Arab League
+  synonyms:
+  - Arab League
+  members:
+  - AE
+  - BH
+  - DJ
+  - DZ
+  - EG
+  - IQ
+  - JO
+  - KM
+  - KW
+  - LB
+  - LY
+  - MA
+  - MR
+  - OM
+  - PS
+  - QA
+  - SA
+  - SD
+  - SO
+  - SY
+  - TN
+  - YE
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 22
+  source: English Wikipedia, Arab League (revision 2026-09-17T19:08:12Z); official
+    membership source https://www.lasportal.org/en/aboutlas/Pages/CountryData.aspx;
+    snapshot 2026-10-16
+  salience: 386459
+- id: brics
+  name: BRICS
+  synonyms:
+  - BRICS
+  members:
+  - BR
+  - CN
+  - IN
+  - RU
+  - ZA
+  disputed:
+  - AE
+  - EG
+  - ET
+  - ID
+  - IR
+  out_of_universe: []
+  changes:
+  - date: '2025-01-06'
+    value: ID
+    change: Indonesia became a BRICS member; marked disputed under the three-year
+      rule.
+  - date: '2024-01-01'
+    value: AE
+    change: United Arab Emirates joined BRICS; marked disputed under the three-year
+      rule.
+  - date: '2024-01-01'
+    value: EG
+    change: Egypt joined BRICS; marked disputed under the three-year rule.
+  - date: '2024-01-01'
+    value: ET
+    change: Ethiopia joined BRICS; marked disputed under the three-year rule.
+  - date: '2024-01-01'
+    value: IR
+    change: Iran joined BRICS; marked disputed under the three-year rule.
+  official_count: 10
+  source: English Wikipedia, BRICS (revision 2026-10-13T00:54:41Z); official membership
+    source https://brics.br/en/about-the-brics; snapshot 2026-10-16
+  salience: 1491124
+- id: caribbean_community
+  name: Caribbean Community
+  synonyms:
+  - Caribbean Community
+  members:
+  - AG
+  - BB
+  - BS
+  - BZ
+  - DM
+  - GD
+  - GY
+  - HT
+  - JM
+  - KN
+  - LC
+  - MS
+  - SR
+  - TT
+  - VC
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 15
+  source: English Wikipedia, Caribbean Community (revision 2026-09-25T09:06:42Z);
+    official membership source https://caricom.org/member-states-and-associate-members/;
+    snapshot 2026-10-16
+  salience: 123057
+- id: commonwealth_of_nations
+  name: Commonwealth of Nations
+  synonyms:
+  - Commonwealth of Nations
+  members:
+  - AG
+  - AU
+  - BB
+  - BD
+  - BN
+  - BS
+  - BW
+  - BZ
+  - CA
+  - CM
+  - CY
+  - DM
+  - FJ
+  - GA
+  - GB
+  - GD
+  - GH
+  - GM
+  - GY
+  - IN
+  - JM
+  - KE
+  - KI
+  - KN
+  - LC
+  - LK
+  - LS
+  - MT
+  - MU
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NR
+  - NZ
+  - PG
+  - PK
+  - RW
+  - SB
+  - SC
+  - SG
+  - SL
+  - SZ
+  - TG
+  - TO
+  - TT
+  - TV
+  - TZ
+  - UG
+  - VC
+  - VU
+  - WS
+  - ZA
+  - ZM
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 56
+  source: English Wikipedia, Commonwealth of Nations (revision 2026-10-10T20:58:03Z);
+    official membership source https://thecommonwealth.org/our-member-countries; snapshot
+    2026-10-16
+  salience: 1422475
+- id: european_union
+  name: European Union
+  synonyms:
+  - European Union
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 27
+  source: English Wikipedia, European Union (revision 2026-10-13T23:52:04Z); official
+    membership source https://european-union.europa.eu/principles-countries-history/country-profiles_en;
+    snapshot 2026-10-16
+  salience: 2455194
+- id: nato
+  name: NATO
+  synonyms:
+  - NATO
+  members:
+  - AL
+  - BE
+  - BG
+  - CA
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LT
+  - LU
+  - LV
+  - ME
+  - MK
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SI
+  - SK
+  - TR
+  - US
+  disputed:
+  - FI
+  - SE
+  out_of_universe: []
+  changes:
+  - date: '2023-04-04'
+    value: FI
+    change: Finland joined NATO; marked disputed under the three-year rule.
+  - date: '2024-03-07'
+    value: SE
+    change: Sweden joined NATO; marked disputed under the three-year rule.
+  official_count: 32
+  source: English Wikipedia, NATO (revision 2026-10-08T01:16:05Z); official membership
+    source https://www.nato.int/en/about-us/organization/nato-member-countries; snapshot
+    2026-10-16
+  salience: 2129009
+- id: nordic_council
+  name: Nordic Council
+  synonyms:
+  - Nordic Council
+  members:
+  - AX
+  - DK
+  - FI
+  - FO
+  - GL
+  - IS
+  - 'NO'
+  - SE
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 8
+  source: English Wikipedia, Nordic Council (revision 2026-10-10T20:04:22Z); official
+    membership source https://www.norden.org/en/information/facts-about-nordic-countries;
+    snapshot 2026-10-16
+  salience: 85440
+- id: organisation_internationale_de_la_francophonie
+  name: Organisation internationale de la Francophonie
+  synonyms:
+  - Organisation internationale de la Francophonie
+  members:
+  - AD
+  - AL
+  - AM
+  - BE
+  - BF
+  - BG
+  - BI
+  - BJ
+  - CA
+  - CD
+  - CF
+  - CG
+  - CH
+  - CI
+  - CM
+  - CV
+  - CY
+  - DJ
+  - DM
+  - EG
+  - FR
+  - GA
+  - GH
+  - GN
+  - GQ
+  - GR
+  - GW
+  - HT
+  - KH
+  - KM
+  - LA
+  - LB
+  - LC
+  - LU
+  - MA
+  - MC
+  - MD
+  - MG
+  - MK
+  - ML
+  - MR
+  - MU
+  - NE
+  - RO
+  - RW
+  - SC
+  - SN
+  - ST
+  - TD
+  - TG
+  - TN
+  - VN
+  - VU
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 53
+  source: English Wikipedia, Member states of the Organisation internationale de la
+    Francophonie (revision snapshot 2026-10-16); official membership source https://www.francophonie.org/etats-et-gouvernements;
+    snapshot 2026-10-16
+  salience: 123546
+- id: organization_for_economic_cooperation_and_development
+  name: Organization for Economic Cooperation and Development
+  synonyms:
+  - Organization for Economic Cooperation and Development
+  members:
+  - AT
+  - AU
+  - BE
+  - CA
+  - CH
+  - CL
+  - CO
+  - CR
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HU
+  - IE
+  - IL
+  - IS
+  - IT
+  - JP
+  - KR
+  - LT
+  - LU
+  - LV
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  - TR
+  - US
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 38
+  source: English Wikipedia, OECD (revision 2026-10-12T02:38:12Z); official membership
+    source https://www.oecd.org/en/about/members-partners.html; snapshot 2026-10-16
+  salience: 329
+- id: organization_for_security_and_co_operation_in_europe
+  name: Organization for Security and Co-operation in Europe
+  synonyms:
+  - Organization for Security and Co-operation in Europe
+  members:
+  - AD
+  - AL
+  - AM
+  - AT
+  - AZ
+  - BA
+  - BE
+  - BG
+  - BY
+  - CA
+  - CH
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - KG
+  - KZ
+  - LI
+  - LT
+  - LU
+  - LV
+  - MC
+  - MD
+  - ME
+  - MK
+  - MN
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - SM
+  - TJ
+  - TM
+  - TR
+  - UA
+  - US
+  - UZ
+  - VA
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 57
+  source: English Wikipedia, OSCE participating states (revision 2026-10-12T21:38:27Z);
+    official membership source https://www.osce.org/participating-states; snapshot
+    2026-10-16
+  salience: 113133
+- id: organization_of_the_petroleum_exporting_countries
+  name: Organization of the Petroleum Exporting Countries
+  synonyms:
+  - Organization of the Petroleum Exporting Countries
+  members:
+  - CG
+  - DZ
+  - GA
+  - GQ
+  - IQ
+  - IR
+  - KW
+  - LY
+  - NG
+  - SA
+  - VE
+  disputed:
+  - AE
+  - AO
+  out_of_universe: []
+  changes:
+  - date: '2024-01-01'
+    value: AO
+    change: Angola withdrew from OPEC; removed from current members and retained as
+      disputed because exit was within three years.
+  - date: '2026-04-28'
+    value: AE
+    change: United Arab Emirates announced withdrawal effective 2026-05-01; removed
+      from current members and retained as disputed.
+  official_count: 13
+  source: English Wikipedia, OPEC current member countries (revision 2026-09-21T15:44:06Z);
+    official membership source https://www.opec.org/member-countries.html; snapshot
+    2026-10-16
+  salience: 7991
+- id: schengen_area
+  name: Schengen Area
+  synonyms:
+  - Schengen Area
+  members:
+  - AT
+  - BE
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  disputed:
+  - BG
+  - RO
+  out_of_universe: []
+  changes:
+  - date: '2024-03-31'
+    value: BG
+    change: Bulgaria entered the Schengen Area for air and sea borders; marked disputed
+      within three years.
+  - date: '2024-03-31'
+    value: RO
+    change: Romania entered the Schengen Area for air and sea borders; marked disputed
+      within three years.
+  - date: '2025-01-01'
+    value: BG
+    change: Internal land border checks with Bulgaria were lifted, completing Schengen
+      accession.
+  - date: '2025-01-01'
+    value: RO
+    change: Internal land border checks with Romania were lifted, completing Schengen
+      accession.
+  official_count: 29
+  source: English Wikipedia, Schengen Area (revision 2026-10-16T08:55:03Z); official
+    membership source https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en;
+    snapshot 2026-10-16
+  salience: 1141441
+- id: african_continental_free_trade_area
+  name: African Continental Free Trade Area
+  synonyms:
+  - African Continental Free Trade Area
+  members:
+  - AO
+  - BF
+  - BI
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - ET
+  - GA
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - KE
+  - KM
+  - LS
+  - MA
+  - ML
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - RW
+  - SC
+  - SL
+  - SN
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TN
+  - TZ
+  - UG
+  - ZA
+  - ZM
+  - ZW
+  disputed:
+  - LR
+  - MG
+  out_of_universe: []
+  changes:
+  - date: '2024-10-08'
+    value: LR
+    change: Ratification/deposit to the AfCFTA agreement within three years of snapshot;
+      marked disputed.
+  - date: '2025-05-13'
+    value: MG
+    change: Ratification/deposit to the AfCFTA agreement within three years of snapshot;
+      marked disputed.
+  official_count: 48
+  source: English Wikipedia, African Continental Free Trade Area ratification and
+    deposit roster (revision 2026-10-03T14:14:18Z); official membership source https://au-afcfta.org/member-states/;
+    snapshot 2026-10-16
+  salience: 37478
+- id: arab_maghreb_union
+  name: Arab Maghreb Union
+  synonyms:
+  - Arab Maghreb Union
+  members:
+  - DZ
+  - LY
+  - MA
+  - MR
+  - TN
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 5
+  source: English Wikipedia, Arab Maghreb Union (revision 2026-10-03T04:26:18Z); official
+    membership source https://www.maghrebarabe.org/en/; snapshot 2026-10-16
+  salience: 33254
+- id: arctic_council
+  name: Arctic Council
+  synonyms:
+  - Arctic Council
+  members:
+  - CA
+  - DK
+  - FI
+  - IS
+  - 'NO'
+  - RU
+  - SE
+  - US
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 8
+  source: English Wikipedia, Arctic Council (revision 2026-10-13T11:04:57Z); official
+    membership source https://arctic-council.org/about/states/; snapshot 2026-10-16
+  salience: 40777
+- id: asia_pacific_economic_cooperation
+  name: Asia-Pacific Economic Cooperation
+  synonyms:
+  - APEC
+  members:
+  - AU
+  - BN
+  - CA
+  - CL
+  - CN
+  - HK
+  - ID
+  - JP
+  - KR
+  - MX
+  - MY
+  - NZ
+  - PE
+  - PG
+  - PH
+  - RU
+  - SG
+  - TH
+  - TW
+  - US
+  - VN
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 21
+  source: English Wikipedia, Asia-Pacific Economic Cooperation (revision 2026-10-12T15:36:18Z);
+    official membership source https://www.apec.org/about-us/about-apec/member-economies;
+    snapshot 2026-10-16
+  salience: 11971
+- id: bay_of_bengal_initiative_for_multi_sectoral_technical_and_economic_cooperation
+  name: Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation
+  synonyms:
+  - Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation
+  members:
+  - BD
+  - BT
+  - IN
+  - LK
+  - MM
+  - NP
+  - TH
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 7
+  source: English Wikipedia, Bay of Bengal Initiative for Multi-Sectoral Technical
+    and Economic Cooperation (revision 2026-09-26T18:55:41Z); official membership
+    source https://bimstec.org/member-states; snapshot 2026-10-16
+  salience: 15502
+- id: community_of_portuguese_language_countries
+  name: Community of Portuguese Language Countries
+  synonyms:
+  - Community of Portuguese Language Countries
+  members:
+  - AO
+  - BR
+  - CV
+  - GQ
+  - GW
+  - MZ
+  - PT
+  - ST
+  - TL
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 9
+  source: English Wikipedia, Community of Portuguese Language Countries (revision
+    2026-10-10T13:59:17Z); official membership source https://www.cplp.org/id-2752.aspx;
+    snapshot 2026-10-16
+  salience: 84216
+- id: council_of_europe
+  name: Council of Europe
+  synonyms:
+  - Council of Europe
+  members:
+  - AD
+  - AL
+  - AM
+  - AT
+  - AZ
+  - BA
+  - BE
+  - BG
+  - CH
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MC
+  - MD
+  - ME
+  - MK
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - RS
+  - SE
+  - SI
+  - SK
+  - SM
+  - TR
+  - UA
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 46
+  source: English Wikipedia, Member states of the Council of Europe (revision 2026-10-08T14:35:19Z);
+    official membership source https://www.coe.int/en/web/portal/47-members-states;
+    snapshot 2026-10-16
+  salience: 261776
+- id: council_of_the_baltic_sea_states
+  name: Council of the Baltic Sea States
+  synonyms:
+  - Council of the Baltic Sea States
+  members:
+  - DE
+  - DK
+  - EE
+  - FI
+  - IS
+  - LT
+  - LV
+  - 'NO'
+  - PL
+  - SE
+  disputed: []
+  out_of_universe:
+  - European Union
+  changes:
+  - date: '2022-05-17'
+    value: RU
+    change: Russia withdrew from the CBSS; it is not a current member.
+  official_count: 11
+  source: English Wikipedia, Council of the Baltic Sea States (revision 2026-08-27T23:36:25Z);
+    official membership source https://cbss.org/about-us/member-states/; snapshot
+    2026-10-16
+  salience: 12662
+- id: european_economic_area
+  name: European Economic Area
+  synonyms:
+  - European Economic Area
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 30
+  source: English Wikipedia, European Economic Area (current parties) (revision 2026-09-28T23:37:52Z);
+    official membership source https://www.efta.int/eea/eea-agreement/eea-members;
+    snapshot 2026-10-16
+  salience: 322322
+- id: g20
+  name: G20
+  synonyms:
+  - G20
+  members:
+  - AR
+  - AU
+  - BR
+  - CA
+  - CN
+  - DE
+  - FR
+  - GB
+  - ID
+  - IN
+  - IT
+  - JP
+  - KR
+  - MX
+  - RU
+  - SA
+  - TR
+  - US
+  - ZA
+  disputed: []
+  out_of_universe:
+  - African Union
+  - European Union
+  changes: []
+  official_count: 21
+  source: English Wikipedia, G20 members (revision 2026-09-24T17:03:29Z); official
+    membership source https://www.g20.org/en/about-g20/; snapshot 2026-10-16
+  salience: 746828
+- id: g7
+  name: G7
+  synonyms:
+  - G7
+  members:
+  - CA
+  - DE
+  - FR
+  - GB
+  - IT
+  - JP
+  - US
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 7
+  source: English Wikipedia, G7 (revision 2026-10-14T13:02:06Z); official membership
+    source https://www.g7g20.com/g7; snapshot 2026-10-16
+  salience: 802164
+- id: international_hydrographic_organization
+  name: International Hydrographic Organization
+  synonyms:
+  - International Hydrographic Organization
+  members:
+  - AE
+  - AR
+  - AU
+  - BD
+  - BE
+  - BH
+  - BN
+  - CA
+  - CD
+  - CL
+  - CM
+  - CN
+  - CO
+  - CU
+  - CY
+  - DE
+  - DO
+  - DZ
+  - EC
+  - EE
+  - EG
+  - ES
+  - FI
+  - FJ
+  - FR
+  - GB
+  - GE
+  - GR
+  - GT
+  - HR
+  - ID
+  - IE
+  - IN
+  - IR
+  - IS
+  - IT
+  - JM
+  - JP
+  - KP
+  - KR
+  - KW
+  - LK
+  - LV
+  - MA
+  - MC
+  - ME
+  - MM
+  - MT
+  - MU
+  - MX
+  - MY
+  - MZ
+  - NG
+  - NL
+  - 'NO'
+  - NZ
+  - OM
+  - PE
+  - PG
+  - PH
+  - PK
+  - PL
+  - PT
+  - QA
+  - RO
+  - RS
+  - RU
+  - SA
+  - SE
+  - SG
+  - SI
+  - SR
+  - SY
+  - TH
+  - TN
+  - TO
+  - TR
+  - TT
+  - US
+  - UY
+  - VE
+  - VN
+  - VU
+  - ZA
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 84
+  source: English Wikipedia, International Hydrographic Organization (revision 2026-09-01T06:43:23Z);
+    official membership source https://iho.int/en/members; snapshot 2026-10-16
+  salience: 31849
+- id: organisation_of_islamic_cooperation
+  name: Organisation of Islamic Cooperation
+  synonyms:
+  - OIC
+  members:
+  - AE
+  - AF
+  - AL
+  - AZ
+  - BD
+  - BF
+  - BH
+  - BJ
+  - BN
+  - CI
+  - CM
+  - DJ
+  - DZ
+  - EG
+  - GA
+  - GM
+  - GN
+  - GW
+  - GY
+  - ID
+  - IQ
+  - IR
+  - JO
+  - KG
+  - KM
+  - KW
+  - KZ
+  - LB
+  - LY
+  - MA
+  - ML
+  - MR
+  - MV
+  - MY
+  - MZ
+  - NE
+  - NG
+  - OM
+  - PK
+  - PS
+  - QA
+  - SA
+  - SD
+  - SL
+  - SN
+  - SO
+  - SR
+  - TD
+  - TG
+  - TJ
+  - TM
+  - TN
+  - TR
+  - UG
+  - UZ
+  - YE
+  disputed:
+  - SY
+  out_of_universe: []
+  changes:
+  - date: '2012-08-16'
+    value: SY
+    change: Syria suspended by the OIC; status remains disputed and it is excluded
+      from reliable members.
+  official_count: 57
+  source: English Wikipedia, Member states of the Organisation of Islamic Cooperation
+    (revision snapshot 2026-10-16); official membership source https://www.oic-oci.org/states/?lan=en;
+    snapshot 2026-10-16
+  salience: 5872
+- id: organization_of_american_states
+  name: Organization of American States
+  synonyms:
+  - OAS
+  members:
+  - AG
+  - AR
+  - BB
+  - BO
+  - BR
+  - BS
+  - BZ
+  - CA
+  - CL
+  - CO
+  - CR
+  - CU
+  - DM
+  - DO
+  - EC
+  - GD
+  - GT
+  - GY
+  - HN
+  - HT
+  - JM
+  - KN
+  - LC
+  - MX
+  - PA
+  - PE
+  - PY
+  - SR
+  - SV
+  - TT
+  - US
+  - UY
+  - VC
+  disputed:
+  - NI
+  - VE
+  out_of_universe: []
+  changes:
+  - date: '2023-11-19'
+    value: NI
+    change: Nicaragua withdrawal from the OAS Charter took effect; retained as disputed
+      because the exit was within three years.
+  official_count: 35
+  source: English Wikipedia, Organization of American States (revision 2026-09-24T01:50:38Z);
+    official membership source https://www.oas.org/en/member_states/default.asp; snapshot
+    2026-10-16
+  salience: 7334
+- id: organization_of_turkic_states
+  name: Organization of Turkic States
+  synonyms:
+  - Organization of Turkic States
+  members:
+  - AZ
+  - KG
+  - KZ
+  - TR
+  - UZ
+  disputed:
+  - HU
+  - TM
+  out_of_universe:
+  - Turkish Republic of Northern Cyprus
+  changes: []
+  official_count: 8
+  source: English Wikipedia, Organization of Turkic States (revision 2026-10-15T07:02:36Z);
+    official membership source https://www.turkicstates.org/en/member-states; snapshot
+    2026-10-16
+  salience: 209108
+- id: southern_african_development_community
+  name: Southern African Development Community
+  synonyms:
+  - Southern African Development Community
+  members:
+  - AO
+  - BW
+  - CD
+  - KM
+  - LS
+  - MG
+  - MU
+  - MW
+  - MZ
+  - NA
+  - SC
+  - SZ
+  - TZ
+  - ZA
+  - ZM
+  - ZW
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 16
+  source: English Wikipedia, Southern African Development Community (revision 2026-10-04T03:51:32Z);
+    official membership source https://www.sadc.int/member-states; snapshot 2026-10-16
+  salience: 69472
+- id: world_trade_organization
+  name: World Trade Organization
+  synonyms:
+  - WTO
+  members:
+  - AE
+  - AF
+  - AG
+  - AL
+  - AM
+  - AO
+  - AR
+  - AT
+  - AU
+  - BB
+  - BD
+  - BE
+  - BF
+  - BG
+  - BH
+  - BI
+  - BJ
+  - BN
+  - BO
+  - BR
+  - BW
+  - BZ
+  - CA
+  - CD
+  - CF
+  - CG
+  - CH
+  - CI
+  - CL
+  - CM
+  - CN
+  - CO
+  - CR
+  - CU
+  - CV
+  - CY
+  - CZ
+  - DE
+  - DJ
+  - DK
+  - DM
+  - DO
+  - EC
+  - EE
+  - EG
+  - ES
+  - FI
+  - FJ
+  - FR
+  - GA
+  - GB
+  - GD
+  - GE
+  - GH
+  - GM
+  - GN
+  - GR
+  - GT
+  - GW
+  - GY
+  - HK
+  - HN
+  - HR
+  - HT
+  - HU
+  - ID
+  - IE
+  - IL
+  - IN
+  - IS
+  - IT
+  - JM
+  - JO
+  - JP
+  - KE
+  - KG
+  - KH
+  - KN
+  - KR
+  - KW
+  - KZ
+  - LA
+  - LC
+  - LI
+  - LK
+  - LR
+  - LS
+  - LT
+  - LU
+  - LV
+  - MA
+  - MD
+  - ME
+  - MG
+  - MK
+  - ML
+  - MM
+  - MN
+  - MO
+  - MR
+  - MT
+  - MU
+  - MV
+  - MW
+  - MX
+  - MY
+  - MZ
+  - NA
+  - NE
+  - NG
+  - NI
+  - NL
+  - 'NO'
+  - NP
+  - NZ
+  - OM
+  - PA
+  - PE
+  - PG
+  - PH
+  - PK
+  - PL
+  - PT
+  - PY
+  - QA
+  - RO
+  - RU
+  - RW
+  - SA
+  - SB
+  - SC
+  - SE
+  - SG
+  - SI
+  - SK
+  - SL
+  - SN
+  - SR
+  - SV
+  - SZ
+  - TD
+  - TG
+  - TH
+  - TJ
+  - TN
+  - TO
+  - TR
+  - TT
+  - TW
+  - TZ
+  - UA
+  - UG
+  - US
+  - UY
+  - VC
+  - VE
+  - VN
+  - VU
+  - WS
+  - YE
+  - ZA
+  - ZM
+  - ZW
+  disputed:
+  - KM
+  - TL
+  out_of_universe:
+  - European Union
+  changes:
+  - date: '2024-08-21'
+    value: KM
+    change: Comoros joined the WTO; marked disputed under the three-year rule.
+  - date: '2024-08-30'
+    value: TL
+    change: Timor-Leste joined the WTO; marked disputed under the three-year rule.
+  official_count: 166
+  source: English Wikipedia, Member states of the World Trade Organization (revision
+    snapshot 2026-10-16); official membership source https://www.wto.org/english/thewto_e/whatis_e/tif_e/org6_e.htm;
+    snapshot 2026-10-16
+  salience: 14713
+- id: pif_members
+  name: Pacific Islands Forum member countries and territories
+  synonyms:
+  - Pacific Islands Forum
+  members:
+  - AU
+  - CK
+  - FJ
+  - FM
+  - KI
+  - MH
+  - NC
+  - NR
+  - NU
+  - NZ
+  - PF
+  - PG
+  - PW
+  - SB
+  - TO
+  - TV
+  - VU
+  - WS
+  disputed: []
+  out_of_universe: []
+  changes: []
+  official_count: 18
+  source: https://forumsec.org/pacific-islands-forum
+  salience: 43071

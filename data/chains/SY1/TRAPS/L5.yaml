@@ -1,0 +1,47 @@
+A: '445912000'
+C: snomed_128303001
+C_name: Surgical removal
+N_p: '232717009'
+N_t:
+- '287664005'
+- '76164006'
+- '85548006'
+- '290045001'
+- '47758006'
+- '385798007'
+- '29303009'
+P_M:
+- '443497002'
+- '234262008'
+- '392021009'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - snomed_118674002
+    - snomed_118675001
+    - snomed_118698009
+    - snomed_386637004
+    - snomed_609637006
+    - snomed_74943008
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- snomed_108189003
+- snomed_118674002
+- snomed_118675001
+- snomed_118698009
+- snomed_386637004
+- snomed_609637006
+- snomed_74943008
+field: procedures.code
+label: queue tag 93
+salience: 16518.0
+universe: procedure

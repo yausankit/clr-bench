@@ -1,0 +1,42 @@
+A: PEV
+C: eea_airports
+C_name: Airports in the European Economic Area
+N_p: GVA
+N_t:
+- ZRH
+- ZBK
+- SKD
+- NLF
+- KOZ
+- ZAJ
+- CHL
+P_M:
+- SRP
+- TCE
+- SXL
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - coe_airports
+    - schengen_airports
+    - turkic_airports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- coe_airports
+- eu_airports
+- schengen_airports
+- turkic_airports
+- visegrad_airports
+field: segments.arrival_airport
+label: ledger code 35
+salience: 322322.0
+universe: airport

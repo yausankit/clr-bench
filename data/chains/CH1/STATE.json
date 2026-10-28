@@ -1,0 +1,670 @@
+{
+ "_path": "STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "opcw_schedule_1",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "eu",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "star_alliance",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5833,
+     "soft": 0.9444
+    },
+    "4": {
+     "C": "opcw_schedule_3",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9444
+    },
+    "5": {
+     "C": "nato",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 0.8704
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "1": {
+     "C": "stockholm_annex_c",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.8333
+    },
+    "2": {
+     "C": "commonwealth",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9815
+    },
+    "5": {
+     "C": "opec",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.4167,
+     "soft": 0.963
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "1": {
+     "C": "iarc_group_1",
+     "P0": true,
+     "P1": false,
+     "P1H": false,
+     "g": 0.0,
+     "soft": 0.7778
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "1": {
+     "C": "iarc_group_2b",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0833,
+     "soft": 0.8333
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "1": {
+     "C": "stockholm_annex_a",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8519
+    }
+   }
+  }
+ ],
+ "requests": 147,
+ "rounds": 5,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "Hexachlorobenzene",
+    "C": "stockholm_annex_a",
+    "C_name": "Stockholm Convention Annex A",
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Fenthion",
+     "Ethylene oxide",
+     "Perfluorooctane sulfonic acid",
+     "Tributyltin fluoride",
+     "Metronidazole",
+     "Epichlorohydrin",
+     "Panfuran S (containing dihydroxymethylfuratrizine)"
+    ],
+    "P_M": [
+     "Endrin",
+     "Heptabromodiphenyl ether",
+     "Tetrabromodiphenyl ether"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_2b",
+       "rotterdam_annex_iii",
+       "rotterdam_pesticides",
+       "wfd_hazardous",
+       "wfd_priority"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_2b",
+     "rotterdam_annex_iii",
+     "rotterdam_pesticides",
+     "stockholm_all_pops",
+     "stockholm_annex_c",
+     "wfd_hazardous",
+     "wfd_priority"
+    ],
+    "field": "lines.substance",
+    "salience": 1476.0,
+    "universe": "chemical"
+   },
+   "field": "lines.substance",
+   "level": 1,
+   "pinned": {
+    "A": "Hexachlorobenzene",
+    "C": "stockholm_annex_a",
+    "C_name": "Stockholm Convention Annex A",
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Fenthion",
+     "Ethylene oxide",
+     "Perfluorooctane sulfonic acid",
+     "Tributyltin fluoride",
+     "Metronidazole",
+     "Epichlorohydrin",
+     "Panfuran S (containing dihydroxymethylfuratrizine)"
+    ],
+    "P_M": [
+     "Endrin",
+     "Heptabromodiphenyl ether",
+     "Tetrabromodiphenyl ether"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_2b",
+       "rotterdam_annex_iii",
+       "rotterdam_pesticides",
+       "wfd_hazardous",
+       "wfd_priority"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_2b",
+     "rotterdam_annex_iii",
+     "rotterdam_pesticides",
+     "stockholm_all_pops",
+     "stockholm_annex_c",
+     "wfd_hazardous",
+     "wfd_priority"
+    ],
+    "field": "lines.substance",
+    "salience": 1476.0,
+    "universe": "chemical"
+   },
+   "tried": [
+    "opcw_schedule_1",
+    "stockholm_annex_c",
+    "iarc_group_1",
+    "iarc_group_2b"
+   ]
+  },
+  {
+   "current": {
+    "A": "CA",
+    "C": "commonwealth",
+    "C_name": "Commonwealth of Nations member states",
+    "N_p": "ER",
+    "N_t": [
+     "SI",
+     "DE",
+     "BG",
+     "SD",
+     "BA",
+     "CZ",
+     "DK"
+    ],
+    "P_M": [
+     "DM",
+     "ZM",
+     "FJ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "g7",
+       "mtcr",
+       "nato",
+       "nsg",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "g7",
+     "mtcr",
+     "nato",
+     "nsg",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 1410547.0,
+    "universe": "country"
+   },
+   "field": "declarations.exporter_country",
+   "level": 2,
+   "pinned": {
+    "A": "CA",
+    "C": "commonwealth",
+    "C_name": "Commonwealth of Nations member states",
+    "N_p": "ER",
+    "N_t": [
+     "SI",
+     "DE",
+     "BG",
+     "SD",
+     "BA",
+     "CZ",
+     "DK"
+    ],
+    "P_M": [
+     "DM",
+     "ZM",
+     "FJ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "australia_group",
+       "g7",
+       "mtcr",
+       "nato",
+       "nsg",
+       "wassenaar"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "australia_group",
+     "g7",
+     "mtcr",
+     "nato",
+     "nsg",
+     "wassenaar"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 1410547.0,
+    "universe": "country"
+   },
+   "tried": [
+    "eu"
+   ]
+  },
+  {
+   "current": {
+    "A": "Air Canada",
+    "C": "star_alliance",
+    "C_name": "Star Alliance member airlines",
+    "N_p": "Atlas Air",
+    "N_t": [
+     "UPS Airlines",
+     "JetBlue Airways",
+     "American Airlines",
+     "Azul",
+     "Daallo Airlines",
+     "Hawaiian Airlines",
+     "Avion Express"
+    ],
+    "P_M": [
+     "Air China",
+     "Copa Airlines",
+     "Air India"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4a",
+       "alta_associate"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4a",
+     "alta_associate"
+    ],
+    "field": "shipments.air_carrier",
+    "salience": 630113.0,
+    "universe": "carrier"
+   },
+   "field": "shipments.air_carrier",
+   "level": 3,
+   "pinned": {
+    "A": "Air Canada",
+    "C": "star_alliance",
+    "C_name": "Star Alliance member airlines",
+    "N_p": "Atlas Air",
+    "N_t": [
+     "UPS Airlines",
+     "JetBlue Airways",
+     "American Airlines",
+     "Azul",
+     "Daallo Airlines",
+     "Hawaiian Airlines",
+     "Avion Express"
+    ],
+    "P_M": [
+     "Air China",
+     "Copa Airlines",
+     "Air India"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4a",
+       "alta_associate"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4a",
+     "alta_associate"
+    ],
+    "field": "shipments.air_carrier",
+    "salience": 630113.0,
+    "universe": "carrier"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Dimethyl hydrogen phosphite",
+    "C": "opcw_schedule_3",
+    "C_name": "Chemical Weapons Convention Schedule 3",
+    "N_p": "HN2",
+    "N_t": [
+     "DF",
+     "1,1-Dimethylhydrazine",
+     "HN3",
+     "Safrole",
+     "Tetranitromethane",
+     "HCFC-121",
+     "Polyaromatic hydrocarbons"
+    ],
+    "P_M": [
+     "Methyldiethanolamine",
+     "Diethyl phosphite",
+     "Thionyl chloride"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_2b",
+       "opcw_all_schedules"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_2b",
+     "opcw_all_schedules"
+    ],
+    "field": "lines.substance",
+    "salience": 59528.0,
+    "universe": "chemical"
+   },
+   "field": "lines.substance",
+   "level": 4,
+   "pinned": {
+    "A": "Dimethyl hydrogen phosphite",
+    "C": "opcw_schedule_3",
+    "C_name": "Chemical Weapons Convention Schedule 3",
+    "N_p": "HN2",
+    "N_t": [
+     "DF",
+     "1,1-Dimethylhydrazine",
+     "HN3",
+     "Safrole",
+     "Tetranitromethane",
+     "HCFC-121",
+     "Polyaromatic hydrocarbons"
+    ],
+    "P_M": [
+     "Methyldiethanolamine",
+     "Diethyl phosphite",
+     "Thionyl chloride"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iarc_group_2b",
+       "opcw_all_schedules"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iarc_group_2b",
+     "opcw_all_schedules"
+    ],
+    "field": "lines.substance",
+    "salience": 59528.0,
+    "universe": "chemical"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "SA",
+    "C": "opec",
+    "C_name": "OPEC member countries",
+    "N_p": "CU",
+    "N_t": [
+     "QA",
+     "SO",
+     "OM",
+     "AR",
+     "MR",
+     "NE",
+     "ZA"
+    ],
+    "P_M": [
+     "VE",
+     "CG",
+     "IR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arab_league",
+       "gcc"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arab_league",
+     "gcc"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 880838.0,
+    "universe": "country"
+   },
+   "field": "declarations.exporter_country",
+   "level": 5,
+   "pinned": {
+    "A": "SA",
+    "C": "opec",
+    "C_name": "OPEC member countries",
+    "N_p": "CU",
+    "N_t": [
+     "QA",
+     "SO",
+     "OM",
+     "AR",
+     "MR",
+     "NE",
+     "ZA"
+    ],
+    "P_M": [
+     "VE",
+     "CG",
+     "IR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arab_league",
+       "gcc"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arab_league",
+     "gcc"
+    ],
+    "field": "declarations.exporter_country",
+    "salience": 880838.0,
+    "universe": "country"
+   },
+   "tried": [
+    "nato"
+   ]
+  }
+ ],
+ "stage": "done"
+}

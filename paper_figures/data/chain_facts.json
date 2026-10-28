@@ -1,0 +1,2522 @@
+{
+ "CH1": {
+  "dataset": "CH",
+  "fields": [
+   "lines.substance",
+   "declarations.exporter_country",
+   "shipments.air_carrier"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "lines.substance",
+    "label": "intake folder X8",
+    "C": "stockholm_annex_a",
+    "name": "Stockholm Convention Annex A",
+    "A": "Hexachlorobenzene",
+    "P_M": [
+     "Endrin",
+     "Heptabromodiphenyl ether",
+     "Tetrabromodiphenyl ether"
+    ],
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Fenthion",
+     "Ethylene oxide",
+     "Perfluorooctane sulfonic acid",
+     "Tributyltin fluoride",
+     "Metronidazole",
+     "Epichlorohydrin",
+     "Panfuran S (containing dihydroxymethylfuratrizine)"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "declarations.exporter_country",
+    "label": "clearance stamp 37",
+    "C": "commonwealth",
+    "name": "Commonwealth of Nations member states",
+    "A": "CA",
+    "P_M": [
+     "DM",
+     "ZM",
+     "FJ"
+    ],
+    "N_p": "ER",
+    "N_t": [
+     "SI",
+     "DE",
+     "BG",
+     "SD",
+     "BA",
+     "CZ",
+     "DK"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "shipments.air_carrier",
+    "label": "review batch Q-47",
+    "C": "star_alliance",
+    "name": "Star Alliance member airlines",
+    "A": "Air Canada",
+    "P_M": [
+     "Air China",
+     "Copa Airlines",
+     "Air India"
+    ],
+    "N_p": "Atlas Air",
+    "N_t": [
+     "UPS Airlines",
+     "JetBlue Airways",
+     "American Airlines",
+     "Azul",
+     "Daallo Airlines",
+     "Hawaiian Airlines",
+     "Avion Express"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "lines.substance",
+    "label": "intake folder H2",
+    "C": "opcw_schedule_3",
+    "name": "Chemical Weapons Convention Schedule 3",
+    "A": "Dimethyl hydrogen phosphite",
+    "P_M": [
+     "Methyldiethanolamine",
+     "Diethyl phosphite",
+     "Thionyl chloride"
+    ],
+    "N_p": "HN2",
+    "N_t": [
+     "DF",
+     "1,1-Dimethylhydrazine",
+     "HN3",
+     "Safrole",
+     "Tetranitromethane",
+     "HCFC-121",
+     "Polyaromatic hydrocarbons"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "declarations.exporter_country",
+    "label": "intake folder 84",
+    "C": "opec",
+    "name": "OPEC member countries",
+    "A": "SA",
+    "P_M": [
+     "VE",
+     "CG",
+     "IR"
+    ],
+    "N_p": "CU",
+    "N_t": [
+     "QA",
+     "SO",
+     "OM",
+     "AR",
+     "MR",
+     "NE",
+     "ZA"
+    ]
+   }
+  ]
+ },
+ "CH2": {
+  "dataset": "CH",
+  "fields": [
+   "lines.substance",
+   "declarations.exporter_country",
+   "shipments.air_carrier"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "lines.substance",
+    "label": "intake folder D4",
+    "C": "opcw_schedule_3",
+    "name": "Chemical Weapons Convention Schedule 3",
+    "A": "Triethanolamine",
+    "P_M": [
+     "Phosphorus oxychloride",
+     "Cyanogen chloride",
+     "Hydrogen cyanide"
+    ],
+    "N_p": "Ricin",
+    "N_t": [
+     "Sulfur mustard",
+     "Decabromodiphenyl ether",
+     "Amiton",
+     "Aziridine",
+     "Dichloromethane",
+     "Lysergic acid",
+     "Heptabromodiphenyl ether"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "declarations.exporter_country",
+    "label": "review batch 71",
+    "C": "g7",
+    "name": "Group of Seven member countries",
+    "A": "FR",
+    "P_M": [
+     "JP",
+     "US",
+     "GB"
+    ],
+    "N_p": "PL",
+    "N_t": [
+     "CZ",
+     "LT",
+     "BE",
+     "BB",
+     "SG",
+     "MM",
+     "EG"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "shipments.air_carrier",
+    "label": "clearance stamp C-14",
+    "C": "oneworld",
+    "name": "oneworld member airlines",
+    "A": "American Airlines",
+    "P_M": [
+     "Qatar Airways",
+     "Qantas Airways",
+     "Finnair"
+    ],
+    "N_p": "Air Zimbabwe",
+    "N_t": [
+     "UPS Airlines",
+     "Air Europa",
+     "Southwest Airlines",
+     "Nauru Airlines",
+     "Yakutia Airlines",
+     "Libyan Airlines",
+     "Gol Transportes Aereos"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "lines.substance",
+    "label": "intake folder S3",
+    "C": "stockholm_annex_a",
+    "name": "Stockholm Convention Annex A",
+    "A": "Polychlorinated biphenyls",
+    "P_M": [
+     "Alpha-hexachlorocyclohexane",
+     "UV-328",
+     "Brominated diphenyl ethers"
+    ],
+    "N_p": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+    "N_t": [
+     "Trichloroethylene",
+     "Methamidophos",
+     "Polychlorinated terphenyls",
+     "2,2-Diphenyl-2-hydroxyacetic acid",
+     "CFC-213",
+     "2-Nitropropane",
+     "Norephedrine"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "declarations.exporter_country",
+    "label": "intake folder 11",
+    "C": "mtcr",
+    "name": "Missile Technology Control Regime partners",
+    "A": "DE",
+    "P_M": [
+     "IN",
+     "BR",
+     "RU"
+    ],
+    "N_p": "EE",
+    "N_t": [
+     "RO",
+     "ME",
+     "SK",
+     "SR",
+     "LS",
+     "NI",
+     "DJ"
+    ]
+   }
+  ]
+ },
+ "GR1": {
+  "dataset": "GR",
+  "fields": [
+   "applicants.nationality",
+   "trips.airline",
+   "applicants.university"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "applicants.nationality",
+    "label": "travel note X5",
+    "C": "commonwealth_members",
+    "name": "Commonwealth of Nations members",
+    "A": "GB",
+    "P_M": [
+     "BD",
+     "VC",
+     "GM"
+    ],
+    "N_p": "SI",
+    "N_t": [
+     "FI",
+     "FR",
+     "DE",
+     "IL",
+     "GS",
+     "CG",
+     "CO"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "trips.airline",
+    "label": "audit marker 55",
+    "C": "star_alliance_members",
+    "name": "Star Alliance member airlines",
+    "A": "Lufthansa",
+    "P_M": [
+     "Thai Airways",
+     "Austrian Airlines",
+     "Shenzhen Airlines"
+    ],
+    "N_p": "Edelweiss Air",
+    "N_t": [
+     "Scandinavian Airlines",
+     "Sky Airline",
+     "Etihad Airways",
+     "PenAir",
+     "Maritime Air Charter",
+     "NovoAir",
+     "Servicios Aéreos Profesionales"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "applicants.university",
+    "label": "review notation Y-25",
+    "C": "leru_members",
+    "name": "League of European Research Universities members",
+    "A": "University of Edinburgh",
+    "P_M": [
+     "University of Copenhagen",
+     "Utrecht University",
+     "University of Helsinki"
+    ],
+    "N_p": "Open University of the Netherlands",
+    "N_t": [
+     "University of Bristol",
+     "Tokat Gaziosmanpaşa University",
+     "University of Bologna",
+     "University of North Florida",
+     "Ukrainian Catholic University",
+     "Royal Military Academy, Woolwich",
+     "Kharkiv Polytechnic Institute"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "applicants.nationality",
+    "label": "routing code D3",
+    "C": "nato_members",
+    "name": "NATO member countries",
+    "A": "IT",
+    "P_M": [
+     "ME",
+     "MK",
+     "BG"
+    ],
+    "N_p": "MT",
+    "N_t": [
+     "AT",
+     "CH",
+     "JP",
+     "FK",
+     "CD",
+     "NA",
+     "RW"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "trips.airline",
+    "label": "expense label 20",
+    "C": "oneworld_members",
+    "name": "oneworld member airlines",
+    "A": "Qatar Airways",
+    "P_M": [
+     "Fiji Airways",
+     "Finnair",
+     "SriLankan Airlines"
+    ],
+    "N_p": "Fly2Sky",
+    "N_t": [
+     "Plus Ultra",
+     "Gulf Air",
+     "STARLUX Airlines",
+     "Airnorth",
+     "Sun Way",
+     "Shree Airlines",
+     "West Air Luxembourg"
+    ]
+   }
+  ]
+ },
+ "GR2": {
+  "dataset": "GR",
+  "fields": [
+   "applicants.nationality",
+   "trips.airline",
+   "applicants.university"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "applicants.nationality",
+    "label": "ledger annotation K6",
+    "C": "schengen_members",
+    "name": "Schengen Area member states",
+    "A": "DE",
+    "P_M": [
+     "LI",
+     "CH",
+     "MT"
+    ],
+    "N_p": "IE",
+    "N_t": [
+     "CY",
+     "ME",
+     "CA",
+     "KN",
+     "FO",
+     "ZA",
+     "TH"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "trips.airline",
+    "label": "expense label 26",
+    "C": "star_alliance_founders",
+    "name": "Five original Star Alliance member airlines",
+    "A": "Lufthansa",
+    "P_M": [
+     "Scandinavian Airlines",
+     "Thai Airways International",
+     "Air Canada"
+    ],
+    "N_p": "All Nippon Airways",
+    "N_t": [
+     "EgyptAir",
+     "Lucky Air",
+     "EVA Air",
+     "Air Calédonie",
+     "Stellar Airways",
+     "Transworld Aviation",
+     "LATAM Airlines Ecuador"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "applicants.university",
+    "label": "audit marker C-39",
+    "C": "aun_members",
+    "name": "ASEAN University Network members",
+    "A": "National University of Singapore",
+    "P_M": [
+     "Hoa Sen University",
+     "Airlangga University",
+     "Lyceum of the Philippines University"
+    ],
+    "N_p": "High Council for the Evaluation of Research and Higher Education",
+    "N_t": [
+     "University of Science and Technology of China",
+     "University of Cape Town",
+     "Nagoya University",
+     "University of Amsterdam",
+     "Stendhal University",
+     "Zhetysu University",
+     "Politeknik Kesehatan Kementerian Kesehatan Banten"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "applicants.nationality",
+    "label": "travel note H7",
+    "C": "asean_members",
+    "name": "ASEAN member states",
+    "A": "BN",
+    "P_M": [
+     "LA",
+     "MM",
+     "PH"
+    ],
+    "N_p": "FI",
+    "N_t": [
+     "DM",
+     "KE",
+     "CM",
+     "IL",
+     "YT",
+     "GY",
+     "NP"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "trips.airline",
+    "label": "routing code 13",
+    "C": "skytrax_five_star",
+    "name": "Skytrax five-star rated airlines",
+    "A": "Singapore Airlines",
+    "P_M": [
+     "STARLUX Airlines",
+     "Cathay Pacific",
+     "Korean Air"
+    ],
+    "N_p": "Qantas",
+    "N_t": [
+     "Turkish Airlines",
+     "TAAG Angola Airlines",
+     "WestJet",
+     "Pawan Hans",
+     "Flamingo Air",
+     "IrAero",
+     "Libyan Arab Air Cargo"
+    ]
+   }
+  ]
+ },
+ "LG1": {
+  "dataset": "LG",
+  "fields": [
+   "proxy_connections.tld",
+   "proxy_connections.client_app",
+   "proxy_connections.port"
+  ],
+  "answer_format": "text",
+  "slots": [
+   {
+    "level": 1,
+    "field": "proxy_connections.tld",
+    "label": "gateway lane T9",
+    "C": "brics_cctlds",
+    "name": "BRICS member country-code top-level domains",
+    "A": "ru",
+    "P_M": [
+     "et",
+     "ir",
+     "ae"
+    ],
+    "N_p": "bj",
+    "N_t": [
+     "fr",
+     "am",
+     "vu",
+     "ipiranga",
+     "aeg",
+     "gbiz",
+     "cc"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "proxy_connections.client_app",
+    "label": "event bucket 30",
+    "C": "office_ltsc_2021_apps",
+    "name": "Office LTSC Professional Plus 2021 applications",
+    "A": "EXCEL.EXE",
+    "P_M": [
+     "Skype.exe",
+     "OUTLOOK.EXE",
+     "ONENOTE.EXE"
+    ],
+    "N_p": "wuauclt.exe",
+    "N_t": [
+     "explorer.exe",
+     "wpp.exe",
+     "soffice.exe",
+     "WinSCP.exe",
+     "Wiz.exe",
+     "WeCom.exe",
+     "telegram.exe"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "proxy_connections.port",
+    "label": "session tag F-88",
+    "C": "microsoft_server_ports",
+    "name": "Microsoft server product port assignments",
+    "A": "137",
+    "P_M": [
+     "1433",
+     "3389",
+     "88"
+    ],
+    "N_p": "702",
+    "N_t": [
+     "176",
+     "162",
+     "593",
+     "2842",
+     "3649",
+     "2188",
+     "3604"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "proxy_connections.tld",
+    "label": "access lane D5",
+    "C": "schengen_cctlds",
+    "name": "Schengen Area member state country-code top-level domains",
+    "A": "de",
+    "P_M": [
+     "li",
+     "ch",
+     "mt"
+    ],
+    "N_p": "ie",
+    "N_t": [
+     "cy",
+     "ca",
+     "kr",
+     "office",
+     "komatsu",
+     "parts",
+     "gop"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "proxy_connections.client_app",
+    "label": "audit zone 83",
+    "C": "office_suites",
+    "name": "Office suites",
+    "A": "WINWORD.EXE",
+    "P_M": [
+     "et.exe",
+     "wps.exe",
+     "POWERPNT.EXE"
+    ],
+    "N_p": "Teams.exe",
+    "N_t": [
+     "OneDrive.exe",
+     "FoxitReader.exe",
+     "vlc.exe",
+     "360chrome.exe",
+     "nginx.exe",
+     "java.exe",
+     "QQLive.exe"
+    ]
+   }
+  ]
+ },
+ "LG2": {
+  "dataset": "LG",
+  "fields": [
+   "proxy_connections.tld",
+   "proxy_connections.client_app",
+   "proxy_connections.port"
+  ],
+  "answer_format": "text",
+  "slots": [
+   {
+    "level": 1,
+    "field": "proxy_connections.tld",
+    "label": "access lane C2",
+    "C": "oecd_cctlds",
+    "name": "OECD member country country-code top-level domains",
+    "A": "de",
+    "P_M": [
+     "il",
+     "cl",
+     "cr"
+    ],
+    "N_p": "my",
+    "N_t": [
+     "bg",
+     "hr",
+     "mt",
+     "xn--ses554g",
+     "bike",
+     "industries",
+     "tj"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "proxy_connections.client_app",
+    "label": "event bucket 52",
+    "C": "microsoft_productivity_apps",
+    "name": "Microsoft productivity applications",
+    "A": "WINWORD.EXE",
+    "P_M": [
+     "Teams.exe",
+     "OUTLOOK.EXE",
+     "ONENOTE.EXE"
+    ],
+    "N_p": "Skype.exe",
+    "N_t": [
+     "spoolsv.exe",
+     "wps.exe",
+     "et.exe",
+     "svchost.exe",
+     "powershell.exe",
+     "Spotify.exe",
+     "msfeedssync.exe"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "proxy_connections.port",
+    "label": "session tag A-70",
+    "C": "plaintext_protocol_ports",
+    "name": "Plaintext application protocol ports",
+    "A": "389",
+    "P_M": [
+     "143",
+     "21",
+     "43"
+    ],
+    "N_p": "22",
+    "N_t": [
+     "1433",
+     "3269",
+     "455",
+     "5068",
+     "2493",
+     "9293",
+     "3341"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "proxy_connections.tld",
+    "label": "audit zone J6",
+    "C": "g7_cctlds",
+    "name": "G7 member country-code top-level domains",
+    "A": "fr",
+    "P_M": [
+     "jp",
+     "gb",
+     "us"
+    ],
+    "N_p": "tr",
+    "N_t": [
+     "lt",
+     "pt",
+     "no",
+     "seven",
+     "compare",
+     "express",
+     "dds"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "proxy_connections.client_app",
+    "label": "gateway lane 93",
+    "C": "ftp_clients",
+    "name": "FTP clients",
+    "A": "WinSCP.exe",
+    "P_M": [
+     "MobaXterm.exe",
+     "Xshell.exe",
+     "SecureCRT.exe"
+    ],
+    "N_p": "putty.exe",
+    "N_t": [
+     "vncviewer.exe",
+     "Termius.exe",
+     "Dropbox.exe",
+     "Acrobat.exe",
+     "SogouCloud.exe",
+     "YodaoDict.exe",
+     "SogouPinyin.exe"
+    ]
+   }
+  ]
+ },
+ "MN1": {
+  "dataset": "MN",
+  "fields": [
+   "lots.origin_country",
+   "lots.carrier",
+   "lots.material"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "lots.origin_country",
+    "label": "ledger mark C8",
+    "C": "commonwealth_members",
+    "name": "Commonwealth of Nations member states",
+    "A": "CA",
+    "P_M": [
+     "BB",
+     "TV",
+     "NG"
+    ],
+    "N_p": "RO",
+    "N_t": [
+     "AL",
+     "DE",
+     "MX",
+     "TJ",
+     "MM",
+     "ES",
+     "BR"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "lots.carrier",
+    "label": "compliance lane 38",
+    "C": "star_alliance",
+    "name": "Star Alliance member airlines",
+    "A": "Brussels Airlines",
+    "P_M": [
+     "All Nippon Airways",
+     "Copa Airlines",
+     "Shenzhen Airlines"
+    ],
+    "N_p": "Red Sea Airlines",
+    "N_t": [
+     "Air France",
+     "Eurowings",
+     "EasyJet Switzerland",
+     "JetSMART Argentina",
+     "Mandarin Airlines",
+     "Air Senegal",
+     "Heston Airlines"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "lots.material",
+    "label": "review tag R-20",
+    "C": "yttrium_group",
+    "name": "Yttrium-group rare-earth elements",
+    "A": "lutetium",
+    "P_M": [
+     "yttrium",
+     "scandium",
+     "thulium"
+    ],
+    "N_p": "europium",
+    "N_t": [
+     "samarium",
+     "neodymium",
+     "cerium",
+     "rubidium",
+     "hafnium",
+     "nitrogen",
+     "tellurium"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "lots.origin_country",
+    "label": "audit ribbon V9",
+    "C": "g7_members",
+    "name": "G7 member states",
+    "A": "IT",
+    "P_M": [
+     "JP",
+     "GB",
+     "US"
+    ],
+    "N_p": "TR",
+    "N_t": [
+     "SK",
+     "BE",
+     "NL",
+     "PY",
+     "DK",
+     "JO",
+     "VE"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "lots.carrier",
+    "label": "ledger mark 98",
+    "C": "oneworld",
+    "name": "Oneworld member airlines",
+    "A": "British Airways",
+    "P_M": [
+     "Qatar Airways",
+     "Qantas",
+     "SriLankan Airlines"
+    ],
+    "N_p": "Solomon Airlines",
+    "N_t": [
+     "Aer Lingus",
+     "Eastern Airlines",
+     "Lauda",
+     "SmartLynx Airlines Malta",
+     "Swiftair",
+     "Malta Air",
+     "Smartwings Hungary"
+    ]
+   }
+  ]
+ },
+ "MN2": {
+  "dataset": "MN",
+  "fields": [
+   "lots.origin_country",
+   "lots.carrier",
+   "lots.material"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "lots.origin_country",
+    "label": "ledger mark P8",
+    "C": "g7_members",
+    "name": "G7 member states",
+    "A": "DE",
+    "P_M": [
+     "JP",
+     "GB",
+     "US"
+    ],
+    "N_p": "TR",
+    "N_t": [
+     "LT",
+     "GR",
+     "CZ",
+     "NZ",
+     "BJ",
+     "TM",
+     "BH"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "lots.carrier",
+    "label": "review tag 70",
+    "C": "skyteam",
+    "name": "SkyTeam member airlines",
+    "A": "Air France",
+    "P_M": [
+     "Aeroméxico",
+     "XiamenAir",
+     "SAS Link"
+    ],
+    "N_p": "Heston Airlines",
+    "N_t": [
+     "MasAir",
+     "Air France-KLM Cargo",
+     "Transavia",
+     "Bahamasair",
+     "Southwind Airlines",
+     "PAS",
+     "Ruili Airlines"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "lots.material",
+    "label": "compliance lane N-59",
+    "C": "yttrium_group",
+    "name": "Yttrium-group rare-earth elements",
+    "A": "holmium",
+    "P_M": [
+     "gadolinium",
+     "ytterbium",
+     "erbium"
+    ],
+    "N_p": "samarium",
+    "N_t": [
+     "europium",
+     "praseodymium",
+     "promethium",
+     "neon",
+     "technetium",
+     "palladium",
+     "selenium"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "lots.origin_country",
+    "label": "audit ribbon W2",
+    "C": "g20_members",
+    "name": "G20 members",
+    "A": "IT",
+    "P_M": [
+     "SA",
+     "IN",
+     "AR"
+    ],
+    "N_p": "MU",
+    "N_t": [
+     "LU",
+     "FI",
+     "HR",
+     "BT",
+     "GT",
+     "TZ",
+     "MA"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "lots.carrier",
+    "label": "ledger mark 60",
+    "C": "iag_airlines",
+    "name": "International Airlines Group airlines",
+    "A": "British Airways",
+    "P_M": [
+     "LEVEL",
+     "Aer Lingus",
+     "Iberia"
+    ],
+    "N_p": "Finnair",
+    "N_t": [
+     "Royal Air Maroc",
+     "Cathay Pacific",
+     "EasyJet Europe",
+     "Xizang Airlines",
+     "TUI Airways",
+     "Congo Airlines",
+     "Air Niugini"
+    ]
+   }
+  ]
+ },
+ "SH1": {
+  "dataset": "SH",
+  "fields": [
+   "ships.flag_state",
+   "ships.owner_country",
+   "inspections.port"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "ships.flag_state",
+    "label": "follow-up docket D4",
+    "C": "g7",
+    "name": "G7",
+    "A": "FR",
+    "P_M": [
+     "JP",
+     "US",
+     "GB"
+    ],
+    "N_p": "TR",
+    "N_t": [
+     "SE",
+     "NO",
+     "GR",
+     "DO",
+     "KE",
+     "JO",
+     "YE"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "ships.owner_country",
+    "label": "review ledger 71",
+    "C": "nato",
+    "name": "NATO",
+    "A": "DE",
+    "P_M": [
+     "AL",
+     "MK",
+     "ME"
+    ],
+    "N_p": "CY",
+    "N_t": [
+     "AT",
+     "LI",
+     "MX",
+     "LS",
+     "BN",
+     "TG",
+     "UY"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "inspections.port",
+    "label": "monitoring schedule C-14",
+    "C": "climate_alliance_city_ports",
+    "name": "Port locations recorded in Climate Alliance member cities",
+    "A": "DEBER",
+    "P_M": [
+     "GEBUS",
+     "CHKRZ",
+     "CHBSL"
+    ],
+    "N_p": "NLRTM",
+    "N_t": [
+     "NLLWR",
+     "ZADUR",
+     "ESIBZ",
+     "FMEAU",
+     "MGANM",
+     "GYANT",
+     "GBEDI"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "ships.flag_state",
+    "label": "follow-up docket S3",
+    "C": "brics",
+    "name": "BRICS",
+    "A": "ZA",
+    "P_M": [
+     "BR",
+     "CN",
+     "RU"
+    ],
+    "N_p": "SA",
+    "N_t": [
+     "TZ",
+     "AU",
+     "MR",
+     "RS",
+     "CO",
+     "SG",
+     "NZ"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "ships.owner_country",
+    "label": "follow-up docket 11",
+    "C": "g20",
+    "name": "G20",
+    "A": "CA",
+    "P_M": [
+     "IN",
+     "ID",
+     "AR"
+    ],
+    "N_p": "PG",
+    "N_t": [
+     "SK",
+     "UG",
+     "LU",
+     "NU",
+     "TC",
+     "FJ",
+     "BG"
+    ]
+   }
+  ]
+ },
+ "SH2": {
+  "dataset": "SH",
+  "fields": [
+   "ships.flag_state",
+   "ships.owner_country",
+   "inspections.port"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "ships.flag_state",
+    "label": "review ledger J8",
+    "C": "arab_league",
+    "name": "Arab League",
+    "A": "TN",
+    "P_M": [
+     "SD",
+     "SY",
+     "IQ"
+    ],
+    "N_p": "NG",
+    "N_t": [
+     "SS",
+     "AL",
+     "GM",
+     "GQ",
+     "BV",
+     "TH",
+     "SJ"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "ships.owner_country",
+    "label": "monitoring schedule 41",
+    "C": "asia_pacific_economic_cooperation",
+    "name": "Asia-Pacific Economic Cooperation",
+    "A": "US",
+    "P_M": [
+     "HK",
+     "TW",
+     "PG"
+    ],
+    "N_p": "MU",
+    "N_t": [
+     "GR",
+     "GB",
+     "ZA",
+     "DK",
+     "PA",
+     "PS",
+     "TJ"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "inspections.port",
+    "label": "follow-up docket A-14",
+    "C": "ports_in_brics_countries",
+    "name": "Ports in countries belonging to BRICS",
+    "A": "CNNJI",
+    "P_M": [
+     "INMAA",
+     "RULED",
+     "BRSSZ"
+    ],
+    "N_p": "AUADL",
+    "N_t": [
+     "NZWLG",
+     "GBLON",
+     "FRSXB",
+     "FRLRH",
+     "SZNHL",
+     "DERAD",
+     "DEHRT"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "ships.flag_state",
+    "label": "review ledger M7",
+    "C": "european_economic_area",
+    "name": "European Economic Area",
+    "A": "DE",
+    "P_M": [
+     "LI",
+     "BG",
+     "CY"
+    ],
+    "N_p": "ME",
+    "N_t": [
+     "TR",
+     "CH",
+     "CA",
+     "AX",
+     "BT",
+     "MG",
+     "MS"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "ships.owner_country",
+    "label": "review ledger 34",
+    "C": "council_of_europe",
+    "name": "Council of Europe",
+    "A": "IT",
+    "P_M": [
+     "SM",
+     "AZ",
+     "AD"
+    ],
+    "N_p": "BY",
+    "N_t": [
+     "JP",
+     "RU",
+     "VA",
+     "SN",
+     "KH",
+     "VC",
+     "TM"
+    ]
+   }
+  ]
+ },
+ "SP1": {
+  "dataset": "SP",
+  "fields": [
+   "activations.club",
+   "activations.co_sponsor",
+   "activations.market_country"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "activations.club",
+    "label": "handling class P8",
+    "C": "ucl_winners",
+    "name": "European Cup and UEFA Champions League winners",
+    "A": "Real Madrid",
+    "P_M": [
+     "Steaua București",
+     "Nottingham Forest",
+     "Hamburger SV"
+    ],
+    "N_p": "Dinamo Zagreb",
+    "N_t": [
+     "VfB Stuttgart",
+     "Boca Juniors",
+     "Ipswich Town",
+     "Galatasaray",
+     "Zaragoza",
+     "Dynamo Kyiv",
+     "Sparta Prague"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "activations.co_sponsor",
+    "label": "review tag 70",
+    "C": "euro_stoxx_50",
+    "name": "EURO STOXX 50 constituents, October 2026",
+    "A": "ASML",
+    "P_M": [
+     "Deutsche Post",
+     "Deutsche Bank",
+     "Volkswagen Group"
+    ],
+    "N_p": "Kering",
+    "N_t": [
+     "Monolithic Power Systems",
+     "Hiscox",
+     "ASR Nederland",
+     "Solvay",
+     "Eurofins Scientific",
+     "ABB Ltd",
+     "Alfa Laval"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "activations.market_country",
+    "label": "audit lane N-59",
+    "C": "commonwealth_members",
+    "name": "Commonwealth of Nations member states",
+    "A": "CA",
+    "P_M": [
+     "TZ",
+     "KI",
+     "LK"
+    ],
+    "N_p": "ES",
+    "N_t": [
+     "FI",
+     "DE",
+     "MX",
+     "RU",
+     "GF",
+     "LR",
+     "SH"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "activations.club",
+    "label": "review code W2",
+    "C": "club_world_cup_2025_participants",
+    "name": "2025 FIFA Club World Cup participants",
+    "A": "Inter Milan",
+    "P_M": [
+     "Monterrey",
+     "Al Ahly",
+     "Palmeiras"
+    ],
+    "N_p": "Shakhtar Donetsk",
+    "N_t": [
+     "Feyenoord",
+     "Arsenal",
+     "Anderlecht",
+     "Bayer Leverkusen",
+     "Sporting CP",
+     "Roma",
+     "Arenas"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "activations.co_sponsor",
+    "label": "settlement lane 60",
+    "C": "dow_jones",
+    "name": "Dow Jones Industrial Average constituents, October 2026",
+    "A": "Walmart",
+    "P_M": [
+     "Sherwin-Williams",
+     "Nike",
+     "Johnson & Johnson"
+    ],
+    "N_p": "Danaher Corporation",
+    "N_t": [
+     "Datadog",
+     "Micron Technology",
+     "Union Pacific Corporation",
+     "AppLovin",
+     "Fluidra",
+     "Bureau Veritas",
+     "Microchip Technology"
+    ]
+   }
+  ]
+ },
+ "SP2": {
+  "dataset": "SP",
+  "fields": [
+   "activations.club",
+   "activations.co_sponsor",
+   "activations.market_country"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "activations.club",
+    "label": "audit lane X5",
+    "C": "g14_members",
+    "name": "G-14 member clubs",
+    "A": "Real Madrid",
+    "P_M": [
+     "PSV Eindhoven",
+     "Borussia Dortmund",
+     "Porto"
+    ],
+    "N_p": "Manchester City",
+    "N_t": [
+     "Steaua București",
+     "Monaco",
+     "Fluminense",
+     "Pachuca",
+     "Mamelodi Sundowns",
+     "Wydad",
+     "Urawa Red Diamonds"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "activations.co_sponsor",
+    "label": "review code 55",
+    "C": "dow_jones",
+    "name": "Dow Jones Industrial Average constituents, October 2026",
+    "A": "Microsoft",
+    "P_M": [
+     "Travelers",
+     "Disney",
+     "Honeywell Technologies"
+    ],
+    "N_p": "PepsiCo",
+    "N_t": [
+     "Exelon",
+     "GE HealthCare",
+     "General Motors",
+     "Tesla",
+     "Deutsche Börse",
+     "Sika",
+     "Continental"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "activations.market_country",
+    "label": "review tag Y-25",
+    "C": "eu_members",
+    "name": "European Union member states",
+    "A": "DE",
+    "P_M": [
+     "CY",
+     "MT",
+     "AT"
+    ],
+    "N_p": "CO",
+    "N_t": [
+     "MK",
+     "JP",
+     "BR",
+     "MD",
+     "GN",
+     "GB",
+     "KN"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "activations.club",
+    "label": "settlement lane D3",
+    "C": "super_league_founders",
+    "name": "European Super League founding clubs",
+    "A": "Inter Milan",
+    "P_M": [
+     "Arsenal",
+     "Tottenham Hotspur",
+     "Atlético Madrid"
+    ],
+    "N_p": "Bayern Munich",
+    "N_t": [
+     "Paris Saint-Germain",
+     "Slovan Bratislava",
+     "Benfica",
+     "Ajax",
+     "Crystal Palace",
+     "Marseille",
+     "River Plate"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "activations.co_sponsor",
+    "label": "handling class 20",
+    "C": "aex",
+    "name": "AEX index constituents, October 2026",
+    "A": "ASML",
+    "P_M": [
+     "Aegon",
+     "IMCD",
+     "ASR Nederland"
+    ],
+    "N_p": "Tenaris",
+    "N_t": [
+     "Old Dominion",
+     "Deutsche Post",
+     "Lindt & Sprüngli",
+     "Monster Beverage",
+     "AB InBev",
+     "Julius Baer",
+     "Nebius Group"
+    ]
+   }
+  ]
+ },
+ "SY1": {
+  "dataset": "SY",
+  "fields": [
+   "conditions.code",
+   "procedures.code",
+   "medications.ingredient"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "conditions.code",
+    "label": "desk slot C2",
+    "C": "snomed_129134004",
+    "name": "Inflammatory disorder of upper respiratory tract",
+    "A": "75498004",
+    "P_M": [
+     "36971009",
+     "40055000",
+     "43878008"
+    ],
+    "N_p": "233604007",
+    "N_t": [
+     "267102003",
+     "45816000",
+     "68235000",
+     "57676002",
+     "80583007",
+     "423315002",
+     "126906006"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "procedures.code",
+    "label": "audit lane 52",
+    "C": "snomed_118675001",
+    "name": "Procedure on female genital system",
+    "A": "11466000",
+    "P_M": [
+     "35025007",
+     "236931002",
+     "65200003"
+    ],
+    "N_p": "65575008",
+    "N_t": [
+     "45595009",
+     "429609002",
+     "90470006",
+     "60027007",
+     "313191000",
+     "22523008",
+     "432231006"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "medications.ingredient",
+    "label": "ledger mark A-70",
+    "C": "dea_schedule_ii",
+    "name": "Schedule II controlled substances",
+    "A": "Morphine",
+    "P_M": [
+     "Methylphenidate",
+     "Remifentanil",
+     "Meperidine"
+    ],
+    "N_p": "Tramadol",
+    "N_t": [
+     "Pregabalin",
+     "Galantamine",
+     "Simvastatin",
+     "Vancomycin",
+     "Metformin",
+     "Naproxen",
+     "Doxycycline"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "conditions.code",
+    "label": "routing lane J6",
+    "C": "snomed_40733004",
+    "name": "Infection",
+    "A": "195662009",
+    "P_M": [
+     "840539006",
+     "301011002",
+     "11218009"
+    ],
+    "N_p": "24079001",
+    "N_t": [
+     "249497008",
+     "367498001",
+     "446096008",
+     "424132000",
+     "55822004",
+     "44054006",
+     "62564004"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "procedures.code",
+    "label": "queue tag 93",
+    "C": "snomed_128303001",
+    "name": "Surgical removal",
+    "A": "445912000",
+    "P_M": [
+     "443497002",
+     "234262008",
+     "392021009"
+    ],
+    "N_p": "232717009",
+    "N_t": [
+     "287664005",
+     "76164006",
+     "85548006",
+     "290045001",
+     "47758006",
+     "385798007",
+     "29303009"
+    ]
+   }
+  ]
+ },
+ "SY2": {
+  "dataset": "SY",
+  "fields": [
+   "conditions.code",
+   "procedures.code",
+   "medications.ingredient"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "conditions.code",
+    "label": "review tag W8",
+    "C": "snomed_363059001",
+    "name": "Degenerative disorder of musculoskeletal system",
+    "A": "443165006",
+    "P_M": [
+     "239872002",
+     "201834006",
+     "239873007"
+    ],
+    "N_p": "359817006",
+    "N_t": [
+     "263102004",
+     "58150001",
+     "370247008",
+     "713458007",
+     "156073000",
+     "423315002",
+     "132281000119108"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "procedures.code",
+    "label": "intake mark 85",
+    "C": "snomed_118864003",
+    "name": "Procedure on uterus",
+    "A": "11466000",
+    "P_M": [
+     "46706006",
+     "65200003",
+     "274804006"
+    ],
+    "N_p": "445912000",
+    "N_t": [
+     "236931002",
+     "433112001",
+     "392021009",
+     "31676001",
+     "169673001",
+     "275833003",
+     "398171003"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "medications.ingredient",
+    "label": "ledger mark A-57",
+    "C": "who_eml_2023_s8_2_1_cytotoxic",
+    "name": "Cytotoxic medicines",
+    "A": "Doxorubicin",
+    "P_M": [
+     "Leucovorin",
+     "Docetaxel",
+     "Oxaliplatin"
+    ],
+    "N_p": "Tamoxifen",
+    "N_t": [
+     "Enoxaparin",
+     "Hydrocortisone",
+     "Propofol",
+     "Fentanyl",
+     "Acetaminophen",
+     "Fulvestrant",
+     "Tramadol"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "conditions.code",
+    "label": "batch lane Z3",
+    "C": "snomed_363180009",
+    "name": "Inflammatory disorder of the respiratory tract",
+    "A": "195662009",
+    "P_M": [
+     "185086009",
+     "233604007",
+     "10509002"
+    ],
+    "N_p": "67782005",
+    "N_t": [
+     "36955009",
+     "68235000",
+     "840539006",
+     "203082005",
+     "33737001",
+     "68962001",
+     "267060006"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "procedures.code",
+    "label": "desk slot 74",
+    "C": "snomed_86273004",
+    "name": "Biopsy",
+    "A": "122548005",
+    "P_M": [
+     "76164006",
+     "65575008",
+     "432231006"
+    ],
+    "N_p": "418891003",
+    "N_t": [
+     "71651007",
+     "88039007",
+     "90226004",
+     "395142003",
+     "443497002",
+     "165829005",
+     "408919008"
+    ]
+   }
+  ]
+ },
+ "TR1": {
+  "dataset": "TR",
+  "fields": [
+   "segments.airline",
+   "segments.arrival_airport",
+   "claims.currency"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "segments.airline",
+    "label": "review queue B8",
+    "C": "star_alliance_founding",
+    "name": "Founding member airlines of Star Alliance",
+    "A": "Lufthansa",
+    "P_M": [
+     "Thai Airways",
+     "Scandinavian Airlines",
+     "United Airlines"
+    ],
+    "N_p": "ITA Airways",
+    "N_t": [
+     "Air Caraïbes",
+     "Norse Atlantic UK",
+     "Joy Air",
+     "Skyward Airlines",
+     "MyTravelLite Airlines",
+     "Air Tahiti Nui",
+     "Blue Dart Aviation"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "segments.arrival_airport",
+    "label": "routing bucket 18",
+    "C": "opec_airports",
+    "name": "Airports in OPEC member states",
+    "A": "TMR",
+    "P_M": [
+     "PMV",
+     "CUP",
+     "GDO"
+    ],
+    "N_p": "SAL",
+    "N_t": [
+     "UAR",
+     "FIG",
+     "SEY",
+     "BUA",
+     "GRD",
+     "GIL",
+     "PAZ"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "claims.currency",
+    "label": "queue tag X-63",
+    "C": "brics_currencies",
+    "name": "Currencies of BRICS member states",
+    "A": "ZAR",
+    "P_M": [
+     "IRR",
+     "AED",
+     "BRL"
+    ],
+    "N_p": "MXN",
+    "N_t": [
+     "NAD",
+     "GBP",
+     "SOS",
+     "PLN",
+     "FJD",
+     "MOP",
+     "UYU"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "segments.airline",
+    "label": "settlement lane H9",
+    "C": "nato_airlines",
+    "name": "Airlines of NATO member states",
+    "A": "Air Canada",
+    "P_M": [
+     "Fly Lili",
+     "ETF Airways",
+     "Air Albania"
+    ],
+    "N_p": "LATAM Airlines",
+    "N_t": [
+     "Jetstar Airways",
+     "Akasa Air",
+     "Singapore Airlines",
+     "KLM Asia",
+     "Interair South Africa",
+     "Pakistan International Airlines",
+     "Maldivian"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "segments.arrival_airport",
+    "label": "desk label 11",
+    "C": "schengen_airports",
+    "name": "Airports in the Schengen Area",
+    "A": "SOB",
+    "P_M": [
+     "LUG",
+     "ZHI",
+     "ZRH"
+    ],
+    "N_p": "MDS",
+    "N_t": [
+     "SXL",
+     "IIA",
+     "VLY",
+     "WBU",
+     "DAU",
+     "KMZ",
+     "KNZ"
+    ]
+   }
+  ]
+ },
+ "TR2": {
+  "dataset": "TR",
+  "fields": [
+   "segments.airline",
+   "segments.arrival_airport",
+   "claims.currency"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "segments.airline",
+    "label": "desk label P5",
+    "C": "oneworld_members",
+    "name": "Oneworld member airlines",
+    "A": "British Airways",
+    "P_M": [
+     "Oman Air",
+     "Royal Jordanian",
+     "Royal Air Maroc"
+    ],
+    "N_p": "Cabo Verde Airlines",
+    "N_t": [
+     "Pacific Coastal Airlines",
+     "Safair",
+     "Sky Gates Airlines",
+     "Phoebus Apollo Aviation",
+     "Vueling",
+     "Phoenix Air",
+     "InterCaribbean Airways"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "segments.arrival_airport",
+    "label": "ledger code 35",
+    "C": "eea_airports",
+    "name": "Airports in the European Economic Area",
+    "A": "PEV",
+    "P_M": [
+     "SRP",
+     "TCE",
+     "SXL"
+    ],
+    "N_p": "GVA",
+    "N_t": [
+     "ZRH",
+     "ZBK",
+     "SKD",
+     "NLF",
+     "KOZ",
+     "ZAJ",
+     "CHL"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "claims.currency",
+    "label": "queue tag A-59",
+    "C": "commonwealth_currencies",
+    "name": "Currencies of Commonwealth of Nations member states",
+    "A": "XAF",
+    "P_M": [
+     "SBD",
+     "LKR",
+     "GYD"
+    ],
+    "N_p": "CRC",
+    "N_t": [
+     "VES",
+     "JPY",
+     "SOS",
+     "GTQ",
+     "BMD",
+     "SRD",
+     "SDG"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "segments.airline",
+    "label": "review queue G7",
+    "C": "oneworld_founding",
+    "name": "Founding member airlines of Oneworld",
+    "A": "Qantas Airways",
+    "P_M": [
+     "Japan Airlines",
+     "Cathay Pacific",
+     "American Airlines"
+    ],
+    "N_p": "Alaska Airlines",
+    "N_t": [
+     "Auric Air",
+     "HeavyLift Cargo Airlines",
+     "Wizz Air UK",
+     "Virgin Australia Regional Airlines",
+     "Smartwings Hungary",
+     "Sunday Airlines",
+     "DHL Aero Expreso"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "segments.arrival_airport",
+    "label": "audit tag 52",
+    "C": "arab_league_airports",
+    "name": "Airports in Arab League member states",
+    "A": "CZL",
+    "P_M": [
+     "LTK",
+     "SCT",
+     "AOM"
+    ],
+    "N_p": "GAX",
+    "N_t": [
+     "VLN",
+     "BXE",
+     "PSI",
+     "NNX",
+     "PGK",
+     "SWY",
+     "SRL"
+    ]
+   }
+  ]
+ },
+ "UN1": {
+  "dataset": "UN",
+  "fields": [
+   "applicants.nationality",
+   "references.country",
+   "applications.sponsor_company"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "applicants.nationality",
+    "label": "review docket W8",
+    "C": "nato",
+    "name": "NATO member states",
+    "A": "FR",
+    "P_M": [
+     "ME",
+     "US",
+     "AL"
+    ],
+    "N_p": "CH",
+    "N_t": [
+     "ID",
+     "JP",
+     "IL",
+     "TC",
+     "SV",
+     "MH",
+     "OM"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "references.country",
+    "label": "settlement note 59",
+    "C": "asean",
+    "name": "ASEAN member states",
+    "A": "MY",
+    "P_M": [
+     "MM",
+     "LA",
+     "PH"
+    ],
+    "N_p": "CK",
+    "N_t": [
+     "BB",
+     "LB",
+     "PE",
+     "SS",
+     "EG",
+     "GE",
+     "TW"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "applications.sponsor_company",
+    "label": "award record V-50",
+    "C": "nasdaq_100",
+    "name": "Nasdaq-100 constituents",
+    "A": "Apple Inc.",
+    "P_M": [
+     "Ferrovial",
+     "Constellation Energy",
+     "Paychex"
+    ],
+    "N_p": "Truist Financial",
+    "N_t": [
+     "Chevron Corporation",
+     "Sherwin-Williams",
+     "ExxonMobil",
+     "Warehouses De Pauw",
+     "Acciona",
+     "United Parcel Service",
+     "3M"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "applicants.nationality",
+    "label": "audit pass T6",
+    "C": "g20",
+    "name": "G20 members",
+    "A": "CA",
+    "P_M": [
+     "BR",
+     "SA",
+     "AR"
+    ],
+    "N_p": "TD",
+    "N_t": [
+     "IS",
+     "GH",
+     "CZ",
+     "IM",
+     "CX",
+     "MQ",
+     "HR"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "references.country",
+    "label": "review docket 93",
+    "C": "oic",
+    "name": "Organisation of Islamic Cooperation member states",
+    "A": "TR",
+    "P_M": [
+     "ML",
+     "GY",
+     "TJ"
+    ],
+    "N_p": "MX",
+    "N_t": [
+     "IT",
+     "GB",
+     "SE",
+     "LV",
+     "AX",
+     "KR",
+     "VN"
+    ]
+   }
+  ]
+ },
+ "UN2": {
+  "dataset": "UN",
+  "fields": [
+   "applicants.nationality",
+   "applications.sponsor_company",
+   "applications.university"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "applicants.nationality",
+    "label": "review docket W8",
+    "C": "oecd",
+    "name": "OECD member countries",
+    "A": "CA",
+    "P_M": [
+     "AT",
+     "IL",
+     "CL"
+    ],
+    "N_p": "CM",
+    "N_t": [
+     "RO",
+     "SL",
+     "ID",
+     "NE",
+     "PN",
+     "NC",
+     "NI"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "applications.sponsor_company",
+    "label": "settlement note 59",
+    "C": "nasdaq_100",
+    "name": "Nasdaq-100 constituents",
+    "A": "Apple Inc.",
+    "P_M": [
+     "Ferrovial",
+     "Constellation Energy",
+     "Paychex"
+    ],
+    "N_p": "Truist Financial",
+    "N_t": [
+     "Chevron Corporation",
+     "Sherwin-Williams",
+     "ExxonMobil",
+     "Warehouses De Pauw",
+     "Acciona",
+     "United Parcel Service",
+     "3M"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "applications.university",
+    "label": "award record V-50",
+    "C": "aun",
+    "name": "ASEAN University Network core members",
+    "A": "National University of Singapore",
+    "P_M": [
+     "Chiang Mai University",
+     "Universiti Sains Malaysia",
+     "University of Malta"
+    ],
+    "N_p": "Central Institute of Agricultural Engineering",
+    "N_t": [
+     "McMaster University",
+     "Australian National University",
+     "University of Copenhagen",
+     "Harbin Normal University",
+     "Turkish-German University",
+     "Free University of Brussels",
+     "Texas Christian University"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "applicants.nationality",
+    "label": "audit pass T6",
+    "C": "g20",
+    "name": "G20 members",
+    "A": "FR",
+    "P_M": [
+     "BR",
+     "CN",
+     "ZA"
+    ],
+    "N_p": "TD",
+    "N_t": [
+     "IS",
+     "CH",
+     "VN",
+     "IM",
+     "CX",
+     "MQ",
+     "HR"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "applications.sponsor_company",
+    "label": "review docket 93",
+    "C": "g_sib",
+    "name": "2025 Financial Stability Board global systemically important banks",
+    "A": "BNP Paribas",
+    "P_M": [
+     "Morgan Stanley",
+     "HSBC",
+     "Citigroup"
+    ],
+    "N_p": "Eni",
+    "N_t": [
+     "Argenx",
+     "FCC",
+     "Prysmian",
+     "UDR, Inc.",
+     "Schibsted",
+     "LyondellBasell",
+     "Aroundtown"
+    ]
+   }
+  ]
+ },
+ "WS1": {
+  "dataset": "WS",
+  "fields": [
+   "findings.cwe",
+   "findings.language",
+   "hosts.tld"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "findings.cwe",
+    "label": "client folio E7",
+    "C": "cwe1400_encryption",
+    "name": "CWE-1400 Comprehensive Categorization for Software Assurance Trends category: Comprehensive Categorization: Encryption (CWE-1402)",
+    "A": "CWE-312",
+    "P_M": [
+     "CWE-1428",
+     "CWE-1240",
+     "CWE-916"
+    ],
+    "N_p": "CWE-308",
+    "N_t": [
+     "CWE-321",
+     "CWE-375",
+     "CWE-530",
+     "CWE-1025",
+     "CWE-48",
+     "CWE-550",
+     "CWE-1256"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "findings.language",
+    "label": "review line 97",
+    "C": "italic_languages",
+    "name": "Italic languages",
+    "A": "fr",
+    "P_M": [
+     "an",
+     "sc",
+     "co"
+    ],
+    "N_p": "de",
+    "N_t": [
+     "sl",
+     "ja",
+     "rw",
+     "ne",
+     "ee",
+     "xh",
+     "lv"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "hosts.tld",
+    "label": "reporting band R-34",
+    "C": "asean_cctlds",
+    "name": "ASEAN member states",
+    "A": "id",
+    "P_M": [
+     "tl",
+     "kh",
+     "la"
+    ],
+    "N_p": "kiwi",
+    "N_t": [
+     "cn",
+     "in",
+     "ru",
+     "asda",
+     "theatre",
+     "bayern",
+     "locus"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "findings.cwe",
+    "label": "audit lane Y7",
+    "C": "cwe699_numeric",
+    "name": "CWE-699 Software Development category: Numeric Errors",
+    "A": "CWE-681",
+    "P_M": [
+     "CWE-1335",
+     "CWE-839",
+     "CWE-1339"
+    ],
+    "N_p": "CWE-1245",
+    "N_t": [
+     "CWE-455",
+     "CWE-118",
+     "CWE-1083",
+     "CWE-131",
+     "CWE-609",
+     "CWE-1101",
+     "CWE-925"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "findings.language",
+    "label": "client folio 47",
+    "C": "south_africa_official",
+    "name": "Official languages of South Africa",
+    "A": "en",
+    "P_M": [
+     "zu",
+     "ts",
+     "ss"
+    ],
+    "N_p": "os",
+    "N_t": [
+     "hi",
+     "no",
+     "lb",
+     "ta",
+     "hr",
+     "kg",
+     "si"
+    ]
+   }
+  ]
+ },
+ "WS2": {
+  "dataset": "WS",
+  "fields": [
+   "findings.cwe",
+   "findings.language",
+   "hosts.tld"
+  ],
+  "answer_format": "json",
+  "slots": [
+   {
+    "level": 1,
+    "field": "findings.cwe",
+    "label": "client folio G3",
+    "C": "sfp_entry_points",
+    "name": "SFP Primary Cluster: Entry Points",
+    "A": "CWE-766",
+    "P_M": [
+     "CWE-500",
+     "CWE-531",
+     "CWE-583"
+    ],
+    "N_p": "CWE-260",
+    "N_t": [
+     "CWE-304",
+     "CWE-1244",
+     "CWE-573",
+     "CWE-547",
+     "CWE-1327",
+     "CWE-617",
+     "CWE-49"
+    ]
+   },
+   {
+    "level": 2,
+    "field": "findings.language",
+    "label": "audit lane 39",
+    "C": "eu_official_languages",
+    "name": "Official languages of the European Union",
+    "A": "en",
+    "P_M": [
+     "ga",
+     "mt",
+     "sk"
+    ],
+    "N_p": "bo",
+    "N_t": [
+     "ne",
+     "nb",
+     "lb",
+     "rw",
+     "ba",
+     "kv",
+     "fj"
+    ]
+   },
+   {
+    "level": 3,
+    "field": "hosts.tld",
+    "label": "reporting band V-65",
+    "C": "opec_cctlds",
+    "name": "OPEC member countries",
+    "A": "ng",
+    "P_M": [
+     "ve",
+     "kw",
+     "cg"
+    ],
+    "N_p": "td",
+    "N_t": [
+     "bb",
+     "tz",
+     "cv",
+     "build",
+     "godaddy",
+     "creditunion",
+     "mu"
+    ]
+   },
+   {
+    "level": 4,
+    "field": "findings.cwe",
+    "label": "review line X3",
+    "C": "owasp2025_a09",
+    "name": "OWASP Top Ten 2025 Category A09:2025 - Logging & Alerting Failures",
+    "A": "CWE-117",
+    "P_M": [
+     "CWE-221",
+     "CWE-778",
+     "CWE-223"
+    ],
+    "N_p": "CWE-224",
+    "N_t": [
+     "CWE-244",
+     "CWE-779",
+     "CWE-149",
+     "CWE-368",
+     "CWE-238",
+     "CWE-925",
+     "CWE-1257"
+    ]
+   },
+   {
+    "level": 5,
+    "field": "findings.language",
+    "label": "client folio 66",
+    "C": "balto_slavic_languages",
+    "name": "Balto-Slavic languages",
+    "A": "ru",
+    "P_M": [
+     "lv",
+     "sl",
+     "lt"
+    ],
+    "N_p": "de",
+    "N_t": [
+     "es",
+     "zh",
+     "fr",
+     "fo",
+     "ie",
+     "nv",
+     "an"
+    ]
+   }
+  ]
+ }
+}

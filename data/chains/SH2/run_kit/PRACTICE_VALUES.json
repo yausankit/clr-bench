@@ -1,0 +1,68 @@
+{
+ "inspections.port": {
+  "AUADL": {
+   "example": "CNNJI",
+   "label": "follow-up docket A-14",
+   "level": 3,
+   "member": false
+  },
+  "INMAA": {
+   "example": "CNNJI",
+   "label": "follow-up docket A-14",
+   "level": 3,
+   "member": true
+  }
+ },
+ "ships.flag_state": {
+  "LI": {
+   "example": "DE",
+   "label": "review ledger M7",
+   "level": 4,
+   "member": true
+  },
+  "ME": {
+   "example": "DE",
+   "label": "review ledger M7",
+   "level": 4,
+   "member": false
+  },
+  "NG": {
+   "example": "TN",
+   "label": "review ledger J8",
+   "level": 1,
+   "member": false
+  },
+  "SD": {
+   "example": "TN",
+   "label": "review ledger J8",
+   "level": 1,
+   "member": true
+  }
+ },
+ "ships.owner_country": {
+  "BY": {
+   "example": "IT",
+   "label": "review ledger 34",
+   "level": 5,
+   "member": false
+  },
+  "HK": {
+   "example": "US",
+   "label": "monitoring schedule 41",
+   "level": 2,
+   "member": true
+  },
+  "MU": {
+   "example": "US",
+   "label": "monitoring schedule 41",
+   "level": 2,
+   "member": false
+  },
+  "SM": {
+   "example": "IT",
+   "label": "review ledger 34",
+   "level": 5,
+   "member": true
+  }
+ }
+}

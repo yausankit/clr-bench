@@ -1,0 +1,44 @@
+A: Real Madrid
+C: g14_members
+C_name: G-14 member clubs
+N_p: Manchester City
+N_t:
+- Steaua București
+- Monaco
+- Fluminense
+- Pachuca
+- Mamelodi Sundowns
+- Wydad
+- Urawa Red Diamonds
+P_M:
+- PSV Eindhoven
+- Borussia Dortmund
+- Porto
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - club_world_cup_2025_participants
+    - ucl_2024_25_league_phase
+    - ucl_winners
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- club_world_cup_2025_participants
+- club_world_cup_winners
+- laliga_1929
+- super_league_founders
+- ucl_2024_25_league_phase
+- ucl_winners
+- uel_winners
+field: activations.club
+label: audit lane X5
+salience: 16098.0
+universe: club

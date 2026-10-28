@@ -1,0 +1,448 @@
+business_process: A research foundation reviews travel reimbursement requests for
+  scholars attending international conferences.
+fields:
+  applicants.nationality:
+    universe: country
+    value_form: code
+  trips.airline:
+    universe: airline
+    value_form: self_describing
+  applicants.university:
+    universe: university
+    value_form: self_describing
+rule_templates:
+- id: nationality_eu_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a European Union member
+    state is routed for review.
+  plausible:
+  - eu_members
+  - schengen_members
+- id: nationality_nato_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a NATO member country
+    is routed for review.
+  plausible:
+  - nato_members
+  - oecd_members
+- id: nationality_commonwealth_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a Commonwealth member
+    state is routed for review.
+  plausible:
+  - commonwealth_members
+  - african_union_members
+- id: nationality_arab_league_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of an Arab League member
+    state is routed for review.
+  plausible:
+  - arab_league_members
+  - opec_members
+- id: nationality_asean_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of an ASEAN member state
+    is routed for review.
+  plausible:
+  - asean_members
+  - council_of_europe_members
+- id: nationality_schengen_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a Schengen Area member
+    country is routed for review.
+  plausible:
+  - schengen_members
+  - eu_members
+- id: nationality_g7_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a Group of Seven member
+    country is routed for review.
+  plausible:
+  - g7_members
+  - oecd_members
+- id: airline_star_alliance_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by a Star Alliance member airline is routed
+    for review.
+  plausible:
+  - star_alliance_members
+  - iata_members
+- id: airline_skyteam_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by a SkyTeam member airline is routed for review.
+  plausible:
+  - skyteam_members
+  - airlines_for_europe
+- id: airline_oneworld_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by a oneworld member airline is routed for review.
+  plausible:
+  - oneworld_members
+  - aaco_members
+- id: airline_afraa_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an African Airlines Association member airline
+    is routed for review.
+  plausible:
+  - afraa_members
+  - alta_full_members
+- id: airline_airlines_for_europe
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an Airlines for Europe member airline is
+    routed for review.
+  plausible:
+  - airlines_for_europe
+  - lufthansa_group_airlines
+- id: airline_iata_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an IATA member airline is routed for review.
+  plausible:
+  - iata_members
+  - iag_airlines
+- id: airline_a4a_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an Airlines for America member airline is
+    routed for review.
+  plausible:
+  - a4a_members
+  - star_alliance_members
+- id: airline_alta_full_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by a full member airline of ALTA is routed for
+    review.
+  plausible:
+  - alta_full_members
+  - oneworld_members
+- id: airline_aaco_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an Arab Air Carriers Organization member
+    airline is routed for review.
+  plausible:
+  - aaco_members
+  - skyteam_members
+- id: airline_lufthansa_group_airlines
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an airline operated by Lufthansa Group is
+    routed for review.
+  plausible:
+  - lufthansa_group_airlines
+  - star_alliance_members
+- id: airline_iag_airlines
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an airline operated by International Airlines
+    Group is routed for review.
+  plausible:
+  - iag_airlines
+  - oneworld_members
+- id: university_ivy_league
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an Ivy League university is routed
+    for review.
+  plausible:
+  - ivy_league
+  - aau_members
+- id: university_group_of_eight
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an Australian Group of Eight
+    university is routed for review.
+  plausible:
+  - group_of_eight
+  - apru_members
+- id: university_c9_universities
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a C9 League university is routed
+    for review.
+  plausible:
+  - c9_universities
+  - aun_members
+- id: university_leru_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a League of European Research
+    Universities member institution is routed for review.
+  plausible:
+  - leru_members
+  - eua_members
+- id: university_apru_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an Association of Pacific Rim
+    Universities member institution is routed for review.
+  plausible:
+  - apru_members
+  - aun_members
+- id: university_aun_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an ASEAN University Network member
+    institution is routed for review.
+  plausible:
+  - aun_members
+  - n8_members
+- id: university_n8_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an N8 Research Partnership university
+    is routed for review.
+  plausible:
+  - n8_members
+  - acu_members
+- id: university_iaru_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an International Alliance of
+    Research Universities member institution is routed for review.
+  plausible:
+  - iaru_members
+  - wun_members
+- id: university_coimbra_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a Coimbra Group university is
+    routed for review.
+  plausible:
+  - coimbra_members
+  - eua_members
+- id: university_aau_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an Association of American Universities
+    member institution is routed for review.
+  plausible:
+  - aau_members
+  - ivy_league
+- id: university_acu_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at an Association of Commonwealth
+    Universities member institution is routed for review.
+  plausible:
+  - acu_members
+  - wun_members
+- id: university_u21_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a Universitas 21 member institution
+    is routed for review.
+  plausible:
+  - u21_members
+  - wun_members
+- id: university_wun_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a Worldwide Universities Network
+    member institution is routed for review.
+  plausible:
+  - wun_members
+  - eua_members
+- id: university_eua_members
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a European University Association
+    member institution is routed for review.
+  plausible:
+  - eua_members
+  - leru_members
+- id: university_russell_group
+  field: applicants.university
+  effect: exclude_record
+  source: 'Supplement: the foundation verifies travel claims from scholars at selected
+    research institutions.'
+  rule: An itinerary linked to a scholar enrolled at a Russell Group university is
+    routed for review.
+  plausible:
+  - russell_group
+  - leru_members
+- id: airline_star_alliance_founders
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an airline that founded Star Alliance is
+    routed for review.
+  plausible:
+  - star_alliance_founders
+  - star_alliance_members
+- id: airline_a380_operators
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an airline that received an Airbus A380 delivery
+    is routed for review.
+  plausible:
+  - a380_operators
+  - star_alliance_members
+- id: airline_aapa_members
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an Association of Asia Pacific Airlines member
+    airline is routed for review.
+  plausible:
+  - aapa_members
+  - star_alliance_members
+  - iata_members
+- id: airline_air_france_klm_airlines
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by an airline subsidiary of Air France–KLM Group
+    is routed for review.
+  plausible:
+  - air_france_klm_airlines
+  - skyteam_members
+- id: airline_qantas_group_airlines
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements handled by selected interline
+    carriers and airline associations.'
+  rule: An itinerary segment operated by a Qantas Group airline is routed for review.
+  plausible:
+  - qantas_group_airlines
+  - oneworld_members
+- id: nationality_g20_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a G20 member country
+    is routed for review.
+  plausible:
+  - g20_members
+  - oecd_members
+- id: nationality_gcc_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a Gulf Cooperation
+    Council member state is routed for review.
+  plausible:
+  - gcc_members
+  - arab_league_members
+- id: nationality_pif_members
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: the foundation applies a documentation review to reimbursement
+    cases with applicants from selected member jurisdictions.'
+  rule: An itinerary linked to an applicant who is a citizen of a Pacific Islands
+    Forum member country is routed for review.
+  plausible:
+  - pif_members
+  - commonwealth_members
+- id: airline_b787_operators
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursements involving carriers recorded
+    as having completed the aircraft delivery.'
+  rule: An itinerary segment operated by an airline that has received Boeing 787 deliveries
+    is routed for review.
+  plausible:
+  - b787_operators
+  - star_alliance_members
+- id: airline_skytrax_five_star
+  field: trips.airline
+  effect: exclude_record
+  source: 'Supplement: the foundation reviews reimbursement claims by carriers holding
+    a published top cabin-quality rating.'
+  rule: An itinerary segment operated by a Skytrax five-star rated airline is routed
+    for review.
+  plausible:
+  - skytrax_five_star
+  - star_alliance_members
+label_nouns:
+- expense label
+- audit marker
+- travel note
+- review notation
+- ledger annotation
+- routing code
+- case tag

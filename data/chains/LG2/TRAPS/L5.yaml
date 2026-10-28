@@ -1,0 +1,41 @@
+A: WinSCP.exe
+C: ftp_clients
+C_name: FTP clients
+N_p: putty.exe
+N_t:
+- vncviewer.exe
+- Termius.exe
+- Dropbox.exe
+- Acrobat.exe
+- SogouCloud.exe
+- YodaoDict.exe
+- SogouPinyin.exe
+P_M:
+- MobaXterm.exe
+- Xshell.exe
+- SecureCRT.exe
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - developer_admin_tools
+    - ninite_catalog
+    - remote_access_tools
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- developer_admin_tools
+- ninite_catalog
+- portableapps_directory
+- remote_access_tools
+field: proxy_connections.client_app
+label: gateway lane 93
+salience: 1387.0
+universe: client_app

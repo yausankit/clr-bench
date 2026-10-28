@@ -1,0 +1,144 @@
+{
+ "model": "gpt-6-luna",
+ "reasoning": "high",
+ "versions": {
+  "v0": {
+   "L1": {
+    "score": 0.8,
+    "cells": {
+     "clean_1": true,
+     "single_1_1": false
+    }
+   },
+   "L2": {
+    "score": 0.6,
+    "cells": {
+     "clean_2": true,
+     "single_2_1": false,
+     "single_2_2": false
+    }
+   },
+   "L3": {
+    "score": 0.4,
+    "cells": {
+     "clean_3": true,
+     "single_3_1": false,
+     "single_3_2": false,
+     "single_3_3": false
+    }
+   },
+   "L4": {
+    "score": 0.2,
+    "cells": {
+     "clean_4": true,
+     "single_4_1": false,
+     "single_4_2": false,
+     "single_4_3": false,
+     "single_4_4": false
+    }
+   },
+   "L5": {
+    "score": 0.2,
+    "cells": {
+     "single_5_1": false,
+     "single_5_2": false,
+     "single_5_3": true,
+     "single_5_4": false,
+     "single_5_5": false
+    }
+   }
+  },
+  "v1": {
+   "L1": {
+    "score": 0.8,
+    "cells": {
+     "clean_1": true,
+     "single_1_1": false
+    }
+   },
+   "L2": {
+    "score": 0.6,
+    "cells": {
+     "clean_2": true,
+     "single_2_1": false,
+     "single_2_2": false
+    }
+   },
+   "L3": {
+    "score": 0.4,
+    "cells": {
+     "clean_3": true,
+     "single_3_1": false,
+     "single_3_2": false,
+     "single_3_3": false
+    }
+   },
+   "L4": {
+    "score": 0.2,
+    "cells": {
+     "clean_4": true,
+     "single_4_1": false,
+     "single_4_2": false,
+     "single_4_3": false,
+     "single_4_4": false
+    }
+   },
+   "L5": {
+    "score": 0.0,
+    "cells": {
+     "single_5_1": false,
+     "single_5_2": false,
+     "single_5_3": false,
+     "single_5_4": false,
+     "single_5_5": false
+    }
+   }
+  },
+  "v2": {
+   "L1": {
+    "score": 0.8,
+    "cells": {
+     "clean_1": true,
+     "single_1_1": false
+    }
+   },
+   "L2": {
+    "score": 0.6,
+    "cells": {
+     "clean_2": true,
+     "single_2_1": false,
+     "single_2_2": false
+    }
+   },
+   "L3": {
+    "score": 0.4,
+    "cells": {
+     "clean_3": true,
+     "single_3_1": false,
+     "single_3_2": false,
+     "single_3_3": false
+    }
+   },
+   "L4": {
+    "score": 0.2,
+    "cells": {
+     "clean_4": true,
+     "single_4_1": false,
+     "single_4_2": false,
+     "single_4_3": false,
+     "single_4_4": false
+    }
+   },
+   "L5": {
+    "score": 0.2,
+    "cells": {
+     "single_5_1": false,
+     "single_5_2": false,
+     "single_5_3": true,
+     "single_5_4": false,
+     "single_5_5": false
+    }
+   }
+  }
+ }
+}

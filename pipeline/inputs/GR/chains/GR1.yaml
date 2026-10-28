@@ -1,0 +1,63 @@
+id: GR1
+dataset: GR
+seed: 20266107
+period:
+  start: 2025
+  end: 2026
+snapshot: 2026-10-16
+fields:
+- field: applicants.nationality
+  universe: country
+  templates:
+  - nationality_eu_members
+  - nationality_nato_members
+  - nationality_commonwealth_members
+  - nationality_arab_league_members
+  - nationality_asean_members
+  - nationality_schengen_members
+  - nationality_g7_members
+  - nationality_g20_members
+  - nationality_gcc_members
+  - nationality_pif_members
+- field: trips.airline
+  universe: airline
+  templates:
+  - airline_star_alliance_members
+  - airline_skyteam_members
+  - airline_oneworld_members
+  - airline_afraa_members
+  - airline_airlines_for_europe
+  - airline_iata_members
+  - airline_a4a_members
+  - airline_alta_full_members
+  - airline_aaco_members
+  - airline_lufthansa_group_airlines
+  - airline_iag_airlines
+  - airline_star_alliance_founders
+  - airline_a380_operators
+  - airline_aapa_members
+  - airline_air_france_klm_airlines
+  - airline_qantas_group_airlines
+  - airline_b787_operators
+  - airline_skytrax_five_star
+- field: applicants.university
+  universe: university
+  templates:
+  - university_ivy_league
+  - university_group_of_eight
+  - university_c9_universities
+  - university_leru_members
+  - university_apru_members
+  - university_aun_members
+  - university_n8_members
+  - university_iaru_members
+  - university_coimbra_members
+  - university_aau_members
+  - university_acu_members
+  - university_u21_members
+  - university_wun_members
+  - university_eua_members
+  - university_russell_group
+slots: 5
+probe:
+  criterion: soft

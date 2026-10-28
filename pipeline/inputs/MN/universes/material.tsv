@@ -1,0 +1,119 @@
+value	entity	attr:category	attr:state
+hydrogen	Hydrogen	nonmetal	gas
+helium	Helium	noble gas	gas
+lithium	Lithium	alkali metal	solid
+beryllium	Beryllium	alkaline earth metal	solid
+boron	Boron	metalloid	solid
+carbon	Carbon	nonmetal	solid
+nitrogen	Nitrogen	nonmetal	gas
+oxygen	Oxygen	nonmetal	gas
+fluorine	Fluorine	halogen	gas
+neon	Neon	noble gas	gas
+sodium	Sodium	alkali metal	solid
+magnesium	Magnesium	alkaline earth metal	solid
+aluminum	Aluminum	post-transition metal	solid
+silicon	Silicon	metalloid	solid
+phosphorus	Phosphorus	nonmetal	solid
+sulfur	Sulfur	nonmetal	solid
+chlorine	Chlorine	halogen	gas
+argon	Argon	noble gas	gas
+potassium	Potassium	alkali metal	solid
+calcium	Calcium	alkaline earth metal	solid
+scandium	Scandium	transition metal	solid
+titanium	Titanium	transition metal	solid
+vanadium	Vanadium	transition metal	solid
+chromium	Chromium	transition metal	solid
+manganese	Manganese	transition metal	solid
+iron	Iron	transition metal	solid
+cobalt	Cobalt	transition metal	solid
+nickel	Nickel	transition metal	solid
+copper	Copper	transition metal	solid
+zinc	Zinc	transition metal	solid
+gallium	Gallium	post-transition metal	solid
+germanium	Germanium	metalloid	solid
+arsenic	Arsenic	metalloid	solid
+selenium	Selenium	nonmetal	solid
+bromine	Bromine	halogen	liquid
+krypton	Krypton	noble gas	gas
+rubidium	Rubidium	alkali metal	solid
+strontium	Strontium	alkaline earth metal	solid
+yttrium	Yttrium	transition metal	solid
+zirconium	Zirconium	transition metal	solid
+niobium	Niobium	transition metal	solid
+molybdenum	Molybdenum	transition metal	solid
+technetium	Technetium	transition metal	solid
+ruthenium	Ruthenium	transition metal	solid
+rhodium	Rhodium	transition metal	solid
+palladium	Palladium	transition metal	solid
+silver	Silver	transition metal	solid
+cadmium	Cadmium	transition metal	solid
+indium	Indium	post-transition metal	solid
+tin	Tin	post-transition metal	solid
+antimony	Antimony	metalloid	solid
+tellurium	Tellurium	metalloid	solid
+iodine	Iodine	halogen	solid
+xenon	Xenon	noble gas	gas
+cesium	Cesium	alkali metal	solid
+barium	Barium	alkaline earth metal	solid
+lanthanum	Lanthanum	lanthanide	solid
+cerium	Cerium	lanthanide	solid
+praseodymium	Praseodymium	lanthanide	solid
+neodymium	Neodymium	lanthanide	solid
+promethium	Promethium	lanthanide	solid
+samarium	Samarium	lanthanide	solid
+europium	Europium	lanthanide	solid
+gadolinium	Gadolinium	lanthanide	solid
+terbium	Terbium	lanthanide	solid
+dysprosium	Dysprosium	lanthanide	solid
+holmium	Holmium	lanthanide	solid
+erbium	Erbium	lanthanide	solid
+thulium	Thulium	lanthanide	solid
+ytterbium	Ytterbium	lanthanide	solid
+lutetium	Lutetium	lanthanide	solid
+hafnium	Hafnium	transition metal	solid
+tantalum	Tantalum	transition metal	solid
+tungsten	Tungsten	transition metal	solid
+rhenium	Rhenium	transition metal	solid
+osmium	Osmium	transition metal	solid
+iridium	Iridium	transition metal	solid
+platinum	Platinum	transition metal	solid
+gold	Gold	transition metal	solid
+mercury	Mercury	transition metal	liquid
+thallium	Thallium	post-transition metal	solid
+lead	Lead	post-transition metal	solid
+bismuth	Bismuth	post-transition metal	solid
+polonium	Polonium	metalloid	solid
+astatine	Astatine	halogen	solid
+radon	Radon	noble gas	gas
+francium	Francium	alkali metal	solid
+radium	Radium	alkaline earth metal	solid
+actinium	Actinium	actinide	solid
+thorium	Thorium	actinide	solid
+protactinium	Protactinium	actinide	solid
+uranium	Uranium	actinide	solid
+neptunium	Neptunium	actinide	solid
+plutonium	Plutonium	actinide	solid
+americium	Americium	actinide	solid
+curium	Curium	actinide	solid
+berkelium	Berkelium	actinide	solid
+californium	Californium	actinide	solid
+einsteinium	Einsteinium	actinide	solid
+fermium	Fermium	actinide	solid
+mendelevium	Mendelevium	actinide	solid
+nobelium	Nobelium	actinide	solid
+lawrencium	Lawrencium	actinide	solid
+rutherfordium	Rutherfordium	transition metal	solid
+dubnium	Dubnium	transition metal	solid
+seaborgium	Seaborgium	transition metal	solid
+bohrium	Bohrium	transition metal	solid
+hassium	Hassium	transition metal	solid
+meitnerium	Meitnerium	transition metal	solid
+darmstadtium	Darmstadtium	transition metal	solid
+roentgenium	Roentgenium	transition metal	solid
+copernicium	Copernicium	transition metal	solid
+nihonium	Nihonium	post-transition metal	solid
+flerovium	Flerovium	post-transition metal	solid
+moscovium	Moscovium	post-transition metal	solid
+livermorium	Livermorium	post-transition metal	solid
+tennessine	Tennessine	halogen	solid
+oganesson	Oganesson	noble gas	gas

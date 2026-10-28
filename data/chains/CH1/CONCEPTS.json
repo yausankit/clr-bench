@@ -1,0 +1,113 @@
+{
+ "L1": {
+  "C": "stockholm_annex_a",
+  "competitors": [
+   {
+    "id": "iarc_group_2b",
+    "name": "IARC Group 2B chemical agents"
+   },
+   {
+    "id": "rotterdam_annex_iii",
+    "name": "Rotterdam Convention Annex III all chemicals"
+   },
+   {
+    "id": "rotterdam_pesticides",
+    "name": "Rotterdam Convention Annex III pesticides"
+   },
+   {
+    "id": "stockholm_all_pops",
+    "name": "Stockholm Convention all persistent organic pollutants"
+   },
+   {
+    "id": "stockholm_annex_c",
+    "name": "Stockholm Convention Annex C"
+   },
+   {
+    "id": "wfd_hazardous",
+    "name": "Water Framework Directive priority hazardous substances"
+   },
+   {
+    "id": "wfd_priority",
+    "name": "Water Framework Directive priority substances"
+   }
+  ],
+  "name": "Stockholm Convention Annex A",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "commonwealth",
+  "competitors": [
+   {
+    "id": "australia_group",
+    "name": "Australia Group participants"
+   },
+   {
+    "id": "g7",
+    "name": "Group of Seven member countries"
+   },
+   {
+    "id": "mtcr",
+    "name": "Missile Technology Control Regime partners"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member countries"
+   },
+   {
+    "id": "nsg",
+    "name": "Nuclear Suppliers Group participating governments"
+   },
+   {
+    "id": "wassenaar",
+    "name": "Wassenaar Arrangement participating states"
+   }
+  ],
+  "name": "Commonwealth of Nations member states",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "star_alliance",
+  "competitors": [
+   {
+    "id": "a4a",
+    "name": "Airlines for America member airlines"
+   },
+   {
+    "id": "alta_associate",
+    "name": "ALTA associate member airlines"
+   }
+  ],
+  "name": "Star Alliance member airlines",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "opcw_schedule_3",
+  "competitors": [
+   {
+    "id": "iarc_group_2b",
+    "name": "IARC Group 2B chemical agents"
+   },
+   {
+    "id": "opcw_all_schedules",
+    "name": "Chemical Weapons Convention scheduled chemicals (Schedules 1-3)"
+   }
+  ],
+  "name": "Chemical Weapons Convention Schedule 3",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "opec",
+  "competitors": [
+   {
+    "id": "arab_league",
+    "name": "Arab League member states"
+   },
+   {
+    "id": "gcc",
+    "name": "Gulf Cooperation Council member states"
+   }
+  ],
+  "name": "OPEC member countries",
+  "synonyms": []
+ }
+}

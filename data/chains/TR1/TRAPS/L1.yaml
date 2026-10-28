@@ -1,0 +1,47 @@
+A: Lufthansa
+C: star_alliance_founding
+C_name: Founding member airlines of Star Alliance
+N_p: ITA Airways
+N_t:
+- Air Caraïbes
+- Norse Atlantic UK
+- Joy Air
+- Skyward Airlines
+- MyTravelLite Airlines
+- Air Tahiti Nui
+- Blue Dart Aviation
+P_M:
+- Thai Airways
+- Scandinavian Airlines
+- United Airlines
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - eu_airlines
+    - flag_carrier_airlines
+    - g20_airlines
+    - nato_airlines
+    - oecd_airlines
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- a4e_members
+- eu_airlines
+- flag_carrier_airlines
+- g20_airlines
+- lufthansa_group
+- nato_airlines
+- oecd_airlines
+- star_alliance_members
+field: segments.airline
+label: review queue B8
+salience: 633554.0
+universe: airline

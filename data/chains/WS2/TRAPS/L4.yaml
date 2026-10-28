@@ -1,0 +1,46 @@
+A: CWE-117
+C: owasp2025_a09
+C_name: OWASP Top Ten 2025 Category A09:2025 - Logging & Alerting Failures
+N_p: CWE-224
+N_t:
+- CWE-244
+- CWE-779
+- CWE-149
+- CWE-368
+- CWE-238
+- CWE-925
+- CWE-1257
+P_M:
+- CWE-221
+- CWE-778
+- CWE-223
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - audit
+    - cwe1000_707
+    - cwe1400_improper_neutralization
+    - cwe699_audit_logging
+    - sfp_exposed_data
+    - sfp_information_leak
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- audit
+- cwe1000_707
+- cwe1400_improper_neutralization
+- cwe699_audit_logging
+- sfp_exposed_data
+- sfp_information_leak
+field: findings.cwe
+label: review line X3
+salience: 31.0
+universe: cwe

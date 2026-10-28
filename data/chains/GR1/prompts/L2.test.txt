@@ -1,0 +1,413 @@
+A research foundation reviews travel reimbursement requests for scholars attending international conferences.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+A JSON object containing batches, each with its applicant records and itinerary segment records.
+
+Each eligible itinerary segment contributes one to the total for its funding call.
+Return the sum of the totals of all funding calls in the input, as an int.
+
+Field notes:
+- An applicant whose nationality is 'GB' is in travel note X5.
+- A trip whose airline is 'Lufthansa' is in audit marker 55.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, applicants in travel note X5 are not counted.
+L2: From this level on, trips in audit marker 55 are not counted.
+
+Value reference:
+applicants.nationality:
+- AI — Anguilla; Sovereign state or territory in North America.
+- AO — Angola; Sovereign state or territory in Africa.
+- AT — Austria; Sovereign state or territory in Europe.
+- BD — Bangladesh; Sovereign state or territory in Asia.
+- BG — Bulgaria; Sovereign state or territory in Europe.
+- BQ — Bonaire, Sint Eustatius and Saba; Sovereign state or territory in North America.
+- CC — Cocos (Keeling) Islands; Sovereign state or territory in Oceania.
+- CD — Congo, The Democratic Republic of the; Sovereign state or territory in Africa.
+- CG — Congo; Sovereign state or territory in Africa.
+- CH — Switzerland; Sovereign state or territory in Europe.
+- CO — Colombia; Sovereign state or territory in South America.
+- DE — Germany; Sovereign state or territory in Europe.
+- FI — Finland; Sovereign state or territory in Europe.
+- FK — Falkland Islands (Malvinas); Sovereign state or territory in South America.
+- FR — France; Sovereign state or territory in Europe.
+- GB — United Kingdom; Sovereign state or territory in Europe.
+- GM — Gambia; Sovereign state or territory in Africa.
+- GS — South Georgia and the South Sandwich Islands; Sovereign state or territory in South America.
+- IL — Israel; Sovereign state or territory in Asia.
+- IT — Italy; Sovereign state or territory in Europe.
+- JP — Japan; Sovereign state or territory in Asia.
+- ME — Montenegro; Sovereign state or territory in Europe.
+- MH — Marshall Islands; Sovereign state or territory in Oceania.
+- MK — North Macedonia; Sovereign state or territory in Europe.
+- MT — Malta; Sovereign state or territory in Europe.
+- MX — Mexico; Sovereign state or territory in North America.
+- NA — Namibia; Sovereign state or territory in Africa.
+- PN — Pitcairn; Sovereign state or territory in Insular Oceania.
+- PS — Palestine, State of; Sovereign state or territory in Asia.
+- RE — Réunion; Sovereign state or territory in Africa.
+- RW — Rwanda; Sovereign state or territory in Africa.
+- SI — Slovenia; Sovereign state or territory in Europe.
+- TW — Taiwan, Province of China; Sovereign state or territory in Asia.
+- VC — Saint Vincent and the Grenadines; Sovereign state or territory in North America.
+trips.airline:
+- Air Kerala — Proposed airline based in South India.
+- Airnorth — Australian regional airline.
+- Austrian Airlines — Austrian flag carrier airline.
+- Canaryfly — Spanish airline that operates regular flights between the Canary Islands.
+- Cargo Airways International — Former cargo airline in Douala, Cameroon.
+- Cubana — Cuban airline.
+- Edelweiss Air — Swiss leisure airline.
+- Etihad Airways — Flag-carrier airline of the United Arab Emirates.
+- Fiji Airways — National airline of Fiji.
+- Finnair — Flag-carrier and largest airline of Finland.
+- Fly2Sky — Bulgarian charter airline.
+- Gulf Air — Flag carrier of Bahrain.
+- Hebridean Air Services — Small Scottish airline.
+- Klaipedos Avialinijos — Airline in Lithuania.
+- Lufthansa — Flag-carrier and largest airline of Germany.
+- Maritime Air Charter — Canadian charter airline.
+- Nefteyugansk United Airline Transportation Company — Russian airline.
+- NovoAir — Bangladeshi airline.
+- Orenburzhye — Russian airline.
+- PenAir — U.S.-based regional airline.
+- Plus Ultra — Spanish long-haul airline based at Adolfo Suárez Madrid–Barajas Airport.
+- Qatar Airways — State-owned flag-carrier airline of Qatar.
+- Raya Jet — Jordanian airline.
+- STARLUX Airlines — Taiwanese airline based on Taiwan Taoyuan International Airport.
+- Scandinavian Airlines — Flag-carrier airline of Denmark, Norway and Sweden.
+- Servicios Aéreos Profesionales — Dominican airline.
+- Shenzhen Airlines — Airline headquartered in Bao'an, Shenzhen, Guangdong, China and based in Shenzhen Bao'an International Airport.
+- Shree Airlines — Nepalese airline founded in 1999.
+- Sky Airline — Chilean airline.
+- SriLankan Airlines — Airline based in Sri Lanka.
+- Sun Way — Georgian cargo airline.
+- Thai Airways — Flag carrier airline of Thailand.
+- Turukhan Airlines — Russian airline based in Krasnoyarsk.
+- West Air Luxembourg — Airline.
+applicants.university:
+- Comboni College of Science & Technology — Private educational institution in Khartoum, Sudan.
+- FH Aachen — University of Applied Sciences Aachen.
+- Gaziantep University — State university in Gaziantep, Turkey.
+- Istanbul Aydın University — Private university in İstanbul, Turkey.
+- Kaduna Polytechnic — Tertiary institution in Kaduna State, Nigeria.
+- Kharkiv Polytechnic Institute — University in Kharkiv.
+- Open University of the Netherlands — University in the Netherlands.
+- Politeknik Pembangunan Pertanian Gowa — Higher education institution in Gowa, Indonesia.
+- Republic of China Naval Academy — Military academy in Zuoying, Kaohsiung, Taiwan.
+- Residential Women's Polytechnic College, Payyanur — Educational institute in Kerala approved by AICTE.
+- Royal Military Academy, Woolwich — Military academy in Woolwich, in south-east London.
+- Tokat Gaziosmanpaşa University — State university in Tokat, Turkey.
+- Ukrainian Catholic University — Private university in Lviv, Ukraine.
+- University of Bologna — University in Bologna, Italy.
+- University of Bristol — Research university located in Bristol, United Kingdom.
+- University of Copenhagen — Public research university in Copenhagen, Denmark.
+- University of Edinburgh — Public university in Edinburgh, Scotland, United Kingdom.
+- University of Helsinki — Public university in Helsinki, Finland.
+- University of Huelva — University in Spain.
+- University of North Florida — Public university in Jacksonville, Florida.
+- University of Southampton — Research university located in Southampton, United Kingdom.
+- Utrecht University — University in the Netherlands.
+
+Example input:
+{
+ "batches": [
+  {
+   "applicants": [
+    {
+     "id": "FC002-A1",
+     "nationality": "AO",
+     "university": "Republic of China Naval Academy"
+    },
+    {
+     "id": "FC002-A2",
+     "nationality": "AO",
+     "university": "Kaduna Polytechnic"
+    },
+    {
+     "id": "FC002-A3",
+     "nationality": "PN",
+     "university": "University of Huelva"
+    },
+    {
+     "id": "FC002-A4",
+     "nationality": "AI",
+     "university": "Gaziantep University"
+    }
+   ],
+   "id": "FC002",
+   "trips": [
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC002-A1",
+     "id": "FC002-T01",
+     "reimbursement_usd": 1732
+    },
+    {
+     "airline": "Canaryfly",
+     "applicant_id": "FC002-A1",
+     "id": "FC002-T02",
+     "reimbursement_usd": 1521
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC002-A1",
+     "id": "FC002-T03",
+     "reimbursement_usd": 434
+    },
+    {
+     "airline": "Canaryfly",
+     "applicant_id": "FC002-A2",
+     "id": "FC002-T04",
+     "reimbursement_usd": 497
+    },
+    {
+     "airline": "Cargo Airways International",
+     "applicant_id": "FC002-A3",
+     "id": "FC002-T05",
+     "reimbursement_usd": 412
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC002-A3",
+     "id": "FC002-T06",
+     "reimbursement_usd": 961
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC002-A3",
+     "id": "FC002-T07",
+     "reimbursement_usd": 261
+    },
+    {
+     "airline": "Orenburzhye",
+     "applicant_id": "FC002-A4",
+     "id": "FC002-T08",
+     "reimbursement_usd": 1504
+    },
+    {
+     "airline": "Orenburzhye",
+     "applicant_id": "FC002-A4",
+     "id": "FC002-T09",
+     "reimbursement_usd": 1598
+    },
+    {
+     "airline": "Raya Jet",
+     "applicant_id": "FC002-A4",
+     "id": "FC002-T10",
+     "reimbursement_usd": 132
+    },
+    {
+     "airline": "Lufthansa",
+     "applicant_id": "FC002-A4",
+     "id": "FC002-T11",
+     "reimbursement_usd": 575
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC016-A1",
+     "nationality": "BQ",
+     "university": "Istanbul Aydın University"
+    },
+    {
+     "id": "FC016-A2",
+     "nationality": "BQ",
+     "university": "Politeknik Pembangunan Pertanian Gowa"
+    },
+    {
+     "id": "FC016-A3",
+     "nationality": "PN",
+     "university": "University of Southampton"
+    },
+    {
+     "id": "FC016-A4",
+     "nationality": "MH",
+     "university": "Kaduna Polytechnic"
+    }
+   ],
+   "id": "FC016",
+   "trips": [
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC016-A1",
+     "id": "FC016-T01",
+     "reimbursement_usd": 1027
+    },
+    {
+     "airline": "Hebridean Air Services",
+     "applicant_id": "FC016-A1",
+     "id": "FC016-T02",
+     "reimbursement_usd": 1783
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC016-A2",
+     "id": "FC016-T03",
+     "reimbursement_usd": 758
+    },
+    {
+     "airline": "Turukhan Airlines",
+     "applicant_id": "FC016-A2",
+     "id": "FC016-T04",
+     "reimbursement_usd": 1077
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC016-A3",
+     "id": "FC016-T05",
+     "reimbursement_usd": 1663
+    },
+    {
+     "airline": "Orenburzhye",
+     "applicant_id": "FC016-A3",
+     "id": "FC016-T06",
+     "reimbursement_usd": 539
+    },
+    {
+     "airline": "Air Kerala",
+     "applicant_id": "FC016-A4",
+     "id": "FC016-T07",
+     "reimbursement_usd": 1713
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC029-A1",
+     "nationality": "PS",
+     "university": "Republic of China Naval Academy"
+    },
+    {
+     "id": "FC029-A2",
+     "nationality": "AO",
+     "university": "Politeknik Pembangunan Pertanian Gowa"
+    },
+    {
+     "id": "FC029-A3",
+     "nationality": "GB",
+     "university": "Republic of China Naval Academy"
+    },
+    {
+     "id": "FC029-A4",
+     "nationality": "RE",
+     "university": "Republic of China Naval Academy"
+    }
+   ],
+   "id": "FC029",
+   "trips": [
+    {
+     "airline": "Cargo Airways International",
+     "applicant_id": "FC029-A1",
+     "id": "FC029-T01",
+     "reimbursement_usd": 1740
+    },
+    {
+     "airline": "Raya Jet",
+     "applicant_id": "FC029-A2",
+     "id": "FC029-T02",
+     "reimbursement_usd": 1478
+    },
+    {
+     "airline": "Cubana",
+     "applicant_id": "FC029-A2",
+     "id": "FC029-T03",
+     "reimbursement_usd": 780
+    },
+    {
+     "airline": "Cargo Airways International",
+     "applicant_id": "FC029-A2",
+     "id": "FC029-T04",
+     "reimbursement_usd": 1366
+    },
+    {
+     "airline": "Hebridean Air Services",
+     "applicant_id": "FC029-A2",
+     "id": "FC029-T05",
+     "reimbursement_usd": 239
+    },
+    {
+     "airline": "Nefteyugansk United Airline Transportation Company",
+     "applicant_id": "FC029-A3",
+     "id": "FC029-T06",
+     "reimbursement_usd": 839
+    },
+    {
+     "airline": "Canaryfly",
+     "applicant_id": "FC029-A4",
+     "id": "FC029-T07",
+     "reimbursement_usd": 1547
+    },
+    {
+     "airline": "Raya Jet",
+     "applicant_id": "FC029-A4",
+     "id": "FC029-T08",
+     "reimbursement_usd": 1194
+    }
+   ]
+  },
+  {
+   "applicants": [
+    {
+     "id": "FC033-A1",
+     "nationality": "RE",
+     "university": "Gaziantep University"
+    },
+    {
+     "id": "FC033-A2",
+     "nationality": "PN",
+     "university": "University of Southampton"
+    },
+    {
+     "id": "FC033-A3",
+     "nationality": "BQ",
+     "university": "Residential Women's Polytechnic College, Payyanur"
+    },
+    {
+     "id": "FC033-A4",
+     "nationality": "TW",
+     "university": "Istanbul Aydın University"
+    }
+   ],
+   "id": "FC033",
+   "trips": [
+    {
+     "airline": "Air Kerala",
+     "applicant_id": "FC033-A1",
+     "id": "FC033-T01",
+     "reimbursement_usd": 1705
+    },
+    {
+     "airline": "Raya Jet",
+     "applicant_id": "FC033-A2",
+     "id": "FC033-T02",
+     "reimbursement_usd": 428
+    },
+    {
+     "airline": "Turukhan Airlines",
+     "applicant_id": "FC033-A2",
+     "id": "FC033-T03",
+     "reimbursement_usd": 834
+    },
+    {
+     "airline": "Orenburzhye",
+     "applicant_id": "FC033-A3",
+     "id": "FC033-T04",
+     "reimbursement_usd": 1002
+    },
+    {
+     "airline": "Klaipedos Avialinijos",
+     "applicant_id": "FC033-A4",
+     "id": "FC033-T05",
+     "reimbursement_usd": 487
+    }
+   ]
+  }
+ ]
+}

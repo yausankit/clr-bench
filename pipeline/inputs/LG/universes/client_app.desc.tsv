@@ -1,0 +1,132 @@
+value	description	source
+chrome.exe	Web browser developed by Google.	universe
+firefox.exe	Web browser developed by Mozilla.	universe
+msedge.exe	Web browser developed by Microsoft.	universe
+opera.exe	Web browser developed by Opera Software.	universe
+360se.exe	Web browser developed by Qihoo 360.	universe
+360chrome.exe	Web browser developed by Qihoo 360.	universe
+SogouExplorer.exe	Web browser developed by Sogou.	universe
+maxthon.exe	Web browser developed by Maxthon.	universe
+baidubrowser.exe	Web browser developed by Baidu.	universe
+Brave.exe	Web browser developed by Brave Software.	universe
+Vivaldi.exe	Web browser developed by Vivaldi Technologies.	universe
+QQBrowser.exe	Web browser developed by Tencent.	universe
+Dropbox.exe	Cloud file synchronization client developed by Dropbox.	universe
+OneDrive.exe	Cloud file synchronization client developed by Microsoft.	universe
+GoogleDriveFS.exe	Cloud file synchronization client developed by Google.	universe
+BaiduNetdisk.exe	Cloud file synchronization client developed by Baidu.	universe
+Weiyun.exe	Cloud file synchronization client developed by Tencent.	universe
+WeChat.exe	Instant messaging client developed by Tencent.	universe
+QQ.exe	Instant messaging client developed by Tencent.	universe
+QQPlayer.exe	Media player developed by Tencent.	universe
+QQExternal.exe	Companion process for the Tencent QQ messaging client.	universe
+QQProtect.exe	Endpoint security program developed by Tencent.	universe
+QQProtectUpd.exe	Software update client developed by Tencent.	universe
+tencentdl.exe	File download manager developed by Tencent.	universe
+Skype.exe	Instant messaging client developed by Microsoft.	universe
+msnmsgr.exe	Instant messaging client developed by Microsoft.	universe
+telegram.exe	Instant messaging client developed by Telegram.	universe
+WhatsApp.exe	Instant messaging client developed by Meta.	universe
+Line.exe	Instant messaging client developed by LY Corporation.	universe
+DingTalk.exe	Instant messaging client developed by Alibaba.	universe
+Feishu.exe	Instant messaging client developed by ByteDance.	universe
+aliwangwang.exe	Instant messaging client developed by Alibaba.	universe
+YodaoDict.exe	English-Chinese dictionary and translation application from NetEase.	universe
+YoudaoDict.exe	English-Chinese dictionary and translation application from NetEase.	universe
+PowerWord.exe	English-Chinese dictionary application from Kingsoft.	universe
+SogouCloud.exe	Cloud-based Chinese input method from Sogou.	universe
+SGTool.exe	Utility component of the Sogou Chinese input method.	universe
+SohuNews.exe	News reader application from Sohu.	universe
+Wiz.exe	Note-taking and knowledge management application from WizNote.	universe
+GitHub.exe	GitHub Desktop client for Git repositories.	universe
+git-remote-https.exe	Git remote helper for repositories accessed over HTTPS.	universe
+svchost.exe	Windows service host process that runs background system services.	universe
+msfeedssync.exe	Background feed synchronization component of Windows.	universe
+spoolsv.exe	Windows Print Spooler service that manages print jobs.	universe
+GoogleUpdate.exe	Software update client developed by Google.	universe
+Acrobat.exe	Portable document format viewer developed by Adobe.	universe
+AcroRd32.exe	Portable document format viewer developed by Adobe.	universe
+AdobeARM.exe	Software update client developed by Adobe.	universe
+FlashPlayerPlugin_18_0_0_209.exe	Adobe Flash Player browser plugin for multimedia content.	universe
+putty.exe	Secure Shell client for remote terminal access, developed by Simon Tatham.	universe
+MobaXterm.exe	Secure Shell client for remote terminal access, developed by Mobatek.	universe
+WinSCP.exe	File transfer client developed by Martin Prikryl for remote servers.	universe
+FileZilla.exe	File transfer client developed by Tim Kosse for remote servers.	universe
+Xshell.exe	Secure Shell client for remote terminal access, developed by NetSarang.	universe
+SecureCRT.exe	Secure Shell client for remote terminal access, developed by VanDyke Software.	universe
+Termius.exe	Secure Shell client for remote terminal access, developed by Termius.	universe
+TeamViewer_Service.exe	Background service for TeamViewer remote access.	universe
+TeamViewer.exe	Remote desktop client developed by TeamViewer.	universe
+AnyDesk.exe	Remote desktop client developed by AnyDesk.	universe
+RustDesk.exe	Remote desktop client developed by RustDesk.	universe
+mstsc.exe	Remote desktop client developed by Microsoft.	universe
+vncviewer.exe	Remote desktop client developed by RealVNC.	universe
+vlc.exe	Media player developed by VideoLAN.	universe
+PotPlayerMini.exe	Media player developed by Kakao.	universe
+mpc-hc.exe	Media player developed by MPC-HC.	universe
+KMPlayer.exe	Media player developed by Pandora TV.	universe
+iTunes.exe	Media player developed by Apple.	universe
+Spotify.exe	Media player developed by Spotify.	universe
+QQMusic.exe	Media player developed by Tencent.	universe
+FoxitReader.exe	Portable document format viewer developed by Foxit.	universe
+SumatraPDF.exe	Portable document format viewer developed by SumatraPDF.	universe
+PDFXCview.exe	Portable document format viewer developed by Tracker Software.	universe
+WINWORD.EXE	Microsoft Word word-processing application.	universe
+EXCEL.EXE	Microsoft Excel spreadsheet application.	universe
+POWERPNT.EXE	Microsoft PowerPoint presentation application.	universe
+wps.exe	WPS Office productivity suite from Kingsoft.	universe
+et.exe	WPS Spreadsheets spreadsheet application from Kingsoft.	universe
+wpp.exe	WPS Presentation presentation application from Kingsoft.	universe
+soffice.exe	LibreOffice productivity suite from The Document Foundation.	universe
+avastui.exe	Endpoint security program developed by Avast.	universe
+avgui.exe	Endpoint security program developed by AVG.	universe
+McAfee.exe	Endpoint security program developed by McAfee.	universe
+Kaspersky.exe	Endpoint security program developed by Kaspersky.	universe
+360sd.exe	Endpoint security program developed by Qihoo 360.	universe
+360tray.exe	Endpoint security program developed by Qihoo 360.	universe
+360AP.exe	Endpoint security program developed by Qihoo 360.	universe
+MsMpEng.exe	Endpoint security program developed by Microsoft.	universe
+HiSuiteDownLoader.exe	File download manager developed by Huawei.	universe
+SGPicFaceTool.exe	Sogou utility component for picture and face tools.	universe
+BSvcProcessor.exe	Baidu background service processor.	universe
+devenv.exe	Visual Studio integrated development environment from Microsoft.	universe
+code.exe	Visual Studio Code source-code editor from Microsoft.	universe
+pycharm64.exe	PyCharm Python integrated development environment from JetBrains.	universe
+idea64.exe	IntelliJ IDEA integrated development environment from JetBrains.	universe
+eclipse.exe	Eclipse integrated development environment from the Eclipse Foundation.	universe
+java.exe	Java runtime environment from Oracle for running JVM applications.	universe
+javaw.exe	Windowed Java runtime environment from Oracle for JVM applications.	universe
+jusched.exe	Software update client developed by Oracle.	universe
+SunJavaUpdateSched.exe	Software update client developed by Oracle.	universe
+AppleSoftwareUpdate.exe	Software update client developed by Apple.	universe
+Thunder.exe	File download manager developed by Xunlei.	universe
+IDMan.exe	File download manager developed by Tonec.	universe
+FreeDownloadManager.exe	File download manager developed by FreeDownloadManager.	universe
+uGet.exe	File download manager developed by uGet.	universe
+aria2c.exe	File download manager developed by aria2.	universe
+nginx.exe	nginx web server and reverse proxy from F5.	universe
+httpd.exe	Apache HTTP Server application from the Apache Software Foundation.	universe
+tomcat.exe	Apache Tomcat Java application server.	universe
+googleearth.exe	Google Earth virtual globe application.	universe
+Picasa3.exe	Google Picasa photo viewer and organizer.	universe
+Photoshop.exe	Adobe Photoshop raster image editor.	universe
+Illustrator.exe	Adobe Illustrator vector graphics editor.	universe
+InDesign.exe	Adobe InDesign page-layout application.	universe
+PremierePro.exe	Adobe Premiere Pro video editor.	universe
+OUTLOOK.EXE	Email or messaging client developed by Microsoft.	universe
+ONENOTE.EXE	Office or document application developed by Microsoft.	universe
+Teams.exe	Microsoft Teams collaboration and messaging client.	universe
+wuauclt.exe	Security or software update program developed by Microsoft.	universe
+explorer.exe	Windows File Explorer shell and file manager.	universe
+notepad.exe	Plain-text editor included with Windows.	universe
+powershell.exe	Development or system administration tool developed by Microsoft.	universe
+wmplayer.exe	Video player developed by Microsoft.	universe
+Foxmail.exe	Email or messaging client developed by Tencent.	universe
+WeGame.exe	Tencent WeGame game distribution client.	universe
+TencentMeeting.exe	Tencent Meeting video-conferencing client.	universe
+WeCom.exe	WeCom enterprise messaging and collaboration client.	universe
+QQLive.exe	Tencent QQLive video streaming client.	universe
+SogouPinyin.exe	Sogou Pinyin Chinese input method.	universe
+baidupinyin.exe	Baidu Pinyin Chinese input method.	universe
+BaiduHi.exe	Baidu Hi instant messaging client.	universe
+ACDSee.exe	ACDSee image viewer and photo organizer.	universe

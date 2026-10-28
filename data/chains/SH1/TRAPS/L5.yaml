@@ -1,0 +1,52 @@
+A: CA
+C: g20
+C_name: G20
+N_p: PG
+N_t:
+- SK
+- UG
+- LU
+- NU
+- TC
+- FJ
+- BG
+P_M:
+- IN
+- ID
+- AR
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - commonwealth_of_nations
+    - international_hydrographic_organization
+    - nato
+    - organisation_internationale_de_la_francophonie
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 36
+    pass: true
+comp_A:
+- arctic_council
+- asia_pacific_economic_cooperation
+- commonwealth_of_nations
+- g7
+- international_hydrographic_organization
+- nato
+- organisation_internationale_de_la_francophonie
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- organization_of_american_states
+- world_trade_organization
+field: ships.owner_country
+label: follow-up docket 11
+salience: 746828.0
+universe: flag

@@ -1,0 +1,54 @@
+concept_id	wiki_title	match	pageviews_12m	note
+eu_member_cctlds	European Union	exact	3252899	monthly pageviews 2025-10..2026-09
+schengen_cctlds	Schengen Area	exact	1383644	monthly pageviews 2025-10..2026-09
+eurozone_cctlds	Eurozone	exact	628544	monthly pageviews 2025-10..2026-09
+nato_cctlds	NATO	exact	2551051	monthly pageviews 2025-10..2026-09
+commonwealth_cctlds	Commonwealth of Nations	exact	1607656	monthly pageviews 2025-10..2026-09
+asean_cctlds	ASEAN	exact	1292950	monthly pageviews 2025-10..2026-09
+g20_cctlds	G20	exact	995333	monthly pageviews 2025-10..2026-09
+brics_cctlds	BRICS	exact	1804321	monthly pageviews 2025-10..2026-09
+oecd_cctlds	OECD	exact	807032	monthly pageviews 2025-10..2026-09
+african_union_cctlds	African Union	exact	517616	monthly pageviews 2025-10..2026-09
+arab_league_cctlds	Arab League	exact	465450	monthly pageviews 2025-10..2026-09
+nordic_council_cctlds	Nordic Council	exact	114452	monthly pageviews 2025-10..2026-09
+gcc_cctlds	Gulf Cooperation Council	exact	960011	monthly pageviews 2025-10..2026-09
+caricom_cctlds	CARICOM	exact	18413	monthly pageviews 2025-10..2026-09
+pacific_islands_forum_cctlds	Pacific Islands Forum	exact	72489	monthly pageviews 2025-10..2026-09
+g7_cctlds	G7	exact	974084	monthly pageviews 2025-10..2026-09
+five_eyes_cctlds	Five Eyes	exact	690793	monthly pageviews 2025-10..2026-09
+cplp_cctlds	Community of Portuguese Language Countries	exact	110363	monthly pageviews 2025-10..2026-09
+oif_cctlds	Organisation internationale de la Francophonie	exact	163651	monthly pageviews 2025-10..2026-09
+opec_cctlds	OPEC	exact	1060439	monthly pageviews 2025-10..2026-09
+cis_cctlds	Commonwealth of Independent States	exact	797464	monthly pageviews 2025-10..2026-09
+saarc_cctlds	South Asian Association for Regional Cooperation	exact	331947	monthly pageviews 2025-10..2026-09
+apec_cctlds	Asia-Pacific Economic Cooperation	exact	300648	monthly pageviews 2025-10..2026-09
+idn_cctlds	Internationalized country code top-level domain	exact	23850	monthly pageviews 2025-10..2026-09
+geographic_gtlds	Geographic top-level domain	exact	7608	monthly pageviews 2025-10..2026-09
+brand_gtlds	Brand top-level domain	none	0	HTTP 404: no article data
+sponsored_gtlds	Sponsored top-level domain	exact	793248	monthly pageviews 2025-10..2026-09
+original_gtlds	Generic top-level domain	exact	483628	monthly pageviews 2025-10..2026-09
+cctlds_all	Country code top-level domain	exact	528212	monthly pageviews 2025-10..2026-09
+gtlds_all	Generic top-level domain	exact	483628	monthly pageviews 2025-10..2026-09
+legacy_gtlds	Generic top-level domain	exact	483628	monthly pageviews 2025-10..2026-09
+new_gtld_program_2012	Generic top-level domain	exact	483628	monthly pageviews 2025-10..2026-09
+bimstec_cctlds	Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation	exact	29448	monthly pageviews 2025-10..2026-09
+bsec_cctlds	Organization of the Black Sea Economic Cooperation	exact	46155	monthly pageviews 2025-10..2026-09
+cbss_cctlds	Council of the Baltic Sea States	exact	30859	monthly pageviews 2025-10..2026-09
+eac_cctlds	East African Community	exact	148985	monthly pageviews 2025-10..2026-09
+eco_cctlds	Economic Cooperation Organization	exact	84977	monthly pageviews 2025-10..2026-09
+oecs_cctlds	Organisation of Eastern Caribbean States	exact	58973	monthly pageviews 2025-10..2026-09
+nordefco_cctlds	Nordic Defence Cooperation	exact	22344	monthly pageviews 2025-10..2026-09
+ecowas_cctlds	Economic Community of West African States	exact	52123	monthly pageviews 2025-10..2026-09
+sadc_cctlds	Southern African Development Community	exact	123735	monthly pageviews 2025-10..2026-09
+sacu_cctlds	Southern African Customs Union	exact	34706	monthly pageviews 2025-10..2026-09
+cemac_cctlds	Economic and Monetary Community of Central Africa	exact	7032	monthly pageviews 2025-10..2026-09
+eaeu_cctlds	Eurasian Economic Union	exact	225549	monthly pageviews 2025-10..2026-09
+csto_cctlds	Collective Security Treaty Organization	exact	313646	monthly pageviews 2025-10..2026-09
+igad_cctlds	Intergovernmental Authority on Development	exact	33375	monthly pageviews 2025-10..2026-09
+danube_commission_cctlds	Danube Commission	exact	2095	monthly pageviews 2025-10..2026-09
+cei_cctlds	Central European Initiative	exact	14255	monthly pageviews 2025-10..2026-09
+oapec_cctlds	Organization of Arab Petroleum Exporting Countries	exact	35321	monthly pageviews 2025-10..2026-09
+comesa_cctlds	Common Market for Eastern and Southern Africa	exact	48794	monthly pageviews 2025-10..2026-09
+three_seas_cctlds	Three Seas Initiative	exact	66636	monthly pageviews 2025-10..2026-09
+uemoa_cctlds	West African Economic and Monetary Union	exact	39132	monthly pageviews 2025-10..2026-09
+helcom_cctlds	Baltic Marine Environment Protection Commission	exact	625	monthly pageviews 2025-10..2026-09

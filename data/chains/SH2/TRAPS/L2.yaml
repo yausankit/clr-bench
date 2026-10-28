@@ -1,0 +1,52 @@
+A: US
+C: asia_pacific_economic_cooperation
+C_name: Asia-Pacific Economic Cooperation
+N_p: MU
+N_t:
+- GR
+- GB
+- ZA
+- DK
+- PA
+- PS
+- TJ
+P_M:
+- HK
+- TW
+- PG
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - arctic_council
+    - g20
+    - g7
+    - international_hydrographic_organization
+    - nato
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - organization_of_american_states
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 36
+    pass: true
+comp_A:
+- arctic_council
+- g20
+- g7
+- international_hydrographic_organization
+- nato
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- organization_of_american_states
+- world_trade_organization
+field: ships.owner_country
+label: monitoring schedule 41
+salience: 11971.0
+universe: flag

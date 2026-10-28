@@ -1,0 +1,38 @@
+A: SA
+C: opec
+C_name: OPEC member countries
+N_p: CU
+N_t:
+- QA
+- SO
+- OM
+- AR
+- MR
+- NE
+- ZA
+P_M:
+- VE
+- CG
+- IR
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - arab_league
+    - gcc
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- arab_league
+- gcc
+field: declarations.exporter_country
+label: intake folder 84
+salience: 880838.0
+universe: country

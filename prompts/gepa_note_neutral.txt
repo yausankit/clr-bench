@@ -1,0 +1,1 @@
+Note on the policy: it will also be used for this level's test task, which has the same records and rules but may ask for a different output (for example a different aggregation over the entities). Keep the policy about which records count and which rules apply; do not state the output aggregation or format, and let each task's own instructions decide them.

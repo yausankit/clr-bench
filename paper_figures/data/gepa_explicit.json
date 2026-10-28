@@ -1,0 +1,40 @@
+{
+ "orig": {
+  "levels": [
+   0.08,
+   0.09,
+   0.06999999999999999,
+   0.030000000000000006
+  ],
+  "max_programs": 137,
+  "hint_levels": [
+   0.09,
+   0.04,
+   0.18,
+   0.05
+  ]
+ },
+ "neutral_self": {
+  "levels": [
+   0.8099999999999999,
+   0.58,
+   0.37,
+   0.22000000000000003
+  ],
+  "max_programs": 0
+ },
+ "neutral_hint": {
+  "levels": [
+   0.9199999999999999,
+   0.8300000000000001,
+   0.47000000000000003,
+   0.42000000000000004
+  ],
+  "max_programs": 0
+ },
+ "neutral_inc_revealed": {
+  "self": 0.87,
+  "hint": 0.735,
+  "note": "inc on the revealed member m0, v0 L1-4 diagnostics, 200 per arm"
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "answer_format": "text",
+ "background": {
+  "proxy_connections.client_app": [
+   "AcroRd32.exe",
+   "Illustrator.exe",
+   "OneDrive.exe",
+   "TeamViewer_Service.exe",
+   "Vivaldi.exe",
+   "aliwangwang.exe",
+   "baidupinyin.exe",
+   "mpc-hc.exe",
+   "opera.exe",
+   "telegram.exe"
+  ],
+  "proxy_connections.port": [
+   "1347",
+   "2561",
+   "2635",
+   "3499",
+   "3656",
+   "4153",
+   "503",
+   "594",
+   "624",
+   "9208"
+  ],
+  "proxy_connections.tld": [
+   "apple",
+   "citic",
+   "durban",
+   "latrobe",
+   "lifeinsurance",
+   "om",
+   "sharp",
+   "song",
+   "xn--3bst00m",
+   "xn--mgbi4ecexp"
+  ]
+ },
+ "course_id": "CLR_LG2",
+ "dataset": "LG",
+ "fields": [
+  "proxy_connections.tld",
+  "proxy_connections.client_app",
+  "proxy_connections.port"
+ ],
+ "id": "LG2",
+ "seed": 20266089,
+ "slots": [
+  {
+   "A": "de",
+   "C": "oecd_cctlds",
+   "C_name": "OECD member country country-code top-level domains",
+   "N_p": "my",
+   "N_t": [
+    "bg",
+    "hr",
+    "mt",
+    "xn--ses554g",
+    "bike",
+    "industries",
+    "tj"
+   ],
+   "P_M": [
+    "il",
+    "cl",
+    "cr"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "cctlds_all",
+      "danube_commission_cctlds",
+      "eu_member_cctlds",
+      "eurozone_cctlds",
+      "nato_cctlds",
+      "schengen_cctlds"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "cbss_cctlds",
+    "cctlds_all",
+    "danube_commission_cctlds",
+    "eu_member_cctlds",
+    "eurozone_cctlds",
+    "g20_cctlds",
+    "g7_cctlds",
+    "helcom_cctlds",
+    "nato_cctlds",
+    "schengen_cctlds"
+   ],
+   "field": "proxy_connections.tld",
+   "label": "access lane C2",
+   "level": 1,
+   "salience": 807032.0,
+   "universe": "tld"
+  },
+  {
+   "A": "WINWORD.EXE",
+   "C": "microsoft_productivity_apps",
+   "C_name": "Microsoft productivity applications",
+   "N_p": "Skype.exe",
+   "N_t": [
+    "spoolsv.exe",
+    "wps.exe",
+    "et.exe",
+    "svchost.exe",
+    "powershell.exe",
+    "Spotify.exe",
+    "msfeedssync.exe"
+   ],
+   "P_M": [
+    "Teams.exe",
+    "OUTLOOK.EXE",
+    "ONENOTE.EXE"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "microsoft_products",
+      "office_document_apps",
+      "office_suites"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "microsoft_products",
+    "office_document_apps",
+    "office_ltsc_2021_apps",
+    "office_ltsc_2024_apps",
+    "office_suites",
+    "uptodown_top_downloads"
+   ],
+   "field": "proxy_connections.client_app",
+   "label": "event bucket 52",
+   "level": 2,
+   "salience": 74318.0,
+   "universe": "client_app"
+  },
+  {
+   "A": "389",
+   "C": "plaintext_protocol_ports",
+   "C_name": "Plaintext application protocol ports",
+   "N_p": "22",
+   "N_t": [
+    "1433",
+    "3269",
+    "455",
+    "5068",
+    "2493",
+    "9293",
+    "3341"
+   ],
+   "P_M": [
+    "143",
+    "21",
+    "43"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "directory_service_ports",
+      "iana_system_ports",
+      "microsoft_server_ports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "directory_service_ports",
+    "iana_system_ports",
+    "microsoft_server_ports"
+   ],
+   "field": "proxy_connections.port",
+   "label": "session tag A-70",
+   "level": 3,
+   "salience": 1134819.0,
+   "universe": "port"
+  },
+  {
+   "A": "fr",
+   "C": "g7_cctlds",
+   "C_name": "G7 member country-code top-level domains",
+   "N_p": "tr",
+   "N_t": [
+    "lt",
+    "pt",
+    "no",
+    "seven",
+    "compare",
+    "express",
+    "dds"
+   ],
+   "P_M": [
+    "jp",
+    "gb",
+    "us"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "cctlds_all",
+      "eu_member_cctlds",
+      "eurozone_cctlds",
+      "nato_cctlds",
+      "oecd_cctlds",
+      "schengen_cctlds"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "cctlds_all",
+    "eu_member_cctlds",
+    "eurozone_cctlds",
+    "g20_cctlds",
+    "nato_cctlds",
+    "oecd_cctlds",
+    "oif_cctlds",
+    "schengen_cctlds"
+   ],
+   "field": "proxy_connections.tld",
+   "label": "audit zone J6",
+   "level": 4,
+   "salience": 974084.0,
+   "universe": "tld"
+  },
+  {
+   "A": "WinSCP.exe",
+   "C": "ftp_clients",
+   "C_name": "FTP clients",
+   "N_p": "putty.exe",
+   "N_t": [
+    "vncviewer.exe",
+    "Termius.exe",
+    "Dropbox.exe",
+    "Acrobat.exe",
+    "SogouCloud.exe",
+    "YodaoDict.exe",
+    "SogouPinyin.exe"
+   ],
+   "P_M": [
+    "MobaXterm.exe",
+    "Xshell.exe",
+    "SecureCRT.exe"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "developer_admin_tools",
+      "ninite_catalog",
+      "remote_access_tools"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "developer_admin_tools",
+    "ninite_catalog",
+    "portableapps_directory",
+    "remote_access_tools"
+   ],
+   "field": "proxy_connections.client_app",
+   "label": "gateway lane 93",
+   "level": 5,
+   "salience": 1387.0,
+   "universe": "client_app"
+  }
+ ]
+}

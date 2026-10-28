@@ -1,0 +1,876 @@
+A multinational's finance team audits employee travel expenses: every flight segment on a submitted claim is reimbursable and is counted once for the department of the employee who filed the claim.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The input is one JSON object with four lists: departments (id, name, region), employees (id, name, department), claims (id, employee, submitted, currency, fare_amount, fare_display) and segments (id, claim, airline, departure_airport, arrival_airport, travel_date, route). employee.department and segment.claim are ids from the other lists.
+
+Each flight segment on a submitted expense claim counts once toward the total of the department of the employee who filed that claim.
+Return the sum of the totals of all departments in the input, as an int.
+
+Field notes:
+- A segment whose airline is 'Lufthansa' is in review queue B8.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, segments in review queue B8 are not counted.
+
+Value reference:
+segments.airline:
+- ALROSA Air Company — Airline based in Mirny, Russia.
+- Air Albania — Airline based in Albania.
+- Air Burkina — Airline based in Burkina Faso.
+- Air Canada — Airline based in Canada.
+- Air Caraïbes — Airline based in Guadeloupe, French Republic.
+- Air Dabia — Airline based in Gambia.
+- Air Tahiti Nui — Airline based in French Polynesia, French Republic.
+- Akasa Air — Airline based in India.
+- Auric Air — Airline based in Tanzania.
+- Blue Dart Aviation — Airline based in India.
+- ETF Airways — Airline based in Croatia.
+- Fly Lili — Airline based in Romania.
+- ITA Airways — Airline based in Italy.
+- Interair South Africa — Airline based in Johannesburg, RSA.
+- Jetstar Airways — Airline based in Australia.
+- Joy Air — Airline based in PRC.
+- KLM Asia — Airline based in Taiwan.
+- Kyrgyz Trans Avia — Airline based in Kyrgyzstan.
+- LATAM Airlines — Airline based in Chile.
+- Lanexang Airways International — Airline based in Laos.
+- Lufthansa — Airline based in Germany.
+- Maldivian — Airline based in Maldives.
+- Mann Yatanarpon Airlines — Airline based in Myanmar.
+- Med Airways — Airline based in Lebanon.
+- MyTravelLite Airlines — Airline based in UK.
+- Norse Atlantic UK — Airline based in UK.
+- Pakistan International Airlines — Airline based in Pakistan.
+- Scandinavian Airlines — Airline based in Denmark, Norway and Sweden.
+- Singapore Airlines — Airline based in Singapore.
+- Skyward Airlines — Airline based in Kenya.
+- Sun Air — Airline based in Khartoum, Sudan.
+- Thai AirAsia — Airline based in Thailand.
+- Thai Airways — Airline based in Thailand.
+- United Airlines — Airline based in US.
+segments.arrival_airport:
+- BUA — Buka Airport; Airport serving Autonomous Region of Bougainville, Papua New Guinea.
+- CUP — General José Francisco Bermúdez Airport; Airport serving Sucre, Venezuela.
+- DAU — Daru Airport; Airport serving Daru, Papua New Guinea.
+- EAR — Kearney Regional Airport; Airport serving Nebraska, US.
+- EPT — Eliptamin; Airport in Papua New Guinea.
+- FIG — Fria Airport; Airport serving Boke Region, Guinea.
+- GDO — Guasdualito Airport; Airport in Venezuela.
+- GIL — Gilgit Airport; Airport serving Gilgit District, Pakistan.
+- GRD — Greenwood County Airport; Airport serving South Carolina, US.
+- HVB — Hervey Bay Airport; Airport serving Queensland, Australia.
+- IIA — Inishmaan Aerodrome; Airport in Ireland.
+- KDT — Kamphaeng Saen Airport; Airport in Thailand.
+- KMZ — Kaoma Airport; Airport in Zambia.
+- KNZ — Kéniéba Airport; Airport serving Kayes Region, Mali.
+- LCQ — Lake City Gateway Airport; Airport serving Florida, US.
+- LUG — Lugano Airport; Airport serving Canton of Ticino, Switzerland.
+- MDS — Middle Caicos Airport; Airport serving Turks and Caicos, UK.
+- MJJ — Moki; Airport serving Madang Province, Papua New Guinea.
+- PAZ — El Tajín National Airport; Airport serving Tihuatlan Municipality, Mexico.
+- PMV — Santiago Mariño Caribbean International Airport; Airport serving Margarita Island, Venezuela.
+- RMN — Rumginae Airport; Airport in Papua New Guinea.
+- SAL — El Salvador International Airport; Airport serving San Luis Talpa, El Salvador.
+- SEY — Sélibaby Airport; Airport serving Guidimakha, Mauritania.
+- SOB — Hévíz–Balaton Airport; Airport serving Sarmellek, Hungary.
+- SXL — Sligo Airport; Airport serving Strandhill, Ireland.
+- TMR — Aguenar–Hadj Bey Akhamok Airport; Airport serving Tamanrasset Province, Algeria.
+- UAR — Bouarfa Airport; Airport in Morocco.
+- VLY — Anglesey Airport; Airport serving Isle of Anglesey, UK.
+- WBU — Boulder Municipal Airport; Airport serving Colorado, US.
+- WUS — Wuyishan Airport; Airport serving Fujian, PRC.
+- WUU — Wau Airport; Airport serving Western Bahr el Ghazal, RSS.
+- YMA — Mayo Airport; Airport serving Yukon, Canada.
+- ZHI — Grenchen Airport; Airport serving Canton of Solothurn, Switzerland.
+- ZRH — Zurich Airport; Airport serving Canton of Zurich, Switzerland.
+claims.currency:
+- AED — United Arab Emirates dirham; Money used in UAE.
+- BAM — Bosnia and Herzegovina convertible mark; Money used in Bosnia and Herzegovina.
+- BND — Brunei dollar; Money used in Brunei.
+- BRL — Brazilian real; Money used in Brazil.
+- CDF — Congolese franc; Money used in Democratic Republic of the Congo.
+- FJD — Fiji dollar; Money used in Fiji.
+- GBP — Pound sterling; Money used in UK and Isle of Man.
+- IRR — Iranian rial; Money used in Iran.
+- JPY — Japanese yen; Money used in Japan.
+- MDL — Moldovan leu; Money used in Moldova.
+- MOP — Macanese pataca; Money used in Macau.
+- MXN — Mexican peso; Money used in Mexico.
+- MZN — Mozambican metical; Money used in Mozambique.
+- NAD — Namibian dollar; Money used in Namibia.
+- PLN — Polish złoty; Money used in Poland.
+- SAR — Saudi riyal; Money used in Saudi Arabia.
+- SOS — Somali shilling; Money used in Somalia.
+- SVC — Salvadoran colón; Money used in El Salvador.
+- UYU — Uruguayan peso; Money used in Uruguay.
+- WST — Samoan tala; Money used in Samoa.
+- XAF — CFA franc BEAC; Money used in Cameroon and CAR.
+- ZAR — South African rand; Money used in RSA and Eswatini.
+
+Example input:
+{
+ "claims": [
+  {
+   "currency": "MDL",
+   "employee": "E0116",
+   "fare_amount": 1016,
+   "fare_display": "MDL 1,016",
+   "id": "C00231",
+   "submitted": "2026-05-05"
+  },
+  {
+   "currency": "MDL",
+   "employee": "E0116",
+   "fare_amount": 2977,
+   "fare_display": "MDL 2,977",
+   "id": "C00232",
+   "submitted": "2026-08-06"
+  },
+  {
+   "currency": "SAR",
+   "employee": "E0117",
+   "fare_amount": 4154,
+   "fare_display": "SAR 4,154",
+   "id": "C00233",
+   "submitted": "2026-08-09"
+  },
+  {
+   "currency": "WST",
+   "employee": "E0117",
+   "fare_amount": 3012,
+   "fare_display": "WST 3,012",
+   "id": "C00234",
+   "submitted": "2026-07-25"
+  },
+  {
+   "currency": "WST",
+   "employee": "E0118",
+   "fare_amount": 1373,
+   "fare_display": "WST 1,373",
+   "id": "C00235",
+   "submitted": "2026-02-28"
+  },
+  {
+   "currency": "XAF",
+   "employee": "E0118",
+   "fare_amount": 817,
+   "fare_display": "XAF 817",
+   "id": "C00236",
+   "submitted": "2026-06-19"
+  },
+  {
+   "currency": "SAR",
+   "employee": "E0119",
+   "fare_amount": 1377,
+   "fare_display": "SAR 1,377",
+   "id": "C00237",
+   "submitted": "2026-09-26"
+  },
+  {
+   "currency": "XAF",
+   "employee": "E0119",
+   "fare_amount": 2270,
+   "fare_display": "XAF 2,270",
+   "id": "C00238",
+   "submitted": "2026-09-16"
+  },
+  {
+   "currency": "MDL",
+   "employee": "E0120",
+   "fare_amount": 4028,
+   "fare_display": "MDL 4,028",
+   "id": "C00239",
+   "submitted": "2026-01-24"
+  },
+  {
+   "currency": "SVC",
+   "employee": "E0120",
+   "fare_amount": 1699,
+   "fare_display": "SVC 1,699",
+   "id": "C00240",
+   "submitted": "2026-05-08"
+  },
+  {
+   "currency": "SAR",
+   "employee": "E0126",
+   "fare_amount": 1908,
+   "fare_display": "SAR 1,908",
+   "id": "C00251",
+   "submitted": "2026-05-13"
+  },
+  {
+   "currency": "XAF",
+   "employee": "E0126",
+   "fare_amount": 2395,
+   "fare_display": "XAF 2,395",
+   "id": "C00252",
+   "submitted": "2026-01-20"
+  },
+  {
+   "currency": "JPY",
+   "employee": "E0127",
+   "fare_amount": 3129,
+   "fare_display": "JPY 3,129",
+   "id": "C00253",
+   "submitted": "2026-01-08"
+  },
+  {
+   "currency": "CDF",
+   "employee": "E0127",
+   "fare_amount": 743,
+   "fare_display": "CDF 743",
+   "id": "C00254",
+   "submitted": "2026-01-25"
+  },
+  {
+   "currency": "BND",
+   "employee": "E0128",
+   "fare_amount": 2724,
+   "fare_display": "BND 2,724",
+   "id": "C00255",
+   "submitted": "2026-04-12"
+  },
+  {
+   "currency": "MZN",
+   "employee": "E0128",
+   "fare_amount": 3458,
+   "fare_display": "MZN 3,458",
+   "id": "C00256",
+   "submitted": "2026-05-13"
+  },
+  {
+   "currency": "WST",
+   "employee": "E0129",
+   "fare_amount": 2185,
+   "fare_display": "WST 2,185",
+   "id": "C00257",
+   "submitted": "2026-05-04"
+  },
+  {
+   "currency": "MZN",
+   "employee": "E0129",
+   "fare_amount": 2669,
+   "fare_display": "MZN 2,669",
+   "id": "C00258",
+   "submitted": "2026-03-23"
+  },
+  {
+   "currency": "BND",
+   "employee": "E0130",
+   "fare_amount": 273,
+   "fare_display": "BND 273",
+   "id": "C00259",
+   "submitted": "2026-05-12"
+  },
+  {
+   "currency": "BND",
+   "employee": "E0130",
+   "fare_amount": 2616,
+   "fare_display": "BND 2,616",
+   "id": "C00260",
+   "submitted": "2026-02-21"
+  },
+  {
+   "currency": "SAR",
+   "employee": "E0171",
+   "fare_amount": 3427,
+   "fare_display": "SAR 3,427",
+   "id": "C00341",
+   "submitted": "2026-07-13"
+  },
+  {
+   "currency": "BAM",
+   "employee": "E0171",
+   "fare_amount": 3598,
+   "fare_display": "BAM 3,598",
+   "id": "C00342",
+   "submitted": "2026-08-16"
+  },
+  {
+   "currency": "CDF",
+   "employee": "E0172",
+   "fare_amount": 2525,
+   "fare_display": "CDF 2,525",
+   "id": "C00343",
+   "submitted": "2026-05-13"
+  },
+  {
+   "currency": "MZN",
+   "employee": "E0172",
+   "fare_amount": 2635,
+   "fare_display": "MZN 2,635",
+   "id": "C00344",
+   "submitted": "2026-05-08"
+  },
+  {
+   "currency": "MDL",
+   "employee": "E0173",
+   "fare_amount": 4014,
+   "fare_display": "MDL 4,014",
+   "id": "C00345",
+   "submitted": "2026-08-09"
+  },
+  {
+   "currency": "JPY",
+   "employee": "E0173",
+   "fare_amount": 3377,
+   "fare_display": "JPY 3,377",
+   "id": "C00346",
+   "submitted": "2026-04-24"
+  },
+  {
+   "currency": "MDL",
+   "employee": "E0174",
+   "fare_amount": 3043,
+   "fare_display": "MDL 3,043",
+   "id": "C00347",
+   "submitted": "2026-09-14"
+  },
+  {
+   "currency": "BND",
+   "employee": "E0174",
+   "fare_amount": 2713,
+   "fare_display": "BND 2,713",
+   "id": "C00348",
+   "submitted": "2026-03-12"
+  },
+  {
+   "currency": "WST",
+   "employee": "E0175",
+   "fare_amount": 1326,
+   "fare_display": "WST 1,326",
+   "id": "C00349",
+   "submitted": "2026-01-05"
+  },
+  {
+   "currency": "MZN",
+   "employee": "E0175",
+   "fare_amount": 254,
+   "fare_display": "MZN 254",
+   "id": "C00350",
+   "submitted": "2026-07-04"
+  }
+ ],
+ "departments": [
+  {
+   "id": "D24",
+   "name": "Sales East",
+   "region": "AMER"
+  },
+  {
+   "id": "D26",
+   "name": "Partnerships",
+   "region": "APAC"
+  },
+  {
+   "id": "D35",
+   "name": "Warehousing",
+   "region": "APAC"
+  }
+ ],
+ "employees": [
+  {
+   "department": "D24",
+   "id": "E0116",
+   "name": "Ana Petrov"
+  },
+  {
+   "department": "D24",
+   "id": "E0117",
+   "name": "Vik Brandt"
+  },
+  {
+   "department": "D24",
+   "id": "E0118",
+   "name": "Uma Abara"
+  },
+  {
+   "department": "D24",
+   "id": "E0119",
+   "name": "Lena Lindqvist"
+  },
+  {
+   "department": "D24",
+   "id": "E0120",
+   "name": "Gil Abara"
+  },
+  {
+   "department": "D26",
+   "id": "E0126",
+   "name": "Femi Brandt"
+  },
+  {
+   "department": "D26",
+   "id": "E0127",
+   "name": "Yara Novak"
+  },
+  {
+   "department": "D26",
+   "id": "E0128",
+   "name": "Wen Sato"
+  },
+  {
+   "department": "D26",
+   "id": "E0129",
+   "name": "Rui Khan"
+  },
+  {
+   "department": "D26",
+   "id": "E0130",
+   "name": "Kai Petrov"
+  },
+  {
+   "department": "D35",
+   "id": "E0171",
+   "name": "Mira Duval"
+  },
+  {
+   "department": "D35",
+   "id": "E0172",
+   "name": "Yara Haddad"
+  },
+  {
+   "department": "D35",
+   "id": "E0173",
+   "name": "Hana Duval"
+  },
+  {
+   "department": "D35",
+   "id": "E0174",
+   "name": "Jun Moreau"
+  },
+  {
+   "department": "D35",
+   "id": "E0175",
+   "name": "Eli Fischer"
+  }
+ ],
+ "segments": [
+  {
+   "airline": "Air Dabia",
+   "arrival_airport": "EPT",
+   "claim": "C00231",
+   "departure_airport": "PDB",
+   "id": "S00341",
+   "route": "PDB-EPT",
+   "travel_date": "2026-05-01"
+  },
+  {
+   "airline": "Lufthansa",
+   "arrival_airport": "WUU",
+   "claim": "C00232",
+   "departure_airport": "CTX",
+   "id": "S00342",
+   "route": "CTX-WUU",
+   "travel_date": "2026-08-04"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "KDT",
+   "claim": "C00232",
+   "departure_airport": "YIF",
+   "id": "S00343",
+   "route": "YIF-KDT",
+   "travel_date": "2026-08-06"
+  },
+  {
+   "airline": "Kyrgyz Trans Avia",
+   "arrival_airport": "LCQ",
+   "claim": "C00233",
+   "departure_airport": "HFN",
+   "id": "S00344",
+   "route": "HFN-LCQ",
+   "travel_date": "2026-08-04"
+  },
+  {
+   "airline": "Sun Air",
+   "arrival_airport": "EAR",
+   "claim": "C00234",
+   "departure_airport": "NUA",
+   "id": "S00345",
+   "route": "NUA-EAR",
+   "travel_date": "2026-07-23"
+  },
+  {
+   "airline": "Air Burkina",
+   "arrival_airport": "WUS",
+   "claim": "C00234",
+   "departure_airport": "PGX",
+   "id": "S00346",
+   "route": "PGX-WUS",
+   "travel_date": "2026-07-23"
+  },
+  {
+   "airline": "ALROSA Air Company",
+   "arrival_airport": "RMN",
+   "claim": "C00235",
+   "departure_airport": "NLV",
+   "id": "S00347",
+   "route": "NLV-RMN",
+   "travel_date": "2026-02-27"
+  },
+  {
+   "airline": "Kyrgyz Trans Avia",
+   "arrival_airport": "WUS",
+   "claim": "C00236",
+   "departure_airport": "DLL",
+   "id": "S00348",
+   "route": "DLL-WUS",
+   "travel_date": "2026-06-18"
+  },
+  {
+   "airline": "ALROSA Air Company",
+   "arrival_airport": "HVB",
+   "claim": "C00236",
+   "departure_airport": "CTX",
+   "id": "S00349",
+   "route": "CTX-HVB",
+   "travel_date": "2026-06-15"
+  },
+  {
+   "airline": "Med Airways",
+   "arrival_airport": "EPT",
+   "claim": "C00237",
+   "departure_airport": "MUM",
+   "id": "S00350",
+   "route": "MUM-EPT",
+   "travel_date": "2026-09-23"
+  },
+  {
+   "airline": "Air Burkina",
+   "arrival_airport": "HVB",
+   "claim": "C00238",
+   "departure_airport": "PGX",
+   "id": "S00351",
+   "route": "PGX-HVB",
+   "travel_date": "2026-09-11"
+  },
+  {
+   "airline": "Lanexang Airways International",
+   "arrival_airport": "WUU",
+   "claim": "C00239",
+   "departure_airport": "DLL",
+   "id": "S00352",
+   "route": "DLL-WUU",
+   "travel_date": "2026-01-24"
+  },
+  {
+   "airline": "Thai AirAsia",
+   "arrival_airport": "MJJ",
+   "claim": "C00240",
+   "departure_airport": "LOD",
+   "id": "S00353",
+   "route": "LOD-MJJ",
+   "travel_date": "2026-05-08"
+  },
+  {
+   "airline": "Med Airways",
+   "arrival_airport": "MJJ",
+   "claim": "C00240",
+   "departure_airport": "NLV",
+   "id": "S00354",
+   "route": "NLV-MJJ",
+   "travel_date": "2026-05-07"
+  },
+  {
+   "airline": "Air Dabia",
+   "arrival_airport": "KDT",
+   "claim": "C00251",
+   "departure_airport": "LOD",
+   "id": "S00369",
+   "route": "LOD-KDT",
+   "travel_date": "2026-05-09"
+  },
+  {
+   "airline": "Air Burkina",
+   "arrival_airport": "EPT",
+   "claim": "C00251",
+   "departure_airport": "CQA",
+   "id": "S00370",
+   "route": "CQA-EPT",
+   "travel_date": "2026-05-08"
+  },
+  {
+   "airline": "Thai AirAsia",
+   "arrival_airport": "RMN",
+   "claim": "C00252",
+   "departure_airport": "MCY",
+   "id": "S00371",
+   "route": "MCY-RMN",
+   "travel_date": "2026-01-20"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "RMN",
+   "claim": "C00252",
+   "departure_airport": "EKO",
+   "id": "S00372",
+   "route": "EKO-RMN",
+   "travel_date": "2026-01-19"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "HVB",
+   "claim": "C00253",
+   "departure_airport": "ASN",
+   "id": "S00373",
+   "route": "ASN-HVB",
+   "travel_date": "2026-01-03"
+  },
+  {
+   "airline": "Auric Air",
+   "arrival_airport": "LCQ",
+   "claim": "C00253",
+   "departure_airport": "LOD",
+   "id": "S00374",
+   "route": "LOD-LCQ",
+   "travel_date": "2026-01-03"
+  },
+  {
+   "airline": "ALROSA Air Company",
+   "arrival_airport": "YMA",
+   "claim": "C00254",
+   "departure_airport": "CGN",
+   "id": "S00375",
+   "route": "CGN-YMA",
+   "travel_date": "2026-01-24"
+  },
+  {
+   "airline": "Thai AirAsia",
+   "arrival_airport": "WUS",
+   "claim": "C00254",
+   "departure_airport": "RNP",
+   "id": "S00376",
+   "route": "RNP-WUS",
+   "travel_date": "2026-01-24"
+  },
+  {
+   "airline": "Auric Air",
+   "arrival_airport": "MJJ",
+   "claim": "C00255",
+   "departure_airport": "ASN",
+   "id": "S00377",
+   "route": "ASN-MJJ",
+   "travel_date": "2026-04-12"
+  },
+  {
+   "airline": "Thai AirAsia",
+   "arrival_airport": "MJJ",
+   "claim": "C00255",
+   "departure_airport": "NCI",
+   "id": "S00378",
+   "route": "NCI-MJJ",
+   "travel_date": "2026-04-07"
+  },
+  {
+   "airline": "Air Burkina",
+   "arrival_airport": "WUS",
+   "claim": "C00256",
+   "departure_airport": "YIF",
+   "id": "S00379",
+   "route": "YIF-WUS",
+   "travel_date": "2026-05-08"
+  },
+  {
+   "airline": "Auric Air",
+   "arrival_airport": "YMA",
+   "claim": "C00256",
+   "departure_airport": "YIF",
+   "id": "S00380",
+   "route": "YIF-YMA",
+   "travel_date": "2026-05-09"
+  },
+  {
+   "airline": "Med Airways",
+   "arrival_airport": "WUS",
+   "claim": "C00257",
+   "departure_airport": "RNP",
+   "id": "S00381",
+   "route": "RNP-WUS",
+   "travel_date": "2026-05-03"
+  },
+  {
+   "airline": "Thai AirAsia",
+   "arrival_airport": "YMA",
+   "claim": "C00257",
+   "departure_airport": "SCK",
+   "id": "S00382",
+   "route": "SCK-YMA",
+   "travel_date": "2026-05-02"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "HVB",
+   "claim": "C00258",
+   "departure_airport": "NLV",
+   "id": "S00383",
+   "route": "NLV-HVB",
+   "travel_date": "2026-03-20"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "MJJ",
+   "claim": "C00258",
+   "departure_airport": "LUC",
+   "id": "S00384",
+   "route": "LUC-MJJ",
+   "travel_date": "2026-03-21"
+  },
+  {
+   "airline": "Auric Air",
+   "arrival_airport": "EPT",
+   "claim": "C00259",
+   "departure_airport": "BMQ",
+   "id": "S00385",
+   "route": "BMQ-EPT",
+   "travel_date": "2026-05-12"
+  },
+  {
+   "airline": "Air Dabia",
+   "arrival_airport": "RMN",
+   "claim": "C00259",
+   "departure_airport": "IDH",
+   "id": "S00386",
+   "route": "IDH-RMN",
+   "travel_date": "2026-05-10"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "YMA",
+   "claim": "C00260",
+   "departure_airport": "RNP",
+   "id": "S00387",
+   "route": "RNP-YMA",
+   "travel_date": "2026-02-21"
+  },
+  {
+   "airline": "Kyrgyz Trans Avia",
+   "arrival_airport": "EAR",
+   "claim": "C00341",
+   "departure_airport": "BZB",
+   "id": "S00504",
+   "route": "BZB-EAR",
+   "travel_date": "2026-07-09"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "YMA",
+   "claim": "C00342",
+   "departure_airport": "CGN",
+   "id": "S00505",
+   "route": "CGN-YMA",
+   "travel_date": "2026-08-15"
+  },
+  {
+   "airline": "Lanexang Airways International",
+   "arrival_airport": "EAR",
+   "claim": "C00342",
+   "departure_airport": "BZB",
+   "id": "S00506",
+   "route": "BZB-EAR",
+   "travel_date": "2026-08-14"
+  },
+  {
+   "airline": "Air Burkina",
+   "arrival_airport": "WUU",
+   "claim": "C00343",
+   "departure_airport": "DLL",
+   "id": "S00507",
+   "route": "DLL-WUU",
+   "travel_date": "2026-05-13"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "MJJ",
+   "claim": "C00344",
+   "departure_airport": "CGN",
+   "id": "S00508",
+   "route": "CGN-MJJ",
+   "travel_date": "2026-05-08"
+  },
+  {
+   "airline": "Mann Yatanarpon Airlines",
+   "arrival_airport": "LCQ",
+   "claim": "C00345",
+   "departure_airport": "XGR",
+   "id": "S00509",
+   "route": "XGR-LCQ",
+   "travel_date": "2026-08-07"
+  },
+  {
+   "airline": "ALROSA Air Company",
+   "arrival_airport": "KDT",
+   "claim": "C00345",
+   "departure_airport": "BYT",
+   "id": "S00510",
+   "route": "BYT-KDT",
+   "travel_date": "2026-08-08"
+  },
+  {
+   "airline": "Sun Air",
+   "arrival_airport": "MJJ",
+   "claim": "C00346",
+   "departure_airport": "PYS",
+   "id": "S00511",
+   "route": "PYS-MJJ",
+   "travel_date": "2026-04-19"
+  },
+  {
+   "airline": "Med Airways",
+   "arrival_airport": "EAR",
+   "claim": "C00346",
+   "departure_airport": "PTJ",
+   "id": "S00512",
+   "route": "PTJ-EAR",
+   "travel_date": "2026-04-20"
+  },
+  {
+   "airline": "Air Dabia",
+   "arrival_airport": "EAR",
+   "claim": "C00347",
+   "departure_airport": "MCY",
+   "id": "S00513",
+   "route": "MCY-EAR",
+   "travel_date": "2026-09-10"
+  },
+  {
+   "airline": "Air Dabia",
+   "arrival_airport": "MJJ",
+   "claim": "C00347",
+   "departure_airport": "NUA",
+   "id": "S00514",
+   "route": "NUA-MJJ",
+   "travel_date": "2026-09-11"
+  },
+  {
+   "airline": "Lanexang Airways International",
+   "arrival_airport": "YMA",
+   "claim": "C00348",
+   "departure_airport": "PID",
+   "id": "S00515",
+   "route": "PID-YMA",
+   "travel_date": "2026-03-07"
+  },
+  {
+   "airline": "Kyrgyz Trans Avia",
+   "arrival_airport": "LCQ",
+   "claim": "C00349",
+   "departure_airport": "CQA",
+   "id": "S00516",
+   "route": "CQA-LCQ",
+   "travel_date": "2026-01-02"
+  },
+  {
+   "airline": "Kyrgyz Trans Avia",
+   "arrival_airport": "LCQ",
+   "claim": "C00350",
+   "departure_airport": "YIF",
+   "id": "S00517",
+   "route": "YIF-LCQ",
+   "travel_date": "2026-07-01"
+  }
+ ]
+}

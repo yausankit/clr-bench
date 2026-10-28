@@ -1,0 +1,240 @@
+value	entity	qid	attr:country	attr:region
+Aegean Airlines	Aegean Airlines	Q380580	GR	Europe
+Aer Lingus	Aer Lingus	Q83716	IE	Europe
+Aeroflot	Aeroflot	Q58707	RU	Europe
+Aerolineas Argentinas	Aerolineas Argentinas	Q83535	AR	Americas
+Aeromexico	Aeromexico	Q381563	MX	Americas
+Aeromexico Connect	Aeromexico Connect		MX	Americas
+Air Albania	Air Albania	Q55075006	AL	Europe
+Air Algerie	Air Algerie	Q406764	DZ	Africa
+Air Arabia	Air Arabia	Q406798	AE	Asia
+Air Astana	Air Astana	Q406828	KZ	Asia
+Air Atlanta Icelandic	Air Atlanta Icelandic	Q406814	IS	Europe
+Air Austral	Air Austral	Q406847	FR	Europe
+Air Botswana	Air Botswana	Q406896	BW	Africa
+Air Burkina	Air Burkina	Q406928	BF	Africa
+Air Busan	Air Busan	Q406932	KR	Asia
+Air Cairo	Air Cairo	Q1147012	EG	Africa
+Air Cambodia	Air Cambodia	Q368781	KH	Asia
+Air Canada	Air Canada	Q185339	CA	Americas
+Air China	Air China	Q51747	CN	Asia
+Air Corsica	Air Corsica	Q407054	FR	Europe
+Air Do	Air Do	Q948500	JP	Asia
+Air Dolomiti	Air Dolomiti	Q162174	IT	Europe
+Air Europa	Air Europa	Q332980	ES	Europe
+Air France	Air France	Q131005	FR	Europe
+Air France Hop	Air France Hop	Q3951786	FR	Europe
+Air Greenland	Air Greenland	Q407292	GL	?
+Air Iceland	Air Iceland	Q247974	IS	Europe
+Air India	Air India	Q69906	IN	Asia
+Air India Express	Air India Express	Q407343	IN	Asia
+Air Koryo	Air Koryo	Q257502	KP	Asia
+Air Macau	Air Macau	Q407478	CN	Asia
+Air Madagascar	Air Madagascar	Q253858	MG	Africa
+Air Mauritius	Air Mauritius	Q407556	MU	Africa
+Air New Zealand	Air New Zealand	Q204296	NZ	Oceania
+Air Niugini	Air Niugini	Q407675	PG	Oceania
+Air Nostrum	Air Nostrum	Q407694	ES	Europe
+Air Serbia	Air Serbia	Q460373	RS	Europe
+Air Seychelles	Air Seychelles	Q407783	SC	Africa
+Air Tahiti	Air Tahiti	Q179118	FR	Europe
+Air Tahiti Nui	Air Tahiti Nui	Q339237	FR	Europe
+Air Tanzania	Air Tanzania	Q407842	TZ	Africa
+Air Transat	Air Transat	Q407869	CA	Americas
+Air Zimbabwe	Air Zimbabwe	Q407920	ZW	Africa
+AirAsia	AirAsia	Q406643	MY	Asia
+AirAsia X	AirAsia X	Q406632	MY	Asia
+AirBaltic	AirBaltic	Q300924	LV	Europe
+airblue	airblue	Q310107	PK	Asia
+Aircalin	Aircalin	Q408408	NC	?
+AIX Connect	AIX Connect	Q5103383	IN	Asia
+AJet	AJet	Q483676	TR	Asia
+Alaska Airlines	Alaska Airlines	Q822614	US	Americas
+All Nippon Airways	All Nippon Airways	Q204284	JP	Asia
+Allegiant Air	Allegiant Air	Q1319601	US	Americas
+American Airlines	American Airlines	Q32396	US	Americas
+Arajet	Arajet		DO	Americas
+Ariana Afghan Airlines	Ariana Afghan Airlines	Q654953	AF	Asia
+Arik Air	Arik Air	Q660986	NG	Africa
+Arkia	Arkia	Q553915	IL	Asia
+Asiana Airlines	Asiana Airlines	Q211165	KR	Asia
+Atlantic Airways	Atlantic Airways	Q151581	FO	?
+Atlas Air	Atlas Air		US	Americas
+Austrian Airlines	Austrian Airlines	Q781770	AT	Europe
+Avianca	Avianca	Q308911	CO	Americas
+Avion Express	Avion Express	Q791093	LT	Europe
+Azerbaijan Airlines	Azerbaijan Airlines	Q333679	AZ	Asia
+Azores Airlines	Azores Airlines	Q2205178	PT	Europe
+Azul	Azul	Q794272	BR	Americas
+Bahamasair	Bahamasair		BS	Americas
+Bamboo Airways	Bamboo Airways	Q51779763	VN	Asia
+Bangkok Airways	Bangkok Airways	Q806487	TH	Asia
+Belavia	Belavia	Q815314	BY	Europe
+Biman Bangladesh Airlines	Biman Bangladesh Airlines	Q863432	BD	Asia
+Boliviana de Aviacion	Boliviana de Aviacion		BO	Americas
+British Airways	British Airways	Q8766	GB	Europe
+Brussels Airlines	Brussels Airlines	Q153571	BE	Europe
+Buddha Air	Buddha Air	Q734942	NP	Asia
+Bulgaria Air	Bulgaria Air	Q822130	BG	Europe
+Cabo Verde Airlines	Cabo Verde Airlines	Q669686	CV	Africa
+Cargolux	Cargolux	Q1036100	LU	Europe
+Caribbean Airlines	Caribbean Airlines		TT	Americas
+Carpatair	Carpatair	Q840402	RO	Europe
+Cathay Pacific	Cathay Pacific	Q32141	CN	Asia
+Cebu Pacific	Cebu Pacific	Q995151	PH	Asia
+China Airlines	China Airlines	Q51756	TW	Asia
+China Eastern Airlines	China Eastern Airlines	Q291796	CN	Asia
+China Southern Airlines	China Southern Airlines	Q291090	CN	Asia
+CityJet	CityJet	Q163625	IE	Europe
+Condor Flugdienst	Condor Flugdienst	Q312517	DE	Europe
+Copa Airlines	Copa Airlines	Q849404	PA	Americas
+Corendon Airlines	Corendon Airlines	Q669002	TR	Asia
+Corsair International	Corsair International	Q385366	FR	Europe
+Croatia Airlines	Croatia Airlines	Q308974	HR	Europe
+Cubana de Aviacion	Cubana de Aviacion	Q849910	CU	Americas
+Daallo Airlines	Daallo Airlines	Q1094344	DJ	Africa
+Delta Air Lines	Delta Air Lines	Q188920	US	Americas
+DHL Aero Expreso	DHL Aero Expreso		PA	Americas
+Drukair	Drukair	Q909560	BT	Asia
+easyJet	easyJet	Q191551	GB	Europe
+Edelweiss Air	Edelweiss Air	Q662050	CH	Europe
+EgyptAir	EgyptAir	Q374740	EG	Africa
+EL AL Israel Airlines Ltd	EL AL Israel Airlines Ltd	Q208489	IL	Asia
+Emirates	Emirates	Q180432	AE	Asia
+Enter Air	Enter Air	Q1344593	PL	Europe
+Ethiopian Airlines	Ethiopian Airlines	Q245233	ET	Africa
+Etihad Airways	Etihad Airways	Q212304	AE	Asia
+Eurowings	Eurowings	Q168836	DE	Europe
+EVA Air	EVA Air	Q715113	TW	Asia
+FedEx Express	FedEx Express	Q782557	US	Americas
+Fiji Airways	Fiji Airways	Q407719	FJ	Oceania
+Finnair	Finnair	Q201821	FI	Europe
+Flyadeal	Flyadeal	Q1189080	SA	Asia
+flydubai	flydubai	Q1048495	AE	Asia
+Frontier Airlines	Frontier Airlines	Q1139541	US	Americas
+Garuda Indonesia	Garuda Indonesia	Q512468	ID	Asia
+Georgian Airways	Georgian Airways	Q909076	GE	Asia
+Gol Transportes Aereos	Gol Transportes Aereos	Q691637	BR	Americas
+Gulf Air	Gulf Air	Q473231	BH	Asia
+Hainan Airlines	Hainan Airlines	Q292428	CN	Asia
+Hawaiian Airlines	Hawaiian Airlines	Q642610	US	Americas
+Helvetic Airways	Helvetic Airways	Q152490	CH	Europe
+HK Express	HK Express	Q1365358	CN	Asia
+Hong Kong Airlines	Hong Kong Airlines	Q1035195	CN	Asia
+Iberia	Iberia	Q187972	ES	Europe
+Icelandair	Icelandair	Q216645	IS	Europe
+IndiGo	IndiGo	Q1057110	IN	Asia
+Indonesia AirAsia	Indonesia AirAsia	Q745971	ID	Asia
+interCaribbean Airways	interCaribbean Airways		TC	?
+Iran Air	Iran Air	Q461631	IR	Asia
+Iraqi Airways	Iraqi Airways	Q853937	IQ	Asia
+Israir Airlines	Israir Airlines	Q558002	IL	Asia
+ITA Airways	ITA Airways	Q108251249	IT	Europe
+Japan Airlines	Japan Airlines	Q213140	JP	Asia
+Jazeera Airways	Jazeera Airways	Q1064048	KW	Asia
+Jet2.com	Jet2.com	Q1140807	GB	Europe
+JetBlue Airways	JetBlue Airways	Q161086	US	Americas
+JetSMART	JetSMART		CL	Americas
+Jetstar Airways	Jetstar Airways	Q767627	AU	Oceania
+Kam Air	Kam Air	Q597485	AF	Asia
+Kenya Airways	Kenya Airways	Q638900	KE	Africa
+KLM	KLM		NL	Europe
+Korean Air	Korean Air	Q213147	KR	Asia
+Kuwait Airways	Kuwait Airways	Q860389	KW	Asia
+LAM Mozambique Airlines	LAM Mozambique Airlines	Q1156479	MZ	Africa
+Lao Airlines	Lao Airlines	Q756172	LA	Asia
+LATAM Airlines	LATAM Airlines	Q649178	CL	Americas
+LATAM Brasil	LATAM Brasil	Q690789	BR	Americas
+Libyan Airlines	Libyan Airlines	Q387901	LY	Africa
+Lion Air	Lion Air	Q1056794	ID	Asia
+Loganair	Loganair	Q934983	GB	Europe
+LOT Polish Airlines	LOT Polish Airlines	Q204268	PL	Europe
+Lucky Air	Lucky Air	Q1873733	CN	Asia
+Lufthansa	Lufthansa	Q9325	DE	Europe
+Lufthansa CityLine	Lufthansa CityLine	Q162189	DE	Europe
+Lufthansa Regional	Lufthansa Regional	Q170159	DE	Europe
+Luxair	Luxair	Q726813	LU	Europe
+Mahan Air	Mahan Air	Q1149762	IR	Asia
+Malaysia Airlines	Malaysia Airlines	Q308952	MY	Asia
+Mandarin Airlines	Mandarin Airlines	Q1150302	TW	Asia
+MIAT Mongolian Airlines	MIAT Mongolian Airlines	Q564717	MN	Asia
+Middle East Airlines - Air Liban	Middle East Airlines - Air Liban	Q859510	LB	Asia
+Nauru Airlines	Nauru Airlines	Q192459	NR	Oceania
+Nepal Airlines	Nepal Airlines	Q588909	NP	Asia
+Nok Air	Nok Air	Q1065088	TH	Asia
+Norwegian Air Shuttle	Norwegian Air Shuttle	Q215392	NO	Europe
+Nouvelair	Nouvelair	Q225988	TN	Africa
+Olympic Air	Olympic Air	Q583843	GR	Europe
+Oman Air	Oman Air	Q860379	OM	Asia
+Pacific Airlines	Pacific Airlines	Q1156874	VN	Asia
+Pakistan International Airlines	Pakistan International Airlines	Q204887	PK	Asia
+Pegasus Airlines	Pegasus Airlines	Q1100424	TR	Asia
+Philippine Airlines	Philippine Airlines	Q846910	PH	Asia
+Pobeda	Pobeda	Q18398469	RU	Europe
+Qantas Airways	Qantas Airways	Q32491	AU	Oceania
+Qatar Airways	Qatar Airways	Q208033	QA	Asia
+Red Wings Airlines	Red Wings Airlines	Q1348402	RU	Europe
+Rossiya	Rossiya	Q727452	RU	Europe
+Royal Air Maroc	Royal Air Maroc	Q866103	MA	Africa
+Royal Brunei Airlines	Royal Brunei Airlines	Q1050783	BN	Asia
+Royal Jordanian	Royal Jordanian	Q824225	JO	Asia
+RwandAir	RwandAir	Q392542	RW	Africa
+Ryanair	Ryanair	Q170614	IE	Europe
+S7 Airlines	S7 Airlines	Q740844	RU	Europe
+SANSA	SANSA		CR	Americas
+Saudia	Saudia	Q541179	SA	Asia
+Scandinavian Airlines	Scandinavian Airlines	Q187854	DK	Europe
+Scoot	Scoot	Q1319404	SG	Asia
+Shanghai Airlines	Shanghai Airlines	Q721994	CN	Asia
+Shenzhen Airlines	Shenzhen Airlines	Q974899	CN	Asia
+Sichuan Airlines	Sichuan Airlines	Q291944	CN	Asia
+Singapore Airlines	Singapore Airlines	Q32245	SG	Asia
+Sky Airline	Sky Airline		CL	Americas
+Smartavia	Smartavia	Q519211	RU	Europe
+Smartwings	Smartwings	Q1853488	CZ	Europe
+South African Airways	South African Airways	Q223763	ZA	Africa
+Southwest Airlines	Southwest Airlines	Q503308	US	Americas
+SpiceJet	SpiceJet	Q943813	IN	Asia
+SriLankan Airlines	SriLankan Airlines	Q853293	LK	Asia
+Sriwijaya Air	Sriwijaya Air	Q619089	ID	Asia
+Star Peru	Star Peru		PE	Americas
+Sudan Airways	Sudan Airways	Q864117	SD	Africa
+SunExpress	SunExpress	Q1137136	TR	Asia
+Sunrise Airways	Sunrise Airways		HT	Americas
+Swiss International Air Lines	Swiss International Air Lines	Q156776	CH	Europe
+Syrian Air	Syrian Air	Q859245	SY	Asia
+TAAG Angola Airlines	TAAG Angola Airlines	Q1050518	AO	Africa
+TAG Airlines	TAG Airlines		GT	Americas
+Tajik Air	Tajik Air	Q528978	TJ	Asia
+TAP Air Portugal	TAP Air Portugal	Q208232	PT	Europe
+TAROM	TAROM	Q240656	RO	Europe
+Thai Airways	Thai Airways	Q188710	TH	Asia
+Total Linhas Aereas	Total Linhas Aereas		BR	Americas
+Tropic Air	Tropic Air		BZ	Americas
+TUI Airways	TUI Airways	Q1156859	GB	Europe
+TUI fly Belgium	TUI fly Belgium	Q526550	BE	Europe
+TUI fly Deutschland	TUI fly Deutschland	Q508417	DE	Europe
+Tunisair	Tunisair	Q692811	TN	Africa
+Turkish Airlines	Turkish Airlines	Q4548	TR	Asia
+Turkmenistan Airlines	Turkmenistan Airlines	Q796158	TM	Asia
+United Airlines	United Airlines	Q174769	US	Americas
+UPS Airlines	UPS Airlines	Q1318737	US	Americas
+Ural Airlines	Ural Airlines	Q581161	RU	Europe
+UTair Aviation	UTair Aviation	Q1065835	RU	Europe
+Uzbekistan Airways	Uzbekistan Airways	Q610003	UZ	Asia
+VietJet Air	VietJet Air	Q853878	VN	Asia
+Vietnam Airlines	Vietnam Airlines	Q174386	VN	Asia
+Virgin Atlantic	Virgin Atlantic	Q32277	GB	Europe
+Virgin Australia	Virgin Australia	Q727074	AU	Oceania
+Vistara	Vistara	Q17502128	IN	Asia
+Volaris	Volaris	Q431757	MX	Americas
+Volga-Dnepr Airlines	Volga-Dnepr Airlines	Q765297	RU	Europe
+Volotea	Volotea	Q2296193	ES	Europe
+Vueling	Vueling	Q646741	ES	Europe
+WestJet	WestJet	Q1059770	CA	Americas
+Wingo	Wingo		CO	Americas
+Wizz Air	Wizz Air	Q335147	HU	Europe
+Xiamen Airlines	Xiamen Airlines	Q147208	CN	Asia
+Yakutia Airlines	Yakutia Airlines	Q1364772	RU	Europe
+Yemenia	Yemenia	Q662091	YE	Asia
+Yeti Airlines	Yeti Airlines	Q1480118	NP	Asia

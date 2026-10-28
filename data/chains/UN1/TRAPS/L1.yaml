@@ -1,0 +1,46 @@
+A: FR
+C: nato
+C_name: NATO member states
+N_p: CH
+N_t:
+- ID
+- JP
+- IL
+- TC
+- SV
+- MH
+- OM
+P_M:
+- ME
+- US
+- AL
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - g20
+    - g7
+    - oecd
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- council_of_europe
+- ehea
+- erasmus_countries
+- european_union
+- francophonie
+- g20
+- g7
+- oecd
+- schengen_area
+field: applicants.nationality
+label: review docket W8
+salience: 2551051.0
+universe: country

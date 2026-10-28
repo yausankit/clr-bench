@@ -1,0 +1,341 @@
+list_id	role	value	evidence	verified
+ucl_winners	member	Benfica	raw/pages/ucl_finals.json: table 4 row 10 column 0; title='S.L. Benfica'; display='Benfica'	PASS
+ucl_winners	member	Milan	raw/pages/ucl_finals.json: table 4 row 2 column 0; title='AC Milan'; display='Milan'	PASS
+ucl_winners	member	Bayern Munich	raw/pages/ucl_finals.json: table 4 row 3 column 0; title='FC Bayern Munich'; display='Bayern Munich'	PASS
+ucl_winners	member	Feyenoord	raw/pages/ucl_finals.json: table 4 row 21 column 0; title='Feyenoord'; display='Feyenoord'	PASS
+ucl_winners	member	Liverpool	raw/pages/ucl_finals.json: table 4 row 4 column 0; title='Liverpool F.C.'; display='Liverpool'	PASS
+ucl_winners	nonmember	Torino	raw/pages/ucl_finals.json: scanned all 24 parsed rows at {'kind': 'table', 'page': 'ucl_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Torino'	PASS
+ucl_winners	nonmember	Dinamo Tbilisi	raw/pages/ucl_finals.json: scanned all 24 parsed rows at {'kind': 'table', 'page': 'ucl_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Dinamo Tbilisi'	PASS
+ucl_winners	nonmember	Pro Patria	raw/pages/ucl_finals.json: scanned all 24 parsed rows at {'kind': 'table', 'page': 'ucl_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Pro Patria'	PASS
+ucl_winners	nonmember	Arsenal	raw/pages/ucl_finals.json: scanned all 24 parsed rows at {'kind': 'table', 'page': 'ucl_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Arsenal'	PASS
+ucl_winners	nonmember	Norwich City	raw/pages/ucl_finals.json: scanned all 24 parsed rows at {'kind': 'table', 'page': 'ucl_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Norwich City'	PASS
+uel_winners	member	Parma	raw/pages/uel_finals.json: table 4 row 12 column 0; title='Parma Calcio 1913'; display='Parma'	PASS
+uel_winners	member	Real Madrid	raw/pages/uel_finals.json: table 4 row 11 column 0; title='Real Madrid CF'; display='Real Madrid'	PASS
+uel_winners	member	Shakhtar Donetsk	raw/pages/uel_finals.json: table 4 row 28 column 0; title='FC Shakhtar Donetsk'; display='Shakhtar Donetsk'	PASS
+uel_winners	member	PSV Eindhoven	raw/pages/uel_finals.json: table 4 row 19 column 0; title='PSV Eindhoven'; display='PSV Eindhoven'	PASS
+uel_winners	member	Anderlecht	raw/pages/uel_finals.json: table 4 row 16 column 0; title='RSC Anderlecht'; display='Anderlecht'	PASS
+uel_winners	nonmember	Red Star Belgrade	raw/pages/uel_finals.json: scanned all 31 parsed rows at {'kind': 'table', 'page': 'uel_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Red Star Belgrade'	PASS
+uel_winners	nonmember	Pachuca	raw/pages/uel_finals.json: scanned all 31 parsed rows at {'kind': 'table', 'page': 'uel_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Pachuca'	PASS
+uel_winners	nonmember	Malmö FF	raw/pages/uel_finals.json: scanned all 31 parsed rows at {'kind': 'table', 'page': 'uel_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Malmö FF'	PASS
+uel_winners	nonmember	Genoa	raw/pages/uel_finals.json: scanned all 31 parsed rows at {'kind': 'table', 'page': 'uel_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Genoa'	PASS
+uel_winners	nonmember	Al Hilal	raw/pages/uel_finals.json: scanned all 31 parsed rows at {'kind': 'table', 'page': 'uel_finals', 'index': 4, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Al Hilal'	PASS
+cup_winners_cup_winners	member	Hamburger SV	raw/pages/cup_winners_cup_finals.json: table 3 row 11 column 0; title='Hamburger SV'; display='Hamburger SV'	PASS
+cup_winners_cup_winners	member	Everton	raw/pages/cup_winners_cup_finals.json: table 3 row 27 column 0; title='Everton F.C.'; display='Everton'	PASS
+cup_winners_cup_winners	member	Arsenal	raw/pages/cup_winners_cup_finals.json: table 3 row 8 column 0; title='Arsenal F.C.'; display='Arsenal'	PASS
+cup_winners_cup_winners	member	Lazio	raw/pages/cup_winners_cup_finals.json: table 3 row 32 column 0; title='SS Lazio'; display='Lazio'	PASS
+cup_winners_cup_winners	member	Milan	raw/pages/cup_winners_cup_finals.json: table 3 row 3 column 0; title='AC Milan'; display='Milan'	PASS
+cup_winners_cup_winners	nonmember	Real Sociedad	raw/pages/cup_winners_cup_finals.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cup_winners_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Real Sociedad'	PASS
+cup_winners_cup_winners	nonmember	Porto	raw/pages/cup_winners_cup_finals.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cup_winners_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Porto'	PASS
+cup_winners_cup_winners	nonmember	Saint-Étienne	raw/pages/cup_winners_cup_finals.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cup_winners_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Saint-Étienne'	PASS
+cup_winners_cup_winners	nonmember	Brest	raw/pages/cup_winners_cup_finals.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cup_winners_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Brest'	PASS
+cup_winners_cup_winners	nonmember	Monterrey	raw/pages/cup_winners_cup_finals.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cup_winners_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Monterrey'	PASS
+club_world_cup_winners	member	Inter Milan	raw/pages/club_world_cup_finals.json: table 3 row 11 column 0; title='Inter Milan'; display='Internazionale'	PASS
+club_world_cup_winners	member	Liverpool	raw/pages/club_world_cup_finals.json: table 3 row 6 column 0; title='Liverpool F.C.'; display='Liverpool'	PASS
+club_world_cup_winners	member	Barcelona	raw/pages/club_world_cup_finals.json: table 3 row 2 column 0; title='FC Barcelona'; display='Barcelona'	PASS
+club_world_cup_winners	member	Corinthians	raw/pages/club_world_cup_finals.json: table 3 row 3 column 0; title='Sport Club Corinthians Paulista'; display='Corinthians'	PASS
+club_world_cup_winners	member	Chelsea	raw/pages/club_world_cup_finals.json: table 3 row 5 column 0; title='Chelsea F.C.'; display='Chelsea'	PASS
+club_world_cup_winners	nonmember	Atlético Madrid	raw/pages/club_world_cup_finals.json: scanned all 12 parsed rows at {'kind': 'table', 'page': 'club_world_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Atlético Madrid'	PASS
+club_world_cup_winners	nonmember	Arsenal	raw/pages/club_world_cup_finals.json: scanned all 12 parsed rows at {'kind': 'table', 'page': 'club_world_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Arsenal'	PASS
+club_world_cup_winners	nonmember	Urawa Red Diamonds	raw/pages/club_world_cup_finals.json: scanned all 12 parsed rows at {'kind': 'table', 'page': 'club_world_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Urawa Red Diamonds'	PASS
+club_world_cup_winners	nonmember	Hamburger SV	raw/pages/club_world_cup_finals.json: scanned all 12 parsed rows at {'kind': 'table', 'page': 'club_world_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Hamburger SV'	PASS
+club_world_cup_winners	nonmember	Valencia	raw/pages/club_world_cup_finals.json: scanned all 12 parsed rows at {'kind': 'table', 'page': 'club_world_cup_finals', 'index': 3, 'column': 0, 'filter_column': 1, 'filter_min': 1, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Valencia'	PASS
+super_league_founders	member	Tottenham Hotspur	raw/pages/european_super_league.json: list 1 item 12; title='Tottenham Hotspur F.C.'; display='Tottenham Hotspur'	PASS
+super_league_founders	member	Milan	raw/pages/european_super_league.json: list 1 item 1; title='AC Milan'; display='AC Milan'	PASS
+super_league_founders	member	Chelsea	raw/pages/european_super_league.json: list 1 item 5; title='Chelsea F.C.'; display='Chelsea'	PASS
+super_league_founders	member	Arsenal	raw/pages/european_super_league.json: list 1 item 2; title='Arsenal F.C.'; display='Arsenal'	PASS
+super_league_founders	member	Manchester United	raw/pages/european_super_league.json: list 1 item 10; title='Manchester United F.C.'; display='Manchester United'	PASS
+super_league_founders	nonmember	Twente	raw/pages/european_super_league.json: scanned all 12 parsed rows at {'kind': 'list', 'page': 'european_super_league', 'index': 1, 'country_suffix': False}; canonical member set contains no 'Twente'	PASS
+super_league_founders	nonmember	Dynamo Kyiv	raw/pages/european_super_league.json: scanned all 12 parsed rows at {'kind': 'list', 'page': 'european_super_league', 'index': 1, 'country_suffix': False}; canonical member set contains no 'Dynamo Kyiv'	PASS
+super_league_founders	nonmember	Bayer Leverkusen	raw/pages/european_super_league.json: scanned all 12 parsed rows at {'kind': 'list', 'page': 'european_super_league', 'index': 1, 'country_suffix': False}; canonical member set contains no 'Bayer Leverkusen'	PASS
+super_league_founders	nonmember	Padova	raw/pages/european_super_league.json: scanned all 12 parsed rows at {'kind': 'list', 'page': 'european_super_league', 'index': 1, 'country_suffix': False}; canonical member set contains no 'Padova'	PASS
+super_league_founders	nonmember	Palmeiras	raw/pages/european_super_league.json: scanned all 12 parsed rows at {'kind': 'list', 'page': 'european_super_league', 'index': 1, 'country_suffix': False}; canonical member set contains no 'Palmeiras'	PASS
+g14_members	member	Marseille	raw/pages/g14.json: list 0 item 8; title='Olympique de Marseille'; display='Marseille'	PASS
+g14_members	member	Barcelona	raw/pages/g14.json: list 0 item 2; title='FC Barcelona'; display='Barcelona'	PASS
+g14_members	member	Paris Saint-Germain	raw/pages/g14.json: list 0 item 9; title='Paris Saint-Germain F.C.'; display='Paris Saint-Germain'	PASS
+g14_members	member	Juventus	raw/pages/g14.json: list 0 item 6; title='Juventus FC'; display='Juventus'	PASS
+g14_members	member	PSV Eindhoven	raw/pages/g14.json: list 0 item 13; title='PSV Eindhoven'; display='PSV Eindhoven'	PASS
+g14_members	nonmember	Roma	raw/pages/g14.json: scanned all 14 parsed rows at {'kind': 'list', 'page': 'g14', 'index': 0, 'country_suffix': True}; canonical member set contains no 'Roma'	PASS
+g14_members	nonmember	Pro Patria	raw/pages/g14.json: scanned all 14 parsed rows at {'kind': 'list', 'page': 'g14', 'index': 0, 'country_suffix': True}; canonical member set contains no 'Pro Patria'	PASS
+g14_members	nonmember	Eintracht Frankfurt	raw/pages/g14.json: scanned all 14 parsed rows at {'kind': 'list', 'page': 'g14', 'index': 0, 'country_suffix': True}; canonical member set contains no 'Eintracht Frankfurt'	PASS
+g14_members	nonmember	Celtic	raw/pages/g14.json: scanned all 14 parsed rows at {'kind': 'list', 'page': 'g14', 'index': 0, 'country_suffix': True}; canonical member set contains no 'Celtic'	PASS
+g14_members	nonmember	Bayer Leverkusen	raw/pages/g14.json: scanned all 14 parsed rows at {'kind': 'list', 'page': 'g14', 'index': 0, 'country_suffix': True}; canonical member set contains no 'Bayer Leverkusen'	PASS
+club_world_cup_2025_participants	member	Inter Miami	raw/pages/cwc_2025.json: table 19 row 19 column 0; title='Inter Miami CF'; display='Inter Miami'	PASS
+club_world_cup_2025_participants	member	Al Ahly	raw/pages/cwc_2025.json: table 19 row 1 column 0; title='Al Ahly SC'; display='Al Ahly'	PASS
+club_world_cup_2025_participants	member	Chelsea	raw/pages/cwc_2025.json: table 19 row 13 column 0; title='Chelsea F.C.'; display='Chelsea'	PASS
+club_world_cup_2025_participants	member	Pachuca	raw/pages/cwc_2025.json: table 19 row 28 column 0; title='C.F. Pachuca'; display='Pachuca'	PASS
+club_world_cup_2025_participants	member	Benfica	raw/pages/cwc_2025.json: table 19 row 9 column 0; title='S.L. Benfica'; display='Benfica'	PASS
+club_world_cup_2025_participants	nonmember	Alessandria	raw/pages/cwc_2025.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cwc_2025', 'index': 19, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': 3, 'country_column': None}; canonical member set contains no 'Alessandria'	PASS
+club_world_cup_2025_participants	nonmember	Monaco	raw/pages/cwc_2025.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cwc_2025', 'index': 19, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': 3, 'country_column': None}; canonical member set contains no 'Monaco'	PASS
+club_world_cup_2025_participants	nonmember	Zaragoza	raw/pages/cwc_2025.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cwc_2025', 'index': 19, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': 3, 'country_column': None}; canonical member set contains no 'Zaragoza'	PASS
+club_world_cup_2025_participants	nonmember	Schalke 04	raw/pages/cwc_2025.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cwc_2025', 'index': 19, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': 3, 'country_column': None}; canonical member set contains no 'Schalke 04'	PASS
+club_world_cup_2025_participants	nonmember	Everton	raw/pages/cwc_2025.json: scanned all 32 parsed rows at {'kind': 'table', 'page': 'cwc_2025', 'index': 19, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': 3, 'country_column': None}; canonical member set contains no 'Everton'	PASS
+ucl_2024_25_league_phase	member	Young Boys	raw/pages/ucl_2024_25.json: table 12 row 36 column 1; title='BSC Young Boys'; display='Young Boys'	PASS
+ucl_2024_25_league_phase	member	Celtic	raw/pages/ucl_2024_25.json: table 12 row 21 column 1; title='Celtic F.C.'; display='Celtic'	PASS
+ucl_2024_25_league_phase	member	Liverpool	raw/pages/ucl_2024_25.json: table 12 row 1 column 1; title='Liverpool F.C.'; display='Liverpool'	PASS
+ucl_2024_25_league_phase	member	Arsenal	raw/pages/ucl_2024_25.json: table 12 row 3 column 1; title='Arsenal F.C.'; display='Arsenal'	PASS
+ucl_2024_25_league_phase	member	RB Leipzig	raw/pages/ucl_2024_25.json: table 12 row 32 column 1; title='RB Leipzig'; display='RB Leipzig'	PASS
+ucl_2024_25_league_phase	nonmember	Sheffield United	raw/pages/ucl_2024_25.json: scanned all 36 parsed rows at {'kind': 'table', 'page': 'ucl_2024_25', 'index': 12, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Sheffield United'	PASS
+ucl_2024_25_league_phase	nonmember	Athletic Bilbao	raw/pages/ucl_2024_25.json: scanned all 36 parsed rows at {'kind': 'table', 'page': 'ucl_2024_25', 'index': 12, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Athletic Bilbao'	PASS
+ucl_2024_25_league_phase	nonmember	Dundee United	raw/pages/ucl_2024_25.json: scanned all 36 parsed rows at {'kind': 'table', 'page': 'ucl_2024_25', 'index': 12, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Dundee United'	PASS
+ucl_2024_25_league_phase	nonmember	Lazio	raw/pages/ucl_2024_25.json: scanned all 36 parsed rows at {'kind': 'table', 'page': 'ucl_2024_25', 'index': 12, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Lazio'	PASS
+ucl_2024_25_league_phase	nonmember	Tottenham Hotspur	raw/pages/ucl_2024_25.json: scanned all 36 parsed rows at {'kind': 'table', 'page': 'ucl_2024_25', 'index': 12, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Tottenham Hotspur'	PASS
+premier_league_1992_93	member	Norwich City	raw/pages/premier_league_1992_93.json: table 1 row 14 column 0; title='Norwich City F.C.'; display='Norwich City'	PASS
+premier_league_1992_93	member	Sheffield United	raw/pages/premier_league_1992_93.json: table 1 row 18 column 0; title='Sheffield United F.C.'; display='Sheffield United'	PASS
+premier_league_1992_93	member	Arsenal	raw/pages/premier_league_1992_93.json: table 1 row 1 column 0; title='Arsenal F.C.'; display='Arsenal'	PASS
+premier_league_1992_93	member	Oldham Athletic	raw/pages/premier_league_1992_93.json: table 1 row 16 column 0; title='Oldham Athletic A.F.C.'; display='Oldham Athletic'	PASS
+premier_league_1992_93	member	Sheffield Wednesday	raw/pages/premier_league_1992_93.json: table 1 row 19 column 0; title='Sheffield Wednesday F.C.'; display='Sheffield Wednesday'	PASS
+premier_league_1992_93	nonmember	Pro Vercelli	raw/pages/premier_league_1992_93.json: scanned all 22 parsed rows at {'kind': 'table', 'page': 'premier_league_1992_93', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Pro Vercelli'	PASS
+premier_league_1992_93	nonmember	Urawa Red Diamonds	raw/pages/premier_league_1992_93.json: scanned all 22 parsed rows at {'kind': 'table', 'page': 'premier_league_1992_93', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Urawa Red Diamonds'	PASS
+premier_league_1992_93	nonmember	IFK Göteborg	raw/pages/premier_league_1992_93.json: scanned all 22 parsed rows at {'kind': 'table', 'page': 'premier_league_1992_93', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'IFK Göteborg'	PASS
+premier_league_1992_93	nonmember	1. FC Nürnberg	raw/pages/premier_league_1992_93.json: scanned all 22 parsed rows at {'kind': 'table', 'page': 'premier_league_1992_93', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no '1. FC Nürnberg'	PASS
+premier_league_1992_93	nonmember	Sevilla	raw/pages/premier_league_1992_93.json: scanned all 22 parsed rows at {'kind': 'table', 'page': 'premier_league_1992_93', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Sevilla'	PASS
+laliga_1929	member	Europa	raw/pages/laliga_1929.json: table 2 row 6 column 0; title='CE Europa'; display='Europa'	PASS
+laliga_1929	member	Atlético Madrid	raw/pages/laliga_1929.json: table 2 row 3 column 0; title='Atlético de Madrid'; display='Athletic Madrid'	PASS
+laliga_1929	member	Athletic Bilbao	raw/pages/laliga_1929.json: table 2 row 2 column 0; title='Athletic Bilbao'; display='Athletic Bilbao'	PASS
+laliga_1929	member	Racing Santander	raw/pages/laliga_1929.json: table 2 row 7 column 0; title='Racing de Santander'; display='Racing Santander'	PASS
+laliga_1929	member	Español	raw/pages/laliga_1929.json: table 2 row 5 column 0; title='RCD Espanyol'; display='Español'	PASS
+laliga_1929	nonmember	Lille	raw/pages/laliga_1929.json: scanned all 10 parsed rows at {'kind': 'table', 'page': 'laliga_1929', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Lille'	PASS
+laliga_1929	nonmember	SC Freiburg	raw/pages/laliga_1929.json: scanned all 10 parsed rows at {'kind': 'table', 'page': 'laliga_1929', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'SC Freiburg'	PASS
+laliga_1929	nonmember	Pro Vercelli	raw/pages/laliga_1929.json: scanned all 10 parsed rows at {'kind': 'table', 'page': 'laliga_1929', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Pro Vercelli'	PASS
+laliga_1929	nonmember	Roma	raw/pages/laliga_1929.json: scanned all 10 parsed rows at {'kind': 'table', 'page': 'laliga_1929', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Roma'	PASS
+laliga_1929	nonmember	West Ham United	raw/pages/laliga_1929.json: scanned all 10 parsed rows at {'kind': 'table', 'page': 'laliga_1929', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'West Ham United'	PASS
+bundesliga_1963_64	member	Eintracht Frankfurt	raw/pages/bundesliga_1963_64.json: table 1 row 3 column 0; title='Eintracht Frankfurt'; display='Eintracht Frankfurt'	PASS
+bundesliga_1963_64	member	Preußen Münster	raw/pages/bundesliga_1963_64.json: table 1 row 12 column 0; title='SC Preußen Münster'; display='Preußen Münster'	PASS
+bundesliga_1963_64	member	Karlsruher SC	raw/pages/bundesliga_1963_64.json: table 1 row 7 column 0; title='Karlsruher SC'; display='Karlsruher SC'	PASS
+bundesliga_1963_64	member	1. FC Kaiserslautern	raw/pages/bundesliga_1963_64.json: table 1 row 6 column 0; title='1. FC Kaiserslautern'; display='1. FC Kaiserslautern'	PASS
+bundesliga_1963_64	member	Eintracht Braunschweig	raw/pages/bundesliga_1963_64.json: table 1 row 2 column 0; title='Eintracht Braunschweig'; display='Eintracht Braunschweig'	PASS
+bundesliga_1963_64	nonmember	Atalanta	raw/pages/bundesliga_1963_64.json: scanned all 16 parsed rows at {'kind': 'table', 'page': 'bundesliga_1963_64', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Atalanta'	PASS
+bundesliga_1963_64	nonmember	Milan	raw/pages/bundesliga_1963_64.json: scanned all 16 parsed rows at {'kind': 'table', 'page': 'bundesliga_1963_64', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Milan'	PASS
+bundesliga_1963_64	nonmember	Liverpool	raw/pages/bundesliga_1963_64.json: scanned all 16 parsed rows at {'kind': 'table', 'page': 'bundesliga_1963_64', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Liverpool'	PASS
+bundesliga_1963_64	nonmember	Manchester City	raw/pages/bundesliga_1963_64.json: scanned all 16 parsed rows at {'kind': 'table', 'page': 'bundesliga_1963_64', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Manchester City'	PASS
+bundesliga_1963_64	nonmember	West Ham United	raw/pages/bundesliga_1963_64.json: scanned all 16 parsed rows at {'kind': 'table', 'page': 'bundesliga_1963_64', 'index': 1, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'West Ham United'	PASS
+seriea_1929_30	member	Inter Milan	raw/pages/seriea_1929_30.json: table 2 row 1 column 1; title='Inter Milan'; display='Ambrosiana'	PASS
+seriea_1929_30	member	Napoli	raw/pages/seriea_1929_30.json: table 2 row 5 column 1; title='SSC Napoli'; display='Napoli'	PASS
+seriea_1929_30	member	Genoa	raw/pages/seriea_1929_30.json: table 2 row 2 column 1; title='Genoa CFC'; display='Genoa'	PASS
+seriea_1929_30	member	Torino	raw/pages/seriea_1929_30.json: table 2 row 4 column 1; title='Torino FC'; display='Torino'	PASS
+seriea_1929_30	member	Milan	raw/pages/seriea_1929_30.json: table 2 row 11 column 1; title='AC Milan'; display='Milan'	PASS
+seriea_1929_30	nonmember	Racing Santander	raw/pages/seriea_1929_30.json: scanned all 18 parsed rows at {'kind': 'table', 'page': 'seriea_1929_30', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Racing Santander'	PASS
+seriea_1929_30	nonmember	Werder Bremen	raw/pages/seriea_1929_30.json: scanned all 18 parsed rows at {'kind': 'table', 'page': 'seriea_1929_30', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Werder Bremen'	PASS
+seriea_1929_30	nonmember	Red Bull Salzburg	raw/pages/seriea_1929_30.json: scanned all 18 parsed rows at {'kind': 'table', 'page': 'seriea_1929_30', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Red Bull Salzburg'	PASS
+seriea_1929_30	nonmember	Seattle Sounders	raw/pages/seriea_1929_30.json: scanned all 18 parsed rows at {'kind': 'table', 'page': 'seriea_1929_30', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Seattle Sounders'	PASS
+seriea_1929_30	nonmember	SC Freiburg	raw/pages/seriea_1929_30.json: scanned all 18 parsed rows at {'kind': 'table', 'page': 'seriea_1929_30', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'SC Freiburg'	PASS
+cac_40	member	Thales	raw/pages/cac_40.json: table 4 row 36 column 0; title='Thales Group'; display='Thales'	PASS
+cac_40	member	Danone	raw/pages/cac_40.json: table 4 row 12 column 0; title='Danone'; display='Danone'	PASS
+cac_40	member	Euronext	raw/pages/cac_40.json: table 4 row 18 column 0; title='Euronext'; display='Euronext'	PASS
+cac_40	member	Air Liquide	raw/pages/cac_40.json: table 4 row 2 column 0; title='Air Liquide'; display='Air Liquide'	PASS
+cac_40	member	Sanofi	raw/pages/cac_40.json: table 4 row 31 column 0; title='Sanofi'; display='Sanofi'	PASS
+cac_40	nonmember	Capital One	raw/pages/cac_40.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'cac_40', 'index': 4, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Capital One'	PASS
+cac_40	nonmember	Alfa Laval	raw/pages/cac_40.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'cac_40', 'index': 4, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Alfa Laval'	PASS
+cac_40	nonmember	Monolithic Power Systems	raw/pages/cac_40.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'cac_40', 'index': 4, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Monolithic Power Systems'	PASS
+cac_40	nonmember	Deutsche Post	raw/pages/cac_40.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'cac_40', 'index': 4, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Deutsche Post'	PASS
+cac_40	nonmember	Mediobanca	raw/pages/cac_40.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'cac_40', 'index': 4, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Mediobanca'	PASS
+ibex_35	member	Logista	raw/pages/ibex_35.json: table 2 row 21 column 1; title='Logista'; display='Logista'	PASS
+ibex_35	member	Telefónica	raw/pages/ibex_35.json: table 2 row 34 column 1; title='Telefónica'; display='Telefónica'	PASS
+ibex_35	member	Acerinox	raw/pages/ibex_35.json: table 2 row 2 column 1; title='Acerinox'; display='Acerinox'	PASS
+ibex_35	member	Banco Sabadell	raw/pages/ibex_35.json: table 2 row 30 column 1; title='Banco Sabadell'; display='Banco Sabadell'	PASS
+ibex_35	member	Ferrovial	raw/pages/ibex_35.json: table 2 row 15 column 1; title='Ferrovial'; display='Ferrovial'	PASS
+ibex_35	nonmember	Balfour Beatty	raw/pages/ibex_35.json: scanned all 35 parsed rows at {'kind': 'table', 'page': 'ibex_35', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Balfour Beatty'	PASS
+ibex_35	nonmember	Marriott International	raw/pages/ibex_35.json: scanned all 35 parsed rows at {'kind': 'table', 'page': 'ibex_35', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Marriott International'	PASS
+ibex_35	nonmember	British American Tobacco	raw/pages/ibex_35.json: scanned all 35 parsed rows at {'kind': 'table', 'page': 'ibex_35', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'British American Tobacco'	PASS
+ibex_35	nonmember	Baloise	raw/pages/ibex_35.json: scanned all 35 parsed rows at {'kind': 'table', 'page': 'ibex_35', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Baloise'	PASS
+ibex_35	nonmember	Deutsche Börse	raw/pages/ibex_35.json: scanned all 35 parsed rows at {'kind': 'table', 'page': 'ibex_35', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Deutsche Börse'	PASS
+ftse_mib	member	Poste Italiane	raw/pages/ftse_mib.json: table 1 row 29 column 1; title='Poste italiane'; display='Poste italiane'	PASS
+ftse_mib	member	Campari	raw/pages/ftse_mib.json: table 1 row 11 column 1; title='Davide Campari - Milano'; display='Campari'	PASS
+ftse_mib	member	Generali	raw/pages/ftse_mib.json: table 1 row 18 column 1; title='Assicurazioni Generali'; display='Generali'	PASS
+ftse_mib	member	Saipem	raw/pages/ftse_mib.json: table 1 row 32 column 1; title='Saipem'; display='Saipem'	PASS
+ftse_mib	member	FinecoBank	raw/pages/ftse_mib.json: table 1 row 17 column 1; title='FinecoBank'; display='FinecoBank'	PASS
+ftse_mib	nonmember	Amazon	raw/pages/ftse_mib.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'ftse_mib', 'index': 1, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Amazon'	PASS
+ftse_mib	nonmember	Direct Line	raw/pages/ftse_mib.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'ftse_mib', 'index': 1, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Direct Line'	PASS
+ftse_mib	nonmember	Antofagasta plc	raw/pages/ftse_mib.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'ftse_mib', 'index': 1, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Antofagasta plc'	PASS
+ftse_mib	nonmember	Zurich Insurance Group	raw/pages/ftse_mib.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'ftse_mib', 'index': 1, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Zurich Insurance Group'	PASS
+ftse_mib	nonmember	Comcast	raw/pages/ftse_mib.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'ftse_mib', 'index': 1, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Comcast'	PASS
+dax	member	Adidas	raw/pages/dax.json: table 4 row 1 column 2; title='Adidas'; display='Adidas'	PASS
+dax	member	SAP	raw/pages/dax.json: table 4 row 32 column 2; title='SAP'; display='SAP'	PASS
+dax	member	Allianz	raw/pages/dax.json: table 4 row 3 column 2; title='Allianz'; display='Allianz'	PASS
+dax	member	E.ON	raw/pages/dax.json: table 4 row 16 column 2; title='E.ON'; display='E.ON'	PASS
+dax	member	Daimler Truck	raw/pages/dax.json: table 4 row 11 column 2; title='Daimler Truck'; display='Daimler Truck'	PASS
+dax	nonmember	Ørsted	raw/pages/dax.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'dax', 'index': 4, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Ørsted'	PASS
+dax	nonmember	Porsche	raw/pages/dax.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'dax', 'index': 4, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Porsche'	PASS
+dax	nonmember	Transocean	raw/pages/dax.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'dax', 'index': 4, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Transocean'	PASS
+dax	nonmember	Stora Enso	raw/pages/dax.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'dax', 'index': 4, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Stora Enso'	PASS
+dax	nonmember	Kering	raw/pages/dax.json: scanned all 40 parsed rows at {'kind': 'table', 'page': 'dax', 'index': 4, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Kering'	PASS
+aex	member	Unilever	raw/pages/aex.json: table 3 row 24 column 1; title='Unilever'; display='Unilever'	PASS
+aex	member	IMCD	raw/pages/aex.json: table 3 row 14 column 1; title='IMCD'; display='IMCD'	PASS
+aex	member	Randstad	raw/pages/aex.json: table 3 row 20 column 1; title='Randstad NV'; display='Randstad'	PASS
+aex	member	NN Group	raw/pages/aex.json: table 3 row 17 column 1; title='NN Group'; display='NN Group'	PASS
+aex	member	Aegon	raw/pages/aex.json: table 3 row 3 column 1; title='Aegon N.V.'; display='Aegon'	PASS
+aex	nonmember	TeamViewer	raw/pages/aex.json: scanned all 25 parsed rows at {'kind': 'table', 'page': 'aex', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'TeamViewer'	PASS
+aex	nonmember	St. James's Place	"raw/pages/aex.json: scanned all 25 parsed rows at {'kind': 'table', 'page': 'aex', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no ""St. James's Place"""	PASS
+aex	nonmember	Assa Abloy	raw/pages/aex.json: scanned all 25 parsed rows at {'kind': 'table', 'page': 'aex', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Assa Abloy'	PASS
+aex	nonmember	Flutter Entertainment	raw/pages/aex.json: scanned all 25 parsed rows at {'kind': 'table', 'page': 'aex', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Flutter Entertainment'	PASS
+aex	nonmember	RTX Corporation	raw/pages/aex.json: scanned all 25 parsed rows at {'kind': 'table', 'page': 'aex', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'RTX Corporation'	PASS
+bel_20	member	Melexis	raw/pages/bel_20.json: table 2 row 13 column 0; title='Melexis'; display='Melexis'	PASS
+bel_20	member	Ackermans & van Haaren	raw/pages/bel_20.json: table 2 row 2 column 0; title='Ackermans & van Haaren'; display='Ackermans & van Haaren'	PASS
+bel_20	member	GBL	raw/pages/bel_20.json: table 2 row 10 column 0; title='Groupe Bruxelles Lambert'; display='GBL'	PASS
+bel_20	member	Lotus Bakeries	raw/pages/bel_20.json: table 2 row 12 column 0; title='Lotus Bakeries'; display='Lotus Bakeries'	PASS
+bel_20	member	Azelis Group	raw/pages/bel_20.json: table 2 row 7 column 0; title='Azelis Group'; display='Azelis Group'	PASS
+bel_20	nonmember	PolyPeptide	raw/pages/bel_20.json: scanned all 20 parsed rows at {'kind': 'table', 'page': 'bel_20', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'PolyPeptide'	PASS
+bel_20	nonmember	Tesco	raw/pages/bel_20.json: scanned all 20 parsed rows at {'kind': 'table', 'page': 'bel_20', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Tesco'	PASS
+bel_20	nonmember	Daimler Truck	raw/pages/bel_20.json: scanned all 20 parsed rows at {'kind': 'table', 'page': 'bel_20', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Daimler Truck'	PASS
+bel_20	nonmember	SpaceX	raw/pages/bel_20.json: scanned all 20 parsed rows at {'kind': 'table', 'page': 'bel_20', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'SpaceX'	PASS
+bel_20	nonmember	Logista	raw/pages/bel_20.json: scanned all 20 parsed rows at {'kind': 'table', 'page': 'bel_20', 'index': 2, 'column': 0, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Logista'	PASS
+euro_stoxx_50	member	Nordea	raw/pages/euro_stoxx_50.json: table 3 row 36 column 2; title='Nordea'; display='Nordea'	PASS
+euro_stoxx_50	member	Danone	raw/pages/euro_stoxx_50.json: table 3 row 17 column 2; title='Danone'; display='Danone'	PASS
+euro_stoxx_50	member	UniCredit	raw/pages/euro_stoxx_50.json: table 3 row 48 column 2; title='UniCredit'; display='UniCredit'	PASS
+euro_stoxx_50	member	Deutsche Post	raw/pages/euro_stoxx_50.json: table 3 row 20 column 2; title='Deutsche Post'; display='Deutsche Post'	PASS
+euro_stoxx_50	member	Volkswagen Group	raw/pages/euro_stoxx_50.json: table 3 row 49 column 2; title='Volkswagen Group'; display='Volkswagen Group'	PASS
+euro_stoxx_50	nonmember	Arista Networks	raw/pages/euro_stoxx_50.json: scanned all 50 parsed rows at {'kind': 'table', 'page': 'euro_stoxx_50', 'index': 3, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Arista Networks'	PASS
+euro_stoxx_50	nonmember	Abbott Laboratories	raw/pages/euro_stoxx_50.json: scanned all 50 parsed rows at {'kind': 'table', 'page': 'euro_stoxx_50', 'index': 3, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Abbott Laboratories'	PASS
+euro_stoxx_50	nonmember	Demant	raw/pages/euro_stoxx_50.json: scanned all 50 parsed rows at {'kind': 'table', 'page': 'euro_stoxx_50', 'index': 3, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Demant'	PASS
+euro_stoxx_50	nonmember	Beazley	raw/pages/euro_stoxx_50.json: scanned all 50 parsed rows at {'kind': 'table', 'page': 'euro_stoxx_50', 'index': 3, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Beazley'	PASS
+euro_stoxx_50	nonmember	Adobe	raw/pages/euro_stoxx_50.json: scanned all 50 parsed rows at {'kind': 'table', 'page': 'euro_stoxx_50', 'index': 3, 'column': 2, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Adobe'	PASS
+dow_jones	member	Chevron	raw/pages/dow_jones.json: navbox link 12; title='Chevron Corporation'; display='Chevron'	PASS
+dow_jones	member	Amazon	raw/pages/dow_jones.json: navbox link 6; title='Amazon (company)'; display='Amazon'	PASS
+dow_jones	member	Honeywell Technologies	raw/pages/dow_jones.json: navbox link 18; title='Honeywell'; display='Honeywell Technologies'	PASS
+dow_jones	member	Home Depot	raw/pages/dow_jones.json: navbox link 17; title='Home Depot'; display='Home Depot'	PASS
+dow_jones	member	Procter & Gamble	raw/pages/dow_jones.json: navbox link 27; title='Procter & Gamble'; display='Procter & Gamble'	PASS
+dow_jones	nonmember	Argenx	raw/pages/dow_jones.json: scanned all 30 parsed rows at {'kind': 'navbox', 'page': 'dow_jones', 'contains': 'Components of the Dow Jones'}; canonical member set contains no 'Argenx'	PASS
+dow_jones	nonmember	Brenntag	raw/pages/dow_jones.json: scanned all 30 parsed rows at {'kind': 'navbox', 'page': 'dow_jones', 'contains': 'Components of the Dow Jones'}; canonical member set contains no 'Brenntag'	PASS
+dow_jones	nonmember	Amplifon	raw/pages/dow_jones.json: scanned all 30 parsed rows at {'kind': 'navbox', 'page': 'dow_jones', 'contains': 'Components of the Dow Jones'}; canonical member set contains no 'Amplifon'	PASS
+dow_jones	nonmember	Standard Life plc	raw/pages/dow_jones.json: scanned all 30 parsed rows at {'kind': 'navbox', 'page': 'dow_jones', 'contains': 'Components of the Dow Jones'}; canonical member set contains no 'Standard Life plc'	PASS
+dow_jones	nonmember	Pearson	raw/pages/dow_jones.json: scanned all 30 parsed rows at {'kind': 'navbox', 'page': 'dow_jones', 'contains': 'Components of the Dow Jones'}; canonical member set contains no 'Pearson'	PASS
+sp_100	member	Emerson Electric	raw/pages/sp_100.json: table 2 row 36 column 1; title='Emerson Electric'; display='Emerson Electric'	PASS
+sp_100	member	Wells Fargo	raw/pages/sp_100.json: table 2 row 99 column 1; title='Wells Fargo'; display='Wells Fargo'	PASS
+sp_100	member	CVS Health	raw/pages/sp_100.json: table 2 row 29 column 1; title='CVS Health'; display='CVS Health'	PASS
+sp_100	member	Philip Morris International	raw/pages/sp_100.json: table 2 row 80 column 1; title='Philip Morris International'; display='Philip Morris International'	PASS
+sp_100	member	Dell Technologies	raw/pages/sp_100.json: table 2 row 32 column 1; title='Dell Technologies'; display='Dell Technologies'	PASS
+sp_100	nonmember	Flutter Entertainment	raw/pages/sp_100.json: scanned all 100 parsed rows at {'kind': 'table', 'page': 'sp_100', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Flutter Entertainment'	PASS
+sp_100	nonmember	Cintas	raw/pages/sp_100.json: scanned all 100 parsed rows at {'kind': 'table', 'page': 'sp_100', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Cintas'	PASS
+sp_100	nonmember	UPM-Kymmene	raw/pages/sp_100.json: scanned all 100 parsed rows at {'kind': 'table', 'page': 'sp_100', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'UPM-Kymmene'	PASS
+sp_100	nonmember	GN Store Nord	raw/pages/sp_100.json: scanned all 100 parsed rows at {'kind': 'table', 'page': 'sp_100', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'GN Store Nord'	PASS
+sp_100	nonmember	Nokia	raw/pages/sp_100.json: scanned all 100 parsed rows at {'kind': 'table', 'page': 'sp_100', 'index': 2, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Nokia'	PASS
+nasdaq_100	member	Baker Hughes	raw/pages/nasdaq_100.json: navbox link 23; title='Baker Hughes'; display='Baker Hughes'	PASS
+nasdaq_100	member	Applied Materials	raw/pages/nasdaq_100.json: navbox link 16; title='Applied Materials'; display='Applied Materials'	PASS
+nasdaq_100	member	Dexcom	raw/pages/nasdaq_100.json: navbox link 38; title='Dexcom'; display='Dexcom'	PASS
+nasdaq_100	member	Old Dominion	raw/pages/nasdaq_100.json: navbox link 75; title='Old Dominion Freight Line'; display='Old Dominion'	PASS
+nasdaq_100	member	Astera Labs	raw/pages/nasdaq_100.json: navbox link 20; title='Astera Labs'; display='Astera Labs'	PASS
+nasdaq_100	nonmember	Adevinta	raw/pages/nasdaq_100.json: scanned all 100 parsed rows at {'kind': 'navbox', 'page': 'nasdaq_100', 'contains': 'List of NASDAQ-100 companies'}; canonical member set contains no 'Adevinta'	PASS
+nasdaq_100	nonmember	Prudential plc	raw/pages/nasdaq_100.json: scanned all 100 parsed rows at {'kind': 'navbox', 'page': 'nasdaq_100', 'contains': 'List of NASDAQ-100 companies'}; canonical member set contains no 'Prudential plc'	PASS
+nasdaq_100	nonmember	ArcelorMittal	raw/pages/nasdaq_100.json: scanned all 100 parsed rows at {'kind': 'navbox', 'page': 'nasdaq_100', 'contains': 'List of NASDAQ-100 companies'}; canonical member set contains no 'ArcelorMittal'	PASS
+nasdaq_100	nonmember	Sage Group	raw/pages/nasdaq_100.json: scanned all 100 parsed rows at {'kind': 'navbox', 'page': 'nasdaq_100', 'contains': 'List of NASDAQ-100 companies'}; canonical member set contains no 'Sage Group'	PASS
+nasdaq_100	nonmember	Altria	raw/pages/nasdaq_100.json: scanned all 100 parsed rows at {'kind': 'navbox', 'page': 'nasdaq_100', 'contains': 'List of NASDAQ-100 companies'}; canonical member set contains no 'Altria'	PASS
+sp_500	member	FedEx	raw/pages/sp_500.json: table 0 row 192 column 1; title='FedEx'; display='FedEx'	PASS
+sp_500	member	General Dynamics	raw/pages/sp_500.json: table 0 row 215 column 1; title='General Dynamics'; display='General Dynamics'	PASS
+sp_500	member	Marriott International	raw/pages/sp_500.json: table 0 row 299 column 1; title='Marriott International'; display='Marriott International'	PASS
+sp_500	member	Emerson Electric	raw/pages/sp_500.json: table 0 row 168 column 1; title='Emerson Electric'; display='Emerson Electric'	PASS
+sp_500	member	Booking Holdings	raw/pages/sp_500.json: table 0 row 71 column 1; title='Booking Holdings'; display='Booking Holdings'	PASS
+sp_500	nonmember	Berkeley Group Holdings	raw/pages/sp_500.json: scanned all 500 parsed rows at {'kind': 'table', 'page': 'sp_500', 'index': 0, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Berkeley Group Holdings'	PASS
+sp_500	nonmember	Acciona Energía	raw/pages/sp_500.json: scanned all 500 parsed rows at {'kind': 'table', 'page': 'sp_500', 'index': 0, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Acciona Energía'	PASS
+sp_500	nonmember	Verbund	raw/pages/sp_500.json: scanned all 500 parsed rows at {'kind': 'table', 'page': 'sp_500', 'index': 0, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Verbund'	PASS
+sp_500	nonmember	EssilorLuxottica	raw/pages/sp_500.json: scanned all 500 parsed rows at {'kind': 'table', 'page': 'sp_500', 'index': 0, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'EssilorLuxottica'	PASS
+sp_500	nonmember	Telefónica	raw/pages/sp_500.json: scanned all 500 parsed rows at {'kind': 'table', 'page': 'sp_500', 'index': 0, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': None}; canonical member set contains no 'Telefónica'	PASS
+stoxx_europe_600	member	Acerinox	raw/pages/stoxx_europe_600.json: table 3 row 418 column 1; title='Acerinox'; display='Acerinox'	PASS
+stoxx_europe_600	member	Ørsted	raw/pages/stoxx_europe_600.json: table 3 row 264 column 1; title='Ørsted (company)'; display='Ørsted'	PASS
+stoxx_europe_600	member	Bureau Veritas	raw/pages/stoxx_europe_600.json: table 3 row 126 column 1; title='Bureau Veritas'; display='Bureau Veritas'	PASS
+stoxx_europe_600	member	Vinci	raw/pages/stoxx_europe_600.json: table 3 row 7 column 1; title='Vinci (company)'; display='Vinci'	PASS
+stoxx_europe_600	member	TIM	raw/pages/stoxx_europe_600.json: table 3 row 312 column 1; title='TIM Group'; display='TIM'	PASS
+stoxx_europe_600	nonmember	Western Digital	raw/pages/stoxx_europe_600.json: scanned all 462 parsed rows at {'kind': 'table', 'page': 'stoxx_europe_600', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': 3}; canonical member set contains no 'Western Digital'	PASS
+stoxx_europe_600	nonmember	MicroStrategy	raw/pages/stoxx_europe_600.json: scanned all 462 parsed rows at {'kind': 'table', 'page': 'stoxx_europe_600', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': 3}; canonical member set contains no 'MicroStrategy'	PASS
+stoxx_europe_600	nonmember	Fastenal	raw/pages/stoxx_europe_600.json: scanned all 462 parsed rows at {'kind': 'table', 'page': 'stoxx_europe_600', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': 3}; canonical member set contains no 'Fastenal'	PASS
+stoxx_europe_600	nonmember	General Motors	raw/pages/stoxx_europe_600.json: scanned all 462 parsed rows at {'kind': 'table', 'page': 'stoxx_europe_600', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': 3}; canonical member set contains no 'General Motors'	PASS
+stoxx_europe_600	nonmember	Eli Lilly and Company	raw/pages/stoxx_europe_600.json: scanned all 462 parsed rows at {'kind': 'table', 'page': 'stoxx_europe_600', 'index': 3, 'column': 1, 'filter_column': None, 'filter_min': None, 'min_cells': None, 'country_column': 3}; canonical member set contains no 'Eli Lilly and Company'	PASS
+eu_members	member	SK	raw/countries/org_memberships.json: binding row 121; org=Q458; item='Slovakia'; iso=SK	PASS
+eu_members	member	FR	raw/countries/org_memberships.json: binding row 107; org=Q458; item='France'; iso=FR	PASS
+eu_members	member	SE	raw/countries/org_memberships.json: binding row 124; org=Q458; item='Sweden'; iso=SE	PASS
+eu_members	member	NL	raw/countries/org_memberships.json: binding row 117; org=Q458; item='Netherlands'; iso=None	PASS
+eu_members	member	HU	raw/countries/org_memberships.json: binding row 110; org=Q458; item='Hungary'; iso=HU	PASS
+eu_members	nonmember	MH	raw/countries/org_memberships.json: scanned 27 active P463 binding rows for Q458; none maps to country code 'MH'	PASS
+eu_members	nonmember	NF	raw/countries/org_memberships.json: scanned 27 active P463 binding rows for Q458; none maps to country code 'NF'	PASS
+eu_members	nonmember	TC	raw/countries/org_memberships.json: scanned 27 active P463 binding rows for Q458; none maps to country code 'TC'	PASS
+eu_members	nonmember	PH	raw/countries/org_memberships.json: scanned 27 active P463 binding rows for Q458; none maps to country code 'PH'	PASS
+eu_members	nonmember	SV	raw/countries/org_memberships.json: scanned 27 active P463 binding rows for Q458; none maps to country code 'SV'	PASS
+nato_members	member	HU	raw/countries/org_memberships.json: binding row 191; org=Q7184; item='Hungary'; iso=HU	PASS
+nato_members	member	PT	raw/countries/org_memberships.json: binding row 203; org=Q7184; item='Portugal'; iso=PT	PASS
+nato_members	member	IS	raw/countries/org_memberships.json: binding row 192; org=Q7184; item='Iceland'; iso=IS	PASS
+nato_members	member	ME	raw/countries/org_memberships.json: binding row 198; org=Q7184; item='Montenegro'; iso=ME	PASS
+nato_members	member	TR	raw/countries/org_memberships.json: binding row 210; org=Q7184; item='Turkey'; iso=TR	PASS
+nato_members	nonmember	VG	raw/countries/org_memberships.json: scanned 34 active P463 binding rows for Q7184; none maps to country code 'VG'	PASS
+nato_members	nonmember	UG	raw/countries/org_memberships.json: scanned 34 active P463 binding rows for Q7184; none maps to country code 'UG'	PASS
+nato_members	nonmember	PS	raw/countries/org_memberships.json: scanned 34 active P463 binding rows for Q7184; none maps to country code 'PS'	PASS
+nato_members	nonmember	GQ	raw/countries/org_memberships.json: scanned 34 active P463 binding rows for Q7184; none maps to country code 'GQ'	PASS
+nato_members	nonmember	BY	raw/countries/org_memberships.json: scanned 34 active P463 binding rows for Q7184; none maps to country code 'BY'	PASS
+g7_members	member	US	raw/countries/org_memberships.json: binding row 29; org=Q1764511; item='United States'; iso=US	PASS
+g7_members	member	CA	raw/countries/org_memberships.json: binding row 23; org=Q1764511; item='Canada'; iso=CA	PASS
+g7_members	member	FR	raw/countries/org_memberships.json: binding row 24; org=Q1764511; item='France'; iso=FR	PASS
+g7_members	member	GB	raw/countries/org_memberships.json: binding row 28; org=Q1764511; item='United Kingdom'; iso=GB	PASS
+g7_members	member	JP	raw/countries/org_memberships.json: binding row 27; org=Q1764511; item='Japan'; iso=JP	PASS
+g7_members	nonmember	LA	raw/countries/org_memberships.json: scanned 7 active P463 binding rows for Q1764511; none maps to country code 'LA'	PASS
+g7_members	nonmember	TC	raw/countries/org_memberships.json: scanned 7 active P463 binding rows for Q1764511; none maps to country code 'TC'	PASS
+g7_members	nonmember	EG	raw/countries/org_memberships.json: scanned 7 active P463 binding rows for Q1764511; none maps to country code 'EG'	PASS
+g7_members	nonmember	TZ	raw/countries/org_memberships.json: scanned 7 active P463 binding rows for Q1764511; none maps to country code 'TZ'	PASS
+g7_members	nonmember	SS	raw/countries/org_memberships.json: scanned 7 active P463 binding rows for Q1764511; none maps to country code 'SS'	PASS
+g20_members	member	US	raw/countries/org_memberships.json: binding row 49; org=Q19771; item='United States'; iso=US	PASS
+g20_members	member	AU	raw/countries/org_memberships.json: binding row 31; org=Q19771; item='Australia'; iso=AU	PASS
+g20_members	member	TR	raw/countries/org_memberships.json: binding row 47; org=Q19771; item='Turkey'; iso=TR	PASS
+g20_members	member	KR	raw/countries/org_memberships.json: binding row 46; org=Q19771; item='South Korea'; iso=KR	PASS
+g20_members	member	DE	raw/countries/org_memberships.json: binding row 36; org=Q19771; item='Germany'; iso=DE	PASS
+g20_members	nonmember	PK	raw/countries/org_memberships.json: scanned 20 active P463 binding rows for Q19771; none maps to country code 'PK'	PASS
+g20_members	nonmember	MF	raw/countries/org_memberships.json: scanned 20 active P463 binding rows for Q19771; none maps to country code 'MF'	PASS
+g20_members	nonmember	IL	raw/countries/org_memberships.json: scanned 20 active P463 binding rows for Q19771; none maps to country code 'IL'	PASS
+g20_members	nonmember	CC	raw/countries/org_memberships.json: scanned 20 active P463 binding rows for Q19771; none maps to country code 'CC'	PASS
+g20_members	nonmember	TZ	raw/countries/org_memberships.json: scanned 20 active P463 binding rows for Q19771; none maps to country code 'TZ'	PASS
+oecd_members	member	SI	raw/countries/org_memberships.json: binding row 90; org=Q41550; item='Slovenia'; iso=SI	PASS
+oecd_members	member	PL	raw/countries/org_memberships.json: binding row 84; org=Q41550; item='Poland'; iso=PL	PASS
+oecd_members	member	MX	raw/countries/org_memberships.json: binding row 79; org=Q41550; item='Mexico'; iso=MX	PASS
+oecd_members	member	NL	raw/countries/org_memberships.json: binding row 80; org=Q41550; item='Netherlands'; iso=None	PASS
+oecd_members	member	AT	raw/countries/org_memberships.json: binding row 52; org=Q41550; item='Austria'; iso=AT	PASS
+oecd_members	nonmember	ZA	raw/countries/org_memberships.json: scanned 48 active P463 binding rows for Q41550; none maps to country code 'ZA'	PASS
+oecd_members	nonmember	MS	raw/countries/org_memberships.json: scanned 48 active P463 binding rows for Q41550; none maps to country code 'MS'	PASS
+oecd_members	nonmember	EG	raw/countries/org_memberships.json: scanned 48 active P463 binding rows for Q41550; none maps to country code 'EG'	PASS
+oecd_members	nonmember	AE	raw/countries/org_memberships.json: scanned 48 active P463 binding rows for Q41550; none maps to country code 'AE'	PASS
+oecd_members	nonmember	SN	raw/countries/org_memberships.json: scanned 48 active P463 binding rows for Q41550; none maps to country code 'SN'	PASS
+opec_members	member	LY	raw/countries/org_memberships.json: binding row 294; org=Q7795; item='Libya'; iso=LY	PASS
+opec_members	member	GQ	raw/countries/org_memberships.json: binding row 289; org=Q7795; item='Equatorial Guinea'; iso=GQ	PASS
+opec_members	member	SA	raw/countries/org_memberships.json: binding row 297; org=Q7795; item='Saudi Arabia'; iso=SA	PASS
+opec_members	member	KW	raw/countries/org_memberships.json: binding row 293; org=Q7795; item='Kuwait'; iso=KW	PASS
+opec_members	member	GA	raw/countries/org_memberships.json: binding row 290; org=Q7795; item='Gabon'; iso=GA	PASS
+opec_members	nonmember	MT	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7795; none maps to country code 'MT'	PASS
+opec_members	nonmember	FJ	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7795; none maps to country code 'FJ'	PASS
+opec_members	nonmember	IL	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7795; none maps to country code 'IL'	PASS
+opec_members	nonmember	CF	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7795; none maps to country code 'CF'	PASS
+opec_members	nonmember	TT	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7795; none maps to country code 'TT'	PASS
+asean_members	member	PH	raw/countries/org_memberships.json: binding row 223; org=Q7768; item='Philippines'; iso=PH	PASS
+asean_members	member	ID	raw/countries/org_memberships.json: binding row 217; org=Q7768; item='Indonesia'; iso=ID	PASS
+asean_members	member	SG	raw/countries/org_memberships.json: binding row 224; org=Q7768; item='Singapore'; iso=SG	PASS
+asean_members	member	MY	raw/countries/org_memberships.json: binding row 219; org=Q7768; item='Malaysia'; iso=MY	PASS
+asean_members	member	TH	raw/countries/org_memberships.json: binding row 225; org=Q7768; item='Thailand'; iso=TH	PASS
+asean_members	nonmember	BF	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7768; none maps to country code 'BF'	PASS
+asean_members	nonmember	LS	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7768; none maps to country code 'LS'	PASS
+asean_members	nonmember	PA	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7768; none maps to country code 'PA'	PASS
+asean_members	nonmember	LY	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7768; none maps to country code 'LY'	PASS
+asean_members	nonmember	SN	raw/countries/org_memberships.json: scanned 14 active P463 binding rows for Q7768; none maps to country code 'SN'	PASS
+african_union_members	member	AO	raw/countries/org_memberships.json: binding row 126; org=Q7159; item='Angola'; iso=AO	PASS
+african_union_members	member	CM	raw/countries/org_memberships.json: binding row 131; org=Q7159; item='Cameroon'; iso=CM	PASS
+african_union_members	member	GM	raw/countries/org_memberships.json: binding row 174; org=Q7159; item='The Gambia'; iso=GM	PASS
+african_union_members	member	SN	raw/countries/org_memberships.json: binding row 165; org=Q7159; item='Senegal'; iso=SN	PASS
+african_union_members	member	TZ	raw/countries/org_memberships.json: binding row 173; org=Q7159; item='Tanzania'; iso=TZ	PASS
+african_union_members	nonmember	IQ	raw/countries/org_memberships.json: scanned 55 active P463 binding rows for Q7159; none maps to country code 'IQ'	PASS
+african_union_members	nonmember	RE	raw/countries/org_memberships.json: scanned 55 active P463 binding rows for Q7159; none maps to country code 'RE'	PASS
+african_union_members	nonmember	HM	raw/countries/org_memberships.json: scanned 55 active P463 binding rows for Q7159; none maps to country code 'HM'	PASS
+african_union_members	nonmember	IT	raw/countries/org_memberships.json: scanned 55 active P463 binding rows for Q7159; none maps to country code 'IT'	PASS
+african_union_members	nonmember	WS	raw/countries/org_memberships.json: scanned 55 active P463 binding rows for Q7159; none maps to country code 'WS'	PASS
+commonwealth_members	member	NA	raw/countries/org_memberships.json: binding row 257; org=Q7785; item='Namibia'; iso=NA	PASS
+commonwealth_members	member	AG	raw/countries/org_memberships.json: binding row 228; org=Q7785; item='Antigua and Barbuda'; iso=AG	PASS
+commonwealth_members	member	BD	raw/countries/org_memberships.json: binding row 230; org=Q7785; item='Bangladesh'; iso=BD	PASS
+commonwealth_members	member	SL	raw/countries/org_memberships.json: binding row 269; org=Q7785; item='Sierra Leone'; iso=SL	PASS
+commonwealth_members	member	MY	raw/countries/org_memberships.json: binding row 252; org=Q7785; item='Malaysia'; iso=MY	PASS
+commonwealth_members	nonmember	FK	raw/countries/org_memberships.json: scanned 59 active P463 binding rows for Q7785; none maps to country code 'FK'	PASS
+commonwealth_members	nonmember	BF	raw/countries/org_memberships.json: scanned 59 active P463 binding rows for Q7785; none maps to country code 'BF'	PASS
+commonwealth_members	nonmember	KR	raw/countries/org_memberships.json: scanned 59 active P463 binding rows for Q7785; none maps to country code 'KR'	PASS
+commonwealth_members	nonmember	ST	raw/countries/org_memberships.json: scanned 59 active P463 binding rows for Q7785; none maps to country code 'ST'	PASS
+commonwealth_members	nonmember	BY	raw/countries/org_memberships.json: scanned 59 active P463 binding rows for Q7785; none maps to country code 'BY'	PASS
+apec_members	member	TW	raw/countries/org_memberships.json: binding row 5; org=Q170481; item='Chinese Taipei'; iso=None	PASS
+apec_members	member	MY	raw/countries/org_memberships.json: binding row 9; org=Q170481; item='Malaysia'; iso=MY	PASS
+apec_members	member	PG	raw/countries/org_memberships.json: binding row 12; org=Q170481; item='Papua New Guinea'; iso=PG	PASS
+apec_members	member	PH	raw/countries/org_memberships.json: binding row 15; org=Q170481; item='Philippines'; iso=PH	PASS
+apec_members	member	US	raw/countries/org_memberships.json: binding row 21; org=Q170481; item='United States'; iso=US	PASS
+apec_members	nonmember	SN	raw/countries/org_memberships.json: scanned 22 active P463 binding rows for Q170481; none maps to country code 'SN'	PASS
+apec_members	nonmember	AI	raw/countries/org_memberships.json: scanned 22 active P463 binding rows for Q170481; none maps to country code 'AI'	PASS
+apec_members	nonmember	DE	raw/countries/org_memberships.json: scanned 22 active P463 binding rows for Q170481; none maps to country code 'DE'	PASS
+apec_members	nonmember	KY	raw/countries/org_memberships.json: scanned 22 active P463 binding rows for Q170481; none maps to country code 'KY'	PASS
+apec_members	nonmember	TT	raw/countries/org_memberships.json: scanned 22 active P463 binding rows for Q170481; none maps to country code 'TT'	PASS

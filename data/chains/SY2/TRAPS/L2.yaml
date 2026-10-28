@@ -1,0 +1,49 @@
+A: '11466000'
+C: snomed_118864003
+C_name: Procedure on uterus
+N_p: '445912000'
+N_t:
+- '236931002'
+- '433112001'
+- '392021009'
+- '31676001'
+- '169673001'
+- '275833003'
+- '398171003'
+P_M:
+- '46706006'
+- '65200003'
+- '274804006'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - mesh_e_e04_surgical_procedures_operative
+    - snomed_118674002
+    - snomed_118675001
+    - snomed_118698009
+    - snomed_609637006
+    - snomed_74943008
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- mesh_e_e04_520_obstetric_surgical_procedures
+- mesh_e_e04_surgical_procedures_operative
+- snomed_118674002
+- snomed_118675001
+- snomed_118698009
+- snomed_386637004
+- snomed_386811000
+- snomed_609637006
+- snomed_74943008
+field: procedures.code
+label: intake mark 85
+salience: 305025.0
+universe: procedure

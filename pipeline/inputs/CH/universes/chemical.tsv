@@ -1,0 +1,655 @@
+value	entity	aliases	attr:category
+1,1,1,2-Tetrachloroethane	1,1,1,2-Tetrachloroethane		industrial_chemical
+1,1,1-Trichloroethane	1,1,1-Trichloroethane		industrial_chemical
+1,1,2,2-Tetrachloroethane	1,1,2,2-Tetrachloroethane		industrial_chemical
+1,1-Dimethylhydrazine	1,1-Dimethylhydrazine		industrial_chemical
+1,2,3-Trichloropropane	1,2,3-Trichloropropane		industrial_chemical
+1,2-Dibromo-3-chloropropane	1,2-Dibromo-3-chloropropane		industrial_chemical
+1,2-Dibromoethane	1,2-Dibromoethane	EDB|ethylene dibromide	pesticide
+1,2-Dichloroethane	1,2-Dichloroethane		industrial_chemical
+1,2-Dichloropropane	1,2-Dichloropropane		industrial_chemical
+1,2-Dimethylhydrazine	1,2-Dimethylhydrazine		industrial_chemical
+1,2-Diphenylhydrazine	1,2-Diphenylhydrazine		industrial_chemical
+1,2-Epoxybutane	1,2-Epoxybutane		industrial_chemical
+1,3-Butadiene	1,3-Butadiene		industrial_chemical
+1,3-Dichloro-2-propanol	1,3-Dichloro-2-propanol		industrial_chemical
+1,3-Dichloropropene (technical-grade)	1,3-Dichloropropene (technical-grade)		industrial_chemical
+1,3-Dinitropyrene	1,3-Dinitropyrene		industrial_chemical
+1,3-Propane sultone	1,3-Propane sultone		industrial_chemical
+1,4-Dichloro-2-nitrobenzene	1,4-Dichloro-2-nitrobenzene		industrial_chemical
+1,4-Dioxane	1,4-Dioxane		industrial_chemical
+1,6-Dinitropyrene	1,6-Dinitropyrene		industrial_chemical
+1,8-Dinitropyrene	1,8-Dinitropyrene		industrial_chemical
+1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU) (Semustine)	1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU) (Semustine)		industrial_chemical
+1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea (CCNU) (Lomustine)	1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea (CCNU) (Lomustine)		industrial_chemical
+1-[(5-Nitrofurfurylidene)amino]-2-imidazolidinone	1-[(5-Nitrofurfurylidene)amino]-2-imidazolidinone		industrial_chemical
+1-Amino-2,4-dibromoanthraquinone	1-Amino-2,4-dibromoanthraquinone		industrial_chemical
+1-Bromo-3-chloropropane	1-Bromo-3-chloropropane		industrial_chemical
+1-Bromopropane	1-Bromopropane		industrial_chemical
+1-Butyl glycidyl ether	1-Butyl glycidyl ether		industrial_chemical
+1-Chloro-2-methylpropene	1-Chloro-2-methylpropene		industrial_chemical
+1-Hydroxyanthraquinone	1-Hydroxyanthraquinone		industrial_chemical
+1-Nitropyrene	1-Nitropyrene		industrial_chemical
+1-Phenyl-2-propanone	1-Phenyl-2-propanone	phenylacetone	drug_precursor
+1-tert-Butoxypropan-2-ol	1-tert-Butoxypropan-2-ol		industrial_chemical
+2,2-Bis(bromomethyl)propane-1,3-diol	2,2-Bis(bromomethyl)propane-1,3-diol		industrial_chemical
+2,2-Diphenyl-2-hydroxyacetic acid	2,2-Diphenyl-2-hydroxyacetic acid		chemical_agent
+2,3,4,7,8-Pentachlorodibenzofuran	2,3,4,7,8-Pentachlorodibenzofuran		industrial_chemical
+2,3,7,8-Tetrachlorodibenzo-p-dioxin	2,3,7,8-Tetrachlorodibenzo-p-dioxin	PCDD|dioxin	persistent_pollutant
+2,3,7,8-Tetrachlorodibenzo-para-dioxin	2,3,7,8-Tetrachlorodibenzo-para-dioxin		industrial_chemical
+2,3,7,8-Tetrachlorodibenzofuran	2,3,7,8-Tetrachlorodibenzofuran	PCDF	persistent_pollutant
+2,3-Dibromopropan-1-ol	2,3-Dibromopropan-1-ol		industrial_chemical
+2,4,5-T	2,4,5-T	2,4,5-trichlorophenoxyacetic acid	pesticide
+2,4,6-Trichlorophenol (see also Polychlorophenols)	2,4,6-Trichlorophenol (see also Polychlorophenols)		industrial_chemical
+2,4-Diaminoanisole	2,4-Diaminoanisole		industrial_chemical
+2,4-Diaminotoluene	2,4-Diaminotoluene		industrial_chemical
+2,4-Dichloro-1-nitrobenzene	2,4-Dichloro-1-nitrobenzene		industrial_chemical
+2,4-Dinitrotoluene	2,4-Dinitrotoluene		industrial_chemical
+2,4-Hexadienal	2,4-Hexadienal		industrial_chemical
+2,6-Dimethylaniline (2,6-Xylidine)	2,6-Dimethylaniline (2,6-Xylidine)		industrial_chemical
+2,6-Dinitrotoluene	2,6-Dinitrotoluene		industrial_chemical
+2-(2-Formylhydrazino)-4-(5-nitro-2-furyl)thiazole	2-(2-Formylhydrazino)-4-(5-nitro-2-furyl)thiazole		industrial_chemical
+2-Amino-4-chlorophenol	2-Amino-4-chlorophenol		industrial_chemical
+2-Amino-5-(5-nitro-2-furyl)-1,3,4-thiadiazole	2-Amino-5-(5-nitro-2-furyl)-1,3,4-thiadiazole		industrial_chemical
+2-Bromopropane	2-Bromopropane		industrial_chemical
+2-Chloronitrobenzene	2-Chloronitrobenzene		industrial_chemical
+2-Ethylhexyl acrylate	2-Ethylhexyl acrylate		industrial_chemical
+2-Mercaptobenzothiazole	2-Mercaptobenzothiazole		industrial_chemical
+2-Methyl-1-nitroanthraquinone (uncertain purity)	2-Methyl-1-nitroanthraquinone (uncertain purity)		industrial_chemical
+2-Methylaziridine (Propyleneimine)	2-Methylaziridine (Propyleneimine)		industrial_chemical
+2-Methylimidazole	2-Methylimidazole		industrial_chemical
+2-Naphthylamine	2-Naphthylamine		industrial_chemical
+2-Nitrofluorene	2-Nitrofluorene		industrial_chemical
+2-Nitropropane	2-Nitropropane		industrial_chemical
+2-Nitrotoluene	2-Nitrotoluene		industrial_chemical
+3,3'-Dichloro-4,4'-diaminodiphenyl ether	3,3'-Dichloro-4,4'-diaminodiphenyl ether		industrial_chemical
+3,3'-Dichlorobenzidine	3,3'-Dichlorobenzidine		industrial_chemical
+3,3'-Dimethoxybenzidine (ortho-Dianisidine)	3,3'-Dimethoxybenzidine (ortho-Dianisidine)		industrial_chemical
+3,3'-Dimethylbenzidine (ortho-Tolidine)	3,3'-Dimethylbenzidine (ortho-Tolidine)		industrial_chemical
+3,3a,4,4a,5-Pentachlorobiphenyl (PCB-126)	3,3a,4,4a,5-Pentachlorobiphenyl (PCB-126)		industrial_chemical
+3,3a2,4,4a2-Tetrachloroazobenzene	3,3a2,4,4a2-Tetrachloroazobenzene		industrial_chemical
+3,4-Methylenedioxyphenyl-2-propanone	3,4-Methylenedioxyphenyl-2-propanone		drug_precursor
+3,7-Dinitrofluoranthene	3,7-Dinitrofluoranthene		industrial_chemical
+3,9-Dinitrofluoranthene	3,9-Dinitrofluoranthene		industrial_chemical
+3-(N-Nitrosomethylamino)propionitrile	3-(N-Nitrosomethylamino)propionitrile		industrial_chemical
+3-Chloro-2-methylpropene, technical grade	3-Chloro-2-methylpropene, technical grade		industrial_chemical
+3-Chloro-4-(dichloromethyl)-5-hydroxy-2(5H)-furanone	3-Chloro-4-(dichloromethyl)-5-hydroxy-2(5H)-furanone		industrial_chemical
+3-Monochloro-1,2-propanediol	3-Monochloro-1,2-propanediol		industrial_chemical
+3-Nitrobenzanthrone	3-Nitrobenzanthrone		industrial_chemical
+4,4'-Diaminodiphenyl ether	4,4'-Diaminodiphenyl ether		industrial_chemical
+4,4'-Methylene bis(2-methylaniline)	4,4'-Methylene bis(2-methylaniline)		industrial_chemical
+4,4'-Methylenebis(2-chloroaniline) (MOCA)	4,4'-Methylenebis(2-chloroaniline) (MOCA)		industrial_chemical
+4,4'-Methylenedianiline	4,4'-Methylenedianiline		industrial_chemical
+4,4'-Thiodianiline	4,4'-Thiodianiline		industrial_chemical
+4-Aminobiphenyl	4-Aminobiphenyl		industrial_chemical
+4-Chloro-ortho-phenylenediamine	4-Chloro-ortho-phenylenediamine		industrial_chemical
+4-Chloro-ortho-toluidine	4-Chloro-ortho-toluidine		industrial_chemical
+4-Chlorobenzotrifluoride	4-Chlorobenzotrifluoride		industrial_chemical
+4-Chloronitrobenzene	4-Chloronitrobenzene		industrial_chemical
+4-Methylimidazole	4-Methylimidazole		industrial_chemical
+4-Nitropyrene	4-Nitropyrene		industrial_chemical
+4-Vinylcyclohexene	4-Vinylcyclohexene		industrial_chemical
+4-Vinylcyclohexene diepoxide	4-Vinylcyclohexene diepoxide		industrial_chemical
+5-(Morpholinomethyl)-3-[(5-nitrofurfurylidene)Aamino]-2-oxazolidinone	5-(Morpholinomethyl)-3-[(5-nitrofurfurylidene)Aamino]-2-oxazolidinone		industrial_chemical
+5-Methoxypsoralen	5-Methoxypsoralen		industrial_chemical
+5-Methylchrysene	5-Methylchrysene		industrial_chemical
+5-Nitroacenaphthene	5-Nitroacenaphthene		industrial_chemical
+6-Nitrochrysene	6-Nitrochrysene		industrial_chemical
+7H-Dibenzo[c,g]carbazole	7H-Dibenzo[c,g]carbazole		industrial_chemical
+A-alpha-C (2-Amino-9H-pyrido[2,3-b]indole)	A-alpha-C (2-Amino-9H-pyrido[2,3-b]indole)		industrial_chemical
+Acetaldehyde	Acetaldehyde		industrial_chemical
+Acetamide	Acetamide		industrial_chemical
+Acetic anhydride	Acetic anhydride		drug_precursor
+Acetone	Acetone		industrial_solvent
+Aclonifen	Aclonifen		pesticide
+Acrolein	Acrolein		industrial_chemical
+Acrylamide	Acrylamide		industrial_chemical
+Acrylonitrile	Acrylonitrile		industrial_chemical
+Adriamycin (Doxorubicin)	Adriamycin (Doxorubicin)		industrial_chemical
+AF-2 [2-(2-Furyl)-3-(5-nitro-2-furyl)acrylamide]	AF-2 [2-(2-Furyl)-3-(5-nitro-2-furyl)acrylamide]		industrial_chemical
+Aflatoxins	Aflatoxins		industrial_chemical
+Alachlor	Alachlor		pesticide
+Aldicarb	Aldicarb		pesticide
+Aldrin	Aldrin	aldrin	pesticide
+Alpha-hexachlorocyclohexane	Alpha-hexachlorocyclohexane	alpha hexachlorocyclohexane	pesticide
+Amiton	Amiton		chemical_agent
+Amsacrine	Amsacrine		industrial_chemical
+Aniline (see also Aniline hydrochloride)	Aniline (see also Aniline hydrochloride)		industrial_chemical
+Aniline hydrochloride (see also Aniline)	Aniline hydrochloride (see also Aniline)		industrial_chemical
+Anthracene	Anthracene		industrial_chemical
+Anthranilic acid	Anthranilic acid		drug_precursor
+Anthraquinone	Anthraquinone		industrial_chemical
+AramiteA	AramiteA		industrial_chemical
+Aristolochic acid	Aristolochic acid		industrial_chemical
+Arsenic and inorganic arsenic compounds	Arsenic and inorganic arsenic compounds		heavy_metal_compound
+Arsenic trichloride	Arsenic trichloride		chemical_agent
+Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile, crocidolite, tremolite)	Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile, crocidolite, tremolite)		industrial_chemical
+Aspartame	Aspartame		industrial_chemical
+Atrazine	Atrazine		pesticide
+Auramine	Auramine		industrial_chemical
+Azacitidine	Azacitidine		industrial_chemical
+Azaserine	Azaserine		industrial_chemical
+Azathioprine	Azathioprine		industrial_chemical
+Azinphos-methyl	Azinphos-methyl		pesticide
+Aziridine	Aziridine		industrial_chemical
+Benomyl	Benomyl		pesticide
+Benz[a]anthracene	Benz[a]anthracene		industrial_chemical
+Benz[j]aceanthrylene	Benz[j]aceanthrylene		industrial_chemical
+Benzene	Benzene		industrial_solvent
+Benzidine	Benzidine		industrial_chemical
+Benzo(a)pyrene	Benzo(a)pyrene		industrial_chemical
+Benzo(b)fluoranthene	Benzo(b)fluoranthene		industrial_chemical
+Benzo(g,h,i)perylene	Benzo(g,h,i)perylene		industrial_chemical
+Benzo(k)fluoranthene	Benzo(k)fluoranthene		industrial_chemical
+Benzo[c]phenanthrene	Benzo[c]phenanthrene		industrial_chemical
+Benzo[j]fluoranthene	Benzo[j]fluoranthene		industrial_chemical
+Benzofuran	Benzofuran		industrial_chemical
+Benzophenone	Benzophenone		industrial_chemical
+Benzyl violet 4B	Benzyl violet 4B		industrial_chemical
+Beryllium and beryllium compounds	Beryllium and beryllium compounds		heavy_metal_compound
+beta-Butyrolactone	beta-Butyrolactone		industrial_chemical
+Beta-hexachlorocyclohexane	Beta-hexachlorocyclohexane	beta hexachlorocyclohexane	pesticide
+beta-Propiolactone	beta-Propiolactone		industrial_chemical
+Bifenox	Bifenox		pesticide
+Binapacryl	Binapacryl		pesticide
+Bis(chloromethyl)ether; chloromethyl methyl ether (technical-grade)	Bis(chloromethyl)ether; chloromethyl methyl ether (technical-grade)		industrial_chemical
+Bischloroethyl nitrosourea (BCNU) (Carmustine)	Bischloroethyl nitrosourea (BCNU) (Carmustine)		industrial_chemical
+Bleomycins	Bleomycins		industrial_chemical
+Brominated diphenyl ethers	Brominated diphenyl ethers		industrial_chemical
+Bromochloroacetic acid	Bromochloroacetic acid		industrial_chemical
+Bromochloromethane	Bromochloromethane		refrigerant
+Bromodichloromethane	Bromodichloromethane		industrial_chemical
+Busulfan	Busulfan		industrial_chemical
+Butyl benzyl phthalate	Butyl benzyl phthalate		industrial_chemical
+Butyl methacrylate	Butyl methacrylate		industrial_chemical
+Butylated hydroxyanisole (BHA)	Butylated hydroxyanisole (BHA)		industrial_chemical
+Butyraldehyde	Butyraldehyde		industrial_chemical
+BZ	BZ	3-quinuclidinyl benzilate	chemical_agent
+C10-13 Chloroalkanes	C10-13 Chloroalkanes		industrial_chemical
+Cadmium and cadmium compounds	Cadmium and cadmium compounds		heavy_metal_compound
+Cadmium compounds	Cadmium compounds	cadmium	heavy_metal_compound
+Caffeic acid	Caffeic acid		industrial_chemical
+Captafol	Captafol		pesticide
+Carbazole	Carbazole		industrial_chemical
+Carbofuran	Carbofuran		pesticide
+Carbon black	Carbon black		industrial_chemical
+Carbon nanotubes, multiwalled MWCNT-7	Carbon nanotubes, multiwalled MWCNT-7		industrial_chemical
+Carbon tetrachloride	Carbon tetrachloride		industrial_solvent
+Carbosulfan	Carbosulfan		pesticide
+Carrageenan, degraded (Poligeenan)	Carrageenan, degraded (Poligeenan)		industrial_chemical
+Catechol	Catechol		industrial_chemical
+CFC-11	CFC-11	trichlorofluoromethane	refrigerant
+CFC-111	CFC-111		refrigerant
+CFC-112	CFC-112		refrigerant
+CFC-113	CFC-113		refrigerant
+CFC-114	CFC-114		refrigerant
+CFC-115	CFC-115		refrigerant
+CFC-12	CFC-12	dichlorodifluoromethane	refrigerant
+CFC-13	CFC-13		refrigerant
+CFC-211	CFC-211		refrigerant
+CFC-212	CFC-212		refrigerant
+CFC-213	CFC-213		refrigerant
+CFC-214	CFC-214		refrigerant
+CFC-215	CFC-215		refrigerant
+CFC-216	CFC-216		refrigerant
+CFC-217	CFC-217		refrigerant
+Chloral	Chloral		industrial_chemical
+Chloral hydrate	Chloral hydrate		industrial_chemical
+Chlorambucil	Chlorambucil		industrial_chemical
+Chloramphenicol	Chloramphenicol		industrial_chemical
+Chlordane	Chlordane		pesticide
+Chlordecone	Chlordecone		pesticide
+Chlordecone (Kepone)	Chlordecone (Kepone)		industrial_chemical
+Chlordimeform	Chlordimeform		pesticide
+Chlorendic acid	Chlorendic acid		industrial_chemical
+Chlorfenvinphos	Chlorfenvinphos		pesticide
+Chlornaphazine	Chlornaphazine		industrial_chemical
+Chlorobenzilate	Chlorobenzilate		pesticide
+Chloroform	Chloroform		industrial_chemical
+Chloropicrin	Chloropicrin		chemical_agent
+Chloroprene	Chloroprene		industrial_chemical
+Chlorosarin	Chlorosarin		chemical_agent
+Chlorosoman	Chlorosoman		chemical_agent
+Chlorothalonil	Chlorothalonil		industrial_chemical
+Chlorozotocin	Chlorozotocin		industrial_chemical
+Chlorpyrifos	Chlorpyrifos		pesticide
+Chromium (VI) compounds	Chromium (VI) compounds		heavy_metal_compound
+Chrysene	Chrysene		industrial_chemical
+CI Acid Red 114	CI Acid Red 114		industrial_chemical
+CI Basic Red 9	CI Basic Red 9		industrial_chemical
+CI Direct Blue 15	CI Direct Blue 15		industrial_chemical
+CI Direct Blue 218	CI Direct Blue 218		industrial_chemical
+Ciclosporin	Ciclosporin		industrial_chemical
+Cisplatin	Cisplatin		industrial_chemical
+Citrus Red No. 2	Citrus Red No. 2		industrial_chemical
+Cobalt metal (without tungsten carbide or other metal alloys)	Cobalt metal (without tungsten carbide or other metal alloys)		heavy_metal_compound
+Cobalt metal with tungsten carbide	Cobalt metal with tungsten carbide		heavy_metal_compound
+Cobalt(II) oxide	Cobalt(II) oxide		heavy_metal_compound
+Commercial octabromodiphenyl ether	Commercial octabromodiphenyl ether	octaBDE	industrial_chemical
+Commercial pentabromodiphenyl ether	Commercial pentabromodiphenyl ether	pentaBDE	industrial_chemical
+Creosotes	Creosotes		industrial_chemical
+Crotonaldehyde	Crotonaldehyde		industrial_chemical
+Cumene	Cumene		industrial_chemical
+Cumyl hydroperoxide	Cumyl hydroperoxide		industrial_chemical
+Cupferron	Cupferron		industrial_chemical
+Cyanogen chloride	Cyanogen chloride		chemical_agent
+Cybutryne	Cybutryne		pesticide
+Cycasin	Cycasin		industrial_chemical
+Cyclopenta[cd]pyrene	Cyclopenta[cd]pyrene		industrial_chemical
+Cyclophosphamide	Cyclophosphamide		industrial_chemical
+Cypermethrin	Cypermethrin		pesticide
+Dacarbazine	Dacarbazine		industrial_chemical
+Dantron (Chrysazin; 1,8-Dihydroxyanthraquinone)	Dantron (Chrysazin; 1,8-Dihydroxyanthraquinone)		industrial_chemical
+Daunomycin (Daunorubicin)	Daunomycin (Daunorubicin)		industrial_chemical
+DDT	DDT	dichlorodiphenyltrichloroethane	pesticide
+DDT (4,4'-dichlorodiphenyltrichloroethane)	DDT (4,4'-dichlorodiphenyltrichloroethane)		pesticide
+Decabromodiphenyl ether	Decabromodiphenyl ether	BDE-209	industrial_chemical
+Dechlorane Plus	Dechlorane Plus		industrial_chemical
+DF	DF	methylphosphonyl difluoride	chemical_agent
+Di(2-ethylhexyl) phthalate	Di(2-ethylhexyl) phthalate	DEHP	industrial_chemical
+Diazinon	Diazinon		industrial_chemical
+Dibenz[a,h]acridine	Dibenz[a,h]acridine		industrial_chemical
+Dibenz[a,h]anthracene	Dibenz[a,h]anthracene		industrial_chemical
+Dibenz[a,j]acridine	Dibenz[a,j]acridine		industrial_chemical
+Dibenz[c,h]acridine	Dibenz[c,h]acridine		industrial_chemical
+Dibenzo[a,h]pyrene	Dibenzo[a,h]pyrene		industrial_chemical
+Dibenzo[a,i]pyrene	Dibenzo[a,i]pyrene		industrial_chemical
+Dibenzo[a,l]pyrene	Dibenzo[a,l]pyrene		industrial_chemical
+Dibromoacetic acid	Dibromoacetic acid		industrial_chemical
+Dibromoacetonitrile	Dibromoacetonitrile		industrial_chemical
+Dibutyl phthalate	Dibutyl phthalate		industrial_chemical
+Dichloroacetic acid	Dichloroacetic acid		industrial_chemical
+Dichloromethane	Dichloromethane	methylene chloride	industrial_solvent
+Dichloromethane (Methylene chloride)	Dichloromethane (Methylene chloride)		industrial_chemical
+Dichlorvos	Dichlorvos		pesticide
+Dicofol	Dicofol		pesticide
+Dieldrin	Dieldrin		pesticide
+Dieldrin, and aldrin metabolized to dieldrin	Dieldrin, and aldrin metabolized to dieldrin		industrial_chemical
+Diethyl phosphite	Diethyl phosphite		chemical_agent
+Diglycidyl resorcinol ether	Diglycidyl resorcinol ether		industrial_chemical
+Digoxin	Digoxin		industrial_chemical
+Dihydrosafrole	Dihydrosafrole		industrial_chemical
+Diisononyl phthalate	Diisononyl phthalate		industrial_chemical
+Diisopropyl sulfate	Diisopropyl sulfate		industrial_chemical
+Dimethyl hydrogen phosphite	Dimethyl hydrogen phosphite		industrial_chemical
+Dimethyl methylphosphonate	Dimethyl methylphosphonate		chemical_agent
+Dimethyl phosphite	Dimethyl phosphite		chemical_agent
+Dimethyl sulfate	Dimethyl sulfate		industrial_chemical
+Dimethylarsinic acid	Dimethylarsinic acid		industrial_chemical
+Dimethylcarbamoyl chloride	Dimethylcarbamoyl chloride		industrial_chemical
+Dinitro-ortho-cresol	Dinitro-ortho-cresol	DNOC	pesticide
+Dinoseb	Dinoseb		pesticide
+Dioxins and dioxin-like compounds	Dioxins and dioxin-like compounds		persistent_pollutant
+Diphenylamine	Diphenylamine		industrial_chemical
+Disperse Blue 1	Disperse Blue 1		industrial_chemical
+Diuron	Diuron		pesticide
+Endrin	Endrin		pesticide
+Ephedrine	Ephedrine		drug_precursor
+Epichlorohydrin	Epichlorohydrin		industrial_chemical
+Ergometrine	Ergometrine		drug_precursor
+Ergotamine	Ergotamine		drug_precursor
+Erionite	Erionite		industrial_chemical
+Ethyl acrylate	Ethyl acrylate		industrial_chemical
+Ethyl carbamate (Urethane)	Ethyl carbamate (Urethane)		industrial_chemical
+Ethyl methanesulfonate	Ethyl methanesulfonate		industrial_chemical
+Ethyl tert-butyl ether	Ethyl tert-butyl ether		industrial_chemical
+Ethylbenzene	Ethylbenzene		industrial_chemical
+Ethyldiethanolamine	Ethyldiethanolamine		chemical_agent
+Ethylene dibromide	Ethylene dibromide		industrial_chemical
+Ethylene dichloride	Ethylene dichloride	1,2-dichloroethane	industrial_solvent
+Ethylene oxide	Ethylene oxide		industrial_chemical
+Etoposide	Etoposide		industrial_chemical
+Etoposide in combination with cisplatin and bleomycin	Etoposide in combination with cisplatin and bleomycin		industrial_chemical
+Fenthion	Fenthion		pesticide
+Fluoranthene	Fluoranthene		industrial_chemical
+Fluoroacetamide	Fluoroacetamide		pesticide
+Fonofos	Fonofos		pesticide
+Formaldehyde	Formaldehyde		industrial_chemical
+Fumonisin B1	Fumonisin B1		industrial_chemical
+Furan	Furan		industrial_chemical
+Furfuryl alcohol	Furfuryl alcohol		industrial_chemical
+Fusarium moniliforme, toxins derived from (fumonisin B1, fumonisin B2, and fusarin C)	Fusarium moniliforme, toxins derived from (fumonisin B1, fumonisin B2, and fusarin C)		industrial_chemical
+Gentian violet (see also Leucogentian violet)	Gentian violet (see also Leucogentian violet)		industrial_chemical
+Ginkgo biloba extract	Ginkgo biloba extract		industrial_chemical
+Glu-P-1 (2-Amino-6-methyldipyrido[1,2-a:3',2'-d]imidazole)	Glu-P-1 (2-Amino-6-methyldipyrido[1,2-a:3',2'-d]imidazole)		industrial_chemical
+Glu-P-2 (2-Aminodipyrido[1,2-a:3',2'-d]imidazole)	Glu-P-2 (2-Aminodipyrido[1,2-a:3',2'-d]imidazole)		industrial_chemical
+Glycidaldehyde	Glycidaldehyde		industrial_chemical
+Glycidol	Glycidol		industrial_chemical
+Glycidyl methacrylate	Glycidyl methacrylate		industrial_chemical
+Glyphosate	Glyphosate		industrial_chemical
+Griseofulvin	Griseofulvin		industrial_chemical
+Halon-1211	Halon-1211		refrigerant
+Halon-1301	Halon-1301		refrigerant
+Halon-2402	Halon-2402		refrigerant
+HC Blue No. 1	HC Blue No. 1		industrial_chemical
+HCFC-121	HCFC-121		refrigerant
+HCFC-122	HCFC-122		refrigerant
+HCFC-123	HCFC-123		refrigerant
+HCFC-124	HCFC-124		refrigerant
+HCFC-131	HCFC-131		refrigerant
+HCFC-132	HCFC-132		refrigerant
+HCFC-133	HCFC-133		refrigerant
+HCFC-141	HCFC-141		refrigerant
+HCFC-141b	HCFC-141b		refrigerant
+HCFC-142	HCFC-142		refrigerant
+HCFC-142b	HCFC-142b		refrigerant
+HCFC-151	HCFC-151		refrigerant
+HCFC-21	HCFC-21		refrigerant
+HCFC-22	HCFC-22		refrigerant
+HCFC-221	HCFC-221		refrigerant
+HCFC-222	HCFC-222		refrigerant
+HCFC-223	HCFC-223		refrigerant
+HCFC-224	HCFC-224		refrigerant
+HCFC-225	HCFC-225		refrigerant
+HCFC-225ca	HCFC-225ca		refrigerant
+HCFC-225cb	HCFC-225cb		refrigerant
+HCFC-226	HCFC-226		refrigerant
+HCFC-231	HCFC-231		refrigerant
+HCFC-232	HCFC-232		refrigerant
+HCFC-233	HCFC-233		refrigerant
+HCFC-234	HCFC-234		refrigerant
+HCFC-235	HCFC-235		refrigerant
+HCFC-241	HCFC-241		refrigerant
+HCFC-242	HCFC-242		refrigerant
+HCFC-243	HCFC-243		refrigerant
+HCFC-244	HCFC-244		refrigerant
+HCFC-251	HCFC-251		refrigerant
+HCFC-252	HCFC-252		refrigerant
+HCFC-253	HCFC-253		refrigerant
+HCFC-261	HCFC-261		refrigerant
+HCFC-262	HCFC-262		refrigerant
+HCFC-271	HCFC-271		refrigerant
+HCFC-31	HCFC-31		refrigerant
+HCH	HCH	hexachlorocyclohexane	pesticide
+Heptabromodiphenyl ether	Heptabromodiphenyl ether		industrial_chemical
+Heptachlor	Heptachlor		pesticide
+Heptachlor epoxide	Heptachlor epoxide		pesticide
+Hexabromobiphenyl	Hexabromobiphenyl		industrial_chemical
+Hexabromocyclododecane	Hexabromocyclododecane	HBCDD	industrial_chemical
+Hexabromodiphenyl ether	Hexabromodiphenyl ether		industrial_chemical
+Hexachlorobenzene	Hexachlorobenzene	HCB	persistent_pollutant
+Hexachlorobutadiene	Hexachlorobutadiene	HCBD	persistent_pollutant
+Hexachloroethane	Hexachloroethane		industrial_chemical
+Hexamethylphosphoramide	Hexamethylphosphoramide		industrial_chemical
+HFC-125	HFC-125		refrigerant
+HFC-134	HFC-134		refrigerant
+HFC-134a	HFC-134a		refrigerant
+HFC-143	HFC-143		refrigerant
+HFC-143a	HFC-143a		refrigerant
+HFC-152	HFC-152		refrigerant
+HFC-152a	HFC-152a		refrigerant
+HFC-227ea	HFC-227ea		refrigerant
+HFC-23	HFC-23		refrigerant
+HFC-236cb	HFC-236cb		refrigerant
+HFC-236ea	HFC-236ea		refrigerant
+HFC-236fa	HFC-236fa		refrigerant
+HFC-245ca	HFC-245ca		refrigerant
+HFC-245fa	HFC-245fa		refrigerant
+HFC-32	HFC-32		refrigerant
+HFC-365mfc	HFC-365mfc		refrigerant
+HFC-41	HFC-41		refrigerant
+HFC-43-10mee	HFC-43-10mee		refrigerant
+HN1	HN1	nitrogen mustard HN1	chemical_agent
+HN2	HN2	nitrogen mustard HN2	chemical_agent
+HN3	HN3	nitrogen mustard HN3	chemical_agent
+Hydrazine	Hydrazine		industrial_chemical
+Hydrochlorothiazide	Hydrochlorothiazide		industrial_chemical
+Hydrogen cyanide	Hydrogen cyanide		chemical_agent
+I-Methylstyrene	I-Methylstyrene		industrial_chemical
+I2-Myrcene	I2-Myrcene		industrial_chemical
+Indeno(1,2,3-cd)pyrene	Indeno(1,2,3-cd)pyrene		industrial_chemical
+Indium phosphide	Indium phosphide		industrial_chemical
+Indium tin oxide	Indium tin oxide		industrial_chemical
+IQ (2-Amino-3-methylimidazo[4,5-f]quinoline)	IQ (2-Amino-3-methylimidazo[4,5-f]quinoline)		industrial_chemical
+Iron-dextran complex	Iron-dextran complex		industrial_chemical
+Isobutyl nitrite	Isobutyl nitrite		industrial_chemical
+Isodrin	Isodrin		pesticide
+Isoeugenol	Isoeugenol		industrial_chemical
+Isophorone	Isophorone		industrial_chemical
+Isoprene	Isoprene		industrial_chemical
+Isoproturon	Isoproturon		pesticide
+Kava extract	Kava extract		industrial_chemical
+Lasiocarpine	Lasiocarpine		industrial_chemical
+Lead	Lead		heavy_metal_compound
+Lead compounds	Lead compounds	lead	heavy_metal_compound
+Leucomalachite green (see also Malachite green)	Leucomalachite green (see also Malachite green)		industrial_chemical
+Lewisite 1	Lewisite 1		chemical_agent
+Lewisite 2	Lewisite 2		chemical_agent
+Lewisite 3	Lewisite 3		chemical_agent
+Lindane	Lindane	gamma-hexachlorocyclohexane	pesticide
+Lindane (see also Hexachlorocyclohexanes)	Lindane (see also Hexachlorocyclohexanes)		pesticide
+Long-chain perfluorocarboxylic acids	Long-chain perfluorocarboxylic acids		industrial_chemical
+Lysergic acid	Lysergic acid		drug_precursor
+Magenta	Magenta		industrial_chemical
+Malathion	Malathion		industrial_chemical
+MeA-alpha-C (2-Amino-3-methyl-9H-pyrido[2,3-b]indole)	MeA-alpha-C (2-Amino-3-methyl-9H-pyrido[2,3-b]indole)		industrial_chemical
+Medium-chain chlorinated paraffins	Medium-chain chlorinated paraffins	MCCPs	industrial_chemical
+Medroxyprogesterone acetate	Medroxyprogesterone acetate		industrial_chemical
+MeIQ (2-Amino-3,4-dimethylimidazo[4,5-f]quinoline)	MeIQ (2-Amino-3,4-dimethylimidazo[4,5-f]quinoline)		industrial_chemical
+MeIQx (2-Amino-3,8-dimethylimidazo[4,5-f]quinoxaline)	MeIQx (2-Amino-3,8-dimethylimidazo[4,5-f]quinoxaline)		industrial_chemical
+Melamine	Melamine		industrial_chemical
+Melphalan	Melphalan		industrial_chemical
+Mercury compounds	Mercury compounds	mercury	heavy_metal_compound
+Merphalan	Merphalan		industrial_chemical
+Methamidophos	Methamidophos		pesticide
+Methanol	Methanol		industrial_solvent
+Methoxychlor	Methoxychlor		pesticide
+Methyl acrylate	Methyl acrylate		industrial_chemical
+Methyl bromide	Methyl bromide	bromomethane	pesticide
+Methyl chloroform	Methyl chloroform	1,1,1-trichloroethane	industrial_solvent
+Methyl isobutyl ketone	Methyl isobutyl ketone		industrial_chemical
+Methyl methanesulfonate	Methyl methanesulfonate		industrial_chemical
+Methyl tert-butyl ether	Methyl tert-butyl ether		industrial_chemical
+Methyl-parathion	Methyl-parathion	parathion-methyl	pesticide
+Methylarsonic acid	Methylarsonic acid		industrial_chemical
+Methylazoxymethanol acetate	Methylazoxymethanol acetate		industrial_chemical
+Methyldiethanolamine	Methyldiethanolamine		chemical_agent
+Methyleugenol	Methyleugenol		industrial_chemical
+Methylphosphonyl dichloride	Methylphosphonyl dichloride		chemical_agent
+Methylthiouracil	Methylthiouracil		industrial_chemical
+Metronidazole	Metronidazole		industrial_chemical
+Michleras base [4,4A -methylenebis(N,N-dimethyl)Abenzenamine]	Michleras base [4,4A -methylenebis(N,N-dimethyl)Abenzenamine]		industrial_chemical
+Michleras ketone [4,4A -Bis(dimethylamino)Abenzophenone]	Michleras ketone [4,4A -Bis(dimethylamino)Abenzophenone]		industrial_chemical
+Microcystin-LR	Microcystin-LR		industrial_chemical
+Mirex	Mirex		pesticide
+Mitomycin C	Mitomycin C		industrial_chemical
+Mitoxantrone	Mitoxantrone		industrial_chemical
+Molybdenum trioxide	Molybdenum trioxide		industrial_chemical
+Monocrotaline	Monocrotaline		industrial_chemical
+Monocrotophos	Monocrotophos		pesticide
+N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)	N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone (NNK)		industrial_chemical
+N,N'-Diacetylbenzidine	N,N'-Diacetylbenzidine		industrial_chemical
+N,N-Dimethyl-p-toluidine	N,N-Dimethyl-p-toluidine		industrial_chemical
+N,N-Dimethylacetamide	N,N-Dimethylacetamide		industrial_chemical
+N,N-Dimethylformamide	N,N-Dimethylformamide		industrial_chemical
+N-[4-(5-Nitro-2-furyl)-2-thiazolyl]acetamide	N-[4-(5-Nitro-2-furyl)-2-thiazolyl]acetamide		industrial_chemical
+N-Acetylanthranilic acid	N-Acetylanthranilic acid		drug_precursor
+N-Ethyl-N-nitrosourea	N-Ethyl-N-nitrosourea		industrial_chemical
+N-Methyl-N-nitrosourea	N-Methyl-N-nitrosourea		industrial_chemical
+N-Methyl-N-nitrosourethane	N-Methyl-N-nitrosourethane		industrial_chemical
+N-Methyl-NA -nitro-N-nitrosoguanidine (MNNG)	N-Methyl-NA -nitro-N-nitrosoguanidine (MNNG)		industrial_chemical
+N-Methylolacrylamide	N-Methylolacrylamide		industrial_chemical
+N-Nitrosodi-n-butylamine	N-Nitrosodi-n-butylamine		industrial_chemical
+N-Nitrosodi-n-propylamine	N-Nitrosodi-n-propylamine		industrial_chemical
+N-Nitrosodimethylamine	N-Nitrosodimethylamine		industrial_chemical
+N-Nitrosomethylethylamine	N-Nitrosomethylethylamine		industrial_chemical
+N-Nitrosomethylvinylamine	N-Nitrosomethylvinylamine		industrial_chemical
+N-Nitrosomorpholine	N-Nitrosomorpholine		industrial_chemical
+N-Nitrosopiperidine	N-Nitrosopiperidine		industrial_chemical
+N-Nitrosopyrrolidine	N-Nitrosopyrrolidine		industrial_chemical
+N-Nitrososarcosine	N-Nitrososarcosine		industrial_chemical
+Nafenopin	Nafenopin		industrial_chemical
+Naphthalene	Naphthalene		industrial_chemical
+Nickel compounds	Nickel compounds	nickel	heavy_metal_compound
+Nickel, metallic	Nickel, metallic		heavy_metal_compound
+Niridazole	Niridazole		industrial_chemical
+Nitrilotriacetic acid and its salts	Nitrilotriacetic acid and its salts		industrial_chemical
+Nitrobenzene	Nitrobenzene		industrial_chemical
+Nitrofen (technical-grade)	Nitrofen (technical-grade)		industrial_chemical
+Nitrogen mustard	Nitrogen mustard		industrial_chemical
+Nitrogen mustard N-oxide	Nitrogen mustard N-oxide		industrial_chemical
+Nitromethane	Nitromethane		industrial_chemical
+Nonylphenols	Nonylphenols		industrial_chemical
+Norephedrine	Norephedrine	phenylpropanolamine	drug_precursor
+Ochratoxin A	Ochratoxin A		industrial_chemical
+Octylphenols	Octylphenols		industrial_chemical
+ortho-Aminoazotoluene	ortho-Aminoazotoluene		industrial_chemical
+ortho-Anisidine (see also ortho-Anisidine hydrochloride)	ortho-Anisidine (see also ortho-Anisidine hydrochloride)		industrial_chemical
+ortho-Anisidine hydrochloride (see also ortho-Anisidine)	ortho-Anisidine hydrochloride (see also ortho-Anisidine)		industrial_chemical
+ortho-Nitroanisole	ortho-Nitroanisole		industrial_chemical
+ortho-Phenylenediamine	ortho-Phenylenediamine		industrial_chemical
+ortho-Phenylenediamine dihydrochloride	ortho-Phenylenediamine dihydrochloride		industrial_chemical
+ortho-Toluidine	ortho-Toluidine		industrial_chemical
+Oxazepam	Oxazepam		industrial_chemical
+Panfuran S (containing dihydroxymethylfuratrizine)	Panfuran S (containing dihydroxymethylfuratrizine)		industrial_chemical
+para-Aminoazobenzene	para-Aminoazobenzene		industrial_chemical
+para-Chloroaniline	para-Chloroaniline		industrial_chemical
+para-Cresidine	para-Cresidine		industrial_chemical
+para-Dichlorobenzene	para-Dichlorobenzene		industrial_chemical
+para-Dimethylaminoazobenzene	para-Dimethylaminoazobenzene		industrial_chemical
+para-Nitroanisole	para-Nitroanisole		industrial_chemical
+Parathion	Parathion		pesticide
+Pentabromodiphenyl ether	Pentabromodiphenyl ether		industrial_chemical
+Pentachlorobenzene	Pentachlorobenzene	PeCB	persistent_pollutant
+Pentachlorophenol	Pentachlorophenol	PCP	pesticide
+Pentachlorophenol (see also Polychlorophenols)	Pentachlorophenol (see also Polychlorophenols)		industrial_chemical
+Pentosan polysulfate sodium	Pentosan polysulfate sodium		industrial_chemical
+Perfluorohexane sulfonic acid	Perfluorohexane sulfonic acid	PFHxS	industrial_chemical
+Perfluorooctane sulfonic acid	Perfluorooctane sulfonic acid	PFOS	industrial_chemical
+Perfluorooctanesulfonic acid (PFOS)	Perfluorooctanesulfonic acid (PFOS)		industrial_chemical
+Perfluorooctanoic acid	Perfluorooctanoic acid	PFOA	industrial_chemical
+Perfluorooctanoic acid (PFOA)	Perfluorooctanoic acid (PFOA)		industrial_chemical
+PFIB	PFIB	perfluoroisobutene	chemical_agent
+Phenacetin	Phenacetin		industrial_chemical
+Phenazopyridine hydrochloride	Phenazopyridine hydrochloride		industrial_chemical
+Phenobarbital	Phenobarbital		industrial_chemical
+Phenolphthalein	Phenolphthalein		industrial_chemical
+Phenoxybenzamine hydrochloride	Phenoxybenzamine hydrochloride		industrial_chemical
+Phenyl glycidyl ether	Phenyl glycidyl ether		industrial_chemical
+Phenylacetic acid	Phenylacetic acid		drug_precursor
+Phenytoin	Phenytoin		industrial_chemical
+PhIP (2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)	PhIP (2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)		industrial_chemical
+Phorate	Phorate		pesticide
+Phosgene	Phosgene		chemical_agent
+Phosphamidon	Phosphamidon		pesticide
+Phosphorus oxychloride	Phosphorus oxychloride		chemical_agent
+Phosphorus pentachloride	Phosphorus pentachloride		chemical_agent
+Phosphorus trichloride	Phosphorus trichloride		chemical_agent
+Phosphorus-32, as phosphate	Phosphorus-32, as phosphate		industrial_chemical
+Pioglitazone	Pioglitazone		industrial_chemical
+Piperonal	Piperonal		drug_precursor
+Plutonium	Plutonium		industrial_chemical
+Polyaromatic hydrocarbons	Polyaromatic hydrocarbons	PAHs	industrial_chemical
+Polybrominated biphenyls	Polybrominated biphenyls	PBB	industrial_chemical
+Polychlorinated biphenyls	Polychlorinated biphenyls	PCBs	persistent_pollutant
+Polychlorinated naphthalenes	Polychlorinated naphthalenes	PCNs	persistent_pollutant
+Polychlorinated terphenyls	Polychlorinated terphenyls	PCT	industrial_chemical
+Ponceau 3R	Ponceau 3R		industrial_chemical
+Ponceau MX	Ponceau MX		industrial_chemical
+Potassium bromate	Potassium bromate		industrial_chemical
+Primidone	Primidone		industrial_chemical
+Procarbazine hydrochloride	Procarbazine hydrochloride		industrial_chemical
+Propylene oxide	Propylene oxide		industrial_chemical
+Propylthiouracil	Propylthiouracil		industrial_chemical
+Pseudoephedrine	Pseudoephedrine		drug_precursor
+Pulegone	Pulegone		industrial_chemical
+Pyridine	Pyridine		industrial_chemical
+QL	QL		chemical_agent
+Quinoline	Quinoline		industrial_chemical
+Quinoxyfen	Quinoxyfen		pesticide
+Quinuclidin-3-ol	Quinuclidin-3-ol		chemical_agent
+Radium-224 and its decay products	Radium-224 and its decay products		industrial_chemical
+Radium-226 and its decay products	Radium-226 and its decay products		industrial_chemical
+Radium-228 and its decay products	Radium-228 and its decay products		industrial_chemical
+Radon-222 and its decay products	Radon-222 and its decay products		industrial_chemical
+Ricin	Ricin		chemical_agent
+Riddelliine	Riddelliine		industrial_chemical
+Safrole	Safrole		drug_precursor
+Sarin	Sarin		chemical_agent
+Saxitoxin	Saxitoxin		chemical_agent
+Short-chain chlorinated paraffins	Short-chain chlorinated paraffins	SCCPs	industrial_chemical
+Silicon carbide whiskers	Silicon carbide whiskers		industrial_chemical
+Silicon carbide, fibrous	Silicon carbide, fibrous		industrial_chemical
+Simazine	Simazine		pesticide
+Sodium ortho-phenylphenate	Sodium ortho-phenylphenate		industrial_chemical
+Soman	Soman		chemical_agent
+Sterigmatocystin	Sterigmatocystin		industrial_chemical
+Streptozotocin	Streptozotocin		industrial_chemical
+Styrene	Styrene		industrial_chemical
+Styrene-7,8-oxide	Styrene-7,8-oxide		industrial_chemical
+Sulfallate	Sulfallate		industrial_chemical
+Sulfasalazine	Sulfasalazine		industrial_chemical
+Sulfur dichloride	Sulfur dichloride		chemical_agent
+Sulfur monochloride	Sulfur monochloride		chemical_agent
+Sulfur mustard	Sulfur mustard	mustard gas	chemical_agent
+Tabun	Tabun		chemical_agent
+Tacrolimus	Tacrolimus		industrial_chemical
+Talc	Talc		industrial_chemical
+Tamoxifen	Tamoxifen		industrial_chemical
+Technical endosulfan	Technical endosulfan	endosulfan	pesticide
+Teniposide	Teniposide		industrial_chemical
+Terbufos	Terbufos		pesticide
+Terbutryn	Terbutryn		pesticide
+Tetrabromobisphenol A	Tetrabromobisphenol A		industrial_chemical
+Tetrabromodiphenyl ether	Tetrabromodiphenyl ether		industrial_chemical
+Tetrachloroethylene	Tetrachloroethylene	perchloroethylene	industrial_solvent
+Tetrachloroethylene (Perchloroethylene)	Tetrachloroethylene (Perchloroethylene)		industrial_chemical
+Tetrachlorvinphos	Tetrachlorvinphos		industrial_chemical
+Tetraethyl lead	Tetraethyl lead		heavy_metal_compound
+Tetrafluoroethylene	Tetrafluoroethylene		industrial_chemical
+Tetrahydrofuran	Tetrahydrofuran		industrial_chemical
+Tetramethyl lead	Tetramethyl lead		heavy_metal_compound
+Tetranitromethane	Tetranitromethane		industrial_chemical
+Thioacetamide	Thioacetamide		industrial_chemical
+Thionyl chloride	Thionyl chloride		chemical_agent
+Thiotepa	Thiotepa		industrial_chemical
+Thiouracil	Thiouracil		industrial_chemical
+Thiram	Thiram		pesticide
+Thorium-232 and its decay products	Thorium-232 and its decay products		industrial_chemical
+Titanium dioxide	Titanium dioxide		industrial_chemical
+Toluene	Toluene		industrial_solvent
+Toluene diisocyanates	Toluene diisocyanates		industrial_chemical
+Toxaphene	Toxaphene		pesticide
+Toxaphene (Polychlorinated camphenes)	Toxaphene (Polychlorinated camphenes)		industrial_chemical
+trans-2-[(Dimethylamino)methylimino]-5-[2-(5-nitro-2-furyl)-vinyl]-1,3,4-oxadiazole	trans-2-[(Dimethylamino)methylimino]-5-[2-(5-nitro-2-furyl)-vinyl]-1,3,4-oxadiazole		industrial_chemical
+Treosulfan	Treosulfan		industrial_chemical
+Triamterene	Triamterene		industrial_chemical
+Tributyltin benzoate	Tributyltin benzoate		pesticide
+Tributyltin chloride	Tributyltin chloride		pesticide
+Tributyltin compounds	Tributyltin compounds		pesticide
+Tributyltin fluoride	Tributyltin fluoride		pesticide
+Tributyltin linoleate	Tributyltin linoleate		pesticide
+Tributyltin methacrylate	Tributyltin methacrylate		pesticide
+Tributyltin naphthenate	Tributyltin naphthenate		pesticide
+Tributyltin oxide	Tributyltin oxide		pesticide
+Trichlorfon	Trichlorfon		pesticide
+Trichlormethine (Trimustine hydrochloride)	Trichlormethine (Trimustine hydrochloride)		industrial_chemical
+Trichloroacetic acid	Trichloroacetic acid		industrial_chemical
+Trichlorobenzenes	Trichlorobenzenes		industrial_solvent
+Trichloroethylene	Trichloroethylene		industrial_solvent
+Trichloromethane	Trichloromethane	chloroform	industrial_solvent
+Triethanolamine	Triethanolamine		chemical_agent
+Triethyl phosphite	Triethyl phosphite		chemical_agent
+Trifluralin	Trifluralin		pesticide
+Trimethyl phosphite	Trimethyl phosphite		chemical_agent
+Trimethylolpropane triacrylate, technical grade	Trimethylolpropane triacrylate, technical grade		industrial_chemical
+Tris(2,3-dibromopropyl) phosphate	Tris(2,3-dibromopropyl) phosphate		industrial_chemical
+Tris(chloropropyl) phosphate (TCPP)	Tris(chloropropyl) phosphate (TCPP)		industrial_chemical
+Trp-P-1 (3-Amino-1,4-dimethyl-5H-pyrido[4,3-b]indole)	Trp-P-1 (3-Amino-1,4-dimethyl-5H-pyrido[4,3-b]indole)		industrial_chemical
+Trp-P-2 (3-Amino-1-methyl-5H-pyrido[4,3-b]indole)	Trp-P-2 (3-Amino-1-methyl-5H-pyrido[4,3-b]indole)		industrial_chemical
+Trypan blue	Trypan blue		industrial_chemical
+Uracil mustard	Uracil mustard		industrial_chemical
+Uranium, mixture of isotopes (see Radionuclides, alpha-particle-emitting, internally deposited)	Uranium, mixture of isotopes (see Radionuclides, alpha-particle-emitting, internally deposited)		industrial_chemical
+UV-328	UV-328		industrial_chemical
+Vanadium pentoxide	Vanadium pentoxide		industrial_chemical
+Vinclozolin	Vinclozolin		industrial_chemical
+Vinyl acetate	Vinyl acetate		industrial_chemical
+Vinyl bromide	Vinyl bromide		industrial_chemical
+Vinyl chloride	Vinyl chloride		industrial_chemical
+Vinyl fluoride	Vinyl fluoride		industrial_chemical
+Vinylidene chloride	Vinylidene chloride		industrial_chemical
+Voriconazole	Voriconazole		industrial_chemical
+VX	VX		chemical_agent
+Xylene	Xylene		industrial_solvent
+Zalcitabine	Zalcitabine		industrial_chemical
+Zidovudine (AZT)	Zidovudine (AZT)		industrial_chemical

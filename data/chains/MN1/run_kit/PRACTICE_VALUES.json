@@ -1,0 +1,68 @@
+{
+ "lots.carrier": {
+  "All Nippon Airways": {
+   "example": "Brussels Airlines",
+   "label": "compliance lane 38",
+   "level": 2,
+   "member": true
+  },
+  "Qatar Airways": {
+   "example": "British Airways",
+   "label": "ledger mark 98",
+   "level": 5,
+   "member": true
+  },
+  "Red Sea Airlines": {
+   "example": "Brussels Airlines",
+   "label": "compliance lane 38",
+   "level": 2,
+   "member": false
+  },
+  "Solomon Airlines": {
+   "example": "British Airways",
+   "label": "ledger mark 98",
+   "level": 5,
+   "member": false
+  }
+ },
+ "lots.material": {
+  "europium": {
+   "example": "lutetium",
+   "label": "review tag R-20",
+   "level": 3,
+   "member": false
+  },
+  "yttrium": {
+   "example": "lutetium",
+   "label": "review tag R-20",
+   "level": 3,
+   "member": true
+  }
+ },
+ "lots.origin_country": {
+  "BB": {
+   "example": "CA",
+   "label": "ledger mark C8",
+   "level": 1,
+   "member": true
+  },
+  "JP": {
+   "example": "IT",
+   "label": "audit ribbon V9",
+   "level": 4,
+   "member": true
+  },
+  "RO": {
+   "example": "CA",
+   "label": "ledger mark C8",
+   "level": 1,
+   "member": false
+  },
+  "TR": {
+   "example": "IT",
+   "label": "audit ribbon V9",
+   "level": 4,
+   "member": false
+  }
+ }
+}

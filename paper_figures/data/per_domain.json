@@ -1,0 +1,102 @@
+{
+ "TR": {
+  "frozen": 50.0,
+  "sonnet_frozen": 50.0,
+  "ace/self": 70.0,
+  "dc/self": 50.0,
+  "ace/hint": 70.0,
+  "dc/hint": 72.5,
+  "hist": 57.5,
+  "histhint": 87.5
+ },
+ "WS": {
+  "frozen": 50.0,
+  "sonnet_frozen": 50.0,
+  "ace/self": 50.0,
+  "dc/self": 50.0,
+  "ace/hint": 40.0,
+  "dc/hint": 47.5,
+  "hist": 52.5,
+  "histhint": 70.0
+ },
+ "SY": {
+  "frozen": 50.0,
+  "sonnet_frozen": 52.5,
+  "ace/self": 47.5,
+  "dc/self": 50.0,
+  "ace/hint": 55.0,
+  "dc/hint": 55.0,
+  "hist": 35.0,
+  "histhint": 35.0
+ },
+ "SP": {
+  "frozen": 32.5,
+  "sonnet_frozen": 25.0,
+  "ace/self": 47.5,
+  "dc/self": 52.5,
+  "ace/hint": 65.0,
+  "dc/hint": 65.0,
+  "hist": 47.5,
+  "histhint": 70.0
+ },
+ "CH": {
+  "frozen": 50.0,
+  "sonnet_frozen": 47.5,
+  "ace/self": 50.0,
+  "dc/self": 62.5,
+  "ace/hint": 62.5,
+  "dc/hint": 67.5,
+  "hist": 55.0,
+  "histhint": 40.0
+ },
+ "LG": {
+  "frozen": 45.0,
+  "sonnet_frozen": 40.0,
+  "ace/self": 47.5,
+  "dc/self": 50.0,
+  "ace/hint": 67.5,
+  "dc/hint": 67.5,
+  "hist": 50.0,
+  "histhint": 85.0
+ },
+ "GR": {
+  "frozen": 50.0,
+  "sonnet_frozen": 42.5,
+  "ace/self": 62.5,
+  "dc/self": 50.0,
+  "ace/hint": 77.5,
+  "dc/hint": 67.5,
+  "hist": 57.5,
+  "histhint": 65.0
+ },
+ "MN": {
+  "frozen": 50.0,
+  "sonnet_frozen": 52.5,
+  "ace/self": 50.0,
+  "dc/self": 62.5,
+  "ace/hint": 80.0,
+  "dc/hint": 85.0,
+  "hist": 70.0,
+  "histhint": 75.0
+ },
+ "UN": {
+  "frozen": 50.0,
+  "sonnet_frozen": 45.0,
+  "ace/self": 50.0,
+  "dc/self": 50.0,
+  "ace/hint": 75.0,
+  "dc/hint": 65.0,
+  "hist": 47.5,
+  "histhint": 25.0
+ },
+ "SH": {
+  "frozen": 50.0,
+  "sonnet_frozen": 50.0,
+  "ace/self": 50.0,
+  "dc/self": 50.0,
+  "ace/hint": 77.5,
+  "dc/hint": 90.0,
+  "hist": 50.0,
+  "histhint": 82.5
+ }
+}

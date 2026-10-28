@@ -1,0 +1,1653 @@
+- id: web_browsers
+  name: Web browsers
+  synonyms:
+  - browsers
+  members:
+  - chrome.exe
+  - firefox.exe
+  - msedge.exe
+  - opera.exe
+  - 360se.exe
+  - 360chrome.exe
+  - SogouExplorer.exe
+  - maxthon.exe
+  - baidubrowser.exe
+  - Brave.exe
+  - Vivaldi.exe
+  - QQBrowser.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/List_of_web_browsers
+  salience: 233452
+- id: instant_messengers
+  name: Instant messaging clients
+  synonyms:
+  - messengers
+  members:
+  - WeChat.exe
+  - QQ.exe
+  - Skype.exe
+  - msnmsgr.exe
+  - telegram.exe
+  - WhatsApp.exe
+  - Line.exe
+  - DingTalk.exe
+  - Feishu.exe
+  - aliwangwang.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients
+  salience: 17340
+- id: download_managers
+  name: Download managers
+  synonyms:
+  - downloaders
+  members:
+  - tencentdl.exe
+  - Thunder.exe
+  - IDMan.exe
+  - FreeDownloadManager.exe
+  - uGet.exe
+  - aria2c.exe
+  - HiSuiteDownLoader.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/Comparison_of_download_managers
+  salience: 89475
+- id: ssh_clients
+  name: SSH clients
+  synonyms:
+  - SSH terminal programs
+  members:
+  - putty.exe
+  - MobaXterm.exe
+  - Xshell.exe
+  - SecureCRT.exe
+  - Termius.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Comparison_of_SSH_clients
+  salience: 32323
+- id: media_players
+  name: Media players
+  synonyms:
+  - media Player software
+  members:
+  - vlc.exe
+  - PotPlayerMini.exe
+  - mpc-hc.exe
+  - KMPlayer.exe
+  - iTunes.exe
+  - Spotify.exe
+  - QQMusic.exe
+  - QQPlayer.exe
+  - FlashPlayerPlugin_18_0_0_209.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/Comparison_of_video_player_software
+  salience: 37436
+- id: pdf_readers
+  name: PDF readers
+  synonyms:
+  - PDF software
+  members:
+  - Acrobat.exe
+  - AcroRd32.exe
+  - FoxitReader.exe
+  - SumatraPDF.exe
+  - PDFXCview.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/List_of_PDF_software
+  salience: 84501
+- id: office_suites
+  name: Office suites
+  synonyms:
+  - office software
+  members:
+  - WINWORD.EXE
+  - EXCEL.EXE
+  - POWERPNT.EXE
+  - wps.exe
+  - et.exe
+  - wpp.exe
+  - soffice.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/List_of_office_suites
+  salience: 49919
+- id: software_updaters
+  name: Software update clients
+  synonyms:
+  - update programs
+  members:
+  - GoogleUpdate.exe
+  - AdobeARM.exe
+  - jusched.exe
+  - SunJavaUpdateSched.exe
+  - AppleSoftwareUpdate.exe
+  - QQProtectUpd.exe
+  - HiSuiteDownLoader.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/Software_updater
+  salience: 70303
+- id: security_software
+  name: Endpoint security software
+  synonyms:
+  - antivirus programs
+  members:
+  - avastui.exe
+  - avgui.exe
+  - McAfee.exe
+  - Kaspersky.exe
+  - 360sd.exe
+  - 360tray.exe
+  - 360AP.exe
+  - MsMpEng.exe
+  - QQProtect.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/Comparison_of_antivirus_software
+  salience: 45675
+- id: file_sync_clients
+  name: File synchronization clients
+  synonyms:
+  - cloud storage clients
+  members:
+  - Dropbox.exe
+  - OneDrive.exe
+  - GoogleDriveFS.exe
+  - BaiduNetdisk.exe
+  - Weiyun.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Comparison_of_file_synchronization_software
+  salience: 43075
+- id: remote_desktop_clients
+  name: Remote desktop clients
+  synonyms:
+  - remote access programs
+  members:
+  - TeamViewer_Service.exe
+  - TeamViewer.exe
+  - AnyDesk.exe
+  - RustDesk.exe
+  - mstsc.exe
+  - vncviewer.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 6
+  source: https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
+  salience: 72932
+- id: ftp_clients
+  name: FTP clients
+  synonyms:
+  - FTP programs
+  members:
+  - WinSCP.exe
+  - FileZilla.exe
+  - Xshell.exe
+  - SecureCRT.exe
+  - MobaXterm.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://en.wikipedia.org/wiki/Comparison_of_FTP_clients
+  salience: 1387
+- id: developer_tools
+  name: Software development tools
+  synonyms:
+  - developer programs
+  members:
+  - devenv.exe
+  - code.exe
+  - pycharm64.exe
+  - idea64.exe
+  - eclipse.exe
+  - java.exe
+  - javaw.exe
+  - git-remote-https.exe
+  - GitHub.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 9
+  source: https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments
+  salience: 70235
+- id: chromium_browsers
+  name: Chromium-based web browsers
+  synonyms:
+  - Blink browsers
+  members:
+  - chrome.exe
+  - msedge.exe
+  - opera.exe
+  - 360se.exe
+  - 360chrome.exe
+  - Brave.exe
+  - Vivaldi.exe
+  - QQBrowser.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 8
+  source: https://en.wikipedia.org/wiki/Chromium_(web_browser)
+  salience: 490702
+- id: email_chat_clients
+  name: Email and chat clients
+  synonyms:
+  - messaging and mail clients
+  members:
+  - WeChat.exe
+  - QQ.exe
+  - Skype.exe
+  - msnmsgr.exe
+  - telegram.exe
+  - WhatsApp.exe
+  - Line.exe
+  - DingTalk.exe
+  - Feishu.exe
+  - aliwangwang.exe
+  - OUTLOOK.EXE
+  - Foxmail.exe
+  - BaiduHi.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 13
+  source: https://en.wikipedia.org/wiki/Comparison_of_email_clients
+  salience: 69356
+- id: office_document_apps
+  name: Office and document applications
+  synonyms:
+  - document applications
+  members:
+  - WINWORD.EXE
+  - EXCEL.EXE
+  - POWERPNT.EXE
+  - wps.exe
+  - et.exe
+  - wpp.exe
+  - soffice.exe
+  - Acrobat.exe
+  - AcroRd32.exe
+  - FoxitReader.exe
+  - SumatraPDF.exe
+  - PDFXCview.exe
+  - ONENOTE.EXE
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 13
+  source: https://en.wikipedia.org/wiki/List_of_office_suites
+  salience: 49919
+- id: video_players
+  name: Video player programs
+  synonyms:
+  - video players
+  members:
+  - vlc.exe
+  - PotPlayerMini.exe
+  - mpc-hc.exe
+  - KMPlayer.exe
+  - QQPlayer.exe
+  - wmplayer.exe
+  - QQLive.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://en.wikipedia.org/wiki/Comparison_of_video_player_software
+  salience: 37436
+- id: developer_admin_tools
+  name: Development and system administration tools
+  synonyms:
+  - admin and developer tools
+  members:
+  - devenv.exe
+  - code.exe
+  - pycharm64.exe
+  - idea64.exe
+  - eclipse.exe
+  - java.exe
+  - javaw.exe
+  - git-remote-https.exe
+  - GitHub.exe
+  - putty.exe
+  - MobaXterm.exe
+  - Xshell.exe
+  - SecureCRT.exe
+  - Termius.exe
+  - WinSCP.exe
+  - FileZilla.exe
+  - powershell.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 17
+  source: https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments
+  salience: 70235
+- id: security_update_tools
+  name: Security and update programs
+  synonyms:
+  - security and updater software
+  members:
+  - avastui.exe
+  - avgui.exe
+  - McAfee.exe
+  - Kaspersky.exe
+  - 360sd.exe
+  - 360tray.exe
+  - 360AP.exe
+  - MsMpEng.exe
+  - QQProtect.exe
+  - GoogleUpdate.exe
+  - AdobeARM.exe
+  - jusched.exe
+  - SunJavaUpdateSched.exe
+  - AppleSoftwareUpdate.exe
+  - QQProtectUpd.exe
+  - HiSuiteDownLoader.exe
+  - wuauclt.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 17
+  source: https://en.wikipedia.org/wiki/Comparison_of_antivirus_software
+  salience: 45675
+- id: remote_access_tools
+  name: Remote access and terminal tools
+  synonyms:
+  - remote access software
+  members:
+  - TeamViewer_Service.exe
+  - TeamViewer.exe
+  - AnyDesk.exe
+  - RustDesk.exe
+  - mstsc.exe
+  - vncviewer.exe
+  - putty.exe
+  - MobaXterm.exe
+  - Xshell.exe
+  - SecureCRT.exe
+  - Termius.exe
+  - WinSCP.exe
+  - FileZilla.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 13
+  source: https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
+  salience: 72932
+- id: sync_download_tools
+  name: File synchronization and download tools
+  synonyms:
+  - transfer tools
+  members:
+  - Dropbox.exe
+  - OneDrive.exe
+  - GoogleDriveFS.exe
+  - BaiduNetdisk.exe
+  - Weiyun.exe
+  - tencentdl.exe
+  - Thunder.exe
+  - IDMan.exe
+  - FreeDownloadManager.exe
+  - uGet.exe
+  - aria2c.exe
+  - HiSuiteDownLoader.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 12
+  source: https://en.wikipedia.org/wiki/Comparison_of_file_synchronization_software
+  salience: 43075
+- id: microsoft_products
+  name: Microsoft software products
+  synonyms:
+  - Microsoft applications
+  members:
+  - svchost.exe
+  - msfeedssync.exe
+  - spoolsv.exe
+  - msedge.exe
+  - OneDrive.exe
+  - Skype.exe
+  - msnmsgr.exe
+  - mstsc.exe
+  - WINWORD.EXE
+  - EXCEL.EXE
+  - POWERPNT.EXE
+  - devenv.exe
+  - code.exe
+  - MsMpEng.exe
+  - OUTLOOK.EXE
+  - ONENOTE.EXE
+  - Teams.exe
+  - wuauclt.exe
+  - explorer.exe
+  - notepad.exe
+  - powershell.exe
+  - wmplayer.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 22
+  source: https://www.microsoft.com/en-us/software-download
+  salience: 4009730
+- id: tencent_products
+  name: Tencent software products
+  synonyms:
+  - Tencent applications
+  members:
+  - WeChat.exe
+  - QQ.exe
+  - QQPlayer.exe
+  - QQExternal.exe
+  - QQProtect.exe
+  - QQProtectUpd.exe
+  - tencentdl.exe
+  - QQMusic.exe
+  - QQBrowser.exe
+  - Weiyun.exe
+  - Foxmail.exe
+  - WeGame.exe
+  - TencentMeeting.exe
+  - WeCom.exe
+  - QQLive.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 15
+  source: https://www.tencent.com/en-us/products.html
+  salience: 1096906
+- id: qihoo_products
+  name: Qihoo 360 software products
+  synonyms:
+  - 360 applications
+  members:
+  - 360se.exe
+  - 360chrome.exe
+  - 360sd.exe
+  - 360tray.exe
+  - 360AP.exe
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 5
+  source: https://www.360.cn/
+  salience: 35852
+- id: office_ltsc_2024_apps
+  name: Office LTSC Professional Plus 2024 applications
+  synonyms:
+  - Office 2024 desktop apps
+  members:
+  - EXCEL.EXE
+  - ONENOTE.EXE
+  - OUTLOOK.EXE
+  - POWERPNT.EXE
+  - WINWORD.EXE
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Access
+  official_count: 6
+  source: https://learn.microsoft.com/en-us/office/ltsc/2024/overview
+  salience: 1827136
+- id: adobe_cc_current_apps
+  name: Adobe Creative Cloud current applications
+  synonyms:
+  - Creative Cloud apps
+  members:
+  - Acrobat.exe
+  - Illustrator.exe
+  - InDesign.exe
+  - Photoshop.exe
+  - PremierePro.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Aero
+  - After Effects
+  - Animate (formerly Flash Professional )
+  - Audition
+  - Behance
+  - Bridge
+  - Capture
+  - Character Animator
+  - Color (formerly Kuler )
+  - Comp
+  - Creative Cloud Desktop app
+  - Dimension
+  - Dreamweaver
+  - Dynamic Link
+  - Express
+  - ExtendScript Toolkit
+  - Fonts (formerly Typekit )
+  - Fresco
+  - Illustrator Draw
+  - InCopy
+  - Lightroom
+  - Lightroom Classic
+  - Media Encoder
+  - Photoshop Camera
+  - Photoshop Fix
+  - Photoshop Mix
+  - Photoshop Sketch
+  - Portfolio
+  - Prelude
+  - Premiere Rush
+  - Spark Page
+  - Spark Video
+  - Stock
+  - XD
+  official_count: 39
+  source: https://en.wikipedia.org/wiki/Adobe_Creative_Cloud
+  salience: 152720
+- id: windows_components_apps_utilities
+  name: Microsoft Windows applications and utilities
+  synonyms:
+  - Windows built-in apps
+  members:
+  - msedge.exe
+  - OneDrive.exe
+  - ONENOTE.EXE
+  - notepad.exe
+  - Skype.exe
+  - mstsc.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Easy Transfer
+  - Contacts
+  - Camera
+  - Calculator
+  - Calendar
+  - Character Map
+  - Cortana
+  - Feedback Hub
+  - Groove Music (previously Xbox Music)
+  - Movies & TV (previously Xbox Video)
+  - On-Screen Keyboard (osk.exe)
+  - Paint 3D
+  - Photos
+  - Steps Recorder (called Problem Steps Recorder in Windows 7)
+  - Windows To Go
+  - Narrator
+  - Sound Recorder
+  - Sticky Notes
+  - Private Character Editor
+  - Remote Assistance
+  - Mobility Center
+  - Speech Recognition
+  - IExpress
+  - Xbox Console Companion (previously Xbox and Xbox Games)
+  - Xbox Game Bar
+  - Magnifier
+  - Fax and Scan
+  - Photo Viewer
+  - Mail
+  - Maps
+  - Media Center
+  - Task Manager
+  - Disk Cleanup
+  - Snipping Tool
+  - Microsoft Store (previously Windows Store)
+  - MSN apps
+  - Alarms & Clock (previously Alarms)
+  - Windows Security (previously Windows Defender Security Center)
+  - Solitaire Collection
+  official_count: 45
+  source: https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_components
+  salience: 42933
+- id: microsoft_productivity_apps
+  name: Microsoft productivity applications
+  synonyms:
+  - Microsoft Office and Teams apps
+  members:
+  - EXCEL.EXE
+  - ONENOTE.EXE
+  - OUTLOOK.EXE
+  - POWERPNT.EXE
+  - WINWORD.EXE
+  - Teams.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Microsoft Access
+  - Microsoft Designer
+  - Microsoft Lens (mobile)
+  - Microsoft Project
+  - Microsoft Publisher
+  - Microsoft Sway
+  - Microsoft Visio
+  - Office Mobile
+  - Office Remote (mobile)
+  - AI Builder
+  - Copilot Studio
+  - Dataverse
+  - Microsoft Power BI
+  - Power Apps
+  - Microsoft Power Automate
+  - Power Automate Desktop
+  - Power Pages
+  - Power Virtual Agents
+  - Microsoft Dynamics 365 Finance
+  - Microsoft Dynamics 365 Business Central (previously Dynamics NAV , Navision )
+  - Microsoft Dynamics 365 Sales (previously Microsoft Dynamics CRM )
+  - 'Discontinued: Microsoft Dynamics C5 , Microsoft Dynamics SL , Microsoft Dynamics
+    GP superseded by Business Central'
+  - Clipchamp
+  - Microsoft PowerToys
+  - Microsoft Lists
+  - Microsoft Loop
+  - Microsoft To Do
+  - Microsoft SwiftKey
+  - Microsoft Syntex
+  - Microsoft Authenticator
+  - 'Discontinued: Microsoft Autofill'
+  - 'Discontinued: Microsoft Expression Studio'
+  - 'Discontinued: Microsoft Money'
+  - 'Discontinued: Windows Movie Maker'
+  - 'Discontinued: Microsoft Picture It!'
+  - 'Discontinued: Microsoft Streets & Trips'
+  - 'Discontinued: Microsoft Works'
+  official_count: 43
+  source: https://en.wikipedia.org/wiki/List_of_Microsoft_software
+  salience: 74318
+- id: ninite_catalog
+  name: Ninite application catalog
+  synonyms:
+  - Ninite apps
+  members:
+  - chrome.exe
+  - opera.exe
+  - firefox.exe
+  - msedge.exe
+  - Brave.exe
+  - Vivaldi.exe
+  - Teams.exe
+  - telegram.exe
+  - WhatsApp.exe
+  - iTunes.exe
+  - vlc.exe
+  - Spotify.exe
+  - java.exe
+  - FoxitReader.exe
+  - soffice.exe
+  - SumatraPDF.exe
+  - avastui.exe
+  - avgui.exe
+  - Dropbox.exe
+  - GoogleDriveFS.exe
+  - OneDrive.exe
+  - googleearth.exe
+  - AnyDesk.exe
+  - TeamViewer.exe
+  - RustDesk.exe
+  - GitHub.exe
+  - FileZilla.exe
+  - WinSCP.exe
+  - putty.exe
+  - eclipse.exe
+  - code.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Zoom
+  - Discord
+  - Slack
+  - Pidgin
+  - Thunderbird
+  - Trillian
+  - AIMP
+  - foobar2000
+  - Winamp
+  - MusicBee
+  - Audacity
+  - K-Lite Codecs
+  - CCCP
+  - MediaMonkey
+  - HandBrake
+  - OBS Studio
+  - .NET 4.8.1
+  - .NET Desktop Runtime x64 8
+  - .NET Desktop Runtime arm64 8
+  - .NET Desktop Runtime 8
+  - .NET Desktop Runtime x64 9
+  - .NET Desktop Runtime arm64 9
+  - .NET Desktop Runtime 9
+  - .NET Desktop Runtime x64 10
+  - .NET Desktop Runtime arm64 10
+  - .NET Desktop Runtime 10
+  - ASP.NET Core Runtime x64 8
+  - ASP.NET Core Runtime arm64 8
+  - ASP.NET Core Runtime 8
+  - ASP.NET Core Runtime x64 9
+  - ASP.NET Core Runtime arm64 9
+  - ASP.NET Core Runtime 9
+  - ASP.NET Core Runtime x64 10
+  - ASP.NET Core Runtime arm64 10
+  - ASP.NET Core Runtime 10
+  - VSTO Runtime
+  - Java (AdoptOpenJDK) x64 8
+  - Java (AdoptOpenJDK) x64 11
+  - Java (AdoptOpenJDK) x64 17
+  - Java (AdoptOpenJDK) x64 21
+  - Java (AdoptOpenJDK) x64 25
+  - JDK (AdoptOpenJDK) x64 8
+  - JDK (AdoptOpenJDK) 8
+  - JDK (AdoptOpenJDK) x64 11
+  - JDK (AdoptOpenJDK) x64 17
+  - JDK (AdoptOpenJDK) x64 21
+  - JDK (AdoptOpenJDK) x64 25
+  - JDK (Amazon Corretto) x64 8
+  - JDK (Amazon Corretto) 8
+  - JDK (Amazon Corretto) x64 11
+  - JDK (Amazon Corretto) x64 17
+  - JDK (Amazon Corretto) x64 21
+  - JDK (Amazon Corretto) x64 25
+  - JRE (Amazon Corretto) x64 8
+  - JRE (Amazon Corretto) 8
+  - Krita
+  - Blender
+  - Paint.NET
+  - GIMP
+  - IrfanView
+  - XnView
+  - Inkscape
+  - FastStone
+  - Greenshot
+  - ShareX
+  - Bambu Studio
+  - UltiMaker Cura
+  - CutePDF
+  - PDF24 Creator
+  - Ghostscript
+  - OpenOffice
+  - Malwarebytes
+  - Spybot 2
+  - Avira
+  - SUPERAntiSpyware
+  - qBittorrent
+  - SugarSync
+  - Evernote
+  - Steam
+  - Epic Games Launcher
+  - KeePass 2
+  - 1Password
+  - Bitwarden
+  - Everything
+  - NV Access
+  - ChatGPT
+  - Claude
+  - Wireshark
+  - PowerToys
+  - Windows App
+  - ImgBurn
+  - TightVNC
+  - UltraVNC
+  - Tailscale
+  - WireGuard
+  - TeraCopy
+  - CDBurnerXP
+  - Revo
+  - Launchy
+  - WinDirStat
+  - WizTree
+  - Advanced IP Scanner
+  - Glary
+  - InfraRecorder
+  - Open-Shell
+  - CCleaner
+  - 7-Zip
+  - PeaZip
+  - WinRAR
+  - VC Redist x64 2015+
+  - VC Redist x86 2015+
+  - VC Redist arm64 2015+
+  - VC Redist x64 2013
+  - VC Redist x86 2013
+  - VC Redist x64 2012
+  - VC Redist x86 2012
+  - VC Redist x64 2010
+  - VC Redist x86 2010
+  - VC Redist x64 2008
+  - VC Redist x86 2008
+  - VC Redist x64 2005
+  - VC Redist x86 2005
+  - Python x64 3
+  - Python arm64 3
+  - Python 3
+  - Python
+  - Git
+  - Docker Desktop
+  - Node.js 22
+  - Node.js 24
+  - Node.js 26
+  - Notepad++
+  - Sublime Text 4
+  - WinMerge
+  - Cursor
+  official_count: 166
+  source: https://ninite.com/
+  salience: 61125
+- id: portableapps_directory
+  name: Portable App Directory
+  synonyms:
+  - PortableApps.com apps
+  members:
+  - FileZilla.exe
+  - FreeDownloadManager.exe
+  - chrome.exe
+  - maxthon.exe
+  - firefox.exe
+  - opera.exe
+  - putty.exe
+  - telegram.exe
+  - uGet.exe
+  - WinSCP.exe
+  - mpc-hc.exe
+  - PotPlayerMini.exe
+  - vlc.exe
+  - FoxitReader.exe
+  - soffice.exe
+  - PDFXCview.exe
+  - SumatraPDF.exe
+  - TeamViewer.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Balabolka Portable
+  - Dicom Portable
+  - DSpeech Portable
+  - NVDA Portable
+  - On-Screen Keyboard Portable
+  - OneLoupe Portable
+  - Virtual Magnifying Glass Portable
+  - AkelPad Portable
+  - Cppcheck Portable
+  - CudaText Portable
+  - Database Browser Portable
+  - DB Browser for SQLite Portable
+  - Frhed Portable
+  - Geany Portable
+  - gVim Portable
+  - HM NIS Edit Portable
+  - IniTranslator Portable
+  - Notepad++ Portable
+  - Notepad2 Portable
+  - Notepad2-mod Portable
+  - NSIS Portable
+  - Nvu Portable & KompoZer Portable
+  - PortableApps.com Installer
+  - PortableApps.com Launcher
+  - Sqliteman Portable
+  - SWI-Prolog Portable
+  - Q-Eye Portable
+  - XAMPP
+  - Artha Portable
+  - BPBible Portable
+  - Brain Workshop Portable
+  - Celestia Portable
+  - FreeMat Portable
+  - GoldenDict Portable
+  - Gramps Portable
+  - Marble Portable
+  - Mnemosyne Portable
+  - Solfege Portable
+  - Stellarium Portable
+  - Tipp10 Portable
+  - TypeFaster Portable
+  - 2048 Portable
+  - 4st Attack Portable
+  - ADR Portable
+  - Armagetron Advanced Portable
+  - AssaultCube Portable
+  - Atomic Tanks Portable
+  - Battle for Wesnoth Portable
+  - Beret Portable
+  - Big Solitaires 3D Portable
+  - Brutal Chess Portable
+  - BYOND Portable
+  - Canabalt Portable
+  - Chromium B.S.U. Portable
+  - Cube Portable
+  - Dave Gnukem Portable
+  - Domino-Chain Portable
+  - DOSBox Portable
+  - Freeciv Portable
+  - Get Sudoku Portable
+  - Golly Portable
+  - Hedgewars Portable
+  - Hex-a-Hop Portable
+  - IceBreaker Portable
+  - I Have No Tomatoes Portable
+  - Jooleem Portable
+  - Kobo Deluxe Portable
+  - LBreakout2 Portable
+  - LMarbles Portable
+  - Lucas Chess Portable
+  - MahJongg Solitaire 3D Portable
+  - Mana Plus Portable
+  - ManiaDrive Portable
+  - Mines-Perfect Portable
+  - Monster 2 Portable
+  - NetHack Portable
+  - netPanzer Portable
+  - Neverball Portable
+  - OpenTTD Portable
+  - Pathological Portable
+  - Pingus Portable
+  - PokerTH Portable
+  - Project Invincible Portable
+  - Puzzle Collection Portable
+  - Quick Blackjack Portable
+  - Quick Bridge Portable
+  - Quick Cribbage Portable
+  - Quick Poker Portable
+  - Quick Solitaire Portable
+  - Rocks'n'Diamonds Portable
+  - Sauerbraten (Cube 2) Portable
+  - Scorched 3D Portable
+  - Simple Sudoku Portable
+  - Stella Portable
+  - Sudoku Portable
+  - SuperTux Portable
+  - SuperTuxKart Portable
+  - T^3 Portable
+  - The Legend of Edgar Portable
+  - The Powder Toy Portable
+  - Tick5 Portable
+  - Tile World Portable
+  - Twin Distress Portable
+  - USB Sudoku Portable
+  - Warzone 2100 Portable
+  - WarMUX Portable
+  - WAtomic Portable
+  - WinBoard Chess Portable
+  - Wizznic Portable
+  - X-Moto Portable
+  - Xonotic Portable
+  - Xye Portable
+  - Zaz Portable
+  - AndreaMosaic Portable
+  - AniFX Portable
+  - Blender Portable
+  - BlenderCompat Portable
+  - Caesium Portable
+  - Cornice Portable
+  - darktable Portable
+  - Dia Portable
+  - DiffImg Portable
+  - Draw.io Portable
+  - ExifToolGUI Portable
+  - FastStone Capture Portable
+  - FastStone Image Viewer Portable
+  - Fotografix Portable
+  - FotoSketcher Portable
+  - FreeCAD Portable
+  - Fyre Portable
+  - GIMP Portable
+  - Greenfish Icon Editor Pro Portable
+  - Hot Spot Studio Portable
+  - IcoFX Portable
+  - IDPhotoStudio Portable
+  - Inkscape Portable
+  - IrfanView Portable
+  - JPEGView Portable
+  - K-3D Portable
+  - KiCad Portable
+  - Krita Portable
+  - LazPaint Portable
+  - LibreCAD Portable
+  - MyPaint Portable
+  - NAPS2 Portable
+  - Paint.NET Portable
+  - Pencil2D Portable
+  - Pencil Project Portable
+  - PhotoDemon Portable
+  - PhotoFilmStrip Portable
+  - PhotoFiltre Portable
+  - PicPick Portable
+  - Pinta Portable
+  - Pixelorama Portable
+  - PngOptimizer Portable
+  - RawTherapee Portable
+  - ScreenToGif Portable
+  - ShareX Portable
+  - Smart Deblur Portable
+  - XnConvert Portable
+  - XnView Portable
+  - XnView MP Portable
+  - aMSN Portable
+  - Chromium Portable
+  - DamnVid Portable
+  - Ekiga Portable
+  - Falkon Portable
+  - fdmPortable
+  - Feed Notifier Portable
+  - FeedRoller Portable
+  - Ferdium Portable
+  - Gopherus Portable
+  - gPodder Portable
+  - HexChat Portable
+  - Instantbird Portable
+  - Iron Portable
+  - Isotoxin Portable
+  - Juice Portable
+  - K-Meleon Portable
+  - KiTTY Portable
+  - KVIrc Portable
+  - Lagrange Portable
+  - LibreWolf Portable
+  - Links Portable
+  - LAN Messenger Portable
+  - Lynx Portable
+  - MicroSIP Portable
+  - Miranda IM Portable
+  - Miranda NG Portable
+  - Mozilla Firefox Developer Edition, Portable
+  - Mozilla Thunderbird, Portable Edition
+  - Mumble Portable
+  - MyPAL Portable
+  - Opera GX, Portable Edition
+  - Opera Mail Portable
+  - PChat Portable
+  - Pidgin Portable
+  - PopMan Portable
+  - Private Browsing by PortableApps.com
+  - qBittorrent Portable
+  - qBittorrent Enhanced Portable
+  - qTox Portable
+  - QuiteRSS Portable
+  - QupZilla Portable
+  - QuteCom Portable
+  - r3dfox Portable
+  - RetroShare Portable
+  - RSS Guard Portable
+  - SeaMonkey, Portable Edition
+  - sPortable
+  - Supermium Portable
+  - Sylpheed Portable
+  - Transmission Portable
+  - TweetDeck Portable
+  - µTorrent Portable
+  - WackGet Portable
+  - Whalebird Portable
+  - WinWGet Portable
+  - wxDownload Fast Portable
+  - zmPortable
+  - Zulip Desktop Portable
+  - Aegisub Portable
+  - AIMP Portable
+  - Audacious Portable
+  - Audacity Portable
+  - AutoDrum Portable
+  - Avidemux Portable
+  - BriskPlayer Portable
+  - CDex Portable
+  - cdrtfe Portable
+  - DVDStyler Portable
+  - fb2kPortable
+  - fre:ac Portable
+  - gMKVExtractGUI Portable
+  - HandBrake Portable
+  - ImgBurn Portable
+  - InfraRecorder Portable
+  - LameXP Portable
+  - LMMS (Linux MultiMedia Studio) Portable
+  - Lossless Cut Portable
+  - MKVToolNix Portable
+  - Media Player Classic - Black Edition (MPC-BE) Portable
+  - MediaInfo Portable
+  - MilkyTracker Portable
+  - Mixxx Portable
+  - Mp3splt-gtk Portable
+  - MuseScore Portable
+  - Nemp Portable
+  - OBS Studio Portable
+  - Opal Portable
+  - OpenMPT Portable
+  - OpenShot Portable
+  - MusicBrainz Picard Portable
+  - Paul Stretch Portable
+  - Qmmp Portable
+  - Shotcut Portable
+  - SMPlayer Portable
+  - StreamWriter Portable
+  - TAudioConverter Portable
+  - TEncoder Video Converter Portable
+  - VirtualDub Portable
+  - WaveShop Portable
+  - winLAME Portable
+  - wxMP3gain Portable
+  - XMPlay Portable
+  - A Note Portable
+  - AbiWord Portable
+  - Apache OpenOffice Portable
+  - BabelPad Portable
+  - Bitcoin Core Portable
+  - calibre Portable
+  - Cherrytree Portable
+  - CintaNotes Portable
+  - CuteMarkEd Portable
+  - Dogecoin Core Portable
+  - Evince Portable
+  - Finance Explorer Portable
+  - FocusWriter Portable
+  - GnuCash Portable
+  - Gnumeric Portable
+  - HomeBank Portable
+  - Jarte Portable
+  - Joplin Portable
+  - Kanri Portable
+  - KchmViewer Portable
+  - KeepNotePortable
+  - Litecoin Core Portable
+  - Monero Portable
+  - Money Manager Ex Portable
+  - Mozilla Sunbird, Portable Edition
+  - Mozilla Thunderbird, Portable Edition (Address Book)
+  - Notes Portable
+  - PDF Arranger Portable
+  - PDFTK Builder Portable
+  - PDF-XChange Editor Portable
+  - PNotes Portable
+  - PNotes.NET Portable
+  - Qalculate Portable
+  - QOwnNotes Portable
+  - RedNotebook Portable
+  - Scribus Portable
+  - Sigil Portable
+  - SpeedCrunch Portable
+  - StackNotes Portable
+  - Stickies Portable
+  - Task Coach Portable
+  - The Guide Portable
+  - WinDjView Portable
+  - Zettlr Portable
+  - Zim Portable
+  - ZoomIt Portable
+  - Zotero Portable
+  - ClamWin Portable
+  - Emsisoft Emergency Kit Portable
+  - Eraser Classic Portable
+  - Eraser .Net Portable
+  - EraserDrop Portable
+  - GPG Plugin Portable
+  - HijackThis Portable
+  - Kaspersky TDSSKiller Portable
+  - KeePass Classic Password Safe Portable
+  - KeePass Professional Password Safe Portable
+  - KeePassXC Portable
+  - mssPortable
+  - Password Gorilla Portable
+  - Password Safe Portable
+  - PeerBlock
+  - PWGen Portable
+  - Blank And Secure Portable
+  - Spybot - Search & Destroy Portable
+  - Trelix Stinger Portable
+  - VeraCrypt Portable
+  - 2X Client Portable
+  - 7-Zip Portable
+  - 7+ Taskbar Tweaker Portable
+  - Angry IP Scanner Portable
+  - Ant Renamer Portable
+  - AquaSnap Portable
+  - Attribute Changer Portable
+  - Autoruns Portable
+  - BabelMap Portable
+  - balenaEtcher Portable
+  - BleachBit Portable
+  - BOINC Portable
+  - CamStudio Portable
+  - Capture2Text Portable
+  - ccPortable
+  - Checksum Control Portable
+  - Clicky Gone Portable
+  - Colour Contrast Analyser Portable
+  - Command Prompt Portable
+  - Console Portable
+  - ControlPad Portable
+  - Converber Portable
+  - ConvertAll Portable
+  - Cook Timer Portable
+  - CopyQ Portable
+  - Coreinfo Portable
+  - CPU-Z Portable
+  - CpuFrequenz Portable
+  - CrystalDiskInfo Portable
+  - CrystalDiskMark Portable
+  - CrystalMark Retro Portable
+  - CubicExplorer Portable
+  - Daphne Portable
+  - DebugView Portable
+  - DesktopSnowOK Portable
+  - Detect It Easy Portable
+  - dfgPortable
+  - Diffpdf Portable
+  - Disk Cleaner Portable
+  - DiskMon Portable
+  - Ditto Portable
+  - DM2 Portable
+  - Don't Panic! Portable
+  - Don't Sleep Portable
+  - dotNETInspector Portable
+  - DTaskManager Portable
+  - DUMo Portable
+  - DSynchronize Portable
+  - Duplicate Files Finder Portable
+  - DynDNS Simply Client Portable
+  - Everything Portable
+  - Explorer++Portable
+  - fcpyPortable
+  - FileAlyzer Portable
+  - FileOptimizer Portable
+  - FileVoyager Portable
+  - Folding@home Portable
+  - FontForge Portable
+  - FontViewOK Portable
+  - FreeCommander Portable
+  - FreeFileSync Portable
+  - FUPX Portable
+  - GeekUninstaller Portable
+  - Ghostscript Portable
+  - GPU-Z Portable
+  - grepWin Portable
+  - Gridy Portable
+  - HDHacker Portable
+  - HWiNFO Portable
+  - HWMonitor Portable
+  - InnoUnpacker Portable
+  - IObit Uninstaller Portable
+  - IObit Unlocker Portable
+  - jdkPortable
+  - JkDefrag Portable
+  - jPortable
+  - jPortable Browser Switch
+  - jPortable Launcher
+  - KCleaner Portable
+  - Lightscreen Portable
+  - Listary Portable
+  - OpenJDK Portable
+  - Kudu
+  - MBox Viewer Portable
+  - PCI-Z Portable
+  - PeaZip Portable
+  - PortableApps.com AppCompactor
+  - PortExpert Portable
+  - PrivaZer Portable
+  - Process Explorer Portable
+  - Process Hacker Portable
+  - ProcessKO Portable
+  - Process Monitor Portable
+  - Q-Dir Portable
+  - QuickMemoryTestOK Portable
+  - QwikMark Portable
+  - RAMMap Portable
+  - Rapid CRC Unicode Portable
+  - RBTray Portable
+  - rcvPortable
+  - RegAlyzer Portable
+  - Regshot Portable
+  - ReNamer Portable
+  - Resource Hacker Portable
+  - Revo Uninstaller Portable
+  - RisohEditor Portable
+  - Rufus Portable
+  - Run-Command Portable
+  - Shortcuts Search And Replace Portable
+  - SIW (System Information for Windows) Portable
+  - Smart Defrag Portable
+  - SnapTimer Portable
+  - specPortable
+  - SpeedyFox Portable
+  - SSD-Z Portable
+  - Startup Sentinel Portable
+  - StressMyPC Portable
+  - SUMo Portable
+  - Synkron Portable
+  - System Explorer Portable
+  - System Informer Portable
+  - TCPView Portable
+  - Texter Portable
+  - Textify Portable
+  - TidyTabs Portable
+  - TinyTask Portable
+  - Toucan
+  - TraceRouteOK Portable
+  - TreeSize Free Portable
+  - TyperTask Portable
+  - UNetbootin Portable
+  - Unicodia Portable
+  - UltraDefrag Portable
+  - UUID-GUID Generator Portable
+  - Ventoy Portable
+  - Virtual Volumes View Portable
+  - VirtuaWin Portable
+  - VMMap Portable
+  - WhatChanged Portable
+  - WhoDat Portable
+  - WhyNotWin11 Portable
+  - WinCDEmu Portable
+  - WinContig Portable
+  - WinDirStat Portable
+  - Windows Error Lookup Tool Portable
+  - WinFile Portable
+  - winMd5Sum Portable
+  - WinMTR Portable
+  - WinMerge Portable
+  - WinMerge 2011 Portable
+  - WinObj Portable
+  - WinPenguins Portable
+  - Wise Data Recovery Portable
+  - Wise Disk Cleaner Portable
+  - Wise Duplicate Finder Portable
+  - Wise Force Deleter Portable
+  - Wise JetSearch Portable
+  - Wise Program Uninstaller Portable
+  - Wise Registry Cleaner Portable
+  - WizFile Portable
+  - WizTree Portable
+  - Workrave Portable
+  - Xenon File Manager Portable
+  - XN Resource Editor Portable
+  - xpy Portable
+  - YUMI Legacy Portable
+  - YUMI-exFAT Portable
+  - YUMI-UEFI Portable
+  - Zint Barcode Studio Portable
+  - ZSoft Uninstaller Portable
+  official_count: 520
+  source: https://portableapps.com/apps
+  salience: 17953
+- id: comparison_browsers_general
+  name: 'Comparison of web browsers: general information'
+  synonyms:
+  - web browser comparison table
+  members:
+  - Brave.exe
+  - chrome.exe
+  - msedge.exe
+  - firefox.exe
+  - maxthon.exe
+  - opera.exe
+  - Vivaldi.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Amaya (discontinued)
+  - AOL Explorer (discontinued)
+  - Arora (discontinued)
+  - Avast Secure Browser
+  - Basilisk
+  - Camino (discontinued)
+  - Chromium
+  - Cliqz (discontinued)
+  - Comodo Dragon
+  - Comodo IceDragon (discontinued)
+  - Dillo
+  - Dooble
+  - ELinks
+  - Falkon
+  - Flock (discontinued)
+  - Galeon (discontinued)
+  - GNOME Web (Epiphany)
+  - GNU IceCat
+  - iCab
+  - Internet Explorer (discontinued)
+  - Internet Explorer for Mac (discontinued)
+  - K-Meleon
+  - Konqueror
+  - Ladybird
+  - Links
+  - Lunascape
+  - Lynx
+  - Midori
+  - Mosaic (discontinued)
+  - Mozilla Application Suite (discontinued)
+  - Netscape (v.6–7) [ n ] (discontinued)
+  - Netscape Browser (v.8) [ n ] (discontinued)
+  - Netscape Communicator (v.4) [ n ] (discontinued)
+  - Netscape Navigator (v.1–4) [ n ] (discontinued)
+  - Netscape Navigator 9 [ n ] (discontinued)
+  - NetSurf
+  - OmniWeb (discontinued)
+  - Opera Mobile
+  - Origyn Web Browser
+  - Pale Moon
+  - Puffin Browser
+  - qutebrowser
+  - Safari
+  - SalamWeb
+  - SeaMonkey
+  - Shiira (discontinued)
+  - Sleipnir
+  - SRWare Iron
+  - surf
+  - Torch Browser (discontinued)
+  - Uzbl (discontinued)
+  - Waterfox
+  - WebPositive
+  - WorldWideWeb (Nexus) (discontinued)
+  - w3m
+  - Yandex Browser
+  - Browser
+  official_count: 64
+  source: https://en.wikipedia.org/wiki/Comparison_of_web_browsers
+  salience: 116890
+- id: uptodown_top_downloads
+  name: Uptodown Windows top downloads
+  synonyms:
+  - Uptodown top apps
+  members:
+  - chrome.exe
+  - WhatsApp.exe
+  - vlc.exe
+  - AnyDesk.exe
+  - EXCEL.EXE
+  - WINWORD.EXE
+  disputed: []
+  changes: []
+  out_of_universe:
+  - CapCut
+  - 'RoS: Legacy'
+  - HEVC Video Extensions from Device Manufacturer
+  - Tekken 3 Recompiled
+  - Minecraft
+  - eFootball 2027
+  - Windows 10
+  - EA Sports FC Mobile 27 (FIFA Soccer)
+  - Free Fire MAX
+  - SHAREit
+  - Car Parking Multiplayer
+  - Cisco Packet Tracer
+  - FormatFactory
+  - Microsoft Office 2019
+  official_count: 20
+  source: https://en.uptodown.com/windows
+  salience: 3
+- id: office_ltsc_2021_apps
+  name: Office LTSC Professional Plus 2021 applications
+  synonyms:
+  - Office 2021 desktop apps
+  members:
+  - EXCEL.EXE
+  - ONENOTE.EXE
+  - OUTLOOK.EXE
+  - POWERPNT.EXE
+  - Skype.exe
+  - WINWORD.EXE
+  disputed:
+  - Teams.exe
+  changes: []
+  out_of_universe:
+  - Access
+  - Publisher
+  official_count: 9
+  source: https://learn.microsoft.com/en-us/office/ltsc/2021/overview
+  salience: 84299
+- id: comparison_im_clients_general
+  name: Comparison of instant messaging clients
+  synonyms:
+  - instant messaging comparison table
+  members:
+  - Line.exe
+  - QQ.exe
+  - Skype.exe
+  - telegram.exe
+  - WeChat.exe
+  - WhatsApp.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - BBM Enterprise
+  - Beeper
+  - Briar
+  - Conversations
+  - Discord
+  - Element
+  - Fluxer
+  - Fractal
+  - Gadu-Gadu
+  - Gajim
+  - Gitter
+  - Google Chat (formerly Google Hangouts )
+  - Google Messages (RCS)
+  - ICQ
+  - Jami
+  - Jitsi
+  - KakaoTalk
+  - Keet
+  - Kik Messenger
+  - Linphone
+  - Mattermost
+  - Messenger
+  - Movim
+  - Mumble [ 33 ]
+  - Olvid
+  - Palringo
+  - Paltalk
+  - Pidgin
+  - Psi
+  - RetroShare
+  - Ricochet
+  - Session
+  - Signal
+  - Slack
+  - Snapchat
+  - Surespot
+  - TeamNote
+  - Threema
+  - Trillian
+  - Viber
+  - Voxt.ai
+  - Wire
+  - Client
+  official_count: 49
+  source: https://en.wikipedia.org/wiki/Comparison_of_instant_messaging_clients
+  salience: 17340
+- id: comparison_video_players_general
+  name: Comparison of video player software
+  synonyms:
+  - video player comparison table
+  members:
+  - iTunes.exe
+  - KMPlayer.exe
+  - mpc-hc.exe
+  - PotPlayerMini.exe
+  - vlc.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - ALLPlayer
+  - Elmedia Player
+  - Apprentice Video
+  - DivX
+  - FFplay
+  - GOM Player
+  - jetAudio (Basic)
+  - jetAudio (Plus)
+  - JRiver Media Center
+  - Mac Blu-ray Player
+  - MediaPortal
+  - Microsoft Movies & TV (formerly Xbox Video)
+  - Microsoft Photos
+  - MPlayer
+  - mpv
+  - Plex Media Player
+  - PowerDVD Standard
+  - PowerDVD Pro
+  - PowerDVD Ultra
+  - QuickTime X
+  - RealPlayer
+  - SMPlayer
+  - GNOME Videos (formerly Totem)
+  - Videostream
+  - Windows, Linux, & macOS
+  - Android
+  - ChromeOS
+  - iOS, Apple TV
+  - Windows ( UWP )
+  - Windows Phone
+  - WinDVD Pro
+  - Kodi (formerly XBMC)
+  - xine
+  - sView
+  - IPTVX
+  - Name
+  official_count: 41
+  source: https://en.wikipedia.org/wiki/Comparison_of_video_player_software
+  salience: 37436
+- id: pdf_windows_viewers
+  name: PDF viewers for Microsoft Windows
+  synonyms:
+  - List of PDF software Windows viewers
+  members:
+  - AcroRd32.exe
+  - FoxitReader.exe
+  - chrome.exe
+  - msedge.exe
+  - firefox.exe
+  - PDFXCview.exe
+  disputed: []
+  changes: []
+  out_of_universe:
+  - ABBYY FineReader PDF Viewer
+  - Evince
+  - gDoc Fusion
+  - GSview
+  - Microsoft Reader
+  - MuPDF
+  - Nitro PDF Reader
+  - Qiqqa
+  - Sumatra PDF
+  - STDU Viewer
+  official_count: 16
+  source: https://en.wikipedia.org/wiki/List_of_PDF_software
+  salience: 84501

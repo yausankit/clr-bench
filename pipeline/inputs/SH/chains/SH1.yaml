@@ -1,0 +1,11 @@
+id: SH1
+dataset: SH
+seed: 20266103
+period: {start: 2025, end: 2026}
+snapshot: 2026-10-16
+fields:
+  - {field: ships.flag_state, universe: flag, templates: [flag_regional, flag_security, flag_economic]}
+  - {field: ships.owner_country, universe: flag, templates: [owner_regional, owner_membership, owner_cooperation]}
+  - {field: inspections.port, universe: port, templates: [port_performance, port_environment, port_association]}
+slots: 5
+probe: {criterion: soft}

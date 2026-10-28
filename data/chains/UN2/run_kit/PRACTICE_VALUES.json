@@ -1,0 +1,68 @@
+{
+ "applicants.nationality": {
+  "AT": {
+   "example": "CA",
+   "label": "review docket W8",
+   "level": 1,
+   "member": true
+  },
+  "BR": {
+   "example": "FR",
+   "label": "audit pass T6",
+   "level": 4,
+   "member": true
+  },
+  "CM": {
+   "example": "CA",
+   "label": "review docket W8",
+   "level": 1,
+   "member": false
+  },
+  "TD": {
+   "example": "FR",
+   "label": "audit pass T6",
+   "level": 4,
+   "member": false
+  }
+ },
+ "applications.sponsor_company": {
+  "Eni": {
+   "example": "BNP Paribas",
+   "label": "review docket 93",
+   "level": 5,
+   "member": false
+  },
+  "Ferrovial": {
+   "example": "Apple Inc.",
+   "label": "settlement note 59",
+   "level": 2,
+   "member": true
+  },
+  "Morgan Stanley": {
+   "example": "BNP Paribas",
+   "label": "review docket 93",
+   "level": 5,
+   "member": true
+  },
+  "Truist Financial": {
+   "example": "Apple Inc.",
+   "label": "settlement note 59",
+   "level": 2,
+   "member": false
+  }
+ },
+ "applications.university": {
+  "Central Institute of Agricultural Engineering": {
+   "example": "National University of Singapore",
+   "label": "award record V-50",
+   "level": 3,
+   "member": false
+  },
+  "Chiang Mai University": {
+   "example": "National University of Singapore",
+   "label": "award record V-50",
+   "level": 3,
+   "member": true
+  }
+ }
+}

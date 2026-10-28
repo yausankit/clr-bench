@@ -1,0 +1,46 @@
+A: CA
+C: commonwealth
+C_name: Commonwealth of Nations member states
+N_p: ER
+N_t:
+- SI
+- DE
+- BG
+- SD
+- BA
+- CZ
+- DK
+P_M:
+- DM
+- ZM
+- FJ
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - australia_group
+    - g7
+    - mtcr
+    - nato
+    - nsg
+    - wassenaar
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- australia_group
+- g7
+- mtcr
+- nato
+- nsg
+- wassenaar
+field: declarations.exporter_country
+label: clearance stamp 37
+salience: 1410547.0
+universe: country

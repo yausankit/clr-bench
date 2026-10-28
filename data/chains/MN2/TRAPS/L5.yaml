@@ -1,0 +1,40 @@
+A: British Airways
+C: iag_airlines
+C_name: International Airlines Group airlines
+N_p: Finnair
+N_t:
+- Royal Air Maroc
+- Cathay Pacific
+- EasyJet Europe
+- Xizang Airlines
+- TUI Airways
+- Congo Airlines
+- Air Niugini
+P_M:
+- LEVEL
+- Aer Lingus
+- Iberia
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4e_airlines
+    - iata_airlines
+    - oneworld
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- a4e_airlines
+- iata_airlines
+- oneworld
+field: lots.carrier
+label: ledger mark 60
+salience: 236588.0
+universe: carrier

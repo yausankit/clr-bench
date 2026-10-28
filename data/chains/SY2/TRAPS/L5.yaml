@@ -1,0 +1,49 @@
+A: '122548005'
+C: snomed_86273004
+C_name: Biopsy
+N_p: '418891003'
+N_t:
+- '71651007'
+- '88039007'
+- '90226004'
+- '395142003'
+- '443497002'
+- '165829005'
+- '408919008'
+P_M:
+- '76164006'
+- '65575008'
+- '432231006'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - mesh_e_e01_370_225_500_cytological_techniques
+    - mesh_e_e01_370_225_clinical_laboratory_techniques
+    - mesh_e_e01_370_diagnostic_techniques_and_procedures
+    - mesh_e_e04_surgical_procedures_operative
+    - mesh_e_e05_investigative_techniques
+    - snomed_118695007
+    - snomed_392089008
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- mesh_e_e01_370_225_500_cytological_techniques
+- mesh_e_e01_370_225_clinical_laboratory_techniques
+- mesh_e_e01_370_388_diagnostic_techniques_surgical
+- mesh_e_e01_370_diagnostic_techniques_and_procedures
+- mesh_e_e04_surgical_procedures_operative
+- mesh_e_e05_investigative_techniques
+- snomed_118695007
+- snomed_392089008
+field: procedures.code
+label: desk slot 74
+salience: 64246.0
+universe: procedure

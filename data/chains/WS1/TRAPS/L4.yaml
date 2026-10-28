@@ -1,0 +1,42 @@
+A: CWE-681
+C: cwe699_numeric
+C_name: 'CWE-699 Software Development category: Numeric Errors'
+N_p: CWE-1245
+N_t:
+- CWE-455
+- CWE-118
+- CWE-1083
+- CWE-131
+- CWE-609
+- CWE-1101
+- CWE-925
+P_M:
+- CWE-1335
+- CWE-839
+- CWE-1339
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cisq_reliability
+    - cwe1000_664
+    - cwe1400_resource_lifecycle_management
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- cisq_reliability
+- cisq_security
+- cwe1000_664
+- cwe1400_resource_lifecycle_management
+- sfp_risky_values
+field: findings.cwe
+label: audit lane Y7
+salience: 79458.0
+universe: cwe

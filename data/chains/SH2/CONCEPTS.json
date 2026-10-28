@@ -1,0 +1,219 @@
+{
+ "L1": {
+  "C": "arab_league",
+  "competitors": [
+   {
+    "id": "african_continental_free_trade_area",
+    "name": "African Continental Free Trade Area"
+   },
+   {
+    "id": "african_union",
+    "name": "African Union"
+   },
+   {
+    "id": "arab_maghreb_union",
+    "name": "Arab Maghreb Union"
+   },
+   {
+    "id": "international_hydrographic_organization",
+    "name": "International Hydrographic Organization"
+   },
+   {
+    "id": "organisation_internationale_de_la_francophonie",
+    "name": "Organisation internationale de la Francophonie"
+   },
+   {
+    "id": "organisation_of_islamic_cooperation",
+    "name": "Organisation of Islamic Cooperation"
+   },
+   {
+    "id": "world_trade_organization",
+    "name": "World Trade Organization"
+   }
+  ],
+  "name": "Arab League",
+  "synonyms": [
+   "Arab League"
+  ]
+ },
+ "L2": {
+  "C": "asia_pacific_economic_cooperation",
+  "competitors": [
+   {
+    "id": "arctic_council",
+    "name": "Arctic Council"
+   },
+   {
+    "id": "g20",
+    "name": "G20"
+   },
+   {
+    "id": "g7",
+    "name": "G7"
+   },
+   {
+    "id": "international_hydrographic_organization",
+    "name": "International Hydrographic Organization"
+   },
+   {
+    "id": "nato",
+    "name": "NATO"
+   },
+   {
+    "id": "organization_for_economic_cooperation_and_development",
+    "name": "Organization for Economic Cooperation and Development"
+   },
+   {
+    "id": "organization_for_security_and_co_operation_in_europe",
+    "name": "Organization for Security and Co-operation in Europe"
+   },
+   {
+    "id": "organization_of_american_states",
+    "name": "Organization of American States"
+   },
+   {
+    "id": "world_trade_organization",
+    "name": "World Trade Organization"
+   }
+  ],
+  "name": "Asia-Pacific Economic Cooperation",
+  "synonyms": [
+   "APEC"
+  ]
+ },
+ "L3": {
+  "C": "ports_in_brics_countries",
+  "competitors": [
+   {
+    "id": "c40_cities_ports",
+    "name": "Port locations recorded in C40 Cities Climate Leadership Group member cities"
+   },
+   {
+    "id": "creative_cities_network_ports",
+    "name": "Port locations recorded in Creative Cities Network member cities"
+   },
+   {
+    "id": "league_of_historical_cities_ports",
+    "name": "Port locations recorded in League of Historical Cities member cities"
+   },
+   {
+    "id": "ports_in_asia_pacific_economic_cooperation_countries",
+    "name": "Ports in countries belonging to Asia-Pacific Economic Cooperation"
+   },
+   {
+    "id": "ports_in_g20_countries",
+    "name": "Ports in countries belonging to G20"
+   },
+   {
+    "id": "world_tourism_cities_federation_ports",
+    "name": "Port locations recorded in World Tourism Cities Federation member cities"
+   }
+  ],
+  "name": "Ports in countries belonging to BRICS",
+  "synonyms": [
+   "Ports in BRICS countries"
+  ]
+ },
+ "L4": {
+  "C": "european_economic_area",
+  "competitors": [
+   {
+    "id": "council_of_europe",
+    "name": "Council of Europe"
+   },
+   {
+    "id": "council_of_the_baltic_sea_states",
+    "name": "Council of the Baltic Sea States"
+   },
+   {
+    "id": "european_union",
+    "name": "European Union"
+   },
+   {
+    "id": "g20",
+    "name": "G20"
+   },
+   {
+    "id": "g7",
+    "name": "G7"
+   },
+   {
+    "id": "international_hydrographic_organization",
+    "name": "International Hydrographic Organization"
+   },
+   {
+    "id": "nato",
+    "name": "NATO"
+   },
+   {
+    "id": "organization_for_economic_cooperation_and_development",
+    "name": "Organization for Economic Cooperation and Development"
+   },
+   {
+    "id": "organization_for_security_and_co_operation_in_europe",
+    "name": "Organization for Security and Co-operation in Europe"
+   },
+   {
+    "id": "schengen_area",
+    "name": "Schengen Area"
+   },
+   {
+    "id": "world_trade_organization",
+    "name": "World Trade Organization"
+   }
+  ],
+  "name": "European Economic Area",
+  "synonyms": [
+   "European Economic Area"
+  ]
+ },
+ "L5": {
+  "C": "council_of_europe",
+  "competitors": [
+   {
+    "id": "european_economic_area",
+    "name": "European Economic Area"
+   },
+   {
+    "id": "european_union",
+    "name": "European Union"
+   },
+   {
+    "id": "g20",
+    "name": "G20"
+   },
+   {
+    "id": "g7",
+    "name": "G7"
+   },
+   {
+    "id": "international_hydrographic_organization",
+    "name": "International Hydrographic Organization"
+   },
+   {
+    "id": "nato",
+    "name": "NATO"
+   },
+   {
+    "id": "organization_for_economic_cooperation_and_development",
+    "name": "Organization for Economic Cooperation and Development"
+   },
+   {
+    "id": "organization_for_security_and_co_operation_in_europe",
+    "name": "Organization for Security and Co-operation in Europe"
+   },
+   {
+    "id": "schengen_area",
+    "name": "Schengen Area"
+   },
+   {
+    "id": "world_trade_organization",
+    "name": "World Trade Organization"
+   }
+  ],
+  "name": "Council of Europe",
+  "synonyms": [
+   "Council of Europe"
+  ]
+ }
+}

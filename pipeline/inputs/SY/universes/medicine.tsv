@@ -1,0 +1,108 @@
+value	entity	aliases	attr:route
+Abemaciclib	Abemaciclib	abemaciclib	oral
+Acetaminophen	Acetaminophen	acetaminophen	oral
+Acetaminophen / codeine	Acetaminophen / codeine	acetaminophen / codeine	oral
+Acetaminophen / dextromethorphan / doxylamine	Acetaminophen / dextromethorphan / doxylamine	acetaminophen / dextromethorphan / doxylamine	oral
+Acetaminophen / hydrocodone	Acetaminophen / hydrocodone	acetaminophen / hydrocodone	oral
+Acetaminophen / oxycodone	Acetaminophen / oxycodone	acetaminophen / oxycodone	oral
+Albuterol	Albuterol	albuterol	inhaled
+Alendronate	Alendronate	alendronate	oral
+Allopurinol	Allopurinol	allopurinol	oral
+Alteplase	Alteplase	alteplase	injectable
+Amiodarone	Amiodarone	amiodarone	injectable
+Amlodipine	Amlodipine	amlodipine	oral
+Amoxicillin	Amoxicillin	amoxicillin	oral
+Amoxicillin / clavulanate	Amoxicillin / clavulanate	amoxicillin / clavulanate	oral
+Anastrozole	Anastrozole	anastrozole	oral
+Atomoxetine	Atomoxetine	atomoxetine	oral
+Atorvastatin	Atorvastatin	atorvastatin	oral
+Atropine	Atropine	atropine	injectable
+Azithromycin	Azithromycin	azithromycin	?
+Aztreonam	Aztreonam	aztreonam	injectable
+Baricitinib	Baricitinib	baricitinib	oral
+Buprenorphine / naloxone	Buprenorphine / naloxone	buprenorphine / naloxone	oral
+Carbamazepine	Carbamazepine	carbamazepine	?
+Carvedilol	Carvedilol	carvedilol	oral
+Cefuroxime	Cefuroxime	cefuroxime	oral
+Cetirizine	Cetirizine	cetirizine	oral
+Cisplatin	Cisplatin	cisplatin	injectable
+Clindamycin	Clindamycin	clindamycin	?
+Clonazepam	Clonazepam	clonazepam	oral
+Clopidogrel	Clopidogrel	clopidogrel	oral
+Colchicine	Colchicine	colchicine	oral
+Cyclophosphamide	Cyclophosphamide	cyclophosphamide	injectable
+Cyclosporine	Cyclosporine	cyclosporine	oral
+Diazepam	Diazepam	diazepam	oral
+Dienogest / estradiol	Dienogest / estradiol	dienogest / estradiol	?
+Digoxin	Digoxin	digoxin	oral
+Docetaxel	Docetaxel	docetaxel	injectable
+Donepezil / memantine	Donepezil / memantine	donepezil / memantine	oral
+Doxorubicin	Doxorubicin	doxorubicin	injectable
+Doxycycline	Doxycycline	doxycycline	?
+Drospirenone / ethinyl estradiol	Drospirenone / ethinyl estradiol	drospirenone / ethinyl estradiol	?
+Duloxetine	Duloxetine	duloxetine	oral
+Enoxaparin	Enoxaparin	enoxaparin	injectable
+Epinephrine	Epinephrine	epinephrine	injectable
+Epirubicin	Epirubicin	epirubicin	injectable
+Ethinyl estradiol / etonogestrel	Ethinyl estradiol / etonogestrel	ethinyl estradiol / etonogestrel	?
+Ethinyl estradiol / levonorgestrel	Ethinyl estradiol / levonorgestrel	ethinyl estradiol / levonorgestrel	?
+Ethinyl estradiol / norelgestromin	Ethinyl estradiol / norelgestromin	ethinyl estradiol / norelgestromin	topical
+Ethinyl estradiol / norgestimate	Ethinyl estradiol / norgestimate	ethinyl estradiol / norgestimate	?
+Etonogestrel	Etonogestrel	etonogestrel	?
+Fentanyl	Fentanyl	fentanyl	injectable|topical
+Ferrous sulfate	Ferrous sulfate	ferrous sulfate	oral
+Fexofenadine	Fexofenadine	fexofenadine	oral
+Fluticasone	Fluticasone	fluticasone	inhaled
+Fluticasone / salmeterol	Fluticasone / salmeterol	fluticasone / salmeterol	inhaled
+Fulvestrant	Fulvestrant	fulvestrant	injectable
+Furosemide	Furosemide	furosemide	injectable|oral
+Galantamine	Galantamine	galantamine	oral
+Heparin	Heparin	heparin	injectable
+Hydrochlorothiazide	Hydrochlorothiazide	hydrochlorothiazide	oral
+Hydrocodone	Hydrocodone	hydrocodone	oral
+Hydrocortisone	Hydrocortisone	hydrocortisone	topical
+Ibuprofen	Ibuprofen	ibuprofen	oral
+Insulin isophane / insulin, regular, human	Insulin isophane / insulin, regular, human	insulin isophane / insulin, regular, human	injectable
+Isoflurane	Isoflurane	isoflurane	inhaled
+Leucovorin	Leucovorin	leucovorin	injectable
+Leuprolide	Leuprolide	leuprolide	injectable
+Levonorgestrel	Levonorgestrel	levonorgestrel	?
+Lisinopril	Lisinopril	lisinopril	oral
+Loratadine	Loratadine	loratadine	oral
+Losartan	Losartan	losartan	oral
+Medroxyprogesterone	Medroxyprogesterone	medroxyprogesterone	injectable
+Meperidine	Meperidine	meperidine	oral
+Metformin	Metformin	metformin	oral
+Methylphenidate	Methylphenidate	methylphenidate	oral
+Midazolam	Midazolam	midazolam	injectable
+Milnacipran	Milnacipran	milnacipran	oral
+Morphine	Morphine	morphine	injectable
+Naproxen	Naproxen	naproxen	oral
+Nicotine	Nicotine	nicotine	topical
+Nitrofurantoin	Nitrofurantoin	nitrofurantoin	injectable|oral|oral
+Nitroglycerin	Nitroglycerin	nitroglycerin	?
+Norepinephrine	Norepinephrine	norepinephrine	injectable
+Norethindrone	Norethindrone	norethindrone	?
+Ondansetron	Ondansetron	ondansetron	injectable
+Oxaliplatin	Oxaliplatin	oxaliplatin	injectable
+Oxycodone	Oxycodone	oxycodone	oral
+Paclitaxel	Paclitaxel	paclitaxel	injectable
+Palbociclib	Palbociclib	palbociclib	oral
+Penicillin V	Penicillin V	penicillin v	injectable|oral
+Phenazopyridine	Phenazopyridine	phenazopyridine	oral
+Piperacillin / tazobactam	Piperacillin / tazobactam	piperacillin / tazobactam	injectable
+Prednisone	Prednisone	prednisone	oral
+Pregabalin	Pregabalin	pregabalin	oral
+Propofol	Propofol	propofol	injectable
+Remifentanil	Remifentanil	remifentanil	injectable
+Rocuronium	Rocuronium	rocuronium	injectable
+Sacubitril / valsartan	Sacubitril / valsartan	sacubitril / valsartan	oral
+Simvastatin	Simvastatin	simvastatin	oral
+Sodium chloride	Sodium chloride	sodium chloride	injectable
+Tamoxifen	Tamoxifen	tamoxifen	oral
+Tramadol	Tramadol	tramadol	oral
+Vancomycin	Vancomycin	vancomycin	injectable
+Vasopressin (USP)	Vasopressin (USP)	vasopressin (usp)	injectable
+Verapamil	Verapamil	verapamil	?
+Vitamin B12	Vitamin B12	vitamin b12	injectable
+Warfarin	Warfarin	warfarin	oral

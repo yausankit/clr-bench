@@ -1,0 +1,775 @@
+A health plan's utilisation review unit totals, for each patient, the records in the patient's file that its review desk has to process: medication fills, diagnoses and procedures.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The top-level JSON object has keys patients (ids), medications, conditions and procedures.  Each record row carries the patient id and its trap field: medications have ingredient, conditions and procedures have code (and a description).
+
+Every record in a patient's file adds one to that patient's review total: each medication fill, each diagnosis and each procedure counts one.
+Return the sum of the totals of all patients in the input, as an int.
+
+Field notes:
+- A condition whose code is 75498004 is in desk slot C2.
+- A procedure whose code is 11466000 is in audit lane 52.
+- A medication whose ingredient is 'Morphine' is in ledger mark A-70.
+- A condition whose code is 195662009 is in routing lane J6.
+- A procedure whose code is 445912000 is in queue tag 93.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, conditions in desk slot C2 are not counted.
+L2: From this level on, procedures in audit lane 52 are not counted.
+L3: From this level on, medications in ledger mark A-70 are not counted.
+L4: From this level on, conditions in routing lane J6 are not counted.
+L5: From this level on, procedures in queue tag 93 are not counted.
+
+Value reference:
+conditions.code:
+- 11218009 — Infection caused by Pseudomonas aeruginosa; Illness caused by a common germ found in soil and water that can affect lungs, wounds or blood.
+- 126906006 — Neoplasm of prostate; Tumor of the prostate gland.
+- 162864005 — Body mass index 30+ - obesity; A recorded BMI of 30 or above, indicating excess body fat.
+- 195662009 — Acute viral pharyngitis; Sudden viral irritation of the pharynx.
+- 233604007 — Pneumonia; Swelling of the air sacs in the lungs, usually caused by germs and filled with fluid.
+- 239873007 — Osteoarthritis of knee; Cartilage wear in the knee that causes stiffness and discomfort.
+- 24079001 — Atopic dermatitis; Itchy, red, dry skin that tends to flare in patches.
+- 249497008 — Vomiting symptom; A recorded episode or pattern of throwing up stomach contents.
+- 267102003 — Sore throat symptom; Discomfort in the pharynx, often worse when swallowing.
+- 26929004 — Alzheimer's disease; A progressive brain illness that impairs memory, language and daily activity.
+- 301011002 — Escherichia coli urinary tract infection; A bladder or kidney germ-caused illness from Escherichia coli bacteria.
+- 367498001 — Seasonal allergic rhinitis; Hay fever that flares at a particular season, with sneezing and a runny nasal passage.
+- 368581000119106 — Neuropathy due to type 2 diabetes mellitus; Nerve harm from long-standing high blood sugar, often causing numbness or burning.
+- 36955009 — Loss of taste; Reduced or absent ability to detect flavors.
+- 36971009 — Sinusitis; Swelling of the air-filled nasal sinuses, often with pressure and discharge.
+- 389087006 — Hypoxemia; A below-normal amount of oxygen in the blood.
+- 40055000 — Chronic sinusitis; Long-standing swelling of the nasal sinuses.
+- 403191005 — Second degree burn; A burn through the outer and deeper skin layers, often with blisters.
+- 410429000 — Cardiac Arrest; Sudden stopping of effective heart pumping and blood circulation.
+- 423315002 — Limited social contact; A recorded pattern of few interactions with other people.
+- 424132000 — Non-small cell carcinoma of lung  TNM stage 1; An early-stage malignant chest growth that began in the airways and has not spread widely.
+- 43878008 — Streptococcal sore throat; Pharynx discomfort caused by Streptococcus bacteria.
+- 44054006 — Diabetes; A long-term problem with high blood sugar due to insulin production or action.
+- 446096008 — Perennial allergic rhinitis; Year-round hay fever with sneezing, itching and a runny nasal passage.
+- 45816000 — Pyelonephritis; A germ-caused illness of the kidney and its collecting passages.
+- 55822004 — Hyperlipidemia; A high level of fats such as cholesterol or triglycerides in the blood.
+- 57676002 — Joint pain; Discomfort at the place where two skeletal parts meet.
+- 62564004 — Concussion with loss of consciousness; A brain-activity disturbance after a blow to the skull with loss of consciousness.
+- 68235000 — Nasal congestion; Blocked or stuffy nasal passages from swollen lining and mucus.
+- 741062008 — Not in labor force; A recorded state of neither working nor seeking paid work.
+- 75498004 — Acute bacterial sinusitis; Sudden swelling of nasal sinuses caused by bacteria.
+- 770349000 — Sepsis caused by virus; A body-wide harmful response to a viral germ.
+- 80583007 — Severe anxiety (panic); Intense fear or worry with sudden surges of panic.
+- 840539006 — COVID-19; An illness caused by the SARS-CoV-2 virus, often with fever, cough and breathing difficulty.
+procedures.code:
+- 11466000 — Cesarean section; Birth of a baby through a cut in the mother's belly.
+- 118001005 — Streptococcus pneumoniae group B antigen test; Lab check for a Streptococcus pneumoniae group B antigen in a sample.
+- 165829005 — Gonorrhea infection test; Lab check for the germ that causes gonorrhea.
+- 167271000 — Urine protein test; Urine check for albumin or other peptide chains.
+- 171207006 — Depression screening; Brief questionnaire or talk used to look for features of depression.
+- 19490002 — Ankle X-ray; X-ray view of the ankle and its skeletal parts.
+- 22523008 — Vasectomy; Cutting and sealing the tubes that carry sperm.
+- 232717009 — Coronary artery bypass grafting; Cardiac surgery in which a graft from elsewhere bypasses narrowed coronary arteries.
+- 234262008 — Excision of axillary lymph node; Cutting out an armpit lymph node for lab study.
+- 236931002 — Methotrexate injection into tubal pregnancy; Drug shot directly into a fallopian-tube pregnancy to end it without surgery.
+- 268556000 — Urine screening for glucose; Urine check for sugar as an early clue to a sugar-handling problem.
+- 287664005 — Bilateral tubal ligation; Cutting or sealing both fallopian tubes to prevent pregnancy.
+- 290045001 — Kitchen practice; Supervised practice in preparing food as part of rehabilitation.
+- 29303009 — Electrocardiographic procedure; Recording of the cardiac electrical signal with electrodes on the skin.
+- 312681000 — Bone density scan; Scan that estimates skeletal mineral density and break risk.
+- 313191000 — Injection of adrenaline; Shot of adrenaline to treat a severe allergic reaction or cardiac arrest.
+- 35025007 — Manual pelvic examination; Hands-on check of the reproductive parts through the vagina.
+- 385798007 — Radiation therapy care; Support and monitoring during radiation treatment for cancer.
+- 392021009 — Lumpectomy of breast; Surgery that takes out a mammary lump while preserving most of the mammary gland.
+- 395142003 — Allergy screening test; Check for sensitivity to common allergens such as pollen, food or venom.
+- 429609002 — Lung volume reduction surgery; Surgery that takes out damaged lung parts to help the remaining lungs work better.
+- 432231006 — Fine needle aspiration biopsy of lung; Cell sample drawn through a thin needle from a lung lump.
+- 443497002 — Excision of sentinel lymph node; Cutting out the first lymph node that drains a tumor.
+- 445912000 — Excision of fallopian tube and surgical removal of ectopic pregnancy; Surgery that takes out a fallopian tube and an implanted early pregnancy.
+- 45595009 — Laparoscopic Removal of Gall Bladder; Keyhole surgery to take out the gallbladder.
+- 47758006 — Hepatitis B Surface Antigen Measurement; Lab check for hepatitis B surface antigen in a venous sample.
+- 60027007 — X-ray or wrist; X-ray view of the wrist bones and their alignment.
+- 65200003 — Insertion of intrauterine contraceptive device; Placement of a small contraceptive device inside the womb.
+- 65575008 — Biopsy of prostate; Cell samples taken from the prostate with a needle.
+- 703423002 — Combined chemotherapy and radiation therapy; Cancer treatment that combines cell-killing drugs with targeted radiation.
+- 76164006 — Biopsy of colon; Cell samples taken from the bowel lining during a camera view.
+- 85548006 — Episiotomy; A small cut at the vaginal opening to widen it during birth.
+- 90226004 — Cytopathology procedure  preparation of smear  genital source; Microscope study of cells wiped from the reproductive passage.
+- 90470006 — Prostatectomy; Surgery to take out all or part of the prostate.
+medications.ingredient:
+- Amlodipine — Taken by mouth to lower blood pressure and prevent chest discomfort from narrowed arteries.
+- Cisplatin — Platinum-based chemotherapy given by injection to treat several solid cancers.
+- Clopidogrel — Taken by mouth to prevent blood clots after a stroke or in narrowed arteries.
+- Cyclosporine — Immunosuppressant taken by mouth to prevent transplant rejection and control autoimmune illness.
+- Digoxin — Taken by mouth to strengthen the pulse and control its rate in pumping weakness or atrial fibrillation.
+- Doxycycline — Tetracycline antibacterial taken by mouth for acne, respiratory infections and tick-borne illness.
+- Galantamine — Taken by mouth to improve memory and thinking in early to midstage Alzheimer's dementia.
+- Leuprolide — Injectable medication that reduces production of testosterone or estrogen.
+- Levonorgestrel — Progestin used in birth control pills, implants and emergency contraception.
+- Loratadine — Long-acting antihistamine taken by mouth for hay fever and hives.
+- Meperidine — Injectable pain reliever once widely used for severe pain.
+- Metformin — Taken by mouth to lower blood sugar in type 2 diabetes and improve insulin sensitivity.
+- Methylphenidate — Stimulant taken by mouth to improve attention and impulse control in ADHD.
+- Milnacipran — Taken by mouth for fibromyalgia pain and depression.
+- Morphine — Injectable pain reliever used for severe pain.
+- Naproxen — NSAID taken by mouth for pain, fever and swelling.
+- Oxaliplatin — Platinum-based chemotherapy given by injection to treat colorectal cancer.
+- Pregabalin — Taken by mouth for nerve pain, seizures and generalized anxiety.
+- Remifentanil — Very short-acting injectable pain reliever used during surgery.
+- Simvastatin — Statin taken by mouth to lower cholesterol and reduce the risk of stroke.
+- Tramadol — Taken by mouth for pain and also affects brain signaling.
+- Vancomycin — Injectable antibacterial used for serious infections caused by resistant Gram-positive bacteria.
+
+Example input:
+{
+ "conditions": [
+  {
+   "code": "75498004",
+   "description": "Acute bacterial sinusitis",
+   "id": "C00013",
+   "onset": "2018-12-17",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "410429000",
+   "description": "Cardiac Arrest",
+   "id": "C00014",
+   "onset": "2019-09-23",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "162864005",
+   "description": "Body mass index 30+ - obesity",
+   "id": "C00015",
+   "onset": "2020-12-14",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00034",
+   "onset": "2015-01-15",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "741062008",
+   "description": "Not in labor force",
+   "id": "C00035",
+   "onset": "2015-01-15",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "36955009",
+   "description": "Loss of taste",
+   "id": "C00036",
+   "onset": "2017-01-26",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "239873007",
+   "description": "Osteoarthritis of knee",
+   "id": "C00037",
+   "onset": "2021-02-18",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "239873007",
+   "description": "Osteoarthritis of knee",
+   "id": "C00046",
+   "onset": "2015-06-03",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "741062008",
+   "description": "Not in labor force",
+   "id": "C00047",
+   "onset": "2016-06-08",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "162864005",
+   "description": "Body mass index 30+ - obesity",
+   "id": "C00048",
+   "onset": "2016-06-08",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "26929004",
+   "description": "Alzheimer's disease",
+   "id": "C00049",
+   "onset": "2018-06-20",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00076",
+   "onset": "2016-12-10",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "239873007",
+   "description": "Osteoarthritis of knee",
+   "id": "C00077",
+   "onset": "2017-12-16",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "195662009",
+   "description": "Acute viral pharyngitis",
+   "id": "C00078",
+   "onset": "2017-12-16",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "741062008",
+   "description": "Not in labor force",
+   "id": "C00079",
+   "onset": "2017-12-17",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "410429000",
+   "description": "Cardiac Arrest",
+   "id": "C00080",
+   "onset": "2018-12-22",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "770349000",
+   "description": "Sepsis caused by virus",
+   "id": "C00081",
+   "onset": "2021-01-02",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "36955009",
+   "description": "Loss of taste",
+   "id": "C00097",
+   "onset": "2016-09-21",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "368581000119106",
+   "description": "Neuropathy due to type 2 diabetes mellitus",
+   "id": "C00098",
+   "onset": "2018-11-01",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "741062008",
+   "description": "Not in labor force",
+   "id": "C00099",
+   "onset": "2019-04-30",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "368581000119106",
+   "description": "Neuropathy due to type 2 diabetes mellitus",
+   "id": "C00100",
+   "onset": "2016-04-30",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00101",
+   "onset": "2018-01-15",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "36955009",
+   "description": "Loss of taste",
+   "id": "C00102",
+   "onset": "2018-05-12",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "239873007",
+   "description": "Osteoarthritis of knee",
+   "id": "C00103",
+   "onset": "2020-05-23",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "239873007",
+   "description": "Osteoarthritis of knee",
+   "id": "C00104",
+   "onset": "2021-05-29",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "403191005",
+   "description": "Second degree burn",
+   "id": "C00105",
+   "onset": "2021-05-29",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "368581000119106",
+   "description": "Neuropathy due to type 2 diabetes mellitus",
+   "id": "C00109",
+   "onset": "2016-01-17",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "403191005",
+   "description": "Second degree burn",
+   "id": "C00110",
+   "onset": "2021-02-14",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00111",
+   "onset": "2021-02-14",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "389087006",
+   "description": "Hypoxemia",
+   "id": "C00112",
+   "onset": "2021-02-14",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  }
+ ],
+ "medications": [
+  {
+   "dispenses": "1",
+   "id": "M00013",
+   "ingredient": "Amlodipine",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647",
+   "start": "2019-03-11"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00014",
+   "ingredient": "Clopidogrel",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647",
+   "start": "2021-03-24"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00015",
+   "ingredient": "Cyclosporine",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647",
+   "start": "2021-05-10"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00039",
+   "ingredient": "Leuprolide",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2016-01-21"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00040",
+   "ingredient": "Amlodipine",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2016-04-27"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00041",
+   "ingredient": "Levonorgestrel",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2017-04-22"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00042",
+   "ingredient": "Clopidogrel",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2019-02-07"
+  },
+  {
+   "dispenses": "371",
+   "id": "M00043",
+   "ingredient": "Clopidogrel",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2019-02-07"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00044",
+   "ingredient": "Milnacipran",
+   "patient": "177971b9-2284-1459-06de-165414d9de11",
+   "start": "2020-02-13"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00057",
+   "ingredient": "Oxaliplatin",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c",
+   "start": "2016-06-08"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00058",
+   "ingredient": "Loratadine",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c",
+   "start": "2020-07-01"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00059",
+   "ingredient": "Milnacipran",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c",
+   "start": "2021-07-07"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00091",
+   "ingredient": "Milnacipran",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8",
+   "start": "2015-12-06"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00092",
+   "ingredient": "Digoxin",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8",
+   "start": "2016-12-11"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00093",
+   "ingredient": "Digoxin",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8",
+   "start": "2017-12-17"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00094",
+   "ingredient": "Levonorgestrel",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8",
+   "start": "2019-12-29"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00109",
+   "ingredient": "Milnacipran",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0",
+   "start": "2018-11-01"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00110",
+   "ingredient": "Digoxin",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0",
+   "start": "2018-11-01"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00111",
+   "ingredient": "Morphine",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0",
+   "start": "2019-04-30"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00112",
+   "ingredient": "Milnacipran",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba",
+   "start": "2016-04-30"
+  },
+  {
+   "dispenses": "12",
+   "id": "M00113",
+   "ingredient": "Milnacipran",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba",
+   "start": "2017-05-06"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00114",
+   "ingredient": "Amlodipine",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba",
+   "start": "2019-02-26"
+  },
+  {
+   "dispenses": "1",
+   "id": "M00115",
+   "ingredient": "Cisplatin",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba",
+   "start": "2021-10-09"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00122",
+   "ingredient": "Cisplatin",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7",
+   "start": "2021-01-27"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00123",
+   "ingredient": "Loratadine",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7",
+   "start": "2021-02-15"
+  },
+  {
+   "dispenses": "3",
+   "id": "M00124",
+   "ingredient": "Cyclosporine",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7",
+   "start": "2021-03-28"
+  }
+ ],
+ "patients": [
+  {
+   "id": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "id": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "id": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "id": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "id": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "id": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "id": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  }
+ ],
+ "procedures": [
+  {
+   "code": "395142003",
+   "date": "2017-12-11",
+   "description": "Allergy screening test",
+   "id": "P00015",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "268556000",
+   "date": "2018-07-23",
+   "description": "Urine screening for glucose",
+   "id": "P00016",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "90226004",
+   "date": "2018-12-17",
+   "description": "Cytopathology procedure  preparation of smear  genital source",
+   "id": "P00017",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "703423002",
+   "date": "2020-07-19",
+   "description": "Combined chemotherapy and radiation therapy",
+   "id": "P00018",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "268556000",
+   "date": "2021-10-29",
+   "description": "Urine screening for glucose",
+   "id": "P00019",
+   "patient": "06629c1a-687d-5121-1e28-ae123c1fe647"
+  },
+  {
+   "code": "445912000",
+   "date": "2018-04-26",
+   "description": "Excision of fallopian tube and surgical removal of ectopic pregnancy",
+   "id": "P00042",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "19490002",
+   "date": "2018-10-18",
+   "description": "Ankle X-ray",
+   "id": "P00043",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "19490002",
+   "date": "2019-03-07",
+   "description": "Ankle X-ray",
+   "id": "P00044",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "171207006",
+   "date": "2020-03-05",
+   "description": "Depression screening",
+   "id": "P00045",
+   "patient": "177971b9-2284-1459-06de-165414d9de11"
+  },
+  {
+   "code": "268556000",
+   "date": "2017-06-14",
+   "description": "Urine screening for glucose",
+   "id": "P00055",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "11466000",
+   "date": "2018-06-20",
+   "description": "Cesarean section",
+   "id": "P00056",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "118001005",
+   "date": "2018-06-20",
+   "description": "Streptococcus pneumoniae group B antigen test",
+   "id": "P00057",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "90226004",
+   "date": "2018-06-20",
+   "description": "Cytopathology procedure  preparation of smear  genital source",
+   "id": "P00058",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "167271000",
+   "date": "2018-06-20",
+   "description": "Urine protein test",
+   "id": "P00059",
+   "patient": "32f516f7-b223-278c-d0de-5c0b9d70654c"
+  },
+  {
+   "code": "703423002",
+   "date": "2015-12-06",
+   "description": "Combined chemotherapy and radiation therapy",
+   "id": "P00090",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "165829005",
+   "date": "2016-12-11",
+   "description": "Gonorrhea infection test",
+   "id": "P00091",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "703423002",
+   "date": "2016-12-11",
+   "description": "Combined chemotherapy and radiation therapy",
+   "id": "P00092",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "312681000",
+   "date": "2018-12-23",
+   "description": "Bone density scan",
+   "id": "P00093",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "118001005",
+   "date": "2021-01-03",
+   "description": "Streptococcus pneumoniae group B antigen test",
+   "id": "P00094",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "395142003",
+   "date": "2021-01-03",
+   "description": "Allergy screening test",
+   "id": "P00095",
+   "patient": "767e1d64-d100-a9ec-fe05-073c6857ffa8"
+  },
+  {
+   "code": "312681000",
+   "date": "2015-05-03",
+   "description": "Bone density scan",
+   "id": "P00117",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "312681000",
+   "date": "2015-08-02",
+   "description": "Bone density scan",
+   "id": "P00118",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "165829005",
+   "date": "2019-04-30",
+   "description": "Gonorrhea infection test",
+   "id": "P00119",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "312681000",
+   "date": "2019-05-07",
+   "description": "Bone density scan",
+   "id": "P00120",
+   "patient": "9dff13cc-4283-5466-7f55-481d0c7267e0"
+  },
+  {
+   "code": "165829005",
+   "date": "2015-02-21",
+   "description": "Gonorrhea infection test",
+   "id": "P00121",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "268556000",
+   "date": "2015-03-21",
+   "description": "Urine screening for glucose",
+   "id": "P00122",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "167271000",
+   "date": "2017-05-06",
+   "description": "Urine protein test",
+   "id": "P00123",
+   "patient": "9e3f000c-d04d-ac28-0571-81b6af1e9fba"
+  },
+  {
+   "code": "703423002",
+   "date": "2015-01-10",
+   "description": "Combined chemotherapy and radiation therapy",
+   "id": "P00128",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "90226004",
+   "date": "2015-01-12",
+   "description": "Cytopathology procedure  preparation of smear  genital source",
+   "id": "P00129",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "118001005",
+   "date": "2015-03-15",
+   "description": "Streptococcus pneumoniae group B antigen test",
+   "id": "P00130",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "167271000",
+   "date": "2016-03-14",
+   "description": "Urine protein test",
+   "id": "P00131",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "118001005",
+   "date": "2016-04-21",
+   "description": "Streptococcus pneumoniae group B antigen test",
+   "id": "P00132",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  },
+  {
+   "code": "703423002",
+   "date": "2017-01-23",
+   "description": "Combined chemotherapy and radiation therapy",
+   "id": "P00133",
+   "patient": "a03fbb92-ebae-8930-b170-5872d7e2fef7"
+  }
+ ]
+}

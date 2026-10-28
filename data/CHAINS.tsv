@@ -1,0 +1,21 @@
+chain	dataset	course_id	build_id	pipeline_config	seed	build	pipeline_commit	classes_L1_L4
+TR1	TR	CLR_TR1	TR1	inputs/TR/chains/TR1.yaml	20266093	FIN_TR_a1	0718590	star_alliance_founding opec_airports brics_currencies nato_airlines
+TR2	TR	CLR_TR2	TR2	inputs/TR/chains/TR2.yaml	20266094	FIN_TR_a1	0718590	oneworld_members eea_airports commonwealth_currencies oneworld_founding
+WS1	WS	CLR_WS1	WS1	inputs/WS/chains/WS1.yaml	20266086	FIN_WS_a1	0718590	cwe1400_encryption italic_languages asean_cctlds cwe699_numeric
+WS2	WS	CLR_WS2	WS2	inputs/WS/chains/WS2.yaml	20266087	FIN_WS_a1	0718590	sfp_entry_points eu_official_languages opec_cctlds owasp2025_a09
+SY1	SY	CLR_SY1	SY1	inputs/SY/chains/SY1.yaml	20266089	FIN_SY_a2	b6568da	snomed_129134004 snomed_118675001 dea_schedule_ii snomed_40733004
+SY2	SY	CLR_SY2	SY2	inputs/SY/chains/SY2.yaml	20266090	FIN_SY_a2	b6568da	snomed_363059001 snomed_118864003 who_eml_2023_s8_2_1_cytotoxic snomed_363180009
+SP1	SP	CLR_SP1	SP1	inputs/SP/chains/SP1.yaml	20266106	FIN_SP_a2	b6568da	ucl_winners euro_stoxx_50 commonwealth_members club_world_cup_2025_participants
+SP2	SP	CLR_SP2	SP2	inputs/SP/chains/SP2.yaml	20266107	FIN_SP_a2	b6568da	g14_members dow_jones eu_members super_league_founders
+CH1	CH	CLR_CH1	CH1	inputs/CH/chains/CH1.yaml	20266102	FIN_CH_a2	b6568da	stockholm_annex_a commonwealth star_alliance opcw_schedule_3
+CH2	CH	CLR_CH2	CH2	inputs/CH/chains/CH2.yaml	20266103	FIN_CH_a2	b6568da	opcw_schedule_3 g7 oneworld stockholm_annex_a
+LG1	LG	CLR_LG1	LG1	inputs/LG/chains/LG1.yaml	20266088	FIN_LG_a4	b6568da	brics_cctlds office_ltsc_2021_apps microsoft_server_ports schengen_cctlds
+LG2	LG	CLR_LG2	LG2	inputs/LG/chains/LG2.yaml	20266089	FIN_LG_a4	b6568da	oecd_cctlds microsoft_productivity_apps plaintext_protocol_ports g7_cctlds
+GR1	GR	CLR_GR1	GR1	inputs/GR/chains/GR1.yaml	20266107	FIN_GR_a1	b6568da	commonwealth_members star_alliance_members leru_members nato_members
+GR2	GR	CLR_GR2	GR2	inputs/GR/chains/GR2.yaml	20266108	FIN_GR_a1	b6568da	schengen_members star_alliance_founders aun_members asean_members
+MN1	MN	CLR_MN1	MN1	inputs/MN/chains/MN1.yaml	20266105	FIN_MN_a6	b6568da	commonwealth_members star_alliance yttrium_group g7_members
+MN2	MN	CLR_MN2	MN2	inputs_alt/MN/chains/MN2.yaml	20266106	FIN_MN_a3	b6568da	g7_members skyteam yttrium_group g20_members
+UN1	UN	CLR_UN1	UN1	inputs/UN/chains/UN1.yaml	20266101	FIN_UN_a6	b6568da	nato asean nasdaq_100 g20
+UN2	UN	CLR_UN1	UN1	inputs_alt/UN/chains/UN1.yaml	20266101	FIN_UN_a4	b6568da	oecd nasdaq_100 aun g20
+SH1	SH	CLR_SH1	SH1	inputs/SH/chains/SH1.yaml	20266103	FIN_SH_a5	b6568da	g7 nato climate_alliance_city_ports brics
+SH2	SH	CLR_SH2	SH2	inputs/SH/chains/SH2.yaml	20266104	FIN_SH_a5	b6568da	arab_league asia_pacific_economic_cooperation ports_in_brics_countries european_economic_area

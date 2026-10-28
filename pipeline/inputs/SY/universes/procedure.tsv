@@ -1,0 +1,166 @@
+value	entity	attr:semantic_tag	attr:system
+10383002	Counseling for termination of pregnancy	other	?
+104091002	Hemoglobin / Hematocrit / Platelet count	other	Diagnosis|Investigative techniques
+104173009	Sputum Culture	other	Diagnosis|Investigative techniques
+104326007	Measurement of Varicella-zoster virus antibody	other	Diagnosis|Investigative techniques
+104375008	Hepatitis C antibody test	other	Diagnosis|Investigative techniques
+104435004	Screening for occult blood in feces	procedure	Diagnosis|Investigative techniques
+112790001	Nasal sinus endoscopy	procedure	Diagnosis|Surgical procedures
+112798008	Insertion of endotracheal tube	procedure	Investigative techniques|Therapeutics
+113076002	Oral Glucose Tolerance Test	other	Diagnosis|Investigative techniques
+11466000	Cesarean section	other	Surgical procedures
+117010004	Urine culture	other	Diagnosis|Investigative techniques
+117015009	Throat culture	procedure	Diagnosis|Investigative techniques
+118001005	Streptococcus pneumoniae group B antigen test	other	Diagnosis|Investigative techniques
+1225002	Upper arm X-ray	other	Diagnosis
+122548005	Biopsy of breast	procedure	Diagnosis|Investigative techniques|Surgical procedures
+127783003	Spirometry	procedure	Diagnosis
+14768001	Peripheral blood smear interpretation	other	Diagnosis|Investigative techniques
+15081005	Pulmonary rehabilitation	regime/therapy	Therapeutics
+1571000087109	Ultrasonography of bilateral breasts	procedure	Diagnosis
+162676008	Brief general examination	procedure	Diagnosis
+16335031000119103	High resolution computed tomography of chest without contrast	procedure	Diagnosis
+165829005	Gonorrhea infection test	other	Diagnosis|Investigative techniques
+167271000	Urine protein test	other	Diagnosis|Investigative techniques
+167995008	Sputum microscopy	procedure	Diagnosis|Investigative techniques
+168594001	Clavicle X-ray	other	Diagnosis
+169230002	Ultrasound scan for fetal viability	other	Diagnosis
+169553002	Insertion of subcutaneous contraceptive	other	?
+169673001	Antenatal RhD antibody screening	other	Diagnosis|Investigative techniques
+169690007	Rubella screening	other	Diagnosis|Investigative techniques
+171207006	Depression screening	procedure	Diagnosis|Investigative techniques
+171231001	Asthma screening	other	Diagnosis|Investigative techniques
+173160006	Diagnostic fiberoptic bronchoscopy	procedure	Diagnosis|Surgical procedures
+180207008	Intravenous blood transfusion of packed cells	procedure	Therapeutics
+180256009	Subcutaneous immunotherapy	other	Therapeutics
+180325003	Electrical cardioversion	other	?
+18286008	Catheter ablation of tissue of heart	other	Surgical procedures|Therapeutics
+183450002	Admission to burn unit	other	Therapeutics
+183856001	Referral to hypertension clinic	other	?
+18946005	Epidural anesthesia	other	Anesthesia and analgesia
+19490002	Ankle X-ray	other	Diagnosis
+225158009	Auscultation of the fetal heart	other	?
+22523008	Vasectomy	other	Surgical procedures
+228557008	Cognitive and behavioral therapy	other	?
+229064008	Movement therapy	regime/therapy	Therapeutics
+229095001	Exercise class	other	Therapeutics
+232717009	Coronary artery bypass grafting	other	Surgical procedures
+23426006	Measurement of respiratory function	procedure	Diagnosis
+234262008	Excision of axillary lymph node	procedure	Diagnosis|Investigative techniques|Surgical procedures
+236931002	Methotrexate injection into tubal pregnancy	other	?
+236974004	Instrumental delivery	other	Surgical procedures
+237001001	Augmentation of labor	other	Surgical procedures
+241055006	Mammogram - symptomatic	procedure	Diagnosis
+243174005	Weaning from mechanically assisted ventilation	procedure	Therapeutics
+24623002	Screening mammography	procedure	Diagnosis
+252160004	Standard pregnancy test	other	Diagnosis|Investigative techniques
+261352009	Face mask	physical object	?
+26763009	Controlled ventilation procedure and therapy  initiation and management	procedure	Therapeutics
+268425006	Pelvis X-ray	other	Diagnosis
+268556000	Urine screening for glucose	other	Diagnosis|Investigative techniques
+269828009	Syphilis infection test	other	Diagnosis|Investigative techniques
+269911007	Sputum examination	procedure	Diagnosis|Investigative techniques
+271442007	Fetal anatomy study	other	Diagnosis
+274031008	Rectal polypectomy	other	?
+274474001	Bone immobilization	other	Investigative techniques
+274804006	Evaluation of uterine fundal height	other	?
+275833003	Alpha-fetoprotein test	other	?
+28163009	Skin test for tuberculosis	other	Diagnosis|Investigative techniques
+287664005	Bilateral tubal ligation	other	Surgical procedures
+288086009	Suture open wound	other	Surgical procedures
+290045001	Kitchen practice	other	?
+29303009	Electrocardiographic procedure	other	Diagnosis
+301807007	Removal of subcutaneous contraceptive	other	?
+302497006	Hemodialysis	procedure	Therapeutics
+305340004	Admission to long stay hospital	other	Therapeutics
+305351004	Admit to ICU	procedure	Therapeutics
+305425002	Admission to neurosurgical department	other	Therapeutics
+305428000	Admission to orthopedic department	other	Therapeutics
+310861008	Chlamydia antigen test	other	Diagnosis|Investigative techniques
+311791003	Information gathering	procedure	?
+31208007	Medical induction of labor	other	Surgical procedures
+312681000	Bone density scan	procedure	Diagnosis|Investigative techniques
+313191000	Injection of adrenaline	other	?
+31676001	Human immunodeficiency virus antigen test	other	Diagnosis|Investigative techniques
+35025007	Manual pelvic examination	procedure	Diagnosis
+367336001	Chemotherapy	procedure	Therapeutics
+370995009	Health risks education	procedure	?
+371908008	Oxygen administration by mask	procedure	Therapeutics
+384700001	Injection of tetanus antitoxin	other	?
+385798007	Radiation therapy care	regime/therapy	?
+386394001	Pregnancy termination care	other	?
+386516004	Anticipatory guidance	procedure	?
+392021009	Lumpectomy of breast	procedure	Surgical procedures
+395123002	Urine screening test for diabetes	other	Diagnosis|Investigative techniques
+395142003	Allergy screening test	other	Diagnosis|Investigative techniques
+396487001	Sentinel lymph node biopsy	procedure	Diagnosis|Investigative techniques|Surgical procedures
+398171003	Hearing examination	procedure	Diagnosis
+399014008	Vaccination for diphtheria  pertussis  and tetanus	other	Investigative techniques|Therapeutics
+399208008	Plain chest X-ray	procedure	Diagnosis
+40617009	Artificial respiration	procedure	Therapeutics
+40701008	Echocardiography	procedure	Diagnosis
+408919008	Psychosocial care	regime/therapy	?
+410006001	Digital examination of rectum	other	Diagnosis
+415070008	Percutaneous coronary intervention	other	Surgical procedures
+415300000	Review of systems	procedure	?
+418891003	Computed tomography of chest and abdomen	other	Diagnosis
+423475008	Heart failure education	procedure	?
+426701000119108	Ultrasonography of abdomen  right upper quadrant and epigastrium	other	Diagnosis
+428211000124100	Assessment of substance use	procedure	?
+429609002	Lung volume reduction surgery	procedure	?
+430193006	Medication Reconciliation	procedure	Therapeutics
+430701006	Resuscitation using intravenous fluid	procedure	?
+43075005	Partial resection of colon	other	Surgical procedures
+431182000	Placing subject in prone position	procedure	?
+432231006	Fine needle aspiration biopsy of lung	procedure	Diagnosis|Investigative techniques|Surgical procedures
+433112001	Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance	other	?
+433114000	Human epidermal growth factor receptor 2 gene detection by immunohistochemistry	procedure	Diagnosis|Investigative techniques
+434363004	Human epidermal growth factor receptor 2 gene detection by fluorescence in situ hybridization	procedure	Diagnosis|Investigative techniques
+443497002	Excision of sentinel lymph node	procedure	?
+443529005	Screening for chromosomal aneuploidy in prenatal amniotic fluid	other	Diagnosis
+445912000	Excision of fallopian tube and surgical removal of ectopic pregnancy	other	Surgical procedures
+44608003	Blood typing  RH typing	other	Diagnosis|Investigative techniques|Therapeutics
+447365002	Insertion of biventricular implantable cardioverter defibrillator	other	?
+449214001	Transfer to stepdown unit	procedure	?
+454711000124102	Depression screening using Patient Health Questionnaire Two-Item score	procedure	?
+45595009	Laparoscopic Removal of Gall Bladder	other	Surgical procedures
+46706006	Replacement of contraceptive intrauterine device	other	?
+47758006	Hepatitis B Surface Antigen Measurement	other	Diagnosis|Investigative techniques
+51116004	RhD passive immunization	other	Investigative techniques|Therapeutics
+52765003	Intubation	other	Investigative techniques|Therapeutics
+54550000	Seizure Count Cerebral Cortex Electroencephalogram (EEG)	other	Diagnosis
+5880005	Physical examination of mother	other	Diagnosis
+60027007	X-ray or wrist	other	Diagnosis
+65200003	Insertion of intrauterine contraceptive device	other	?
+65546002	Extraction of wisdom tooth	other	Dentistry|Surgical procedures
+65575008	Biopsy of prostate	other	Diagnosis|Investigative techniques|Surgical procedures
+65588006	Premature birth of newborn	other	?
+66348005	Childbirth	other	Surgical procedures
+68254000	Removal of intrauterine device	other	?
+69031006	Excision of breast tissue	procedure	Surgical procedures
+698354004	Magnetic resonance imaging for measurement of brain volume	procedure	Diagnosis
+699253003	Surgical manipulation of joint of knee	other	?
+703423002	Combined chemotherapy and radiation therapy	procedure	?
+710824005	Assessment of health and social care needs	procedure	?
+710841007	Assessment of anxiety	procedure	?
+713106006	Screening for drug abuse	procedure	Diagnosis|Investigative techniques
+714812005	Induced termination of pregnancy	other	?
+715252007	Depression screening using Patient Health Questionnaire Nine Item score	procedure	?
+71651007	Mammography	procedure	Diagnosis
+73761001	Colonoscopy	other	Diagnosis|Surgical procedures
+74016001	Knee X-ray	other	Diagnosis
+76164006	Biopsy of colon	other	Diagnosis|Investigative techniques|Surgical procedures
+762993000	Assessment using Morse Fall Scale	procedure	?
+762998009	Assessment using New York Heart Association Classification	procedure	?
+763302001	Assessment using Alcohol Use Disorders Identification Test - Consumption	procedure	?
+76601001	Intramuscular injection	other	Therapeutics
+76746007	Cardiovascular stress testing	procedure	Diagnosis|Investigative techniques
+80146002	Appendectomy	other	Surgical procedures
+82078001	Take blood sample	other	?
+85548006	Episiotomy	other	Surgical procedures
+866148006	Screening for domestic abuse	procedure	Diagnosis|Investigative techniques
+868187001	Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test	procedure	?
+88039007	Transplant of lung	procedure	Surgical procedures
+90226004	Cytopathology procedure  preparation of smear  genital source	other	Diagnosis|Investigative techniques
+90470006	Prostatectomy	other	Surgical procedures
+91602002	Thoracentesis	procedure	Diagnosis|Investigative techniques|Surgical procedures|Therapeutics

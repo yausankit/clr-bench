@@ -1,0 +1,384 @@
+{
+ "unique_classes": {
+  "slots": 80,
+  "unique_list_ids": 74,
+  "unique_member_sets": 71
+ },
+ "cells_diag": {
+  "ace/hint": {
+   "score": 67.0,
+   "clean": 88.0,
+   "single": 46.0,
+   "inc_revealed": 87.5,
+   "inc_unseen": 61.5,
+   "exc": 85.6,
+   "n": 80
+  },
+  "ace/self": {
+   "score": 52.5,
+   "clean": 97.0,
+   "single": 8.0,
+   "inc_revealed": 92.5,
+   "inc_unseen": 12.2,
+   "exc": 92.4,
+   "n": 80
+  },
+  "dc/hint": {
+   "score": 68.2,
+   "clean": 93.5,
+   "single": 43.0,
+   "inc_revealed": 71.0,
+   "inc_unseen": 56.2,
+   "exc": 83.9,
+   "n": 80
+  },
+  "dc/self": {
+   "score": 52.8,
+   "clean": 97.5,
+   "single": 8.0,
+   "inc_revealed": 80.0,
+   "inc_unseen": 11.8,
+   "exc": 95.0,
+   "n": 80
+  },
+  "evoskill/hint": {
+   "score": 42.0,
+   "clean": 77.5,
+   "single": 6.5,
+   "inc_revealed": 11.0,
+   "inc_unseen": 9.5,
+   "exc": 61.6,
+   "n": 80
+  },
+  "evoskill/self": {
+   "score": 46.0,
+   "clean": 91.5,
+   "single": 0.5,
+   "inc_revealed": 16.5,
+   "inc_unseen": 1.8,
+   "exc": 84.1,
+   "n": 80
+  },
+  "frozen/ref": {
+   "score": 47.8,
+   "clean": 95.5,
+   "single": 0.0,
+   "inc_revealed": 1.0,
+   "inc_unseen": 0.8,
+   "exc": 94.2,
+   "n": 80
+  },
+  "gepa/hint": {
+   "score": 62.5,
+   "clean": 86.5,
+   "single": 38.5,
+   "inc_revealed": 72.5,
+   "inc_unseen": 49.0,
+   "exc": 76.4,
+   "n": 80
+  },
+  "gepa/self": {
+   "score": 50.8,
+   "clean": 95.5,
+   "single": 6.0,
+   "inc_revealed": 86.0,
+   "inc_unseen": 8.2,
+   "exc": 93.2,
+   "n": 80
+  },
+  "hist/ref": {
+   "score": 52.2,
+   "clean": 91.5,
+   "single": 13.0,
+   "inc_revealed": 83.5,
+   "inc_unseen": 19.5,
+   "exc": 81.5,
+   "n": 80
+  },
+  "histhint/ref": {
+   "score": 63.5,
+   "clean": 83.5,
+   "single": 43.5,
+   "inc_revealed": 79.0,
+   "inc_unseen": 59.0,
+   "exc": 74.8,
+   "n": 80
+  },
+  "nameoracle/ref": {
+   "score": 58.0,
+   "clean": 76.0,
+   "single": 40.0,
+   "inc_revealed": 48.0,
+   "inc_unseen": 49.2,
+   "exc": 57.6,
+   "n": 80
+  },
+  "oracle/ref": {
+   "score": 30.2,
+   "clean": 48.5,
+   "single": 12.0,
+   "inc_revealed": 13.0,
+   "inc_unseen": 18.5,
+   "exc": 27.6,
+   "n": 80
+  },
+  "rb/hint": {
+   "score": 30.0,
+   "clean": 52.0,
+   "single": 8.0,
+   "inc_revealed": 11.5,
+   "inc_unseen": 13.8,
+   "exc": 31.2,
+   "n": 80
+  },
+  "rb/self": {
+   "score": 33.5,
+   "clean": 64.5,
+   "single": 2.5,
+   "inc_revealed": 10.5,
+   "inc_unseen": 8.8,
+   "exc": 51.4,
+   "n": 80
+  },
+  "tfgrpo/hint": {
+   "score": 49.5,
+   "clean": 98.5,
+   "single": 0.5,
+   "inc_revealed": 0.5,
+   "inc_unseen": 1.0,
+   "exc": 95.9,
+   "n": 80
+  },
+  "tfgrpo/self": {
+   "score": 48.0,
+   "clean": 96.0,
+   "single": 0.0,
+   "inc_revealed": 0.5,
+   "inc_unseen": 1.5,
+   "exc": 94.2,
+   "n": 80
+  }
+ },
+ "identifiability": {
+  "slots": 80,
+  "unique_consistent": 75,
+  "all_consistent_agree_on_test": 76,
+  "most_salient_consistent_is_correct": 77,
+  "median_consistent": 1.0,
+  "nt_in_competing_share": 0.007
+ },
+ "wrong_category": {
+  "ace/self": {
+   "failed_exc": 121,
+   "in_competing_list": 2,
+   "share": 0.017
+  },
+  "ace/hint": {
+   "failed_exc": 231,
+   "in_competing_list": 4,
+   "share": 0.017
+  },
+  "gepa/self": {
+   "failed_exc": 109,
+   "in_competing_list": 0,
+   "share": 0.0
+  },
+  "gepa/hint": {
+   "failed_exc": 378,
+   "in_competing_list": 4,
+   "share": 0.011
+  },
+  "dc/self": {
+   "failed_exc": 80,
+   "in_competing_list": 0,
+   "share": 0.0
+  },
+  "dc/hint": {
+   "failed_exc": 257,
+   "in_competing_list": 3,
+   "share": 0.012
+  },
+  "tfgrpo/self": {
+   "failed_exc": 93,
+   "in_competing_list": 0,
+   "share": 0.0
+  },
+  "tfgrpo/hint": {
+   "failed_exc": 66,
+   "in_competing_list": 0,
+   "share": 0.0
+  },
+  "evoskill/self": {
+   "failed_exc": 254,
+   "in_competing_list": 1,
+   "share": 0.004
+  },
+  "evoskill/hint": {
+   "failed_exc": 614,
+   "in_competing_list": 3,
+   "share": 0.005
+  },
+  "rb/self": {
+   "failed_exc": 777,
+   "in_competing_list": 2,
+   "share": 0.003
+  },
+  "rb/hint": {
+   "failed_exc": 1100,
+   "in_competing_list": 2,
+   "share": 0.002
+  },
+  "hist/ref": {
+   "failed_exc": 296,
+   "in_competing_list": 5,
+   "share": 0.017
+  }
+ },
+ "probe_vs_measured": {
+  "slots_with_probe": 80,
+  "mean_P1_g": 0.444,
+  "mean_P1H_soft": 0.92,
+  "hist/ref": {
+   "r_with_P1g": 0.177,
+   "r_with_P1Hsoft": 0.217,
+   "mean_unseen_inc": 18.5,
+   "n": 80
+  },
+  "ace/self": {
+   "r_with_P1g": 0.066,
+   "r_with_P1Hsoft": 0.024,
+   "mean_unseen_inc": 10.7,
+   "n": 80
+  },
+  "ace/hint": {
+   "r_with_P1g": 0.235,
+   "r_with_P1Hsoft": 0.35,
+   "mean_unseen_inc": 61.4,
+   "n": 80
+  },
+  "dc/self": {
+   "r_with_P1g": 0.231,
+   "r_with_P1Hsoft": 0.041,
+   "mean_unseen_inc": 9.6,
+   "n": 80
+  },
+  "dc/hint": {
+   "r_with_P1g": 0.049,
+   "r_with_P1Hsoft": 0.428,
+   "mean_unseen_inc": 53.8,
+   "n": 80
+  },
+  "gepa/self": {
+   "r_with_P1g": 0.045,
+   "r_with_P1Hsoft": 0.144,
+   "mean_unseen_inc": 6.4,
+   "n": 80
+  },
+  "gepa/hint": {
+   "r_with_P1g": 0.213,
+   "r_with_P1Hsoft": 0.301,
+   "mean_unseen_inc": 45.4,
+   "n": 80
+  }
+ },
+ "single_cell_by_level": {
+  "frozen/ref": {
+   "L1": 0.0,
+   "L2": 0.0,
+   "L3": 0.0,
+   "L4": 0.0
+  },
+  "hist/ref": {
+   "L1": 20.0,
+   "L2": 20.0,
+   "L3": 11.7,
+   "L4": 8.8
+  },
+  "ace/self": {
+   "L1": 10.0,
+   "L2": 10.0,
+   "L3": 6.7,
+   "L4": 7.5
+  },
+  "dc/self": {
+   "L1": 15.0,
+   "L2": 10.0,
+   "L3": 6.7,
+   "L4": 6.2
+  },
+  "gepa/self": {
+   "L1": 20.0,
+   "L2": 7.5,
+   "L3": 5.0,
+   "L4": 2.5
+  },
+  "ace/hint": {
+   "L1": 50.0,
+   "L2": 52.5,
+   "L3": 50.0,
+   "L4": 38.8
+  }
+ },
+ "state_attribution": {
+  "ace/self": {
+   "states": 80,
+   "revealed_member_in_state": 98.8,
+   "class_name_term_in_state": 22.5
+  },
+  "ace/hint": {
+   "states": 80,
+   "revealed_member_in_state": 93.8,
+   "class_name_term_in_state": 65.0
+  },
+  "gepa/self": {
+   "states": 80,
+   "revealed_member_in_state": 80.0,
+   "class_name_term_in_state": 23.8
+  },
+  "gepa/hint": {
+   "states": 80,
+   "revealed_member_in_state": 75.0,
+   "class_name_term_in_state": 56.2
+  },
+  "dc/self": {
+   "states": 80,
+   "revealed_member_in_state": 80.0,
+   "class_name_term_in_state": 21.2
+  },
+  "dc/hint": {
+   "states": 80,
+   "revealed_member_in_state": 77.5,
+   "class_name_term_in_state": 51.2
+  },
+  "tfgrpo/self": {
+   "states": 80,
+   "revealed_member_in_state": 1.2,
+   "class_name_term_in_state": 0.0
+  },
+  "tfgrpo/hint": {
+   "states": 80,
+   "revealed_member_in_state": 1.2,
+   "class_name_term_in_state": 0.0
+  },
+  "evoskill/self": {
+   "states": 80,
+   "revealed_member_in_state": 25.0,
+   "class_name_term_in_state": 7.5
+  },
+  "evoskill/hint": {
+   "states": 80,
+   "revealed_member_in_state": 31.2,
+   "class_name_term_in_state": 16.2
+  },
+  "rb/self": {
+   "states": 80,
+   "revealed_member_in_state": 100.0,
+   "class_name_term_in_state": 45.0
+  },
+  "rb/hint": {
+   "states": 80,
+   "revealed_member_in_state": 100.0,
+   "class_name_term_in_state": 45.0
+  }
+ }
+}

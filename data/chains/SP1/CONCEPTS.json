@@ -1,0 +1,148 @@
+{
+ "L1": {
+  "C": "ucl_winners",
+  "competitors": [
+   {
+    "id": "club_world_cup_2025_participants",
+    "name": "2025 FIFA Club World Cup participants"
+   },
+   {
+    "id": "club_world_cup_winners",
+    "name": "FIFA Club World Cup winners"
+   },
+   {
+    "id": "g14_members",
+    "name": "G-14 member clubs"
+   },
+   {
+    "id": "laliga_1929",
+    "name": "1929 La Liga teams"
+   },
+   {
+    "id": "super_league_founders",
+    "name": "European Super League founding clubs"
+   },
+   {
+    "id": "ucl_2024_25_league_phase",
+    "name": "2024-25 UEFA Champions League league phase teams"
+   },
+   {
+    "id": "uel_winners",
+    "name": "UEFA Cup and UEFA Europa League winners"
+   }
+  ],
+  "name": "European Cup and UEFA Champions League winners",
+  "synonyms": [
+   "Champions League winners",
+   "European Cup winners"
+  ]
+ },
+ "L2": {
+  "C": "euro_stoxx_50",
+  "competitors": [
+   {
+    "id": "aex",
+    "name": "AEX index constituents, October 2026"
+   },
+   {
+    "id": "nasdaq_100",
+    "name": "Nasdaq-100 constituents, October 2026"
+   },
+   {
+    "id": "stoxx_europe_600",
+    "name": "STOXX Europe 600 constituents, October 2026"
+   }
+  ],
+  "name": "EURO STOXX 50 constituents, October 2026",
+  "synonyms": [
+   "EURO STOXX 50 index"
+  ]
+ },
+ "L3": {
+  "C": "commonwealth_members",
+  "competitors": [
+   {
+    "id": "apec_members",
+    "name": "APEC member economies"
+   },
+   {
+    "id": "g20_members",
+    "name": "G20 member states"
+   },
+   {
+    "id": "g7_members",
+    "name": "Group of Seven member states"
+   },
+   {
+    "id": "nato_members",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd_members",
+    "name": "OECD member states"
+   }
+  ],
+  "name": "Commonwealth of Nations member states",
+  "synonyms": [
+   "Commonwealth members"
+  ]
+ },
+ "L4": {
+  "C": "club_world_cup_2025_participants",
+  "competitors": [
+   {
+    "id": "club_world_cup_winners",
+    "name": "FIFA Club World Cup winners"
+   },
+   {
+    "id": "g14_members",
+    "name": "G-14 member clubs"
+   },
+   {
+    "id": "seriea_1929_30",
+    "name": "1929-30 Serie A teams"
+   },
+   {
+    "id": "super_league_founders",
+    "name": "European Super League founding clubs"
+   },
+   {
+    "id": "ucl_2024_25_league_phase",
+    "name": "2024-25 UEFA Champions League league phase teams"
+   },
+   {
+    "id": "ucl_winners",
+    "name": "European Cup and UEFA Champions League winners"
+   },
+   {
+    "id": "uel_winners",
+    "name": "UEFA Cup and UEFA Europa League winners"
+   }
+  ],
+  "name": "2025 FIFA Club World Cup participants",
+  "synonyms": [
+   "2025 Club World Cup teams"
+  ]
+ },
+ "L5": {
+  "C": "dow_jones",
+  "competitors": [
+   {
+    "id": "nasdaq_100",
+    "name": "Nasdaq-100 constituents, October 2026"
+   },
+   {
+    "id": "sp_100",
+    "name": "S&P 100 constituents, October 2026"
+   },
+   {
+    "id": "sp_500",
+    "name": "S&P 500 constituents, October 2026"
+   }
+  ],
+  "name": "Dow Jones Industrial Average constituents, October 2026",
+  "synonyms": [
+   "Dow Jones Industrial Average"
+  ]
+ }
+}

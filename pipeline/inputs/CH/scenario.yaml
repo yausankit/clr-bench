@@ -1,0 +1,73 @@
+business_process: "A customs broker reviews chemical import declarations and counts the declaration lines that require manual clearance."
+fields:
+  lines.substance: {universe: chemical, value_form: self_describing}
+  declarations.exporter_country: {universe: country, value_form: code}
+  shipments.air_carrier: {universe: carrier, value_form: self_describing}
+rule_templates:
+  - id: chem_pops
+    field: lines.substance
+    effect: exclude_record
+    source: "Supplement: archived persistent-pollutant and prior-consent annexes."
+    rule: "A line whose substance is listed in the selected pollutant or prior-consent annex is not counted."
+    plausible: [stockholm_annex_a, stockholm_annex_c, stockholm_all_pops, rotterdam_pesticides, rotterdam_industrial, rotterdam_annex_iii]
+  - id: chem_weapons
+    field: lines.substance
+    effect: exclude_record
+    source: "Supplement: archived chemical-weapons convention schedules."
+    rule: "A line whose substance is listed in the selected chemical-weapons schedule is not counted."
+    plausible: [opcw_schedule_1, opcw_schedule_2, opcw_schedule_3, opcw_all_schedules]
+  - id: chem_hazard
+    field: lines.substance
+    effect: exclude_record
+    source: "Supplement: archived cancer-hazard classifications."
+    rule: "A line whose substance is in the selected cancer-hazard group is not counted."
+    plausible: [iarc_group_1, iarc_group_2a, iarc_group_2b, iarc_group_3]
+  - id: chem_water
+    field: lines.substance
+    effect: exclude_record
+    source: "Supplement: archived water-pollution priority list."
+    rule: "A line whose substance is on the selected water-pollution priority list is not counted."
+    plausible: [wfd_priority, wfd_hazardous]
+  - id: chem_ozone
+    field: lines.substance
+    effect: exclude_record
+    source: "Supplement: archived international chemical-control annexes."
+    rule: "A line whose substance is controlled by the selected international chemical annex is not counted."
+    plausible: [montreal_annex_a_group_i, montreal_all_controlled_substances, opcw_schedule_3]
+  - id: country_europe
+    field: declarations.exporter_country
+    effect: exclude_record
+    source: "Supplement: archived European membership pages."
+    rule: "A declaration whose exporter country is in the selected European common-market membership group or travel area is not counted."
+    plausible: [eu, eu_1958, schengen]
+  - id: country_control
+    field: declarations.exporter_country
+    effect: exclude_record
+    source: "Supplement: archived export-control partner pages."
+    rule: "A declaration from a partner in the selected security or export-control arrangement is not counted."
+    plausible: [nato, mtcr, nsg, australia_group, wassenaar]
+  - id: country_regional
+    field: declarations.exporter_country
+    effect: exclude_record
+    source: "Supplement: archived regional association membership pages."
+    rule: "A declaration from a member of the selected intergovernmental association or regional organization is not counted."
+    plausible: [commonwealth, g7, gcc, asean, arab_league, opec]
+  - id: carrier_alliance
+    field: shipments.air_carrier
+    effect: exclude_record
+    source: "Supplement: archived global airline alliance membership pages."
+    rule: "A shipment whose air carrier is in the selected global airline alliance is not counted."
+    plausible: [star_alliance, oneworld, skyteam]
+  - id: carrier_americas
+    field: shipments.air_carrier
+    effect: exclude_record
+    source: "Supplement: archived airline association membership pages."
+    rule: "A shipment whose air carrier is a member of the selected airline association in the Americas is not counted."
+    plausible: [alta_full, alta_associate, a4a]
+  - id: carrier_europe
+    field: shipments.air_carrier
+    effect: exclude_record
+    source: "Supplement: archived airline association membership pages."
+    rule: "A shipment whose air carrier is a member of the selected national or regional airline association is not counted."
+    plausible: [a4a, a4e]
+label_nouns: [review batch, clearance stamp, intake folder]

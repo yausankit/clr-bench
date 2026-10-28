@@ -1,0 +1,45 @@
+A: ZAR
+C: brics_currencies
+C_name: Currencies of BRICS member states
+N_p: MXN
+N_t:
+- NAD
+- GBP
+- SOS
+- PLN
+- FJD
+- MOP
+- UYU
+P_M:
+- IRR
+- AED
+- BRL
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_union_currencies
+    - commonwealth_currencies
+    - g20_currencies
+    - sacu_currencies
+    - sadc_currencies
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- african_union_currencies
+- commonwealth_currencies
+- currency_union_currencies
+- g20_currencies
+- sacu_currencies
+- sadc_currencies
+field: claims.currency
+label: queue tag X-63
+salience: 1491124.0
+universe: currency

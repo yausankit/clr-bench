@@ -1,0 +1,43 @@
+A: Qatar Airways
+C: oneworld_members
+C_name: oneworld member airlines
+N_p: Fly2Sky
+N_t:
+- Plus Ultra
+- Gulf Air
+- STARLUX Airlines
+- Airnorth
+- Sun Way
+- Shree Airlines
+- West Air Luxembourg
+P_M:
+- Fiji Airways
+- Finnair
+- SriLankan Airlines
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - aaco_members
+    - b787_operators
+    - iata_members
+    - skytrax_five_star
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- a380_operators
+- aaco_members
+- b787_operators
+- iata_members
+- skytrax_five_star
+field: trips.airline
+label: expense label 20
+salience: 467145.0
+universe: airline

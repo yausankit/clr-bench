@@ -1,0 +1,465 @@
+An international education foundation reviews scholarship applications and totals cases for follow-up by funding programme.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The top-level JSON object has these keys:
+- programmes: rows with applications, project_id
+
+Each application counts once for its funding programme unless a rule excludes that application.
+Return the sum of the totals of all funding programmes in the input, as an int.
+
+Field notes:
+- An applicant whose nationality is 'FR' is in review docket W8.
+- A reference whose country is 'MY' is in settlement note 59.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, applicants in review docket W8 are not counted.
+L2: From this level on, references in settlement note 59 are not counted.
+
+Value reference:
+applicants.nationality:
+- AL — Albania; Country or territory identified by ISO 3166-1 code AL; Albania.
+- AM — Armenia; Country or territory identified by ISO 3166-1 code AM; Armenia.
+- AR — Argentina; Country or territory identified by ISO 3166-1 code AR; Argentina.
+- AX — Åland Islands; Country or territory identified by ISO 3166-1 code AX; Åland Islands.
+- BR — Brazil; Country or territory identified by ISO 3166-1 code BR; Brazil.
+- CA — Canada; Country or territory identified by ISO 3166-1 code CA; Canada.
+- CH — Switzerland; Country or territory identified by ISO 3166-1 code CH; Switzerland.
+- CX — Christmas Island; Country or territory identified by ISO 3166-1 code CX; Christmas Island.
+- CZ — Czechia; Country or territory identified by ISO 3166-1 code CZ; Czechia.
+- FR — France; Country or territory identified by ISO 3166-1 code FR; France.
+- GH — Ghana; Country or territory identified by ISO 3166-1 code GH; Ghana.
+- GS — South Georgia and the South Sandwich Islands; Country or territory identified by ISO 3166-1 code GS; South Georgia and the South Sandwich Islands.
+- HR — Croatia; Country or territory identified by ISO 3166-1 code HR; Croatia.
+- ID — Indonesia; Country or territory identified by ISO 3166-1 code ID; Indonesia.
+- IL — Israel; Country or territory identified by ISO 3166-1 code IL; Israel.
+- IM — Isle of Man; Country or territory identified by ISO 3166-1 code IM; Isle of Man.
+- IS — Iceland; Country or territory identified by ISO 3166-1 code IS; Iceland.
+- JE — Jersey; Country or territory identified by ISO 3166-1 code JE; Jersey.
+- JP — Japan; Country or territory identified by ISO 3166-1 code JP; Japan.
+- KI — Kiribati; Country or territory identified by ISO 3166-1 code KI; Kiribati.
+- KN — Saint Kitts and Nevis; Country or territory identified by ISO 3166-1 code KN; Saint Kitts and Nevis.
+- LK — Sri Lanka; Country or territory identified by ISO 3166-1 code LK; Sri Lanka.
+- ME — Montenegro; Country or territory identified by ISO 3166-1 code ME; Montenegro.
+- MH — Marshall Islands; Country or territory identified by ISO 3166-1 code MH; Marshall Islands.
+- ML — Mali; Country or territory identified by ISO 3166-1 code ML; Mali.
+- MP — Northern Mariana Islands; Country or territory identified by ISO 3166-1 code MP; Northern Mariana Islands.
+- MQ — Martinique; Country or territory identified by ISO 3166-1 code MQ; Martinique.
+- NP — Nepal; Country or territory identified by ISO 3166-1 code NP; Nepal.
+- OM — Oman; Country or territory identified by ISO 3166-1 code OM; Oman.
+- SA — Saudi Arabia; Country or territory identified by ISO 3166-1 code SA; Saudi Arabia.
+- SV — El Salvador; Country or territory identified by ISO 3166-1 code SV; El Salvador.
+- TC — Turks and Caicos Islands; Country or territory identified by ISO 3166-1 code TC; Turks and Caicos Islands.
+- TD — Chad; Country or territory identified by ISO 3166-1 code TD; Chad.
+- US — United States of America; Country or territory identified by ISO 3166-1 code US; United States of America.
+references.country:
+- AO — Angola; Country or territory identified by ISO 3166-1 code AO; Angola.
+- AR — Argentina; Country or territory identified by ISO 3166-1 code AR; Argentina.
+- AX — Åland Islands; Country or territory identified by ISO 3166-1 code AX; Åland Islands.
+- BB — Barbados; Country or territory identified by ISO 3166-1 code BB; Barbados.
+- CK — Cook Islands; Country or territory identified by ISO 3166-1 code CK; Cook Islands.
+- EG — Egypt; Country or territory identified by ISO 3166-1 code EG; Egypt.
+- GB — United Kingdom of Great Britain and Northern Ireland; Country or territory identified by ISO 3166-1 code GB; United Kingdom of Great Britain and Northern Ireland.
+- GE — Georgia; Country or territory identified by ISO 3166-1 code GE; Georgia.
+- GS — South Georgia and the South Sandwich Islands; Country or territory identified by ISO 3166-1 code GS; South Georgia and the South Sandwich Islands.
+- GY — Guyana; Country or territory identified by ISO 3166-1 code GY; Guyana.
+- IE — Ireland; Country or territory identified by ISO 3166-1 code IE; Ireland.
+- IT — Italy; Country or territory identified by ISO 3166-1 code IT; Italy.
+- KR — Republic of Korea; Country or territory identified by ISO 3166-1 code KR; Republic of Korea.
+- LA — Lao People's Democratic Republic; Country or territory identified by ISO 3166-1 code LA; Lao People's Democratic Republic.
+- LB — Lebanon; Country or territory identified by ISO 3166-1 code LB; Lebanon.
+- LS — Lesotho; Country or territory identified by ISO 3166-1 code LS; Lesotho.
+- LU — Luxembourg; Country or territory identified by ISO 3166-1 code LU; Luxembourg.
+- LV — Latvia; Country or territory identified by ISO 3166-1 code LV; Latvia.
+- ML — Mali; Country or territory identified by ISO 3166-1 code ML; Mali.
+- MM — Myanmar; Country or territory identified by ISO 3166-1 code MM; Myanmar.
+- MX — Mexico; Country or territory identified by ISO 3166-1 code MX; Mexico.
+- MY — Malaysia; Country or territory identified by ISO 3166-1 code MY; Malaysia.
+- NC — New Caledonia; Country or territory identified by ISO 3166-1 code NC; New Caledonia.
+- NF — Norfolk Island; Country or territory identified by ISO 3166-1 code NF; Norfolk Island.
+- PE — Peru; Country or territory identified by ISO 3166-1 code PE; Peru.
+- PH — Philippines; Country or territory identified by ISO 3166-1 code PH; Philippines.
+- SE — Sweden; Country or territory identified by ISO 3166-1 code SE; Sweden.
+- SS — South Sudan; Country or territory identified by ISO 3166-1 code SS; South Sudan.
+- TJ — Tajikistan; Country or territory identified by ISO 3166-1 code TJ; Tajikistan.
+- TR — Türkiye; Country or territory identified by ISO 3166-1 code TR; Türkiye.
+- TT — Trinidad and Tobago; Country or territory identified by ISO 3166-1 code TT; Trinidad and Tobago.
+- TV — Tuvalu; Country or territory identified by ISO 3166-1 code TV; Tuvalu.
+- TW — Taiwan; Country or territory identified by ISO 3166-1 code TW; Taiwan.
+- VN — Viet Nam; Country or territory identified by ISO 3166-1 code VN; Viet Nam.
+applications.sponsor_company:
+- 3M — Publicly traded Industrials company headquartered in United States of America.
+- Acciona — Publicly traded Construction and Materials company headquartered in Spain.
+- Apple Inc. — Publicly traded Information Technology company headquartered in United States of America.
+- Axa — Publicly traded Financials company headquartered in France.
+- Beiersdorf — Publicly traded Consumer Products and Services company headquartered in Germany.
+- Berkshire Hathaway — Publicly traded Financials company headquartered in United States of America.
+- Carl Zeiss Meditec — Publicly traded Health Care company headquartered in Germany.
+- Chevron Corporation — Publicly traded Energy company headquartered in United States of America.
+- Constellation Energy — Publicly traded Utilities company headquartered in United States of America.
+- ExxonMobil — Publicly traded Energy company headquartered in United States of America.
+- Ferrovial — Publicly traded Construction and Materials company headquartered in Netherlands.
+- Flex Ltd. — Publicly traded Information Technology company headquartered in United States of America.
+- Howden Joinery — Publicly traded Retail company headquartered in United Kingdom of Great Britain and Northern Ireland.
+- Investec — Publicly traded Financial Services company headquartered in United Kingdom of Great Britain and Northern Ireland.
+- LVMH — Publicly traded Consumer Products and Services company headquartered in France.
+- Norsk Hydro — Publicly traded Basic Resources company headquartered in Norway.
+- Paychex — Publicly traded Industrials company headquartered in United States of America.
+- Poste Italiane — Publicly traded Insurance company headquartered in Italy.
+- Sherwin-Williams — Publicly traded Materials company headquartered in United States of America.
+- Truist Financial — Publicly traded Financials company headquartered in United States of America.
+- United Parcel Service — Publicly traded Industrials company headquartered in United States of America.
+- Warehouses De Pauw — Publicly traded Real Estate company headquartered in Belgium.
+
+Example input:
+{
+ "programmes": [
+  {
+   "applications": [
+    {
+     "applicant": {
+      "applicant_id": "C231",
+      "nationality": "MP"
+     },
+     "application_id": "A231",
+     "reference": {
+      "country": "GS",
+      "university": "Kuningan University"
+     },
+     "sponsor_company": "Flex Ltd.",
+     "university": "Jharkhand Raksha Shakti University"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C232",
+      "nationality": "AM"
+     },
+     "application_id": "A232",
+     "reference": {
+      "country": "LU",
+      "university": "Maranatha College"
+     },
+     "sponsor_company": "Investec",
+     "university": "Newman University (United Kingdom of Great Britain and Northern Ireland)"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C233",
+      "nationality": "JE"
+     },
+     "application_id": "A233",
+     "reference": {
+      "country": "TV",
+      "university": "Make-up Designory"
+     },
+     "sponsor_company": "LVMH",
+     "university": "Army Public College of Management Sciences"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C234",
+      "nationality": "AX"
+     },
+     "application_id": "A234",
+     "reference": {
+      "country": "LS",
+      "university": "Belarusian State Academy of Arts"
+     },
+     "sponsor_company": "Beiersdorf",
+     "university": "Universidad Técnica de Oruro"
+    }
+   ],
+   "project_id": "P24"
+  },
+  {
+   "applications": [
+    {
+     "applicant": {
+      "applicant_id": "C241",
+      "nationality": "NP"
+     },
+     "application_id": "A241",
+     "reference": {
+      "country": "TT",
+      "university": "University of Kalamoon"
+     },
+     "sponsor_company": "Carl Zeiss Meditec",
+     "university": "Jijiga University"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C242",
+      "nationality": "ML"
+     },
+     "application_id": "A242",
+     "reference": {
+      "country": "LS",
+      "university": "Daffodil International University"
+     },
+     "sponsor_company": "LVMH",
+     "university": "Maimónides University"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C243",
+      "nationality": "FR"
+     },
+     "application_id": "A243",
+     "reference": {
+      "country": "AO",
+      "university": "Xinjiang University of Finance and Economics"
+     },
+     "sponsor_company": "Carl Zeiss Meditec",
+     "university": "Law School of Tanzania"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C244",
+      "nationality": "AM"
+     },
+     "application_id": "A244",
+     "reference": {
+      "country": "AO",
+      "university": "FH Münster"
+     },
+     "sponsor_company": "Flex Ltd.",
+     "university": "University of Islamic Republic of Iran Broadcasting"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C245",
+      "nationality": "NP"
+     },
+     "application_id": "A245",
+     "reference": {
+      "country": "LU",
+      "university": "Sheffield Hallam University"
+     },
+     "sponsor_company": "Beiersdorf",
+     "university": "University of Oran 2 Mohamed Ben Ahmed"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C246",
+      "nationality": "JE"
+     },
+     "application_id": "A246",
+     "reference": {
+      "country": "GS",
+      "university": "Autonomous University of Entre Ríos"
+     },
+     "sponsor_company": "Norsk Hydro",
+     "university": "College of Health Sciences, Asmara"
+    }
+   ],
+   "project_id": "P25"
+  },
+  {
+   "applications": [
+    {
+     "applicant": {
+      "applicant_id": "C331",
+      "nationality": "LK"
+     },
+     "application_id": "A331",
+     "reference": {
+      "country": "LU",
+      "university": "Quang Binh University"
+     },
+     "sponsor_company": "Flex Ltd.",
+     "university": "Mico University College"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C332",
+      "nationality": "AX"
+     },
+     "application_id": "A332",
+     "reference": {
+      "country": "NF",
+      "university": "University of Sindh"
+     },
+     "sponsor_company": "Flex Ltd.",
+     "university": "Sikkim Manipal University"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C333",
+      "nationality": "NP"
+     },
+     "application_id": "A333",
+     "reference": {
+      "country": "AO",
+      "university": "Adeleke University"
+     },
+     "sponsor_company": "LVMH",
+     "university": "Islamic Azad University of Falavarjan"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C334",
+      "nationality": "GS"
+     },
+     "application_id": "A334",
+     "reference": {
+      "country": "TT",
+      "university": "Jepson School of Leadership Studies"
+     },
+     "sponsor_company": "Norsk Hydro",
+     "university": "Metropolitan University of Science and Technology"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C335",
+      "nationality": "AX"
+     },
+     "application_id": "A335",
+     "reference": {
+      "country": "LU",
+      "university": "Rissho University"
+     },
+     "sponsor_company": "Flex Ltd.",
+     "university": "Bidasoa International Seminar"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C336",
+      "nationality": "GS"
+     },
+     "application_id": "A336",
+     "reference": {
+      "country": "AO",
+      "university": "Midnapore Law College"
+     },
+     "sponsor_company": "LVMH",
+     "university": "Tshwane University of Technology"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C337",
+      "nationality": "ML"
+     },
+     "application_id": "A337",
+     "reference": {
+      "country": "TV",
+      "university": "Catholic University of Cameroon"
+     },
+     "sponsor_company": "Howden Joinery",
+     "university": "University of the Southern Caribbean"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C338",
+      "nationality": "KI"
+     },
+     "application_id": "A338",
+     "reference": {
+      "country": "IE",
+      "university": "Instituto Agrário de Chimoio"
+     },
+     "sponsor_company": "Beiersdorf",
+     "university": "Centenary College of Louisiana"
+    }
+   ],
+   "project_id": "P34"
+  },
+  {
+   "applications": [
+    {
+     "applicant": {
+      "applicant_id": "C351",
+      "nationality": "ML"
+     },
+     "application_id": "A351",
+     "reference": {
+      "country": "MY",
+      "university": "Maastricht School of Translation and Interpreting"
+     },
+     "sponsor_company": "Investec",
+     "university": "Arthur Kroeger College of Public Affairs"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C352",
+      "nationality": "AX"
+     },
+     "application_id": "A352",
+     "reference": {
+      "country": "NF",
+      "university": "Government College for Women Dhoke Kala Khan"
+     },
+     "sponsor_company": "Poste Italiane",
+     "university": "HNU College of Law"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C353",
+      "nationality": "AM"
+     },
+     "application_id": "A353",
+     "reference": {
+      "country": "TV",
+      "university": "Captain Elechi Amadi Polytechnic, Rumuola, Port Harcourt Nigeria"
+     },
+     "sponsor_company": "Carl Zeiss Meditec",
+     "university": "Oil & Gas University of Ploiești"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C354",
+      "nationality": "MP"
+     },
+     "application_id": "A354",
+     "reference": {
+      "country": "TT",
+      "university": "University of Kentucky"
+     },
+     "sponsor_company": "Beiersdorf",
+     "university": "Klaipėda University"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C355",
+      "nationality": "AX"
+     },
+     "application_id": "A355",
+     "reference": {
+      "country": "AO",
+      "university": "Eastern Institute of Technology, Ningbo"
+     },
+     "sponsor_company": "Investec",
+     "university": "Collegium Varsoviense"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C356",
+      "nationality": "NP"
+     },
+     "application_id": "A356",
+     "reference": {
+      "country": "NF",
+      "university": "Bago University"
+     },
+     "sponsor_company": "Poste Italiane",
+     "university": "Università degli Studi ''Guglielmo Marconi''"
+    },
+    {
+     "applicant": {
+      "applicant_id": "C357",
+      "nationality": "KI"
+     },
+     "application_id": "A357",
+     "reference": {
+      "country": "TT",
+      "university": "University of Tampa"
+     },
+     "sponsor_company": "Investec",
+     "university": "Ahsan-Ul-Uloom"
+    }
+   ],
+   "project_id": "P36"
+  }
+ ]
+}

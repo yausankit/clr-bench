@@ -1,0 +1,46 @@
+A: Hexachlorobenzene
+C: stockholm_annex_a
+C_name: Stockholm Convention Annex A
+N_p: 2,3,7,8-Tetrachlorodibenzo-p-dioxin
+N_t:
+- Fenthion
+- Ethylene oxide
+- Perfluorooctane sulfonic acid
+- Tributyltin fluoride
+- Metronidazole
+- Epichlorohydrin
+- Panfuran S (containing dihydroxymethylfuratrizine)
+P_M:
+- Endrin
+- Heptabromodiphenyl ether
+- Tetrabromodiphenyl ether
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - iarc_group_2b
+    - rotterdam_annex_iii
+    - rotterdam_pesticides
+    - wfd_hazardous
+    - wfd_priority
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- iarc_group_2b
+- rotterdam_annex_iii
+- rotterdam_pesticides
+- stockholm_all_pops
+- stockholm_annex_c
+- wfd_hazardous
+- wfd_priority
+field: lines.substance
+label: intake folder X8
+salience: 1476.0
+universe: chemical

@@ -1,0 +1,61 @@
+A: ru
+C: balto_slavic_languages
+C_name: Balto-Slavic languages
+N_p: de
+N_t:
+- es
+- zh
+- fr
+- fo
+- ie
+- nv
+- an
+P_M:
+- lv
+- sl
+- lt
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - canada_knowledge_languages
+    - canada_mother_tongue_languages
+    - finland_native_languages
+    - kazakhstan_census_languages
+    - nepal_native_languages
+    - osce_official_languages
+    - spain_2021_census_languages
+    - turkey_1965_census_languages
+    - turkey_ethnologue_languages
+    - un_official_languages
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- canada_knowledge_languages
+- canada_mother_tongue_languages
+- finland_charter_languages
+- finland_native_languages
+- kazakhstan_census_languages
+- nepal_native_languages
+- norway_non_native_languages
+- osce_official_languages
+- poland_charter_languages
+- romania_charter_languages
+- slavic_languages
+- slovakia_charter_languages
+- spain_2021_census_languages
+- turkey_1965_census_languages
+- turkey_ethnologue_languages
+- ukraine_2001_census_languages
+- un_official_languages
+field: findings.language
+label: client folio 66
+salience: 106795.0
+universe: language

@@ -1,0 +1,90 @@
+{
+ "luna": {
+  "frozen": {
+   "acc": 47.75,
+   "single": 0.0,
+   "inc_u": 0.8,
+   "exc": 94.2,
+   "n": 80
+  },
+  "ace/self": {
+   "acc": 52.5,
+   "single": 8.0,
+   "inc_u": 12.2,
+   "exc": 92.4,
+   "n": 80
+  },
+  "ace/hint": {
+   "acc": 67.0,
+   "single": 46.0,
+   "inc_u": 61.5,
+   "exc": 85.6,
+   "n": 80
+  },
+  "dc/self": {
+   "acc": 52.75,
+   "single": 8.0,
+   "inc_u": 11.8,
+   "exc": 95.0,
+   "n": 80
+  },
+  "dc/hint": {
+   "acc": 68.25,
+   "single": 43.0,
+   "inc_u": 56.2,
+   "exc": 83.9,
+   "n": 80
+  },
+  "hist": {
+   "acc": 52.25,
+   "single": 13.0,
+   "inc_u": 19.5,
+   "exc": 81.5,
+   "n": 80
+  }
+ },
+ "sol6": {
+  "frozen": {
+   "acc": 32.5,
+   "single": 1.0,
+   "inc_u": 6.0,
+   "exc": 38.9,
+   "n": 80
+  },
+  "ace/self": {
+   "acc": 78.25,
+   "single": 58.5,
+   "inc_u": 67.8,
+   "exc": 95.2,
+   "n": 80
+  },
+  "ace/hint": {
+   "acc": 81.25,
+   "single": 67.5,
+   "inc_u": 82.0,
+   "exc": 92.4,
+   "n": 80
+  },
+  "dc/self": {
+   "acc": 78.5,
+   "single": 60.0,
+   "inc_u": 75.5,
+   "exc": 90.0,
+   "n": 80
+  },
+  "dc/hint": {
+   "acc": 84.0,
+   "single": 70.0,
+   "inc_u": 82.5,
+   "exc": 94.8,
+   "n": 80
+  },
+  "hist": {
+   "acc": 70.25,
+   "single": 49.0,
+   "inc_u": 67.5,
+   "exc": 83.2,
+   "n": 80
+  }
+ }
+}

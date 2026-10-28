@@ -1,0 +1,47 @@
+A: TN
+C: arab_league
+C_name: Arab League
+N_p: NG
+N_t:
+- SS
+- AL
+- GM
+- GQ
+- BV
+- TH
+- SJ
+P_M:
+- SD
+- SY
+- IQ
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_continental_free_trade_area
+    - african_union
+    - international_hydrographic_organization
+    - organisation_internationale_de_la_francophonie
+    - organisation_of_islamic_cooperation
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- african_continental_free_trade_area
+- african_union
+- arab_maghreb_union
+- international_hydrographic_organization
+- organisation_internationale_de_la_francophonie
+- organisation_of_islamic_cooperation
+- world_trade_organization
+field: ships.flag_state
+label: review ledger J8
+salience: 386459.0
+universe: flag

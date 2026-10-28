@@ -1,0 +1,34 @@
+concept_id	wiki_title	match	pageviews_12m	note
+linux_base_accounts	Debian	exact	552864	monthly pageviews 2025-10..2026-09
+mirai_default_usernames	Mirai (malware)	exact	105903	monthly pageviews 2025-10..2026-09
+seclists_top_usernames	SecLists	none	0	HTTP 404: no article data
+cloud_image_users	Amazon Machine Image	exact	39338	monthly pageviews 2025-10..2026-09
+database_default_users	Database administrator	exact	26454	monthly pageviews 2025-10..2026-09
+web_server_users	Web server	exact	186238	monthly pageviews 2025-10..2026-09
+ci_cd_users	Jenkins (software)	exact	103433	monthly pageviews 2025-10..2026-09
+network_device_users	Network administrator	exact	26645	monthly pageviews 2025-10..2026-09
+iot_default_users	Internet of things	exact	766021	monthly pageviews 2025-10..2026-09
+mail_server_users	Message transfer agent	exact	228793	monthly pageviews 2025-10..2026-09
+monitoring_users	Network monitoring	exact	24349	monthly pageviews 2025-10..2026-09
+bigdata_users	Apache Hadoop	exact	652184	monthly pageviews 2025-10..2026-09
+ftp_accounts	File Transfer Protocol	exact	300513	monthly pageviews 2025-10..2026-09
+privileged_accounts	Superuser	exact	143802	monthly pageviews 2025-10..2026-09
+legacy_service_accounts	Service account	exact	8755	monthly pageviews 2025-10..2026-09
+windows_accounts	Windows service account	none	0	HTTP 404: no article data
+service_accounts	Service account	exact	8755	monthly pageviews 2025-10..2026-09
+application_server_accounts	Web server	exact	186238	monthly pageviews 2025-10..2026-09
+data_platform_accounts	Apache Hadoop	exact	652184	monthly pageviews 2025-10..2026-09
+automation_accounts	Jenkins (software)	exact	103433	monthly pageviews 2025-10..2026-09
+default_accounts	Internet of things	exact	766021	monthly pageviews 2025-10..2026-09
+freebsd_master_passwd	FreeBSD	exact	317922	monthly pageviews 2025-10..2026-09
+dragonfly_master_passwd	DragonFly BSD	exact	80384	monthly pageviews 2025-10..2026-09
+netbsd_master_passwd	NetBSD	exact	133852	monthly pageviews 2025-10..2026-09
+openbsd_master_passwd	OpenBSD	exact	181374	monthly pageviews 2025-10..2026-09
+alpine_passwd	Alpine Linux	exact	147575	monthly pageviews 2025-10..2026-09
+debian_passwd_master	Debian	exact	552864	monthly pageviews 2025-10..2026-09
+buildroot_passwd	Buildroot	exact	22976	monthly pageviews 2025-10..2026-09
+fedora_uidgid	Fedora Linux	exact	366159	monthly pageviews 2025-10..2026-09
+nmap_usernames	Nmap	exact	121159	monthly pageviews 2025-10..2026-09
+metasploit_unix_users	Metasploit	exact	67770	monthly pageviews 2025-10..2026-09
+rfc2142_mailboxes	Postmaster	exact	37952	monthly pageviews 2025-10..2026-09
+defaultcreds_usernames	Default password	exact	11841	monthly pageviews 2025-10..2026-09

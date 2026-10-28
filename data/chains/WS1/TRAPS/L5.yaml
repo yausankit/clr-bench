@@ -1,0 +1,64 @@
+A: en
+C: south_africa_official
+C_name: Official languages of South Africa
+N_p: os
+N_t:
+- hi
+- 'no'
+- lb
+- ta
+- hr
+- kg
+- si
+P_M:
+- zu
+- ts
+- ss
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - canada_knowledge_languages
+    - canada_mother_tongue_languages
+    - eu_official_languages
+    - finland_native_languages
+    - france_metropolitan_ethnologue_languages
+    - germanic_languages
+    - india_2011_census_languages
+    - nepal_native_languages
+    - turkey_1965_census_languages
+    - west_germanic_languages
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- au_working_languages
+- canada_knowledge_languages
+- canada_mother_tongue_languages
+- eu_official_languages
+- finland_native_languages
+- france_metropolitan_ethnologue_languages
+- germanic_languages
+- india_2011_census_languages
+- kazakhstan_census_languages
+- nepal_native_languages
+- norway_non_native_languages
+- osce_official_languages
+- pakistan_established_languages
+- spain_2021_census_languages
+- thailand_census_languages
+- turkey_1965_census_languages
+- turkey_ethnologue_languages
+- un_official_languages
+- west_germanic_languages
+- zimbabwe_official
+field: findings.language
+label: client folio 47
+salience: 194478.0
+universe: language

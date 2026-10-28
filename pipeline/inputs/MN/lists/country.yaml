@@ -1,0 +1,592 @@
+- id: african_union_members
+  name: African Union member states
+  members:
+  - AO
+  - BF
+  - BI
+  - BJ
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - ER
+  - ET
+  - GA
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - KE
+  - KM
+  - LR
+  - LS
+  - LY
+  - MA
+  - MG
+  - ML
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - RW
+  - SC
+  - SD
+  - SL
+  - SN
+  - SO
+  - SS
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TN
+  - TZ
+  - UG
+  - ZA
+  - ZM
+  - ZW
+  disputed: []
+  changes: []
+  official_count: 55
+  out_of_universe:
+  - Sahrawi Arab Democratic Republic
+  source: https://en.wikipedia.org/w/index.php?oldid=1380381917
+  salience: 382745
+- id: apec_members
+  name: APEC member economies
+  members:
+  - AU
+  - BN
+  - CA
+  - CL
+  - CN
+  - ID
+  - JP
+  - KR
+  - MX
+  - MY
+  - NZ
+  - PE
+  - PG
+  - PH
+  - RU
+  - SG
+  - TH
+  - US
+  - VN
+  disputed: []
+  changes: []
+  official_count: 21
+  out_of_universe:
+  - Chinese Taipei
+  - Hong Kong, China
+  source: https://en.wikipedia.org/w/index.php?oldid=1379902772
+  salience: 215960
+- id: arab_league_members
+  name: Arab League member states
+  members:
+  - AE
+  - BH
+  - DJ
+  - DZ
+  - EG
+  - IQ
+  - JO
+  - KM
+  - KW
+  - LB
+  - LY
+  - MA
+  - MR
+  - OM
+  - QA
+  - SA
+  - SD
+  - SO
+  - SY
+  - TN
+  - YE
+  disputed: []
+  changes: []
+  official_count: 22
+  out_of_universe:
+  - Palestine
+  source: https://en.wikipedia.org/w/index.php?oldid=1375431810
+  salience: 386459
+- id: asean_members
+  name: ASEAN member states
+  members:
+  - BN
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - PH
+  - SG
+  - TH
+  - VN
+  disputed:
+  - TL
+  changes:
+  - value: TL
+    date: '2025-10-26'
+    event: joined
+  official_count: 11
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1380601844
+  salience: 946505
+- id: brics_members
+  name: BRICS member countries
+  members:
+  - AE
+  - BR
+  - CN
+  - EG
+  - ET
+  - IN
+  - IR
+  - RU
+  - ZA
+  disputed:
+  - ID
+  changes:
+  - value: ID
+    date: '2025-01-06'
+    event: joined
+  official_count: 10
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1379972721
+  salience: 1491124
+- id: commonwealth_members
+  name: Commonwealth of Nations member states
+  members:
+  - AG
+  - AU
+  - BB
+  - BD
+  - BN
+  - BS
+  - BW
+  - BZ
+  - CA
+  - CM
+  - CY
+  - DM
+  - FJ
+  - GA
+  - GB
+  - GD
+  - GH
+  - GM
+  - GY
+  - IN
+  - JM
+  - KE
+  - KI
+  - KN
+  - LC
+  - LK
+  - LS
+  - MT
+  - MU
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NR
+  - NZ
+  - PG
+  - PK
+  - RW
+  - SB
+  - SC
+  - SG
+  - SL
+  - SZ
+  - TG
+  - TO
+  - TT
+  - TV
+  - TZ
+  - UG
+  - VC
+  - VU
+  - WS
+  - ZA
+  - ZM
+  disputed: []
+  changes: []
+  official_count: 56
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1375524272
+  salience: 1422475
+- id: eu_members
+  name: European Union member states
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  changes: []
+  official_count: 27
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1380130103
+  salience: 2455194
+- id: eurozone_members
+  name: Eurozone member states
+  members:
+  - AT
+  - BE
+  - CY
+  - DE
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PT
+  - SI
+  - SK
+  disputed:
+  - BG
+  changes:
+  - value: BG
+    date: '2026-01-01'
+    event: joined
+  official_count: 21
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Eurozone
+  salience: 516397
+- id: g20_members
+  name: G20 members
+  members:
+  - AR
+  - AU
+  - BR
+  - CA
+  - CN
+  - DE
+  - FR
+  - GB
+  - ID
+  - IN
+  - IT
+  - JP
+  - KR
+  - MX
+  - RU
+  - SA
+  - TR
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  official_count: 21
+  out_of_universe:
+  - African Union
+  - European Union
+  source: https://en.wikipedia.org/w/index.php?oldid=1376517448
+  salience: 746828
+- id: g7_members
+  name: G7 member states
+  members:
+  - CA
+  - DE
+  - FR
+  - GB
+  - IT
+  - JP
+  - US
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1380213885
+  salience: 802164
+- id: gcc_members
+  name: Gulf Cooperation Council member states
+  members:
+  - AE
+  - BH
+  - KW
+  - OM
+  - QA
+  - SA
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Gulf_Cooperation_Council
+  salience: 767528
+- id: nato_members
+  name: NATO member states
+  members:
+  - AL
+  - BE
+  - BG
+  - CA
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LT
+  - LU
+  - LV
+  - ME
+  - MK
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SI
+  - SK
+  - TR
+  - US
+  disputed:
+  - SE
+  changes:
+  - value: SE
+    date: '2024-03-07'
+    event: joined
+  official_count: 32
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1374269818
+  salience: 2129009
+- id: oecd_members
+  name: OECD member states
+  members:
+  - AT
+  - AU
+  - BE
+  - CA
+  - CH
+  - CL
+  - CO
+  - CR
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HU
+  - IE
+  - IL
+  - IS
+  - IT
+  - JP
+  - KR
+  - LT
+  - LU
+  - LV
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  - TR
+  - US
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1379818243
+  salience: 329
+- id: oic_members
+  name: Organisation of Islamic Cooperation member states
+  members:
+  - AE
+  - AF
+  - AL
+  - AZ
+  - BD
+  - BF
+  - BH
+  - BJ
+  - BN
+  - CI
+  - CM
+  - DJ
+  - DZ
+  - EG
+  - GA
+  - GM
+  - GN
+  - GW
+  - GY
+  - ID
+  - IQ
+  - IR
+  - JO
+  - KG
+  - KM
+  - KW
+  - KZ
+  - LB
+  - LY
+  - MA
+  - ML
+  - MR
+  - MV
+  - MY
+  - MZ
+  - NE
+  - NG
+  - OM
+  - PK
+  - QA
+  - SA
+  - SD
+  - SL
+  - SN
+  - SO
+  - SR
+  - SY
+  - TD
+  - TG
+  - TJ
+  - TM
+  - TN
+  - TR
+  - UG
+  - UZ
+  - YE
+  disputed: []
+  changes: []
+  official_count: 57
+  out_of_universe:
+  - Palestine
+  source: https://en.wikipedia.org/w/index.php?oldid=1376886132
+  salience: 209910
+- id: opec_members
+  name: OPEC member countries
+  members:
+  - CG
+  - DZ
+  - GA
+  - GQ
+  - IQ
+  - IR
+  - KW
+  - LY
+  - NG
+  - SA
+  - VE
+  disputed: []
+  changes:
+  - value: AE
+    date: '2026-05-01'
+    event: left
+  - value: AO
+    date: '2024-01-01'
+    event: left
+  official_count: 11
+  out_of_universe: []
+  source: https://en.wikipedia.org/w/index.php?oldid=1376027022
+  salience: 7991
+- id: schengen_members
+  name: Schengen Area member states
+  members:
+  - AT
+  - BE
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  disputed:
+  - BG
+  - RO
+  changes:
+  - value: BG
+    date: '2024-03-31'
+    event: joined
+  - value: RO
+    date: '2024-03-31'
+    event: joined
+  official_count: 29
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Schengen_Area
+  salience: 1141441

@@ -1,0 +1,521 @@
+A manufacturing company's procurement audit team reviews raw-material purchase lots by factory before approving sourcing exceptions.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+JSON with a top-level 'factories' array. Each factory has a factory_id and a purchase_orders array; each purchase order has a purchase_order_id and a lots array. Each lot has lot_id, origin_country, carrier and material.
+
+Each purchase lot counts once toward its factory unless a level rule excludes one of the lot's field values.
+Return the sum of the totals of all factories in the input, as an int.
+
+Field notes:
+- A lot whose origin_country is 'DE' is in ledger mark P8.
+- A lot whose carrier is 'Air France' is in review tag 70.
+- A lot whose material is 'holmium' is in compliance lane N-59.
+- A lot whose origin_country is 'IT' is in audit ribbon W2.
+- A lot whose carrier is 'British Airways' is in ledger mark 60.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, lots in ledger mark P8 are not counted.
+L2: From this level on, lots in review tag 70 are not counted.
+L3: From this level on, lots in compliance lane N-59 are not counted.
+L4: From this level on, lots in audit ribbon W2 are not counted.
+L5: From this level on, lots in ledger mark 60 are not counted.
+
+Value reference:
+lots.origin_country:
+- AM — Armenia; Country in Western Asia; ISO 3166-1 alpha-2 code AM.
+- AR — Argentina; Country in South America; ISO 3166-1 alpha-2 code AR.
+- BF — Burkina Faso; Country in Western Africa; ISO 3166-1 alpha-2 code BF.
+- BH — Bahrain; Country in Western Asia; ISO 3166-1 alpha-2 code BH.
+- BJ — Benin; Country in Western Africa; ISO 3166-1 alpha-2 code BJ.
+- BO — Bolivia; Country in South America; ISO 3166-1 alpha-2 code BO.
+- BT — Bhutan; Country in Southern Asia; ISO 3166-1 alpha-2 code BT.
+- BW — Botswana; Country in Southern Africa; ISO 3166-1 alpha-2 code BW.
+- CZ — Czechia; Country in Central Europe; ISO 3166-1 alpha-2 code CZ.
+- DE — Germany; Country in Western Europe; ISO 3166-1 alpha-2 code DE.
+- FI — Finland; Country in Northern Europe; ISO 3166-1 alpha-2 code FI.
+- GB — United Kingdom; Country in Northern Europe; ISO 3166-1 alpha-2 code GB.
+- GR — Greece; Country in Southern Europe; ISO 3166-1 alpha-2 code GR.
+- GT — Guatemala; Country in Central America; ISO 3166-1 alpha-2 code GT.
+- HN — Honduras; Country in Central America; ISO 3166-1 alpha-2 code HN.
+- HR — Croatia; Country in Southeast Europe; ISO 3166-1 alpha-2 code HR.
+- IN — India; Country in Southern Asia; ISO 3166-1 alpha-2 code IN.
+- IT — Italy; Country in Southern Europe; ISO 3166-1 alpha-2 code IT.
+- JP — Japan; Country in Eastern Asia; ISO 3166-1 alpha-2 code JP.
+- KP — North Korea; Country in Eastern Asia; ISO 3166-1 alpha-2 code KP.
+- LK — Sri Lanka; Country in Southern Asia; ISO 3166-1 alpha-2 code LK.
+- LT — Lithuania; Country in Northern Europe; ISO 3166-1 alpha-2 code LT.
+- LU — Luxembourg; Country in Western Europe; ISO 3166-1 alpha-2 code LU.
+- MA — Morocco; Country in Northern Africa; ISO 3166-1 alpha-2 code MA.
+- ML — Mali; Country in Western Africa; ISO 3166-1 alpha-2 code ML.
+- MM — Myanmar; Country in South-Eastern Asia; ISO 3166-1 alpha-2 code MM.
+- MU — Mauritius; Country in Eastern Africa; ISO 3166-1 alpha-2 code MU.
+- MZ — Mozambique; Country in Eastern Africa; ISO 3166-1 alpha-2 code MZ.
+- NZ — New Zealand; Country in Australia and New Zealand; ISO 3166-1 alpha-2 code NZ.
+- SA — Saudi Arabia; Country in Western Asia; ISO 3166-1 alpha-2 code SA.
+- TM — Turkmenistan; Country in Central Asia; ISO 3166-1 alpha-2 code TM.
+- TR — Türkiye; Country in Western Asia; ISO 3166-1 alpha-2 code TR.
+- TZ — Tanzania; Country in Eastern Africa; ISO 3166-1 alpha-2 code TZ.
+- US — United States; Country in North America; ISO 3166-1 alpha-2 code US.
+lots.carrier:
+- Aer Lingus — Airline based in Ireland; airline designator EI.
+- Aeroméxico — Airline based in Mexico; airline designator AM.
+- Air France — Airline based in France; airline designator AF.
+- Air France-KLM Cargo — Airline operator recorded in public aviation sources.
+- Air Niugini — Airline based in Papua New Guinea; airline designator PX.
+- Bahamasair — Airline based in Bahamas; airline designator UP.
+- British Airways — Airline based in United Kingdom; airline designator BA.
+- CSA Czech Airlines — Airline based in Czech Republic; airline designator OK.
+- Cathay Pacific — Airline based in Hong Kong (SAR) / People's Republic of China; airline designator CX.
+- Citilink — Airline based in Indonesia; airline designator QG.
+- Congo Airlines — Airline operator using designator EO.
+- EasyJet Europe — Airline based in Austria; airline designator EC.
+- Finnair — Airline based in Finland; airline designator AY.
+- GX Airlines — Airline based in China; airline designator GX.
+- Heston Airlines — Airline based in Lithuania; airline designator HN*.
+- Hong Kong Air Cargo — Airline based in Hong Kong (SAR); airline designator RH.
+- Iberia — Airline based in Spain; airline designator IB.
+- Jet2 — Airline based in United Kingdom; airline designator LS.
+- JetSMART Argentina — Airline based in Argentina; airline designator WJ.
+- LEVEL — Airline based in Spain; airline designator LL.
+- Lao Airlines — Airline based in Laos; airline designator QV.
+- MasAir — Airline based in Mexico; airline designator M7.
+- PAS — Airline based in Egypt; airline designator UF.
+- Plus Ultra — Airline based in Spain; airline designator PU.
+- Royal Air Maroc — Airline based in Morocco; airline designator AT.
+- Ruili Airlines — Airline based in China; airline designator DR.
+- SAS Link — Airline based in Sweden.
+- Southwind Airlines — Airline based in Türkiye; airline designator 2S.
+- TUI Airways — Airline based in United Kingdom; airline designator BY.
+- Transavia — Airline based in Netherlands; airline designator HV.
+- WestJet — Airline based in Canada; airline designator WS.
+- Xiamen Airlines — Airline based in China; airline designator MF.
+- XiamenAir — Airline based in People's Republic of China; airline designator MF.
+- Xizang Airlines — Airline based in China; airline designator TV.
+lots.material:
+- erbium — Chemical element with symbol Er and atomic number 68; lanthanide and solid at room temperature.
+- europium — Chemical element with symbol Eu and atomic number 63; lanthanide and solid at room temperature.
+- gadolinium — Chemical element with symbol Gd and atomic number 64; lanthanide and solid at room temperature.
+- holmium — Chemical element with symbol Ho and atomic number 67; lanthanide and solid at room temperature.
+- meitnerium — Chemical element with symbol Mt and atomic number 109; transition metal and solid at room temperature.
+- moscovium — Chemical element with symbol Mc and atomic number 115; post-transition metal and solid at room temperature.
+- neon — Chemical element with symbol Ne and atomic number 10; noble gas and gas at room temperature.
+- oxygen — Chemical element with symbol O and atomic number 8; nonmetal and gas at room temperature.
+- palladium — Chemical element with symbol Pd and atomic number 46; transition metal and solid at room temperature.
+- praseodymium — Chemical element with symbol Pr and atomic number 59; lanthanide and solid at room temperature.
+- promethium — Chemical element with symbol Pm and atomic number 61; lanthanide and solid at room temperature.
+- radon — Chemical element with symbol Rn and atomic number 86; noble gas and gas at room temperature.
+- samarium — Chemical element with symbol Sm and atomic number 62; lanthanide and solid at room temperature.
+- seaborgium — Chemical element with symbol Sg and atomic number 106; transition metal and solid at room temperature.
+- selenium — Chemical element with symbol Se and atomic number 34; nonmetal and solid at room temperature.
+- silver — Chemical element with symbol Ag and atomic number 47; transition metal and solid at room temperature.
+- tantalum — Chemical element with symbol Ta and atomic number 73; transition metal and solid at room temperature.
+- technetium — Chemical element with symbol Tc and atomic number 43; transition metal and solid at room temperature.
+- thallium — Chemical element with symbol Tl and atomic number 81; post-transition metal and solid at room temperature.
+- thorium — Chemical element with symbol Th and atomic number 90; actinide and solid at room temperature.
+- tin — Chemical element with symbol Sn and atomic number 50; post-transition metal and solid at room temperature.
+- ytterbium — Chemical element with symbol Yb and atomic number 70; lanthanide and solid at room temperature.
+
+Example input:
+{
+ "factories": [
+  {
+   "factory_id": "F002",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00008",
+       "material": "tantalum",
+       "origin_country": "KP"
+      },
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00009",
+       "material": "meitnerium",
+       "origin_country": "BO"
+      },
+      {
+       "carrier": "JetSMART Argentina",
+       "lot_id": "L00010",
+       "material": "tin",
+       "origin_country": "BF"
+      },
+      {
+       "carrier": "Air France",
+       "lot_id": "L00011",
+       "material": "radon",
+       "origin_country": "MM"
+      }
+     ],
+     "purchase_order_id": "PO0003",
+     "receiving_month": "2025-04"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00012",
+       "material": "tin",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "Plus Ultra",
+       "lot_id": "L00013",
+       "material": "thorium",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "Xiamen Airlines",
+       "lot_id": "L00014",
+       "material": "thorium",
+       "origin_country": "MM"
+      },
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00015",
+       "material": "tantalum",
+       "origin_country": "HN"
+      },
+      {
+       "carrier": "WestJet",
+       "lot_id": "L00016",
+       "material": "radon",
+       "origin_country": "MM"
+      }
+     ],
+     "purchase_order_id": "PO0004",
+     "receiving_month": "2025-05"
+    }
+   ],
+   "site_name": "Plant 002"
+  },
+  {
+   "factory_id": "F012",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "British Airways",
+       "lot_id": "L00080",
+       "material": "oxygen",
+       "origin_country": "KP"
+      },
+      {
+       "carrier": "Plus Ultra",
+       "lot_id": "L00081",
+       "material": "silver",
+       "origin_country": "KP"
+      }
+     ],
+     "purchase_order_id": "PO0023",
+     "receiving_month": "2025-12"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00082",
+       "material": "oxygen",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "Citilink",
+       "lot_id": "L00083",
+       "material": "tin",
+       "origin_country": "AM"
+      },
+      {
+       "carrier": "Jet2",
+       "lot_id": "L00084",
+       "material": "thorium",
+       "origin_country": "BO"
+      }
+     ],
+     "purchase_order_id": "PO0024",
+     "receiving_month": "2025-01"
+    }
+   ],
+   "site_name": "Plant 012"
+  },
+  {
+   "factory_id": "F020",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00136",
+       "material": "thallium",
+       "origin_country": "AM"
+      },
+      {
+       "carrier": "WestJet",
+       "lot_id": "L00137",
+       "material": "tantalum",
+       "origin_country": "KP"
+      }
+     ],
+     "purchase_order_id": "PO0039",
+     "receiving_month": "2025-04"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Xiamen Airlines",
+       "lot_id": "L00138",
+       "material": "meitnerium",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00139",
+       "material": "radon",
+       "origin_country": "AM"
+      },
+      {
+       "carrier": "Xiamen Airlines",
+       "lot_id": "L00140",
+       "material": "tin",
+       "origin_country": "KP"
+      }
+     ],
+     "purchase_order_id": "PO0040",
+     "receiving_month": "2025-05"
+    }
+   ],
+   "site_name": "Plant 020"
+  },
+  {
+   "factory_id": "F021",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00141",
+       "material": "holmium",
+       "origin_country": "MZ"
+      },
+      {
+       "carrier": "Xiamen Airlines",
+       "lot_id": "L00142",
+       "material": "oxygen",
+       "origin_country": "AM"
+      },
+      {
+       "carrier": "GX Airlines",
+       "lot_id": "L00143",
+       "material": "radon",
+       "origin_country": "ML"
+      }
+     ],
+     "purchase_order_id": "PO0041",
+     "receiving_month": "2025-06"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00144",
+       "material": "oxygen",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00145",
+       "material": "thorium",
+       "origin_country": "BO"
+      },
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00146",
+       "material": "thallium",
+       "origin_country": "HN"
+      },
+      {
+       "carrier": "WestJet",
+       "lot_id": "L00147",
+       "material": "oxygen",
+       "origin_country": "BF"
+      }
+     ],
+     "purchase_order_id": "PO0042",
+     "receiving_month": "2025-07"
+    }
+   ],
+   "site_name": "Plant 021"
+  },
+  {
+   "factory_id": "F027",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00185",
+       "material": "moscovium",
+       "origin_country": "LK"
+      },
+      {
+       "carrier": "Hong Kong Air Cargo",
+       "lot_id": "L00186",
+       "material": "silver",
+       "origin_country": "HN"
+      },
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00187",
+       "material": "seaborgium",
+       "origin_country": "BF"
+      },
+      {
+       "carrier": "Jet2",
+       "lot_id": "L00188",
+       "material": "moscovium",
+       "origin_country": "IT"
+      },
+      {
+       "carrier": "Jet2",
+       "lot_id": "L00189",
+       "material": "silver",
+       "origin_country": "BW"
+      }
+     ],
+     "purchase_order_id": "PO0053",
+     "receiving_month": "2025-06"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00190",
+       "material": "meitnerium",
+       "origin_country": "ML"
+      },
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00191",
+       "material": "radon",
+       "origin_country": "BO"
+      }
+     ],
+     "purchase_order_id": "PO0054",
+     "receiving_month": "2025-07"
+    }
+   ],
+   "site_name": "Plant 027"
+  },
+  {
+   "factory_id": "F028",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "JetSMART Argentina",
+       "lot_id": "L00192",
+       "material": "oxygen",
+       "origin_country": "LK"
+      },
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00193",
+       "material": "moscovium",
+       "origin_country": "HN"
+      }
+     ],
+     "purchase_order_id": "PO0055",
+     "receiving_month": "2025-08"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "WestJet",
+       "lot_id": "L00194",
+       "material": "seaborgium",
+       "origin_country": "BW"
+      },
+      {
+       "carrier": "WestJet",
+       "lot_id": "L00195",
+       "material": "thallium",
+       "origin_country": "HN"
+      },
+      {
+       "carrier": "Jet2",
+       "lot_id": "L00196",
+       "material": "radon",
+       "origin_country": "MZ"
+      }
+     ],
+     "purchase_order_id": "PO0056",
+     "receiving_month": "2025-09"
+    }
+   ],
+   "site_name": "Plant 028"
+  },
+  {
+   "factory_id": "F031",
+   "purchase_orders": [
+    {
+     "lots": [
+      {
+       "carrier": "GX Airlines",
+       "lot_id": "L00213",
+       "material": "moscovium",
+       "origin_country": "KP"
+      },
+      {
+       "carrier": "Plus Ultra",
+       "lot_id": "L00214",
+       "material": "silver",
+       "origin_country": "BF"
+      },
+      {
+       "carrier": "CSA Czech Airlines",
+       "lot_id": "L00215",
+       "material": "tin",
+       "origin_country": "HN"
+      },
+      {
+       "carrier": "Plus Ultra",
+       "lot_id": "L00216",
+       "material": "radon",
+       "origin_country": "DE"
+      },
+      {
+       "carrier": "Lao Airlines",
+       "lot_id": "L00217",
+       "material": "tin",
+       "origin_country": "AM"
+      }
+     ],
+     "purchase_order_id": "PO0061",
+     "receiving_month": "2025-02"
+    },
+    {
+     "lots": [
+      {
+       "carrier": "Jet2",
+       "lot_id": "L00218",
+       "material": "thallium",
+       "origin_country": "AM"
+      },
+      {
+       "carrier": "Citilink",
+       "lot_id": "L00219",
+       "material": "silver",
+       "origin_country": "BO"
+      }
+     ],
+     "purchase_order_id": "PO0062",
+     "receiving_month": "2025-03"
+    }
+   ],
+   "site_name": "Plant 031"
+  }
+ ]
+}

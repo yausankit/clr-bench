@@ -1,0 +1,48 @@
+A: CWE-312
+C: cwe1400_encryption
+C_name: 'CWE-1400 Comprehensive Categorization for Software Assurance Trends category:
+  Comprehensive Categorization: Encryption (CWE-1402)'
+N_p: CWE-308
+N_t:
+- CWE-321
+- CWE-375
+- CWE-530
+- CWE-1025
+- CWE-48
+- CWE-550
+- CWE-1256
+P_M:
+- CWE-1428
+- CWE-1240
+- CWE-916
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cwe1000_664
+    - cwe1000_693
+    - encrypt_data
+    - sfp_exposed_data
+    - sfp_information_leak
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- cwe1000_664
+- cwe1000_693
+- encrypt_data
+- owasp2017_a03
+- owasp2021_a04
+- owasp2025_a06
+- sfp_exposed_data
+- sfp_information_leak
+field: findings.cwe
+label: client folio E7
+salience: 144393.0
+universe: cwe

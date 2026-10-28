@@ -1,0 +1,783 @@
+- id: russell_group
+  name: Russell Group
+  synonyms: []
+  members:
+  - Cardiff University
+  - Durham University
+  - Imperial College London
+  - King's College London
+  - London School of Economics and Political Science
+  - Newcastle University
+  - Queen Mary University of London
+  - Queen's University Belfast
+  - University College London
+  - University of Birmingham
+  - University of Bristol
+  - University of Cambridge
+  - University of Edinburgh
+  - University of Exeter
+  - University of Glasgow
+  - University of Leeds
+  - University of Liverpool
+  - University of Manchester
+  - University of Nottingham
+  - University of Oxford
+  - University of Sheffield
+  - University of Southampton
+  - University of Warwick
+  - University of York
+  disputed: []
+  changes: []
+  official_count: 24
+  out_of_universe: []
+  salience: 304698
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Russell_Group'
+- id: ivy_league
+  name: Ivy League
+  synonyms: []
+  members:
+  - Brown University
+  - Columbia University
+  - Cornell University
+  - Dartmouth College
+  - Harvard University
+  - Princeton University
+  - University of Pennsylvania
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  salience: 1598824
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Ivy_League'
+- id: c9_league
+  name: C9 League
+  synonyms: []
+  members:
+  - Fudan University
+  - Harbin Institute of Technology
+  - Nanjing University
+  - Peking University
+  - Shanghai Jiao Tong University
+  - Tsinghua University
+  - University of Science and Technology of China
+  - Xi'an Jiaotong University
+  - Zhejiang University
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  salience: 123276
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/C9_League'
+- id: group_of_eight
+  name: Group of Eight (Australia)
+  synonyms: []
+  members:
+  - Adelaide University
+  - Australian National University
+  - Monash University
+  - University of Melbourne
+  - University of New South Wales
+  - University of Queensland
+  - University of Sydney
+  - University of Western Australia
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  salience: 23948
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Group_of_Eight_(Australia)'
+- id: u15_canada
+  name: U15 Canada
+  synonyms: []
+  members:
+  - Dalhousie University
+  - McGill University
+  - McMaster University
+  - University of Alberta
+  - University of British Columbia
+  - University of Calgary
+  - University of Manitoba
+  - University of Ottawa
+  - University of Saskatchewan
+  - University of Toronto
+  - University of Waterloo
+  - University of Western Ontario
+  - Université de Montréal
+  disputed: []
+  changes: []
+  official_count: 15
+  out_of_universe:
+  - Queen's University at Kingston
+  - Université Laval
+  salience: 26046
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/U15_Canada'
+- id: leru
+  name: League of European Research Universities
+  synonyms: []
+  members:
+  - ETH Zurich
+  - Heidelberg University (Germany)
+  - Imperial College London
+  - Leiden University
+  - LMU Munich
+  - Lund University
+  - Paris-Saclay University
+  - Sorbonne University
+  - Trinity College, Dublin
+  - University College London
+  - University of Amsterdam
+  - University of Barcelona
+  - University of Cambridge
+  - University of Copenhagen
+  - University of Edinburgh
+  - University of Freiburg
+  - University of Geneva
+  - University of Helsinki
+  - University of Milan
+  - University of Oxford
+  - University of Strasbourg
+  - University of Zurich
+  - Utrecht University
+  disputed: []
+  changes: []
+  official_count: 24
+  out_of_universe:
+  - KU Leuven
+  salience: 18879
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/League_of_European_Research_Universities'
+- id: coimbra_group
+  name: Coimbra Group
+  synonyms: []
+  members:
+  - Aarhus University
+  - Alexandru Ioan Cuza University
+  - Charles University
+  - Durham University
+  - Eötvös Loránd University
+  - Heidelberg University (Germany)
+  - Istanbul University
+  - Jagiellonian University
+  - Katholieke Universiteit Leuven
+  - Leiden University
+  - Newcastle University
+  - Trinity College, Dublin
+  - UCLouvain
+  - University of Barcelona
+  - University of Bergen
+  - University of Bologna
+  - University of Bristol
+  - University of Coimbra
+  - University of Cologne
+  - University of Edinburgh
+  - University of Galway
+  - University of Geneva
+  - University of Granada
+  - University of Graz
+  - University of Groningen
+  - University of Jena
+  - University of Leeds
+  - University of Montpellier 1
+  - University of Padua
+  - University of Pavia
+  - University of Poitiers
+  - University of Salamanca
+  - University of Siena
+  - University of Tartu
+  - University of Turku
+  - University of Wrocław
+  - University of Würzburg
+  - Uppsala University
+  - Utrecht University
+  - Vilnius University
+  - Åbo Akademi University
+  disputed: []
+  changes: []
+  official_count: 42
+  out_of_universe:
+  - Paul Valéry University Montpellier 3
+  salience: 27306
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Coimbra_Group'
+- id: aau
+  name: Association of American Universities
+  synonyms: []
+  members:
+  - Arizona State University
+  - Boston University
+  - Brandeis University
+  - Brown University
+  - California Institute of Technology
+  - Carnegie Mellon University
+  - Case Western Reserve University
+  - Columbia University
+  - Cornell University
+  - Dartmouth College
+  - Duke University
+  - Emory University
+  - George Washington University
+  - Georgia Tech
+  - Harvard University
+  - Indiana University Bloomington
+  - Johns Hopkins University
+  - Massachusetts Institute of Technology
+  - McGill University
+  - Michigan State University
+  - New York University
+  - Northwestern University
+  - Ohio State University
+  - Pennsylvania State University
+  - Princeton University
+  - Purdue University
+  - Rice University
+  - Rutgers University–New Brunswick
+  - Stanford University
+  - Stony Brook University
+  - Texas A&M University
+  - Tufts University
+  - Tulane University
+  - University at Buffalo
+  - University of Arizona
+  - University of California, Berkeley
+  - University of California, Davis
+  - University of California, Irvine
+  - University of California, Los Angeles
+  - University of California, Riverside
+  - University of California, San Diego
+  - University of California, Santa Barbara
+  - University of California, Santa Cruz
+  - University of Chicago
+  - University of Colorado Boulder
+  - University of Florida
+  - University of Illinois Urbana-Champaign
+  - University of Iowa
+  - University of Kansas
+  - University of Miami
+  - University of Michigan
+  - University of Minnesota
+  - University of Missouri
+  - University of North Carolina at Chapel Hill
+  - University of Notre Dame
+  - University of Oregon
+  - University of Pennsylvania
+  - University of Pittsburgh
+  - University of Rochester
+  - University of South Florida
+  - University of Southern California
+  - University of Texas at Austin
+  - University of Toronto
+  - University of Utah
+  - University of Virginia
+  - University of Wisconsin–Madison
+  - Vanderbilt University
+  - Washington University in St. Louis
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 71
+  out_of_universe:
+  - University of Maryland, College Park
+  - University of Washington
+  salience: 177299
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Association_of_American_Universities'
+- id: universitas_21
+  name: Universitas 21
+  synonyms: []
+  members:
+  - Fudan University
+  - Gadjah Mada University
+  - Korea University
+  - Lund University
+  - McMaster University
+  - National University of Singapore
+  - Paris-Saclay University
+  - Shanghai Jiao Tong University
+  - University College Dublin
+  - University of Amsterdam
+  - University of Auckland
+  - University of Birmingham
+  - University of California, Davis
+  - University of Connecticut
+  - University of Edinburgh
+  - University of Glasgow
+  - University of Helsinki
+  - University of Hong Kong
+  - University of Illinois Urbana-Champaign
+  - University of Johannesburg
+  - University of Melbourne
+  - University of New South Wales
+  - University of Nottingham
+  - University of Queensland
+  - University of Sydney
+  - University of Zurich
+  - Waseda University
+  disputed: []
+  changes: []
+  official_count: 31
+  out_of_universe:
+  - KU Leuven
+  - Pontificia Universidad Católica de Chile
+  - Tecnológico de Monterrey
+  - University of Maryland, College Park
+  salience: 22648
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Universitas_21'
+- id: cesaer
+  name: CESAER
+  synonyms: []
+  members:
+  - Aalborg University
+  - Aalto University
+  - Brno University of Technology
+  - Budapest University of Technology and Economics
+  - Chalmers University of Technology
+  - Delft University of Technology
+  - ETH Zurich
+  - Gdańsk University of Technology
+  - Ghent University
+  - Graz University of Technology
+  - Grenoble Alpes University (France)
+  - Instituto Superior Técnico
+  - Istanbul Technical University
+  - Karlsruhe Institute of Technology
+  - Leibniz University Hannover
+  - Lund University
+  - National Technical University of Athens
+  - Norwegian University of Science and Technology
+  - Paris-Saclay University
+  - Polytechnic Institute of Paris
+  - Polytechnic University of Bari
+  - Polytechnic University of Catalonia
+  - Polytechnic University of Milan
+  - Polytechnic University of Turin
+  - Poznań University of Technology
+  - Queen's University Belfast
+  - Royal Institute of Technology
+  - RWTH Aachen University
+  - Sapienza University of Rome
+  - Slovak University of Technology in Bratislava
+  - Technical University of Cluj-Napoca
+  - Technion – Israel Institute of Technology
+  - Technische Universität Berlin
+  - TU Wien
+  - University College Dublin
+  - University of Belgrade
+  - University of Porto
+  - University of Sheffield
+  - University of Southampton
+  - University of Strathclyde
+  - University of Stuttgart
+  - University of Surrey
+  - University of Twente
+  - Warsaw University of Technology
+  - Wrocław University of Science and Technology
+  - École polytechnique fédérale de Lausanne
+  disputed: []
+  changes: []
+  official_count: 57
+  out_of_universe:
+  - Institut national des sciences appliquées de Lyon
+  - KU Leuven
+  - National Technical University of Ukraine - Igor Sikorsky Kyiv Polytechnic Institute
+  - National University of Science and Technology Politehnica Bucharest
+  - Paris Tech
+  - Polytechnic University of Valencia
+  - Technische Universität Braunschweig
+  - Technische Universität Darmstadt
+  - Technische Universität Dresden
+  - Universidade NOVA de Lisboa
+  - University of Louvain
+  salience: 8003
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/CESAER'
+- id: apru
+  name: Association of Pacific Rim Universities
+  synonyms: []
+  members:
+  - Adelaide University
+  - Australian National University
+  - Chulalongkorn University
+  - Far Eastern Federal University
+  - Fudan University
+  - Hong Kong University of Science and Technology
+  - KAIST
+  - Keio University
+  - Korea University
+  - Kyushu University
+  - Monterrey Institute of Technology and Higher Education
+  - Nagoya University
+  - Nanjing University
+  - Nanyang Technological University
+  - National Autonomous University of Mexico
+  - National Taiwan University
+  - National University of Singapore
+  - National Yang Ming Chiao Tung University
+  - Peking University
+  - Pohang University of Science and Technology
+  - Pusan National University
+  - Seoul National University
+  - Shanghai Jiao Tong University
+  - Simon Fraser University
+  - Southern University of Science and Technology
+  - Sun Yat-sen University
+  - The Chinese University of Hong Kong
+  - Tohoku University
+  - Tongji University
+  - Tsinghua University
+  - Universidad San Francisco de Quito
+  - Universiti Brunei Darussalam
+  - University of Alberta
+  - University of Auckland
+  - University of British Columbia
+  - University of California, Davis
+  - University of California, Irvine
+  - University of California, Los Angeles
+  - University of California, Riverside
+  - University of California, San Diego
+  - University of California, Santa Barbara
+  - University of California, Santa Cruz
+  - University of Chile
+  - University of Chinese Academy of Sciences
+  - University of Concepción
+  - University of Hawaiʻi at Mānoa
+  - University of Hong Kong
+  - University of Indonesia
+  - University of Melbourne
+  - University of Michigan
+  - University of Oregon
+  - University of Osaka
+  - University of Queensland
+  - University of Science and Technology of China
+  - University of Southern California
+  - University of Sydney
+  - University of the Philippines
+  - Waseda University
+  - Xi'an Jiaotong University
+  - Yonsei University
+  - Zhejiang University
+  disputed: []
+  changes: []
+  official_count: 64
+  out_of_universe:
+  - University of Malaya
+  - University of Washington
+  - VinUniversity
+  salience: 20769
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Association_of_Pacific_Rim_Universities'
+- id: idea_league
+  name: IDEA League
+  synonyms: []
+  members:
+  - Chalmers University of Technology
+  - Delft University of Technology
+  - ETH Zurich
+  - Polytechnic University of Milan
+  - RWTH Aachen University
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  salience: 7363
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/IDEA_League'
+- id: golden_triangle
+  name: Golden Triangle universities
+  synonyms: []
+  members:
+  - Imperial College London
+  - King's College London
+  - London School of Economics and Political Science
+  - University College London
+  - University of Cambridge
+  - University of Oxford
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  salience: 65374
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Golden_triangle_(universities)'
+- id: ancient_universities
+  name: Ancient universities of Britain and Ireland
+  synonyms: []
+  members:
+  - University of Aberdeen
+  - University of Cambridge
+  - University of Dublin
+  - University of Edinburgh
+  - University of Glasgow
+  - University of Oxford
+  - University of St Andrews
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  salience: 64704
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Ancient_university'
+- id: public_ivies
+  name: Greene and Greene (2001) Public Ivies
+  synonyms: []
+  members:
+  - Binghamton University
+  - College of William & Mary
+  - Indiana University Bloomington
+  - Miami University
+  - Michigan State University
+  - Ohio State University
+  - Pennsylvania State University
+  - Rutgers University
+  - University of Arizona
+  - University of California, Berkeley
+  - University of California, Davis
+  - University of California, Irvine
+  - University of California, Los Angeles
+  - University of California, San Diego
+  - University of California, Santa Barbara
+  - University of Colorado Boulder
+  - University of Connecticut
+  - University of Delaware
+  - University of Florida
+  - University of Georgia
+  - University of Illinois Urbana-Champaign
+  - University of Iowa
+  - University of Maryland
+  - University of Michigan
+  - University of Minnesota
+  - University of North Carolina at Chapel Hill
+  - University of Texas at Austin
+  - University of Virginia
+  - University of Wisconsin–Madison
+  disputed: []
+  changes: []
+  official_count: 30
+  out_of_universe:
+  - University of Washington
+  salience: 182643
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Public_Ivy'
+- id: big_ten
+  name: Big Ten Academic Alliance
+  synonyms: []
+  members:
+  - Michigan State University
+  - Northwestern University
+  - Ohio State University
+  - Pennsylvania State University
+  - Purdue University
+  - Rutgers University–New Brunswick
+  - University of California, Los Angeles
+  - University of Iowa
+  - University of Mary Washington
+  - University of Maryland
+  - University of Michigan
+  - University of Minnesota
+  - University of Nebraska–Lincoln
+  - University of Oregon
+  - University of Southern California
+  - University of Wisconsin–Madison
+  - Xidian University
+  disputed: []
+  changes: []
+  official_count: 18
+  out_of_universe:
+  - University of Illinois
+  salience: 25408
+  source: https://btaa.org/about/member-universities
+- id: utrecht_network
+  name: Utrecht Network
+  synonyms: []
+  members:
+  - Aarhus University
+  - Alexandru Ioan Cuza University
+  - Aristotle University of Thessaloniki
+  - Boğaziçi University
+  - European University Cyprus
+  - Leipzig University
+  - Masaryk University
+  - Queen's University Belfast
+  - Ruhr University Bochum
+  - Taras Shevchenko National University of Kyiv
+  - University College Cork
+  - University of Antwerp
+  - University of Basel
+  - University of Bergen
+  - University of Bologna
+  - University of Coimbra
+  - University of Graz
+  - University of Hull
+  - University of Latvia
+  - University of Lille (France)
+  - University of Ljubljana
+  - University of Malta
+  - University of Strasbourg
+  - University of Tartu
+  - University of Valencia
+  - Utrecht University
+  - Vilnius University
+  disputed: []
+  changes: []
+  official_count: 30
+  out_of_universe:
+  - Comenius University in Bratislava
+  - Jagiellonian University in Kraków
+  - Universidad Complutense de Madrid
+  salience: 12245
+  source: https://utrecht-network.org/members/
+- id: matariki
+  name: Matariki Network of Universities
+  synonyms: []
+  members:
+  - Durham University
+  - Queen's University
+  - University of Otago
+  - University of the Western Cape
+  - University of Tübingen
+  - Uppsala University
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  salience: 5307
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Matariki_Network_of_Universities'
+- id: worldwide_universities_network
+  name: Worldwide Universities Network
+  synonyms: []
+  members:
+  - Federal University of Minas Gerais
+  - Griffith University
+  - Maastricht University
+  - Mahidol University
+  - Makerere University
+  - Monterrey Institute of Technology and Higher Education
+  - National Cheng Kung University
+  - Ruhr University Bochum
+  - The Chinese University of Hong Kong
+  - University of Alberta
+  - University of Auckland
+  - University of Bristol
+  - University of Cape Town
+  - University of Exeter
+  - University of Ghana
+  - University of Lausanne
+  - University of Leeds
+  - University of Pretoria
+  - University of Queensland
+  - University of Sheffield
+  - University of Technology Sydney
+  - University of Tsukuba
+  - University of York
+  disputed: []
+  changes: []
+  official_count: 23
+  out_of_universe: []
+  salience: 10021
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Worldwide_Universities_Network'
+- id: aearu
+  name: Association of East Asian Research Universities
+  synonyms: []
+  members:
+  - Fudan University
+  - Hong Kong University of Science and Technology
+  - Institute of Science Tokyo
+  - Nanjing University
+  - National Taiwan University
+  - National Tsing Hua University
+  - National Yang Ming Chiao Tung University
+  - Peking University
+  - Pohang University of Science and Technology
+  - Seoul National University
+  - Tohoku University
+  - Tsinghua University
+  - University of Macau
+  - University of Osaka
+  - University of Science and Technology of China
+  - University of Tokyo
+  - University of Tsukuba
+  - Yonsei University
+  disputed: []
+  changes: []
+  official_count: 19
+  out_of_universe:
+  - Korea Advanced Institute of Science and Technology
+  salience: 7279
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Association_of_East_Asian_Research_Universities'
+- id: iaru
+  name: International Alliance of Research Universities
+  synonyms: []
+  members:
+  - Australian National University
+  - ETH Zurich
+  - National University of Singapore
+  - Peking University
+  - University of California, Berkeley
+  - University of Cambridge
+  - University of Cape Town
+  - University of Copenhagen
+  - University of Oxford
+  - University of Tokyo
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 11
+  out_of_universe: []
+  salience: 10547
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/International_Alliance_of_Research_Universities'
+- id: asian_universities_alliance
+  name: Asian Universities Alliance
+  synonyms: []
+  members:
+  - Chulalongkorn University
+  - Hong Kong University of Science and Technology
+  - Indian Institute of Technology Bombay
+  - King Saud University
+  - National University of Singapore
+  - Nazarbayev University
+  - Peking University
+  - Seoul National University
+  - Tsinghua University
+  - United Arab Emirates University
+  - University of Colombo
+  - University of Yangon
+  disputed: []
+  changes: []
+  official_count: 15
+  out_of_universe:
+  - The University of Tokyo
+  - Universitas Indonesia
+  - University of Malaya
+  salience: 5183
+  source: 'Wikimedia membership table snapshot: https://en.wikipedia.org/wiki/Asian_Universities_Alliance'
+- id: aun
+  name: ASEAN University Network core members
+  synonyms: []
+  members:
+  - Airlangga University
+  - Ateneo de Manila University
+  - Bandung Institute of Technology
+  - Burapha University
+  - Can Tho University
+  - Chiang Mai University
+  - Chulalongkorn University
+  - Da Nang University of Economics
+  - De La Salle University
+  - Gadjah Mada University
+  - Mahidol University
+  - Nanyang Technological University
+  - National University of Laos
+  - National University of Malaysia
+  - National University of Singapore
+  - Prince of Songkla University
+  - Royal University of Law and Economics
+  - Royal University of Phnom Penh
+  - Singapore Management University
+  - Universiti Brunei Darussalam
+  - Universiti Sains Malaysia
+  - Universiti Utara Malaysia
+  - University of Indonesia
+  - University of Malta
+  - University of Manila
+  - University of the Philippines
+  - University of Yangon
+  disputed: []
+  changes: []
+  official_count: 30
+  out_of_universe:
+  - Northern University of Malaysia
+  - Vietnam National University, Hanoi
+  - Vietnam National University, Ho Chi Minh City
+  salience: 14909
+  source: 'Wikimedia core-member roster snapshot: https://en.wikipedia.org/wiki/ASEAN_University_Network'

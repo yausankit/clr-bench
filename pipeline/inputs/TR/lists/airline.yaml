@@ -1,0 +1,5870 @@
+- id: lufthansa_group
+  name: Lufthansa Group airlines
+  kind: group
+  parents:
+  - Q62589018
+  synonyms: []
+  wiki: Lufthansa Group
+  members:
+  - Air Dolomiti
+  - Austrian Airlines
+  - Brussels Airlines
+  - Condor Flugdienst
+  - Discover Airlines
+  - Eurowings
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa CityLine
+  - Lufthansa Regional
+  - SunExpress
+  - Swiss International Air Lines
+  disputed: []
+  changes: []
+  official_count: 19
+  out_of_universe:
+  - Ameco Beijing
+  - British Midland Airways Limited
+  - Germanwings
+  - LSG Sky Chefs
+  - Lufthansa Italia
+  - Lufthansa Systems
+  - Q120096494
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 68079
+- id: iag_group
+  name: International Airlines Group airlines
+  kind: group
+  parents:
+  - Q8774
+  synonyms: []
+  wiki: International Airlines Group
+  members:
+  - Aer Lingus
+  - Air Nostrum
+  - BA CityFlyer
+  - British Airways
+  - Iberia
+  - Level
+  - Vueling
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe:
+  - British Midland Airways Limited
+  - Level Europe
+  - OpenSkies
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 236588
+- id: air_france_klm_group
+  name: Air France-KLM group airlines
+  kind: group
+  parents:
+  - Q407237
+  synonyms: []
+  wiki: Air France-KLM
+  members:
+  - Air France
+  - KLM
+  - Martinair
+  - Transavia
+  - Transavia France
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe:
+  - Servair
+  - VLM Airlines
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 27811
+- id: qantas_group
+  name: Qantas Group airlines
+  kind: group
+  parents:
+  - Q32491
+  synonyms: []
+  wiki: Qantas
+  members:
+  - Eastern Australia Airlines
+  - Jetconnect
+  - Jetstar Airways
+  - Jetstar Asia Airways
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Sunstate Airlines
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 455159
+- id: ana_group
+  name: ANA Holdings airlines
+  kind: group
+  parents:
+  - Q11189379
+  synonyms: []
+  wiki: All Nippon Airways
+  members:
+  - ANA Wings
+  - Air Japan
+  - All Nippon Airways
+  - Peach
+  - Vanilla Air
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe:
+  - ANA Cargo
+  - ANA Trading
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 398734
+- id: hna_group
+  name: HNA Group airlines
+  kind: group
+  parents:
+  - Q292428
+  - Q1565713
+  synonyms: []
+  wiki: HNA Group
+  members:
+  - Air Changan
+  - Beijing Capital Airlines
+  - China Xinhua Airlines
+  - Fuzhou Airlines
+  - Hainan Airlines
+  - Hong Kong Airlines
+  - Lucky Air
+  - Suparna Airlines
+  - Urumqi Air
+  disputed: []
+  changes: []
+  official_count: 11
+  out_of_universe:
+  - HNA EcoTech Group Co., Ltd.
+  - HNA Technology Group Co., Ltd.
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 30410
+- id: air_china_group
+  name: Air China group airlines
+  kind: group
+  parents:
+  - Q51747
+  synonyms: []
+  wiki: Air China
+  members:
+  - Air China
+  - Air China Cargo
+  - Air Macau
+  - Dalian Airlines
+  - Shandong Airlines
+  - Shenzhen Airlines
+  - Tibet Airlines
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe:
+  - Ameco Beijing
+  - Beijing Airlines
+  - Q55697403
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 357626
+- id: lion_air_group
+  name: Lion Air Group airlines
+  kind: group
+  parents:
+  - Q57239467
+  - Q1056794
+  synonyms: []
+  wiki: Lion Air
+  members:
+  - Batik Air
+  - Batik Air Malaysia
+  - Lion Air
+  - Thai Lion Air
+  - Wings Air
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe:
+  - Lion Air Australia
+  source: Wikidata P355/P749 subsidiary statements of the group item (raw/group_subsidiaries.json, raw/airline_relations.json)
+  salience: 116554
+- id: star_alliance_members
+  name: Star Alliance member airlines
+  kind: alliance
+  section: Members and affiliates
+  synonyms: []
+  wiki: Star Alliance
+  members:
+  - Aegean Airlines
+  - Air Canada
+  - Air China
+  - Air India
+  - Air New Zealand
+  - All Nippon Airways
+  - Asiana Airlines
+  - Austrian Airlines
+  - Avianca
+  - Brussels Airlines
+  - Copa Airlines
+  - Croatia Airlines
+  - EVA Air
+  - Ethiopian Airlines
+  - ITA Airways
+  - LOT Polish Airlines
+  - Lufthansa
+  - Shenzhen Airlines
+  - Singapore Airlines
+  - South African Airways
+  - Swiss International Air Lines
+  - TAP Air Portugal
+  - Thai Airways
+  - Turkish Airlines
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 26
+  out_of_universe:
+  - Egyptair
+  source: en.wikipedia.org/wiki/Star Alliance — section 'Members and affiliates' (table rows, one airline per row)
+  salience: 633554
+- id: oneworld_members
+  name: Oneworld member airlines
+  kind: alliance
+  section: Full members and their affiliates
+  synonyms: []
+  wiki: Oneworld
+  members:
+  - Alaska Airlines
+  - American Airlines
+  - British Airways
+  - Cathay Pacific
+  - Fiji Airways
+  - Finnair
+  - Iberia
+  - Japan Airlines
+  - Malaysia Airlines
+  - Oman Air
+  - Qantas Airways
+  - Qatar Airways
+  - Royal Air Maroc
+  - Royal Jordanian
+  - SriLankan Airlines
+  disputed: []
+  changes: []
+  official_count: 15
+  out_of_universe: []
+  source: en.wikipedia.org/wiki/Oneworld — section 'Full members and their affiliates' (table rows, one airline per row)
+  salience: 471950
+- id: skyteam_members
+  name: SkyTeam member airlines
+  kind: alliance
+  section: Full members and their member affiliates
+  synonyms: []
+  wiki: SkyTeam
+  members:
+  - Air Europa
+  - Air France
+  - China Airlines
+  - China Eastern Airlines
+  - Delta Air Lines
+  - Garuda Indonesia
+  - KLM
+  - Kenya Airways
+  - Middle East Airlines - Air Liban
+  - Saudia
+  - Scandinavian Airlines
+  - TAROM
+  - Vietnam Airlines
+  - Virgin Atlantic
+  - Xiamen Airlines
+  disputed: []
+  changes: []
+  official_count: 19
+  out_of_universe:
+  - Aerolíneas Argentinas
+  - Aeroméxico
+  - Korean Air
+  - SAS Link
+  source: en.wikipedia.org/wiki/SkyTeam — section 'Full members and their member affiliates' (table rows, one airline per
+    row)
+  salience: 434984
+- id: a4a_members
+  name: Airlines for America member airlines
+  kind: org
+  section: ATA Airline Members
+  synonyms: []
+  wiki: Airlines for America
+  members:
+  - Alaska Airlines
+  - American Airlines
+  - Atlas Air
+  - Delta Air Lines
+  - FedEx Express
+  - Hawaiian Airlines
+  - Southwest Airlines
+  - UPS Airlines
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: en.wikipedia.org/wiki/Airlines for America — section 'ATA Airline Members'
+  salience: 15267
+- id: aapa_members
+  name: Association of Asia Pacific Airlines member airlines
+  kind: org
+  section: Members
+  synonyms: []
+  wiki: Association of Asia Pacific Airlines
+  members:
+  - Air Astana
+  - Air India
+  - Air New Zealand
+  - All Nippon Airways
+  - Bangkok Airways
+  - Cathay Pacific
+  - China Airlines
+  - Garuda Indonesia
+  - Japan Airlines
+  - Lion Air
+  - Malaysia Airlines
+  - Philippine Airlines
+  - Royal Brunei Airlines
+  - Singapore Airlines
+  - Thai Airways
+  - Vietnam Airlines
+  disputed: []
+  changes: []
+  official_count: 16
+  out_of_universe: []
+  source: en.wikipedia.org/wiki/Association of Asia Pacific Airlines — section 'Members'
+  salience: 1412
+- id: aaco_members
+  name: Arab Air Carriers Organization member airlines
+  kind: org
+  section: Members
+  synonyms: []
+  wiki: Arab Air Carriers Organization
+  members:
+  - Air Arabia
+  - Air Cairo
+  - Badr Airlines
+  - EgyptAir
+  - Emirates
+  - Etihad Airways
+  - Gulf Air
+  - Iraqi Airways
+  - Jordan Aviation
+  - Kuwait Airways
+  - Libyan Airlines
+  - Mauritania Airlines
+  - Middle East Airlines - Air Liban
+  - Nesma Airlines
+  - Nile Air
+  - Nouvelair
+  - Oman Air
+  - Qatar Airways
+  - Riyadh Air
+  - Royal Air Maroc
+  - Royal Jordanian
+  - Saudia
+  - Sudan Airways
+  - Tarco Aviation
+  - Tunisair
+  - Yemenia
+  disputed: []
+  changes: []
+  official_count: 28
+  out_of_universe:
+  - Afriqiyah Airways
+  - Palestinian Airlines
+  source: en.wikipedia.org/wiki/Arab Air Carriers Organization — section 'Members'
+  salience: 242
+- id: afraa_members
+  name: African Airlines Association member airlines
+  kind: org
+  section: AFRAA members
+  synonyms: []
+  wiki: African Airlines Association
+  members:
+  - AB Aviation
+  - Air Botswana
+  - Air Burkina
+  - Air Djibouti
+  - Air Mauritius
+  - Air Peace
+  - Air Senegal
+  - Air Tanzania
+  - Air Zimbabwe
+  - Asky Airlines
+  - Astral Aviation
+  - Badr Airlines
+  - Cabo Verde Airlines
+  - Camair-Co
+  - Cronos Airlines
+  - EgyptAir
+  - Ethiopian Airlines
+  - Express Air Cargo
+  - Jubba Airways
+  - Kenya Airways
+  - LAM Mozambique Airlines
+  - Libyan Airlines
+  - Mauritania Airlines
+  - Nile Air
+  - Nouvelair
+  - Overland Airways
+  - Precision Air
+  - Royal Air Maroc
+  - RwandAir
+  - Safarilink Aviation
+  - South African Airways
+  - Sudan Airways
+  - TAAG Angola Airlines
+  - Tunisair
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe:
+  - Afriqiyah Airways
+  - Air Namibia
+  - South African Express
+  - Uganda Airlines
+  source: en.wikipedia.org/wiki/African Airlines Association — section 'AFRAA members'
+  salience: 3355
+- id: a4e_members
+  name: Airlines for Europe member airlines
+  kind: org
+  section: Airline members
+  synonyms: []
+  wiki: Airlines for Europe
+  members:
+  - Aegean Airlines
+  - Aer Lingus
+  - Air France
+  - AirBaltic
+  - Austrian Airlines
+  - British Airways
+  - Brussels Airlines
+  - Cargolux
+  - EasyJet Switzerland
+  - Eurowings
+  - Finnair
+  - Icelandair
+  - Jet2.com
+  - KLM
+  - Lufthansa
+  - Lufthansa Cargo
+  - Martinair
+  - Norwegian Air Shuttle
+  - Norwegian Air Sweden
+  - Ryanair
+  - Ryanair UK
+  - Smartwings
+  - Smartwings Hungary
+  - Smartwings Poland
+  - Smartwings Slovakia
+  - Swiss International Air Lines
+  - TAP Air Portugal
+  - TUI Airways
+  - TUI fly Belgium
+  - TUI fly Deutschland
+  - TUI fly Netherlands
+  - TUIfly Nordic
+  - Transavia
+  - Volotea
+  - Vueling
+  - easyJet
+  - easyJet Europe
+  disputed: []
+  changes: []
+  official_count: 37
+  out_of_universe: []
+  source: en.wikipedia.org/wiki/Airlines for Europe — section 'Airline members'
+  salience: 3639
+- id: star_alliance_founding
+  name: Founding member airlines of Star Alliance
+  kind: founding
+  phrase: five founding members of the alliance
+  synonyms: []
+  wiki: Star Alliance
+  members:
+  - Air Canada
+  - Lufthansa
+  - Scandinavian Airlines
+  - Thai Airways
+  - United Airlines
+  disputed: []
+  changes:
+  - value: Scandinavian Airlines
+    date: '2024-09-01'
+    event: moved from Star Alliance to SkyTeam
+  official_count: 6
+  out_of_universe:
+  - Canadian Airlines
+  source: en.wikipedia.org/wiki/Star Alliance — "five founding members of the alliance"
+  salience: 633554
+- id: oneworld_founding
+  name: Founding member airlines of Oneworld
+  kind: founding
+  phrase: Oneworld was unveiled by its founding members
+  synonyms: []
+  wiki: Oneworld
+  members:
+  - American Airlines
+  - British Airways
+  - Cathay Pacific
+  - Japan Airlines
+  - Qantas Airways
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe:
+  - Canadian Airlines
+  source: en.wikipedia.org/wiki/Oneworld — "Oneworld was unveiled by its founding members"
+  salience: 471950
+- id: eu_airlines
+  name: Airlines of European Union member states
+  kind: bloc
+  org: European Union
+  synonyms: []
+  wiki: European Union
+  members:
+  - AIS Airlines
+  - ASL Airlines Belgium
+  - ASL Airlines France
+  - ASL Airlines Ireland
+  - Aegean Airlines
+  - Aer Arann Islands
+  - Aer Lingus
+  - Aer Lingus Regional
+  - Aero VIP
+  - AeroLogic
+  - Aeroitalia
+  - Air Alsie
+  - Air Antilles
+  - Air Atlanta Europe
+  - Air Austral
+  - Air Bucharest
+  - Air Calédonie
+  - Air Caraïbes
+  - Air Cargo Global
+  - Air Corsica
+  - Air Dolomiti
+  - Air Europa
+  - Air Europa Express
+  - Air France
+  - Air France Hop
+  - Air France KLM Martinair Cargo
+  - Air Greenland
+  - Air Guyane Express
+  - Air Hamburg
+  - Air Horizont
+  - Air Mediterranean
+  - Air Nostrum
+  - Air Saint-Pierre
+  - Air Tahiti
+  - Air Tahiti Nui
+  - AirBaltic
+  - Airbus Transport International
+  - Aircalin
+  - Airhub Airlines
+  - AlbaStar
+  - Alidaunia
+  - Alsie Express
+  - Amapola Flyg
+  - Andorra Airlines
+  - Arcus Air
+  - Austrian Airlines
+  - Avion Express
+  - Avion Express Malta
+  - Azores Airlines
+  - BH Air
+  - BRA Braathens Regional Airlines
+  - Binter Canarias
+  - Bluebird Airways
+  - Braathens International Airways
+  - Braathens Regional
+  - Brussels Airlines
+  - Budapest Aircraft Service
+  - CHC Airways
+  - CMA CGM Air Cargo
+  - Canaryfly
+  - Cargolux
+  - Cargolux Italia
+  - Carpatair
+  - Central Connect Airlines
+  - Chalair Aviation
+  - CityJet
+  - CityLine Hungary
+  - Condor Flugdienst
+  - Corendon Airlines Europe
+  - Corendon Dutch Airlines
+  - Corsair International
+  - Croatia Airlines
+  - Cyprus Airways
+  - Czech Airlines
+  - DAT
+  - DOT LT
+  - Direktflyg
+  - Discover Airlines
+  - ETF Airways
+  - Ellinair
+  - Enter Air
+  - EuroAtlantic Airways
+  - European Air Charter
+  - European Air Transport Leipzig
+  - Eurowings
+  - Eurowings Europe
+  - Evelop Airlines
+  - Ewa Air
+  - FAI rent-a-jet
+  - Finnair
+  - Flexflight
+  - Fly Lili
+  - Fly2Sky
+  - Fly4 Airlines
+  - Freebird Airlines Europe
+  - French Bee
+  - Frost Air
+  - GP Aviation
+  - Gestair Group
+  - GetJet Airlines
+  - Go2Sky
+  - HelloJets
+  - Heston Airlines
+  - Hi Fly
+  - Hi Fly Malta
+  - Holiday Europe
+  - Höga Kusten Flyg
+  - ITA Airways
+  - Iberia
+  - Iberia Express
+  - Jet Aviation
+  - Jet Time
+  - KLM
+  - KLM Cityhopper
+  - KM Malta Airlines
+  - LOT Charters
+  - LOT Polish Airlines
+  - La Compagnie
+  - Lauda Europe Ltd
+  - Leav Aviation
+  - Level
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa City Airlines
+  - Lufthansa CityLine
+  - Lufthansa Regional
+  - Luxair
+  - MAP Jet
+  - MHS Aviation
+  - Malta MedAir
+  - Marabu Airlines
+  - Marathon Airlines
+  - Martinair
+  - Medavia
+  - Neos
+  - Nordic Regional Airlines
+  - Nordica
+  - Norwegian Air Sweden
+  - Nyxair
+  - Olympic Air
+  - Omni Aviation
+  - Orbest
+  - Plus Ultra Líneas Aéreas
+  - Portugália
+  - Poste Air Cargo
+  - Primera Air Nordic
+  - Private Wings
+  - Privilege Style
+  - Rhein-Neckar Air
+  - Ryanair
+  - SAS Cargo Group
+  - SATA Air Açores
+  - Sky Alps
+  - SkyUp MT
+  - Skytaxi
+  - SmartLynx Airlines Malta
+  - Smartwings
+  - Smartwings Hungary
+  - Smartwings Poland
+  - Smartwings Slovakia
+  - SprintAir
+  - St Barth Commuter
+  - Star Air (Denmark)
+  - Sun Air of Scandinavia
+  - Sunclass Airlines
+  - Sundair
+  - Swiftair
+  - Sylt Air
+  - TAP Air Portugal
+  - TAP Express
+  - TAROM
+  - TUI fly Belgium
+  - TUI fly Deutschland
+  - TUI fly Netherlands
+  - TUIfly Nordic
+  - Ten Airways
+  - Thomas Cook Airlines Belgium
+  - Trade Air
+  - Transavia
+  - Transavia France
+  - Transaviabaltika
+  - Tus Airways
+  - Twin Jet
+  - Van Air Europe
+  - Virgin Express France
+  - Volotea
+  - Vueling
+  - WDL Aviation
+  - Wamos Air
+  - Wan Air
+  - West Atlantic
+  - West Atlantic Sweden
+  - White Airways
+  - Wizz Air
+  - Wizz Air Malta
+  - World2Fly
+  - Z Air
+  - easyJet Europe
+  disputed: []
+  changes: []
+  official_count: 198
+  out_of_universe: []
+  source: Wikidata P463 country membership (raw/country_relations.json) joined with airline country of headquarters (raw/airlines.json)
+  salience: 2455194
+- id: asean_airlines
+  name: Airlines of ASEAN member states
+  kind: bloc
+  org: ASEAN
+  synonyms: []
+  wiki: ASEAN
+  members:
+  - 2GO Air
+  - APEX Airlines
+  - Air Cambodia
+  - Air Juan
+  - Air Mandalay
+  - Air People International
+  - Air Thanlwin
+  - AirAsia
+  - AirAsia Cambodia
+  - AirAsia X
+  - AirSWIFT
+  - Airfast Indonesia
+  - Airphil Express
+  - Apsara International Air
+  - Asia Atlantic Airlines
+  - Asia Cargo Airlines
+  - Asian Wings Airways
+  - Aviastar
+  - Bamboo Airways
+  - Bangkok Airways
+  - Bassaka Air
+  - Batik Air
+  - Batik Air Malaysia
+  - Berjaya Air
+  - Business Air
+  - Cambodia Airways
+  - Cambodia Bayon Airlines
+  - Cebgo
+  - Cebu Pacific
+  - Citilink
+  - Crystal Thai Airlines
+  - Eaglexpress
+  - Firefly
+  - Fmi air
+  - Garuda Indonesia
+  - Indonesia Air Transport
+  - Indonesia AirAsia
+  - Indonesia AirAsia X
+  - Interisland Airlines
+  - Jet Asia Airways
+  - Jetstar Asia Airways
+  - K-Mile Air
+  - Kan Air
+  - Lanexang Airways International
+  - Lanmei Airlines
+  - Lao Air
+  - Lao Airlines
+  - Lion Air
+  - MASkargo
+  - MASwings
+  - Malaysia Airlines
+  - Mandala Airlines
+  - Mann Yatanarpon Airlines
+  - Mingalar Aviation Services
+  - My Indo Airlines
+  - Myanmar Airways International
+  - Myanmar National Airlines
+  - NAM Air
+  - New Gen Airways
+  - Nok Air
+  - Orient Thai Airlines
+  - PAL Express
+  - PUTANG INA KA Airways
+  - Pacific Airlines
+  - Pacificair
+  - Pan Pacific Airlines
+  - Pelita Air Service
+  - Philippine Airlines
+  - Philippines AirAsia
+  - Raya Airways
+  - Republic Express Airlines
+  - Royal Brunei Airlines
+  - Sabah Air
+  - Scoot
+  - Siam Air
+  - Singapore Airlines
+  - Sky Angkor Airlines
+  - Sky Pasada
+  - SkyJet
+  - Sriwijaya Air
+  - Susi Air
+  - Thai AirAsia
+  - Thai AirAsia X
+  - Thai Airways
+  - Thai Lion Air
+  - Thai Smile
+  - Thai Vietjet Air
+  - TransNusa Air Services
+  - Travira Air
+  - Trigana Air Service
+  - VietJet Air
+  - Vietnam Air Services Company
+  - Vietnam Airlines
+  - Wings Air
+  - World Cargo Airlines
+  disputed: []
+  changes: []
+  official_count: 95
+  out_of_universe: []
+  source: Wikidata P463 country membership (raw/country_relations.json) joined with airline country of headquarters (raw/airlines.json)
+  salience: 946505
+- id: gcc_airlines
+  name: Airlines of Gulf Cooperation Council member states
+  kind: bloc
+  org: Gulf Cooperation Council
+  synonyms: []
+  wiki: Gulf Cooperation Council
+  members:
+  - Air Arabia
+  - Bahrain Air
+  - Click Airways
+  - DHL International Aviation ME
+  - Eastern SkyJets
+  - Emirates
+  - Emirates SkyCargo
+  - Etihad Airways
+  - Gulf Air
+  - Jazeera Airways
+  - Kuwait Airways
+  - Nesma Airlines
+  - Oman Air
+  - Phoenix Aviation
+  - Presidential Flight (UAE)
+  - Qatar Airways
+  - Qatar Airways Cargo
+  - Qatar Executive
+  - Riyadh Air
+  - Rotana Jet
+  - SalamAir
+  - Saudia
+  - Saudia Cargo
+  - Saudigulf
+  - SkyLink Arabia
+  - Wataniya Airways
+  - Wizz Air Abu Dhabi
+  - flyadeal
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 29
+  out_of_universe: []
+  source: Wikidata P463 country membership (raw/country_relations.json) joined with airline country of headquarters (raw/airlines.json)
+  salience: 767528
+- id: arab_league_airlines
+  name: Airlines of Arab League member states
+  kind: bloc
+  org: Arab League
+  synonyms: []
+  wiki: Arab League
+  members:
+  - AB Aviation
+  - AMC Airlines
+  - Air Algérie
+  - Air Arabia
+  - Air Arabia Egypt
+  - Air Arabia Maroc
+  - Air Cairo
+  - Air Djibouti
+  - Air Leisure
+  - Air Libya
+  - Air One Nine Company
+  - Air Sinai
+  - Al-Naser Airlines
+  - AlMasria Universal Airlines
+  - Alexandria Airlines
+  - Badr Airlines
+  - Bahrain Air
+  - Buraq Air
+  - Cairo Aviation
+  - Cham Wings Airlines
+  - Click Airways
+  - DHL International Aviation ME
+  - Daallo Airlines
+  - Djibouti Air
+  - Domestic Airlines
+  - Eastern SkyJets
+  - EgyptAir
+  - EgyptAir Cargo
+  - Emirates
+  - Emirates SkyCargo
+  - Etihad Airways
+  - Express Air Cargo
+  - Felix Airways
+  - Fly Baghdad
+  - FlyDamas
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - Gulf Air
+  - Int'Air Îles
+  - Iraqi Airways
+  - Jazeera Airways
+  - Jordan Aviation
+  - Jordan International Air Cargo
+  - Jubba Airways
+  - Kuwait Airways
+  - Lebanese Air Transport
+  - Libyan Airlines
+  - Libyan Wings
+  - Mauritania Airlines
+  - Med Airways
+  - MenaJet
+  - Mid Airlines
+  - Middle East Airlines - Air Liban
+  - Nayzak Air Transport
+  - Nesma Airlines
+  - Nile Air
+  - Nouvelair
+  - Oman Air
+  - Petroleum Air Services
+  - Phoenix Aviation
+  - Presidential Flight (UAE)
+  - Qatar Airways
+  - Qatar Airways Cargo
+  - Qatar Executive
+  - RAM Cargo
+  - Riyadh Air
+  - Rotana Jet
+  - Royal Air Maroc
+  - Royal Air Maroc Express
+  - Royal Jordanian
+  - Royal Wings
+  - SalamAir
+  - Saudia
+  - Saudia Cargo
+  - Saudigulf
+  - SkyLink Arabia
+  - Smart Aviation Company
+  - Sudan Airways
+  - Sun Air
+  - Syrian Air
+  - Tarco Aviation
+  - Tobruk Air
+  - Tunisair
+  - Tunisair Express
+  - UR Airlines
+  - United Arab Airlines
+  - Wataniya Airways
+  - Wings of Lebanon
+  - Wizz Air Abu Dhabi
+  - Yemenia
+  - Zagrosjet
+  - flyadeal
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 93
+  out_of_universe: []
+  source: Wikidata P463 country membership (raw/country_relations.json) joined with airline country of headquarters (raw/airlines.json)
+  salience: 386459
+- id: oas_airlines
+  name: Airlines of Organization of American States member states
+  kind: bloc
+  org: Organization of American States
+  synonyms: []
+  wiki: Organization of American States
+  members:
+  - 7Air Cargo
+  - ABX Air
+  - Abaeté Aviação
+  - AerCaribe
+  - Aero Cóndor
+  - Aerochaco
+  - Aerocon
+  - Aerogaviota
+  - Aerolíneas Estelar
+  - Aerolíneas Sosa
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aeropostal Alas de Venezuela
+  - Aeroregional
+  - Aerosucre
+  - Aerus
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Cargo Carriers
+  - Air Century
+  - Air Creebec
+  - Air Flamenco
+  - Air Grand Canyon
+  - Air Haïti
+  - Air Illinois
+  - Air Inuit
+  - Air Liaison
+  - Air North
+  - Air Sunshine
+  - Air Tindi
+  - Air Transat
+  - Air Transport International
+  - Air Wisconsin
+  - Aklak Air
+  - Alaska Airlines
+  - Alaska Central Express
+  - Alaska Coastal Airlines
+  - Albatros Airlines
+  - Allegiant Air
+  - Aloha Air Cargo
+  - Alpine Air Express
+  - American Airlines
+  - Ameriflight
+  - Amerijet International
+  - Ameristar Jet Charter
+  - Arajet
+  - Arizona Airways
+  - Aserca Airlines
+  - Asia Pacific Airlines
+  - Astar Air Cargo
+  - Atlas Air
+  - Atsa Airlines
+  - Avelo Airlines
+  - Avianca
+  - Avianca Argentina
+  - Avianca Cargo
+  - Avianca Cargo México
+  - Avianca Costa Rica
+  - Avianca Ecuador
+  - Avianca El Salvador
+  - Avianca Express
+  - Avianca Honduras
+  - Avianca Peru
+  - Aviandina
+  - Avion Express Brasil
+  - Avior Airlines
+  - Avior Regional
+  - Bearskin Airlines
+  - Bemidji Airlines
+  - Bering Air
+  - Boliviana de Aviación
+  - Boutique Air
+  - Branson Air Express
+  - Breeze Airways
+  - Buffalo Airways
+  - CALAFIAAIRLINES
+  - CM Airlines
+  - Calm Air
+  - Canadian North
+  - Cape Air
+  - Capitol Air
+  - Cargojet
+  - Caribair
+  - Central Mountain Air
+  - Centurion Air Cargo
+  - City Express
+  - Clic Air
+  - CommuteAir
+  - Contour Airlines
+  - Contract Air Cargo
+  - Conviasa
+  - Copa Airlines
+  - Copa Airlines Colombia
+  - Corporate Flight Management
+  - Costa Rica Green Airways
+  - Cubana de Aviación
+  - DHL Aero Expreso
+  - DHL Ecuador
+  - DHL de Guatemala
+  - Delta Air Lines
+  - Eastern Airlines, LLC
+  - EcoJet
+  - Elite Airways
+  - Empire Airlines
+  - Endeavor Air
+  - Enterprise Airlines
+  - Envoy Air
+  - Equair
+  - Estafeta Carga Aérea
+  - Everts Air
+  - Everts Air Cargo
+  - Exploits Valley Air Services
+  - Express One International
+  - ExpressJet
+  - FedEx Express
+  - Flair Airlines
+  - Fly All Ways
+  - Freedom Air
+  - Frontier Airlines
+  - GoJet Airlines LLC
+  - Gol Transportes Aéreos
+  - Grand Canyon Airlines
+  - Grant Aviation
+  - Great Lakes Airlines
+  - Harbour Air
+  - Hawaiian Airlines
+  - Haïti Ambassador Airlines
+  - Helijet
+  - Horizon Air
+  - IBC Airways
+  - International AirLink
+  - Iskwew Air
+  - Island Air (Hawaii)
+  - Jazz Aviation
+  - JetBlue Airways
+  - JetSmart
+  - JetSmart Argentina
+  - Kalitta Air
+  - Kalitta Charters
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenmore Air
+  - Kenn Borek Air
+  - Key Lime Air
+  - Kivalliq Air
+  - LASER Airlines
+  - LATAM Airlines
+  - LATAM Airlines Colombia
+  - LATAM Airlines Ecuador
+  - LATAM Airlines Paraguay
+  - LATAM Airlines Peru
+  - LATAM Brasil
+  - LATAM Cargo Chile
+  - LATAM Cargo Colombia
+  - Liat Air
+  - Locair
+  - Lynden Air Cargo
+  - Línea Aérea Amaszonas
+  - Línea Aérea Cuencana
+  - Líneas Aéreas Suramericanas
+  - Líneas Aéreas del Estado (LADE)
+  - MAP Linhas Aéreas
+  - MAYAir
+  - Magnicharters
+  - MasAir Cargo Mexico
+  - Maya Island Air
+  - Mesa Airlines
+  - Miami Air International
+  - Mokulele Airlines
+  - Mountain Air Cargo
+  - Nantucket Airlines
+  - National Airlines
+  - Nature Air
+  - NetJets
+  - New England Airlines
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - North-Wright Airways
+  - Northcoast Executive Airlines
+  - Northern Air Cargo
+  - Northwestern Air
+  - Oceanair
+  - Omni Air International
+  - OneJet
+  - Orca Airways
+  - PAL Airlines
+  - PSA Airlines
+  - Pacific Coastal Airlines
+  - Pacific Wings
+  - Pascan Aviation
+  - PenAir
+  - Phoenix Air
+  - Platinum Air Linhas Aéreas
+  - Polar Air Cargo
+  - Porter Airlines
+  - RUTACA Airlines
+  - Regional Cargo
+  - Regional Sky
+  - Republic Airways
+  - SAEREO
+  - SANSA
+  - SATENA
+  - SUA
+  - Salmon Air
+  - Scenic Airlines
+  - Seaborne Airlines
+  - Servant Air
+  - Servicios Aéreos Profesionales
+  - Sierra Pacific Airlines
+  - Silver Airways
+  - Sky Airline
+  - Sky Airline Peru
+  - Sky Lease Cargo
+  - SkyBahamas
+  - SkyWest Airlines
+  - Skyway Enterprises
+  - Southeast Airlines
+  - Southern Air Charter
+  - Southern Airways Express
+  - Southwest Airlines
+  - Star Perú
+  - Starlink Aviation
+  - Sun Air International
+  - Sun Country Airlines
+  - Sunrise Airways
+  - Superior Aviation
+  - Surinam Airways
+  - TAR México
+  - Tailwind Air Service
+  - Taquan Air
+  - Tobago Express
+  - Tradewind Aviation
+  - Trans Executive Airlines
+  - Transportes Aéreos Bolivianos
+  - Transportes Aéreos Guatemaltecos
+  - Transwest Air
+  - Tropical Airways
+  - Turpial Airlines
+  - UPS Airlines
+  - USA Jet Airlines
+  - Ultimate Air Shuttle
+  - United Airlines
+  - United Express
+  - Venezolana
+  - Vieques Air Link
+  - Vintage Props and Jets
+  - Viva
+  - Viva Air Colombia
+  - Viva Air Peru
+  - Volaris
+  - Volaris Costa Rica
+  - Volaris El Salvador
+  - Voyageur Airways
+  - Warbelow's Air Ventures
+  - Wasaya Airways
+  - WestJet
+  - WestJet Encore
+  - Western Global Airlines
+  - Westward Airways
+  - Wiggins Airways
+  - Wingo
+  - World Atlantic Airlines
+  - Wright Air Service
+  - Yute Commuter Service
+  - iAero Airways
+  disputed: []
+  changes: []
+  official_count: 266
+  out_of_universe: []
+  source: Wikidata P463 country membership (raw/country_relations.json) joined with airline country of headquarters (raw/airlines.json)
+  salience: 218695
+- id: flag_carrier_airlines
+  name: Flag-carrying airlines of their countries
+  kind: flag
+  section: List of flag-carrying airlines
+  synonyms: []
+  wiki: Flag carrier
+  members:
+  - Aegean Airlines
+  - Aer Lingus
+  - Aeroflot
+  - Air Astana
+  - Air Austral
+  - Air Botswana
+  - Air Burkina
+  - Air Cambodia
+  - Air Canada
+  - Air China
+  - Air Djibouti
+  - Air France
+  - Air Greenland
+  - Air India
+  - Air Kiribati
+  - Air Koryo
+  - Air Macau
+  - Air Madagascar
+  - Air Marshall Islands
+  - Air Mauritius
+  - Air Montenegro
+  - Air New Zealand
+  - Air Niugini
+  - Air Senegal
+  - Air Serbia
+  - Air Seychelles
+  - Air Tahiti Nui
+  - Air Tanzania
+  - Air Vanuatu
+  - Air Zimbabwe
+  - Aircalin
+  - All Nippon Airways
+  - Arajet
+  - Ariana Afghan Airlines
+  - Aruba Airlines
+  - Asman Airlines
+  - Atlantic Airways
+  - Aurigny Air Services
+  - Austrian Airlines
+  - Avianca
+  - Avianca Costa Rica
+  - Azerbaijan Airlines
+  - Belavia
+  - British Airways
+  - Brussels Airlines
+  - CEIBA Intercontinental
+  - Cabo Verde Airlines
+  - Camair-Co
+  - Cathay Pacific
+  - Cayman Airways
+  - China Airlines
+  - Conviasa
+  - Copa Airlines
+  - Croatia Airlines
+  - Cyprus Airways
+  - EL AL Israel Airlines Ltd.
+  - Eritrean Airlines
+  - Ethiopian Airlines
+  - Etihad Airways
+  - Fiji Airways
+  - Finnair
+  - Garuda Indonesia
+  - Gulf Air
+  - ITA Airways
+  - Iberia
+  - Icelandair
+  - Iraqi Airways
+  - KLM
+  - KM Malta Airlines
+  - Kenya Airways
+  - Kuwait Airways
+  - LAM Mozambique Airlines
+  - LOT Polish Airlines
+  - Lao Airlines
+  - Lufthansa
+  - Luxair
+  - MIAT Mongolian Airlines
+  - Malaysia Airlines
+  - Maldivian
+  - Mauritania Airlines
+  - Middle East Airlines - Air Liban
+  - Myanmar National Airlines
+  - Nauru Airlines
+  - Nepal Airlines
+  - Oman Air
+  - Pakistan International Airlines
+  - Philippine Airlines
+  - Qantas Airways
+  - Qatar Airways
+  - Royal Air Maroc
+  - Royal Brunei Airlines
+  - Royal Jordanian
+  - RwandAir
+  - STP Airways
+  - Samoa Airways
+  - Saudia
+  - Scandinavian Airlines
+  - Singapore Airlines
+  - Solomon Airlines
+  - South African Airways
+  - SriLankan Airlines
+  - Sudan Airways
+  - Surinam Airways
+  - Swiss International Air Lines
+  - TAAG Angola Airlines
+  - TAP Air Portugal
+  - TAROM
+  - Thai Airways
+  - Tunisair
+  - Turkish Airlines
+  - Turkmenistan Airlines
+  - Uzbekistan Airways
+  - Vietnam Airlines
+  - Yemenia
+  - Zambia Airways
+  disputed: []
+  changes: []
+  official_count: 125
+  out_of_universe:
+  - Afriqiyah Airways
+  - Bahamasair
+  - Biman Bangladesh Airlines
+  - Bulgaria Air
+  - Caribbean Airlines
+  - Congo Airways
+  - Iran Air
+  - Korean Air
+  - Safi Airways
+  - Uganda Airlines
+  source: en.wikipedia.org/wiki/Flag carrier — section 'List of flag-carrying airlines'
+  salience: 289484
+- id: nordic_airlines
+  name: Airlines of Nordic Council member states
+  kind: bloc
+  org: Nordic Council
+  synonyms: []
+  wiki: Nordic Council
+  members:
+  - Air Alsie
+  - Air Atlanta Icelandic
+  - Air Greenland
+  - Air Iceland
+  - Alsie Express
+  - Amapola Flyg
+  - BRA Braathens Regional Airlines
+  - Bluebird Nordic
+  - Braathens International Airways
+  - Braathens Regional
+  - CHC Helikopter Service
+  - DAT
+  - Direktflyg
+  - Finnair
+  - Flexflight
+  - Frost Air
+  - Höga Kusten Flyg
+  - Icelandair
+  - Jet Time
+  - Lufttransport
+  - Nordic Regional Airlines
+  - Norse Atlantic Airways
+  - Norwegian Air Norway
+  - Norwegian Air Shuttle
+  - Norwegian Air Sweden
+  - SAS Cargo Group
+  - Scandinavian Airlines
+  - Star Air (Denmark)
+  - Sun Air of Scandinavia
+  - Sunclass Airlines
+  - TUIfly Nordic
+  - West Atlantic
+  - West Atlantic Sweden
+  - Widerøe
+  disputed: []
+  changes: []
+  official_count: 34
+  out_of_universe: []
+  source: member-state list in raw/wiki/Nordic_Council.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 85440
+  note: five sovereign member states
+- id: baltic_airlines
+  name: Airlines of Baltic Assembly member states
+  kind: bloc
+  org: Baltic Assembly
+  synonyms: []
+  wiki: Baltic Assembly
+  members:
+  - AirBaltic
+  - Avion Express
+  - DOT LT
+  - GetJet Airlines
+  - Heston Airlines
+  - Marabu Airlines
+  - Nordica
+  - Nyxair
+  - Primera Air Nordic
+  - Transaviabaltika
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: member-state list in raw/wiki/Baltic_Assembly.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 17836
+  note: three member states
+- id: visegrad_airlines
+  name: Airlines of Visegrad Group member states
+  kind: bloc
+  org: Visegrad Group
+  synonyms: []
+  wiki: Visegrad Group
+  members:
+  - Air Cargo Global
+  - Budapest Aircraft Service
+  - Central Connect Airlines
+  - CityLine Hungary
+  - Czech Airlines
+  - Enter Air
+  - Go2Sky
+  - LOT Charters
+  - LOT Polish Airlines
+  - Skytaxi
+  - Smartwings
+  - Smartwings Hungary
+  - Smartwings Poland
+  - Smartwings Slovakia
+  - SprintAir
+  - Van Air Europe
+  - Wizz Air
+  disputed: []
+  changes: []
+  official_count: 17
+  out_of_universe: []
+  source: member-state list in raw/wiki/Visegrad_Group.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 1614
+  note: four member states
+- id: benelux_airlines
+  name: Airlines of Benelux Union member states
+  kind: bloc
+  org: Benelux Union
+  synonyms: []
+  wiki: Benelux
+  members:
+  - AIS Airlines
+  - Brussels Airlines
+  - CHC Airways
+  - Cargolux
+  - Corendon Dutch Airlines
+  - KLM
+  - KLM Cityhopper
+  - Luxair
+  - Martinair
+  - TUI fly Belgium
+  - TUI fly Netherlands
+  - Thomas Cook Airlines Belgium
+  - Transavia
+  - Z Air
+  disputed: []
+  changes: []
+  official_count: 14
+  out_of_universe: []
+  source: member-state list in raw/wiki/Benelux.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 217337
+  note: three member states
+- id: caricom_airlines
+  name: Airlines of Caribbean Community member states
+  kind: bloc
+  org: Caribbean Community
+  synonyms: []
+  wiki: Caribbean Community
+  members:
+  - Air Haïti
+  - Fly All Ways
+  - Haïti Ambassador Airlines
+  - International AirLink
+  - Liat Air
+  - Maya Island Air
+  - SkyBahamas
+  - Southern Air Charter
+  - Sunrise Airways
+  - Surinam Airways
+  - Tobago Express
+  - Tropical Airways
+  disputed: []
+  changes: []
+  official_count: 12
+  out_of_universe: []
+  source: member-state list in raw/wiki/Caribbean_Community.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 123057
+  note: fifteen full member states
+- id: mercosur_airlines
+  name: Airlines of Mercosur member states
+  kind: bloc
+  org: Mercosur
+  synonyms: []
+  wiki: Mercosur
+  members:
+  - Abaeté Aviação
+  - Aerochaco
+  - Aerocon
+  - Avianca Argentina
+  - Avion Express Brasil
+  - Boliviana de Aviación
+  - EcoJet
+  - Gol Transportes Aéreos
+  - JetSmart Argentina
+  - LATAM Airlines Paraguay
+  - LATAM Brasil
+  - Línea Aérea Amaszonas
+  - Líneas Aéreas del Estado (LADE)
+  - MAP Linhas Aéreas
+  - Oceanair
+  - Platinum Air Linhas Aéreas
+  - SUA
+  - Transportes Aéreos Bolivianos
+  disputed: []
+  changes: []
+  official_count: 18
+  out_of_universe: []
+  source: member-state list in raw/wiki/Mercosur.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 429384
+  note: five member states after Bolivia joined in 2024; Venezuela suspended since 2016
+- id: andean_airlines
+  name: Airlines of Andean Community member states
+  kind: bloc
+  org: Andean Community
+  synonyms: []
+  wiki: Andean Community
+  members:
+  - AerCaribe
+  - Aero Cóndor
+  - Aerocon
+  - Aeroregional
+  - Aerosucre
+  - Atsa Airlines
+  - Avianca
+  - Avianca Cargo
+  - Avianca Ecuador
+  - Avianca Express
+  - Avianca Peru
+  - Aviandina
+  - Boliviana de Aviación
+  - Clic Air
+  - Copa Airlines Colombia
+  - DHL Ecuador
+  - EcoJet
+  - Equair
+  - LATAM Airlines Colombia
+  - LATAM Airlines Ecuador
+  - LATAM Airlines Peru
+  - LATAM Cargo Colombia
+  - Línea Aérea Amaszonas
+  - Línea Aérea Cuencana
+  - Líneas Aéreas Suramericanas
+  - SAEREO
+  - SATENA
+  - Sky Airline Peru
+  - Star Perú
+  - Transportes Aéreos Bolivianos
+  - Viva Air Colombia
+  - Viva Air Peru
+  - Wingo
+  disputed: []
+  changes: []
+  official_count: 33
+  out_of_universe: []
+  source: member-state list in raw/wiki/Andean_Community.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 41960
+  note: four member states
+- id: ecowas_airlines
+  name: Airlines of ECOWAS member states
+  kind: bloc
+  org: Economic Community of West African States
+  synonyms: []
+  wiki: ECOWAS
+  members:
+  - Aero Contractors
+  - Air Côte d'Ivoire
+  - Air Dabia
+  - Air Peace
+  - Air Senegal
+  - Allied Air
+  - Arik Air
+  - Asky Airlines
+  - Azman Air
+  - Cabo Verde Airlines
+  - Chanchangi Airlines
+  - Dana Air
+  - Guine Bissau Airlines
+  - IRS Airlines
+  - Max Air
+  - Overland Airways
+  - Pan African Airlines
+  - Royal Fly-GH
+  - Starbow
+  - ValueJet
+  disputed: []
+  changes: []
+  official_count: 20
+  out_of_universe: []
+  source: member-state list in raw/wiki/ECOWAS.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 213051
+  note: twelve member states after the January 2025 withdrawal of Burkina Faso, Mali and Niger
+- id: sadc_airlines
+  name: Airlines of Southern African Development Community member states
+  kind: bloc
+  org: Southern African Development Community
+  synonyms: []
+  wiki: Southern African Development Community
+  members:
+  - AB Aviation
+  - Air Botswana
+  - Air Congo
+  - Air Madagascar
+  - Air Mauritius
+  - Air Seychelles
+  - Air Tanzania
+  - Air Tanzania Corporation
+  - Air Zimbabwe
+  - Airlink
+  - Airlink Cargo
+  - Auric Air
+  - CemAir
+  - Civair
+  - Coastal Aviation
+  - Command Airways
+  - Fastjet Zimbabwe
+  - Federal Air
+  - Flightlink
+  - FlySafair
+  - Global Aviation
+  - Int'Air Îles
+  - Interair South Africa
+  - Kaya Airlines
+  - LAM Mozambique Airlines
+  - Lesotho Airways
+  - Madagasikara Airways
+  - Mahogany Air
+  - Malawi Airlines
+  - Mango
+  - National Airways Corporation
+  - Phoebus Apollo Aviation
+  - Precision Air
+  - Proflight Zambia
+  - Regional Air Services
+  - Safair
+  - South African Airways
+  - TAAG Angola Airlines
+  - Ulendo Airlink
+  - Westair Aviation
+  - Zambia Airways
+  - Zambia Skyways
+  - ZanAir
+  - Zimbabwe flyafrica.com
+  disputed: []
+  changes: []
+  official_count: 44
+  out_of_universe: []
+  source: member-state list in raw/wiki/Southern_African_Development_Community.wiki joined with airline country of headquarters
+    (raw/airlines.json)
+  salience: 69472
+  note: sixteen member states
+- id: eac_airlines
+  name: Airlines of East African Community partner states
+  kind: bloc
+  org: East African Community
+  synonyms: []
+  wiki: East African Community
+  members:
+  - 748 Air Services
+  - ALS – Aircraft Leasing Services
+  - African Express Airways
+  - Air Congo
+  - Air Tanzania
+  - Air Tanzania Corporation
+  - Airkenya Express
+  - Astral Aviation
+  - Auric Air
+  - BAR Aviation Uganda
+  - Coastal Aviation
+  - East African Safari Air
+  - Flightlink
+  - Fly540
+  - Jambojet
+  - Jubba Airways
+  - Kenya Airways
+  - Precision Air
+  - Regional Air Services
+  - Royal Daisy Airlines
+  - RwandAir
+  - Safarilink Aviation
+  - Skyjet Airlines
+  - Skyward Airlines
+  - Timbis Air
+  - ZanAir
+  disputed: []
+  changes: []
+  official_count: 26
+  out_of_universe: []
+  source: member-state list in raw/wiki/East_African_Community.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 103713
+  note: eight partner states
+- id: eaeu_airlines
+  name: Airlines of Eurasian Economic Union member states
+  kind: bloc
+  org: Eurasian Economic Union
+  synonyms: []
+  wiki: Eurasian Economic Union
+  members:
+  - ALROSA Air Company
+  - ATRAN
+  - Aeroflot
+  - Aerostan
+  - Air Astana
+  - Air Dilijans
+  - AirBridgeCargo Airlines
+  - Angara Airlines
+  - Armenia Airways
+  - Asman Airlines
+  - Atlantis Armenian Airlines
+  - Aurora
+  - Avia Traffic Company
+  - Aviacon Zitotrans
+  - Aviastar-TU
+  - Azimuth
+  - Azur Air
+  - Belavia
+  - Chitaavia
+  - Euro-Asia Air
+  - FlyArystan
+  - Gazprom Avia
+  - Globus
+  - Grozny Avia
+  - I-Fly
+  - Ikar
+  - Inter Trans Avia
+  - IrAero
+  - Izhavia
+  - Kazaviaspas
+  - Komiaviatrans
+  - KrasAvia
+  - Kyrgyz Trans Avia
+  - Nordwind Airlines
+  - Orenburzhye
+  - PANH
+  - Pobeda
+  - Polar Airlines
+  - Qazaq Air
+  - RUS Aviation
+  - Red Wings Airlines
+  - Rossiya
+  - RusLine
+  - SCAT Airlines
+  - Severstal Air Company
+  - Sky Bishkek
+  - Sky Gates Airlines
+  - Smartavia
+  - Sunday Airlines
+  - Taimyr Air Company
+  - Taron Avia
+  - TransAVIAexport Airlines
+  - UTair Aviation
+  - UVT Aero
+  - Ural Airlines
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - Yakutia Airlines
+  - Yamal Airlines
+  disputed: []
+  changes: []
+  official_count: 59
+  out_of_universe: []
+  source: member-state list in raw/wiki/Eurasian_Economic_Union.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 160582
+  note: five member states
+- id: turkic_airlines
+  name: Airlines of Organization of Turkic States member states
+  kind: bloc
+  org: Organization of Turkic States
+  synonyms: []
+  wiki: Organization of Turkic States
+  members:
+  - AJet
+  - AZALJet
+  - Aerostan
+  - Air ACT
+  - Air Astana
+  - Air Samarkand
+  - Asman Airlines
+  - Avia Traffic Company
+  - Avialeasing
+  - Azerbaijan Airlines
+  - Centrum Air
+  - Corendon Airlines
+  - Euro-Asia Air
+  - FlyArystan
+  - Freebird Airlines
+  - IZair
+  - Inter Trans Avia
+  - Kazaviaspas
+  - Kyrgyz Trans Avia
+  - MNG Airlines
+  - My Freighter Airlines
+  - Orbit Express Airlines
+  - Pegasus Airlines
+  - Qanot Sharq
+  - Qazaq Air
+  - SCAT Airlines
+  - Samarkand Airways
+  - Silk Avia
+  - Silk Way Airline
+  - Silk Way West Airlines
+  - Sky Bishkek
+  - Southwind Airlines
+  - SunExpress
+  - Sunday Airlines
+  - Tailwind Airlines
+  - Turkish Airlines
+  - ULS Airlines Cargo
+  - Uzbekistan Airways
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe: []
+  source: member-state list in raw/wiki/Organization_of_Turkic_States.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 209108
+  note: five full member states (observers excluded)
+- id: cplp_airlines
+  name: Airlines of Community of Portuguese Language Countries member states
+  kind: bloc
+  org: Community of Portuguese Language Countries
+  synonyms: []
+  wiki: Community of Portuguese Language Countries
+  members:
+  - Abaeté Aviação
+  - Aero VIP
+  - Avion Express Brasil
+  - Azores Airlines
+  - CEIBA Intercontinental
+  - Cabo Verde Airlines
+  - Cronos Airlines
+  - Ecuato Guineana
+  - EuroAtlantic Airways
+  - Gol Transportes Aéreos
+  - Guine Bissau Airlines
+  - Hi Fly
+  - Kaya Airlines
+  - LAM Mozambique Airlines
+  - LATAM Brasil
+  - MAP Linhas Aéreas
+  - Oceanair
+  - Omni Aviation
+  - Orbest
+  - Platinum Air Linhas Aéreas
+  - Portugália
+  - Punto Azul
+  - SATA Air Açores
+  - STP Airways
+  - TAAG Angola Airlines
+  - TAP Air Portugal
+  - TAP Express
+  - White Airways
+  disputed: []
+  changes: []
+  official_count: 28
+  out_of_universe: []
+  source: member-state list in raw/wiki/Community_of_Portuguese_Language_Countries.wiki joined with airline country of headquarters
+    (raw/airlines.json)
+  salience: 84216
+  note: nine full member states
+- id: pif_airlines
+  name: Airlines of Pacific Islands Forum member states
+  kind: bloc
+  org: Pacific Islands Forum
+  synonyms: []
+  wiki: Pacific Islands Forum
+  members:
+  - ASL Airlines Australia
+  - Ad Astral Aviation
+  - Air Chathams
+  - Air Kiribati
+  - Air Link
+  - Air Marshall Islands
+  - Air New Zealand
+  - Air Niugini
+  - Air Rarotonga
+  - Air Vanuatu
+  - Airlines of Tasmania
+  - Airnorth
+  - Alliance Airlines
+  - Aspiring Air
+  - Eastern Australia Airlines
+  - Fiji Airways
+  - Fiji Link
+  - Fly Tiwi
+  - FlyPelican
+  - Free Spirit Airlines
+  - Hinterland Aviation
+  - Jetconnect
+  - Jetstar Airways
+  - Kiwi Travel International Airlines
+  - Link Airways
+  - Lulutai Airlines
+  - Mainland Air
+  - Maroomba Airlines
+  - Mount Cook Airline
+  - National Jet Express
+  - National Jet Systems
+  - Nauru Airlines
+  - Originair
+  - PNG Air
+  - Pel-Air
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Queensland Regional Airlines
+  - Regional Pacific Airlines
+  - Rex Airlines
+  - Samoa Airways
+  - Sharp Airlines
+  - Skippers Aviation
+  - SmartLynx Australia
+  - Solomon Airlines
+  - Sunair
+  - Sunstate Airlines
+  - Tasman Cargo Airlines
+  - Virgin Australia
+  - Virgin Australia Regional Airlines
+  - West Wing Aviation
+  - Yanda Airlines
+  - air2there
+  disputed: []
+  changes: []
+  official_count: 54
+  out_of_universe: []
+  source: member-state list in raw/wiki/Pacific_Islands_Forum.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 43071
+  note: eighteen member states
+- id: efta_airlines
+  name: Airlines of European Free Trade Association member states
+  kind: bloc
+  org: European Free Trade Association
+  synonyms: []
+  wiki: European Free Trade Association
+  members:
+  - Air Atlanta Icelandic
+  - Air Iceland
+  - Bluebird Nordic
+  - CHC Helikopter Service
+  - EasyJet Switzerland
+  - Edelweiss Air
+  - Helvetic Airways
+  - Icelandair
+  - Lufttransport
+  - Norse Atlantic Airways
+  - Norwegian Air Norway
+  - Norwegian Air Shuttle
+  - People's
+  - Scandinavian Airlines
+  - Swiss International Air Lines
+  - Widerøe
+  - Zimex Aviation
+  disputed: []
+  changes: []
+  official_count: 17
+  out_of_universe: []
+  source: member-state list in raw/wiki/European_Free_Trade_Association.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 153397
+  note: four member states
+- id: amu_airlines
+  name: Airlines of Arab Maghreb Union member states
+  kind: bloc
+  org: Arab Maghreb Union
+  synonyms: []
+  wiki: Arab Maghreb Union
+  members:
+  - Air Algérie
+  - Air Arabia Maroc
+  - Air Libya
+  - Air One Nine Company
+  - Buraq Air
+  - Domestic Airlines
+  - Express Air Cargo
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - Libyan Airlines
+  - Libyan Wings
+  - Mauritania Airlines
+  - Nayzak Air Transport
+  - Nouvelair
+  - RAM Cargo
+  - Royal Air Maroc
+  - Royal Air Maroc Express
+  - Tobruk Air
+  - Tunisair
+  - Tunisair Express
+  disputed: []
+  changes: []
+  official_count: 20
+  out_of_universe: []
+  source: member-state list in raw/wiki/Arab_Maghreb_Union.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 33254
+  note: five member states
+- id: sco_airlines
+  name: Airlines of Shanghai Cooperation Organisation member states
+  kind: bloc
+  org: Shanghai Cooperation Organisation
+  synonyms: []
+  wiki: Shanghai Cooperation Organisation
+  members:
+  - 9 Air
+  - AIX Connect
+  - ALROSA Air Company
+  - ATRAN
+  - Aeroflot
+  - Aerostan
+  - Air Astana
+  - Air Central
+  - Air Changan
+  - Air China
+  - Air China Cargo
+  - Air China Inner Mongolia
+  - Air Deccan
+  - Air Guilin
+  - Air Hong Kong
+  - Air India
+  - Air India Express
+  - Air Macau
+  - Air Samarkand
+  - Air Travel
+  - AirBridgeCargo Airlines
+  - AirSial
+  - Akasa Air
+  - Alliance Air
+  - Angara Airlines
+  - Asian Express Airline
+  - Askari Aviation
+  - Asman Airlines
+  - Aurora
+  - Avia Traffic Company
+  - Aviacon Zitotrans
+  - Avialeasing
+  - Aviastar-TU
+  - Azimuth
+  - Azur Air
+  - Beijing Capital Airlines
+  - Belavia
+  - Blue Dart Aviation
+  - Cathay Pacific
+  - Central Airlines
+  - Centrum Air
+  - Chengdu Airlines
+  - China Cargo Airlines
+  - China Eastern Airlines
+  - China Express Airlines
+  - China Postal Airlines
+  - China Southern Airlines
+  - China United Airlines
+  - China Xinhua Airlines
+  - Chitaavia
+  - Chongqing Airlines
+  - Colorful Guizhou Airlines
+  - Dalian Airlines
+  - Deccan 360
+  - Deccan Charters
+  - Donghai Airlines
+  - Euro-Asia Air
+  - FLYeasy
+  - FlyArystan
+  - Fuzhou Airlines
+  - GX Airlines
+  - Gazprom Avia
+  - Genghis Khan Airlines
+  - Globus
+  - Go First
+  - Grand China Air
+  - Grozny Avia
+  - HK Express
+  - Hainan Airlines
+  - Hebei Airlines
+  - Hong Kong Airlines
+  - I-Fly
+  - Ikar
+  - IndiGo
+  - Inter Trans Avia
+  - IrAero
+  - Izhavia
+  - Jagson Group
+  - Jiangsu JD Cargo Airlines
+  - Jiangxi Air
+  - Joy Air
+  - Kazaviaspas
+  - Kish Air
+  - Komiaviatrans
+  - KrasAvia
+  - Kunming Airlines
+  - Kyrgyz Trans Avia
+  - LJ Air
+  - Loong Air
+  - Lucky Air
+  - Mahan Air
+  - My Freighter Airlines
+  - Nordwind Airlines
+  - OTT Airlines
+  - Okay Airways
+  - Orenburzhye
+  - PANH
+  - Pakistan International Airlines
+  - Payam Air
+  - Pobeda
+  - Polar Airlines
+  - Qanot Sharq
+  - Qazaq Air
+  - Qingdao Airlines
+  - Quikjet Airlines
+  - Red Wings Airlines
+  - Rossiya
+  - Ruili Airlines
+  - RusLine
+  - SCAT Airlines
+  - SF Airlines
+  - Samarkand Airways
+  - Serene Air
+  - Severstal Air Company
+  - Shaheen Air
+  - Shandong Airlines
+  - Shanghai Airlines
+  - Shenzhen Airlines
+  - Sichuan Airlines
+  - Silk Avia
+  - Sky Bishkek
+  - Sky Gates Airlines
+  - Sky Shuttle Helicopters
+  - Smartavia
+  - Somon Air
+  - SpiceJet
+  - Spring Airlines
+  - Sunday Airlines
+  - Suparna Airlines
+  - Taimyr Air Company
+  - Tajik Air
+  - Tianjin Airlines
+  - Tibet Airlines
+  - TransAVIAexport Airlines
+  - UTair Aviation
+  - UVT Aero
+  - Ural Airlines
+  - Urumqi Air
+  - Uzbekistan Airways
+  - Vistara
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - West Air
+  - Xiamen Airlines
+  - YTO Cargo Airlines
+  - Yakutia Airlines
+  - Yamal Airlines
+  - Ying'an Airlines
+  - Zoom Air
+  - airblue
+  disputed: []
+  changes: []
+  official_count: 150
+  out_of_universe: []
+  source: member-state list in raw/wiki/Shanghai_Cooperation_Organisation.wiki joined with airline country of headquarters
+    (raw/airlines.json)
+  salience: 346826
+  note: ten member states since Belarus joined in 2024
+- id: african_union_airlines
+  name: Airlines of African Union member states
+  kind: bloc
+  org: African Union
+  synonyms: []
+  wiki: African Union
+  members:
+  - 748 Air Services
+  - AB Aviation
+  - ALS – Aircraft Leasing Services
+  - AMC Airlines
+  - Aero Contractors
+  - Afric Aviation
+  - African Express Airways
+  - Air Algérie
+  - Air Arabia Egypt
+  - Air Arabia Maroc
+  - Air Botswana
+  - Air Burkina
+  - Air Cairo
+  - Air Congo
+  - Air Côte d'Ivoire
+  - Air Dabia
+  - Air Djibouti
+  - Air Leisure
+  - Air Libya
+  - Air Madagascar
+  - Air Mali
+  - Air Mauritius
+  - Air One Nine Company
+  - Air Peace
+  - Air Senegal
+  - Air Service Gabon
+  - Air Seychelles
+  - Air Sinai
+  - Air Tanzania
+  - Air Tanzania Corporation
+  - Air Zimbabwe
+  - Airkenya Express
+  - Airlink
+  - Airlink Cargo
+  - AlMasria Universal Airlines
+  - Alexandria Airlines
+  - Allied Air
+  - Arik Air
+  - Asky Airlines
+  - Astral Aviation
+  - Auric Air
+  - Axis Lines International
+  - Azman Air
+  - BAR Aviation Uganda
+  - Badr Airlines
+  - Buraq Air
+  - CEIBA Intercontinental
+  - Cabo Verde Airlines
+  - Cairo Aviation
+  - Camair-Co
+  - CemAir
+  - Chanchangi Airlines
+  - Civair
+  - Coastal Aviation
+  - Command Airways
+  - Cronos Airlines
+  - Daallo Airlines
+  - Dana Air
+  - Djibouti Air
+  - Domestic Airlines
+  - Douniah Airlines
+  - East African Safari Air
+  - Ecuato Guineana
+  - EgyptAir
+  - EgyptAir Cargo
+  - Elysian Airlines
+  - Eritrean Airlines
+  - Ethiopian Airlines
+  - Express Air Cargo
+  - Fastjet Zimbabwe
+  - Federal Air
+  - Flightlink
+  - Fly540
+  - FlySafair
+  - Ghadames Air Transport
+  - Global Aviation
+  - Global Aviation and Services Group
+  - Guine Bissau Airlines
+  - IRS Airlines
+  - Int'Air Îles
+  - Interair South Africa
+  - Jambojet
+  - Jubba Airways
+  - Karinou Airlines
+  - Kaya Airlines
+  - Kenya Airways
+  - LAM Mozambique Airlines
+  - Lesotho Airways
+  - Libyan Airlines
+  - Libyan Wings
+  - Madagasikara Airways
+  - Mahogany Air
+  - Malawi Airlines
+  - Mali Airways
+  - Mango
+  - Mauritania Airlines
+  - Max Air
+  - Mid Airlines
+  - National Airways Corporation
+  - National Airways Ethiopia
+  - Nayzak Air Transport
+  - Niger Airlines
+  - Nile Air
+  - Nouvelair
+  - Nouvelle Air Affaires Gabon
+  - Overland Airways
+  - Pan African Airlines
+  - Petroleum Air Services
+  - Phoebus Apollo Aviation
+  - Precision Air
+  - Proflight Zambia
+  - Punto Azul
+  - RAM Cargo
+  - Regional Air Services
+  - Royal Air Maroc
+  - Royal Air Maroc Express
+  - Royal Daisy Airlines
+  - Royal Fly-GH
+  - RwandAir
+  - STP Airways
+  - Safair
+  - Safarilink Aviation
+  - Sky Gabon
+  - Skyjet Airlines
+  - Skyward Airlines
+  - Smart Aviation Company
+  - South African Airways
+  - Starbow
+  - Sudan Airways
+  - Sun Air
+  - TAAG Angola Airlines
+  - Tarco Aviation
+  - Timbis Air
+  - Tobruk Air
+  - Tunisair
+  - Tunisair Express
+  - Ulendo Airlink
+  - United Arab Airlines
+  - ValueJet
+  - Westair Aviation
+  - Zambia Airways
+  - Zambia Skyways
+  - ZanAir
+  - Zimbabwe flyafrica.com
+  disputed: []
+  changes: []
+  official_count: 144
+  out_of_universe: []
+  source: member-state list in raw/wiki/African_Union.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 382745
+  note: fifty-five member states
+- id: commonwealth_airlines
+  name: Airlines of Commonwealth of Nations member states
+  kind: bloc
+  org: Commonwealth of Nations
+  synonyms: []
+  wiki: Commonwealth of Nations
+  members:
+  - 748 Air Services
+  - AIX Connect
+  - ALS – Aircraft Leasing Services
+  - ASL Airlines Australia
+  - Ad Astral Aviation
+  - Aer Lingus UK
+  - Aero Contractors
+  - Afric Aviation
+  - African Express Airways
+  - Air Astra
+  - Air Atlanta Europe
+  - Air Botswana
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Chathams
+  - Air Creebec
+  - Air Dabia
+  - Air Deccan
+  - Air Horizont
+  - Air India
+  - Air India Express
+  - Air Inuit
+  - Air Kiribati
+  - Air Liaison
+  - Air Link
+  - Air Mauritius
+  - Air New Zealand
+  - Air Niugini
+  - Air North
+  - Air Peace
+  - Air Service Gabon
+  - Air Seychelles
+  - Air Tanzania
+  - Air Tanzania Corporation
+  - Air Tindi
+  - Air Transat
+  - Air Vanuatu
+  - AirAsia
+  - AirAsia X
+  - AirSial
+  - AirTanker Services Limited
+  - Airhub Airlines
+  - Airkenya Express
+  - Airlines of Tasmania
+  - Airlink
+  - Airlink Cargo
+  - Airnorth
+  - Akasa Air
+  - Aklak Air
+  - Alliance Air
+  - Alliance Airlines
+  - Allied Air
+  - Arik Air
+  - Askari Aviation
+  - Asky Airlines
+  - Aspiring Air
+  - Astral Aviation
+  - Auric Air
+  - Aurigny Air Services
+  - Avion Express Malta
+  - Axis Lines International
+  - Azman Air
+  - BA CityFlyer
+  - BA EuroFlyer
+  - BAR Aviation Uganda
+  - Batik Air Malaysia
+  - Bearskin Airlines
+  - Berjaya Air
+  - Bismillah Airlines
+  - Blue Dart Aviation
+  - Bristow Helicopters
+  - British Airways
+  - British International Helicopters
+  - British Regional Airlines
+  - Brymon Airways
+  - Buffalo Airways
+  - Caicos Express Airways
+  - Calm Air
+  - Camair-Co
+  - Canadian North
+  - CargoLogicAir
+  - Cargojet
+  - Cayman Airways
+  - CemAir
+  - Central Mountain Air
+  - Chanchangi Airlines
+  - Cinnamon Air
+  - City Express
+  - Civair
+  - Coastal Aviation
+  - Command Airways
+  - Community Express Airlines
+  - Corendon Airlines Europe
+  - Coyne Airways
+  - Cyprus Airways
+  - DHL Air UK
+  - Dana Air
+  - Deccan 360
+  - Deccan Charters
+  - Eaglexpress
+  - East African Safari Air
+  - Eastern Airways
+  - Eastern Australia Airlines
+  - Easy Fly Express
+  - Elysian Airlines
+  - European Cargo
+  - Eurowings Europe
+  - Exploits Valley Air Services
+  - FLYeasy
+  - Federal Air
+  - Fiji Airways
+  - Fiji Link
+  - Firefly
+  - FitsAir
+  - Flair Airlines
+  - Flightlink
+  - Fly Tiwi
+  - Fly540
+  - FlyMe
+  - FlyMontserrat
+  - FlyPelican
+  - FlySafair
+  - Free Spirit Airlines
+  - Freebird Airlines Europe
+  - Global Aviation
+  - Go First
+  - Harbour Air
+  - HeavyLift Cargo Airlines
+  - Helijet
+  - Hi Fly Malta
+  - Hinterland Aviation
+  - IRS Airlines
+  - IndiGo
+  - Inter European Airways
+  - Interair South Africa
+  - International AirLink
+  - Iskwew Air
+  - Isles of Scilly Skybus
+  - Jagson Group
+  - Jambojet
+  - Jazz Aviation
+  - Jet2.com
+  - Jetconnect
+  - Jetstar Airways
+  - Jetstar Asia Airways
+  - KM Malta Airlines
+  - Kaya Airlines
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenn Borek Air
+  - Kenya Airways
+  - Kivalliq Air
+  - Kiwi Travel International Airlines
+  - LAM Mozambique Airlines
+  - Lauda Europe Ltd
+  - Lesotho Airways
+  - Liat Air
+  - Link Airways
+  - Loganair
+  - Lulutai Airlines
+  - MASkargo
+  - MASwings
+  - Mahogany Air
+  - Mainland Air
+  - Malawi Airlines
+  - Malaysia Airlines
+  - Maldivian
+  - Malta MedAir
+  - Mango
+  - Maroomba Airlines
+  - Max Air
+  - Maya Island Air
+  - Medavia
+  - Mount Cook Airline
+  - MyTravelLite Airlines
+  - National Airways Corporation
+  - National Jet Express
+  - National Jet Systems
+  - Nauru Airlines
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - Norse Atlantic UK
+  - North-Wright Airways
+  - Northwestern Air
+  - Nouvelle Air Affaires Gabon
+  - NovoAir
+  - One Air
+  - Orca Airways
+  - Originair
+  - Overland Airways
+  - PAL Airlines
+  - PNG Air
+  - Pacific Coastal Airlines
+  - Pakistan International Airlines
+  - Pan African Airlines
+  - Pascan Aviation
+  - Pel-Air
+  - Phoebus Apollo Aviation
+  - Porter Airlines
+  - Precision Air
+  - Proflight Zambia
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Queensland Regional Airlines
+  - Quikjet Airlines
+  - Raya Airways
+  - Regent Airways
+  - Regional Air Services
+  - Regional Pacific Airlines
+  - Rex Airlines
+  - Royal Brunei Airlines
+  - Royal Daisy Airlines
+  - Royal Fly-GH
+  - RwandAir
+  - Ryanair UK
+  - Sabah Air
+  - Safair
+  - Safarilink Aviation
+  - Samoa Airways
+  - Scoot
+  - Serene Air
+  - Shaheen Air
+  - Sharp Airlines
+  - Singapore Airlines
+  - Skippers Aviation
+  - Sky Gabon
+  - SkyAir
+  - SkyBahamas
+  - SkyUp MT
+  - Skyjet Airlines
+  - Skyward Airlines
+  - SmartLynx Airlines Malta
+  - SmartLynx Australia
+  - Solomon Airlines
+  - South African Airways
+  - Southern Air Charter
+  - SpiceJet
+  - SriLankan Airlines
+  - Starbow
+  - Starlink Aviation
+  - Sunair
+  - Sunstate Airlines
+  - TUI Airways
+  - Tasman Cargo Airlines
+  - Timbis Air
+  - Titan Airways
+  - Tobago Express
+  - Trans Maldivian Airways
+  - Transwest Air
+  - Tus Airways
+  - US-Bangla Airlines
+  - Ulendo Airlink
+  - United Airways
+  - VI Airlink
+  - ValueJet
+  - Virgin Atlantic
+  - Virgin Australia
+  - Virgin Australia Regional Airlines
+  - Vistara
+  - Voyageur Airways
+  - Wasaya Airways
+  - West Wing Aviation
+  - WestJet
+  - WestJet Encore
+  - Westair Aviation
+  - Wizz Air Malta
+  - Wizz Air UK
+  - World Cargo Airlines
+  - Yanda Airlines
+  - Zambia Airways
+  - Zambia Skyways
+  - ZanAir
+  - Zoom Air
+  - air2there
+  - airblue
+  - easyJet
+  disputed: []
+  changes: []
+  official_count: 278
+  out_of_universe: []
+  source: member-state list in raw/wiki/Commonwealth_of_Nations.wiki joined with airline country of headquarters (raw/airlines.json)
+  salience: 1422475
+  note: fifty-six member states
+- id: oic_airlines
+  name: Airlines of Organisation of Islamic Cooperation member states
+  kind: bloc
+  org: Organisation of Islamic Cooperation
+  synonyms: []
+  wiki: Organisation of Islamic Cooperation
+  members:
+  - AB Aviation
+  - AJet
+  - AMC Airlines
+  - AZALJet
+  - Aero Contractors
+  - Aerostan
+  - Afghan Jet International
+  - Afric Aviation
+  - Air ACT
+  - Air Albania
+  - Air Algérie
+  - Air Arabia
+  - Air Arabia Egypt
+  - Air Arabia Maroc
+  - Air Astana
+  - Air Astra
+  - Air Burkina
+  - Air Cairo
+  - Air Côte d'Ivoire
+  - Air Dabia
+  - Air Djibouti
+  - Air Leisure
+  - Air Libya
+  - Air Mali
+  - Air One Nine Company
+  - Air Peace
+  - Air Samarkand
+  - Air Senegal
+  - Air Service Gabon
+  - Air Sinai
+  - AirAsia
+  - AirAsia X
+  - AirSial
+  - Airfast Indonesia
+  - Al-Naser Airlines
+  - AlMasria Universal Airlines
+  - Albawings
+  - Alexandria Airlines
+  - Allied Air
+  - Ariana Afghan Airlines
+  - Arik Air
+  - Asia Cargo Airlines
+  - Asian Express Airline
+  - Askari Aviation
+  - Asky Airlines
+  - Asman Airlines
+  - Avia Traffic Company
+  - Avialeasing
+  - Aviastar
+  - Axis Lines International
+  - Azerbaijan Airlines
+  - Azman Air
+  - BAR Aviation Uganda
+  - Badr Airlines
+  - Bahrain Air
+  - Batik Air
+  - Batik Air Malaysia
+  - Berjaya Air
+  - Bismillah Airlines
+  - Buraq Air
+  - Cairo Aviation
+  - Camair-Co
+  - Centrum Air
+  - Cham Wings Airlines
+  - Chanchangi Airlines
+  - Citilink
+  - Click Airways
+  - Corendon Airlines
+  - DHL International Aviation ME
+  - Daallo Airlines
+  - Dana Air
+  - Djibouti Air
+  - Domestic Airlines
+  - Douniah Airlines
+  - Eaglexpress
+  - Eastern SkyJets
+  - Easy Fly Express
+  - EgyptAir
+  - EgyptAir Cargo
+  - Elysian Airlines
+  - Emirates
+  - Emirates SkyCargo
+  - Etihad Airways
+  - Euro-Asia Air
+  - Express Air Cargo
+  - Felix Airways
+  - Firefly
+  - Fly All Ways
+  - Fly Baghdad
+  - FlyArystan
+  - FlyDamas
+  - FlyMe
+  - Freebird Airlines
+  - Garuda Indonesia
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - Guine Bissau Airlines
+  - Gulf Air
+  - IRS Airlines
+  - IZair
+  - Indonesia Air Transport
+  - Indonesia AirAsia
+  - Indonesia AirAsia X
+  - Int'Air Îles
+  - Inter Trans Avia
+  - Iraqi Airways
+  - Jazeera Airways
+  - Jordan Aviation
+  - Jordan International Air Cargo
+  - Jubba Airways
+  - Kam Air
+  - Kaya Airlines
+  - Kazaviaspas
+  - Kish Air
+  - Kuwait Airways
+  - Kyrgyz Trans Avia
+  - LAM Mozambique Airlines
+  - Lebanese Air Transport
+  - Libyan Airlines
+  - Libyan Wings
+  - Lion Air
+  - MASkargo
+  - MASwings
+  - MNG Airlines
+  - Mahan Air
+  - Malaysia Airlines
+  - Maldivian
+  - Mali Airways
+  - Mandala Airlines
+  - Mauritania Airlines
+  - Max Air
+  - Med Airways
+  - MenaJet
+  - Mid Airlines
+  - Middle East Airlines - Air Liban
+  - My Freighter Airlines
+  - My Indo Airlines
+  - NAM Air
+  - Nayzak Air Transport
+  - Nesma Airlines
+  - Niger Airlines
+  - Nile Air
+  - Nouvelair
+  - Nouvelle Air Affaires Gabon
+  - NovoAir
+  - Oman Air
+  - Orbit Express Airlines
+  - Overland Airways
+  - Pakistan International Airlines
+  - Pan African Airlines
+  - Payam Air
+  - Pegasus Airlines
+  - Pelita Air Service
+  - Petroleum Air Services
+  - Phoenix Aviation
+  - Presidential Flight (UAE)
+  - Qanot Sharq
+  - Qatar Airways
+  - Qatar Airways Cargo
+  - Qatar Executive
+  - Qazaq Air
+  - RAM Cargo
+  - Raya Airways
+  - Regent Airways
+  - Republic Express Airlines
+  - Riyadh Air
+  - Rotana Jet
+  - Royal Air Maroc
+  - Royal Air Maroc Express
+  - Royal Brunei Airlines
+  - Royal Daisy Airlines
+  - Royal Jordanian
+  - Royal Wings
+  - SCAT Airlines
+  - Sabah Air
+  - SalamAir
+  - Samarkand Airways
+  - Saudia
+  - Saudia Cargo
+  - Saudigulf
+  - Serene Air
+  - Shaheen Air
+  - Silk Avia
+  - Silk Way Airline
+  - Silk Way West Airlines
+  - Sky Bishkek
+  - Sky Gabon
+  - SkyAir
+  - SkyLink Arabia
+  - Skyjet Airlines
+  - Smart Aviation Company
+  - Somon Air
+  - Southwind Airlines
+  - Sriwijaya Air
+  - Sudan Airways
+  - Sun Air
+  - SunExpress
+  - Sunday Airlines
+  - Surinam Airways
+  - Susi Air
+  - Syrian Air
+  - Tailwind Airlines
+  - Tajik Air
+  - Tarco Aviation
+  - Tobruk Air
+  - Trans Maldivian Airways
+  - TransNusa Air Services
+  - Travira Air
+  - Trigana Air Service
+  - Tunisair
+  - Tunisair Express
+  - Turkish Airlines
+  - Turkmenistan Airlines
+  - ULS Airlines Cargo
+  - UR Airlines
+  - US-Bangla Airlines
+  - United Airways
+  - United Arab Airlines
+  - Uzbekistan Airways
+  - ValueJet
+  - Wataniya Airways
+  - Wings Air
+  - Wings of Lebanon
+  - Wizz Air Abu Dhabi
+  - World Cargo Airlines
+  - Yemenia
+  - Zagrosjet
+  - airblue
+  - flyadeal
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 230
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Organisation_of_Islamic_Cooperation.wiki lines 89-168 (57 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 209910
+  note: 57 official member countries in the source table; 51 represented in the airline universe
+- id: apec_airlines
+  name: Airlines of Asia-Pacific Economic Cooperation member economies
+  kind: bloc
+  org: Asia-Pacific Economic Cooperation
+  synonyms: []
+  wiki: Asia Pacific Economic Cooperation
+  members:
+  - 2GO Air
+  - 7Air Cargo
+  - 9 Air
+  - ABX Air
+  - ALROSA Air Company
+  - ANA Wings
+  - ASL Airlines Australia
+  - ATRAN
+  - Ad Astral Aviation
+  - Aero Cóndor
+  - Aero K
+  - Aeroflot
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aerus
+  - Air Busan
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Cargo Carriers
+  - Air Central
+  - Air Changan
+  - Air Chathams
+  - Air China
+  - Air China Cargo
+  - Air China Inner Mongolia
+  - Air Creebec
+  - Air Do
+  - Air Flamenco
+  - Air Grand Canyon
+  - Air Guilin
+  - Air Hong Kong
+  - Air Illinois
+  - Air Incheon
+  - Air Inuit
+  - Air Japan
+  - Air Juan
+  - Air Liaison
+  - Air Link
+  - Air Macau
+  - Air New Zealand
+  - Air Niugini
+  - Air North
+  - Air People International
+  - Air Premia
+  - Air Seoul
+  - Air Sunshine
+  - Air Tindi
+  - Air Transat
+  - Air Transport International
+  - Air Travel
+  - Air Wisconsin
+  - AirAsia
+  - AirAsia X
+  - AirBridgeCargo Airlines
+  - AirSWIFT
+  - Airfast Indonesia
+  - Airlines of Tasmania
+  - Airnorth
+  - Airphil Express
+  - Aklak Air
+  - Alaska Airlines
+  - Alaska Central Express
+  - Alaska Coastal Airlines
+  - All Nippon Airways
+  - Allegiant Air
+  - Alliance Airlines
+  - Aloha Air Cargo
+  - Alpine Air Express
+  - Amakusa Airlines
+  - American Airlines
+  - Ameriflight
+  - Amerijet International
+  - Ameristar Jet Charter
+  - Angara Airlines
+  - Arizona Airways
+  - Asia Atlantic Airlines
+  - Asia Cargo Airlines
+  - Asia Pacific Airlines
+  - Asiana Airlines
+  - Aspiring Air
+  - Astar Air Cargo
+  - Atlas Air
+  - Atsa Airlines
+  - Aurora
+  - Avelo Airlines
+  - Aviacon Zitotrans
+  - Avianca Cargo México
+  - Avianca Peru
+  - Aviandina
+  - Aviastar
+  - Aviastar-TU
+  - Azimuth
+  - Azur Air
+  - Bamboo Airways
+  - Bangkok Airways
+  - Batik Air
+  - Batik Air Malaysia
+  - Bearskin Airlines
+  - Beijing Capital Airlines
+  - Bemidji Airlines
+  - Bering Air
+  - Berjaya Air
+  - Boutique Air
+  - Branson Air Express
+  - Breeze Airways
+  - Buffalo Airways
+  - Business Air
+  - CALAFIAAIRLINES
+  - Calm Air
+  - Canadian North
+  - Cape Air
+  - Capitol Air
+  - Cargojet
+  - Cathay Pacific
+  - Cebgo
+  - Cebu Pacific
+  - Central Airlines
+  - Central Mountain Air
+  - Centurion Air Cargo
+  - Chengdu Airlines
+  - China Airlines
+  - China Cargo Airlines
+  - China Eastern Airlines
+  - China Express Airlines
+  - China Postal Airlines
+  - China Southern Airlines
+  - China United Airlines
+  - China Xinhua Airlines
+  - Chitaavia
+  - Chongqing Airlines
+  - Citilink
+  - City Express
+  - Colorful Guizhou Airlines
+  - CommuteAir
+  - Contour Airlines
+  - Contract Air Cargo
+  - Corporate Flight Management
+  - Crystal Thai Airlines
+  - Daily Air
+  - Dalian Airlines
+  - Delta Air Lines
+  - Donghai Airlines
+  - EVA Air
+  - Eaglexpress
+  - Eastar Jet
+  - Eastern Airlines, LLC
+  - Eastern Australia Airlines
+  - Elite Airways
+  - Empire Airlines
+  - Endeavor Air
+  - Enterprise Airlines
+  - Envoy Air
+  - Estafeta Carga Aérea
+  - Everts Air
+  - Everts Air Cargo
+  - Exploits Valley Air Services
+  - Express One International
+  - ExpressJet
+  - FedEx Express
+  - Firefly
+  - Flair Airlines
+  - Fly Tiwi
+  - FlyPelican
+  - Free Spirit Airlines
+  - Freedom Air
+  - Frontier Airlines
+  - Fuji Dream Airlines
+  - Fuzhou Airlines
+  - GX Airlines
+  - Garuda Indonesia
+  - Gazprom Avia
+  - Genghis Khan Airlines
+  - Globus
+  - GoJet Airlines LLC
+  - Grand Canyon Airlines
+  - Grand China Air
+  - Grant Aviation
+  - Great Lakes Airlines
+  - Grozny Avia
+  - HK Express
+  - Hainan Airlines
+  - Harbour Air
+  - Hawaiian Airlines
+  - Hebei Airlines
+  - Helijet
+  - Hi Air
+  - Hinterland Aviation
+  - Hokkaido Air System
+  - Hong Kong Airlines
+  - Horizon Air
+  - I-Fly
+  - IBC Airways
+  - Ibex Airlines
+  - Ikar
+  - Indonesia Air Transport
+  - Indonesia AirAsia
+  - Indonesia AirAsia X
+  - Interisland Airlines
+  - IrAero
+  - Iskwew Air
+  - Island Air (Hawaii)
+  - Izhavia
+  - J-Air
+  - Japan Air Commuter
+  - Japan Airlines
+  - Japan Transocean Air
+  - Jazz Aviation
+  - Jeju Air
+  - Jet Asia Airways
+  - JetBlue Airways
+  - JetSmart
+  - Jetconnect
+  - Jetstar Airways
+  - Jetstar Asia Airways
+  - Jetstar Japan
+  - Jiangsu JD Cargo Airlines
+  - Jiangxi Air
+  - Jin Air
+  - Joy Air
+  - K-Mile Air
+  - KLM Asia
+  - Kalitta Air
+  - Kalitta Charters
+  - Kan Air
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenmore Air
+  - Kenn Borek Air
+  - Key Lime Air
+  - Kivalliq Air
+  - Kiwi Travel International Airlines
+  - Komiaviatrans
+  - Korea Express Air
+  - KrasAvia
+  - Kunming Airlines
+  - LATAM Airlines
+  - LATAM Airlines Peru
+  - LATAM Cargo Chile
+  - LJ Air
+  - Link Airways
+  - Lion Air
+  - Locair
+  - Loong Air
+  - Lucky Air
+  - Lynden Air Cargo
+  - MASkargo
+  - MASwings
+  - MAYAir
+  - Magnicharters
+  - Mainland Air
+  - Malaysia Airlines
+  - Mandala Airlines
+  - Mandarin Airlines
+  - Maroomba Airlines
+  - MasAir Cargo Mexico
+  - Mesa Airlines
+  - Miami Air International
+  - Mokulele Airlines
+  - Mount Cook Airline
+  - Mountain Air Cargo
+  - My Indo Airlines
+  - NAM Air
+  - Nantucket Airlines
+  - National Airlines
+  - National Jet Express
+  - National Jet Systems
+  - NetJets
+  - New England Airlines
+  - New Gen Airways
+  - Nippon Cargo Airlines
+  - Nok Air
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - Nordwind Airlines
+  - North-Wright Airways
+  - Northcoast Executive Airlines
+  - Northern Air Cargo
+  - Northwestern Air
+  - OTT Airlines
+  - Okay Airways
+  - Omni Air International
+  - OneJet
+  - Orca Airways
+  - Orenburzhye
+  - Orient Thai Airlines
+  - Oriental Air Bridge
+  - Originair
+  - PAL Airlines
+  - PAL Express
+  - PANH
+  - PNG Air
+  - PSA Airlines
+  - PUTANG INA KA Airways
+  - Pacific Airlines
+  - Pacific Coastal Airlines
+  - Pacific Wings
+  - Pacificair
+  - Pan Pacific Airlines
+  - Parata Air
+  - Pascan Aviation
+  - Peach
+  - Pel-Air
+  - Pelita Air Service
+  - PenAir
+  - Philippine Airlines
+  - Philippines AirAsia
+  - Phoenix Air
+  - Pobeda
+  - Polar Air Cargo
+  - Polar Airlines
+  - Porter Airlines
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Qingdao Airlines
+  - Queensland Regional Airlines
+  - Raya Airways
+  - Red Wings Airlines
+  - Regional Cargo
+  - Regional Pacific Airlines
+  - Regional Sky
+  - Republic Airways
+  - Republic Express Airlines
+  - Rex Airlines
+  - Rossiya
+  - Royal Brunei Airlines
+  - Ruili Airlines
+  - RusLine
+  - SF Airlines
+  - Sabah Air
+  - Salmon Air
+  - Scenic Airlines
+  - Scoot
+  - Seaborne Airlines
+  - Servant Air
+  - Severstal Air Company
+  - Shandong Airlines
+  - Shanghai Airlines
+  - Sharp Airlines
+  - Shenzhen Airlines
+  - Siam Air
+  - Sichuan Airlines
+  - Sierra Pacific Airlines
+  - Silver Airways
+  - Singapore Airlines
+  - Skippers Aviation
+  - Sky Airline
+  - Sky Airline Peru
+  - Sky Gates Airlines
+  - Sky Lease Cargo
+  - Sky Pasada
+  - Sky Shuttle Helicopters
+  - SkyJet
+  - SkyWest Airlines
+  - Skymark Airlines
+  - Skyway Enterprises
+  - SmartLynx Australia
+  - Smartavia
+  - Solaseed Air
+  - Southeast Airlines
+  - Southern Airways Express
+  - Southwest Airlines
+  - Spring Airlines
+  - Spring Airlines Japan
+  - Sriwijaya Air
+  - Star Perú
+  - StarFlyer
+  - Starlink Aviation
+  - Starlux Airlines
+  - Sun Air International
+  - Sun Country Airlines
+  - Sunair
+  - Sunstate Airlines
+  - Suparna Airlines
+  - Superior Aviation
+  - Susi Air
+  - TAR México
+  - Tailwind Air Service
+  - Taimyr Air Company
+  - Taquan Air
+  - Tasman Cargo Airlines
+  - Thai AirAsia
+  - Thai AirAsia X
+  - Thai Airways
+  - Thai Lion Air
+  - Thai Smile
+  - Thai Vietjet Air
+  - Tianjin Airlines
+  - Tibet Airlines
+  - Toki Air
+  - Tradewind Aviation
+  - Trans Executive Airlines
+  - TransNusa Air Services
+  - Transwest Air
+  - Travira Air
+  - Trigana Air Service
+  - Trinity Airways
+  - UPS Airlines
+  - USA Jet Airlines
+  - UTair Aviation
+  - UVT Aero
+  - Ultimate Air Shuttle
+  - Uni Air
+  - United Airlines
+  - United Express
+  - Ural Airlines
+  - Urumqi Air
+  - V Air
+  - Vanilla Air
+  - Vieques Air Link
+  - VietJet Air
+  - Vietnam Air Services Company
+  - Vietnam Airlines
+  - Vintage Props and Jets
+  - Virgin Australia
+  - Virgin Australia Regional Airlines
+  - Viva
+  - Viva Air Peru
+  - Volaris
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - Voyageur Airways
+  - Warbelow's Air Ventures
+  - Wasaya Airways
+  - West Air
+  - West Wing Aviation
+  - WestJet
+  - WestJet Encore
+  - Western Global Airlines
+  - Westward Airways
+  - Wiggins Airways
+  - Wings Air
+  - World Atlantic Airlines
+  - World Cargo Airlines
+  - Wright Air Service
+  - Xiamen Airlines
+  - YTO Cargo Airlines
+  - Yakutia Airlines
+  - Yamal Airlines
+  - Yanda Airlines
+  - Ying'an Airlines
+  - Yute Commuter Service
+  - ZIPAIR Tokyo
+  - air2there
+  - iAero Airways
+  disputed: []
+  changes: []
+  official_count: 446
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Asia_Pacific_Economic_Cooperation.wiki lines 193-310 (21 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 215960
+  note: 21 official member countries in the source table; 20 represented in the airline universe
+- id: g20_airlines
+  name: Airlines of Group of Twenty member states
+  kind: bloc
+  org: Group of Twenty
+  synonyms: []
+  wiki: G20
+  members:
+  - 7Air Cargo
+  - 9 Air
+  - ABX Air
+  - AIX Connect
+  - AJet
+  - ALROSA Air Company
+  - ANA Wings
+  - ASL Airlines Australia
+  - ASL Airlines France
+  - ATRAN
+  - Abaeté Aviação
+  - Ad Astral Aviation
+  - Aer Lingus UK
+  - Aero K
+  - AeroLogic
+  - Aerochaco
+  - Aeroflot
+  - Aeroitalia
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aerus
+  - Air ACT
+  - Air Antilles
+  - Air Austral
+  - Air Busan
+  - Air Calédonie
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Caraïbes
+  - Air Cargo Carriers
+  - Air Central
+  - Air Changan
+  - Air China
+  - Air China Cargo
+  - Air China Inner Mongolia
+  - Air Corsica
+  - Air Creebec
+  - Air Deccan
+  - Air Do
+  - Air Dolomiti
+  - Air Flamenco
+  - Air France
+  - Air France Hop
+  - Air France KLM Martinair Cargo
+  - Air Grand Canyon
+  - Air Guilin
+  - Air Guyane Express
+  - Air Hamburg
+  - Air Hong Kong
+  - Air Illinois
+  - Air Incheon
+  - Air India
+  - Air India Express
+  - Air Inuit
+  - Air Japan
+  - Air Liaison
+  - Air Link
+  - Air Macau
+  - Air North
+  - Air Premia
+  - Air Saint-Pierre
+  - Air Seoul
+  - Air Sunshine
+  - Air Tahiti
+  - Air Tahiti Nui
+  - Air Tindi
+  - Air Transat
+  - Air Transport International
+  - Air Travel
+  - Air Wisconsin
+  - AirBridgeCargo Airlines
+  - AirTanker Services Limited
+  - Airbus Transport International
+  - Aircalin
+  - Airfast Indonesia
+  - Airlines of Tasmania
+  - Airlink
+  - Airlink Cargo
+  - Airnorth
+  - Akasa Air
+  - Aklak Air
+  - Alaska Airlines
+  - Alaska Central Express
+  - Alaska Coastal Airlines
+  - Alidaunia
+  - All Nippon Airways
+  - Allegiant Air
+  - Alliance Air
+  - Alliance Airlines
+  - Aloha Air Cargo
+  - Alpine Air Express
+  - Amakusa Airlines
+  - American Airlines
+  - Ameriflight
+  - Amerijet International
+  - Ameristar Jet Charter
+  - Angara Airlines
+  - Arcus Air
+  - Arizona Airways
+  - Asia Cargo Airlines
+  - Asia Pacific Airlines
+  - Asiana Airlines
+  - Astar Air Cargo
+  - Atlas Air
+  - Aurigny Air Services
+  - Aurora
+  - Avelo Airlines
+  - Aviacon Zitotrans
+  - Avianca Argentina
+  - Avianca Cargo México
+  - Aviastar
+  - Aviastar-TU
+  - Avion Express Brasil
+  - Azimuth
+  - Azur Air
+  - BA CityFlyer
+  - BA EuroFlyer
+  - Batik Air
+  - Bearskin Airlines
+  - Beijing Capital Airlines
+  - Bemidji Airlines
+  - Bering Air
+  - Blue Dart Aviation
+  - Boutique Air
+  - Branson Air Express
+  - Breeze Airways
+  - Bristow Helicopters
+  - British Airways
+  - British International Helicopters
+  - British Regional Airlines
+  - Brymon Airways
+  - Buffalo Airways
+  - CALAFIAAIRLINES
+  - CMA CGM Air Cargo
+  - Caicos Express Airways
+  - Calm Air
+  - Canadian North
+  - Cape Air
+  - Capitol Air
+  - CargoLogicAir
+  - Cargojet
+  - Cargolux Italia
+  - Cathay Pacific
+  - Cayman Airways
+  - CemAir
+  - Central Airlines
+  - Central Mountain Air
+  - Centurion Air Cargo
+  - Chalair Aviation
+  - Chengdu Airlines
+  - China Cargo Airlines
+  - China Eastern Airlines
+  - China Express Airlines
+  - China Postal Airlines
+  - China Southern Airlines
+  - China United Airlines
+  - China Xinhua Airlines
+  - Chitaavia
+  - Chongqing Airlines
+  - Citilink
+  - City Express
+  - Civair
+  - Colorful Guizhou Airlines
+  - Command Airways
+  - Community Express Airlines
+  - CommuteAir
+  - Condor Flugdienst
+  - Contour Airlines
+  - Contract Air Cargo
+  - Corendon Airlines
+  - Corporate Flight Management
+  - Corsair International
+  - Coyne Airways
+  - DHL Air UK
+  - Dalian Airlines
+  - Deccan 360
+  - Deccan Charters
+  - Delta Air Lines
+  - Discover Airlines
+  - Donghai Airlines
+  - Eastar Jet
+  - Eastern Airlines, LLC
+  - Eastern Airways
+  - Eastern Australia Airlines
+  - Elite Airways
+  - Empire Airlines
+  - Endeavor Air
+  - Enterprise Airlines
+  - Envoy Air
+  - Estafeta Carga Aérea
+  - European Air Transport Leipzig
+  - European Cargo
+  - Eurowings
+  - Everts Air
+  - Everts Air Cargo
+  - Ewa Air
+  - Exploits Valley Air Services
+  - Express One International
+  - ExpressJet
+  - FAI rent-a-jet
+  - FLYeasy
+  - FedEx Express
+  - Federal Air
+  - Flair Airlines
+  - Fly Tiwi
+  - FlyMontserrat
+  - FlyPelican
+  - FlySafair
+  - Free Spirit Airlines
+  - Freebird Airlines
+  - Freedom Air
+  - French Bee
+  - Frontier Airlines
+  - Fuji Dream Airlines
+  - Fuzhou Airlines
+  - GX Airlines
+  - Garuda Indonesia
+  - Gazprom Avia
+  - Genghis Khan Airlines
+  - Global Aviation
+  - Globus
+  - Go First
+  - GoJet Airlines LLC
+  - Gol Transportes Aéreos
+  - Grand Canyon Airlines
+  - Grand China Air
+  - Grant Aviation
+  - Great Lakes Airlines
+  - Grozny Avia
+  - HK Express
+  - Hainan Airlines
+  - Harbour Air
+  - Hawaiian Airlines
+  - HeavyLift Cargo Airlines
+  - Hebei Airlines
+  - Helijet
+  - Hi Air
+  - Hinterland Aviation
+  - Hokkaido Air System
+  - Hong Kong Airlines
+  - Horizon Air
+  - I-Fly
+  - IBC Airways
+  - ITA Airways
+  - IZair
+  - Ibex Airlines
+  - Ikar
+  - IndiGo
+  - Indonesia Air Transport
+  - Indonesia AirAsia
+  - Indonesia AirAsia X
+  - Inter European Airways
+  - Interair South Africa
+  - IrAero
+  - Iskwew Air
+  - Island Air (Hawaii)
+  - Isles of Scilly Skybus
+  - Izhavia
+  - J-Air
+  - Jagson Group
+  - Japan Air Commuter
+  - Japan Airlines
+  - Japan Transocean Air
+  - Jazz Aviation
+  - Jeju Air
+  - Jet Aviation
+  - Jet2.com
+  - JetBlue Airways
+  - JetSmart Argentina
+  - Jetstar Airways
+  - Jetstar Japan
+  - Jiangsu JD Cargo Airlines
+  - Jiangxi Air
+  - Jin Air
+  - Joy Air
+  - Kalitta Air
+  - Kalitta Charters
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenmore Air
+  - Kenn Borek Air
+  - Key Lime Air
+  - Kivalliq Air
+  - Komiaviatrans
+  - Korea Express Air
+  - KrasAvia
+  - Kunming Airlines
+  - LATAM Brasil
+  - LJ Air
+  - La Compagnie
+  - Leav Aviation
+  - Link Airways
+  - Lion Air
+  - Locair
+  - Loganair
+  - Loong Air
+  - Lucky Air
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa City Airlines
+  - Lufthansa CityLine
+  - Lufthansa Regional
+  - Lynden Air Cargo
+  - Líneas Aéreas del Estado (LADE)
+  - MAP Linhas Aéreas
+  - MAYAir
+  - MHS Aviation
+  - MNG Airlines
+  - Magnicharters
+  - Mandala Airlines
+  - Mango
+  - Maroomba Airlines
+  - MasAir Cargo Mexico
+  - Mesa Airlines
+  - Miami Air International
+  - Mokulele Airlines
+  - Mountain Air Cargo
+  - My Indo Airlines
+  - MyTravelLite Airlines
+  - NAM Air
+  - Nantucket Airlines
+  - National Airlines
+  - National Airways Corporation
+  - National Jet Express
+  - National Jet Systems
+  - Neos
+  - Nesma Airlines
+  - NetJets
+  - New England Airlines
+  - Nippon Cargo Airlines
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - Nordwind Airlines
+  - Norse Atlantic UK
+  - North-Wright Airways
+  - Northcoast Executive Airlines
+  - Northern Air Cargo
+  - Northwestern Air
+  - OTT Airlines
+  - Oceanair
+  - Okay Airways
+  - Omni Air International
+  - One Air
+  - OneJet
+  - Orbit Express Airlines
+  - Orca Airways
+  - Orenburzhye
+  - Oriental Air Bridge
+  - PAL Airlines
+  - PANH
+  - PSA Airlines
+  - Pacific Coastal Airlines
+  - Pacific Wings
+  - Parata Air
+  - Pascan Aviation
+  - Peach
+  - Pegasus Airlines
+  - Pel-Air
+  - Pelita Air Service
+  - PenAir
+  - Phoebus Apollo Aviation
+  - Phoenix Air
+  - Platinum Air Linhas Aéreas
+  - Pobeda
+  - Polar Air Cargo
+  - Polar Airlines
+  - Porter Airlines
+  - Poste Air Cargo
+  - Private Wings
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Qingdao Airlines
+  - Queensland Regional Airlines
+  - Quikjet Airlines
+  - Red Wings Airlines
+  - Regional Cargo
+  - Regional Pacific Airlines
+  - Regional Sky
+  - Republic Airways
+  - Republic Express Airlines
+  - Rex Airlines
+  - Rhein-Neckar Air
+  - Riyadh Air
+  - Rossiya
+  - Ruili Airlines
+  - RusLine
+  - Ryanair UK
+  - SF Airlines
+  - Safair
+  - Salmon Air
+  - Saudia
+  - Saudia Cargo
+  - Saudigulf
+  - Scenic Airlines
+  - Seaborne Airlines
+  - Servant Air
+  - Severstal Air Company
+  - Shandong Airlines
+  - Shanghai Airlines
+  - Sharp Airlines
+  - Shenzhen Airlines
+  - Sichuan Airlines
+  - Sierra Pacific Airlines
+  - Silver Airways
+  - Skippers Aviation
+  - Sky Alps
+  - Sky Gates Airlines
+  - Sky Lease Cargo
+  - Sky Shuttle Helicopters
+  - SkyWest Airlines
+  - Skymark Airlines
+  - Skyway Enterprises
+  - SmartLynx Australia
+  - Smartavia
+  - Solaseed Air
+  - South African Airways
+  - Southeast Airlines
+  - Southern Airways Express
+  - Southwest Airlines
+  - Southwind Airlines
+  - SpiceJet
+  - Spring Airlines
+  - Spring Airlines Japan
+  - Sriwijaya Air
+  - St Barth Commuter
+  - StarFlyer
+  - Starlink Aviation
+  - Sun Air International
+  - Sun Country Airlines
+  - SunExpress
+  - Sundair
+  - Sunstate Airlines
+  - Suparna Airlines
+  - Superior Aviation
+  - Susi Air
+  - Sylt Air
+  - TAR México
+  - TUI Airways
+  - TUI fly Deutschland
+  - Tailwind Air Service
+  - Tailwind Airlines
+  - Taimyr Air Company
+  - Taquan Air
+  - Tasman Cargo Airlines
+  - Tianjin Airlines
+  - Tibet Airlines
+  - Titan Airways
+  - Toki Air
+  - Tradewind Aviation
+  - Trans Executive Airlines
+  - TransNusa Air Services
+  - Transavia France
+  - Transwest Air
+  - Travira Air
+  - Trigana Air Service
+  - Trinity Airways
+  - Turkish Airlines
+  - Twin Jet
+  - ULS Airlines Cargo
+  - UPS Airlines
+  - USA Jet Airlines
+  - UTair Aviation
+  - UVT Aero
+  - Ultimate Air Shuttle
+  - United Airlines
+  - United Express
+  - Ural Airlines
+  - Urumqi Air
+  - VI Airlink
+  - Vanilla Air
+  - Vieques Air Link
+  - Vintage Props and Jets
+  - Virgin Atlantic
+  - Virgin Australia
+  - Virgin Australia Regional Airlines
+  - Virgin Express France
+  - Vistara
+  - Viva
+  - Volaris
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - Voyageur Airways
+  - WDL Aviation
+  - Wan Air
+  - Warbelow's Air Ventures
+  - Wasaya Airways
+  - West Air
+  - West Wing Aviation
+  - WestJet
+  - WestJet Encore
+  - Western Global Airlines
+  - Westward Airways
+  - Wiggins Airways
+  - Wings Air
+  - Wizz Air UK
+  - World Atlantic Airlines
+  - Wright Air Service
+  - Xiamen Airlines
+  - YTO Cargo Airlines
+  - Yakutia Airlines
+  - Yamal Airlines
+  - Yanda Airlines
+  - Ying'an Airlines
+  - Yute Commuter Service
+  - ZIPAIR Tokyo
+  - Zoom Air
+  - easyJet
+  - flyadeal
+  - iAero Airways
+  disputed: []
+  changes: []
+  official_count: 511
+  out_of_universe: []
+  source: current member-state list in raw/wiki/G20.wiki lines 171-344 (19 official member countries) joined with airline country of
+    headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 746828
+  note: 19 official member countries in the source table; 19 represented in the airline universe
+- id: oecd_airlines
+  name: Airlines of OECD member states
+  kind: bloc
+  org: Organisation for Economic Co-operation and Development
+  synonyms: []
+  wiki: OECD
+  members:
+  - 7Air Cargo
+  - ABX Air
+  - AIS Airlines
+  - AJet
+  - ANA Wings
+  - ASL Airlines Australia
+  - ASL Airlines Belgium
+  - ASL Airlines France
+  - ASL Airlines Ireland
+  - Ad Astral Aviation
+  - Aegean Airlines
+  - Aer Arann Islands
+  - Aer Lingus
+  - Aer Lingus Regional
+  - Aer Lingus UK
+  - AerCaribe
+  - Aero K
+  - Aero VIP
+  - AeroLogic
+  - Aeroitalia
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aerosucre
+  - Aerus
+  - Air ACT
+  - Air Alsie
+  - Air Antilles
+  - Air Atlanta Icelandic
+  - Air Austral
+  - Air Busan
+  - Air Calédonie
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Caraïbes
+  - Air Cargo Carriers
+  - Air Cargo Global
+  - Air Chathams
+  - Air Corsica
+  - Air Creebec
+  - Air Do
+  - Air Dolomiti
+  - Air Europa
+  - Air Europa Express
+  - Air Flamenco
+  - Air France
+  - Air France Hop
+  - Air France KLM Martinair Cargo
+  - Air Grand Canyon
+  - Air Greenland
+  - Air Guyane Express
+  - Air Hamburg
+  - Air Iceland
+  - Air Illinois
+  - Air Incheon
+  - Air Inuit
+  - Air Japan
+  - Air Liaison
+  - Air Link
+  - Air Mediterranean
+  - Air New Zealand
+  - Air North
+  - Air Nostrum
+  - Air Premia
+  - Air Saint-Pierre
+  - Air Seoul
+  - Air Sunshine
+  - Air Tahiti
+  - Air Tahiti Nui
+  - Air Tindi
+  - Air Transat
+  - Air Transport International
+  - Air Wisconsin
+  - AirBaltic
+  - AirTanker Services Limited
+  - Airbus Transport International
+  - Aircalin
+  - Airlines of Tasmania
+  - Airnorth
+  - Aklak Air
+  - Alaska Airlines
+  - Alaska Central Express
+  - Alaska Coastal Airlines
+  - AlbaStar
+  - Alidaunia
+  - All Nippon Airways
+  - Allegiant Air
+  - Alliance Airlines
+  - Aloha Air Cargo
+  - Alpine Air Express
+  - Alsie Express
+  - Amakusa Airlines
+  - Amapola Flyg
+  - American Airlines
+  - Ameriflight
+  - Amerijet International
+  - Ameristar Jet Charter
+  - Andorra Airlines
+  - Arcus Air
+  - Arizona Airways
+  - Arkia
+  - Asia Pacific Airlines
+  - Asiana Airlines
+  - Aspiring Air
+  - Astar Air Cargo
+  - Atlas Air
+  - Aurigny Air Services
+  - Austrian Airlines
+  - Avelo Airlines
+  - Avianca
+  - Avianca Cargo
+  - Avianca Cargo México
+  - Avianca Costa Rica
+  - Avianca Express
+  - Avion Express
+  - Azores Airlines
+  - BA CityFlyer
+  - BA EuroFlyer
+  - BRA Braathens Regional Airlines
+  - Bearskin Airlines
+  - Bemidji Airlines
+  - Bering Air
+  - Binter Canarias
+  - Bluebird Airways
+  - Bluebird Nordic
+  - Boutique Air
+  - Braathens International Airways
+  - Braathens Regional
+  - Branson Air Express
+  - Breeze Airways
+  - Bristow Helicopters
+  - British Airways
+  - British International Helicopters
+  - British Regional Airlines
+  - Brussels Airlines
+  - Brymon Airways
+  - Budapest Aircraft Service
+  - Buffalo Airways
+  - CALAFIAAIRLINES
+  - CHC Airways
+  - CHC Helikopter Service
+  - CMA CGM Air Cargo
+  - Caicos Express Airways
+  - Calm Air
+  - Canadian North
+  - Canaryfly
+  - Cape Air
+  - Capitol Air
+  - CargoLogicAir
+  - Cargojet
+  - Cargolux
+  - Cargolux Italia
+  - Cayman Airways
+  - Central Connect Airlines
+  - Central Mountain Air
+  - Centurion Air Cargo
+  - Chalair Aviation
+  - Challenge Airlines IL
+  - City Express
+  - CityJet
+  - CityLine Hungary
+  - Clic Air
+  - Community Express Airlines
+  - CommuteAir
+  - Condor Flugdienst
+  - Contour Airlines
+  - Contract Air Cargo
+  - Copa Airlines Colombia
+  - Corendon Airlines
+  - Corendon Dutch Airlines
+  - Corporate Flight Management
+  - Corsair International
+  - Costa Rica Green Airways
+  - Coyne Airways
+  - Czech Airlines
+  - DAT
+  - DHL Air UK
+  - DOT LT
+  - Delta Air Lines
+  - Direktflyg
+  - Discover Airlines
+  - EL AL Israel Airlines Ltd.
+  - Eastar Jet
+  - Eastern Airlines, LLC
+  - Eastern Airways
+  - Eastern Australia Airlines
+  - EasyJet Switzerland
+  - Edelweiss Air
+  - Elite Airways
+  - Ellinair
+  - Empire Airlines
+  - Endeavor Air
+  - Enter Air
+  - Enterprise Airlines
+  - Envoy Air
+  - Estafeta Carga Aérea
+  - EuroAtlantic Airways
+  - European Air Transport Leipzig
+  - European Cargo
+  - Eurowings
+  - Evelop Airlines
+  - Everts Air
+  - Everts Air Cargo
+  - Ewa Air
+  - Exploits Valley Air Services
+  - Express One International
+  - ExpressJet
+  - FAI rent-a-jet
+  - FedEx Express
+  - Finnair
+  - Flair Airlines
+  - Flexflight
+  - Fly Tiwi
+  - Fly4 Airlines
+  - FlyMontserrat
+  - FlyPelican
+  - Free Spirit Airlines
+  - Freebird Airlines
+  - Freedom Air
+  - French Bee
+  - Frontier Airlines
+  - Frost Air
+  - Fuji Dream Airlines
+  - Gestair Group
+  - GetJet Airlines
+  - Go2Sky
+  - GoJet Airlines LLC
+  - Grand Canyon Airlines
+  - Grant Aviation
+  - Great Lakes Airlines
+  - Harbour Air
+  - Hawaiian Airlines
+  - HeavyLift Cargo Airlines
+  - Helijet
+  - Helvetic Airways
+  - Heston Airlines
+  - Hi Air
+  - Hi Fly
+  - Hinterland Aviation
+  - Hokkaido Air System
+  - Horizon Air
+  - Höga Kusten Flyg
+  - IBC Airways
+  - ITA Airways
+  - IZair
+  - Iberia
+  - Iberia Express
+  - Ibex Airlines
+  - Icelandair
+  - Inter European Airways
+  - Iskwew Air
+  - Island Air (Hawaii)
+  - Isles of Scilly Skybus
+  - Israir Airlines
+  - J-Air
+  - Japan Air Commuter
+  - Japan Airlines
+  - Japan Transocean Air
+  - Jazz Aviation
+  - Jeju Air
+  - Jet Aviation
+  - Jet Time
+  - Jet2.com
+  - JetBlue Airways
+  - JetSmart
+  - Jetconnect
+  - Jetstar Airways
+  - Jetstar Japan
+  - Jin Air
+  - KLM
+  - KLM Cityhopper
+  - Kalitta Air
+  - Kalitta Charters
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenmore Air
+  - Kenn Borek Air
+  - Key Lime Air
+  - Kivalliq Air
+  - Kiwi Travel International Airlines
+  - Korea Express Air
+  - LATAM Airlines
+  - LATAM Airlines Colombia
+  - LATAM Cargo Chile
+  - LATAM Cargo Colombia
+  - LOT Charters
+  - LOT Polish Airlines
+  - La Compagnie
+  - Leav Aviation
+  - Level
+  - Link Airways
+  - Locair
+  - Loganair
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa City Airlines
+  - Lufthansa CityLine
+  - Lufthansa Regional
+  - Lufttransport
+  - Luxair
+  - Lynden Air Cargo
+  - Líneas Aéreas Suramericanas
+  - MAP Jet
+  - MAYAir
+  - MHS Aviation
+  - MNG Airlines
+  - Magnicharters
+  - Mainland Air
+  - Marabu Airlines
+  - Marathon Airlines
+  - Maroomba Airlines
+  - Martinair
+  - MasAir Cargo Mexico
+  - Mesa Airlines
+  - Miami Air International
+  - Mokulele Airlines
+  - Mount Cook Airline
+  - Mountain Air Cargo
+  - MyTravelLite Airlines
+  - Nantucket Airlines
+  - National Airlines
+  - National Jet Express
+  - National Jet Systems
+  - Nature Air
+  - Neos
+  - NetJets
+  - New England Airlines
+  - Nippon Cargo Airlines
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - Nordic Regional Airlines
+  - Nordica
+  - Norse Atlantic Airways
+  - Norse Atlantic UK
+  - North-Wright Airways
+  - Northcoast Executive Airlines
+  - Northern Air Cargo
+  - Northwestern Air
+  - Norwegian Air Norway
+  - Norwegian Air Shuttle
+  - Norwegian Air Sweden
+  - Nyxair
+  - Olympic Air
+  - Omni Air International
+  - Omni Aviation
+  - One Air
+  - OneJet
+  - Orbest
+  - Orbit Express Airlines
+  - Orca Airways
+  - Oriental Air Bridge
+  - Originair
+  - PAL Airlines
+  - PSA Airlines
+  - Pacific Coastal Airlines
+  - Pacific Wings
+  - Parata Air
+  - Pascan Aviation
+  - Peach
+  - Pegasus Airlines
+  - Pel-Air
+  - PenAir
+  - People's
+  - Phoenix Air
+  - Plus Ultra Líneas Aéreas
+  - Polar Air Cargo
+  - Porter Airlines
+  - Portugália
+  - Poste Air Cargo
+  - Primera Air Nordic
+  - Private Wings
+  - Privilege Style
+  - Qantas Airways
+  - Qantas Freight
+  - QantasLink
+  - Queensland Regional Airlines
+  - Regional Cargo
+  - Regional Pacific Airlines
+  - Regional Sky
+  - Republic Airways
+  - Rex Airlines
+  - Rhein-Neckar Air
+  - Ryanair
+  - Ryanair UK
+  - SANSA
+  - SAS Cargo Group
+  - SATA Air Açores
+  - SATENA
+  - Salmon Air
+  - Scandinavian Airlines
+  - Scenic Airlines
+  - Seaborne Airlines
+  - Servant Air
+  - Sharp Airlines
+  - Sierra Pacific Airlines
+  - Silver Airways
+  - Skippers Aviation
+  - Sky Airline
+  - Sky Alps
+  - Sky Lease Cargo
+  - SkyWest Airlines
+  - Skymark Airlines
+  - Skytaxi
+  - Skyway Enterprises
+  - SmartLynx Australia
+  - Smartwings
+  - Smartwings Hungary
+  - Smartwings Poland
+  - Smartwings Slovakia
+  - Solaseed Air
+  - Southeast Airlines
+  - Southern Airways Express
+  - Southwest Airlines
+  - Southwind Airlines
+  - Spring Airlines Japan
+  - SprintAir
+  - St Barth Commuter
+  - Star Air (Denmark)
+  - StarFlyer
+  - Starlink Aviation
+  - Sun Air International
+  - Sun Air of Scandinavia
+  - Sun Country Airlines
+  - Sun d'Or International Airlines
+  - SunExpress
+  - Sunair
+  - Sunclass Airlines
+  - Sundair
+  - Sunstate Airlines
+  - Superior Aviation
+  - Swiftair
+  - Swiss International Air Lines
+  - Sylt Air
+  - TAP Air Portugal
+  - TAP Express
+  - TAR México
+  - TUI Airways
+  - TUI fly Belgium
+  - TUI fly Deutschland
+  - TUI fly Netherlands
+  - TUIfly Nordic
+  - Tailwind Air Service
+  - Tailwind Airlines
+  - Taquan Air
+  - Tasman Cargo Airlines
+  - Thomas Cook Airlines Belgium
+  - Titan Airways
+  - Toki Air
+  - Tradewind Aviation
+  - Trans Executive Airlines
+  - Transavia
+  - Transavia France
+  - Transaviabaltika
+  - Transwest Air
+  - Trinity Airways
+  - Turkish Airlines
+  - Twin Jet
+  - ULS Airlines Cargo
+  - UPS Airlines
+  - USA Jet Airlines
+  - Ultimate Air Shuttle
+  - United Airlines
+  - United Express
+  - VI Airlink
+  - Van Air Europe
+  - Vanilla Air
+  - Vieques Air Link
+  - Vintage Props and Jets
+  - Virgin Atlantic
+  - Virgin Australia
+  - Virgin Australia Regional Airlines
+  - Virgin Express France
+  - Viva
+  - Viva Air Colombia
+  - Volaris
+  - Volaris Costa Rica
+  - Volotea
+  - Voyageur Airways
+  - Vueling
+  - WDL Aviation
+  - Wamos Air
+  - Wan Air
+  - Warbelow's Air Ventures
+  - Wasaya Airways
+  - West Atlantic
+  - West Atlantic Sweden
+  - West Wing Aviation
+  - WestJet
+  - WestJet Encore
+  - Western Global Airlines
+  - Westward Airways
+  - White Airways
+  - Widerøe
+  - Wiggins Airways
+  - Wingo
+  - Wizz Air
+  - Wizz Air UK
+  - World Atlantic Airlines
+  - World2Fly
+  - Wright Air Service
+  - Yanda Airlines
+  - Yute Commuter Service
+  - Z Air
+  - ZIPAIR Tokyo
+  - Zimex Aviation
+  - air2there
+  - easyJet
+  - easyJet Europe
+  - iAero Airways
+  disputed: []
+  changes: []
+  official_count: 509
+  out_of_universe: []
+  source: current member-state list in raw/wiki/OECD.wiki lines 542-641 (38 official member countries) joined with airline country of
+    headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 583168
+  note: 38 official member countries in the source table; 37 represented in the airline universe
+- id: nato_airlines
+  name: Airlines of NATO member states
+  kind: bloc
+  org: North Atlantic Treaty Organization
+  synonyms: []
+  wiki: NATO
+  members:
+  - 7Air Cargo
+  - ABX Air
+  - AIS Airlines
+  - AJet
+  - ASL Airlines France
+  - Aegean Airlines
+  - Aer Lingus UK
+  - Aero VIP
+  - AeroLogic
+  - Aeroitalia
+  - Air ACT
+  - Air Albania
+  - Air Alsie
+  - Air Antilles
+  - Air Atlanta Icelandic
+  - Air Austral
+  - Air Bucharest
+  - Air Calédonie
+  - Air Canada
+  - Air Canada Jetz
+  - Air Canada Rouge
+  - Air Caraïbes
+  - Air Cargo Carriers
+  - Air Cargo Global
+  - Air Corsica
+  - Air Creebec
+  - Air Dolomiti
+  - Air Europa
+  - Air Europa Express
+  - Air Flamenco
+  - Air France
+  - Air France Hop
+  - Air France KLM Martinair Cargo
+  - Air Grand Canyon
+  - Air Greenland
+  - Air Guyane Express
+  - Air Hamburg
+  - Air Iceland
+  - Air Illinois
+  - Air Inuit
+  - Air Liaison
+  - Air Mediterranean
+  - Air Montenegro
+  - Air North
+  - Air Nostrum
+  - Air Saint-Pierre
+  - Air Sunshine
+  - Air Tahiti
+  - Air Tahiti Nui
+  - Air Tindi
+  - Air Transat
+  - Air Transport International
+  - Air Wisconsin
+  - AirBaltic
+  - AirTanker Services Limited
+  - Airbus Transport International
+  - Aircalin
+  - Aklak Air
+  - Alaska Airlines
+  - Alaska Central Express
+  - Alaska Coastal Airlines
+  - AlbaStar
+  - Albawings
+  - Alidaunia
+  - Allegiant Air
+  - Aloha Air Cargo
+  - Alpine Air Express
+  - Alsie Express
+  - Amapola Flyg
+  - American Airlines
+  - Ameriflight
+  - Amerijet International
+  - Ameristar Jet Charter
+  - Andorra Airlines
+  - Arcus Air
+  - Arizona Airways
+  - Asia Pacific Airlines
+  - Astar Air Cargo
+  - Atlas Air
+  - Aurigny Air Services
+  - Avelo Airlines
+  - Avion Express
+  - Azores Airlines
+  - BA CityFlyer
+  - BA EuroFlyer
+  - BH Air
+  - BRA Braathens Regional Airlines
+  - Bearskin Airlines
+  - Bemidji Airlines
+  - Bering Air
+  - Binter Canarias
+  - Bluebird Airways
+  - Bluebird Nordic
+  - Boutique Air
+  - Braathens International Airways
+  - Braathens Regional
+  - Branson Air Express
+  - Breeze Airways
+  - Bristow Helicopters
+  - British Airways
+  - British International Helicopters
+  - British Regional Airlines
+  - Brussels Airlines
+  - Brymon Airways
+  - Budapest Aircraft Service
+  - Buffalo Airways
+  - CHC Airways
+  - CHC Helikopter Service
+  - CMA CGM Air Cargo
+  - Caicos Express Airways
+  - Calm Air
+  - Canadian North
+  - Canaryfly
+  - Cape Air
+  - Capitol Air
+  - CargoLogicAir
+  - Cargojet
+  - Cargolux
+  - Cargolux Italia
+  - Carpatair
+  - Cayman Airways
+  - Central Connect Airlines
+  - Central Mountain Air
+  - Centurion Air Cargo
+  - Chalair Aviation
+  - City Express
+  - CityLine Hungary
+  - Community Express Airlines
+  - CommuteAir
+  - Condor Flugdienst
+  - Contour Airlines
+  - Contract Air Cargo
+  - Corendon Airlines
+  - Corendon Dutch Airlines
+  - Corporate Flight Management
+  - Corsair International
+  - Coyne Airways
+  - Croatia Airlines
+  - Czech Airlines
+  - DAT
+  - DHL Air UK
+  - DOT LT
+  - Delta Air Lines
+  - Direktflyg
+  - Discover Airlines
+  - ETF Airways
+  - Eastern Airlines, LLC
+  - Eastern Airways
+  - Elite Airways
+  - Ellinair
+  - Empire Airlines
+  - Endeavor Air
+  - Enter Air
+  - Enterprise Airlines
+  - Envoy Air
+  - EuroAtlantic Airways
+  - European Air Charter
+  - European Air Transport Leipzig
+  - European Cargo
+  - Eurowings
+  - Evelop Airlines
+  - Everts Air
+  - Everts Air Cargo
+  - Ewa Air
+  - Exploits Valley Air Services
+  - Express One International
+  - ExpressJet
+  - FAI rent-a-jet
+  - FedEx Express
+  - Finnair
+  - Flair Airlines
+  - Flexflight
+  - Fly Lili
+  - Fly2Sky
+  - FlyMontserrat
+  - Freebird Airlines
+  - Freedom Air
+  - French Bee
+  - Frontier Airlines
+  - Frost Air
+  - GP Aviation
+  - Gestair Group
+  - GetJet Airlines
+  - Go2Sky
+  - GoJet Airlines LLC
+  - Grand Canyon Airlines
+  - Grant Aviation
+  - Great Lakes Airlines
+  - Harbour Air
+  - Hawaiian Airlines
+  - HeavyLift Cargo Airlines
+  - Helijet
+  - HelloJets
+  - Heston Airlines
+  - Hi Fly
+  - Holiday Europe
+  - Horizon Air
+  - Höga Kusten Flyg
+  - IBC Airways
+  - ITA Airways
+  - IZair
+  - Iberia
+  - Iberia Express
+  - Icelandair
+  - Inter European Airways
+  - Iskwew Air
+  - Island Air (Hawaii)
+  - Isles of Scilly Skybus
+  - Jazz Aviation
+  - Jet Aviation
+  - Jet Time
+  - Jet2.com
+  - JetBlue Airways
+  - KLM
+  - KLM Cityhopper
+  - Kalitta Air
+  - Kalitta Charters
+  - Keewatin Air
+  - Kelowna Flightcraft Air Charter
+  - Kenmore Air
+  - Kenn Borek Air
+  - Key Lime Air
+  - Kivalliq Air
+  - LOT Charters
+  - LOT Polish Airlines
+  - La Compagnie
+  - Leav Aviation
+  - Level
+  - Locair
+  - Loganair
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa City Airlines
+  - Lufthansa CityLine
+  - Lufthansa Regional
+  - Lufttransport
+  - Luxair
+  - Lynden Air Cargo
+  - MHS Aviation
+  - MNG Airlines
+  - Marabu Airlines
+  - Marathon Airlines
+  - Martinair
+  - Mesa Airlines
+  - Miami Air International
+  - Mokulele Airlines
+  - Mountain Air Cargo
+  - MyTravelLite Airlines
+  - Nantucket Airlines
+  - National Airlines
+  - Neos
+  - NetJets
+  - New England Airlines
+  - Nolinor Aviation
+  - Nor-Alta Aviation
+  - Nordic Regional Airlines
+  - Nordica
+  - Norse Atlantic Airways
+  - Norse Atlantic UK
+  - North-Wright Airways
+  - Northcoast Executive Airlines
+  - Northern Air Cargo
+  - Northwestern Air
+  - Norwegian Air Norway
+  - Norwegian Air Shuttle
+  - Norwegian Air Sweden
+  - Nyxair
+  - Olympic Air
+  - Omni Air International
+  - Omni Aviation
+  - One Air
+  - OneJet
+  - Orbest
+  - Orbit Express Airlines
+  - Orca Airways
+  - PAL Airlines
+  - PSA Airlines
+  - Pacific Coastal Airlines
+  - Pacific Wings
+  - Pascan Aviation
+  - Pegasus Airlines
+  - PenAir
+  - Phoenix Air
+  - Plus Ultra Líneas Aéreas
+  - Polar Air Cargo
+  - Porter Airlines
+  - Portugália
+  - Poste Air Cargo
+  - Primera Air Nordic
+  - Private Wings
+  - Privilege Style
+  - Regional Sky
+  - Republic Airways
+  - Rhein-Neckar Air
+  - Ryanair UK
+  - SAS Cargo Group
+  - SATA Air Açores
+  - Salmon Air
+  - Scandinavian Airlines
+  - Scenic Airlines
+  - Seaborne Airlines
+  - Servant Air
+  - Sierra Pacific Airlines
+  - Silver Airways
+  - Sky Alps
+  - Sky Lease Cargo
+  - SkyWest Airlines
+  - Skytaxi
+  - Skyway Enterprises
+  - Smartwings
+  - Smartwings Hungary
+  - Smartwings Poland
+  - Smartwings Slovakia
+  - Southeast Airlines
+  - Southern Airways Express
+  - Southwest Airlines
+  - Southwind Airlines
+  - SprintAir
+  - St Barth Commuter
+  - Star Air (Denmark)
+  - Starlink Aviation
+  - Sun Air International
+  - Sun Air of Scandinavia
+  - Sun Country Airlines
+  - SunExpress
+  - Sunclass Airlines
+  - Sundair
+  - Superior Aviation
+  - Swiftair
+  - Sylt Air
+  - TAP Air Portugal
+  - TAP Express
+  - TAROM
+  - TUI Airways
+  - TUI fly Belgium
+  - TUI fly Deutschland
+  - TUI fly Netherlands
+  - TUIfly Nordic
+  - Tailwind Air Service
+  - Tailwind Airlines
+  - Taquan Air
+  - Ten Airways
+  - Thomas Cook Airlines Belgium
+  - Titan Airways
+  - Trade Air
+  - Tradewind Aviation
+  - Trans Executive Airlines
+  - Transavia
+  - Transavia France
+  - Transaviabaltika
+  - Transwest Air
+  - Turkish Airlines
+  - Twin Jet
+  - ULS Airlines Cargo
+  - UPS Airlines
+  - USA Jet Airlines
+  - Ultimate Air Shuttle
+  - United Airlines
+  - United Express
+  - VI Airlink
+  - Van Air Europe
+  - Vieques Air Link
+  - Vintage Props and Jets
+  - Virgin Atlantic
+  - Virgin Express France
+  - Volotea
+  - Voyageur Airways
+  - Vueling
+  - WDL Aviation
+  - Wamos Air
+  - Wan Air
+  - Warbelow's Air Ventures
+  - Wasaya Airways
+  - West Atlantic
+  - West Atlantic Sweden
+  - WestJet
+  - WestJet Encore
+  - Western Global Airlines
+  - Westward Airways
+  - White Airways
+  - Widerøe
+  - Wiggins Airways
+  - Wizz Air
+  - Wizz Air UK
+  - World Atlantic Airlines
+  - World2Fly
+  - Wright Air Service
+  - Yute Commuter Service
+  - Z Air
+  - easyJet
+  - iAero Airways
+  disputed: []
+  changes: []
+  official_count: 391
+  out_of_universe: []
+  source: current member-state list in raw/wiki/NATO.wiki lines 219-253 (32 official member countries) joined with airline country of
+    headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 2129009
+  note: 32 official member countries in the source table; 30 represented in the airline universe
+- id: brics_airlines
+  name: Airlines of BRICS member states
+  kind: bloc
+  org: BRICS
+  synonyms: []
+  wiki: BRICS
+  members:
+  - 9 Air
+  - AIX Connect
+  - ALROSA Air Company
+  - AMC Airlines
+  - ATRAN
+  - Abaeté Aviação
+  - Aeroflot
+  - Air Arabia
+  - Air Arabia Egypt
+  - Air Cairo
+  - Air Central
+  - Air Changan
+  - Air China
+  - Air China Cargo
+  - Air China Inner Mongolia
+  - Air Deccan
+  - Air Guilin
+  - Air Hong Kong
+  - Air India
+  - Air India Express
+  - Air Leisure
+  - Air Macau
+  - Air Sinai
+  - Air Travel
+  - AirBridgeCargo Airlines
+  - Airfast Indonesia
+  - Airlink
+  - Airlink Cargo
+  - Akasa Air
+  - AlMasria Universal Airlines
+  - Alexandria Airlines
+  - Alliance Air
+  - Angara Airlines
+  - Asia Cargo Airlines
+  - Aurora
+  - Aviacon Zitotrans
+  - Aviastar
+  - Aviastar-TU
+  - Avion Express Brasil
+  - Azimuth
+  - Azur Air
+  - Batik Air
+  - Beijing Capital Airlines
+  - Blue Dart Aviation
+  - Cairo Aviation
+  - Cathay Pacific
+  - CemAir
+  - Central Airlines
+  - Chengdu Airlines
+  - China Cargo Airlines
+  - China Eastern Airlines
+  - China Express Airlines
+  - China Postal Airlines
+  - China Southern Airlines
+  - China United Airlines
+  - China Xinhua Airlines
+  - Chitaavia
+  - Chongqing Airlines
+  - Citilink
+  - Civair
+  - Click Airways
+  - Colorful Guizhou Airlines
+  - Command Airways
+  - Dalian Airlines
+  - Deccan 360
+  - Deccan Charters
+  - Donghai Airlines
+  - Eastern SkyJets
+  - EgyptAir
+  - EgyptAir Cargo
+  - Emirates
+  - Emirates SkyCargo
+  - Ethiopian Airlines
+  - Etihad Airways
+  - FLYeasy
+  - Federal Air
+  - FlySafair
+  - Fuzhou Airlines
+  - GX Airlines
+  - Garuda Indonesia
+  - Gazprom Avia
+  - Genghis Khan Airlines
+  - Global Aviation
+  - Globus
+  - Go First
+  - Gol Transportes Aéreos
+  - Grand China Air
+  - Grozny Avia
+  - HK Express
+  - Hainan Airlines
+  - Hebei Airlines
+  - Hong Kong Airlines
+  - I-Fly
+  - Ikar
+  - IndiGo
+  - Indonesia Air Transport
+  - Indonesia AirAsia
+  - Indonesia AirAsia X
+  - Interair South Africa
+  - IrAero
+  - Izhavia
+  - Jagson Group
+  - Jiangsu JD Cargo Airlines
+  - Jiangxi Air
+  - Joy Air
+  - Kish Air
+  - Komiaviatrans
+  - KrasAvia
+  - Kunming Airlines
+  - LATAM Brasil
+  - LJ Air
+  - Lion Air
+  - Loong Air
+  - Lucky Air
+  - MAP Linhas Aéreas
+  - Mahan Air
+  - Mandala Airlines
+  - Mango
+  - My Indo Airlines
+  - NAM Air
+  - National Airways Corporation
+  - National Airways Ethiopia
+  - Nile Air
+  - Nordwind Airlines
+  - OTT Airlines
+  - Oceanair
+  - Okay Airways
+  - Orenburzhye
+  - PANH
+  - Payam Air
+  - Pelita Air Service
+  - Petroleum Air Services
+  - Phoebus Apollo Aviation
+  - Phoenix Aviation
+  - Platinum Air Linhas Aéreas
+  - Pobeda
+  - Polar Airlines
+  - Presidential Flight (UAE)
+  - Qingdao Airlines
+  - Quikjet Airlines
+  - Red Wings Airlines
+  - Republic Express Airlines
+  - Rossiya
+  - Rotana Jet
+  - Ruili Airlines
+  - RusLine
+  - SF Airlines
+  - Safair
+  - Severstal Air Company
+  - Shandong Airlines
+  - Shanghai Airlines
+  - Shenzhen Airlines
+  - Sichuan Airlines
+  - Sky Gates Airlines
+  - Sky Shuttle Helicopters
+  - SkyLink Arabia
+  - Smart Aviation Company
+  - Smartavia
+  - South African Airways
+  - SpiceJet
+  - Spring Airlines
+  - Sriwijaya Air
+  - Suparna Airlines
+  - Susi Air
+  - Taimyr Air Company
+  - Tianjin Airlines
+  - Tibet Airlines
+  - TransNusa Air Services
+  - Travira Air
+  - Trigana Air Service
+  - UTair Aviation
+  - UVT Aero
+  - United Arab Airlines
+  - Ural Airlines
+  - Urumqi Air
+  - Vistara
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - West Air
+  - Wings Air
+  - Wizz Air Abu Dhabi
+  - Xiamen Airlines
+  - YTO Cargo Airlines
+  - Yakutia Airlines
+  - Yamal Airlines
+  - Ying'an Airlines
+  - Zoom Air
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 188
+  out_of_universe: []
+  source: current member-state list in raw/wiki/BRICS.wiki lines 273-292 (10 official member countries) joined with airline country
+    of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 1491124
+  note: 10 official member countries in the source table; 10 represented in the airline universe
+- id: bsec_airlines
+  name: Airlines of Black Sea Economic Cooperation member states
+  kind: bloc
+  org: Organization of the Black Sea Economic Cooperation
+  synonyms: []
+  wiki: Organization of the Black Sea Economic Cooperation
+  members:
+  - AJet
+  - ALROSA Air Company
+  - ATRAN
+  - AZALJet
+  - Aegean Airlines
+  - Aeroflot
+  - Aerotranscargo
+  - Aerovis Airlines
+  - Air ACT
+  - Air Albania
+  - Air Bucharest
+  - Air Dilijans
+  - Air Mediterranean
+  - Air Serbia
+  - Air Urga
+  - AirBridgeCargo Airlines
+  - Albawings
+  - Anda Air
+  - Angara Airlines
+  - Antonov Airlines
+  - Armenia Airways
+  - Atlantis Armenian Airlines
+  - AtlasGlobal Ukraine
+  - Aurora
+  - Aviacon Zitotrans
+  - Aviastar-TU
+  - Aviatrans Kiev
+  - Aviolet
+  - Azerbaijan Airlines
+  - Azimuth
+  - Azur Air
+  - BH Air
+  - Bluebird Airways
+  - Carpatair
+  - Caucasus Airlines
+  - Centavia
+  - Chitaavia
+  - Corendon Airlines
+  - Ellinair
+  - European Air Charter
+  - Fly Lili
+  - Fly2Sky
+  - FlyOne
+  - Freebird Airlines
+  - GP Aviation
+  - Gazprom Avia
+  - Georgian Airways
+  - Globus
+  - Grozny Avia
+  - HelloJets
+  - HiSky
+  - Holiday Europe
+  - I-Fly
+  - IZair
+  - Ikar
+  - IrAero
+  - Izhavia
+  - Komiaviatrans
+  - KrasAvia
+  - MNG Airlines
+  - Marathon Airlines
+  - Motor Sich Airlines
+  - MyWay Airlines
+  - Nordwind Airlines
+  - Olympic Air
+  - Orbit Express Airlines
+  - Orenburzhye
+  - PANH
+  - Pegasus Airlines
+  - Pobeda
+  - Polar Airlines
+  - RUS Aviation
+  - Red Wings Airlines
+  - Rossiya
+  - RusLine
+  - Severstal Air Company
+  - Silk Way Airline
+  - Silk Way West Airlines
+  - Sky Gates Airlines
+  - SkyUp
+  - Skyline Express Airlines
+  - Smartavia
+  - Southwind Airlines
+  - SunExpress
+  - TAROM
+  - Tailwind Airlines
+  - Taimyr Air Company
+  - Tandem Aero
+  - Taron Avia
+  - Ten Airways
+  - Turkish Airlines
+  - ULS Airlines Cargo
+  - UTair Aviation
+  - UVT Aero
+  - Ural Airlines
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - Windrose Airlines
+  - Yakutia Airlines
+  - Yamal Airlines
+  - Yanair
+  - Yuzhmashavia
+  disputed: []
+  changes: []
+  official_count: 102
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Organization_of_the_Black_Sea_Economic_Cooperation.wiki lines 30-161 (13 official member
+    countries) joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 26541
+  note: 13 official member countries in the source table; 12 represented in the airline universe
+- id: cis_airlines
+  name: Airlines of Commonwealth of Independent States member states
+  kind: bloc
+  org: Commonwealth of Independent States
+  synonyms: []
+  wiki: Commonwealth of Independent States
+  members:
+  - ALROSA Air Company
+  - ATRAN
+  - AZALJet
+  - Aeroflot
+  - Aerostan
+  - Aerotranscargo
+  - Air Astana
+  - Air Dilijans
+  - Air Samarkand
+  - AirBridgeCargo Airlines
+  - Angara Airlines
+  - Armenia Airways
+  - Asian Express Airline
+  - Asman Airlines
+  - Atlantis Armenian Airlines
+  - Aurora
+  - Avia Traffic Company
+  - Aviacon Zitotrans
+  - Avialeasing
+  - Aviastar-TU
+  - Azerbaijan Airlines
+  - Azimuth
+  - Azur Air
+  - Belavia
+  - Centrum Air
+  - Chitaavia
+  - Euro-Asia Air
+  - FlyArystan
+  - FlyOne
+  - Gazprom Avia
+  - Globus
+  - Grozny Avia
+  - HiSky
+  - I-Fly
+  - Ikar
+  - Inter Trans Avia
+  - IrAero
+  - Izhavia
+  - Kazaviaspas
+  - Komiaviatrans
+  - KrasAvia
+  - Kyrgyz Trans Avia
+  - My Freighter Airlines
+  - Nordwind Airlines
+  - Orenburzhye
+  - PANH
+  - Pobeda
+  - Polar Airlines
+  - Qanot Sharq
+  - Qazaq Air
+  - RUS Aviation
+  - Red Wings Airlines
+  - Rossiya
+  - RusLine
+  - SCAT Airlines
+  - Samarkand Airways
+  - Severstal Air Company
+  - Silk Avia
+  - Silk Way Airline
+  - Silk Way West Airlines
+  - Sky Bishkek
+  - Sky Gates Airlines
+  - Smartavia
+  - Somon Air
+  - Sunday Airlines
+  - Taimyr Air Company
+  - Tajik Air
+  - Tandem Aero
+  - Taron Avia
+  - TransAVIAexport Airlines
+  - UTair Aviation
+  - UVT Aero
+  - Ural Airlines
+  - Uzbekistan Airways
+  - Volga-Dnepr Airlines
+  - Voronezh Avia
+  - Yakutia Airlines
+  - Yamal Airlines
+  disputed: []
+  changes: []
+  official_count: 78
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Commonwealth_of_Independent_States.wiki lines 152-232 (9 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 686839
+  note: 9 official member countries in the source table; 9 represented in the airline universe
+- id: eco_airlines
+  name: Airlines of Economic Cooperation Organization member states
+  kind: bloc
+  org: Economic Cooperation Organization
+  synonyms: []
+  wiki: Economic Cooperation Organization
+  members:
+  - AJet
+  - AZALJet
+  - Aerostan
+  - Afghan Jet International
+  - Air ACT
+  - Air Astana
+  - Air Samarkand
+  - AirSial
+  - Ariana Afghan Airlines
+  - Asian Express Airline
+  - Askari Aviation
+  - Asman Airlines
+  - Avia Traffic Company
+  - Avialeasing
+  - Azerbaijan Airlines
+  - Centrum Air
+  - Corendon Airlines
+  - Euro-Asia Air
+  - FlyArystan
+  - Freebird Airlines
+  - IZair
+  - Inter Trans Avia
+  - Kam Air
+  - Kazaviaspas
+  - Kish Air
+  - Kyrgyz Trans Avia
+  - MNG Airlines
+  - Mahan Air
+  - My Freighter Airlines
+  - Orbit Express Airlines
+  - Pakistan International Airlines
+  - Payam Air
+  - Pegasus Airlines
+  - Qanot Sharq
+  - Qazaq Air
+  - SCAT Airlines
+  - Samarkand Airways
+  - Serene Air
+  - Shaheen Air
+  - Silk Avia
+  - Silk Way Airline
+  - Silk Way West Airlines
+  - Sky Bishkek
+  - Somon Air
+  - Southwind Airlines
+  - SunExpress
+  - Sunday Airlines
+  - Tailwind Airlines
+  - Tajik Air
+  - Turkish Airlines
+  - Turkmenistan Airlines
+  - ULS Airlines Cargo
+  - Uzbekistan Airways
+  - airblue
+  disputed: []
+  changes: []
+  official_count: 54
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Economic_Cooperation_Organization.wiki lines 150-221 (10 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 49693
+  note: 10 official member countries in the source table; 10 represented in the airline universe
+- id: aladi_airlines
+  name: Airlines of Latin American Integration Association member states
+  kind: bloc
+  org: Latin American Integration Association
+  synonyms: []
+  wiki: Latin American Integration Association
+  members:
+  - Abaeté Aviação
+  - AerCaribe
+  - Aero Cóndor
+  - Aerochaco
+  - Aerocon
+  - Aerogaviota
+  - Aerolíneas Estelar
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aeropostal Alas de Venezuela
+  - Aeroregional
+  - Aerosucre
+  - Aerus
+  - Albatros Airlines
+  - Aserca Airlines
+  - Atsa Airlines
+  - Avianca
+  - Avianca Argentina
+  - Avianca Cargo
+  - Avianca Cargo México
+  - Avianca Ecuador
+  - Avianca Express
+  - Avianca Peru
+  - Aviandina
+  - Avion Express Brasil
+  - Avior Airlines
+  - Avior Regional
+  - Boliviana de Aviación
+  - CALAFIAAIRLINES
+  - Clic Air
+  - Conviasa
+  - Copa Airlines
+  - Copa Airlines Colombia
+  - Cubana de Aviación
+  - DHL Aero Expreso
+  - DHL Ecuador
+  - EcoJet
+  - Equair
+  - Estafeta Carga Aérea
+  - Gol Transportes Aéreos
+  - JetSmart
+  - JetSmart Argentina
+  - LASER Airlines
+  - LATAM Airlines
+  - LATAM Airlines Colombia
+  - LATAM Airlines Ecuador
+  - LATAM Airlines Paraguay
+  - LATAM Airlines Peru
+  - LATAM Brasil
+  - LATAM Cargo Chile
+  - LATAM Cargo Colombia
+  - Línea Aérea Amaszonas
+  - Línea Aérea Cuencana
+  - Líneas Aéreas Suramericanas
+  - Líneas Aéreas del Estado (LADE)
+  - MAP Linhas Aéreas
+  - MAYAir
+  - Magnicharters
+  - MasAir Cargo Mexico
+  - Oceanair
+  - Platinum Air Linhas Aéreas
+  - RUTACA Airlines
+  - Regional Cargo
+  - SAEREO
+  - SATENA
+  - SUA
+  - Sky Airline
+  - Sky Airline Peru
+  - Star Perú
+  - TAR México
+  - Transportes Aéreos Bolivianos
+  - Turpial Airlines
+  - Venezolana
+  - Viva
+  - Viva Air Colombia
+  - Viva Air Peru
+  - Volaris
+  - Wingo
+  disputed: []
+  changes: []
+  official_count: 78
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Latin_American_Integration_Association.wiki lines 86-208 (13 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 12064
+  note: 13 official member countries in the source table; 13 represented in the airline universe
+- id: pacific_alliance_airlines
+  name: Airlines of Pacific Alliance member states
+  kind: bloc
+  org: Pacific Alliance
+  synonyms: []
+  wiki: Pacific Alliance
+  members:
+  - AerCaribe
+  - Aero Cóndor
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Aerosucre
+  - Aerus
+  - Atsa Airlines
+  - Avianca
+  - Avianca Cargo
+  - Avianca Cargo México
+  - Avianca Express
+  - Avianca Peru
+  - Aviandina
+  - CALAFIAAIRLINES
+  - Clic Air
+  - Copa Airlines Colombia
+  - Estafeta Carga Aérea
+  - JetSmart
+  - LATAM Airlines
+  - LATAM Airlines Colombia
+  - LATAM Airlines Peru
+  - LATAM Cargo Chile
+  - LATAM Cargo Colombia
+  - Líneas Aéreas Suramericanas
+  - MAYAir
+  - Magnicharters
+  - MasAir Cargo Mexico
+  - Regional Cargo
+  - SATENA
+  - Sky Airline
+  - Sky Airline Peru
+  - Star Perú
+  - TAR México
+  - Viva
+  - Viva Air Colombia
+  - Viva Air Peru
+  - Volaris
+  - Wingo
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Pacific_Alliance.wiki lines 188-193 (4 official member countries) joined with airline
+    country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 25308
+  note: 4 official member countries in the source table; 4 represented in the airline universe
+- id: comesa_airlines
+  name: Airlines of Common Market for Eastern and Southern Africa member states
+  kind: bloc
+  org: Common Market for Eastern and Southern Africa
+  synonyms: []
+  wiki: Common Market for Eastern and Southern Africa
+  members:
+  - 748 Air Services
+  - AB Aviation
+  - ALS – Aircraft Leasing Services
+  - AMC Airlines
+  - African Express Airways
+  - Air Arabia Egypt
+  - Air Cairo
+  - Air Congo
+  - Air Djibouti
+  - Air Leisure
+  - Air Libya
+  - Air Madagascar
+  - Air Mauritius
+  - Air One Nine Company
+  - Air Seychelles
+  - Air Sinai
+  - Air Zimbabwe
+  - Airkenya Express
+  - AlMasria Universal Airlines
+  - Alexandria Airlines
+  - Astral Aviation
+  - BAR Aviation Uganda
+  - Badr Airlines
+  - Buraq Air
+  - Cairo Aviation
+  - Daallo Airlines
+  - Djibouti Air
+  - East African Safari Air
+  - EgyptAir
+  - EgyptAir Cargo
+  - Eritrean Airlines
+  - Ethiopian Airlines
+  - Express Air Cargo
+  - Fastjet Zimbabwe
+  - Fly540
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - Int'Air Îles
+  - Jambojet
+  - Jubba Airways
+  - Kenya Airways
+  - Libyan Airlines
+  - Libyan Wings
+  - Madagasikara Airways
+  - Mahogany Air
+  - Malawi Airlines
+  - Mid Airlines
+  - National Airways Ethiopia
+  - Nayzak Air Transport
+  - Nile Air
+  - Nouvelair
+  - Petroleum Air Services
+  - Proflight Zambia
+  - Royal Daisy Airlines
+  - RwandAir
+  - Safarilink Aviation
+  - Skyjet Airlines
+  - Skyward Airlines
+  - Smart Aviation Company
+  - Sudan Airways
+  - Sun Air
+  - Tarco Aviation
+  - Timbis Air
+  - Tobruk Air
+  - Tunisair
+  - Tunisair Express
+  - Ulendo Airlink
+  - United Arab Airlines
+  - Zambia Airways
+  - Zambia Skyways
+  - Zimbabwe flyafrica.com
+  disputed: []
+  changes: []
+  official_count: 71
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Common_Market_for_Eastern_and_Southern_Africa.wiki lines 50-112 (21 official member
+    countries) joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 27146
+  note: 21 official member countries in the source table; 19 represented in the airline universe
+- id: cen_sad_airlines
+  name: Airlines of Community of Sahel-Saharan States member states
+  kind: bloc
+  org: Community of Sahel-Saharan States
+  synonyms: []
+  wiki: Community of Sahel–Saharan States
+  members:
+  - AB Aviation
+  - AMC Airlines
+  - Aero Contractors
+  - Air Arabia Egypt
+  - Air Arabia Maroc
+  - Air Burkina
+  - Air Cairo
+  - Air Côte d'Ivoire
+  - Air Dabia
+  - Air Djibouti
+  - Air Leisure
+  - Air Libya
+  - Air Mali
+  - Air One Nine Company
+  - Air Peace
+  - Air Senegal
+  - Air Sinai
+  - AlMasria Universal Airlines
+  - Alexandria Airlines
+  - Allied Air
+  - Arik Air
+  - Asky Airlines
+  - Azman Air
+  - Badr Airlines
+  - Buraq Air
+  - Cairo Aviation
+  - Chanchangi Airlines
+  - Daallo Airlines
+  - Dana Air
+  - Djibouti Air
+  - Douniah Airlines
+  - EgyptAir
+  - EgyptAir Cargo
+  - Eritrean Airlines
+  - Express Air Cargo
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - Guine Bissau Airlines
+  - IRS Airlines
+  - Int'Air Îles
+  - Jubba Airways
+  - Karinou Airlines
+  - Libyan Airlines
+  - Libyan Wings
+  - Mali Airways
+  - Mauritania Airlines
+  - Max Air
+  - Mid Airlines
+  - Nayzak Air Transport
+  - Niger Airlines
+  - Nile Air
+  - Nouvelair
+  - Overland Airways
+  - Pan African Airlines
+  - Petroleum Air Services
+  - RAM Cargo
+  - Royal Air Maroc
+  - Royal Air Maroc Express
+  - Royal Fly-GH
+  - Smart Aviation Company
+  - Starbow
+  - Sudan Airways
+  - Sun Air
+  - Tarco Aviation
+  - Tobruk Air
+  - Tunisair
+  - Tunisair Express
+  - United Arab Airlines
+  - ValueJet
+  disputed: []
+  changes: []
+  official_count: 69
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Community_of_Sahel_Saharan_States.wiki lines 121-343 (25 official member countries)
+    joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 8982
+  note: 25 official member countries in the source table; 21 represented in the airline universe
+- id: saarc_airlines
+  name: Airlines of South Asian Association for Regional Cooperation member states
+  kind: bloc
+  org: South Asian Association for Regional Cooperation
+  synonyms: []
+  wiki: South Asian Association for Regional Cooperation
+  members:
+  - AIX Connect
+  - Afghan Jet International
+  - Air Astra
+  - Air Deccan
+  - Air India
+  - Air India Express
+  - AirSial
+  - Akasa Air
+  - Alliance Air
+  - Ariana Afghan Airlines
+  - Askari Aviation
+  - Bhutan Airlines
+  - Bismillah Airlines
+  - Blue Dart Aviation
+  - Buddha Air
+  - Cinnamon Air
+  - Deccan 360
+  - Deccan Charters
+  - Drukair
+  - Easy Fly Express
+  - FLYeasy
+  - FitsAir
+  - FlyMe
+  - Go First
+  - Gorkha Airlines
+  - Himalaya Airlines
+  - IndiGo
+  - Jagson Group
+  - Kam Air
+  - Maldivian
+  - Nepal Airlines
+  - NovoAir
+  - Pakistan International Airlines
+  - Quikjet Airlines
+  - Regent Airways
+  - Saurya Airlines
+  - Serene Air
+  - Shaheen Air
+  - Shree Airlines
+  - Simrik Airlines
+  - Sita Air
+  - SkyAir
+  - SpiceJet
+  - SriLankan Airlines
+  - Trans Maldivian Airways
+  - US-Bangla Airlines
+  - United Airways
+  - Vistara
+  - Yeti Airlines
+  - Zoom Air
+  - airblue
+  disputed: []
+  changes: []
+  official_count: 51
+  out_of_universe: []
+  source: current member-state list in raw/wiki/South_Asian_Association_for_Regional_Cooperation.wiki lines 178-180 (8 official member
+    countries) joined with airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 238879
+  note: 8 official member countries in the source table; 8 represented in the airline universe
+- id: mgc_airlines
+  name: Airlines of Mekong-Ganga Cooperation member states
+  kind: bloc
+  org: Mekong-Ganga Cooperation
+  synonyms: []
+  wiki: Mekong–Ganga Cooperation
+  members:
+  - AIX Connect
+  - APEX Airlines
+  - Air Cambodia
+  - Air Deccan
+  - Air India
+  - Air India Express
+  - Air Mandalay
+  - Air People International
+  - Air Thanlwin
+  - AirAsia Cambodia
+  - Akasa Air
+  - Alliance Air
+  - Apsara International Air
+  - Asia Atlantic Airlines
+  - Asian Wings Airways
+  - Bamboo Airways
+  - Bangkok Airways
+  - Bassaka Air
+  - Blue Dart Aviation
+  - Business Air
+  - Cambodia Airways
+  - Cambodia Bayon Airlines
+  - Crystal Thai Airlines
+  - Deccan 360
+  - Deccan Charters
+  - FLYeasy
+  - Fmi air
+  - Go First
+  - IndiGo
+  - Jagson Group
+  - Jet Asia Airways
+  - K-Mile Air
+  - Kan Air
+  - Lanexang Airways International
+  - Lanmei Airlines
+  - Lao Air
+  - Lao Airlines
+  - Mann Yatanarpon Airlines
+  - Mingalar Aviation Services
+  - Myanmar Airways International
+  - Myanmar National Airlines
+  - New Gen Airways
+  - Nok Air
+  - Orient Thai Airlines
+  - Pacific Airlines
+  - Quikjet Airlines
+  - Siam Air
+  - Sky Angkor Airlines
+  - SpiceJet
+  - Thai AirAsia
+  - Thai AirAsia X
+  - Thai Airways
+  - Thai Lion Air
+  - Thai Smile
+  - Thai Vietjet Air
+  - VietJet Air
+  - Vietnam Air Services Company
+  - Vietnam Airlines
+  - Vistara
+  - Zoom Air
+  disputed: []
+  changes: []
+  official_count: 60
+  out_of_universe: []
+  source: current member-state list in raw/wiki/Mekong_Ganga_Cooperation.wiki lines 21-30 (6 official member countries) joined with
+    airline country of headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 10988
+  note: 6 official member countries in the source table; 6 represented in the airline universe
+- id: opec_airlines
+  name: Airlines of OPEC member states
+  kind: bloc
+  org: Organization of the Petroleum Exporting Countries
+  synonyms: []
+  wiki: OPEC
+  members:
+  - Aero Contractors
+  - Aerolíneas Estelar
+  - Aeropostal Alas de Venezuela
+  - Afric Aviation
+  - Air Algérie
+  - Air Libya
+  - Air One Nine Company
+  - Air Peace
+  - Air Service Gabon
+  - Al-Naser Airlines
+  - Albatros Airlines
+  - Allied Air
+  - Arik Air
+  - Aserca Airlines
+  - Avior Airlines
+  - Avior Regional
+  - Azman Air
+  - Buraq Air
+  - CEIBA Intercontinental
+  - Chanchangi Airlines
+  - Conviasa
+  - Cronos Airlines
+  - Dana Air
+  - Domestic Airlines
+  - Ecuato Guineana
+  - Fly Baghdad
+  - Ghadames Air Transport
+  - Global Aviation and Services Group
+  - IRS Airlines
+  - Iraqi Airways
+  - Jazeera Airways
+  - Kish Air
+  - Kuwait Airways
+  - LASER Airlines
+  - Libyan Airlines
+  - Libyan Wings
+  - Mahan Air
+  - Max Air
+  - Nayzak Air Transport
+  - Nesma Airlines
+  - Nouvelle Air Affaires Gabon
+  - Overland Airways
+  - Pan African Airlines
+  - Payam Air
+  - Punto Azul
+  - RUTACA Airlines
+  - Riyadh Air
+  - Saudia
+  - Saudia Cargo
+  - Saudigulf
+  - Sky Gabon
+  - Tobruk Air
+  - Turpial Airlines
+  - UR Airlines
+  - ValueJet
+  - Venezolana
+  - Wataniya Airways
+  - Zagrosjet
+  - flyadeal
+  disputed: []
+  changes: []
+  official_count: 59
+  out_of_universe: []
+  source: current member-state list in raw/wiki/OPEC.wiki lines 313-433 (11 official member countries) joined with airline country of
+    headquarters (raw/airlines.json, carried in universes/airline.tsv)
+  salience: 891426
+  note: 11 official member countries in the source table; 10 represented in the airline universe

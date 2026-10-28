@@ -1,0 +1,704 @@
+{
+ "_path": "../run/out/GR/GR1/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "eu_members",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "star_alliance_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.25,
+     "soft": 0.9259
+    },
+    "3": {
+     "C": "ivy_league",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 1.0
+    },
+    "4": {
+     "C": "nato_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 1.0
+    },
+    "5": {
+     "C": "oneworld_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.4167,
+     "soft": 0.9074
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "1": {
+     "C": "commonwealth_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.9815
+    },
+    "3": {
+     "C": "russell_group",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "3": {
+     "C": "c9_universities",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.963
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "3": {
+     "C": "group_of_eight",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "3": {
+     "C": "coimbra_members",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.1667,
+     "soft": 0.7778
+    }
+   }
+  },
+  {
+   "round": 6,
+   "verdicts": {
+    "3": {
+     "C": "leru_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.9259
+    }
+   }
+  }
+ ],
+ "requests": 150,
+ "rounds": 6,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "GB",
+    "C": "commonwealth_members",
+    "C_name": "Commonwealth of Nations members",
+    "N_p": "SI",
+    "N_t": [
+     "FI",
+     "FR",
+     "DE",
+     "IL",
+     "GS",
+     "CG",
+     "CO"
+    ],
+    "P_M": [
+     "BD",
+     "VC",
+     "GM"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 1410547.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 1,
+   "pinned": {
+    "A": "GB",
+    "C": "commonwealth_members",
+    "C_name": "Commonwealth of Nations members",
+    "N_p": "SI",
+    "N_t": [
+     "FI",
+     "FR",
+     "DE",
+     "IL",
+     "GS",
+     "CG",
+     "CO"
+    ],
+    "P_M": [
+     "BD",
+     "VC",
+     "GM"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "g20_members",
+       "g7_members",
+       "nato_members",
+       "oecd_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "g20_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 1410547.0,
+    "universe": "country"
+   },
+   "tried": [
+    "eu_members"
+   ]
+  },
+  {
+   "current": {
+    "A": "Lufthansa",
+    "C": "star_alliance_members",
+    "C_name": "Star Alliance member airlines",
+    "N_p": "Edelweiss Air",
+    "N_t": [
+     "Scandinavian Airlines",
+     "Sky Airline",
+     "Etihad Airways",
+     "PenAir",
+     "Maritime Air Charter",
+     "NovoAir",
+     "Servicios Aéreos Profesionales"
+    ],
+    "P_M": [
+     "Thai Airways",
+     "Austrian Airlines",
+     "Shenzhen Airlines"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a380_operators",
+       "b787_operators",
+       "iata_members",
+       "star_alliance_founders"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "airlines_for_europe",
+     "b787_operators",
+     "iata_members",
+     "lufthansa_group_airlines",
+     "star_alliance_founders"
+    ],
+    "field": "trips.airline",
+    "salience": 630113.0,
+    "universe": "airline"
+   },
+   "field": "trips.airline",
+   "level": 2,
+   "pinned": {
+    "A": "Lufthansa",
+    "C": "star_alliance_members",
+    "C_name": "Star Alliance member airlines",
+    "N_p": "Edelweiss Air",
+    "N_t": [
+     "Scandinavian Airlines",
+     "Sky Airline",
+     "Etihad Airways",
+     "PenAir",
+     "Maritime Air Charter",
+     "NovoAir",
+     "Servicios Aéreos Profesionales"
+    ],
+    "P_M": [
+     "Thai Airways",
+     "Austrian Airlines",
+     "Shenzhen Airlines"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a380_operators",
+       "b787_operators",
+       "iata_members",
+       "star_alliance_founders"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "airlines_for_europe",
+     "b787_operators",
+     "iata_members",
+     "lufthansa_group_airlines",
+     "star_alliance_founders"
+    ],
+    "field": "trips.airline",
+    "salience": 630113.0,
+    "universe": "airline"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "University of Edinburgh",
+    "C": "leru_members",
+    "C_name": "League of European Research Universities members",
+    "N_p": "Open University of the Netherlands",
+    "N_t": [
+     "University of Bristol",
+     "Tokat Gaziosmanpaşa University",
+     "University of Bologna",
+     "University of North Florida",
+     "Ukrainian Catholic University",
+     "Royal Military Academy, Woolwich",
+     "Kharkiv Polytechnic Institute"
+    ],
+    "P_M": [
+     "University of Copenhagen",
+     "Utrecht University",
+     "University of Helsinki"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "coimbra_members",
+       "eua_members",
+       "russell_group"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "coimbra_members",
+     "eua_members",
+     "russell_group"
+    ],
+    "field": "applicants.university",
+    "salience": 10924.0,
+    "universe": "university"
+   },
+   "field": "applicants.university",
+   "level": 3,
+   "pinned": {
+    "A": "University of Edinburgh",
+    "C": "leru_members",
+    "C_name": "League of European Research Universities members",
+    "N_p": "Open University of the Netherlands",
+    "N_t": [
+     "University of Bristol",
+     "Tokat Gaziosmanpaşa University",
+     "University of Bologna",
+     "University of North Florida",
+     "Ukrainian Catholic University",
+     "Royal Military Academy, Woolwich",
+     "Kharkiv Polytechnic Institute"
+    ],
+    "P_M": [
+     "University of Copenhagen",
+     "Utrecht University",
+     "University of Helsinki"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "coimbra_members",
+       "eua_members",
+       "russell_group"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "coimbra_members",
+     "eua_members",
+     "russell_group"
+    ],
+    "field": "applicants.university",
+    "salience": 10924.0,
+    "universe": "university"
+   },
+   "tried": [
+    "ivy_league",
+    "russell_group",
+    "c9_universities",
+    "group_of_eight",
+    "coimbra_members"
+   ]
+  },
+  {
+   "current": {
+    "A": "IT",
+    "C": "nato_members",
+    "C_name": "NATO member countries",
+    "N_p": "MT",
+    "N_t": [
+     "AT",
+     "CH",
+     "JP",
+     "FK",
+     "CD",
+     "NA",
+     "RW"
+    ],
+    "P_M": [
+     "ME",
+     "MK",
+     "BG"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "eu_members",
+       "g20_members",
+       "g7_members",
+       "oecd_members",
+       "schengen_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "eu_members",
+     "g20_members",
+     "g7_members",
+     "oecd_members",
+     "schengen_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 2087661.0,
+    "universe": "country"
+   },
+   "field": "applicants.nationality",
+   "level": 4,
+   "pinned": {
+    "A": "IT",
+    "C": "nato_members",
+    "C_name": "NATO member countries",
+    "N_p": "MT",
+    "N_t": [
+     "AT",
+     "CH",
+     "JP",
+     "FK",
+     "CD",
+     "NA",
+     "RW"
+    ],
+    "P_M": [
+     "ME",
+     "MK",
+     "BG"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe_members",
+       "eu_members",
+       "g20_members",
+       "g7_members",
+       "oecd_members",
+       "schengen_members",
+       "un_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe_members",
+     "eu_members",
+     "g20_members",
+     "g7_members",
+     "oecd_members",
+     "schengen_members",
+     "un_members"
+    ],
+    "field": "applicants.nationality",
+    "salience": 2087661.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Qatar Airways",
+    "C": "oneworld_members",
+    "C_name": "oneworld member airlines",
+    "N_p": "Fly2Sky",
+    "N_t": [
+     "Plus Ultra",
+     "Gulf Air",
+     "STARLUX Airlines",
+     "Airnorth",
+     "Sun Way",
+     "Shree Airlines",
+     "West Air Luxembourg"
+    ],
+    "P_M": [
+     "Fiji Airways",
+     "Finnair",
+     "SriLankan Airlines"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "aaco_members",
+       "b787_operators",
+       "iata_members",
+       "skytrax_five_star"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "aaco_members",
+     "b787_operators",
+     "iata_members",
+     "skytrax_five_star"
+    ],
+    "field": "trips.airline",
+    "salience": 467145.0,
+    "universe": "airline"
+   },
+   "field": "trips.airline",
+   "level": 5,
+   "pinned": {
+    "A": "Qatar Airways",
+    "C": "oneworld_members",
+    "C_name": "oneworld member airlines",
+    "N_p": "Fly2Sky",
+    "N_t": [
+     "Plus Ultra",
+     "Gulf Air",
+     "STARLUX Airlines",
+     "Airnorth",
+     "Sun Way",
+     "Shree Airlines",
+     "West Air Luxembourg"
+    ],
+    "P_M": [
+     "Fiji Airways",
+     "Finnair",
+     "SriLankan Airlines"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "aaco_members",
+       "b787_operators",
+       "iata_members",
+       "skytrax_five_star"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a380_operators",
+     "aaco_members",
+     "b787_operators",
+     "iata_members",
+     "skytrax_five_star"
+    ],
+    "field": "trips.airline",
+    "salience": 467145.0,
+    "universe": "airline"
+   },
+   "tried": []
+  }
+ ],
+ "stage": "done"
+}

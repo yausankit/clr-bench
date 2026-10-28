@@ -1,0 +1,38 @@
+A: BN
+C: asean_members
+C_name: ASEAN member states
+N_p: FI
+N_t:
+- DM
+- KE
+- CM
+- IL
+- YT
+- GY
+- NP
+P_M:
+- LA
+- MM
+- PH
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - commonwealth_members
+    - un_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- commonwealth_members
+- un_members
+field: applicants.nationality
+label: travel note H7
+salience: 933074.0
+universe: country

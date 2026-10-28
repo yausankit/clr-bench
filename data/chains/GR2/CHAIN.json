@@ -1,0 +1,321 @@
+{
+ "answer_format": "json",
+ "background": {
+  "applicants.nationality": [
+   "AR",
+   "BD",
+   "GD",
+   "GF",
+   "IQ",
+   "JP",
+   "MA",
+   "NC",
+   "PM",
+   "TF"
+  ],
+  "applicants.university": [
+   "Asian Institute of Technology",
+   "Boston College",
+   "California State University",
+   "Government Polytechnic College, Adoor",
+   "Government Polytechnic College, Kunnamkulam",
+   "Lake Superior State University",
+   "Palawan State University",
+   "Politeknik Ilmu Pelayaran Balikpapan",
+   "St. Petersburg Naval Institute",
+   "Visva-Bharati University"
+  ],
+  "trips.airline": [
+   "Asian Wings Airways",
+   "Flugfélag Íslands",
+   "Hillman's Airways",
+   "Jet2.com",
+   "Northwest Airlink",
+   "Porter Airlines",
+   "Regional Air Services",
+   "Ukraine Air Enterprise",
+   "United Libya Airlines",
+   "Yuzhmashavia"
+  ]
+ },
+ "course_id": "CLR_GR2",
+ "dataset": "GR",
+ "fields": [
+  "applicants.nationality",
+  "trips.airline",
+  "applicants.university"
+ ],
+ "id": "GR2",
+ "seed": 20266108,
+ "slots": [
+  {
+   "A": "DE",
+   "C": "schengen_members",
+   "C_name": "Schengen Area member states",
+   "N_p": "IE",
+   "N_t": [
+    "CY",
+    "ME",
+    "CA",
+    "KN",
+    "FO",
+    "ZA",
+    "TH"
+   ],
+   "P_M": [
+    "LI",
+    "CH",
+    "MT"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "council_of_europe_members",
+      "eu_members",
+      "g20_members",
+      "g7_members",
+      "nato_members",
+      "oecd_members",
+      "un_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "council_of_europe_members",
+    "eu_members",
+    "g20_members",
+    "g7_members",
+    "nato_members",
+    "oecd_members",
+    "un_members"
+   ],
+   "field": "applicants.nationality",
+   "label": "ledger annotation K6",
+   "level": 1,
+   "salience": 1116871.0,
+   "universe": "country"
+  },
+  {
+   "A": "Lufthansa",
+   "C": "star_alliance_founders",
+   "C_name": "Five original Star Alliance member airlines",
+   "N_p": "All Nippon Airways",
+   "N_t": [
+    "EgyptAir",
+    "Lucky Air",
+    "EVA Air",
+    "Air Calédonie",
+    "Stellar Airways",
+    "Transworld Aviation",
+    "LATAM Airlines Ecuador"
+   ],
+   "P_M": [
+    "Scandinavian Airlines",
+    "Thai Airways International",
+    "Air Canada"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "b787_operators",
+      "iata_members",
+      "star_alliance_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a380_operators",
+    "airlines_for_europe",
+    "b787_operators",
+    "iata_members",
+    "lufthansa_group_airlines",
+    "star_alliance_members"
+   ],
+   "field": "trips.airline",
+   "label": "expense label 26",
+   "level": 2,
+   "salience": 630113.0,
+   "universe": "airline"
+  },
+  {
+   "A": "National University of Singapore",
+   "C": "aun_members",
+   "C_name": "ASEAN University Network members",
+   "N_p": "High Council for the Evaluation of Research and Higher Education",
+   "N_t": [
+    "University of Science and Technology of China",
+    "University of Cape Town",
+    "Nagoya University",
+    "University of Amsterdam",
+    "Stendhal University",
+    "Zhetysu University",
+    "Politeknik Kesehatan Kementerian Kesehatan Banten"
+   ],
+   "P_M": [
+    "Hoa Sen University",
+    "Airlangga University",
+    "Lyceum of the Philippines University"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apru_members",
+      "iaru_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apru_members",
+    "iaru_members"
+   ],
+   "field": "applicants.university",
+   "label": "audit marker C-39",
+   "level": 3,
+   "salience": 7660.0,
+   "universe": "university"
+  },
+  {
+   "A": "BN",
+   "C": "asean_members",
+   "C_name": "ASEAN member states",
+   "N_p": "FI",
+   "N_t": [
+    "DM",
+    "KE",
+    "CM",
+    "IL",
+    "YT",
+    "GY",
+    "NP"
+   ],
+   "P_M": [
+    "LA",
+    "MM",
+    "PH"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "commonwealth_members",
+      "un_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "commonwealth_members",
+    "un_members"
+   ],
+   "field": "applicants.nationality",
+   "label": "travel note H7",
+   "level": 4,
+   "salience": 933074.0,
+   "universe": "country"
+  },
+  {
+   "A": "Singapore Airlines",
+   "C": "skytrax_five_star",
+   "C_name": "Skytrax five-star rated airlines",
+   "N_p": "Qantas",
+   "N_t": [
+    "Turkish Airlines",
+    "TAAG Angola Airlines",
+    "WestJet",
+    "Pawan Hans",
+    "Flamingo Air",
+    "IrAero",
+    "Libyan Arab Air Cargo"
+   ],
+   "P_M": [
+    "STARLUX Airlines",
+    "Cathay Pacific",
+    "Korean Air"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "b787_operators",
+      "iata_members",
+      "star_alliance_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a380_operators",
+    "aapa_members",
+    "b787_operators",
+    "iata_members",
+    "star_alliance_members"
+   ],
+   "field": "trips.airline",
+   "label": "routing code 13",
+   "level": 5,
+   "salience": 58252.0,
+   "universe": "airline"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+A: fr
+C: italic_languages
+C_name: Italic languages
+N_p: de
+N_t:
+- sl
+- ja
+- rw
+- ne
+- ee
+- xh
+- lv
+P_M:
+- an
+- sc
+- co
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - canada_knowledge_languages
+    - canada_mother_tongue_languages
+    - eu_official_languages
+    - finland_native_languages
+    - italy_law_482_languages
+    - nepal_native_languages
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- au_working_languages
+- canada_knowledge_languages
+- canada_mother_tongue_languages
+- eu_official_languages
+- finland_native_languages
+- france_metropolitan_ethnologue_languages
+- gallo_iberian_languages
+- gallo_romance_languages
+- italy_law_482_languages
+- kazakhstan_census_languages
+- nepal_native_languages
+- osce_official_languages
+- spain_2021_census_languages
+- turkey_1965_census_languages
+- turkey_ethnologue_languages
+- un_official_languages
+field: findings.language
+label: review line 97
+salience: 183631.0
+universe: language

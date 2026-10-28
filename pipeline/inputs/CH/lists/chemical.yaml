@@ -1,0 +1,1528 @@
+- id: stockholm_annex_a
+  name: Stockholm Convention Annex A
+  synonyms: []
+  members:
+  - Aldrin
+  - Alpha-hexachlorocyclohexane
+  - Beta-hexachlorocyclohexane
+  - Brominated diphenyl ethers
+  - C10-13 Chloroalkanes
+  - Chlordane
+  - Chlordecone
+  - Chlorpyrifos
+  - Decabromodiphenyl ether
+  - Dechlorane Plus
+  - Dicofol
+  - Dieldrin
+  - Endrin
+  - Heptabromodiphenyl ether
+  - Heptachlor
+  - Hexabromobiphenyl
+  - Hexabromocyclododecane
+  - Hexabromodiphenyl ether
+  - Hexachlorobenzene
+  - Hexachlorobutadiene
+  - Lindane
+  - Methoxychlor
+  - Mirex
+  - Pentachlorobenzene
+  - Pentachlorophenol
+  - Perfluorohexane sulfonic acid
+  - Perfluorooctanoic acid
+  - Polychlorinated biphenyls
+  - Polychlorinated naphthalenes
+  - Technical endosulfan
+  - Tetrabromodiphenyl ether
+  - Toxaphene
+  - UV-328
+  disputed:
+  - Long-chain perfluorocarboxylic acids
+  - Medium-chain chlorinated paraffins
+  changes:
+  - value: Long-chain perfluorocarboxylic acids
+    date: '2025-05-09'
+    change: added
+  - value: Medium-chain chlorinated paraffins
+    date: '2025-05-09'
+    change: added
+  official_count: 35
+  out_of_universe: []
+  salience: 1476
+  source: stockholm_convention_text_2025.pdf Annex A; stockholm_allpops.html
+- id: stockholm_annex_c
+  name: Stockholm Convention Annex C
+  synonyms: []
+  members:
+  - 2,3,7,8-Tetrachlorodibenzo-p-dioxin
+  - Hexachlorobenzene
+  - Hexachlorobutadiene
+  - Pentachlorobenzene
+  - Polychlorinated biphenyls
+  - Polychlorinated naphthalenes
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  salience: 28368
+  source: stockholm_convention_text_2025.pdf Annex C
+- id: rotterdam_pesticides
+  name: Rotterdam Convention Annex III pesticides
+  synonyms: []
+  members:
+  - 1,2-Dibromoethane
+  - 1,2-Dichloroethane
+  - 2,4,5-T
+  - Alachlor
+  - Aldicarb
+  - Aldrin
+  - Azinphos-methyl
+  - Binapacryl
+  - Captafol
+  - Carbofuran
+  - Carbosulfan
+  - Chlordane
+  - Chlordimeform
+  - Chlorobenzilate
+  - DDT
+  - Dieldrin
+  - Dinitro-ortho-cresol
+  - Dinoseb
+  - Ethylene oxide
+  - Fenthion
+  - Fluoroacetamide
+  - HCH
+  - Heptachlor
+  - Hexachlorobenzene
+  - Lindane
+  - Mercury compounds
+  - Methamidophos
+  - Methyl-parathion
+  - Monocrotophos
+  - Parathion
+  - Pentachlorophenol
+  - Phorate
+  - Phosphamidon
+  - Technical endosulfan
+  - Terbufos
+  - Toxaphene
+  - Trichlorfon
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe:
+  - Dustable powder formulation of benomyl, carbofuran, and thiram
+  salience: 7005
+  source: rotterdam_convention_text_2025.pdf Annex III pesticide rows
+- id: rotterdam_industrial
+  name: Rotterdam Convention Annex III industrial chemicals
+  synonyms: []
+  members:
+  - Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile,
+    crocidolite, tremolite)
+  - C10-13 Chloroalkanes
+  - Commercial octabromodiphenyl ether
+  - Commercial pentabromodiphenyl ether
+  - Decabromodiphenyl ether
+  - Hexabromobiphenyl
+  - Hexabromocyclododecane
+  - Perfluorooctane sulfonic acid
+  - Perfluorooctanoic acid
+  - Polychlorinated biphenyls
+  - Polychlorinated terphenyls
+  - Tetraethyl lead
+  - Tetramethyl lead
+  - Tris(2,3-dibromopropyl) phosphate
+  disputed: []
+  changes: []
+  official_count: 15
+  out_of_universe:
+  - All tributyltin compounds
+  salience: 7005
+  source: rotterdam_convention_text_2025.pdf Annex III industrial rows
+- id: rotterdam_annex_iii
+  name: Rotterdam Convention Annex III all chemicals
+  synonyms: []
+  members:
+  - 1,2-Dibromoethane
+  - 1,2-Dichloroethane
+  - 2,4,5-T
+  - Alachlor
+  - Aldicarb
+  - Aldrin
+  - Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile,
+    crocidolite, tremolite)
+  - Azinphos-methyl
+  - Binapacryl
+  - C10-13 Chloroalkanes
+  - Captafol
+  - Carbofuran
+  - Carbosulfan
+  - Chlordane
+  - Chlordimeform
+  - Chlorobenzilate
+  - Commercial octabromodiphenyl ether
+  - Commercial pentabromodiphenyl ether
+  - DDT
+  - Decabromodiphenyl ether
+  - Dieldrin
+  - Dinitro-ortho-cresol
+  - Dinoseb
+  - Ethylene oxide
+  - Fenthion
+  - Fluoroacetamide
+  - HCH
+  - Heptachlor
+  - Hexabromobiphenyl
+  - Hexabromocyclododecane
+  - Hexachlorobenzene
+  - Lindane
+  - Mercury compounds
+  - Methamidophos
+  - Methyl-parathion
+  - Monocrotophos
+  - Parathion
+  - Pentachlorophenol
+  - Perfluorooctane sulfonic acid
+  - Perfluorooctanoic acid
+  - Phorate
+  - Phosphamidon
+  - Polychlorinated biphenyls
+  - Polychlorinated terphenyls
+  - Technical endosulfan
+  - Terbufos
+  - Tetraethyl lead
+  - Tetramethyl lead
+  - Toxaphene
+  - Trichlorfon
+  - Tris(2,3-dibromopropyl) phosphate
+  disputed: []
+  changes: []
+  official_count: 53
+  out_of_universe:
+  - All tributyltin compounds
+  - Dustable powder formulation of benomyl, carbofuran, and thiram
+  salience: 7005
+  source: rotterdam_convention_text_2025.pdf Annex III complete chemical table
+- id: opcw_schedule_1
+  name: Chemical Weapons Convention Schedule 1
+  synonyms: []
+  members:
+  - Chlorosarin
+  - Chlorosoman
+  - DF
+  - HN1
+  - HN2
+  - HN3
+  - Lewisite 1
+  - Lewisite 2
+  - Lewisite 3
+  - QL
+  - Ricin
+  - Sarin
+  - Saxitoxin
+  - Soman
+  - Sulfur mustard
+  - Tabun
+  - VX
+  disputed: []
+  changes: []
+  official_count: 33
+  out_of_universe:
+  - 1,3-Bis(2-chloroethylthio)-n-propane [CAS 63905-10-2]
+  - 1,4-Bis(2-chloroethylthio)-n-butane [CAS 142868-93-7]
+  - 1,5-Bis(2-chloroethylthio)-n-pentane [CAS 142868-94-8]
+  - 2-Chloroethylchloromethylsulfide [CAS 2625-76-5]
+  - Bis(2-chloroethylthio)methane [CAS 63869-13-6]
+  - Bis(2-chloroethylthiomethyl)ether [CAS 63918-90-1]
+  - CAS 2387495-99-8 [CAS 2387495-99-8]
+  - CAS 2387496-00-4 [CAS 2387496-00-4]
+  - CAS 77104-00-8 [CAS 77104-00-8]
+  - CAS 77104-62-2 [CAS 77104-62-2]
+  - Ethyl (1-(diethylamino)ethylidene)phosphoramidofluoridate [CAS 2387496-06-0]
+  - Methyl (1-(diethylamino)ethylidene)phosphoramidofluoridate [CAS 2387496-04-8]
+  - Methyl-(1-(diethylamino)ethylidene)phosphonamidofluoridate [CAS 2387496-12-8]
+  - Methyl-(bis(diethylamino)methylene)phosphonamidofluoridate [CAS 2387496-14-0]
+  - 'O-Mustard: Bis(2-chloroethylthioethyl)ether [CAS 63918-89-8]'
+  - 'Sesquimustard: 1,2-Bis(2-chloroethylthio)ethane [CAS 3563-36-8]'
+  salience: 59528
+  source: cwc_schedule_1.html chemical rows
+- id: opcw_schedule_2
+  name: Chemical Weapons Convention Schedule 2
+  synonyms: []
+  members:
+  - 2,2-Diphenyl-2-hydroxyacetic acid
+  - Amiton
+  - Arsenic trichloride
+  - BZ
+  - Dimethyl methylphosphonate
+  - Fonofos
+  - Methylphosphonyl dichloride
+  - PFIB
+  - Quinuclidin-3-ol
+  disputed: []
+  changes: []
+  official_count: 13
+  out_of_universe:
+  - CAS 108-01-0 [CAS 108-01-0]
+  - N,N-Diethylaminoethanol [CAS 100-37-8]
+  - 'Pinacolyl alcohol: 3,3-Dimethylbutan-2-ol [CAS 464-07-3]'
+  - 'Thiodiglycol: Bis(2-hydroxyethyl)sulfide [CAS 111-48-8]'
+  salience: 59528
+  source: cwc_schedule_2.html chemical rows
+- id: opcw_schedule_3
+  name: Chemical Weapons Convention Schedule 3
+  synonyms: []
+  members:
+  - Chloropicrin
+  - Cyanogen chloride
+  - Diethyl phosphite
+  - Dimethyl hydrogen phosphite
+  - Ethyldiethanolamine
+  - Hydrogen cyanide
+  - Methyldiethanolamine
+  - Phosgene
+  - Phosphorus oxychloride
+  - Phosphorus pentachloride
+  - Phosphorus trichloride
+  - Sulfur dichloride
+  - Sulfur monochloride
+  - Thionyl chloride
+  - Triethanolamine
+  - Triethyl phosphite
+  - Trimethyl phosphite
+  disputed: []
+  changes: []
+  official_count: 17
+  out_of_universe: []
+  salience: 59528
+  source: cwc_schedule_3.html chemical rows
+- id: opcw_all_schedules
+  name: Chemical Weapons Convention scheduled chemicals (Schedules 1-3)
+  synonyms: []
+  members:
+  - 2,2-Diphenyl-2-hydroxyacetic acid
+  - Amiton
+  - Arsenic trichloride
+  - BZ
+  - Chloropicrin
+  - Chlorosarin
+  - Chlorosoman
+  - Cyanogen chloride
+  - DF
+  - Diethyl phosphite
+  - Dimethyl hydrogen phosphite
+  - Dimethyl methylphosphonate
+  - Ethyldiethanolamine
+  - Fonofos
+  - HN1
+  - HN2
+  - HN3
+  - Hydrogen cyanide
+  - Lewisite 1
+  - Lewisite 2
+  - Lewisite 3
+  - Methyldiethanolamine
+  - Methylphosphonyl dichloride
+  - PFIB
+  - Phosgene
+  - Phosphorus oxychloride
+  - Phosphorus pentachloride
+  - Phosphorus trichloride
+  - QL
+  - Quinuclidin-3-ol
+  - Ricin
+  - Sarin
+  - Saxitoxin
+  - Soman
+  - Sulfur dichloride
+  - Sulfur monochloride
+  - Sulfur mustard
+  - Tabun
+  - Thionyl chloride
+  - Triethanolamine
+  - Triethyl phosphite
+  - Trimethyl phosphite
+  - VX
+  disputed: []
+  changes: []
+  official_count: 63
+  out_of_universe:
+  - 1,3-Bis(2-chloroethylthio)-n-propane [CAS 63905-10-2]
+  - 1,4-Bis(2-chloroethylthio)-n-butane [CAS 142868-93-7]
+  - 1,5-Bis(2-chloroethylthio)-n-pentane [CAS 142868-94-8]
+  - 2-Chloroethylchloromethylsulfide [CAS 2625-76-5]
+  - Bis(2-chloroethylthio)methane [CAS 63869-13-6]
+  - Bis(2-chloroethylthiomethyl)ether [CAS 63918-90-1]
+  - CAS 108-01-0 [CAS 108-01-0]
+  - CAS 2387495-99-8 [CAS 2387495-99-8]
+  - CAS 2387496-00-4 [CAS 2387496-00-4]
+  - CAS 77104-00-8 [CAS 77104-00-8]
+  - CAS 77104-62-2 [CAS 77104-62-2]
+  - Ethyl (1-(diethylamino)ethylidene)phosphoramidofluoridate [CAS 2387496-06-0]
+  - Methyl (1-(diethylamino)ethylidene)phosphoramidofluoridate [CAS 2387496-04-8]
+  - Methyl-(1-(diethylamino)ethylidene)phosphonamidofluoridate [CAS 2387496-12-8]
+  - Methyl-(bis(diethylamino)methylene)phosphonamidofluoridate [CAS 2387496-14-0]
+  - N,N-Diethylaminoethanol [CAS 100-37-8]
+  - 'O-Mustard: Bis(2-chloroethylthioethyl)ether [CAS 63918-89-8]'
+  - 'Pinacolyl alcohol: 3,3-Dimethylbutan-2-ol [CAS 464-07-3]'
+  - 'Sesquimustard: 1,2-Bis(2-chloroethylthio)ethane [CAS 3563-36-8]'
+  - 'Thiodiglycol: Bis(2-hydroxyethyl)sulfide [CAS 111-48-8]'
+  salience: 59528
+  source: cwc_schedule_1.html; cwc_schedule_2.html; cwc_schedule_3.html chemical rows
+- id: montreal_all_controlled_substances
+  name: Montreal Protocol controlled substances
+  synonyms: []
+  members:
+  - Bromochloromethane
+  - CFC-11
+  - CFC-111
+  - CFC-112
+  - CFC-113
+  - CFC-114
+  - CFC-115
+  - CFC-12
+  - CFC-13
+  - CFC-211
+  - CFC-212
+  - CFC-213
+  - CFC-214
+  - CFC-215
+  - CFC-216
+  - CFC-217
+  - Carbon tetrachloride
+  - HCFC-121
+  - HCFC-122
+  - HCFC-123
+  - HCFC-124
+  - HCFC-131
+  - HCFC-132
+  - HCFC-133
+  - HCFC-141
+  - HCFC-141b
+  - HCFC-142
+  - HCFC-142b
+  - HCFC-151
+  - HCFC-21
+  - HCFC-22
+  - HCFC-221
+  - HCFC-222
+  - HCFC-223
+  - HCFC-224
+  - HCFC-225
+  - HCFC-225ca
+  - HCFC-225cb
+  - HCFC-226
+  - HCFC-231
+  - HCFC-232
+  - HCFC-233
+  - HCFC-234
+  - HCFC-235
+  - HCFC-241
+  - HCFC-242
+  - HCFC-243
+  - HCFC-244
+  - HCFC-251
+  - HCFC-252
+  - HCFC-253
+  - HCFC-261
+  - HCFC-262
+  - HCFC-271
+  - HCFC-31
+  - HFC-125
+  - HFC-134
+  - HFC-134a
+  - HFC-143
+  - HFC-143a
+  - HFC-152
+  - HFC-152a
+  - HFC-227ea
+  - HFC-23
+  - HFC-236cb
+  - HFC-236ea
+  - HFC-236fa
+  - HFC-245ca
+  - HFC-245fa
+  - HFC-32
+  - HFC-365mfc
+  - HFC-41
+  - HFC-43-10mee
+  - Halon-1211
+  - Halon-1301
+  - Halon-2402
+  - Methyl bromide
+  - Methyl chloroform
+  disputed: []
+  changes: []
+  official_count: 79
+  out_of_universe:
+  - HBFC-22B1
+  salience: 108853
+  source: montreal_handbook_2020.pdf Annexes A, B, C, E and F named substances
+- id: iarc_group_1
+  name: IARC Group 1 chemical agents
+  synonyms: []
+  members:
+  - 1,2-Dichloropropane
+  - 1,3-Butadiene
+  - 1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU) (Semustine)
+  - 2,3,4,7,8-Pentachlorodibenzofuran
+  - 2,3,7,8-Tetrachlorodibenzo-p-dioxin
+  - 2-Naphthylamine
+  - 3,3a,4,4a,5-Pentachlorobiphenyl (PCB-126)
+  - 4,4'-Methylenebis(2-chloroaniline) (MOCA)
+  - 4-Aminobiphenyl
+  - Acetaldehyde
+  - Acrylonitrile
+  - Aflatoxins
+  - Aristolochic acid
+  - Arsenic and inorganic arsenic compounds
+  - Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile,
+    crocidolite, tremolite)
+  - Azathioprine
+  - Benzene
+  - Benzidine
+  - Benzo(a)pyrene
+  - Beryllium and beryllium compounds
+  - Bis(chloromethyl)ether; chloromethyl methyl ether (technical-grade)
+  - Busulfan
+  - Cadmium and cadmium compounds
+  - Chlorambucil
+  - Chlornaphazine
+  - Chromium (VI) compounds
+  - Ciclosporin
+  - Cyclophosphamide
+  - Erionite
+  - Ethylene oxide
+  - Etoposide
+  - Formaldehyde
+  - Hydrochlorothiazide
+  - Lindane
+  - Melphalan
+  - N'-Nitrosonornicotine (NNN) and 4-(N-Nitrosomethylamino)-1-(3-pyridyl)-1-butanone
+    (NNK)
+  - Pentachlorophenol
+  - Perfluorooctanoic acid
+  - Phenacetin
+  - Phosphorus-32, as phosphate
+  - Plutonium
+  - Polychlorinated biphenyls
+  - Radium-224 and its decay products
+  - Radium-226 and its decay products
+  - Radium-228 and its decay products
+  - Radon-222 and its decay products
+  - Sulfur mustard
+  - Tacrolimus
+  - Tamoxifen
+  - Thiotepa
+  - Thorium-232 and its decay products
+  - Treosulfan
+  - Trichloroethylene
+  - Uranium, mixture of isotopes (see Radionuclides, alpha-particle-emitting, internally
+    deposited)
+  - Vinyl chloride
+  - Voriconazole
+  - ortho-Toluidine
+  disputed: []
+  changes: []
+  official_count: 64
+  out_of_universe:
+  - Coal-tar distillation
+  - Coal-tar pitch
+  - Diethylstilbestrol
+  - Ethanol in alcoholic beverages
+  - Methoxsalen (8-methoxypsoralen) plus ultraviolet A radiation
+  - Shale oils
+  - Silica dust, crystalline, in the form of quartz or cristobalite
+  salience: 11223
+  source: iarc_loc_app.js group 1 records with CAS numbers
+- id: iarc_group_2a
+  name: IARC Group 2A chemical agents
+  synonyms: []
+  members:
+  - 1,1,1-Trichloroethane
+  - 1,2,3-Trichloropropane
+  - 1,2-Dibromoethane
+  - 1,2-Dimethylhydrazine
+  - 1,3-Propane sultone
+  - 1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea (CCNU) (Lomustine)
+  - 1-Nitropyrene
+  - 2-Bromopropane
+  - 2-Mercaptobenzothiazole
+  - 2-Nitrotoluene
+  - 3,3a2,4,4a2-Tetrachloroazobenzene
+  - 4-Chloro-ortho-toluidine
+  - 5-Methoxypsoralen
+  - 6-Nitrochrysene
+  - Acrolein
+  - Acrylamide
+  - Adriamycin (Doxorubicin)
+  - Alachlor
+  - Aniline (see also Aniline hydrochloride)
+  - Aniline hydrochloride (see also Aniline)
+  - Atrazine
+  - Azacitidine
+  - Bischloroethyl nitrosourea (BCNU) (Carmustine)
+  - Captafol
+  - Chloral
+  - Chloral hydrate
+  - Chloramphenicol
+  - Chlorozotocin
+  - Cisplatin
+  - Cobalt metal (without tungsten carbide or other metal alloys)
+  - Creosotes
+  - Cyclopenta[cd]pyrene
+  - DDT
+  - Diazinon
+  - Dibenz[a,h]anthracene
+  - Dibenz[a,j]acridine
+  - Dibenzo[a,l]pyrene
+  - Dichloromethane
+  - Dieldrin
+  - Dimethyl sulfate
+  - Dimethylcarbamoyl chloride
+  - Epichlorohydrin
+  - Ethyl carbamate (Urethane)
+  - Glycidol
+  - Glycidyl methacrylate
+  - Glyphosate
+  - HN2
+  - Hydrazine
+  - IQ (2-Amino-3-methylimidazo[4,5-f]quinoline)
+  - Indium phosphide
+  - Malathion
+  - Methyl methanesulfonate
+  - Methyleugenol
+  - N,N-Dimethylformamide
+  - N-Ethyl-N-nitrosourea
+  - N-Methyl-N-nitrosourea
+  - N-Methyl-NA -nitro-N-nitrosoguanidine (MNNG)
+  - N-Nitrosodimethylamine
+  - Pioglitazone
+  - Polybrominated biphenyls
+  - Procarbazine hydrochloride
+  - Silicon carbide whiskers
+  - Styrene
+  - Styrene-7,8-oxide
+  - Talc
+  - Teniposide
+  - Tetrabromobisphenol A
+  - Tetrachloroethylene
+  - Tetrafluoroethylene
+  - Tris(2,3-dibromopropyl) phosphate
+  - Tris(chloropropyl) phosphate (TCPP)
+  - Vinyl bromide
+  - Vinyl fluoride
+  - ortho-Anisidine (see also ortho-Anisidine hydrochloride)
+  - ortho-Anisidine hydrochloride (see also ortho-Anisidine)
+  - ortho-Nitroanisole
+  disputed: []
+  changes: []
+  official_count: 80
+  out_of_universe:
+  - Bitumens, occupational exposure to oxidized bitumens and their emissions during
+    roofing
+  - Diethyl sulfate
+  - N-Nitrosodiethylamine
+  - alpha-Chlorinated toluenes (benzal chloride, benzotrichloride, benzyl chloride)
+    and benzoyl chloride (combined exposures)
+  salience: 3533
+  source: iarc_loc_app.js group 2A records with CAS numbers
+- id: iarc_group_2b
+  name: IARC Group 2B chemical agents
+  synonyms: []
+  members:
+  - 1,1,1,2-Tetrachloroethane
+  - 1,1,2,2-Tetrachloroethane
+  - 1,1-Dimethylhydrazine
+  - 1,2-Dibromo-3-chloropropane
+  - 1,2-Dichloroethane
+  - 1,2-Diphenylhydrazine
+  - 1,2-Epoxybutane
+  - 1,3-Dichloro-2-propanol
+  - 1,3-Dichloropropene (technical-grade)
+  - 1,3-Dinitropyrene
+  - 1,4-Dichloro-2-nitrobenzene
+  - 1,4-Dioxane
+  - 1,6-Dinitropyrene
+  - 1,8-Dinitropyrene
+  - 1-Amino-2,4-dibromoanthraquinone
+  - 1-Bromo-3-chloropropane
+  - 1-Bromopropane
+  - 1-Butyl glycidyl ether
+  - 1-Chloro-2-methylpropene
+  - 1-Hydroxyanthraquinone
+  - 1-[(5-Nitrofurfurylidene)amino]-2-imidazolidinone
+  - 1-tert-Butoxypropan-2-ol
+  - 2,2-Bis(bromomethyl)propane-1,3-diol
+  - 2,3-Dibromopropan-1-ol
+  - 2,4,6-Trichlorophenol (see also Polychlorophenols)
+  - 2,4-Diaminoanisole
+  - 2,4-Diaminotoluene
+  - 2,4-Dichloro-1-nitrobenzene
+  - 2,4-Dinitrotoluene
+  - 2,4-Hexadienal
+  - 2,6-Dimethylaniline (2,6-Xylidine)
+  - 2,6-Dinitrotoluene
+  - 2-(2-Formylhydrazino)-4-(5-nitro-2-furyl)thiazole
+  - 2-Amino-4-chlorophenol
+  - 2-Amino-5-(5-nitro-2-furyl)-1,3,4-thiadiazole
+  - 2-Chloronitrobenzene
+  - 2-Ethylhexyl acrylate
+  - 2-Methyl-1-nitroanthraquinone (uncertain purity)
+  - 2-Methylaziridine (Propyleneimine)
+  - 2-Methylimidazole
+  - 2-Nitrofluorene
+  - 2-Nitropropane
+  - 3,3'-Dichloro-4,4'-diaminodiphenyl ether
+  - 3,3'-Dichlorobenzidine
+  - 3,3'-Dimethoxybenzidine (ortho-Dianisidine)
+  - 3,3'-Dimethylbenzidine (ortho-Tolidine)
+  - 3,7-Dinitrofluoranthene
+  - 3,9-Dinitrofluoranthene
+  - 3-(N-Nitrosomethylamino)propionitrile
+  - 3-Chloro-2-methylpropene, technical grade
+  - 3-Chloro-4-(dichloromethyl)-5-hydroxy-2(5H)-furanone
+  - 3-Monochloro-1,2-propanediol
+  - 3-Nitrobenzanthrone
+  - 4,4'-Diaminodiphenyl ether
+  - 4,4'-Methylene bis(2-methylaniline)
+  - 4,4'-Methylenedianiline
+  - 4,4'-Thiodianiline
+  - 4-Chloro-ortho-phenylenediamine
+  - 4-Chlorobenzotrifluoride
+  - 4-Chloronitrobenzene
+  - 4-Methylimidazole
+  - 4-Nitropyrene
+  - 4-Vinylcyclohexene
+  - 4-Vinylcyclohexene diepoxide
+  - 5-(Morpholinomethyl)-3-[(5-nitrofurfurylidene)Aamino]-2-oxazolidinone
+  - 5-Methylchrysene
+  - 5-Nitroacenaphthene
+  - 7H-Dibenzo[c,g]carbazole
+  - A-alpha-C (2-Amino-9H-pyrido[2,3-b]indole)
+  - AF-2 [2-(2-Furyl)-3-(5-nitro-2-furyl)acrylamide]
+  - Acetaldehyde
+  - Acetamide
+  - Amsacrine
+  - Anthracene
+  - Anthraquinone
+  - AramiteA
+  - Aspartame
+  - Auramine
+  - Azaserine
+  - Aziridine
+  - Benz[a]anthracene
+  - Benz[j]aceanthrylene
+  - Benzo(b)fluoranthene
+  - Benzo(k)fluoranthene
+  - Benzo[c]phenanthrene
+  - Benzo[j]fluoranthene
+  - Benzofuran
+  - Benzophenone
+  - Benzyl violet 4B
+  - Bleomycins
+  - Bromochloroacetic acid
+  - Bromodichloromethane
+  - Butyl benzyl phthalate
+  - Butyl methacrylate
+  - Butylated hydroxyanisole (BHA)
+  - Butyraldehyde
+  - CI Acid Red 114
+  - CI Basic Red 9
+  - CI Direct Blue 15
+  - CI Direct Blue 218
+  - Caffeic acid
+  - Carbazole
+  - Carbon black
+  - Carbon nanotubes, multiwalled MWCNT-7
+  - Carbon tetrachloride
+  - Carrageenan, degraded (Poligeenan)
+  - Catechol
+  - Chlordane
+  - Chlordecone
+  - Chlorendic acid
+  - Chloroform
+  - Chloroprene
+  - Chlorothalonil
+  - Chrysene
+  - Citrus Red No. 2
+  - Cobalt(II) oxide
+  - Crotonaldehyde
+  - Cumene
+  - Cumyl hydroperoxide
+  - Cupferron
+  - Cycasin
+  - Dacarbazine
+  - Dantron (Chrysazin; 1,8-Dihydroxyanthraquinone)
+  - Daunomycin (Daunorubicin)
+  - Di(2-ethylhexyl) phthalate
+  - Dibenz[a,h]acridine
+  - Dibenz[c,h]acridine
+  - Dibenzo[a,h]pyrene
+  - Dibenzo[a,i]pyrene
+  - Dibromoacetic acid
+  - Dibromoacetonitrile
+  - Dibutyl phthalate
+  - Dichloroacetic acid
+  - Dichlorvos
+  - Diglycidyl resorcinol ether
+  - Digoxin
+  - Dihydrosafrole
+  - Diisononyl phthalate
+  - Diisopropyl sulfate
+  - Dimethyl hydrogen phosphite
+  - Dimethylarsinic acid
+  - Diphenylamine
+  - Disperse Blue 1
+  - Ethyl acrylate
+  - Ethyl methanesulfonate
+  - Ethyl tert-butyl ether
+  - Ethylbenzene
+  - Fumonisin B1
+  - Furan
+  - Furfuryl alcohol
+  - Gentian violet (see also Leucogentian violet)
+  - Ginkgo biloba extract
+  - Glu-P-1 (2-Amino-6-methyldipyrido[1,2-a:3',2'-d]imidazole)
+  - Glu-P-2 (2-Aminodipyrido[1,2-a:3',2'-d]imidazole)
+  - Glycidaldehyde
+  - Griseofulvin
+  - HC Blue No. 1
+  - Heptachlor
+  - Hexachlorobenzene
+  - Hexachloroethane
+  - Hexamethylphosphoramide
+  - I-Methylstyrene
+  - I2-Myrcene
+  - Indeno(1,2,3-cd)pyrene
+  - Indium tin oxide
+  - Iron-dextran complex
+  - Isobutyl nitrite
+  - Isoeugenol
+  - Isophorone
+  - Isoprene
+  - Kava extract
+  - Lasiocarpine
+  - Lead
+  - Leucomalachite green (see also Malachite green)
+  - Magenta
+  - MeA-alpha-C (2-Amino-3-methyl-9H-pyrido[2,3-b]indole)
+  - MeIQ (2-Amino-3,4-dimethylimidazo[4,5-f]quinoline)
+  - MeIQx (2-Amino-3,8-dimethylimidazo[4,5-f]quinoxaline)
+  - Medroxyprogesterone acetate
+  - Melamine
+  - Merphalan
+  - Methyl acrylate
+  - Methyl isobutyl ketone
+  - Methyl tert-butyl ether
+  - Methylarsonic acid
+  - Methylazoxymethanol acetate
+  - Methylthiouracil
+  - Metronidazole
+  - Michleras base [4,4A -methylenebis(N,N-dimethyl)Abenzenamine]
+  - Michleras ketone [4,4A -Bis(dimethylamino)Abenzophenone]
+  - Microcystin-LR
+  - Mirex
+  - Mitomycin C
+  - Mitoxantrone
+  - Molybdenum trioxide
+  - Monocrotaline
+  - N,N'-Diacetylbenzidine
+  - N,N-Dimethyl-p-toluidine
+  - N,N-Dimethylacetamide
+  - N-Methyl-N-nitrosourethane
+  - N-Methylolacrylamide
+  - N-Nitrosodi-n-butylamine
+  - N-Nitrosodi-n-propylamine
+  - N-Nitrosomethylethylamine
+  - N-Nitrosomethylvinylamine
+  - N-Nitrosomorpholine
+  - N-Nitrosopiperidine
+  - N-Nitrosopyrrolidine
+  - N-Nitrososarcosine
+  - N-[4-(5-Nitro-2-furyl)-2-thiazolyl]acetamide
+  - Nafenopin
+  - Naphthalene
+  - Nickel compounds
+  - Niridazole
+  - Nitrilotriacetic acid and its salts
+  - Nitrobenzene
+  - Nitrofen (technical-grade)
+  - Nitrogen mustard N-oxide
+  - Nitromethane
+  - Ochratoxin A
+  - Oxazepam
+  - Panfuran S (containing dihydroxymethylfuratrizine)
+  - Parathion
+  - Pentosan polysulfate sodium
+  - Perfluorooctane sulfonic acid
+  - PhIP (2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)
+  - Phenazopyridine hydrochloride
+  - Phenobarbital
+  - Phenolphthalein
+  - Phenoxybenzamine hydrochloride
+  - Phenyl glycidyl ether
+  - Phenytoin
+  - Ponceau 3R
+  - Ponceau MX
+  - Potassium bromate
+  - Primidone
+  - Propylene oxide
+  - Propylthiouracil
+  - Pulegone
+  - Pyridine
+  - Quinoline
+  - Riddelliine
+  - Safrole
+  - Silicon carbide, fibrous
+  - Sodium ortho-phenylphenate
+  - Sterigmatocystin
+  - Streptozotocin
+  - Sulfallate
+  - Sulfasalazine
+  - Tetrachlorvinphos
+  - Tetrahydrofuran
+  - Tetranitromethane
+  - Thioacetamide
+  - Thiouracil
+  - Titanium dioxide
+  - Toluene diisocyanates
+  - Toxaphene
+  - Triamterene
+  - Trichlormethine (Trimustine hydrochloride)
+  - Trichloroacetic acid
+  - Trimethylolpropane triacrylate, technical grade
+  - Trp-P-1 (3-Amino-1,4-dimethyl-5H-pyrido[4,3-b]indole)
+  - Trp-P-2 (3-Amino-1-methyl-5H-pyrido[4,3-b]indole)
+  - Trypan blue
+  - Uracil mustard
+  - Vanadium pentoxide
+  - Vinclozolin
+  - Vinyl acetate
+  - Vinylidene chloride
+  - Zalcitabine
+  - Zidovudine (AZT)
+  - beta-Butyrolactone
+  - beta-Propiolactone
+  - ortho-Aminoazotoluene
+  - ortho-Phenylenediamine
+  - ortho-Phenylenediamine dihydrochloride
+  - para-Aminoazobenzene
+  - para-Chloroaniline
+  - para-Cresidine
+  - para-Dichlorobenzene
+  - para-Dimethylaminoazobenzene
+  - para-Nitroanisole
+  - trans-2-[(Dimethylamino)methylimino]-5-[2-(5-nitro-2-furyl)-vinyl]-1,3,4-oxadiazole
+  disputed: []
+  changes: []
+  official_count: 291
+  out_of_universe:
+  - 1,2-Diethylhydrazine
+  - 2,4-D (2,4-dichlorophenoxyacetic acid) (See also Chlorophenoxy herbicides)
+  - Bitumens, occupational exposure to straight-run bitumens and their emissions during
+    road paving
+  - Coconut oil diethanolamine condensate
+  - Diethanolamine
+  - N-Nitrosodiethanolamine
+  - Oil Orange SS
+  - Palygorskite (Attapulgite) (long fibres, > 5 micrometres)
+  salience: 3968
+  source: iarc_loc_app.js group 2B records with CAS numbers
+- id: iarc_group_3
+  name: IARC Group 3 chemical agents
+  synonyms: []
+  members:
+  - Aldicarb
+  - Anthranilic acid
+  - Benzo(g,h,i)perylene
+  - Carbon nanotubes, multiwalled MWCNT-7
+  - Chlordimeform
+  - Chlorobenzilate
+  - Decabromodiphenyl ether
+  - Dicofol
+  - Endrin
+  - Fluoranthene
+  - HCFC-22
+  - HCFC-31
+  - Hexachlorobutadiene
+  - Mercury compounds
+  - Methoxychlor
+  - Methyl bromide
+  - Methyl-parathion
+  - Panfuran S (containing dihydroxymethylfuratrizine)
+  - Simazine
+  - Thiram
+  - Toluene
+  - Trichlorfon
+  - Triethanolamine
+  - Trifluralin
+  - Xylene
+  disputed: []
+  changes: []
+  official_count: 438
+  out_of_universe:
+  - 1,1,2-Trichloroethane
+  - 1,2,3-Tris(chloromethoxy)propane
+  - 1,2-Bis(chloromethoxy)ethane
+  - 1,2-Diamino-4-nitrobenzene
+  - 1,2-Dihydroaceanthrylene
+  - 1,4-Bis(chloromethoxymethyl)benzene
+  - 1,4-Diamino-2-nitrobenzene
+  - 1,4-Dimethylphenanthrene
+  - 1,5-Naphthalene diisocyanate
+  - 1,5-Naphthalenediamine
+  - 1-Amino-2-methylanthraquinone
+  - 1-Methylchrysene
+  - 1-Methylphenanthrene
+  - 1-Naphthylamine
+  - 1-Naphthylthiourea (ANTU)
+  - 1-Nitronaphthalene
+  - 11-Aminoundecanoic acid
+  - 11H-Benz[bc]aceanthrylene
+  - 13H-Dibenzo[a,g]fluorene
+  - 2,2',5,5'-Tetrachlorobenzidine
+  - 2,4'-Diphenyldiamine
+  - 2,4,5-Trimethylaniline
+  - 2,4,6-Trimethylaniline
+  - 2,4,6-Trinitrotoluene
+  - 2,4,6-Tris(1-aziridinyl)-s-triazine
+  - 2,4-Xylidine
+  - 2,5-Diaminotoluene
+  - 2,5-Xylidine
+  - 2,6-Dichloro-para-phenylenediamine
+  - 2-(1-Aziridinyl)ethanol
+  - 2-Amino-4-nitrophenol
+  - 2-Amino-5-nitrophenol
+  - 2-Amino-5-nitrothiazole
+  - 2-Aminoanthraquinone
+  - 2-Butoxyethanol
+  - 2-Chloro-1,1,1-trifluoroethane
+  - 2-Methylchrysene
+  - 2-Methylfluoranthene
+  - 2-Nitronaphthalene
+  - 2-Nitropyrene
+  - 3,3'-Dimethoxybenzidine-4,4'-diisocyanate
+  - 3,4-Epoxy-6-methylcyclohexylmethyl-3,4-epoxy-6-methylcyclo-hexanecarboxylate
+  - 3,5-Dinitrotoluene
+  - 3-(N-Nitrosomethylamino)propionaldehyde
+  - 3-Carbethoxypsoralen
+  - 3-Chloronitrobenzene
+  - 3-Methylchrysene
+  - 3-Methylfluoranthene
+  - 3-Nitrofluoranthene
+  - 3-Nitroperylene
+  - 4,4',6-Trimethylangelicin plus ultraviolet A radiation
+  - 4,4'-Dimethylangelicin plus ultraviolet A radiation
+  - 4,4'-Methylenediphenyl diisocyanate
+  - 4,5',8-Trimethylpsoralen
+  - 4,5'-Dimethylangelicin plus ultraviolet A radiation
+  - 4-Amino-2-nitrophenol
+  - 4-Chloro-meta-phenylenediamine
+  - 4-Hydroxyazobenzene
+  - 4-Methylchrysene
+  - 4-Nitrobiphenyl
+  - 4H-Cyclopenta[def]chrysene
+  - 5,6-Cyclopenteno-1,2-benzanthracene
+  - 5-Aminoacenaphthene
+  - 5-Chloro-ortho-toluidine
+  - 5-Fluorouracil
+  - 5-Methylangelicin plus ultraviolet A radiation
+  - 5-Nitro-ortho-anisidine
+  - 5-Nitro-ortho-toluidine
+  - 6-Mercaptopurine
+  - 6-Methylchrysene
+  - 6-Nitrobenzo[a]pyrene
+  - 7-Methylpyrido[3,4-c]psoralen
+  - 7-Nitrobenz[a]anthracene
+  - 8-Hydroxyquinoline
+  - 9-Nitroanthracene
+  - Acenaphthene
+  - Acepyrene (3,4-dihydrocyclopenta[cd]pyrene)
+  - Aciclovir
+  - Acridine orange
+  - Acriflavinium chloride
+  - Acrylic acid
+  - Actinomycin D
+  - Agaritine
+  - Allyl chloride
+  - Allyl isothiocyanate
+  - Allyl isovalerate
+  - Amaranth
+  - Amitrole
+  - Ampicillin
+  - Angelicin plus ultraviolet A radiation
+  - Anthanthrene
+  - Apholate
+  - Arsenobetaine and other organic arsenic compounds that are not metabolized in
+    humans
+  - Aurothioglucose
+  - Aziridyl benzoquinone
+  - Azobenzene
+  - Benz[a]acridine
+  - Benz[c]acridine
+  - Benz[l]aceanthrylene
+  - Benzo[a]fluoranthene
+  - Benzo[a]fluorene
+  - Benzo[b]chrysene
+  - Benzo[b]fluorene
+  - Benzo[b]naphtho[2,1-d]thiophene
+  - Benzo[c]fluorene
+  - Benzo[e]pyrene
+  - Benzo[g]chrysene
+  - Benzo[ghi]fluoranthene
+  - Benzoyl peroxide
+  - Benzyl acetate
+  - Bis(1-aziridinyl)morpholinophosphine sulfide
+  - Bis(2,3-epoxycyclopentyl)ether
+  - Bis(2-chloro-1-methylethyl)ether
+  - Bis(2-chloroethyl)ether
+  - Bisphenol A diglycidyl ether (Araldite)
+  - Blue VRS
+  - Brilliant Blue FCF, disodium salt
+  - Bromochloroacetonitrile
+  - Bromoethane
+  - Bromoform
+  - Butylated hydroxytoluene (BHT)
+  - CI Acid Orange 20
+  - CI Acid Orange 3
+  - CI Orange G
+  - CI Pigment Red 3
+  - Caffeine
+  - Cantharidin
+  - Caprolactam
+  - Captan
+  - Carbaryl
+  - Carmoisine
+  - Carrageenan, native
+  - Chloramine
+  - Chloroacetonitrile
+  - Chlorodibromomethane
+  - Chloroethane
+  - Chloropropham
+  - Chloroquine
+  - Cholesterol
+  - Chromium (III) compounds
+  - Chromium, metallic
+  - Chrysoidine
+  - Cimetidine
+  - Cinnamyl anthranilate
+  - Citrinin
+  - Clofibrate
+  - Clomiphene citrate
+  - Cobalt(II) sulfide
+  - Cobalt(II,III) oxide
+  - Copper 8-hydroxyquinoline
+  - Coronene
+  - Coumarin
+  - Crude oil
+  - Cyclamates (sodium cyclamate)
+  - Cyclochlorotine
+  - Cyclohexanone
+  - D & C Red No. 9
+  - Dapsone
+  - Deltamethrin
+  - Di(2-ethylhexyl) adipate
+  - Diacetylaminoazotoluene
+  - Diallate
+  - Diazepam
+  - Diazomethane
+  - Dibenz[a,c]anthracene
+  - Dibenz[a,j]anthracene
+  - Dibenzo-para-dioxin
+  - Dibenzo[a,e]fluoranthene
+  - Dibenzo[a,e]pyrene
+  - Dibenzo[e,l]pyrene
+  - Dibenzo[h,rst]pentaphene
+  - Dibenzothiophene
+  - Dichloroacetonitrile
+  - Dichloroacetylene
+  - Didanosine
+  - Diisopropyl ether
+  - Dimethoxane
+  - Dinitrosopentamethylenetetramine
+  - Disperse Yellow 3
+  - Disulfiram
+  - Dithranol
+  - Doxefazepam
+  - Doxylamine succinate
+  - Droloxifene
+  - Dulcin
+  - Eosin
+  - Estazolam
+  - Ethionamide
+  - Ethyl selenac
+  - Ethyl tellurac
+  - Ethylene
+  - Ethylene sulfide
+  - Ethylenethiourea
+  - Eugenol
+  - Evans blue
+  - Fast Green FCF
+  - Fenvalerate
+  - Ferbam
+  - Ferric oxide
+  - Fluometuron
+  - Fluorene
+  - Fluorides (inorganic, used in drinking-water)
+  - Furazolidone
+  - Furfural
+  - Furosemide (Frusemide)
+  - Gemfibrozil
+  - Glycidyl oleate
+  - Glycidyl stearate
+  - Guinea Green B
+  - Gyromitrin
+  - HC Blue No. 2
+  - HC Red No. 3
+  - HC Yellow No. 4
+  - Haematite
+  - Hexachlorophene
+  - Hycanthone mesylate
+  - Hydralazine
+  - Hydrochloric acid
+  - Hydrogen peroxide
+  - Hydroquinone
+  - Hydroxysenkirkine
+  - Hydroxyurea
+  - I2-Picoline
+  - Iron sorbitol-citric acid complex
+  - Iron-dextrin complex
+  - Isatidine
+  - Isonicotinic acid hydrazide (Isoniazid)
+  - Isophosphamide
+  - Isopropyl alcohol
+  - Isosafrole
+  - Jacobine
+  - Kaempferol
+  - Kojic acid
+  - Lauroyl peroxide
+  - Leucogentian violet (see also Gentian violet)
+  - Light Green SF
+  - Luteoskyrin
+  - Malachite green (see also Leucomalachite green)
+  - Maleic hydrazide
+  - Malonaldehyde
+  - Maneb
+  - Mannomustine dihydrochloride
+  - Medphalan
+  - Methimazole
+  - Methotrexate
+  - Methyl carbamate
+  - Methyl chloride
+  - Methyl iodide
+  - Methyl methacrylate
+  - Methyl red
+  - Methyl selenac
+  - Methylene blue
+  - Methylglyoxal
+  - Monuron
+  - Morpholine
+  - Musk ambrette
+  - Musk xylene
+  - N'-Nitrosoanabasine (NAB)
+  - N'-Nitrosoanatabine (NAT)
+  - N,N'-Diethylthiourea
+  - N,N-Dimethylaniline
+  - N-Methyl-N,4-dinitrosoaniline
+  - N-Nitrosodiphenylamine
+  - N-Nitrosofolic acid
+  - N-Nitrosoguvacine
+  - N-Nitrosoguvacoline
+  - N-Nitrosohydroxyproline
+  - N-Nitrosoproline
+  - N-Phenyl-2-naphthylamine
+  - N-Vinyl-2-pyrrolidone
+  - Naphtho[1,2-b]fluoranthene
+  - Naphtho[2,1-a]fluoranthene
+  - Naphtho[2,3-e]pyrene
+  - Nithiazide
+  - Nitrofural (Nitrofurazone)
+  - Nitrofurantoin
+  - Nitrotoluenes
+  - Nitrovin
+  - Nodularins
+  - Nylon 6
+  - Oestradiol mustard
+  - Oxyphenbutazone
+  - Palygorskite (Attapulgite)(short fibres, < 5 micrometres)
+  - Paracetamol (Acetaminophen)
+  - Parasorbic acid
+  - Patulin
+  - Penicillic acid
+  - Pentachloroethane
+  - Permethrin
+  - Perylene
+  - Petasitenine
+  - Phenanthrene
+  - Phenelzine sulfate
+  - Phenicarbazide
+  - Phenol
+  - Phenylbutazone
+  - Picene
+  - Picloram
+  - Piperonyl butoxide
+  - Polyacrylic acid
+  - Polychloroprene
+  - Polyethylene
+  - Polymethyl methacrylate
+  - Polymethylene polyphenyl isocyanate
+  - Polypropylene
+  - Polystyrene
+  - Polytetrafluoroethylene
+  - Polyurethane foams
+  - Polyvinyl acetate
+  - Polyvinyl alcohol
+  - Polyvinyl chloride
+  - Polyvinyl pyrrolidone
+  - Ponceau SX
+  - Potassium bis(2-hydroxyethyl)dithiocarbamate
+  - Prazepam
+  - Prednimustine
+  - Prednisone
+  - Pronetalol hydrochloride
+  - Propham
+  - Propylene
+  - Ptaquiloside
+  - Pyrene
+  - Pyrido[3,4-c]psoralen
+  - Pyrimethamine
+  - Quercetin
+  - Quintozene (Pentachloronitrobenzene)
+  - Reserpine
+  - Resorcinol
+  - Retrorsine
+  - Rhodamine 6G
+  - Rhodamine B
+  - Rifampicin
+  - Ripazepam
+  - Rosiglitazone
+  - Rugulosin
+  - Saccharated iron oxide
+  - Saccharin and its salts
+  - Scarlet Red
+  - Selenium and selenium compounds
+  - Semicarbazide hydrochloride
+  - Seneciphylline
+  - Senkirkine
+  - Sepiolite
+  - Shikimic acid
+  - Silica, amorphous
+  - Sodium chlorite
+  - Sodium diethyldithiocarbamate
+  - Spironolactone
+  - Styrene-acrylonitrile copolymers
+  - Styrene-butadiene copolymers
+  - Succinic anhydride
+  - Sudan Brown RR
+  - Sudan I
+  - Sudan II
+  - Sudan III
+  - Sudan Red 7B
+  - Sulfafurazole (Sulfisoxazole)
+  - Sulfamethazine
+  - Sulfamethoxazole
+  - Sulfur dioxide
+  - Sunset Yellow FCF
+  - Symphytine
+  - T2-Trichothecene
+  - Tannic acid and tannins
+  - Temazepam
+  - Terpene polychlorinates (StrobaneA)
+  - Theobromine
+  - Theophylline
+  - Thiourea
+  - Toremifene
+  - Trichloroacetonitrile
+  - Triethylene glycol diglycidyl ether
+  - Triphenylene
+  - Tris(1-aziridinyl)phosphine oxide
+  - Tris(2-chloroethyl) phosphate
+  - Tris(2-methyl-1-aziridinyl)phosphine oxide
+  - Tris(aziridinyl)-para-benzoquinone (Triaziquone)
+  - Vat Yellow 4
+  - Vinblastine sulfate
+  - Vincristine sulfate
+  - Vinyl chloride-vinyl acetate copolymers
+  - Vinyl toluene
+  - Vinylidene chloride-vinyl chloride copolymers
+  - Vinylidene fluoride
+  - Vitamin K substances
+  - Wollastonite
+  - Yellow AB
+  - Yellow OB
+  - Zectran
+  - Zeolites other than erionite (clinoptilolite, phillipsite,mordenite, non-fibrous
+    Japanese zeolite, synthetic zeolites)
+  - Zineb
+  - Ziram
+  - cis-9,10-Epoxystearic acid
+  - d-Limonene
+  - gamma-Butyrolactone
+  - meta-Cresidine
+  - meta-Dichlorobenzene
+  - meta-Phenylenediamine
+  - n-Butyl acrylate
+  - n-Propyl carbamate
+  - ortho-Dichlorobenzene
+  - ortho-Phenylphenol
+  - para-Aminobenzoic acid
+  - para-Anisidine
+  - para-Aramid fibrils
+  - para-Benzoquinone dioxime
+  - para-Dimethylaminoazobenzenediazo sodium sulfonate
+  - para-Nitrosodiphenylamine
+  - para-Phenylenediamine
+  - para-Quinone
+  - tert-Amyl methyl ether
+  - tert-Butyl alcohol
+  - trans-1,4-Dichlorobutene
+  salience: 997
+  source: iarc_loc_app.js group 3 records with CAS numbers
+- id: wfd_priority
+  name: Water Framework Directive priority substances
+  synonyms: []
+  members:
+  - 1,2-Dichloroethane
+  - Aclonifen
+  - Alachlor
+  - Anthracene
+  - Atrazine
+  - Benzene
+  - Bifenox
+  - Brominated diphenyl ethers
+  - C10-13 Chloroalkanes
+  - Cadmium and cadmium compounds
+  - Chlorfenvinphos
+  - Chloroform
+  - Chlorpyrifos
+  - Cybutryne
+  - Cypermethrin
+  - Di(2-ethylhexyl) phthalate
+  - Dichloromethane
+  - Dichlorvos
+  - Dicofol
+  - Dioxins and dioxin-like compounds
+  - Diuron
+  - Fluoranthene
+  - HCH
+  - Hexachlorobenzene
+  - Hexachlorobutadiene
+  - Isoproturon
+  - Lead
+  - Mercury compounds
+  - Naphthalene
+  - Nickel compounds
+  - Nonylphenols
+  - Pentachlorobenzene
+  - Pentachlorophenol
+  - Perfluorooctane sulfonic acid
+  - Quinoxyfen
+  - Simazine
+  - Technical endosulfan
+  - Terbutryn
+  - Tributyltin compounds
+  - Trichlorobenzenes
+  - Trifluralin
+  disputed: []
+  changes: []
+  official_count: 45
+  out_of_universe:
+  - Heptachlor and heptachlor epoxide
+  - Hexabromocyclododecanes (HBCDD)
+  - Octylphenols ( 6 )
+  - Polyaromatic hydrocarbons (PAH) ( 7 )
+  salience: 6917
+  source: eu_wfd_directive_2013_39.html Annex I table rows 1-45
+- id: wfd_hazardous
+  name: Water Framework Directive priority hazardous substances
+  synonyms: []
+  members:
+  - Anthracene
+  - Brominated diphenyl ethers
+  - C10-13 Chloroalkanes
+  - Cadmium and cadmium compounds
+  - Di(2-ethylhexyl) phthalate
+  - Dicofol
+  - Dioxins and dioxin-like compounds
+  - HCH
+  - Hexachlorobenzene
+  - Hexachlorobutadiene
+  - Mercury compounds
+  - Nonylphenols
+  - Pentachlorobenzene
+  - Perfluorooctane sulfonic acid
+  - Quinoxyfen
+  - Technical endosulfan
+  - Tributyltin compounds
+  - Trifluralin
+  disputed: []
+  changes: []
+  official_count: 21
+  out_of_universe:
+  - Heptachlor and heptachlor epoxide
+  - Hexabromocyclododecanes (HBCDD)
+  - Polyaromatic hydrocarbons (PAH) ( 7 )
+  salience: 6917
+  source: eu_wfd_directive_2013_39.html Annex I rows marked X
+- id: montreal_annex_a_group_i
+  name: Montreal Protocol Annex A Group I
+  synonyms: []
+  members:
+  - CFC-11
+  - CFC-113
+  - CFC-114
+  - CFC-115
+  - CFC-12
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  salience: 108853
+  source: montreal_handbook_2020.pdf Annex A Group I table
+- id: stockholm_all_pops
+  name: Stockholm Convention all persistent organic pollutants
+  synonyms: []
+  members:
+  - 2,3,7,8-Tetrachlorodibenzo-p-dioxin
+  - Aldrin
+  - Alpha-hexachlorocyclohexane
+  - Beta-hexachlorocyclohexane
+  - Brominated diphenyl ethers
+  - C10-13 Chloroalkanes
+  - Chlordane
+  - Chlordecone
+  - Chlorpyrifos
+  - Decabromodiphenyl ether
+  - Dechlorane Plus
+  - Dicofol
+  - Dieldrin
+  - Endrin
+  - Heptabromodiphenyl ether
+  - Heptachlor
+  - Hexabromobiphenyl
+  - Hexabromocyclododecane
+  - Hexabromodiphenyl ether
+  - Hexachlorobenzene
+  - Hexachlorobutadiene
+  - Lindane
+  - Long-chain perfluorocarboxylic acids
+  - Medium-chain chlorinated paraffins
+  - Methoxychlor
+  - Mirex
+  - Pentachlorobenzene
+  - Pentachlorophenol
+  - Perfluorohexane sulfonic acid
+  - Perfluorooctanoic acid
+  - Polychlorinated biphenyls
+  - Polychlorinated naphthalenes
+  - Technical endosulfan
+  - Tetrabromodiphenyl ether
+  - Toxaphene
+  - UV-328
+  disputed: []
+  changes: []
+  official_count: 36
+  out_of_universe: []
+  salience: 28368
+  source: stockholm_convention_text_2025.pdf Annex A and C; stockholm_allpops.html

@@ -1,0 +1,28 @@
+id: UN2
+dataset: UN
+seed: 20266102
+period:
+  start: '2026-10-16'
+snapshot: '2026-10-16'
+fields:
+- field: applicants.nationality
+  universe: country
+  templates:
+  - country_rule_1
+  - country_rule_2
+  - country_rule_3
+- field: references.country
+  universe: country
+  templates:
+  - reference_country_rule_1
+  - reference_country_rule_2
+  - reference_country_rule_3
+- field: applications.sponsor_company
+  universe: sponsor_company
+  templates:
+  - sponsor_company_rule_1
+  - sponsor_company_rule_2
+  - sponsor_company_rule_3
+slots: 5
+probe:
+  criterion: soft

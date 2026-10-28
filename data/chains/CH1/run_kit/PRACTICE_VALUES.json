@@ -1,0 +1,68 @@
+{
+ "declarations.exporter_country": {
+  "CU": {
+   "example": "SA",
+   "label": "intake folder 84",
+   "level": 5,
+   "member": false
+  },
+  "DM": {
+   "example": "CA",
+   "label": "clearance stamp 37",
+   "level": 2,
+   "member": true
+  },
+  "ER": {
+   "example": "CA",
+   "label": "clearance stamp 37",
+   "level": 2,
+   "member": false
+  },
+  "VE": {
+   "example": "SA",
+   "label": "intake folder 84",
+   "level": 5,
+   "member": true
+  }
+ },
+ "lines.substance": {
+  "2,3,7,8-Tetrachlorodibenzo-p-dioxin": {
+   "example": "Hexachlorobenzene",
+   "label": "intake folder X8",
+   "level": 1,
+   "member": false
+  },
+  "Endrin": {
+   "example": "Hexachlorobenzene",
+   "label": "intake folder X8",
+   "level": 1,
+   "member": true
+  },
+  "HN2": {
+   "example": "Dimethyl hydrogen phosphite",
+   "label": "intake folder H2",
+   "level": 4,
+   "member": false
+  },
+  "Methyldiethanolamine": {
+   "example": "Dimethyl hydrogen phosphite",
+   "label": "intake folder H2",
+   "level": 4,
+   "member": true
+  }
+ },
+ "shipments.air_carrier": {
+  "Air China": {
+   "example": "Air Canada",
+   "label": "review batch Q-47",
+   "level": 3,
+   "member": true
+  },
+  "Atlas Air": {
+   "example": "Air Canada",
+   "label": "review batch Q-47",
+   "level": 3,
+   "member": false
+  }
+ }
+}

@@ -1,0 +1,325 @@
+{
+ "answer_format": "json",
+ "background": {
+  "applicants.nationality": [
+   "AM",
+   "AX",
+   "GS",
+   "JE",
+   "KI",
+   "KN",
+   "LK",
+   "ML",
+   "MP",
+   "NP"
+  ],
+  "applications.sponsor_company": [
+   "Axa",
+   "Beiersdorf",
+   "Berkshire Hathaway",
+   "Carl Zeiss Meditec",
+   "Flex Ltd.",
+   "Howden Joinery",
+   "Investec",
+   "LVMH",
+   "Norsk Hydro",
+   "Poste Italiane"
+  ],
+  "applications.university": [
+   "Concordia University, Nebraska",
+   "Forward College",
+   "Islamic University Shabestar Branch",
+   "Jawaharlal Nehru Technological University, Kakinada",
+   "KLE Technological University",
+   "Kochi University of Technology",
+   "Pyongyang University of Music and Dance",
+   "University of Ballarat",
+   "University of Ceylon",
+   "Zhejiang University"
+  ]
+ },
+ "course_id": "CLR_UN1",
+ "dataset": "UN",
+ "fields": [
+  "applicants.nationality",
+  "applications.sponsor_company",
+  "applications.university"
+ ],
+ "id": "UN1",
+ "seed": 20266101,
+ "slots": [
+  {
+   "A": "CA",
+   "C": "oecd",
+   "C_name": "OECD member countries",
+   "N_p": "CM",
+   "N_t": [
+    "RO",
+    "SL",
+    "ID",
+    "NE",
+    "PN",
+    "NC",
+    "NI"
+   ],
+   "P_M": [
+    "AT",
+    "IL",
+    "CL"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "commonwealth",
+      "francophonie",
+      "g20",
+      "nato"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "commonwealth",
+    "francophonie",
+    "g20",
+    "g7",
+    "nato"
+   ],
+   "field": "applicants.nationality",
+   "label": "review docket W8",
+   "level": 1,
+   "salience": 807032.0,
+   "universe": "country"
+  },
+  {
+   "A": "Apple Inc.",
+   "C": "nasdaq_100",
+   "C_name": "Nasdaq-100 constituents",
+   "N_p": "Truist Financial",
+   "N_t": [
+    "Chevron Corporation",
+    "Sherwin-Williams",
+    "ExxonMobil",
+    "Warehouses De Pauw",
+    "Acciona",
+    "United Parcel Service",
+    "3M"
+   ],
+   "P_M": [
+    "Ferrovial",
+    "Constellation Energy",
+    "Paychex"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "dow_global_titans",
+      "dow_jones",
+      "fortune_global_500",
+      "sp500"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "dow_global_titans",
+    "dow_jones",
+    "fortune_global_500",
+    "interbrand_top10_2025",
+    "sp500"
+   ],
+   "field": "applications.sponsor_company",
+   "label": "settlement note 59",
+   "level": 2,
+   "salience": 16238813.0,
+   "universe": "sponsor_company"
+  },
+  {
+   "A": "National University of Singapore",
+   "C": "aun",
+   "C_name": "ASEAN University Network core members",
+   "N_p": "Central Institute of Agricultural Engineering",
+   "N_t": [
+    "McMaster University",
+    "Australian National University",
+    "University of Copenhagen",
+    "Harbin Normal University",
+    "Turkish-German University",
+    "Free University of Brussels",
+    "Texas Christian University"
+   ],
+   "P_M": [
+    "Chiang Mai University",
+    "Universiti Sains Malaysia",
+    "University of Malta"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apru",
+      "iaru",
+      "universitas_21"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apru",
+    "asian_universities_alliance",
+    "iaru",
+    "universitas_21"
+   ],
+   "field": "applications.university",
+   "label": "award record V-50",
+   "level": 3,
+   "salience": 14909.0,
+   "universe": "university"
+  },
+  {
+   "A": "FR",
+   "C": "g20",
+   "C_name": "G20 members",
+   "N_p": "TD",
+   "N_t": [
+    "IS",
+    "CH",
+    "VN",
+    "IM",
+    "CX",
+    "MQ",
+    "HR"
+   ],
+   "P_M": [
+    "BR",
+    "CN",
+    "ZA"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "ehea",
+      "erasmus_countries",
+      "francophonie",
+      "nato",
+      "oecd"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "ehea",
+    "erasmus_countries",
+    "francophonie",
+    "g7",
+    "nato",
+    "oecd"
+   ],
+   "field": "applicants.nationality",
+   "label": "audit pass T6",
+   "level": 4,
+   "salience": 995333.0,
+   "universe": "country"
+  },
+  {
+   "A": "BNP Paribas",
+   "C": "g_sib",
+   "C_name": "2025 Financial Stability Board global systemically important banks",
+   "N_p": "Eni",
+   "N_t": [
+    "Argenx",
+    "FCC",
+    "Prysmian",
+    "UDR, Inc.",
+    "Schibsted",
+    "LyondellBasell",
+    "Aroundtown"
+   ],
+   "P_M": [
+    "Morgan Stanley",
+    "HSBC",
+    "Citigroup"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "euro_stoxx_50",
+      "euronext_100",
+      "stoxx_europe_600"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "euro_stoxx_50",
+    "euronext_100",
+    "fortune_global_500",
+    "stoxx_europe_600"
+   ],
+   "field": "applications.sponsor_company",
+   "label": "review docket 93",
+   "level": 5,
+   "salience": 92246.0,
+   "universe": "sponsor_company"
+  }
+ ]
+}

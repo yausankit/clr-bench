@@ -1,0 +1,326 @@
+{
+ "answer_format": "json",
+ "background": {
+  "activations.club": [
+   "1. FC Köln",
+   "1. FC Saarbrücken",
+   "CSKA Moscow",
+   "Club Brugge",
+   "Eintracht Frankfurt",
+   "Everton",
+   "Padova",
+   "Racing Santander",
+   "West Ham United",
+   "Zenit Saint Petersburg"
+  ],
+  "activations.co_sponsor": [
+   "Auto Trader Group",
+   "Crédit Agricole",
+   "Lam Research",
+   "Lloyds Banking Group",
+   "Partners Group",
+   "Puma",
+   "Taylor Wimpey",
+   "Thermo Fisher Scientific",
+   "Veolia",
+   "Verizon"
+  ],
+  "activations.market_country": [
+   "CG",
+   "CL",
+   "CX",
+   "GI",
+   "HU",
+   "LA",
+   "MM",
+   "SI",
+   "TD",
+   "VI"
+  ]
+ },
+ "course_id": "CLR_SP1",
+ "dataset": "SP",
+ "fields": [
+  "activations.club",
+  "activations.co_sponsor",
+  "activations.market_country"
+ ],
+ "id": "SP1",
+ "seed": 20266106,
+ "slots": [
+  {
+   "A": "Real Madrid",
+   "C": "ucl_winners",
+   "C_name": "European Cup and UEFA Champions League winners",
+   "N_p": "Dinamo Zagreb",
+   "N_t": [
+    "VfB Stuttgart",
+    "Boca Juniors",
+    "Ipswich Town",
+    "Galatasaray",
+    "Zaragoza",
+    "Dynamo Kyiv",
+    "Sparta Prague"
+   ],
+   "P_M": [
+    "Steaua București",
+    "Nottingham Forest",
+    "Hamburger SV"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "club_world_cup_2025_participants",
+      "ucl_2024_25_league_phase",
+      "uel_winners"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "club_world_cup_2025_participants",
+    "club_world_cup_winners",
+    "g14_members",
+    "laliga_1929",
+    "super_league_founders",
+    "ucl_2024_25_league_phase",
+    "uel_winners"
+   ],
+   "field": "activations.club",
+   "label": "handling class P8",
+   "level": 1,
+   "salience": 2868927.0,
+   "universe": "club"
+  },
+  {
+   "A": "ASML",
+   "C": "euro_stoxx_50",
+   "C_name": "EURO STOXX 50 constituents, October 2026",
+   "N_p": "Kering",
+   "N_t": [
+    "Monolithic Power Systems",
+    "Hiscox",
+    "ASR Nederland",
+    "Solvay",
+    "Eurofins Scientific",
+    "ABB Ltd",
+    "Alfa Laval"
+   ],
+   "P_M": [
+    "Deutsche Post",
+    "Deutsche Bank",
+    "Volkswagen Group"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "aex",
+      "nasdaq_100",
+      "stoxx_europe_600"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "aex",
+    "nasdaq_100",
+    "stoxx_europe_600"
+   ],
+   "field": "activations.co_sponsor",
+   "label": "review tag 70",
+   "level": 2,
+   "salience": 139169.0,
+   "universe": "co_sponsor"
+  },
+  {
+   "A": "CA",
+   "C": "commonwealth_members",
+   "C_name": "Commonwealth of Nations member states",
+   "N_p": "ES",
+   "N_t": [
+    "FI",
+    "DE",
+    "MX",
+    "RU",
+    "GF",
+    "LR",
+    "SH"
+   ],
+   "P_M": [
+    "TZ",
+    "KI",
+    "LK"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apec_members",
+      "g20_members",
+      "g7_members",
+      "nato_members",
+      "oecd_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apec_members",
+    "g20_members",
+    "g7_members",
+    "nato_members",
+    "oecd_members"
+   ],
+   "field": "activations.market_country",
+   "label": "audit lane N-59",
+   "level": 3,
+   "salience": 1422475.0,
+   "universe": "market_country"
+  },
+  {
+   "A": "Inter Milan",
+   "C": "club_world_cup_2025_participants",
+   "C_name": "2025 FIFA Club World Cup participants",
+   "N_p": "Shakhtar Donetsk",
+   "N_t": [
+    "Feyenoord",
+    "Arsenal",
+    "Anderlecht",
+    "Bayer Leverkusen",
+    "Sporting CP",
+    "Roma",
+    "Arenas"
+   ],
+   "P_M": [
+    "Monterrey",
+    "Al Ahly",
+    "Palmeiras"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "seriea_1929_30",
+      "super_league_founders",
+      "ucl_2024_25_league_phase",
+      "ucl_winners",
+      "uel_winners"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "club_world_cup_winners",
+    "g14_members",
+    "seriea_1929_30",
+    "super_league_founders",
+    "ucl_2024_25_league_phase",
+    "ucl_winners",
+    "uel_winners"
+   ],
+   "field": "activations.club",
+   "label": "review code W2",
+   "level": 4,
+   "salience": 834544.0,
+   "universe": "club"
+  },
+  {
+   "A": "Walmart",
+   "C": "dow_jones",
+   "C_name": "Dow Jones Industrial Average constituents, October 2026",
+   "N_p": "Danaher Corporation",
+   "N_t": [
+    "Datadog",
+    "Micron Technology",
+    "Union Pacific Corporation",
+    "AppLovin",
+    "Fluidra",
+    "Bureau Veritas",
+    "Microchip Technology"
+   ],
+   "P_M": [
+    "Sherwin-Williams",
+    "Nike",
+    "Johnson & Johnson"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "nasdaq_100",
+      "sp_100",
+      "sp_500"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "nasdaq_100",
+    "sp_100",
+    "sp_500"
+   ],
+   "field": "activations.co_sponsor",
+   "label": "settlement lane 60",
+   "level": 5,
+   "salience": 1175407.0,
+   "universe": "co_sponsor"
+  }
+ ]
+}

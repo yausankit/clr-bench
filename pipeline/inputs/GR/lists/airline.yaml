@@ -1,0 +1,890 @@
+- id: star_alliance_members
+  name: Star Alliance member airlines
+  synonyms:
+  - Star Alliance
+  members:
+  - Aegean Airlines
+  - Air Canada
+  - Air China
+  - Air India
+  - Air New Zealand
+  - All Nippon Airways
+  - Austrian Airlines
+  - Avianca
+  - Brussels Airlines
+  - Copa Airlines
+  - Croatia Airlines
+  - EVA Air
+  - EgyptAir
+  - Ethiopian Airlines
+  - ITA Airways
+  - LOT Polish Airlines
+  - Lufthansa
+  - Shenzhen Airlines
+  - Singapore Airlines
+  - South African Airways
+  - Swiss International Air Lines
+  - TAP Air Portugal
+  - Thai Airways
+  - Turkish Airlines
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 26
+  out_of_universe:
+  - Asiana Airlines
+  source: https://www.staralliance.com/en/members
+  salience: 630113
+- id: skyteam_members
+  name: SkyTeam member airlines
+  synonyms:
+  - SkyTeam
+  members:
+  - Aerolíneas Argentinas
+  - Aeroméxico
+  - Air Europa
+  - Air France
+  - China Airlines
+  - China Eastern Airlines
+  - Delta Air Lines
+  - Garuda Indonesia
+  - KLM
+  - Kenya Airways
+  - Korean Air
+  - Middle East Airlines
+  - Saudia
+  - Scandinavian Airlines
+  - TAROM
+  - Vietnam Airlines
+  - Virgin Atlantic
+  - XiamenAir
+  disputed:
+  - Aeroflot
+  changes:
+  - value: Aeroflot
+    date: '2022-03-01'
+    event: membership suspended
+  official_count: 19
+  out_of_universe: []
+  source: https://www.skyteam.com/en/about/our-members
+  salience: 430553
+- id: oneworld_members
+  name: oneworld member airlines
+  synonyms:
+  - oneworld
+  members:
+  - Alaska Airlines
+  - American Airlines
+  - British Airways
+  - Cathay Pacific
+  - Fiji Airways
+  - Finnair
+  - Iberia
+  - Japan Airlines
+  - Malaysia Airlines
+  - Oman Air
+  - Qantas
+  - Qatar Airways
+  - Royal Air Maroc
+  - Royal Jordanian
+  - SriLankan Airlines
+  disputed:
+  - Philippine Airlines
+  changes:
+  - value: Philippine Airlines
+    date: '2024-06-01'
+    event: announced future membership
+  official_count: 16
+  out_of_universe: []
+  source: https://www.oneworld.com/members
+  salience: 467145
+- id: iata_members
+  name: IATA current airline members
+  synonyms:
+  - International Air Transport Association
+  - IATA
+  members:
+  - ABX Air
+  - AIRZETA
+  - AJet
+  - APG Airlines
+  - ASKY
+  - ASL Airlines Belgium
+  - ASL Airlines France
+  - ASL Airlines Ireland
+  - Aegean Airlines
+  - Aer Lingus
+  - Aero Mongolia
+  - Aero Republica
+  - Aeroflot
+  - Aeroitalia
+  - Aerolíneas Argentinas
+  - Aeroméxico
+  - Africa World Airlines
+  - Air Algérie
+  - Air Arabia
+  - Air Astana
+  - Air Astra
+  - Air Atlanta Icelandic
+  - Air Austral
+  - Air Botswana
+  - Air Cairo
+  - Air Calédonie
+  - Air Cambodia
+  - Air Canada
+  - Air Caraïbes
+  - Air Changan
+  - Air China
+  - Air Corsica
+  - Air Dolomiti
+  - Air Europa
+  - Air France
+  - Air Greenland
+  - Air Guilin
+  - Air Hong Kong
+  - Air India
+  - Air India Express
+  - Air Koryo
+  - Air Macau
+  - Air Mauritius
+  - Air Montenegro
+  - Air New Zealand
+  - Air Niugini
+  - Air Nostrum
+  - Air Peace
+  - Air Premia
+  - Air Senegal
+  - Air Serbia
+  - Air Seychelles
+  - Air Tahiti
+  - Air Tahiti Nui
+  - Air Tanzania
+  - Air Transat
+  - Air Vanuatu
+  - AirBaltic
+  - Aircalin
+  - Airhub Airlines
+  - Airline GEO SKY
+  - Airlink
+  - Akasa Air
+  - AlMasria Universal Airlines
+  - Alaska Airlines
+  - AlbaStar
+  - All Nippon Airways
+  - Amelia
+  - American Airlines
+  - Arajet
+  - Arkia Israeli Airlines
+  - Atlantic Airways
+  - Atlas Air
+  - Austrian
+  - Avianca
+  - Avianca Costa Rica
+  - Avianca Ecuador
+  - Avion Express
+  - Avion Express Malta
+  - Azerbaijan Airlines
+  - Azores Airlines
+  - Azul Brazilian Airlines
+  - BBN Airlines
+  - BBN Airlines Indonesia
+  - Badr Airlines
+  - Bahamasair
+  - Bamboo Airways
+  - Bangkok Airways
+  - Batik Air
+  - Batik Air Malaysia
+  - Belavia Belarusian Airlines
+  - Biman Bangladesh Airlines
+  - Binter Canarias
+  - Bluebird Airways
+  - Boliviana de Aviación
+  - Braathens Regional Airways
+  - British Airways
+  - Brussels Airlines
+  - Bulgaria Air
+  - Camair-Co
+  - Capital Airlines
+  - Cargojet Airways
+  - Cargolux
+  - Caribbean Airlines
+  - Carpatair
+  - Cathay Pacific
+  - Cebu Pacific
+  - CemAir
+  - Chair Airlines
+  - Chalair
+  - Challenge Airlines (BE)
+  - Challenge Airlines IL
+  - Chengdu Airlines
+  - China Airlines
+  - China Cargo Airlines
+  - China Eastern Airlines
+  - China Express Airlines
+  - China Postal Airlines
+  - China Southern Airlines
+  - China United Airlines
+  - Citilink
+  - CityJet
+  - Clic Air
+  - Condor
+  - Copa Airlines
+  - Corendon Airlines
+  - Corsair International
+  - Croatia Airlines
+  - Cubana
+  - Cyprus Airways
+  - DAN AIR
+  - DAT (LT)
+  - DHL Air
+  - DHL Air (Bahrain)
+  - Delta Air Lines
+  - Discover Airlines
+  - Domestic Airlines
+  - Drukair - Royal Bhutan Airlines
+  - EL AL
+  - EVA Air
+  - Eastar Jet
+  - Eastern Airlines
+  - Edelweiss Air
+  - EgyptAir
+  - Electra Airways
+  - Emirates
+  - Estafeta Cargo
+  - Ethiopian Airlines
+  - Etihad Airways
+  - EuroAtlantic Airways
+  - European Air Transport
+  - Eurowings
+  - Fastjet Zimbabwe
+  - FedEx Express
+  - Fiji Airways
+  - Finnair
+  - Flexflight
+  - Fly Baghdad
+  - Fly Namibia
+  - Fly2Sky
+  - FlyArystan
+  - FlyGabon
+  - FlyOne
+  - Flynas
+  - Freebird Airlines
+  - French Bee
+  - Frontier Airlines
+  - Fuzhou Airlines
+  - GOL Linhas Aereas
+  - GX Airlines
+  - Garuda Indonesia
+  - Georgian Airways
+  - German Airways
+  - GetJet Airlines
+  - Global Airways and Lift
+  - GlobalX
+  - Greater Bay Airlines
+  - Gulf Air
+  - Hahn Air
+  - Hainan Airlines
+  - Hawaiian Airlines
+  - Hebei Airlines
+  - Hello Jets
+  - Heston Airlines
+  - Hi Fly
+  - Hi Fly Malta
+  - Himalaya Airlines
+  - Hong Kong Air Cargo
+  - Hong Kong Airlines
+  - Hong Kong Express Airways
+  - ITA Airways
+  - Iberia
+  - Iberojet
+  - Iberojet Airlines
+  - Ibom Air
+  - Icelandair
+  - Ikar
+  - IndiGo
+  - Iran Air
+  - Iran Airtour Airline
+  - Iran Aseman Airlines
+  - Israir
+  - JD Airlines
+  - Japan Airlines
+  - Japan Transocean Air
+  - Jazeera Airways
+  - Jeju Air
+  - Jet Time
+  - JetBlue
+  - JetSMART Argentina
+  - JetSMART Chile
+  - JetSMART Colombia
+  - JetSMART Peru
+  - Jin Air
+  - Jordan Aviation
+  - Juneyao Airlines
+  - KLM
+  - KM Malta Airlines
+  - Kam Air
+  - Kenya Airways
+  - KlasJet
+  - Korean Air
+  - Kunming Airlines
+  - Kuwait Airways
+  - LAM
+  - LATAM Airlines Brasil
+  - LATAM Airlines Colombia
+  - LATAM Airlines Ecuador
+  - LATAM Airlines Group
+  - LATAM Airlines Paraguay
+  - LATAM Airlines Peru
+  - LATAM Cargo Brasil
+  - LATAM Cargo Chile
+  - LOT Polish Airlines
+  - La Compagnie
+  - Lao Airlines
+  - Link Airways
+  - Lion Air
+  - Loganair
+  - Loong Air
+  - Lucky Air
+  - Lufthansa
+  - Lufthansa Cargo
+  - Lufthansa City Airlines
+  - Lufthansa CityLine
+  - Luxair
+  - MEA
+  - MIAT Mongolian Airlines
+  - MNG Airlines
+  - Madagascar Airlines
+  - Malaysia Airlines
+  - Mandarin Airlines
+  - Marathon Airlines
+  - Martinair Cargo
+  - MasAir
+  - Mauritania Airlines International
+  - Mavi Gök Airlines (MGA)
+  - Myanmar Airways International
+  - Myanmar National Airlines
+  - National Airlines
+  - Nauru Airlines
+  - Neos
+  - Nesma Airlines
+  - Nile Air
+  - Nippon Cargo Airlines
+  - Nok Air
+  - NordStar
+  - Nordwind Airlines
+  - Norra
+  - Nouvelair
+  - Okay Airways
+  - Olympic Air
+  - Oman Air
+  - Overland Airways
+  - PAL Express
+  - PAS
+  - PGA-Portugalia Airlines
+  - Pakistan International Airlines
+  - Paranair
+  - Pegasus Airlines
+  - Philippine Airlines
+  - Plus Ultra
+  - Polar Air Cargo
+  - PopulAir
+  - Porter Airlines
+  - Poste Air Cargo
+  - Precision Air
+  - Privilege Style
+  - Proflight Zambia
+  - Qantas
+  - Qatar Airways
+  - Qazaq Air
+  - Qingdao Airlines
+  - Red Sea Airlines
+  - Riyadh Air
+  - Rossiya Airlines
+  - Royal Air Maroc
+  - Royal Brunei
+  - Royal Jordanian
+  - Ruili Airlines
+  - RusLine
+  - RwandAir
+  - S7 Airlines
+  - SATA Air Açores
+  - SCAT Airlines
+  - SF Airlines
+  - STARLUX Airlines
+  - Safair
+  - Salam Air
+  - Saudi Arabian Airlines
+  - Scandinavian Airlines
+  - Scoot
+  - Shandong Airlines
+  - Shanghai Airlines
+  - Shenzhen Airlines
+  - Sichuan Airlines
+  - Silk Way West Airlines
+  - Singapore Airlines
+  - Sky Airline
+  - Sky express
+  - SkyUp Airlines
+  - SmartLynx Airlines Malta
+  - Smartavia
+  - Smartwings
+  - Solomon Airlines
+  - Somon Air
+  - South African Airways
+  - Southwest Airlines
+  - Southwind Airlines
+  - SpiceJet
+  - SriLankan Airlines
+  - Sun Country Airlines
+  - SunExpress
+  - Suparna Airlines
+  - Swiftair
+  - Swiss International Air Lines
+  - Syrian Air
+  - TAAG Angola Airlines
+  - TACA
+  - TAG Airlines
+  - TAP Air Portugal
+  - TAROM
+  - TUIfly
+  - Tailwind Airlines
+  - Thai Airways International
+  - Thai Lion Air
+  - Tianjin Airlines
+  - Trinity Airways
+  - Tunisair
+  - Turkish Airlines
+  - Tus Airways
+  - ULS Airlines Cargo
+  - UPS Airlines
+  - US-Bangla Airlines
+  - UTair
+  - Uni Air
+  - United Airlines
+  - United Nigeria Airlines
+  - Universal Air
+  - Ural Airlines
+  - Urumqi Air
+  - Uzbekistan Airways
+  - Vietjet
+  - Vietnam Airlines
+  - Virgin Atlantic
+  - Virgin Australia
+  - Volaris
+  - Volotea
+  - Vueling
+  - Wamos Air
+  - West Air
+  - WestJet
+  - White coloured by you
+  - Wideroe
+  - World2Fly
+  - Xiamen Airlines
+  - Xizang Airlines
+  - YTO Cargo Airlines
+  - flyadeal
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 381
+  out_of_universe:
+  - Asiana Airlines
+  source: https://www.iata.org/en/about/members/airline-list/
+  salience: 138644
+- id: a4a_members
+  name: A4A member airlines (Airlines for America)
+  synonyms:
+  - Airlines for America
+  - A4A
+  members:
+  - Air Canada
+  - Alaska Airlines
+  - American Airlines
+  - Atlas Air
+  - Delta Air Lines
+  - FedEx Express
+  - JetBlue
+  - Southwest Airlines
+  - UPS Airlines
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: https://www.airlines.org/who-we-are/
+  salience: 15028
+- id: alta_full_members
+  name: ALTA full member airlines
+  synonyms:
+  - ALTA
+  members:
+  - Aerolíneas Argentinas
+  - Aeroméxico
+  - Aeroméxico Connect
+  - Arajet S.A
+  - Avianca
+  - Azul
+  - Bahamasair
+  - Boliviana de Aviación
+  - Caribbean Airlines
+  - Copa Airlines
+  - Cubana de Aviación
+  - DHL Aero Expreso
+  - GOL Linhas Aereas
+  - InterCaribbean Airways
+  - JetSMART
+  - LATAM Airlines
+  - SANSA
+  - Sky Airline
+  - Star Perú
+  - Sunrise Airways
+  - TAG Airlines
+  - Total Linhas Aéreas
+  - Tropic Air
+  - Wingo
+  disputed: []
+  changes: []
+  official_count: 24
+  out_of_universe: []
+  source: https://alta.aero/membership/
+  salience: 0
+- id: aaco_members
+  name: Arab Air Carriers' Organization member airlines
+  synonyms:
+  - AACO
+  members:
+  - Air Algérie
+  - Air Arabia
+  - Air Cairo
+  - AlMasria Universal Airlines
+  - Badr Airlines
+  - Berniq Airways
+  - EgyptAir
+  - Emirates
+  - Etihad Airways
+  - Flynas
+  - Global Aviation LTD.
+  - Gulf Air
+  - Iraqi Airways
+  - Jordan Aviation
+  - Kuwait Airways
+  - Libyan Airlines
+  - Mauritania Airlines
+  - Middle East Airlines
+  - Nesma Airlines
+  - Nile Air
+  - Nouvelair
+  - Oman Air
+  - Palestinian Airlines
+  - Qatar Airways
+  - Red Sea Airlines
+  - Riyadh Air
+  - Royal Air Maroc
+  - Royal Jordanian
+  - Saudia
+  - Sudan Airways
+  - Syrian Airlines
+  - Tarco Aviation Co. LTD
+  - Tassili Airlines
+  - Tunisair
+  - Yemen Airways
+  - flyadeal
+  - flydubai
+  disputed: []
+  changes: []
+  official_count: 37
+  out_of_universe: []
+  source: https://www.aaco.org/aaco-community/member-airlines
+  salience: 245
+- id: afraa_members
+  name: African Airlines Association member airlines
+  synonyms:
+  - African Airlines Association
+  - AFRAA
+  members:
+  - Air Algérie
+  - Air Botswana
+  - Air Burkina
+  - Air Djibouti
+  - Air Madagascar
+  - Air Malawi
+  - Air Mali
+  - Air Mauritius
+  - Air Namibia
+  - Air Senegal
+  - Air Seychelles
+  - Air Tanzania
+  - Air Zimbabwe
+  - CEIBA Intercontinental
+  - Camair-Co
+  - EgyptAir
+  - Eritrean Airlines
+  - Ethiopian Airlines
+  - Kenya Airways
+  - LAM Mozambique Airlines
+  - Libyan Airlines
+  - Nile Air
+  - Precision Air
+  - Royal Air Maroc
+  - RwandAir
+  - Safarilink Aviation
+  - South African Airways
+  - South African Express
+  - Starbow
+  - Sudan Airways
+  - TAAG Angola Airlines
+  - Tchadia Airlines
+  - Tunisair
+  disputed: []
+  changes: []
+  official_count: 33
+  out_of_universe: []
+  source: Wikidata P463 Q376537; raw/airline_affiliations_wikidata.json
+  salience: 3328
+- id: airlines_for_europe
+  name: Airlines for Europe (A4E) association member airlines
+  synonyms:
+  - A4E
+  members:
+  - Aegean Airlines
+  - AirBaltic
+  - Cargolux
+  - Finnair
+  - Icelandair
+  - Jet2.com
+  - Lufthansa
+  - Norwegian Air Shuttle
+  - Ryanair
+  - Smartwings
+  - TAP Air Portugal
+  - Volotea
+  - easyJet
+  disputed: []
+  changes: []
+  official_count: 13
+  out_of_universe: []
+  source: Wikidata P463 snapshot; raw/airline_affiliations_wikidata.json
+  salience: 3587
+- id: aapa_members
+  name: AAPA member airlines
+  synonyms:
+  - Association of Asia Pacific Airlines
+  members:
+  - Air Astana
+  - Air India
+  - Air New Zealand
+  - All Nippon Airways
+  - Bangkok Airways
+  - Cathay Pacific
+  - China Airlines
+  - EVA Air
+  - Garuda Indonesia
+  - Japan Airlines
+  - Lion Air
+  - Malaysia Airlines
+  - Philippine Airlines
+  - Qantas
+  - Royal Brunei
+  - Singapore Airlines
+  - Thai Airways International
+  - Vietnam Airlines
+  disputed: []
+  changes: []
+  official_count: 18
+  out_of_universe: []
+  source: https://www.aapairlines.org/who-we-are/; raw/airline_sources/aapa_pages_search.json
+  salience: 1411
+- id: air_france_klm_airlines
+  name: Air France–KLM Group airline subsidiaries
+  synonyms:
+  - Air France–KLM airlines
+  members:
+  - Air France
+  - Air France Hop
+  - KLM
+  - KLM Cityhopper
+  - Martinair
+  - Transavia France
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Air_France%E2%80%93KLM; raw/airline_sources/air_france_klm.html
+  salience: 117123
+- id: qantas_group_airlines
+  name: Qantas Group airlines
+  synonyms:
+  - Qantas Group airline subsidiaries
+  members:
+  - Express Freighters Australia
+  - Jetstar
+  - National Jet Systems
+  - Network Aviation
+  - Qantas
+  - QantasLink
+  - Sunstate Airlines
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Qantas; raw/airline_sources/qantas_group.html
+  salience: 450160
+- id: b787_operators
+  name: Boeing 787 operators
+  synonyms:
+  - Airlines with Boeing 787 deliveries
+  members:
+  - Aeroméxico
+  - Air Austral
+  - Air Canada
+  - Air China
+  - Air Europa
+  - Air India
+  - Air New Zealand
+  - Air Tahiti Nui
+  - Air Tanzania
+  - All Nippon Airways
+  - American Airlines
+  - Avianca
+  - Azerbaijan Airlines
+  - British Airways
+  - China Eastern Airlines
+  - China Southern Airlines
+  - EVA Air
+  - Ethiopian Airlines
+  - Etihad Airways
+  - Gulf Air
+  - Hainan Airlines
+  - Hawaiian Airlines
+  - Japan Airlines
+  - Kenya Airways
+  - LOT Polish Airlines
+  - Lufthansa
+  - Norwegian Air Shuttle
+  - Oman Air
+  - Qatar Airways
+  - Riyadh Air
+  - Royal Air Maroc
+  - Royal Brunei Airlines
+  - Saudia
+  - Scoot
+  - Singapore Airlines
+  - TAAG Angola Airlines
+  - Turkish Airlines
+  - United Airlines
+  - Uzbekistan Airways
+  - Vietnam Airlines
+  - Virgin Atlantic
+  - WestJet
+  - Xiamen Airlines
+  disputed: []
+  changes: []
+  official_count: 44
+  out_of_universe:
+  - Vistara
+  source: https://en.wikipedia.org/wiki/List_of_Boeing_787_orders_and_deliveries;
+    raw/airline_sources/b787_operators.html
+  salience: 82488
+- id: skytrax_five_star
+  name: Skytrax five-star rated airlines
+  synonyms:
+  - Five-star Skytrax airlines
+  members:
+  - All Nippon Airways
+  - Cathay Pacific
+  - EVA Air
+  - Hainan Airlines
+  - Japan Airlines
+  - Korean Air
+  - Qatar Airways
+  - STARLUX Airlines
+  - Singapore Airlines
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe:
+  - Asiana Airlines
+  source: https://en.wikipedia.org/wiki/Skytrax; raw/airline_sources/skytrax_five_star.html#five-star
+    roster
+  salience: 58252
+- id: star_alliance_founders
+  name: Five original Star Alliance member airlines
+  synonyms:
+  - Star Alliance founding members
+  members:
+  - Air Canada
+  - Lufthansa
+  - Scandinavian Airlines
+  - Thai Airways International
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Star_Alliance#History; raw/airline_sources/star_alliance_article.html
+  salience: 630113
+- id: a380_operators
+  name: Airlines that have received Airbus A380 deliveries
+  synonyms:
+  - Airbus A380 operators
+  members:
+  - Air France
+  - All Nippon Airways
+  - British Airways
+  - China Southern Airlines
+  - Emirates
+  - Etihad Airways
+  - Korean Air
+  - Lufthansa
+  - Malaysia Airlines
+  - Qantas
+  - Qatar Airways
+  - Singapore Airlines
+  - Thai Airways International
+  disputed: []
+  changes: []
+  official_count: 14
+  out_of_universe:
+  - Asiana Airlines
+  source: https://en.wikipedia.org/wiki/List_of_Airbus_A380_orders_and_deliveries;
+    raw/airline_sources/a380_orders_deliveries.html
+  salience: 46272
+- id: lufthansa_group_airlines
+  name: Lufthansa Group operating airlines
+  synonyms:
+  - Lufthansa Group
+  members:
+  - Air Dolomiti
+  - Austrian Airlines
+  - Brussels Airlines
+  - Discover Airlines
+  - Edelweiss Air
+  - Eurowings
+  - Lufthansa
+  - Lufthansa City Airlines
+  - Swiss International Air Lines
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/Lufthansa_Group
+  salience: 68324
+- id: iag_airlines
+  name: International Airlines Group operating airlines
+  synonyms:
+  - International Airlines Group
+  - IAG
+  members:
+  - Aer Lingus
+  - BA CityFlyer
+  - BA EuroFlyer
+  - British Airways
+  - Iberia
+  - Iberia Express
+  - Vueling
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: https://en.wikipedia.org/wiki/International_Airlines_Group
+  salience: 235229

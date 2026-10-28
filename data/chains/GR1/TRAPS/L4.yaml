@@ -1,0 +1,48 @@
+A: IT
+C: nato_members
+C_name: NATO member countries
+N_p: MT
+N_t:
+- AT
+- CH
+- JP
+- FK
+- CD
+- NA
+- RW
+P_M:
+- ME
+- MK
+- BG
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe_members
+    - eu_members
+    - g20_members
+    - g7_members
+    - oecd_members
+    - schengen_members
+    - un_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- council_of_europe_members
+- eu_members
+- g20_members
+- g7_members
+- oecd_members
+- schengen_members
+- un_members
+field: applicants.nationality
+label: routing code D3
+salience: 2087661.0
+universe: country

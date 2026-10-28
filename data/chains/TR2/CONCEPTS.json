@@ -1,0 +1,173 @@
+{
+ "L1": {
+  "C": "oneworld_members",
+  "competitors": [
+   {
+    "id": "a4e_members",
+    "name": "Airlines for Europe member airlines"
+   },
+   {
+    "id": "commonwealth_airlines",
+    "name": "Airlines of Commonwealth of Nations member states"
+   },
+   {
+    "id": "flag_carrier_airlines",
+    "name": "Flag-carrying airlines of their countries"
+   },
+   {
+    "id": "g20_airlines",
+    "name": "Airlines of Group of Twenty member states"
+   },
+   {
+    "id": "iag_group",
+    "name": "International Airlines Group airlines"
+   },
+   {
+    "id": "nato_airlines",
+    "name": "Airlines of NATO member states"
+   },
+   {
+    "id": "oecd_airlines",
+    "name": "Airlines of OECD member states"
+   },
+   {
+    "id": "oneworld_founding",
+    "name": "Founding member airlines of Oneworld"
+   }
+  ],
+  "name": "Oneworld member airlines",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "eea_airports",
+  "competitors": [
+   {
+    "id": "coe_airports",
+    "name": "Airports in Council of Europe member states"
+   },
+   {
+    "id": "eu_airports",
+    "name": "Airports in the European Union"
+   },
+   {
+    "id": "schengen_airports",
+    "name": "Airports in the Schengen Area"
+   },
+   {
+    "id": "turkic_airports",
+    "name": "Airports in Organization of Turkic States member states"
+   },
+   {
+    "id": "visegrad_airports",
+    "name": "Airports in Visegrad Group member states"
+   }
+  ],
+  "name": "Airports in the European Economic Area",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "commonwealth_currencies",
+  "competitors": [
+   {
+    "id": "african_union_currencies",
+    "name": "Currencies of African Union member states"
+   },
+   {
+    "id": "cplp_currencies",
+    "name": "Currencies of Community of Portuguese Language Countries member states"
+   },
+   {
+    "id": "currency_union_currencies",
+    "name": "Currencies of existing currency unions listed in the Currency union article"
+   },
+   {
+    "id": "eccas_currencies",
+    "name": "Currencies of Economic Community of Central African States member states"
+   },
+   {
+    "id": "eur_linked_currencies",
+    "name": "Currencies whose exchange rate regime is linked to the euro"
+   },
+   {
+    "id": "fixed_exchange_rate_currencies",
+    "name": "Currencies listed with a circulating fixed exchange rate"
+   },
+   {
+    "id": "oic_currencies",
+    "name": "Currencies of Organisation of Islamic Cooperation member states"
+   },
+   {
+    "id": "opec_currencies",
+    "name": "Currencies of OPEC member countries"
+   },
+   {
+    "id": "zero_minor_unit_currencies",
+    "name": "ISO 4217 currencies with zero decimal places"
+   }
+  ],
+  "name": "Currencies of Commonwealth of Nations member states",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "oneworld_founding",
+  "competitors": [
+   {
+    "id": "apec_airlines",
+    "name": "Airlines of Asia-Pacific Economic Cooperation member economies"
+   },
+   {
+    "id": "commonwealth_airlines",
+    "name": "Airlines of Commonwealth of Nations member states"
+   },
+   {
+    "id": "flag_carrier_airlines",
+    "name": "Flag-carrying airlines of their countries"
+   },
+   {
+    "id": "g20_airlines",
+    "name": "Airlines of Group of Twenty member states"
+   },
+   {
+    "id": "oecd_airlines",
+    "name": "Airlines of OECD member states"
+   },
+   {
+    "id": "oneworld_members",
+    "name": "Oneworld member airlines"
+   },
+   {
+    "id": "pif_airlines",
+    "name": "Airlines of Pacific Islands Forum member states"
+   },
+   {
+    "id": "qantas_group",
+    "name": "Qantas Group airlines"
+   }
+  ],
+  "name": "Founding member airlines of Oneworld",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "arab_league_airports",
+  "competitors": [
+   {
+    "id": "african_union_airports",
+    "name": "Airports in African Union member states"
+   },
+   {
+    "id": "amu_airports",
+    "name": "Airports in Arab Maghreb Union member states"
+   },
+   {
+    "id": "oic_airports",
+    "name": "Airports in Organisation of Islamic Cooperation member states"
+   },
+   {
+    "id": "opec_airports",
+    "name": "Airports in OPEC member states"
+   }
+  ],
+  "name": "Airports in Arab League member states",
+  "synonyms": []
+ }
+}

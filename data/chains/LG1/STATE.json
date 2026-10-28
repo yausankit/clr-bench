@@ -1,0 +1,793 @@
+{
+ "_path": "../run/out/LG/LG1/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "eu_member_cctlds",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "office_ltsc_2024_apps",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "microsoft_server_ports",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.1667,
+     "soft": 0.8519
+    },
+    "4": {
+     "C": "nato_cctlds",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0,
+     "soft": 0.9074
+    },
+    "5": {
+     "C": "chromium_browsers",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.75,
+     "soft": 0.8704
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "1": {
+     "C": "brics_cctlds",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.9815
+    },
+    "2": {
+     "C": "web_browsers",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "4": {
+     "C": "commonwealth_cctlds",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.0,
+     "soft": 0.9444
+    },
+    "5": {
+     "C": "adobe_cc_current_apps",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.8889
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "2": {
+     "C": "download_managers",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "4": {
+     "C": "schengen_cctlds",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9444
+    },
+    "5": {
+     "C": "pdf_readers",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "2": {
+     "C": "office_ltsc_2021_apps",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5833,
+     "soft": 0.9259
+    },
+    "5": {
+     "C": "remote_desktop_clients",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "5": {
+     "C": "remote_access_tools",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 6,
+   "verdicts": {
+    "5": {
+     "C": "software_updaters",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.8333
+    }
+   }
+  },
+  {
+   "round": 7,
+   "verdicts": {
+    "5": {
+     "C": "email_chat_clients",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 8,
+   "verdicts": {
+    "5": {
+     "C": "office_suites",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.9259
+    }
+   }
+  }
+ ],
+ "requests": 240,
+ "rounds": 8,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "ru",
+    "C": "brics_cctlds",
+    "C_name": "BRICS member country-code top-level domains",
+    "N_p": "bj",
+    "N_t": [
+     "fr",
+     "am",
+     "vu",
+     "ipiranga",
+     "aeg",
+     "gbiz",
+     "cc"
+    ],
+    "P_M": [
+     "et",
+     "ir",
+     "ae"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "bsec_cctlds",
+       "cctlds_all",
+       "cis_cctlds",
+       "csto_cctlds",
+       "eaeu_cctlds",
+       "g20_cctlds"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "apec_cctlds",
+     "bsec_cctlds",
+     "cctlds_all",
+     "cis_cctlds",
+     "csto_cctlds",
+     "eaeu_cctlds",
+     "g20_cctlds",
+     "helcom_cctlds"
+    ],
+    "field": "proxy_connections.tld",
+    "salience": 1804321.0,
+    "universe": "tld"
+   },
+   "field": "proxy_connections.tld",
+   "level": 1,
+   "pinned": {
+    "A": "ru",
+    "C": "brics_cctlds",
+    "C_name": "BRICS member country-code top-level domains",
+    "N_p": "bj",
+    "N_t": [
+     "fr",
+     "am",
+     "vu",
+     "ipiranga",
+     "aeg",
+     "gbiz",
+     "cc"
+    ],
+    "P_M": [
+     "et",
+     "ir",
+     "ae"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "bsec_cctlds",
+       "cctlds_all",
+       "cis_cctlds",
+       "csto_cctlds",
+       "eaeu_cctlds",
+       "g20_cctlds"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "apec_cctlds",
+     "bsec_cctlds",
+     "cctlds_all",
+     "cis_cctlds",
+     "csto_cctlds",
+     "eaeu_cctlds",
+     "g20_cctlds",
+     "helcom_cctlds"
+    ],
+    "field": "proxy_connections.tld",
+    "salience": 1804321.0,
+    "universe": "tld"
+   },
+   "tried": [
+    "eu_member_cctlds"
+   ]
+  },
+  {
+   "current": {
+    "A": "EXCEL.EXE",
+    "C": "office_ltsc_2021_apps",
+    "C_name": "Office LTSC Professional Plus 2021 applications",
+    "N_p": "wuauclt.exe",
+    "N_t": [
+     "explorer.exe",
+     "wpp.exe",
+     "soffice.exe",
+     "WinSCP.exe",
+     "Wiz.exe",
+     "WeCom.exe",
+     "telegram.exe"
+    ],
+    "P_M": [
+     "Skype.exe",
+     "OUTLOOK.EXE",
+     "ONENOTE.EXE"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "microsoft_products",
+       "office_document_apps",
+       "office_suites"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "microsoft_productivity_apps",
+     "microsoft_products",
+     "office_document_apps",
+     "office_ltsc_2024_apps",
+     "office_suites",
+     "uptodown_top_downloads"
+    ],
+    "field": "proxy_connections.client_app",
+    "salience": 84299.0,
+    "universe": "client_app"
+   },
+   "field": "proxy_connections.client_app",
+   "level": 2,
+   "pinned": {
+    "A": "EXCEL.EXE",
+    "C": "office_ltsc_2021_apps",
+    "C_name": "Office LTSC Professional Plus 2021 applications",
+    "N_p": "wuauclt.exe",
+    "N_t": [
+     "explorer.exe",
+     "wpp.exe",
+     "soffice.exe",
+     "WinSCP.exe",
+     "Wiz.exe",
+     "WeCom.exe",
+     "telegram.exe"
+    ],
+    "P_M": [
+     "Skype.exe",
+     "OUTLOOK.EXE",
+     "ONENOTE.EXE"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "microsoft_products",
+       "office_document_apps",
+       "office_suites"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "microsoft_productivity_apps",
+     "microsoft_products",
+     "office_document_apps",
+     "office_ltsc_2024_apps",
+     "office_suites",
+     "uptodown_top_downloads"
+    ],
+    "field": "proxy_connections.client_app",
+    "salience": 84299.0,
+    "universe": "client_app"
+   },
+   "tried": [
+    "office_ltsc_2024_apps",
+    "web_browsers",
+    "download_managers"
+   ]
+  },
+  {
+   "current": {
+    "A": "137",
+    "C": "microsoft_server_ports",
+    "C_name": "Microsoft server product port assignments",
+    "N_p": "702",
+    "N_t": [
+     "176",
+     "162",
+     "593",
+     "2842",
+     "3649",
+     "2188",
+     "3604"
+    ],
+    "P_M": [
+     "1433",
+     "3389",
+     "88"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iana_system_ports",
+       "network_infrastructure_ports",
+       "smb_and_netbios_ports",
+       "windows_networking_ports"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iana_system_ports",
+     "name_resolution_ports",
+     "network_infrastructure_ports",
+     "smb_and_netbios_ports",
+     "windows_networking_ports"
+    ],
+    "field": "proxy_connections.port",
+    "salience": 1546125.0,
+    "universe": "port"
+   },
+   "field": "proxy_connections.port",
+   "level": 3,
+   "pinned": {
+    "A": "137",
+    "C": "microsoft_server_ports",
+    "C_name": "Microsoft server product port assignments",
+    "N_p": "702",
+    "N_t": [
+     "176",
+     "162",
+     "593",
+     "2842",
+     "3649",
+     "2188",
+     "3604"
+    ],
+    "P_M": [
+     "1433",
+     "3389",
+     "88"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "iana_system_ports",
+       "network_infrastructure_ports",
+       "smb_and_netbios_ports",
+       "windows_networking_ports"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "iana_system_ports",
+     "name_resolution_ports",
+     "network_infrastructure_ports",
+     "smb_and_netbios_ports",
+     "windows_networking_ports"
+    ],
+    "field": "proxy_connections.port",
+    "salience": 1546125.0,
+    "universe": "port"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "de",
+    "C": "schengen_cctlds",
+    "C_name": "Schengen Area member state country-code top-level domains",
+    "N_p": "ie",
+    "N_t": [
+     "cy",
+     "ca",
+     "kr",
+     "office",
+     "komatsu",
+     "parts",
+     "gop"
+    ],
+    "P_M": [
+     "li",
+     "ch",
+     "mt"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "cctlds_all",
+       "eu_member_cctlds",
+       "eurozone_cctlds",
+       "g20_cctlds",
+       "g7_cctlds",
+       "nato_cctlds",
+       "oecd_cctlds"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "cbss_cctlds",
+     "cctlds_all",
+     "danube_commission_cctlds",
+     "eu_member_cctlds",
+     "eurozone_cctlds",
+     "g20_cctlds",
+     "g7_cctlds",
+     "helcom_cctlds",
+     "nato_cctlds",
+     "oecd_cctlds"
+    ],
+    "field": "proxy_connections.tld",
+    "salience": 1383644.0,
+    "universe": "tld"
+   },
+   "field": "proxy_connections.tld",
+   "level": 4,
+   "pinned": {
+    "A": "de",
+    "C": "schengen_cctlds",
+    "C_name": "Schengen Area member state country-code top-level domains",
+    "N_p": "ie",
+    "N_t": [
+     "cy",
+     "ca",
+     "kr",
+     "office",
+     "komatsu",
+     "parts",
+     "gop"
+    ],
+    "P_M": [
+     "li",
+     "ch",
+     "mt"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "cctlds_all",
+       "eu_member_cctlds",
+       "eurozone_cctlds",
+       "g20_cctlds",
+       "g7_cctlds",
+       "nato_cctlds",
+       "oecd_cctlds"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "cbss_cctlds",
+     "cctlds_all",
+     "danube_commission_cctlds",
+     "eu_member_cctlds",
+     "eurozone_cctlds",
+     "g20_cctlds",
+     "g7_cctlds",
+     "helcom_cctlds",
+     "nato_cctlds",
+     "oecd_cctlds"
+    ],
+    "field": "proxy_connections.tld",
+    "salience": 1383644.0,
+    "universe": "tld"
+   },
+   "tried": [
+    "nato_cctlds",
+    "commonwealth_cctlds"
+   ]
+  },
+  {
+   "current": {
+    "A": "WINWORD.EXE",
+    "C": "office_suites",
+    "C_name": "Office suites",
+    "N_p": "Teams.exe",
+    "N_t": [
+     "OneDrive.exe",
+     "FoxitReader.exe",
+     "vlc.exe",
+     "360chrome.exe",
+     "nginx.exe",
+     "java.exe",
+     "QQLive.exe"
+    ],
+    "P_M": [
+     "et.exe",
+     "wps.exe",
+     "POWERPNT.EXE"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "microsoft_products",
+       "office_document_apps",
+       "uptodown_top_downloads"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "microsoft_productivity_apps",
+     "microsoft_products",
+     "office_document_apps",
+     "office_ltsc_2021_apps",
+     "office_ltsc_2024_apps",
+     "uptodown_top_downloads"
+    ],
+    "field": "proxy_connections.client_app",
+    "salience": 49919.0,
+    "universe": "client_app"
+   },
+   "field": "proxy_connections.client_app",
+   "level": 5,
+   "pinned": {
+    "A": "WINWORD.EXE",
+    "C": "office_suites",
+    "C_name": "Office suites",
+    "N_p": "Teams.exe",
+    "N_t": [
+     "OneDrive.exe",
+     "FoxitReader.exe",
+     "vlc.exe",
+     "360chrome.exe",
+     "nginx.exe",
+     "java.exe",
+     "QQLive.exe"
+    ],
+    "P_M": [
+     "et.exe",
+     "wps.exe",
+     "POWERPNT.EXE"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "microsoft_products",
+       "office_document_apps",
+       "uptodown_top_downloads"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "microsoft_productivity_apps",
+     "microsoft_products",
+     "office_document_apps",
+     "office_ltsc_2021_apps",
+     "office_ltsc_2024_apps",
+     "uptodown_top_downloads"
+    ],
+    "field": "proxy_connections.client_app",
+    "salience": 49919.0,
+    "universe": "client_app"
+   },
+   "tried": [
+    "chromium_browsers",
+    "adobe_cc_current_apps",
+    "pdf_readers",
+    "remote_desktop_clients",
+    "remote_access_tools",
+    "software_updaters",
+    "email_chat_clients"
+   ]
+  }
+ ],
+ "stage": "done"
+}

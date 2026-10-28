@@ -1,0 +1,45 @@
+A: CNNJI
+C: ports_in_brics_countries
+C_name: Ports in countries belonging to BRICS
+N_p: AUADL
+N_t:
+- NZWLG
+- GBLON
+- FRSXB
+- FRLRH
+- SZNHL
+- DERAD
+- DEHRT
+P_M:
+- INMAA
+- RULED
+- BRSSZ
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - c40_cities_ports
+    - creative_cities_network_ports
+    - league_of_historical_cities_ports
+    - ports_in_asia_pacific_economic_cooperation_countries
+    - ports_in_g20_countries
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- c40_cities_ports
+- creative_cities_network_ports
+- league_of_historical_cities_ports
+- ports_in_asia_pacific_economic_cooperation_countries
+- ports_in_g20_countries
+- world_tourism_cities_federation_ports
+field: inspections.port
+label: follow-up docket A-14
+salience: 0.0
+universe: port

@@ -1,0 +1,42 @@
+A: Singapore Airlines
+C: skytrax_five_star
+C_name: Skytrax five-star rated airlines
+N_p: Qantas
+N_t:
+- Turkish Airlines
+- TAAG Angola Airlines
+- WestJet
+- Pawan Hans
+- Flamingo Air
+- IrAero
+- Libyan Arab Air Cargo
+P_M:
+- STARLUX Airlines
+- Cathay Pacific
+- Korean Air
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - b787_operators
+    - iata_members
+    - star_alliance_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- a380_operators
+- aapa_members
+- b787_operators
+- iata_members
+- star_alliance_members
+field: trips.airline
+label: routing code 13
+salience: 58252.0
+universe: airline

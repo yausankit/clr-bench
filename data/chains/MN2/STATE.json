@@ -1,0 +1,662 @@
+{
+ "_path": "../run/out/MN/MN2/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "g7_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "skyteam",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.8333
+    },
+    "3": {
+     "C": "platinum_group_metals",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "4": {
+     "C": "gcc_members",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.963
+    },
+    "5": {
+     "C": "iag_airlines",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.4167,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "3": {
+     "C": "metals_of_antiquity",
+     "P0": true,
+     "P1": false,
+     "P1H": false,
+     "g": 0.0,
+     "soft": 0.5741
+    },
+    "4": {
+     "C": "g20_members",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "3": {
+     "C": "carbon_group",
+     "P0": false,
+     "P1": true,
+     "P1H": false,
+     "g": 0.5,
+     "soft": 0.7037
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "3": {
+     "C": "yttrium_group",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5833,
+     "soft": 0.963
+    }
+   }
+  }
+ ],
+ "requests": 120,
+ "rounds": 4,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "DE",
+    "C": "g7_members",
+    "C_name": "G7 member states",
+    "N_p": "TR",
+    "N_t": [
+     "LT",
+     "GR",
+     "CZ",
+     "NZ",
+     "BJ",
+     "TM",
+     "BH"
+    ],
+    "P_M": [
+     "JP",
+     "GB",
+     "US"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "eu_members",
+       "eurozone_members",
+       "nato_members",
+       "oecd_members",
+       "schengen_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "eu_members",
+     "eurozone_members",
+     "g20_members",
+     "nato_members",
+     "oecd_members",
+     "schengen_members"
+    ],
+    "field": "lots.origin_country",
+    "salience": 802164.0,
+    "universe": "country"
+   },
+   "field": "lots.origin_country",
+   "level": 1,
+   "pinned": {
+    "A": "DE",
+    "C": "g7_members",
+    "C_name": "G7 member states",
+    "N_p": "TR",
+    "N_t": [
+     "LT",
+     "GR",
+     "CZ",
+     "NZ",
+     "BJ",
+     "TM",
+     "BH"
+    ],
+    "P_M": [
+     "JP",
+     "GB",
+     "US"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "eu_members",
+       "eurozone_members",
+       "nato_members",
+       "oecd_members",
+       "schengen_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "eu_members",
+     "eurozone_members",
+     "g20_members",
+     "nato_members",
+     "oecd_members",
+     "schengen_members"
+    ],
+    "field": "lots.origin_country",
+    "salience": 802164.0,
+    "universe": "country"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Air France",
+    "C": "skyteam",
+    "C_name": "SkyTeam member airlines",
+    "N_p": "Heston Airlines",
+    "N_t": [
+     "MasAir",
+     "Air France-KLM Cargo",
+     "Transavia",
+     "Bahamasair",
+     "Southwind Airlines",
+     "PAS",
+     "Ruili Airlines"
+    ],
+    "P_M": [
+     "Aeroméxico",
+     "XiamenAir",
+     "SAS Link"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4e_airlines",
+       "air_france_klm_airlines",
+       "iata_airlines"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4e_airlines",
+     "air_france_klm_airlines",
+     "iata_airlines"
+    ],
+    "field": "lots.carrier",
+    "salience": 434984.0,
+    "universe": "carrier"
+   },
+   "field": "lots.carrier",
+   "level": 2,
+   "pinned": {
+    "A": "Air France",
+    "C": "skyteam",
+    "C_name": "SkyTeam member airlines",
+    "N_p": "Heston Airlines",
+    "N_t": [
+     "MasAir",
+     "Air France-KLM Cargo",
+     "Transavia",
+     "Bahamasair",
+     "Southwind Airlines",
+     "PAS",
+     "Ruili Airlines"
+    ],
+    "P_M": [
+     "Aeroméxico",
+     "XiamenAir",
+     "SAS Link"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4e_airlines",
+       "air_france_klm_airlines",
+       "iata_airlines"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4e_airlines",
+     "air_france_klm_airlines",
+     "iata_airlines"
+    ],
+    "field": "lots.carrier",
+    "salience": 434984.0,
+    "universe": "carrier"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "holmium",
+    "C": "yttrium_group",
+    "C_name": "Yttrium-group rare-earth elements",
+    "N_p": "samarium",
+    "N_t": [
+     "europium",
+     "praseodymium",
+     "promethium",
+     "neon",
+     "technetium",
+     "palladium",
+     "selenium"
+    ],
+    "P_M": [
+     "gadolinium",
+     "ytterbium",
+     "erbium"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "heavy_rare_earths",
+       "lanthanides",
+       "lanthanides_and_actinides",
+       "period_6_elements",
+       "rare_earth_elements"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 4,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "heavy_rare_earths",
+     "lanthanides",
+     "lanthanides_and_actinides",
+     "period_6_elements",
+     "rare_earth_elements"
+    ],
+    "field": "lots.material",
+    "salience": 547616.0,
+    "universe": "material"
+   },
+   "field": "lots.material",
+   "level": 3,
+   "pinned": {
+    "A": "holmium",
+    "C": "yttrium_group",
+    "C_name": "Yttrium-group rare-earth elements",
+    "N_p": "samarium",
+    "N_t": [
+     "europium",
+     "praseodymium",
+     "promethium",
+     "neon",
+     "technetium",
+     "palladium",
+     "selenium"
+    ],
+    "P_M": [
+     "gadolinium",
+     "ytterbium",
+     "erbium"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "heavy_rare_earths",
+       "lanthanides",
+       "lanthanides_and_actinides",
+       "period_6_elements",
+       "rare_earth_elements"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 4,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "heavy_rare_earths",
+     "lanthanides",
+     "lanthanides_and_actinides",
+     "period_6_elements",
+     "rare_earth_elements"
+    ],
+    "field": "lots.material",
+    "salience": 547616.0,
+    "universe": "material"
+   },
+   "tried": [
+    "platinum_group_metals",
+    "metals_of_antiquity",
+    "carbon_group"
+   ]
+  },
+  {
+   "current": {
+    "A": "IT",
+    "C": "g20_members",
+    "C_name": "G20 members",
+    "N_p": "MU",
+    "N_t": [
+     "LU",
+     "FI",
+     "HR",
+     "BT",
+     "GT",
+     "TZ",
+     "MA"
+    ],
+    "P_M": [
+     "SA",
+     "IN",
+     "AR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "eu_members",
+       "eurozone_members",
+       "nato_members",
+       "oecd_members",
+       "schengen_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "eu_members",
+     "eurozone_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "schengen_members"
+    ],
+    "field": "lots.origin_country",
+    "salience": 746828.0,
+    "universe": "country"
+   },
+   "field": "lots.origin_country",
+   "level": 4,
+   "pinned": {
+    "A": "IT",
+    "C": "g20_members",
+    "C_name": "G20 members",
+    "N_p": "MU",
+    "N_t": [
+     "LU",
+     "FI",
+     "HR",
+     "BT",
+     "GT",
+     "TZ",
+     "MA"
+    ],
+    "P_M": [
+     "SA",
+     "IN",
+     "AR"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "eu_members",
+       "eurozone_members",
+       "nato_members",
+       "oecd_members",
+       "schengen_members"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "eu_members",
+     "eurozone_members",
+     "g7_members",
+     "nato_members",
+     "oecd_members",
+     "schengen_members"
+    ],
+    "field": "lots.origin_country",
+    "salience": 746828.0,
+    "universe": "country"
+   },
+   "tried": [
+    "gcc_members"
+   ]
+  },
+  {
+   "current": {
+    "A": "British Airways",
+    "C": "iag_airlines",
+    "C_name": "International Airlines Group airlines",
+    "N_p": "Finnair",
+    "N_t": [
+     "Royal Air Maroc",
+     "Cathay Pacific",
+     "EasyJet Europe",
+     "Xizang Airlines",
+     "TUI Airways",
+     "Congo Airlines",
+     "Air Niugini"
+    ],
+    "P_M": [
+     "LEVEL",
+     "Aer Lingus",
+     "Iberia"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4e_airlines",
+       "iata_airlines",
+       "oneworld"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4e_airlines",
+     "iata_airlines",
+     "oneworld"
+    ],
+    "field": "lots.carrier",
+    "salience": 236588.0,
+    "universe": "carrier"
+   },
+   "field": "lots.carrier",
+   "level": 5,
+   "pinned": {
+    "A": "British Airways",
+    "C": "iag_airlines",
+    "C_name": "International Airlines Group airlines",
+    "N_p": "Finnair",
+    "N_t": [
+     "Royal Air Maroc",
+     "Cathay Pacific",
+     "EasyJet Europe",
+     "Xizang Airlines",
+     "TUI Airways",
+     "Congo Airlines",
+     "Air Niugini"
+    ],
+    "P_M": [
+     "LEVEL",
+     "Aer Lingus",
+     "Iberia"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "a4e_airlines",
+       "iata_airlines",
+       "oneworld"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "a4e_airlines",
+     "iata_airlines",
+     "oneworld"
+    ],
+    "field": "lots.carrier",
+    "salience": 236588.0,
+    "universe": "carrier"
+   },
+   "tried": []
+  }
+ ],
+ "stage": "done"
+}

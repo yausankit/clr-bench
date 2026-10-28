@@ -1,0 +1,832 @@
+{
+ "_path": "../run/out/SH/SH2/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "arab_league",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9815
+    },
+    "2": {
+     "C": "african_union",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.75,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "cruise_europe_ports",
+     "P0": true,
+     "P1": false,
+     "P1H": false,
+     "g": 0.0,
+     "soft": 0.6667
+    },
+    "4": {
+     "C": "european_economic_area",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.8704
+    },
+    "5": {
+     "C": "council_of_europe",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.9074
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "2": {
+     "C": "caribbean_community",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9815
+    },
+    "3": {
+     "C": "ports_in_african_union_countries",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 0.8704
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "2": {
+     "C": "nordic_council",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 1.0
+    },
+    "3": {
+     "C": "ports_in_arab_league_countries",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "2": {
+     "C": "community_of_portuguese_language_countries",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 0.9444
+    },
+    "3": {
+     "C": "ports_in_brics_countries",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.25,
+     "soft": 0.9815
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "2": {
+     "C": "pif_members",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.9815
+    }
+   }
+  },
+  {
+   "round": 6,
+   "verdicts": {
+    "2": {
+     "C": "arctic_council",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5833,
+     "soft": 0.8519
+    }
+   }
+  },
+  {
+   "round": 7,
+   "verdicts": {
+    "2": {
+     "C": "arab_maghreb_union",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.9167,
+     "soft": 1.0
+    }
+   }
+  },
+  {
+   "round": 8,
+   "verdicts": {
+    "2": {
+     "C": "bay_of_bengal_initiative_for_multi_sectoral_technical_and_economic_cooperation",
+     "P0": false,
+     "P1": false,
+     "P1H": true,
+     "g": 0.75,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 9,
+   "verdicts": {
+    "2": {
+     "C": "council_of_the_baltic_sea_states",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.75,
+     "soft": 0.9815
+    }
+   }
+  },
+  {
+   "round": 10,
+   "verdicts": {
+    "2": {
+     "C": "asia_pacific_economic_cooperation",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9074
+    }
+   }
+  }
+ ],
+ "requests": 234,
+ "rounds": 10,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "TN",
+    "C": "arab_league",
+    "C_name": "Arab League",
+    "N_p": "NG",
+    "N_t": [
+     "SS",
+     "AL",
+     "GM",
+     "GQ",
+     "BV",
+     "TH",
+     "SJ"
+    ],
+    "P_M": [
+     "SD",
+     "SY",
+     "IQ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "african_continental_free_trade_area",
+       "african_union",
+       "international_hydrographic_organization",
+       "organisation_internationale_de_la_francophonie",
+       "organisation_of_islamic_cooperation",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "african_continental_free_trade_area",
+     "african_union",
+     "arab_maghreb_union",
+     "international_hydrographic_organization",
+     "organisation_internationale_de_la_francophonie",
+     "organisation_of_islamic_cooperation",
+     "world_trade_organization"
+    ],
+    "field": "ships.flag_state",
+    "salience": 386459.0,
+    "universe": "flag"
+   },
+   "field": "ships.flag_state",
+   "level": 1,
+   "pinned": {
+    "A": "TN",
+    "C": "arab_league",
+    "C_name": "Arab League",
+    "N_p": "NG",
+    "N_t": [
+     "SS",
+     "AL",
+     "GM",
+     "GQ",
+     "BV",
+     "TH",
+     "SJ"
+    ],
+    "P_M": [
+     "SD",
+     "SY",
+     "IQ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "african_continental_free_trade_area",
+       "african_union",
+       "international_hydrographic_organization",
+       "organisation_internationale_de_la_francophonie",
+       "organisation_of_islamic_cooperation",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "african_continental_free_trade_area",
+     "african_union",
+     "arab_maghreb_union",
+     "international_hydrographic_organization",
+     "organisation_internationale_de_la_francophonie",
+     "organisation_of_islamic_cooperation",
+     "world_trade_organization"
+    ],
+    "field": "ships.flag_state",
+    "salience": 386459.0,
+    "universe": "flag"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "US",
+    "C": "asia_pacific_economic_cooperation",
+    "C_name": "Asia-Pacific Economic Cooperation",
+    "N_p": "MU",
+    "N_t": [
+     "GR",
+     "GB",
+     "ZA",
+     "DK",
+     "PA",
+     "PS",
+     "TJ"
+    ],
+    "P_M": [
+     "HK",
+     "TW",
+     "PG"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arctic_council",
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "nato",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "organization_of_american_states",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arctic_council",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "organization_of_american_states",
+     "world_trade_organization"
+    ],
+    "field": "ships.owner_country",
+    "salience": 11971.0,
+    "universe": "flag"
+   },
+   "field": "ships.owner_country",
+   "level": 2,
+   "pinned": {
+    "A": "US",
+    "C": "asia_pacific_economic_cooperation",
+    "C_name": "Asia-Pacific Economic Cooperation",
+    "N_p": "MU",
+    "N_t": [
+     "GR",
+     "GB",
+     "ZA",
+     "DK",
+     "PA",
+     "PS",
+     "TJ"
+    ],
+    "P_M": [
+     "HK",
+     "TW",
+     "PG"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "arctic_council",
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "nato",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "organization_of_american_states",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "arctic_council",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "organization_of_american_states",
+     "world_trade_organization"
+    ],
+    "field": "ships.owner_country",
+    "salience": 11971.0,
+    "universe": "flag"
+   },
+   "tried": [
+    "african_union",
+    "caribbean_community",
+    "nordic_council",
+    "community_of_portuguese_language_countries",
+    "pif_members",
+    "arctic_council",
+    "arab_maghreb_union",
+    "bay_of_bengal_initiative_for_multi_sectoral_technical_and_economic_cooperation",
+    "council_of_the_baltic_sea_states"
+   ]
+  },
+  {
+   "current": {
+    "A": "CNNJI",
+    "C": "ports_in_brics_countries",
+    "C_name": "Ports in countries belonging to BRICS",
+    "N_p": "AUADL",
+    "N_t": [
+     "NZWLG",
+     "GBLON",
+     "FRSXB",
+     "FRLRH",
+     "SZNHL",
+     "DERAD",
+     "DEHRT"
+    ],
+    "P_M": [
+     "INMAA",
+     "RULED",
+     "BRSSZ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "c40_cities_ports",
+       "creative_cities_network_ports",
+       "league_of_historical_cities_ports",
+       "ports_in_asia_pacific_economic_cooperation_countries",
+       "ports_in_g20_countries"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "c40_cities_ports",
+     "creative_cities_network_ports",
+     "league_of_historical_cities_ports",
+     "ports_in_asia_pacific_economic_cooperation_countries",
+     "ports_in_g20_countries",
+     "world_tourism_cities_federation_ports"
+    ],
+    "field": "inspections.port",
+    "salience": 0.0,
+    "universe": "port"
+   },
+   "field": "inspections.port",
+   "level": 3,
+   "pinned": {
+    "A": "CNNJI",
+    "C": "ports_in_brics_countries",
+    "C_name": "Ports in countries belonging to BRICS",
+    "N_p": "AUADL",
+    "N_t": [
+     "NZWLG",
+     "GBLON",
+     "FRSXB",
+     "FRLRH",
+     "SZNHL",
+     "DERAD",
+     "DEHRT"
+    ],
+    "P_M": [
+     "INMAA",
+     "RULED",
+     "BRSSZ"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "c40_cities_ports",
+       "creative_cities_network_ports",
+       "league_of_historical_cities_ports",
+       "ports_in_asia_pacific_economic_cooperation_countries",
+       "ports_in_g20_countries"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "c40_cities_ports",
+     "creative_cities_network_ports",
+     "league_of_historical_cities_ports",
+     "ports_in_asia_pacific_economic_cooperation_countries",
+     "ports_in_g20_countries",
+     "world_tourism_cities_federation_ports"
+    ],
+    "field": "inspections.port",
+    "salience": 0.0,
+    "universe": "port"
+   },
+   "tried": [
+    "cruise_europe_ports",
+    "ports_in_african_union_countries",
+    "ports_in_arab_league_countries"
+   ]
+  },
+  {
+   "current": {
+    "A": "DE",
+    "C": "european_economic_area",
+    "C_name": "European Economic Area",
+    "N_p": "ME",
+    "N_t": [
+     "TR",
+     "CH",
+     "CA",
+     "AX",
+     "BT",
+     "MG",
+     "MS"
+    ],
+    "P_M": [
+     "LI",
+     "BG",
+     "CY"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe",
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "nato",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "schengen_area",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 24,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "council_of_the_baltic_sea_states",
+     "european_union",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "schengen_area",
+     "world_trade_organization"
+    ],
+    "field": "ships.flag_state",
+    "salience": 322322.0,
+    "universe": "flag"
+   },
+   "field": "ships.flag_state",
+   "level": 4,
+   "pinned": {
+    "A": "DE",
+    "C": "european_economic_area",
+    "C_name": "European Economic Area",
+    "N_p": "ME",
+    "N_t": [
+     "TR",
+     "CH",
+     "CA",
+     "AX",
+     "BT",
+     "MG",
+     "MS"
+    ],
+    "P_M": [
+     "LI",
+     "BG",
+     "CY"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "council_of_europe",
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "nato",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "schengen_area",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 24,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "council_of_europe",
+     "council_of_the_baltic_sea_states",
+     "european_union",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "schengen_area",
+     "world_trade_organization"
+    ],
+    "field": "ships.flag_state",
+    "salience": 322322.0,
+    "universe": "flag"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "IT",
+    "C": "council_of_europe",
+    "C_name": "Council of Europe",
+    "N_p": "BY",
+    "N_t": [
+     "JP",
+     "RU",
+     "VA",
+     "SN",
+     "KH",
+     "VC",
+     "TM"
+    ],
+    "P_M": [
+     "SM",
+     "AZ",
+     "AD"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "european_economic_area",
+     "european_union",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "schengen_area",
+     "world_trade_organization"
+    ],
+    "field": "ships.owner_country",
+    "salience": 261776.0,
+    "universe": "flag"
+   },
+   "field": "ships.owner_country",
+   "level": 5,
+   "pinned": {
+    "A": "IT",
+    "C": "council_of_europe",
+    "C_name": "Council of Europe",
+    "N_p": "BY",
+    "N_t": [
+     "JP",
+     "RU",
+     "VA",
+     "SN",
+     "KH",
+     "VC",
+     "TM"
+    ],
+    "P_M": [
+     "SM",
+     "AZ",
+     "AD"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "g20",
+       "g7",
+       "international_hydrographic_organization",
+       "organization_for_economic_cooperation_and_development",
+       "organization_for_security_and_co_operation_in_europe",
+       "world_trade_organization"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 36,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "european_economic_area",
+     "european_union",
+     "g20",
+     "g7",
+     "international_hydrographic_organization",
+     "nato",
+     "organization_for_economic_cooperation_and_development",
+     "organization_for_security_and_co_operation_in_europe",
+     "schengen_area",
+     "world_trade_organization"
+    ],
+    "field": "ships.owner_country",
+    "salience": 261776.0,
+    "universe": "flag"
+   },
+   "tried": []
+  }
+ ],
+ "stage": "done"
+}

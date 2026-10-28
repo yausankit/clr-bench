@@ -1,0 +1,1059 @@
+- id: sdr_basket_currencies
+  name: Currencies in the IMF special drawing rights basket
+  kind: currency_org
+  org: null
+  synonyms:
+  - SDR basket
+  wiki: Special drawing rights
+  members:
+  - CNY
+  - EUR
+  - GBP
+  - JPY
+  - USD
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: IMF SDR basket (USD, EUR, CNY, JPY, GBP)
+  salience: 68657
+  note: five currencies fixed by the IMF
+- id: eu_non_euro_currencies
+  name: Currencies of European Union member states outside the euro area
+  kind: currency_org
+  org: European Union
+  synonyms:
+  - EU currencies outside the euro
+  wiki: European Union
+  members:
+  - CZK
+  - DKK
+  - HUF
+  - PLN
+  - RON
+  - SEK
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe:
+  - Bulgaria
+  source: ISO 4217 table (raw/iso4217_page.json) + EU membership (Wikidata P463)
+  salience: 2455194
+- id: gcc_currencies
+  name: Currencies of Gulf Cooperation Council member states
+  kind: currency_org
+  org: Gulf Cooperation Council
+  synonyms:
+  - GCC currencies
+  wiki: Gulf Cooperation Council
+  members:
+  - AED
+  - BHD
+  - KWD
+  - OMR
+  - QAR
+  - SAR
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: ISO 4217 table + GCC membership
+  salience: 767528
+- id: asean_currencies
+  name: Currencies of ASEAN member states
+  kind: currency_org
+  org: ASEAN
+  synonyms:
+  - ASEAN currencies
+  wiki: ASEAN
+  members:
+  - BND
+  - IDR
+  - KHR
+  - LAK
+  - MMK
+  - MYR
+  - PHP
+  - SGD
+  - THB
+  - VND
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: ISO 4217 table + ASEAN membership
+  salience: 946505
+- id: g20_currencies
+  name: Currencies of G20 member states
+  kind: currency_org
+  org: G20
+  synonyms:
+  - G20 currencies
+  wiki: G20
+  members:
+  - ARS
+  - AUD
+  - BRL
+  - CAD
+  - CNY
+  - EUR
+  - GBP
+  - IDR
+  - INR
+  - JPY
+  - KRW
+  - MXN
+  - RUB
+  - SAR
+  - TRY
+  - USD
+  - ZAR
+  disputed: []
+  changes: []
+  official_count: 17
+  out_of_universe: []
+  source: ISO 4217 table + G20 membership (Wikidata P463)
+  salience: 746828
+- id: brics_currencies
+  name: Currencies of BRICS member states
+  kind: currency_org
+  org: BRICS
+  synonyms:
+  - BRICS currencies
+  wiki: BRICS
+  members:
+  - AED
+  - BRL
+  - CNY
+  - EGP
+  - ETB
+  - IDR
+  - INR
+  - IRR
+  - RUB
+  - ZAR
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: ISO 4217 table + BRICS membership (Wikidata P463)
+  salience: 1491124
+- id: arab_league_currencies
+  name: Currencies of Arab League member states
+  kind: currency_org
+  org: Arab League
+  synonyms:
+  - Arab League currencies
+  wiki: Arab League
+  members:
+  - AED
+  - BHD
+  - DJF
+  - DZD
+  - EGP
+  - IQD
+  - JOD
+  - KMF
+  - KWD
+  - LBP
+  - LYD
+  - MAD
+  - MRU
+  - OMR
+  - QAR
+  - SAR
+  - SDG
+  - SOS
+  - SYP
+  - TND
+  - YER
+  disputed: []
+  changes: []
+  official_count: 22
+  out_of_universe:
+  - Palestine
+  source: ISO 4217 table + Arab League membership (Wikidata P463)
+  salience: 386459
+- id: commonwealth_currencies
+  name: Currencies of Commonwealth of Nations member states
+  kind: currency_org
+  org: Commonwealth of Nations
+  synonyms: []
+  wiki: Commonwealth of Nations
+  members:
+  - AUD
+  - BBD
+  - BDT
+  - BND
+  - BWP
+  - BZD
+  - CAD
+  - EUR
+  - FJD
+  - GHS
+  - GYD
+  - INR
+  - JMD
+  - KES
+  - LKR
+  - LSL
+  - MUR
+  - MVR
+  - MWK
+  - MYR
+  - MZN
+  - NAD
+  - NGN
+  - NZD
+  - PGK
+  - PKR
+  - RWF
+  - SBD
+  - SCR
+  - SGD
+  - SLE
+  - SZL
+  - TOP
+  - TTD
+  - TZS
+  - UGX
+  - VUV
+  - WST
+  - XAF
+  - XCD
+  - XOF
+  - ZAR
+  - ZMW
+  disputed: []
+  changes: []
+  official_count: 46
+  out_of_universe:
+  - The Bahamas
+  - The Gambia
+  - realm of the United Kingdom
+  source: ISO 4217 table + Commonwealth of Nations membership (Wikidata P463)
+  salience: 1422475
+- id: oic_currencies
+  name: Currencies of Organisation of Islamic Cooperation member states
+  kind: currency_org
+  org: Organisation of Islamic Cooperation
+  synonyms: []
+  wiki: Organisation of Islamic Cooperation
+  members:
+  - AED
+  - BDT
+  - BHD
+  - BND
+  - DJF
+  - DZD
+  - EGP
+  - GNF
+  - IDR
+  - IQD
+  - IRR
+  - JOD
+  - KGS
+  - KMF
+  - KWD
+  - KZT
+  - LBP
+  - LYD
+  - MAD
+  - MRU
+  - MVR
+  - MYR
+  - MZN
+  - NGN
+  - OMR
+  - PKR
+  - QAR
+  - SAR
+  - SDG
+  - SLE
+  - SOS
+  - SRD
+  - SYP
+  - TJS
+  - TMT
+  - TND
+  - TRY
+  - UGX
+  - UZS
+  - XAF
+  - XOF
+  - YER
+  disputed: []
+  changes: []
+  official_count: 45
+  out_of_universe:
+  - Northern Cyprus
+  - Palestine
+  - The Gambia
+  source: ISO 4217 table + Organisation of Islamic Cooperation membership (Wikidata P463)
+  salience: 209910
+- id: african_union_currencies
+  name: Currencies of African Union member states
+  kind: currency_org
+  org: African Union
+  synonyms: []
+  wiki: African Union
+  members:
+  - AOA
+  - BIF
+  - BWP
+  - CDF
+  - CVE
+  - DJF
+  - DZD
+  - EGP
+  - ERN
+  - ETB
+  - GHS
+  - GNF
+  - KES
+  - KMF
+  - LRD
+  - LSL
+  - LYD
+  - MAD
+  - MGA
+  - MRU
+  - MUR
+  - MWK
+  - MZN
+  - NAD
+  - NGN
+  - RWF
+  - SCR
+  - SDG
+  - SLE
+  - SOS
+  - SSP
+  - STN
+  - SZL
+  - TND
+  - TZS
+  - UGX
+  - XAF
+  - XOF
+  - ZAR
+  - ZMW
+  - ZWG
+  disputed: []
+  changes: []
+  official_count: 42
+  out_of_universe:
+  - The Gambia
+  source: ISO 4217 table + African Union membership (Wikidata P463)
+  salience: 382745
+- id: oas_currencies
+  name: Currencies of Organization of American States member states
+  kind: currency_org
+  org: Organization of American States
+  synonyms: []
+  wiki: Organization of American States
+  members:
+  - ARS
+  - BBD
+  - BOB
+  - BRL
+  - BZD
+  - CAD
+  - CLP
+  - COP
+  - CRC
+  - CUP
+  - DOP
+  - GTQ
+  - GYD
+  - HNL
+  - HTG
+  - JMD
+  - MXN
+  - NIO
+  - PAB
+  - PEN
+  - PYG
+  - SRD
+  - SVC
+  - TTD
+  - USD
+  - UYU
+  - VED
+  - XCD
+  disputed: []
+  changes: []
+  official_count: 29
+  out_of_universe:
+  - The Bahamas
+  source: ISO 4217 table + Organization of American States membership (Wikidata P463)
+  salience: 218695
+- id: apec_currencies
+  name: Currencies of APEC member economies
+  kind: currency_org
+  org: Asia-Pacific Economic Cooperation
+  synonyms: []
+  wiki: Asia-Pacific Economic Cooperation
+  members:
+  - AUD
+  - BND
+  - CAD
+  - CLP
+  - CNY
+  - IDR
+  - JPY
+  - KRW
+  - MXN
+  - MYR
+  - NZD
+  - PEN
+  - PGK
+  - PHP
+  - RUB
+  - SGD
+  - THB
+  - TWD
+  - USD
+  - VND
+  disputed: []
+  changes: []
+  official_count: 20
+  out_of_universe: []
+  source: ISO 4217 table + Asia-Pacific Economic Cooperation membership (Wikidata P463)
+  salience: 215960
+- id: g7_currencies
+  name: Currencies of Group of Seven member states
+  kind: currency_org
+  org: G7
+  synonyms: []
+  wiki: Group of Seven
+  members:
+  - CAD
+  - EUR
+  - GBP
+  - JPY
+  - USD
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Group_of_Seven.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 35922
+  note: seven member states (5 distinct currencies)
+- id: oecd_currencies
+  name: Currencies of OECD member states
+  kind: currency_org
+  org: Organisation for Economic Co-operation and Development
+  synonyms: []
+  wiki: OECD
+  members:
+  - AUD
+  - CAD
+  - CHF
+  - CLP
+  - COP
+  - CRC
+  - CZK
+  - DKK
+  - EUR
+  - GBP
+  - HUF
+  - ILS
+  - ISK
+  - JPY
+  - KRW
+  - MXN
+  - NOK
+  - NZD
+  - PLN
+  - SEK
+  - TRY
+  - USD
+  disputed: []
+  changes: []
+  official_count: 22
+  out_of_universe: []
+  source: member list in raw/wiki/OECD.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 583168
+  note: 38 member countries (22 distinct currencies)
+- id: nato_currencies
+  name: Currencies of NATO member states
+  kind: currency_org
+  org: NATO
+  synonyms: []
+  wiki: NATO
+  members:
+  - ALL
+  - CAD
+  - CZK
+  - DKK
+  - EUR
+  - GBP
+  - HUF
+  - ISK
+  - MKD
+  - NOK
+  - PLN
+  - RON
+  - SEK
+  - TRY
+  - USD
+  disputed: []
+  changes: []
+  official_count: 15
+  out_of_universe: []
+  source: member list in raw/wiki/NATO.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 2129009
+  note: 32 member states (15 distinct currencies)
+- id: sco_currencies
+  name: Currencies of Shanghai Cooperation Organisation member states
+  kind: currency_org
+  org: Shanghai Cooperation Organisation
+  synonyms: []
+  wiki: Shanghai Cooperation Organisation
+  members:
+  - BYN
+  - CNY
+  - INR
+  - IRR
+  - KGS
+  - KZT
+  - PKR
+  - RUB
+  - TJS
+  - UZS
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: member list in raw/wiki/Shanghai_Cooperation_Organisation.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 346826
+  note: ten member states since Belarus joined in 2024
+- id: eaeu_currencies
+  name: Currencies of Eurasian Economic Union member states
+  kind: currency_org
+  org: Eurasian Economic Union
+  synonyms: []
+  wiki: Eurasian Economic Union
+  members:
+  - AMD
+  - BYN
+  - KGS
+  - KZT
+  - RUB
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Eurasian_Economic_Union.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 160582
+  note: five member states
+- id: turkic_states_currencies
+  name: Currencies of Organization of Turkic States member states
+  kind: currency_org
+  org: Organization of Turkic States
+  synonyms: []
+  wiki: Organization of Turkic States
+  members:
+  - AZN
+  - KGS
+  - KZT
+  - TRY
+  - UZS
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Organization_of_Turkic_States.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 209108
+  note: five full members (observers excluded)
+- id: cplp_currencies
+  name: Currencies of Community of Portuguese Language Countries member states
+  kind: currency_org
+  org: Community of Portuguese Language Countries
+  synonyms: []
+  wiki: Community of Portuguese Language Countries
+  members:
+  - AOA
+  - BRL
+  - CVE
+  - EUR
+  - MZN
+  - STN
+  - USD
+  - XAF
+  - XOF
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: member list in raw/wiki/Community_of_Portuguese_Language_Countries.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 84216
+  note: nine full member states
+- id: ecowas_currencies
+  name: Currencies of ECOWAS member states
+  kind: currency_org
+  org: Economic Community of West African States
+  synonyms: []
+  wiki: ECOWAS
+  members:
+  - CVE
+  - GHS
+  - GMD
+  - GNF
+  - LRD
+  - NGN
+  - SLE
+  - XOF
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: member list in raw/wiki/ECOWAS.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 213051
+  note: 12 member states after the January 2025 withdrawal of Burkina Faso, Mali and Niger (8 distinct currencies)
+- id: eac_currencies
+  name: Currencies of East African Community partner states
+  kind: currency_org
+  org: East African Community
+  synonyms: []
+  wiki: East African Community
+  members:
+  - BIF
+  - CDF
+  - KES
+  - RWF
+  - SOS
+  - SSP
+  - TZS
+  - UGX
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: member list in raw/wiki/East_African_Community.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 103713
+  note: eight partner states
+- id: sadc_currencies
+  name: Currencies of Southern African Development Community member states
+  kind: currency_org
+  org: Southern African Development Community
+  synonyms: []
+  wiki: Southern African Development Community
+  members:
+  - AOA
+  - BWP
+  - CDF
+  - KMF
+  - LSL
+  - MGA
+  - MUR
+  - MWK
+  - MZN
+  - NAD
+  - SCR
+  - SZL
+  - TZS
+  - ZAR
+  - ZMW
+  - ZWG
+  disputed: []
+  changes: []
+  official_count: 16
+  out_of_universe: []
+  source: member list in raw/wiki/Southern_African_Development_Community.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 69472
+  note: 16 member states
+- id: sacu_currencies
+  name: Currencies of Southern African Customs Union member states
+  kind: currency_org
+  org: Southern African Customs Union
+  synonyms: []
+  wiki: Southern African Customs Union
+  members:
+  - BWP
+  - LSL
+  - NAD
+  - SZL
+  - ZAR
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Southern_African_Customs_Union.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 24570
+  note: five member states
+- id: caricom_currencies
+  name: Currencies of Caribbean Community member states
+  kind: currency_org
+  org: Caribbean Community
+  synonyms: []
+  wiki: Caribbean Community
+  members:
+  - BBD
+  - BSD
+  - BZD
+  - GYD
+  - HTG
+  - JMD
+  - SRD
+  - TTD
+  - XCD
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: member list in raw/wiki/Caribbean_Community.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 123057
+  note: 15 full members (associate members excluded) (9 distinct currencies)
+- id: mercosur_currencies
+  name: Currencies of Mercosur member states
+  kind: currency_org
+  org: Mercosur
+  synonyms: []
+  wiki: Mercosur
+  members:
+  - ARS
+  - BOB
+  - BRL
+  - PYG
+  - UYU
+  disputed:
+  - VES
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: member list in raw/wiki/Mercosur.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 429384
+  note: six member states; Venezuela suspended since December 2016
+- id: amu_currencies
+  name: Currencies of Arab Maghreb Union member states
+  kind: currency_org
+  org: Arab Maghreb Union
+  synonyms: []
+  wiki: Arab Maghreb Union
+  members:
+  - DZD
+  - LYD
+  - MAD
+  - MRU
+  - TND
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Arab_Maghreb_Union.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 33254
+  note: five member states
+- id: opec_currencies
+  name: Currencies of OPEC member countries
+  kind: currency_org
+  org: Organization of the Petroleum Exporting Countries
+  synonyms: []
+  wiki: OPEC
+  members:
+  - DZD
+  - IQD
+  - IRR
+  - KWD
+  - LYD
+  - NGN
+  - SAR
+  - VES
+  - XAF
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: member list in raw/wiki/OPEC.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 891426
+  note: 11 member countries as of May 2026 (9 distinct currencies)
+- id: nordic_council_currencies
+  name: Currencies of Nordic Council member states
+  kind: currency_org
+  org: Nordic Council
+  synonyms: []
+  wiki: Nordic Council
+  members:
+  - DKK
+  - EUR
+  - ISK
+  - NOK
+  - SEK
+  disputed: []
+  changes: []
+  official_count: 5
+  out_of_universe: []
+  source: member list in raw/wiki/Nordic_Council.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 85440
+  note: five full members (self-governing regions excluded)
+- id: pif_currencies
+  name: Currencies of Pacific Islands Forum member states
+  kind: currency_org
+  org: Pacific Islands Forum
+  synonyms: []
+  wiki: Pacific Islands Forum
+  members:
+  - AUD
+  - FJD
+  - NZD
+  - PGK
+  - SBD
+  - TOP
+  - USD
+  - VUV
+  - WST
+  - XPF
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: member list in raw/wiki/Pacific_Islands_Forum.json + ISO 4217 table (raw/iso4217_page.json)
+  salience: 43071
+  note: 18 member states (10 distinct currencies)
+- id: zero_minor_unit_currencies
+  name: ISO 4217 currencies with zero decimal places
+  kind: currency_standard
+  synonyms: []
+  wiki: ISO 4217
+  members:
+  - BIF
+  - CLP
+  - DJF
+  - GNF
+  - ISK
+  - JPY
+  - KMF
+  - KRW
+  - PYG
+  - RWF
+  - UGX
+  - VND
+  - VUV
+  - XAF
+  - XOF
+  - XPF
+  disputed: []
+  changes: []
+  official_count: 16
+  out_of_universe: []
+  source: ISO 4217 table column D[a] (raw/iso4217_page.json)
+  salience: 758673
+  note: currencies whose ISO 4217 minor unit is 0
+- id: three_minor_unit_currencies
+  name: ISO 4217 currencies with three decimal places
+  kind: currency_standard
+  synonyms: []
+  wiki: ISO 4217
+  members:
+  - BHD
+  - IQD
+  - JOD
+  - KWD
+  - LYD
+  - OMR
+  - TND
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: ISO 4217 table column D[a] (raw/iso4217_page.json)
+  salience: 758673
+  note: currencies whose ISO 4217 minor unit is 3
+- id: usd_pegged_currencies
+  name: Currencies pegged to the United States dollar
+  kind: currency_peg
+  synonyms: []
+  wiki: International use of the U.S. dollar
+  members:
+  - AED
+  - AWG
+  - AZN
+  - BBD
+  - BHD
+  - BMD
+  - BSD
+  - BZD
+  - CUP
+  - DJF
+  - ERN
+  - JOD
+  - KYD
+  - LBP
+  - OMR
+  - PAB
+  - QAR
+  - SAR
+  - TMT
+  - XCD
+  - XCG
+  disputed: []
+  changes: []
+  official_count: 23
+  out_of_universe:
+  - Ecuadorian centavo coins
+  - Timor-Leste centavo coins
+  source: anchor-currency column of raw/wiki/List_of_circulating_fixed_exchange_rate_currencies.wiki
+  salience: 54824
+  note: USD-anchored rows of the circulating fixed exchange rate list
+- id: eur_linked_currencies
+  name: Currencies whose exchange rate regime is linked to the euro
+  kind: currency_peg
+  synonyms: []
+  wiki: International status and usage of the euro
+  members:
+  - BAM
+  - CVE
+  - DKK
+  - KMF
+  - MAD
+  - MKD
+  - STN
+  - XAF
+  - XOF
+  - XPF
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  source: pegged-currencies table of raw/wiki/International_status_and_usage_of_the_euro.wiki
+  salience: 62911
+  note: conventional pegs, currency board, ERM II and basket pegs listed there
+- id: fixed_exchange_rate_currencies
+  name: Currencies listed with a circulating fixed exchange rate
+  kind: currency_peg
+  synonyms: []
+  wiki: Fixed exchange rate system
+  members:
+  - AED
+  - AWG
+  - AZN
+  - BAM
+  - BBD
+  - BHD
+  - BMD
+  - BND
+  - BSD
+  - BTN
+  - BZD
+  - CUP
+  - CVE
+  - DJF
+  - ERN
+  - FKP
+  - GIP
+  - JOD
+  - KMF
+  - KYD
+  - LBP
+  - LSL
+  - MOP
+  - NAD
+  - NPR
+  - OMR
+  - PAB
+  - QAR
+  - SAR
+  - SHP
+  - STN
+  - SZL
+  - TMT
+  - XAF
+  - XCD
+  - XCG
+  - XOF
+  - XPF
+  disputed: []
+  changes: []
+  official_count: 52
+  out_of_universe:
+  - Abkhazian apsar
+  - Alderney pound
+  - Cook Islands dollar
+  - Ecuadorian centavo coins
+  - Faroese króna
+  - Guernsey pound
+  - Jersey pound
+  - Kiribati dollar
+  - Manx pound
+  - Niue dollar
+  - Pitcairn Islands dollar
+  - South Ossetian Zarin
+  - Timor-Leste centavo coins
+  - Tuvaluan dollar
+  source: raw/wiki/List_of_circulating_fixed_exchange_rate_currencies.wiki
+  salience: 55748
+  note: all rows of the circulating fixed exchange rate list
+- id: currency_union_currencies
+  name: Currencies of existing currency unions listed in the Currency union article
+  kind: currency_union
+  synonyms: []
+  wiki: Currency union
+  members:
+  - AUD
+  - BND
+  - CHF
+  - EGP
+  - EUR
+  - ILS
+  - INR
+  - JOD
+  - NZD
+  - RUB
+  - SGD
+  - TRY
+  - USD
+  - XAF
+  - XCD
+  - XOF
+  - XPF
+  - ZAR
+  disputed: []
+  changes: []
+  official_count: 18
+  out_of_universe: []
+  source: currency column of the 'Existing' table in raw/wiki/Currency_union.wiki
+  salience: 27796
+  note: the sterling area row is marked former and is not included
+- id: eccas_currencies
+  name: Currencies of Economic Community of Central African States member states
+  kind: currency_org
+  org: ECCAS
+  synonyms: []
+  wiki: Economic Community of Central African States
+  members:
+  - AOA
+  - BIF
+  - CDF
+  - RWF
+  - STN
+  - XAF
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: member-state list in raw/wiki/Economic_Community_of_Central_African_States.wiki + ISO 4217 table (raw/iso4217_page.json)
+  salience: 22222
+  note: eleven member states
+- id: sica_currencies
+  name: Currencies of Central American Integration System member states
+  kind: currency_org
+  org: SICA
+  synonyms: []
+  wiki: Central American Integration System
+  members:
+  - BZD
+  - CRC
+  - DOP
+  - GTQ
+  - HNL
+  - NIO
+  - PAB
+  - USD
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: member-state list in raw/wiki/Central_American_Integration_System.wiki + ISO 4217 table (raw/iso4217_page.json)
+  salience: 30645
+  note: eight member states; El Salvador uses the US dollar

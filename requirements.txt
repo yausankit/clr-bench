@@ -1,0 +1,18 @@
+# Python 3.12 was used for all runs.
+# Chain construction (pipeline/) and scoring (data/chains/*/score_k1_v3.py)
+PyYAML==6.0.3
+pytest==9.1.1            # pipeline tests only
+# Evaluation harness and method adapters (harness/, methods/)
+tiktoken==0.14.0         # context-length estimate in transport.py
+sentence-transformers==6.1.0   # ReasoningBank retrieval (all-MiniLM-L6-v2, CPU)
+torch==2.14.1            # CPU build is enough
+transformers==5.20.2
+numpy==2.5.4
+openai==3.35.1           # used by the upstream ACE / GEPA / EvoSkill code
+pydantic==2.14.1
+python-dotenv==1.2.4
+requests==2.34.2
+# Upstream method repositories: see methods/UPSTREAM.md and methods/fetch_upstream.sh (install their own
+# dependencies from their pyproject.toml if the imports above are not enough).
+# Paper figures (paper_figures/)
+matplotlib==3.11.2

@@ -1,0 +1,366 @@
+{
+ "answer_format": "json",
+ "background": {
+  "findings.cwe": [
+   "CWE-1063",
+   "CWE-214",
+   "CWE-462",
+   "CWE-468",
+   "CWE-472",
+   "CWE-498",
+   "CWE-589",
+   "CWE-669",
+   "CWE-760",
+   "CWE-926"
+  ],
+  "findings.language": [
+   "ak",
+   "az",
+   "cy",
+   "ht",
+   "id",
+   "kk",
+   "kl",
+   "pa",
+   "se",
+   "st"
+  ],
+  "hosts.tld": [
+   "amex",
+   "cu",
+   "fairwinds",
+   "forum",
+   "helsinki",
+   "id",
+   "nagoya",
+   "plus",
+   "teva",
+   "travelers"
+  ]
+ },
+ "course_id": "CLR_WS2",
+ "dataset": "WS",
+ "fields": [
+  "findings.cwe",
+  "findings.language",
+  "hosts.tld"
+ ],
+ "id": "WS2",
+ "seed": 20266087,
+ "slots": [
+  {
+   "A": "CWE-766",
+   "C": "sfp_entry_points",
+   "C_name": "SFP Primary Cluster: Entry Points",
+   "N_p": "CWE-260",
+   "N_t": [
+    "CWE-304",
+    "CWE-1244",
+    "CWE-573",
+    "CWE-547",
+    "CWE-1327",
+    "CWE-617",
+    "CWE-49"
+   ],
+   "P_M": [
+    "CWE-500",
+    "CWE-531",
+    "CWE-583"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "cwe1000_284",
+      "cwe1000_285",
+      "cwe1000_664",
+      "cwe1000_710",
+      "cwe1400_poor_coding_practices"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "cwe1000_284",
+    "cwe1000_285",
+    "cwe1000_664",
+    "cwe1000_710",
+    "cwe1400_poor_coding_practices",
+    "owasp2021_a01"
+   ],
+   "field": "findings.cwe",
+   "label": "client folio G3",
+   "level": 1,
+   "salience": 13299.0,
+   "universe": "cwe"
+  },
+  {
+   "A": "en",
+   "C": "eu_official_languages",
+   "C_name": "Official languages of the European Union",
+   "N_p": "bo",
+   "N_t": [
+    "ne",
+    "nb",
+    "lb",
+    "rw",
+    "ba",
+    "kv",
+    "fj"
+   ],
+   "P_M": [
+    "ga",
+    "mt",
+    "sk"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "canada_mother_tongue_languages",
+      "finland_native_languages",
+      "germanic_languages",
+      "india_2011_census_languages",
+      "nepal_native_languages",
+      "west_germanic_languages"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "au_working_languages",
+    "canada_knowledge_languages",
+    "canada_mother_tongue_languages",
+    "finland_native_languages",
+    "france_metropolitan_ethnologue_languages",
+    "germanic_languages",
+    "india_2011_census_languages",
+    "kazakhstan_census_languages",
+    "nepal_native_languages",
+    "norway_non_native_languages",
+    "osce_official_languages",
+    "pakistan_established_languages",
+    "south_africa_official",
+    "spain_2021_census_languages",
+    "thailand_census_languages",
+    "turkey_1965_census_languages",
+    "turkey_ethnologue_languages",
+    "un_official_languages",
+    "west_germanic_languages",
+    "zimbabwe_official"
+   ],
+   "field": "findings.language",
+   "label": "audit lane 39",
+   "level": 2,
+   "salience": 89530.0,
+   "universe": "language"
+  },
+  {
+   "A": "ng",
+   "C": "opec_cctlds",
+   "C_name": "OPEC member countries",
+   "N_p": "td",
+   "N_t": [
+    "bb",
+    "tz",
+    "cv",
+    "build",
+    "godaddy",
+    "creditunion",
+    "mu"
+   ],
+   "P_M": [
+    "ve",
+    "kw",
+    "cg"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_union_cctlds",
+      "commonwealth_cctlds",
+      "ecowas_cctlds"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_union_cctlds",
+    "commonwealth_cctlds",
+    "d8_cctlds",
+    "ecowas_cctlds",
+    "oic_cctlds"
+   ],
+   "field": "hosts.tld",
+   "label": "reporting band V-65",
+   "level": 3,
+   "salience": 891426.0,
+   "universe": "tld"
+  },
+  {
+   "A": "CWE-117",
+   "C": "owasp2025_a09",
+   "C_name": "OWASP Top Ten 2025 Category A09:2025 - Logging & Alerting Failures",
+   "N_p": "CWE-224",
+   "N_t": [
+    "CWE-244",
+    "CWE-779",
+    "CWE-149",
+    "CWE-368",
+    "CWE-238",
+    "CWE-925",
+    "CWE-1257"
+   ],
+   "P_M": [
+    "CWE-221",
+    "CWE-778",
+    "CWE-223"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "audit",
+      "cwe1000_707",
+      "cwe1400_improper_neutralization",
+      "cwe699_audit_logging",
+      "sfp_exposed_data",
+      "sfp_information_leak"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "audit",
+    "cwe1000_707",
+    "cwe1400_improper_neutralization",
+    "cwe699_audit_logging",
+    "sfp_exposed_data",
+    "sfp_information_leak"
+   ],
+   "field": "findings.cwe",
+   "label": "review line X3",
+   "level": 4,
+   "salience": 31.0,
+   "universe": "cwe"
+  },
+  {
+   "A": "ru",
+   "C": "balto_slavic_languages",
+   "C_name": "Balto-Slavic languages",
+   "N_p": "de",
+   "N_t": [
+    "es",
+    "zh",
+    "fr",
+    "fo",
+    "ie",
+    "nv",
+    "an"
+   ],
+   "P_M": [
+    "lv",
+    "sl",
+    "lt"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "canada_knowledge_languages",
+      "canada_mother_tongue_languages",
+      "finland_native_languages",
+      "kazakhstan_census_languages",
+      "nepal_native_languages",
+      "osce_official_languages",
+      "spain_2021_census_languages",
+      "turkey_1965_census_languages",
+      "turkey_ethnologue_languages",
+      "un_official_languages"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "canada_knowledge_languages",
+    "canada_mother_tongue_languages",
+    "finland_charter_languages",
+    "finland_native_languages",
+    "kazakhstan_census_languages",
+    "nepal_native_languages",
+    "norway_non_native_languages",
+    "osce_official_languages",
+    "poland_charter_languages",
+    "romania_charter_languages",
+    "slavic_languages",
+    "slovakia_charter_languages",
+    "spain_2021_census_languages",
+    "turkey_1965_census_languages",
+    "turkey_ethnologue_languages",
+    "ukraine_2001_census_languages",
+    "un_official_languages"
+   ],
+   "field": "findings.language",
+   "label": "client folio 66",
+   "level": 5,
+   "salience": 106795.0,
+   "universe": "language"
+  }
+ ]
+}

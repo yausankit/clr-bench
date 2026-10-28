@@ -1,0 +1,1759 @@
+business_process: 'A health plan''s utilisation review unit totals, for each patient, the records in the patient''s file that
+  its review desk has to process: medication fills, diagnoses and procedures.'
+fields:
+  medications.ingredient:
+    universe: medicine
+    value_form: self_describing
+  conditions.code:
+    universe: condition
+    value_form: code
+  procedures.code:
+    universe: procedure
+    value_form: code
+rule_templates:
+- id: medicine_rule_0
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names ANTITHROMBOTIC AGENTS'
+  rule: A medication whose ingredient belongs to ANTITHROMBOTIC AGENTS is not counted.
+  plausible:
+  - atc_b01
+  - atc_s01
+  - atc_j01
+- id: medicine_rule_1
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names CARDIAC THERAPY'
+  rule: A medication whose ingredient belongs to CARDIAC THERAPY is not counted.
+  plausible:
+  - atc_c01
+  - mesh_d_d02_033_alcohols
+  - atc_n06
+- id: medicine_rule_2
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names ANTIBACTERIALS FOR SYSTEMIC USE'
+  rule: A medication whose ingredient belongs to ANTIBACTERIALS FOR SYSTEMIC USE is not counted.
+  plausible:
+  - atc_j01
+  - mesh_pa_anti_bacterial_agents
+  - mesh_d_d02_065_amides
+- id: medicine_rule_3
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names ANTINEOPLASTIC AGENTS'
+  rule: A medication whose ingredient belongs to ANTINEOPLASTIC AGENTS is not counted.
+  plausible:
+  - atc_l01
+  - mesh_d_d02_455_hydrocarbons
+  - mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons
+- id: medicine_rule_4
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names ANALGESICS'
+  rule: A medication whose ingredient belongs to ANALGESICS is not counted.
+  plausible:
+  - atc_n02
+  - mesh_pa_analgesics_opioid
+  - mesh_d_d02_455_hydrocarbons
+- id: medicine_rule_5
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names PSYCHOANALEPTICS'
+  rule: A medication whose ingredient belongs to PSYCHOANALEPTICS is not counted.
+  plausible:
+  - atc_n06
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_d_d03_383_129_azoles
+- id: medicine_rule_6
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names OPHTHALMOLOGICALS'
+  rule: A medication whose ingredient belongs to OPHTHALMOLOGICALS is not counted.
+  plausible:
+  - atc_s01
+  - atc_j01
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+- id: medicine_rule_7
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Alcohols'
+  rule: A medication whose ingredient belongs to Alcohols is not counted.
+  plausible:
+  - mesh_d_d02_033_alcohols
+  - mesh_d_d02_092_amines
+  - mesh_d_d04_polycyclic_compounds
+- id: medicine_rule_8
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Amides'
+  rule: A medication whose ingredient belongs to Amides is not counted.
+  plausible:
+  - mesh_d_d02_065_amides
+  - mesh_d_d02_886_sulfur_compounds
+  - mesh_pa_adjuvants_anesthesia
+- id: medicine_rule_9
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Amines'
+  rule: A medication whose ingredient belongs to Amines is not counted.
+  plausible:
+  - mesh_d_d02_092_amines
+  - mesh_d_d02_033_alcohols
+  - mesh_pa_anti_bacterial_agents
+- id: medicine_rule_10
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Benzene Derivatives'
+  rule: A medication whose ingredient belongs to Benzene Derivatives is not counted.
+  plausible:
+  - mesh_d_d02_455_426_559_389_benzene_derivatives
+  - mesh_d_d02_455_426_559_hydrocarbons_aromatic
+  - mesh_pa_narcotics
+- id: medicine_rule_11
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Polycyclic Aromatic Hydrocarbons'
+  rule: A medication whose ingredient belongs to Polycyclic Aromatic Hydrocarbons is not counted.
+  plausible:
+  - mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons
+  - mesh_d_d02_455_426_559_hydrocarbons_aromatic
+  - atc_c01
+- id: medicine_rule_12
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Hydrocarbons, Aromatic'
+  rule: A medication whose ingredient belongs to Hydrocarbons, Aromatic is not counted.
+  plausible:
+  - mesh_d_d02_455_426_559_hydrocarbons_aromatic
+  - mesh_d_d02_455_426_hydrocarbons_cyclic
+  - atc_n02
+- id: medicine_rule_13
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Hydrocarbons, Cyclic'
+  rule: A medication whose ingredient belongs to Hydrocarbons, Cyclic is not counted.
+  plausible:
+  - mesh_d_d02_455_426_hydrocarbons_cyclic
+  - mesh_d_d02_455_hydrocarbons
+  - mesh_d_d02_033_alcohols
+- id: medicine_rule_14
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Hydrocarbons'
+  rule: A medication whose ingredient belongs to Hydrocarbons is not counted.
+  plausible:
+  - mesh_d_d02_455_hydrocarbons
+  - mesh_d_d02_455_426_hydrocarbons_cyclic
+  - mesh_d_d02_455_426_559_389_benzene_derivatives
+- id: medicine_rule_15
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Sulfur Compounds'
+  rule: A medication whose ingredient belongs to Sulfur Compounds is not counted.
+  plausible:
+  - mesh_d_d02_886_sulfur_compounds
+  - mesh_d_d03_633_100_heterocyclic_compounds_2_ring
+  - mesh_d_d02_455_426_hydrocarbons_cyclic
+- id: medicine_rule_16
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Alkaloids'
+  rule: A medication whose ingredient belongs to Alkaloids is not counted.
+  plausible:
+  - mesh_d_d03_132_alkaloids
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+  - mesh_d_d03_383_129_azoles
+- id: medicine_rule_17
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Azoles'
+  rule: A medication whose ingredient belongs to Azoles is not counted.
+  plausible:
+  - mesh_d_d03_383_129_azoles
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+- id: medicine_rule_18
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Piperidines'
+  rule: A medication whose ingredient belongs to Piperidines is not counted.
+  plausible:
+  - mesh_d_d03_383_621_piperidines
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_d_d04_polycyclic_compounds
+- id: medicine_rule_19
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Heterocyclic Compounds, 1-Ring'
+  rule: A medication whose ingredient belongs to Heterocyclic Compounds, 1-Ring is not counted.
+  plausible:
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_d_d03_383_129_azoles
+  - mesh_pa_adjuvants_anesthesia
+- id: medicine_rule_20
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Heterocyclic Compounds, 2-Ring'
+  rule: A medication whose ingredient belongs to Heterocyclic Compounds, 2-Ring is not counted.
+  plausible:
+  - mesh_d_d03_633_100_heterocyclic_compounds_2_ring
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+  - mesh_pa_anti_bacterial_agents
+- id: medicine_rule_21
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Heterocyclic Compounds, Fused-Ring'
+  rule: A medication whose ingredient belongs to Heterocyclic Compounds, Fused-Ring is not counted.
+  plausible:
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+  - mesh_d_d03_633_100_heterocyclic_compounds_2_ring
+  - mesh_pa_narcotics
+- id: medicine_rule_22
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Steroids'
+  rule: A medication whose ingredient belongs to Steroids is not counted.
+  plausible:
+  - mesh_d_d04_210_500_steroids
+  - mesh_d_d04_polycyclic_compounds
+  - atc_c01
+- id: medicine_rule_23
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Polycyclic Aromatic Hydrocarbons'
+  rule: A medication whose ingredient belongs to Polycyclic Aromatic Hydrocarbons is not counted.
+  plausible:
+  - mesh_d_d04_615_polycyclic_aromatic_hydrocarbons
+  - mesh_d_d04_polycyclic_compounds
+  - atc_n02
+- id: medicine_rule_24
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Polycyclic Compounds'
+  rule: A medication whose ingredient belongs to Polycyclic Compounds is not counted.
+  plausible:
+  - mesh_d_d04_polycyclic_compounds
+  - mesh_d_d04_210_500_steroids
+  - mesh_d_d02_033_alcohols
+- id: medicine_rule_25
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Carbohydrates'
+  rule: A medication whose ingredient belongs to Carbohydrates is not counted.
+  plausible:
+  - mesh_d_d09_carbohydrates
+  - mesh_d_d04_polycyclic_compounds
+  - mesh_d_d02_455_426_559_389_benzene_derivatives
+- id: medicine_rule_26
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Peptides'
+  rule: A medication whose ingredient belongs to Peptides is not counted.
+  plausible:
+  - mesh_d_d12_644_peptides
+  - atc_j01
+  - mesh_d_d02_455_hydrocarbons
+- id: medicine_rule_27
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Adjuvants, Anesthesia'
+  rule: A medication whose ingredient belongs to Adjuvants, Anesthesia is not counted.
+  plausible:
+  - mesh_pa_adjuvants_anesthesia
+  - mesh_d_d03_383_621_piperidines
+  - mesh_d_d03_132_alkaloids
+- id: medicine_rule_28
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Analgesics, Opioid'
+  rule: A medication whose ingredient belongs to Analgesics, Opioid is not counted.
+  plausible:
+  - mesh_pa_analgesics_opioid
+  - mesh_pa_narcotics
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+- id: medicine_rule_29
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Anti-Arrhythmia Agents'
+  rule: A medication whose ingredient belongs to Anti-Arrhythmia Agents is not counted.
+  plausible:
+  - mesh_pa_anti_arrhythmia_agents
+  - atc_c01
+  - mesh_d_d04_615_polycyclic_aromatic_hydrocarbons
+- id: medicine_rule_30
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Anti-Bacterial Agents'
+  rule: A medication whose ingredient belongs to Anti-Bacterial Agents is not counted.
+  plausible:
+  - mesh_pa_anti_bacterial_agents
+  - atc_j01
+  - mesh_d_d12_644_peptides
+- id: medicine_rule_31
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Antihypertensive Agents'
+  rule: A medication whose ingredient belongs to Antihypertensive Agents is not counted.
+  plausible:
+  - mesh_pa_antihypertensive_agents
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_pa_anti_arrhythmia_agents
+- id: medicine_rule_32
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Antineoplastic Agents, Hormonal'
+  rule: A medication whose ingredient belongs to Antineoplastic Agents, Hormonal is not counted.
+  plausible:
+  - mesh_pa_antineoplastic_agents_hormonal
+  - mesh_d_d04_210_500_steroids
+  - mesh_pa_narcotics
+- id: medicine_rule_33
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Narcotics'
+  rule: A medication whose ingredient belongs to Narcotics is not counted.
+  plausible:
+  - mesh_pa_narcotics
+  - mesh_pa_analgesics_opioid
+  - atc_c01
+- id: medicine_rule_34
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Vasodilator Agents'
+  rule: A medication whose ingredient belongs to Vasodilator Agents is not counted.
+  plausible:
+  - mesh_pa_vasodilator_agents
+  - mesh_d_d02_092_amines
+  - atc_n02
+- id: condition_rule_0
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Lung Diseases'
+  rule: A diagnosis whose code belongs to Lung Diseases is not counted.
+  plausible:
+  - mesh_c_c08_381_lung_diseases
+  - snomed_128272009
+  - mesh_c_c23_550_pathologic_processes
+- id: condition_rule_1
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Nervous System Diseases'
+  rule: A diagnosis whose code belongs to Nervous System Diseases is not counted.
+  plausible:
+  - mesh_c_c10_nervous_system_diseases
+  - snomed_106147001
+  - mesh_c_c23_888_signs_and_symptoms
+- id: condition_rule_2
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Pathologic Processes'
+  rule: A diagnosis whose code belongs to Pathologic Processes is not counted.
+  plausible:
+  - mesh_c_c23_550_pathologic_processes
+  - mesh_c_c08_381_lung_diseases
+  - snomed_118185001
+- id: condition_rule_3
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Neurologic Manifestations'
+  rule: A diagnosis whose code belongs to Neurologic Manifestations is not counted.
+  plausible:
+  - mesh_c_c23_888_592_neurologic_manifestations
+  - mesh_c_c23_888_signs_and_symptoms
+  - snomed_125605004
+- id: condition_rule_4
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Signs and Symptoms, Respiratory'
+  rule: A diagnosis whose code belongs to Signs and Symptoms, Respiratory is not counted.
+  plausible:
+  - mesh_c_c23_888_852_signs_and_symptoms_respiratory
+  - mesh_c_c23_888_signs_and_symptoms
+  - snomed_1269101009
+- id: condition_rule_5
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Signs and Symptoms'
+  rule: A diagnosis whose code belongs to Signs and Symptoms is not counted.
+  plausible:
+  - mesh_c_c23_888_signs_and_symptoms
+  - mesh_c_c23_888_592_neurologic_manifestations
+  - snomed_128524007
+- id: condition_rule_6
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Urinary system finding'
+  rule: A diagnosis whose code belongs to Urinary system finding is not counted.
+  plausible:
+  - snomed_106098005
+  - snomed_27624003
+  - snomed_129681004
+- id: condition_rule_7
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Sensory nervous system finding'
+  rule: A diagnosis whose code belongs to Sensory nervous system finding is not counted.
+  plausible:
+  - snomed_106147001
+  - snomed_22253000
+  - snomed_248982007
+- id: condition_rule_8
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Acute respiratory disease'
+  rule: A diagnosis whose code belongs to Acute respiratory disease is not counted.
+  plausible:
+  - snomed_111273006
+  - snomed_2704003
+  - snomed_271860004
+- id: condition_rule_9
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Finding related to pregnancy'
+  rule: A diagnosis whose code belongs to Finding related to pregnancy is not counted.
+  plausible:
+  - snomed_118185001
+  - snomed_248982007
+  - snomed_279001004
+- id: condition_rule_10
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Finding by method'
+  rule: A diagnosis whose code belongs to Finding by method is not counted.
+  plausible:
+  - snomed_118240005
+  - snomed_129681004
+  - snomed_301282008
+- id: condition_rule_11
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Finding of large intestine'
+  rule: A diagnosis whose code belongs to Finding of large intestine is not counted.
+  plausible:
+  - snomed_118436003
+  - snomed_271860004
+  - snomed_363059001
+- id: condition_rule_12
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Fracture of bone'
+  rule: A diagnosis whose code belongs to Fracture of bone is not counted.
+  plausible:
+  - snomed_125605004
+  - snomed_125610000
+  - snomed_414029004
+- id: condition_rule_13
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Joint injury'
+  rule: A diagnosis whose code belongs to Joint injury is not counted.
+  plausible:
+  - snomed_125610000
+  - snomed_250132005
+  - snomed_74627003
+- id: condition_rule_14
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Neoplasm of intra-abdominal organs'
+  rule: A diagnosis whose code belongs to Neoplasm of intra-abdominal organs is not counted.
+  plausible:
+  - snomed_126643005
+  - snomed_271860004
+  - mesh_c_c08_381_lung_diseases
+- id: condition_rule_15
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Maternal disorder during pregnancy'
+  rule: A diagnosis whose code belongs to Maternal disorder during pregnancy is not counted.
+  plausible:
+  - snomed_1269101009
+  - snomed_248982007
+  - mesh_c_c23_888_592_neurologic_manifestations
+- id: condition_rule_16
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Injury of central nervous system'
+  rule: A diagnosis whose code belongs to Injury of central nervous system is not counted.
+  plausible:
+  - snomed_128126004
+  - snomed_82271004
+  - snomed_106098005
+- id: condition_rule_17
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Disorder of lower respiratory system'
+  rule: A diagnosis whose code belongs to Disorder of lower respiratory system is not counted.
+  plausible:
+  - snomed_128272009
+  - snomed_19829001
+  - snomed_118185001
+- id: condition_rule_18
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Disorder of colon'
+  rule: A diagnosis whose code belongs to Disorder of colon is not counted.
+  plausible:
+  - snomed_128524007
+  - snomed_118436003
+  - snomed_125610000
+- id: condition_rule_19
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Inflammatory disorder of upper respiratory tract'
+  rule: A diagnosis whose code belongs to Inflammatory disorder of upper respiratory tract is not counted.
+  plausible:
+  - snomed_129134004
+  - snomed_301186004
+  - snomed_1269101009
+- id: condition_rule_20
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Environmental finding'
+  rule: A diagnosis whose code belongs to Environmental finding is not counted.
+  plausible:
+  - snomed_129681004
+  - snomed_118240005
+  - snomed_129134004
+- id: condition_rule_21
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Disorder of lung'
+  rule: A diagnosis whose code belongs to Disorder of lung is not counted.
+  plausible:
+  - snomed_19829001
+  - snomed_128272009
+  - snomed_22253000
+- id: condition_rule_22
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Complication of pregnancy, childbirth and/or puerperium'
+  rule: A diagnosis whose code belongs to Complication of pregnancy, childbirth and/or puerperium is not counted.
+  plausible:
+  - snomed_198609003
+  - snomed_1269101009
+  - snomed_2704003
+- id: condition_rule_23
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Pain'
+  rule: A diagnosis whose code belongs to Pain is not counted.
+  plausible:
+  - snomed_22253000
+  - snomed_106147001
+  - snomed_27624003
+- id: condition_rule_24
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Pregnancy, childbirth and puerperium finding'
+  rule: A diagnosis whose code belongs to Pregnancy, childbirth and puerperium finding is not counted.
+  plausible:
+  - snomed_248982007
+  - snomed_1269101009
+  - snomed_301186004
+- id: condition_rule_25
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Ligament finding'
+  rule: A diagnosis whose code belongs to Ligament finding is not counted.
+  plausible:
+  - snomed_250132005
+  - snomed_125610000
+  - snomed_312608009
+- id: condition_rule_26
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Acute disease'
+  rule: A diagnosis whose code belongs to Acute disease is not counted.
+  plausible:
+  - snomed_2704003
+  - snomed_111273006
+  - snomed_365523001
+- id: condition_rule_27
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Abdominal mass'
+  rule: A diagnosis whose code belongs to Abdominal mass is not counted.
+  plausible:
+  - snomed_271860004
+  - snomed_118436003
+  - snomed_700010002
+- id: condition_rule_28
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Respiratory tract infection'
+  rule: A diagnosis whose code belongs to Respiratory tract infection is not counted.
+  plausible:
+  - snomed_275498002
+  - snomed_129134004
+  - snomed_82423001
+- id: condition_rule_29
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Chronic disease'
+  rule: A diagnosis whose code belongs to Chronic disease is not counted.
+  plausible:
+  - snomed_27624003
+  - snomed_106147001
+  - mesh_c_c23_550_pathologic_processes
+- id: condition_rule_30
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Pain finding at anatomical site'
+  rule: A diagnosis whose code belongs to Pain finding at anatomical site is not counted.
+  plausible:
+  - snomed_279001004
+  - snomed_106147001
+  - mesh_c_c23_888_signs_and_symptoms
+- id: condition_rule_31
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Mass of digestive structure'
+  rule: A diagnosis whose code belongs to Mass of digestive structure is not counted.
+  plausible:
+  - snomed_300855001
+  - snomed_118436003
+  - snomed_111273006
+- id: condition_rule_32
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Upper respiratory tract finding'
+  rule: A diagnosis whose code belongs to Upper respiratory tract finding is not counted.
+  plausible:
+  - snomed_301186004
+  - snomed_129134004
+  - snomed_118436003
+- id: condition_rule_33
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Finding of respiration'
+  rule: A diagnosis whose code belongs to Finding of respiration is not counted.
+  plausible:
+  - snomed_301282008
+  - mesh_c_c23_888_852_signs_and_symptoms_respiratory
+  - snomed_1269101009
+- id: condition_rule_34
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Musculoskeletal and connective tissue disorder'
+  rule: A diagnosis whose code belongs to Musculoskeletal and connective tissue disorder is not counted.
+  plausible:
+  - snomed_312225001
+  - snomed_125610000
+  - snomed_128524007
+- id: condition_rule_35
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Laceration - injury'
+  rule: A diagnosis whose code belongs to Laceration - injury is not counted.
+  plausible:
+  - snomed_312608009
+  - snomed_700010002
+  - snomed_129681004
+- id: condition_rule_36
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Degenerative disorder of musculoskeletal system'
+  rule: A diagnosis whose code belongs to Degenerative disorder of musculoskeletal system is not counted.
+  plausible:
+  - snomed_363059001
+  - snomed_125605004
+  - snomed_248982007
+- id: condition_rule_37
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Inflammatory disorder of head'
+  rule: A diagnosis whose code belongs to Inflammatory disorder of head is not counted.
+  plausible:
+  - snomed_363176004
+  - snomed_129134004
+  - snomed_271860004
+- id: condition_rule_38
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Legal, financial, employment and/or socioeconomic history finding'
+  rule: A diagnosis whose code belongs to Legal, financial, employment and/or socioeconomic history finding is not counted.
+  plausible:
+  - snomed_365523001
+  - snomed_118240005
+  - snomed_279001004
+- id: condition_rule_39
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Disorder of immune function'
+  rule: A diagnosis whose code belongs to Disorder of immune function is not counted.
+  plausible:
+  - snomed_414029004
+  - snomed_129134004
+  - snomed_301282008
+- id: condition_rule_40
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Finding of sensation by site'
+  rule: A diagnosis whose code belongs to Finding of sensation by site is not counted.
+  plausible:
+  - snomed_699697007
+  - snomed_106147001
+  - snomed_363059001
+- id: condition_rule_41
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Injury of free lower limb'
+  rule: A diagnosis whose code belongs to Injury of free lower limb is not counted.
+  plausible:
+  - snomed_700010002
+  - snomed_125610000
+  - snomed_414029004
+- id: condition_rule_42
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Complication due to diabetes mellitus'
+  rule: A diagnosis whose code belongs to Complication due to diabetes mellitus is not counted.
+  plausible:
+  - snomed_74627003
+  - snomed_106098005
+  - snomed_82271004
+- id: condition_rule_43
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Injury of head'
+  rule: A diagnosis whose code belongs to Injury of head is not counted.
+  plausible:
+  - snomed_82271004
+  - snomed_128126004
+  - mesh_c_c10_nervous_system_diseases
+- id: condition_rule_44
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Chronic pain'
+  rule: A diagnosis whose code belongs to Chronic pain is not counted.
+  plausible:
+  - snomed_82423001
+  - snomed_106147001
+  - mesh_c_c23_888_852_signs_and_symptoms_respiratory
+- id: procedure_rule_0
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cytological Techniques'
+  rule: A procedure whose code belongs to Cytological Techniques is not counted.
+  plausible:
+  - mesh_e_e01_370_225_500_cytological_techniques
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+- id: procedure_rule_1
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Clinical Laboratory Techniques'
+  rule: A procedure whose code belongs to Clinical Laboratory Techniques is not counted.
+  plausible:
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e04_502_minimally_invasive_surgical_procedures
+- id: procedure_rule_2
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Diagnostic Imaging'
+  rule: A procedure whose code belongs to Diagnostic Imaging is not counted.
+  plausible:
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e05_478_immunologic_techniques
+- id: procedure_rule_3
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Diagnostic Techniques, Surgical'
+  rule: A procedure whose code belongs to Diagnostic Techniques, Surgical is not counted.
+  plausible:
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - snomed_14734007
+- id: procedure_rule_4
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Diagnostic Techniques and Procedures'
+  rule: A procedure whose code belongs to Diagnostic Techniques and Procedures is not counted.
+  plausible:
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e05_investigative_techniques
+  - snomed_5880005
+- id: procedure_rule_5
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Therapeutics'
+  rule: A procedure whose code belongs to Therapeutics is not counted.
+  plausible:
+  - mesh_e_e02_therapeutics
+  - mesh_e_e05_investigative_techniques
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+- id: procedure_rule_6
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Minimally Invasive Surgical Procedures'
+  rule: A procedure whose code belongs to Minimally Invasive Surgical Procedures is not counted.
+  plausible:
+  - mesh_e_e04_502_minimally_invasive_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_7
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Obstetric Surgical Procedures'
+  rule: A procedure whose code belongs to Obstetric Surgical Procedures is not counted.
+  plausible:
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+  - mesh_e_e05_478_immunologic_techniques
+- id: procedure_rule_8
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Surgical Procedures, Operative'
+  rule: A procedure whose code belongs to Surgical Procedures, Operative is not counted.
+  plausible:
+  - mesh_e_e04_surgical_procedures_operative
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - snomed_14734007
+- id: procedure_rule_9
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Immunologic Techniques'
+  rule: A procedure whose code belongs to Immunologic Techniques is not counted.
+  plausible:
+  - mesh_e_e05_478_immunologic_techniques
+  - mesh_e_e05_investigative_techniques
+  - snomed_5880005
+- id: procedure_rule_10
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Investigative Techniques'
+  rule: A procedure whose code belongs to Investigative Techniques is not counted.
+  plausible:
+  - mesh_e_e05_investigative_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+- id: procedure_rule_11
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on respiratory system'
+  rule: A procedure whose code belongs to Procedure on respiratory system is not counted.
+  plausible:
+  - snomed_118669005
+  - mesh_e_e02_therapeutics
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_12
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Administrative procedure'
+  rule: A procedure whose code belongs to Administrative procedure is not counted.
+  plausible:
+  - snomed_14734007
+  - mesh_e_e02_therapeutics
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_13
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Ultrasonography'
+  rule: A procedure whose code belongs to Ultrasonography is not counted.
+  plausible:
+  - snomed_16310003
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - snomed_118669005
+- id: procedure_rule_14
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Care regime'
+  rule: A procedure whose code belongs to Care regime is not counted.
+  plausible:
+  - snomed_225365006
+  - mesh_e_e02_therapeutics
+  - snomed_5880005
+- id: procedure_rule_15
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Physical examination'
+  rule: A procedure whose code belongs to Physical examination is not counted.
+  plausible:
+  - snomed_5880005
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+- id: procedure_rule_16
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Biopsy'
+  rule: A procedure whose code belongs to Biopsy is not counted.
+  plausible:
+  - snomed_86273004
+  - mesh_e_e01_370_225_500_cytological_techniques
+  - mesh_e_e02_therapeutics
+# --- ADD_SY_a1 procedure templates below (generated by apply_templates_add.py) ---
+- id: procedure_rule_17
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Obstetric procedure'
+  rule: A procedure whose code belongs to Obstetric procedure is not counted.
+  plausible:
+  - snomed_386637004
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - snomed_118675001
+- id: procedure_rule_18
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on female genital
+    system'
+  rule: A procedure whose code belongs to Procedure on female genital system is not
+    counted.
+  plausible:
+  - snomed_118675001
+  - snomed_386637004
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_19
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Screening procedure'
+  rule: A procedure whose code belongs to Screening procedure is not counted.
+  plausible:
+  - snomed_20135006
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+  - mesh_e_e05_investigative_techniques
+- id: procedure_rule_20
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Chest imaging'
+  rule: A procedure whose code belongs to Chest imaging is not counted.
+  plausible:
+  - snomed_413815006
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - snomed_16310003
+- id: procedure_rule_21
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Immunology laboratory test'
+  rule: A procedure whose code belongs to Immunology laboratory test is not counted.
+  plausible:
+  - snomed_252318005
+  - mesh_e_e05_478_immunologic_techniques
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+- id: procedure_rule_22
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Injection'
+  rule: A procedure whose code belongs to Injection is not counted.
+  plausible:
+  - snomed_59108006
+  - mesh_e_e02_therapeutics
+  - snomed_18629005
+- id: procedure_rule_23
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on heart'
+  rule: A procedure whose code belongs to Procedure on heart is not counted.
+  plausible:
+  - snomed_118797008
+  - mesh_e_e04_surgical_procedures_operative
+  - snomed_276341003
+- id: procedure_rule_24
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on large intestine'
+  rule: A procedure whose code belongs to Procedure on large intestine is not counted.
+  plausible:
+  - snomed_118838009
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+  - snomed_284366008
+- id: procedure_rule_25
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Breast procedure'
+  rule: A procedure whose code belongs to Breast procedure is not counted.
+  plausible:
+  - snomed_392089008
+  - snomed_86273004
+  - snomed_16310003
+- id: procedure_rule_26
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Administration of medication'
+  rule: A procedure whose code belongs to Administration of medication is not counted.
+  plausible:
+  - snomed_18629005
+  - mesh_e_e02_therapeutics
+  - snomed_59108006
+- id: procedure_rule_27
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Admission procedure'
+  rule: A procedure whose code belongs to Admission procedure is not counted.
+  plausible:
+  - snomed_305056002
+  - snomed_14734007
+  - mesh_e_e02_therapeutics
+- id: procedure_rule_28
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cardiovascular investigation'
+  rule: A procedure whose code belongs to Cardiovascular investigation is not counted.
+  plausible:
+  - snomed_276341003
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - snomed_118797008
+- id: procedure_rule_29
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Examination of body system'
+  rule: A procedure whose code belongs to Examination of body system is not counted.
+  plausible:
+  - snomed_284366008
+  - snomed_5880005
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+# --- ADD_SY_a2 medicine templates below (generated by apply_templates_add_medicine.py) ---
+- id: medicine_rule_35
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Anaesthetics'
+  rule: A medication whose ingredient belongs to Anaesthetics is not counted.
+  plausible:
+  - who_eml_2023_s1_anaesthetics
+  - mesh_d_d03_132_alkaloids
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+- id: medicine_rule_36
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Antibacterials'
+  rule: A medication whose ingredient belongs to Antibacterials is not counted.
+  plausible:
+  - who_eml_2023_s6_2_antibacterials
+  - mesh_pa_anti_bacterial_agents
+  - atc_j01
+- id: medicine_rule_37
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Access group antibiotics'
+  rule: A medication whose ingredient belongs to Access group antibiotics is not counted.
+  plausible:
+  - who_eml_2023_s6_2_1_access_antibiotics
+  - who_eml_2023_s6_2_antibacterials
+  - mesh_pa_anti_bacterial_agents
+- id: medicine_rule_38
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Chemotherapeutic agents'
+  rule: A medication whose ingredient belongs to Chemotherapeutic agents is not counted.
+  plausible:
+  - who_eml_2023_s8_2_antineoplastics
+  - who_emlc_2023_s8_2_antineoplastics
+  - who_eml_2023_s8_2_1_cytotoxic
+- id: medicine_rule_39
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cytotoxic medicines'
+  rule: A medication whose ingredient belongs to Cytotoxic medicines is not counted.
+  plausible:
+  - who_eml_2023_s8_2_1_cytotoxic
+  - who_eml_2023_s8_2_antineoplastics
+  - who_emlc_2023_s8_2_1_cytotoxic
+- id: medicine_rule_40
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cardiovascular medicines'
+  rule: A medication whose ingredient belongs to Cardiovascular medicines is not counted.
+  plausible:
+  - who_eml_2023_s12_cardiovascular
+  - mesh_pa_vasodilator_agents
+  - mesh_d_d02_092_amines
+- id: medicine_rule_41
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Contraceptives'
+  rule: A medication whose ingredient belongs to Contraceptives is not counted.
+  plausible:
+  - who_eml_2023_s22_1_contraceptives
+  - atc_g03a
+  - mesh_d_d04_210_500_steroids
+- id: medicine_rule_42
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Childhood antineoplastic
+    medicines'
+  rule: A medication whose ingredient belongs to Childhood antineoplastic medicines
+    is not counted.
+  plausible:
+  - who_emlc_2023_s8_2_antineoplastics
+  - who_eml_2023_s8_2_antineoplastics
+  - who_eml_2023_s8_2_1_cytotoxic
+- id: medicine_rule_43
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Childhood cytotoxic medicines'
+  rule: A medication whose ingredient belongs to Childhood cytotoxic medicines is
+    not counted.
+  plausible:
+  - who_emlc_2023_s8_2_1_cytotoxic
+  - who_eml_2023_s8_2_antineoplastics
+  - who_eml_2023_s8_2_1_cytotoxic
+- id: medicine_rule_44
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Schedule II controlled
+    substances'
+  rule: A medication whose ingredient belongs to Schedule II controlled substances
+    is not counted.
+  plausible:
+  - dea_schedule_ii
+  - mesh_pa_analgesics_opioid
+  - mesh_pa_narcotics
+- id: medicine_rule_45
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Hormonal contraceptives'
+  rule: A medication whose ingredient belongs to Hormonal contraceptives is not counted.
+  plausible:
+  - atc_g03a
+  - who_eml_2023_s22_1_contraceptives
+  - mesh_d_d04_210_500_steroids
+- id: medicine_rule_46
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Opioids'
+  rule: A medication whose ingredient belongs to Opioids is not counted.
+  plausible:
+  - atc_n02a
+  - mesh_pa_analgesics_opioid
+  - mesh_pa_narcotics
+# --- ADD_SY_a5 medicine templates below (generated by apply_templates_add_r5.py) ---
+- id: medicine_rule_47
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Beers 2023 Table 6 renal-function
+    precautions'
+  rule: A medication whose ingredient belongs to Beers 2023 Table 6 renal-function
+    precautions is not counted.
+  plausible:
+  - beers_2023_t6_renal
+  - rxclass_serotonin_effect
+  - atc_n02
+- id: medicine_rule_48
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names EU(7)-PIM list 2015'
+  rule: A medication whose ingredient belongs to EU(7)-PIM list 2015 is not counted.
+  plausible:
+  - eu7_pim_2015_t1
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+  - who_eml_2023_s12_cardiovascular
+- id: medicine_rule_49
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names STOPP/START v3, STOPP Section
+    L: Analgesic Drugs'
+  rule: 'A medication whose ingredient belongs to STOPP/START v3, STOPP Section L:
+    Analgesic Drugs is not counted.'
+  plausible:
+  - stopp_start_v3_section_l
+  - atc_n02a
+  - mesh_pa_analgesics_opioid
+- id: medicine_rule_50
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names CredibleMeds composite
+    QT-drug list'
+  rule: A medication whose ingredient belongs to CredibleMeds composite QT-drug list
+    is not counted.
+  plausible:
+  - crediblemeds_composite_qt_2013
+  - mesh_d_d02_092_amines
+  - mesh_d_d02_455_426_559_389_benzene_derivatives
+- id: medicine_rule_51
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names FDA moderate-sensitive
+    CYP substrates'
+  rule: A medication whose ingredient belongs to FDA moderate-sensitive CYP substrates
+    is not counted.
+  plausible:
+  - fda_cyp_moderate_sensitive_substrates
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+  - mesh_d_d03_633_100_heterocyclic_compounds_2_ring
+- id: medicine_rule_52
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names FDA transporter substrates'
+  rule: A medication whose ingredient belongs to FDA transporter substrates is not
+    counted.
+  plausible:
+  - fda_transporter_substrates
+  - who_eml_2023_s12_cardiovascular
+  - mesh_d_d02_455_hydrocarbons
+- id: medicine_rule_53
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names WHO EML 2023 antiallergics
+    and anaphylaxis'
+  rule: A medication whose ingredient belongs to WHO EML 2023 antiallergics and anaphylaxis
+    is not counted.
+  plausible:
+  - who_eml_2023_s3_antiallergics
+  - atc_s01
+  - mesh_d_d04_polycyclic_compounds
+- id: medicine_rule_54
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names WHO EML 2023 hormones and
+    antihormones'
+  rule: A medication whose ingredient belongs to WHO EML 2023 hormones and antihormones
+    is not counted.
+  plausible:
+  - who_eml_2023_s8_2_4_hormones
+  - who_eml_2023_s8_2_antineoplastics
+  - mesh_pa_antineoplastic_agents_hormonal
+- id: medicine_rule_55
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names WHO EML 2023 antiarrhythmic
+    medicines'
+  rule: A medication whose ingredient belongs to WHO EML 2023 antiarrhythmic medicines
+    is not counted.
+  plausible:
+  - who_eml_2023_s12_2_antiarrhythmics
+  - who_eml_2023_s12_cardiovascular
+  - mesh_d_d02_092_amines
+- id: medicine_rule_56
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names WHO EML 2023 medicines
+    used in heart failure'
+  rule: A medication whose ingredient belongs to WHO EML 2023 medicines used in heart
+    failure is not counted.
+  plausible:
+  - who_eml_2023_s12_4_heart_failure
+  - who_eml_2023_s12_cardiovascular
+  - mesh_pa_antihypertensive_agents
+- id: medicine_rule_57
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names NIOSH 2024 hazardous drugs,
+    Table 1'
+  rule: A medication whose ingredient belongs to NIOSH 2024 hazardous drugs, Table
+    1 is not counted.
+  plausible:
+  - niosh_2024_table_1
+  - who_eml_2023_s8_2_antineoplastics
+  - atc_l01
+- id: medicine_rule_58
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names NIOSH 2024 hazardous drugs,
+    Table 2'
+  rule: A medication whose ingredient belongs to NIOSH 2024 hazardous drugs, Table
+    2 is not counted.
+  plausible:
+  - niosh_2024_table_2
+  - atc_l02
+  - mesh_d_d03_633_heterocyclic_compounds_fused_ring
+- id: medicine_rule_59
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names ATC L02 endocrine therapy'
+  rule: A medication whose ingredient belongs to ATC L02 endocrine therapy is not
+    counted.
+  plausible:
+  - atc_l02
+  - mesh_pa_antineoplastic_agents_hormonal
+  - niosh_2024_table_2
+- id: medicine_rule_60
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Chloride Channel Interactions'
+  rule: A medication whose ingredient belongs to Chloride Channel Interactions is
+    not counted.
+  plausible:
+  - rxclass_chloride_channel_interactions
+  - who_eml_2023_s1_anaesthetics
+  - mesh_d_d03_633_100_heterocyclic_compounds_2_ring
+- id: medicine_rule_61
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Adrenal Cortical Activity
+    Alteration'
+  rule: A medication whose ingredient belongs to Adrenal Cortical Activity Alteration
+    is not counted.
+  plausible:
+  - rxclass_adrenal_cortical_effect
+  - mesh_d_d04_210_500_steroids
+  - rxclass_decreased_protein_synthesis
+- id: medicine_rule_62
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Norepinephrine Activity
+    Alteration'
+  rule: A medication whose ingredient belongs to Norepinephrine Activity Alteration
+    is not counted.
+  plausible:
+  - rxclass_norepinephrine_effect
+  - atc_n06
+  - rxclass_serotonin_effect
+- id: medicine_rule_63
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Serotonin Activity Alteration'
+  rule: A medication whose ingredient belongs to Serotonin Activity Alteration is
+    not counted.
+  plausible:
+  - rxclass_serotonin_effect
+  - rxclass_norepinephrine_effect
+  - atc_n06
+- id: medicine_rule_64
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Nervous System Activity
+    Alteration'
+  rule: A medication whose ingredient belongs to Nervous System Activity Alteration
+    is not counted.
+  plausible:
+  - rxclass_nervous_system_effect
+  - who_eml_2023_s1_anaesthetics
+  - mesh_d_d03_383_heterocyclic_compounds_1_ring
+- id: medicine_rule_65
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Transcription Factor Activity'
+  rule: A medication whose ingredient belongs to Transcription Factor Activity is
+    not counted.
+  plausible:
+  - rxclass_transcription_factor_activity
+  - rxclass_hormone_receptor_interactions
+  - mesh_pa_antineoplastic_agents_hormonal
+- id: medicine_rule_66
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cytochrome P450 3A Inhibitors'
+  rule: A medication whose ingredient belongs to Cytochrome P450 3A Inhibitors is
+    not counted.
+  plausible:
+  - rxclass_cyp3a_inhibitors
+  - rxclass_membrane_transporter_interactions
+  - mesh_pa_vasodilator_agents
+- id: medicine_rule_67
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Hormone Receptor Interactions'
+  rule: A medication whose ingredient belongs to Hormone Receptor Interactions is
+    not counted.
+  plausible:
+  - rxclass_hormone_receptor_interactions
+  - rxclass_transcription_factor_activity
+  - mesh_pa_antineoplastic_agents_hormonal
+- id: medicine_rule_68
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Membrane Transporter Interactions'
+  rule: A medication whose ingredient belongs to Membrane Transporter Interactions
+    is not counted.
+  plausible:
+  - rxclass_membrane_transporter_interactions
+  - rxclass_cyp3a_inhibitors
+  - rxclass_norepinephrine_effect
+- id: medicine_rule_69
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cellular Structure Alteration'
+  rule: A medication whose ingredient belongs to Cellular Structure Alteration is
+    not counted.
+  plausible:
+  - rxclass_cellular_structure_effect
+  - mesh_pa_anti_bacterial_agents
+  - who_eml_2023_s6_2_antibacterials
+- id: medicine_rule_70
+  field: medications.ingredient
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Decreased Protein Synthesis'
+  rule: A medication whose ingredient belongs to Decreased Protein Synthesis is not
+    counted.
+  plausible:
+  - rxclass_decreased_protein_synthesis
+  - who_eml_2023_s6_2_antibacterials
+  - mesh_pa_anti_bacterial_agents
+# --- ADD_SY_a6 rule templates below (generated by scripts/apply_templates_a6.py) ---
+- id: condition_rule_45
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Inflammatory disorder of
+    the respiratory tract'
+  rule: A diagnosis whose code belongs to Inflammatory disorder of the respiratory
+    tract is not counted.
+  plausible:
+  - snomed_363180009
+  - snomed_111273006
+  - snomed_128272009
+- id: condition_rule_46
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Pain / sensation finding'
+  rule: A diagnosis whose code belongs to Pain / sensation finding is not counted.
+  plausible:
+  - snomed_276435006
+  - snomed_106147001
+  - snomed_279001004
+- id: condition_rule_47
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Injury'
+  rule: A diagnosis whose code belongs to Injury is not counted.
+  plausible:
+  - snomed_417163006
+  - snomed_118940003
+  - snomed_128126004
+- id: condition_rule_48
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Infection'
+  rule: A diagnosis whose code belongs to Infection is not counted.
+  plausible:
+  - snomed_40733004
+  - snomed_111273006
+  - snomed_129134004
+- id: condition_rule_49
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Cardiovascular disease'
+  rule: A diagnosis whose code belongs to Cardiovascular disease is not counted.
+  plausible:
+  - snomed_49601007
+  - snomed_106147001
+  - snomed_118940003
+- id: condition_rule_50
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Neurological disorder'
+  rule: A diagnosis whose code belongs to Neurological disorder is not counted.
+  plausible:
+  - snomed_118940003
+  - snomed_128126004
+  - snomed_417163006
+- id: condition_rule_51
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Digestive system finding'
+  rule: A diagnosis whose code belongs to Digestive system finding is not counted.
+  plausible:
+  - snomed_386617003
+  - snomed_118436003
+  - snomed_126643005
+- id: condition_rule_52
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Ear, nose and throat finding'
+  rule: A diagnosis whose code belongs to Ear, nose and throat finding is not counted.
+  plausible:
+  - snomed_297268004
+  - snomed_111273006
+  - snomed_129134004
+- id: condition_rule_53
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Musculoskeletal finding'
+  rule: A diagnosis whose code belongs to Musculoskeletal finding is not counted.
+  plausible:
+  - snomed_106028002
+  - snomed_118953000
+  - snomed_125605004
+- id: condition_rule_54
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Metabolic disease'
+  rule: A diagnosis whose code belongs to Metabolic disease is not counted.
+  plausible:
+  - snomed_75934005
+  - mesh_c_c23_888_852_signs_and_symptoms_respiratory
+  - mesh_c_c23_888_signs_and_symptoms
+- id: condition_rule_55
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Neoplastic disease'
+  rule: A diagnosis whose code belongs to Neoplastic disease is not counted.
+  plausible:
+  - snomed_55342001
+  - snomed_118436003
+  - snomed_126643005
+- id: condition_rule_56
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Viscus structure finding'
+  rule: A diagnosis whose code belongs to Viscus structure finding is not counted.
+  plausible:
+  - snomed_406123005
+  - snomed_118436003
+  - snomed_126643005
+- id: condition_rule_57
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Bone finding'
+  rule: A diagnosis whose code belongs to Bone finding is not counted.
+  plausible:
+  - snomed_118953000
+  - snomed_106028002
+  - snomed_125605004
+- id: condition_rule_58
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Functional finding'
+  rule: A diagnosis whose code belongs to Functional finding is not counted.
+  plausible:
+  - snomed_118228005
+  - mesh_c_c10_nervous_system_diseases
+  - snomed_118940003
+- id: condition_rule_59
+  field: conditions.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Mental state, behaviour
+    and/or psychosocial function finding'
+  rule: A diagnosis whose code belongs to Mental state, behaviour and/or psychosocial
+    function finding is not counted.
+  plausible:
+  - snomed_384821006
+  - snomed_118228005
+  - snomed_844005
+- id: procedure_rule_30
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Laboratory procedure'
+  rule: A procedure whose code belongs to Laboratory procedure is not counted.
+  plausible:
+  - snomed_108252007
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_31
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on pelvic region
+    of trunk'
+  rule: A procedure whose code belongs to Procedure on pelvic region of trunk is not
+    counted.
+  plausible:
+  - snomed_609637006
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_32
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on genitourinary
+    system'
+  rule: A procedure whose code belongs to Procedure on genitourinary system is not
+    counted.
+  plausible:
+  - snomed_118674002
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_33
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Interview, history AND/OR
+    physical examination'
+  rule: A procedure whose code belongs to Interview, history AND/OR physical examination
+    is not counted.
+  plausible:
+  - snomed_108217004
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_34
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure by intent'
+  rule: A procedure whose code belongs to Procedure by intent is not counted.
+  plausible:
+  - snomed_362961001
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_35
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Examination by method'
+  rule: A procedure whose code belongs to Examination by method is not counted.
+  plausible:
+  - snomed_315306007
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_36
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on abdomen'
+  rule: A procedure whose code belongs to Procedure on abdomen is not counted.
+  plausible:
+  - snomed_118698009
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_37
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Measurement'
+  rule: A procedure whose code belongs to Measurement is not counted.
+  plausible:
+  - snomed_122869004
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_38
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on digestive
+    organ'
+  rule: A procedure whose code belongs to Procedure on digestive organ is not counted.
+  plausible:
+  - snomed_118821005
+  - snomed_118698009
+  - snomed_118838009
+- id: procedure_rule_39
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on blood vessel'
+  rule: A procedure whose code belongs to Procedure on blood vessel is not counted.
+  plausible:
+  - snomed_118804001
+  - mesh_e_e04_surgical_procedures_operative
+  - snomed_118797008
+- id: procedure_rule_40
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on musculoskeletal
+    system'
+  rule: A procedure whose code belongs to Procedure on musculoskeletal system is not
+    counted.
+  plausible:
+  - snomed_118666003
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_41
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Fetal procedure'
+  rule: A procedure whose code belongs to Fetal procedure is not counted.
+  plausible:
+  - snomed_386811000
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_42
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Respiratory tract procedure'
+  rule: A procedure whose code belongs to Respiratory tract procedure is not counted.
+  plausible:
+  - snomed_387662008
+  - mesh_e_e01_370_388_diagnostic_techniques_surgical
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_43
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names In-vitro immunologic test'
+  rule: A procedure whose code belongs to In-vitro immunologic test is not counted.
+  plausible:
+  - snomed_19838004
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_44
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Body fluid analysis'
+  rule: A procedure whose code belongs to Body fluid analysis is not counted.
+  plausible:
+  - snomed_127801007
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+# --- ADD_SY_a7 rule templates below (generated by scripts/apply_templates_a7.py) ---
+- id: procedure_rule_45
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on thorax'
+  rule: A procedure whose code belongs to Procedure on thorax is not counted.
+  plausible:
+  - snomed_118695007
+  - mesh_e_e01_370_225_500_cytological_techniques
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+- id: procedure_rule_46
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on soft tissue'
+  rule: A procedure whose code belongs to Procedure on soft tissue is not counted.
+  plausible:
+  - snomed_118738001
+  - mesh_e_e02_therapeutics
+  - snomed_118672003
+- id: procedure_rule_47
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on cardiovascular
+    system'
+  rule: A procedure whose code belongs to Procedure on cardiovascular system is not
+    counted.
+  plausible:
+  - snomed_118672003
+  - mesh_e_e02_therapeutics
+  - snomed_118738001
+- id: procedure_rule_48
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Surgical removal'
+  rule: A procedure whose code belongs to Surgical removal is not counted.
+  plausible:
+  - snomed_128303001
+  - mesh_e_e04_surgical_procedures_operative
+  - snomed_118674002
+- id: procedure_rule_49
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Operation on trunk'
+  rule: A procedure whose code belongs to Operation on trunk is not counted.
+  plausible:
+  - snomed_74943008
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_50
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Imaging'
+  rule: A procedure whose code belongs to Imaging is not counted.
+  plausible:
+  - snomed_363679005
+  - mesh_e_e01_370_350_diagnostic_imaging
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+- id: procedure_rule_51
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on mediastinum'
+  rule: A procedure whose code belongs to Procedure on mediastinum is not counted.
+  plausible:
+  - snomed_118696008
+  - mesh_e_e02_therapeutics
+  - snomed_118672003
+- id: procedure_rule_52
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Abdomen excision'
+  rule: A procedure whose code belongs to Abdomen excision is not counted.
+  plausible:
+  - snomed_108189003
+  - snomed_118698009
+  - snomed_118821005
+- id: procedure_rule_53
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Procedure on uterus'
+  rule: A procedure whose code belongs to Procedure on uterus is not counted.
+  plausible:
+  - snomed_118864003
+  - mesh_e_e04_520_obstetric_surgical_procedures
+  - mesh_e_e04_surgical_procedures_operative
+- id: procedure_rule_54
+  field: procedures.code
+  effect: exclude_record
+  source: 'supplement: the health plan''s audit lane names Protein measurement'
+  rule: A procedure whose code belongs to Protein measurement is not counted.
+  plausible:
+  - snomed_74040009
+  - mesh_e_e01_370_225_clinical_laboratory_techniques
+  - mesh_e_e01_370_diagnostic_techniques_and_procedures
+label_nouns:
+- review tag
+- audit lane
+- desk slot
+- queue tag
+- batch lane
+- ledger mark
+- routing lane
+- intake mark

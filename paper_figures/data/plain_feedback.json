@@ -1,0 +1,13 @@
+{
+ "protocol": "plain feedback (changed values listed without membership), v0, L1-L4 average accuracy",
+ "self": {
+  "ACE": 0.5,
+  "GEPA (note naming the aggregation)": 0.468,
+  "DC-Cu": 0.46
+ },
+ "hint": {
+  "ACE": 0.585,
+  "GEPA (note naming the aggregation)": 0.532,
+  "DC-Cu": 0.525
+ }
+}

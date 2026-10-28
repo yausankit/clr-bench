@@ -1,0 +1,26 @@
+{
+  "course": "CLR_SH1",
+  "dataset": "SH",
+  "adapter": "python_json",
+  "format": "json",
+  "stage_a_seed": 20266103,
+  "replay_seed": 20266104,
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "concurrency": 8,
+  "rb_top_k": 1,
+  "tfgrpo_group_size": 4,
+  "tfgrpo_num_experiences": 1,
+  "tfgrpo_rollout_temperature": 0.7,
+  "levels": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "chain": null,
+  "gateway_url": null,
+  "python": null,
+  "embedding_model": null,
+  "_note": "Template. harness/setup_run.py fills chain, gateway_url, python and embedding_model."
+}

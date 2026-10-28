@@ -1,0 +1,60 @@
+A: en
+C: eu_official_languages
+C_name: Official languages of the European Union
+N_p: bo
+N_t:
+- ne
+- nb
+- lb
+- rw
+- ba
+- kv
+- fj
+P_M:
+- ga
+- mt
+- sk
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - canada_mother_tongue_languages
+    - finland_native_languages
+    - germanic_languages
+    - india_2011_census_languages
+    - nepal_native_languages
+    - west_germanic_languages
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- au_working_languages
+- canada_knowledge_languages
+- canada_mother_tongue_languages
+- finland_native_languages
+- france_metropolitan_ethnologue_languages
+- germanic_languages
+- india_2011_census_languages
+- kazakhstan_census_languages
+- nepal_native_languages
+- norway_non_native_languages
+- osce_official_languages
+- pakistan_established_languages
+- south_africa_official
+- spain_2021_census_languages
+- thailand_census_languages
+- turkey_1965_census_languages
+- turkey_ethnologue_languages
+- un_official_languages
+- west_germanic_languages
+- zimbabwe_official
+field: findings.language
+label: audit lane 39
+salience: 89530.0
+universe: language

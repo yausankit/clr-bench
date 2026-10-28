@@ -1,0 +1,44 @@
+A: CA
+C: commonwealth_members
+C_name: Commonwealth of Nations member states
+N_p: RO
+N_t:
+- AL
+- DE
+- MX
+- TJ
+- MM
+- ES
+- BR
+P_M:
+- BB
+- TV
+- NG
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - apec_members
+    - g20_members
+    - g7_members
+    - nato_members
+    - oecd_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- apec_members
+- g20_members
+- g7_members
+- nato_members
+- oecd_members
+field: lots.origin_country
+label: ledger mark C8
+salience: 1422475.0
+universe: country

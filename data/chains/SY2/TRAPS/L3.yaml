@@ -1,0 +1,53 @@
+A: Doxorubicin
+C: who_eml_2023_s8_2_1_cytotoxic
+C_name: Cytotoxic medicines
+N_p: Tamoxifen
+N_t:
+- Enoxaparin
+- Hydrocortisone
+- Propofol
+- Fentanyl
+- Acetaminophen
+- Fulvestrant
+- Tramadol
+P_M:
+- Leucovorin
+- Docetaxel
+- Oxaliplatin
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - mesh_d_d02_455_426_559_hydrocarbons_aromatic
+    - mesh_d_d02_455_426_hydrocarbons_cyclic
+    - mesh_d_d02_455_hydrocarbons
+    - mesh_d_d04_polycyclic_compounds
+    - mesh_d_d09_carbohydrates
+    - who_eml_2023_s8_2_antineoplastics
+    - who_emlc_2023_s8_2_antineoplastics
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- atc_l01
+- mesh_d_d02_455_426_559_847_polycyclic_aromatic_hydrocarbons
+- mesh_d_d02_455_426_559_hydrocarbons_aromatic
+- mesh_d_d02_455_426_hydrocarbons_cyclic
+- mesh_d_d02_455_hydrocarbons
+- mesh_d_d04_615_polycyclic_aromatic_hydrocarbons
+- mesh_d_d04_polycyclic_compounds
+- mesh_d_d09_carbohydrates
+- niosh_2024_table_1
+- who_eml_2023_s8_2_antineoplastics
+- who_emlc_2023_s8_2_1_cytotoxic
+- who_emlc_2023_s8_2_antineoplastics
+field: medications.ingredient
+label: ledger mark A-57
+salience: 37648.0
+universe: medicine

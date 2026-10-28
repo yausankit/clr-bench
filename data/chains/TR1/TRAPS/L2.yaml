@@ -1,0 +1,42 @@
+A: TMR
+C: opec_airports
+C_name: Airports in OPEC member states
+N_p: SAL
+N_t:
+- UAR
+- FIG
+- SEY
+- BUA
+- GRD
+- GIL
+- PAZ
+P_M:
+- PMV
+- CUP
+- GDO
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_union_airports
+    - amu_airports
+    - arab_league_airports
+    - oic_airports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- african_union_airports
+- amu_airports
+- arab_league_airports
+- oic_airports
+field: segments.arrival_airport
+label: routing bucket 18
+salience: 891426.0
+universe: airport

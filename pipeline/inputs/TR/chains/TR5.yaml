@@ -1,0 +1,17 @@
+id: TR5
+dataset: TR
+seed: 20266097
+period: {start: 2025, end: 2026}
+snapshot: 2026-10-16
+fields:
+  - field: segments.airline
+    universe: airline
+    templates: [airline_partner_group, airline_alliance, airline_industry_body, airline_state_carrier, airline_regional_bloc, airline_state_membership]
+  - field: segments.arrival_airport
+    universe: airport
+    templates: [airport_european_bloc, airport_arab_african_bloc, airport_asia_americas_bloc]
+  - field: claims.currency
+    universe: currency
+    templates: [currency_union, currency_political_bloc, currency_economic_forum, currency_regional_organisation, currency_minor_unit, currency_exchange_regime]
+slots: 5
+probe: {criterion: soft}

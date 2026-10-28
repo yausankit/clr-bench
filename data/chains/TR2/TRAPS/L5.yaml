@@ -1,0 +1,41 @@
+A: CZL
+C: arab_league_airports
+C_name: Airports in Arab League member states
+N_p: GAX
+N_t:
+- VLN
+- BXE
+- PSI
+- NNX
+- PGK
+- SWY
+- SRL
+P_M:
+- LTK
+- SCT
+- AOM
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - african_union_airports
+    - oic_airports
+    - opec_airports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- african_union_airports
+- amu_airports
+- oic_airports
+- opec_airports
+field: segments.arrival_airport
+label: audit tag 52
+salience: 386459.0
+universe: airport

@@ -1,0 +1,44 @@
+A: lutetium
+C: yttrium_group
+C_name: Yttrium-group rare-earth elements
+N_p: europium
+N_t:
+- samarium
+- neodymium
+- cerium
+- rubidium
+- hafnium
+- nitrogen
+- tellurium
+P_M:
+- yttrium
+- scandium
+- thulium
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - heavy_rare_earths
+    - lanthanides
+    - lanthanides_and_actinides
+    - period_6_elements
+    - rare_earth_elements
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- heavy_rare_earths
+- lanthanides
+- lanthanides_and_actinides
+- period_6_elements
+- rare_earth_elements
+field: lots.material
+label: review tag R-20
+salience: 547616.0
+universe: material

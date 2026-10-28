@@ -1,0 +1,196 @@
+value	description	source
+AD	Andorra is a country in Southern Europe; its capital is Andorra la Vella.	country_codes.csv
+AE	United Arab Emirates is a country in Western Asia; its capital is Abu Dhabi.	country_codes.csv
+AF	Afghanistan is a country in Southern Asia; its capital is Kabul.	country_codes.csv
+AG	Antigua & Barbuda is a country in Latin America and the Caribbean; its capital is St. John's.	country_codes.csv
+AL	Albania is a country in Southern Europe; its capital is Tirana.	country_codes.csv
+AM	Armenia is a country in Western Asia; its capital is Yerevan.	country_codes.csv
+AO	Angola is a country in Sub-Saharan Africa; its capital is Luanda.	country_codes.csv
+AR	Argentina is a country in Latin America and the Caribbean; its capital is Buenos Aires.	country_codes.csv
+AT	Austria is a country in Western Europe; its capital is Vienna.	country_codes.csv
+AU	Australia is a country in Australia and New Zealand; its capital is Canberra.	country_codes.csv
+AZ	Azerbaijan is a country in Western Asia; its capital is Baku.	country_codes.csv
+BA	Bosnia is a country in Southern Europe; its capital is Sarajevo.	country_codes.csv
+BB	Barbados is a country in Latin America and the Caribbean; its capital is Bridgetown.	country_codes.csv
+BD	Bangladesh is a country in Southern Asia; its capital is Dhaka.	country_codes.csv
+BE	Belgium is a country in Western Europe; its capital is Brussels.	country_codes.csv
+BF	Burkina Faso is a country in Sub-Saharan Africa; its capital is Ouagadougou.	country_codes.csv
+BG	Bulgaria is a country in Eastern Europe; its capital is Sofia.	country_codes.csv
+BH	Bahrain is a country in Western Asia; its capital is Manama.	country_codes.csv
+BI	Burundi is a country in Sub-Saharan Africa; its capital is Gitega.	country_codes.csv
+BJ	Benin is a country in Sub-Saharan Africa; its capital is Porto-Novo.	country_codes.csv
+BN	Brunei is a country in South-eastern Asia; its capital is Bandar Seri Begawan.	country_codes.csv
+BO	Bolivia is a country in Latin America and the Caribbean; its capital is Sucre.	country_codes.csv
+BR	Brazil is a country in Latin America and the Caribbean; its capital is Brasilia.	country_codes.csv
+BS	Bahamas is a country in Latin America and the Caribbean; its capital is Nassau.	country_codes.csv
+BT	Bhutan is a country in Southern Asia; its capital is Thimphu.	country_codes.csv
+BW	Botswana is a country in Sub-Saharan Africa; its capital is Gaborone.	country_codes.csv
+BY	Belarus is a country in Eastern Europe; its capital is Minsk.	country_codes.csv
+BZ	Belize is a country in Latin America and the Caribbean; its capital is Belmopan.	country_codes.csv
+CA	Canada is a country in Northern America; its capital is Ottawa.	country_codes.csv
+CD	Congo - Kinshasa is a country in Sub-Saharan Africa; its capital is Kinshasa.	country_codes.csv
+CF	Central African Republic is a country in Sub-Saharan Africa; its capital is Bangui.	country_codes.csv
+CG	Congo - Brazzaville is a country in Sub-Saharan Africa; its capital is Brazzaville.	country_codes.csv
+CH	Switzerland is a country in Western Europe; its capital is Bern.	country_codes.csv
+CI	Cote dIvoire is a country in Sub-Saharan Africa; its capital is Yamoussoukro.	country_codes.csv
+CL	Chile is a country in Latin America and the Caribbean; its capital is Santiago.	country_codes.csv
+CM	Cameroon is a country in Sub-Saharan Africa; its capital is Yaounde.	country_codes.csv
+CN	China is a country in Eastern Asia; its capital is Beijing.	country_codes.csv
+CO	Colombia is a country in Latin America and the Caribbean; its capital is Bogota.	country_codes.csv
+CR	Costa Rica is a country in Latin America and the Caribbean; its capital is San Jose.	country_codes.csv
+CU	Cuba is a country in Latin America and the Caribbean; its capital is Havana.	country_codes.csv
+CV	Cape Verde is a country in Sub-Saharan Africa; its capital is Praia.	country_codes.csv
+CY	Cyprus is a country in Western Asia; its capital is Nicosia.	country_codes.csv
+CZ	Czechia is a country in Eastern Europe; its capital is Prague.	country_codes.csv
+DE	Germany is a country in Western Europe; its capital is Berlin.	country_codes.csv
+DJ	Djibouti is a country in Sub-Saharan Africa; its capital is Djibouti.	country_codes.csv
+DK	Denmark is a country in Northern Europe; its capital is Copenhagen.	country_codes.csv
+DM	Dominica is a country in Latin America and the Caribbean; its capital is Roseau.	country_codes.csv
+DO	Dominican Republic is a country in Latin America and the Caribbean; its capital is Santo Domingo.	country_codes.csv
+DZ	Algeria is a country in Northern Africa; its capital is Algiers.	country_codes.csv
+EC	Ecuador is a country in Latin America and the Caribbean; its capital is Quito.	country_codes.csv
+EE	Estonia is a country in Northern Europe; its capital is Tallinn.	country_codes.csv
+EG	Egypt is a country in Northern Africa; its capital is Cairo.	country_codes.csv
+ER	Eritrea is a country in Sub-Saharan Africa; its capital is Asmara.	country_codes.csv
+ES	Spain is a country in Southern Europe; its capital is Madrid.	country_codes.csv
+ET	Ethiopia is a country in Sub-Saharan Africa; its capital is Addis Ababa.	country_codes.csv
+FI	Finland is a country in Northern Europe; its capital is Helsinki.	country_codes.csv
+FJ	Fiji is a country in Melanesia; its capital is Suva.	country_codes.csv
+FM	Micronesia is a country in Micronesia; its capital is Palikir.	country_codes.csv
+FR	France is a country in Western Europe; its capital is Paris.	country_codes.csv
+GA	Gabon is a country in Sub-Saharan Africa; its capital is Libreville.	country_codes.csv
+GB	UK is a country in Northern Europe; its capital is London.	country_codes.csv
+GD	Grenada is a country in Latin America and the Caribbean; its capital is St. George's.	country_codes.csv
+GE	Georgia is a country in Western Asia; its capital is Tbilisi.	country_codes.csv
+GH	Ghana is a country in Sub-Saharan Africa; its capital is Accra.	country_codes.csv
+GM	Gambia is a country in Sub-Saharan Africa; its capital is Banjul.	country_codes.csv
+GN	Guinea is a country in Sub-Saharan Africa; its capital is Conakry.	country_codes.csv
+GQ	Equatorial Guinea is a country in Sub-Saharan Africa; its capital is Ciudad de la Paz.	country_codes.csv
+GR	Greece is a country in Southern Europe; its capital is Athens.	country_codes.csv
+GT	Guatemala is a country in Latin America and the Caribbean; its capital is Guatemala City.	country_codes.csv
+GW	Guinea-Bissau is a country in Sub-Saharan Africa; its capital is Bissau.	country_codes.csv
+GY	Guyana is a country in Latin America and the Caribbean; its capital is Georgetown.	country_codes.csv
+HN	Honduras is a country in Latin America and the Caribbean; its capital is Tegucigalpa.	country_codes.csv
+HR	Croatia is a country in Southern Europe; its capital is Zagreb.	country_codes.csv
+HT	Haiti is a country in Latin America and the Caribbean; its capital is Port-au-Prince.	country_codes.csv
+HU	Hungary is a country in Eastern Europe; its capital is Budapest.	country_codes.csv
+ID	Indonesia is a country in South-eastern Asia; its capital is Jakarta.	country_codes.csv
+IE	Ireland is a country in Northern Europe; its capital is Dublin.	country_codes.csv
+IL	Israel is a country in Western Asia; its capital is Jerusalem.	country_codes.csv
+IN	India is a country in Southern Asia; its capital is New Delhi.	country_codes.csv
+IQ	Iraq is a country in Western Asia; its capital is Baghdad.	country_codes.csv
+IR	Iran is a country in Southern Asia; its capital is Tehran.	country_codes.csv
+IS	Iceland is a country in Northern Europe; its capital is Reykjavik.	country_codes.csv
+IT	Italy is a country in Southern Europe; its capital is Rome.	country_codes.csv
+JM	Jamaica is a country in Latin America and the Caribbean; its capital is Kingston.	country_codes.csv
+JO	Jordan is a country in Western Asia; its capital is Amman.	country_codes.csv
+JP	Japan is a country in Eastern Asia; its capital is Tokyo.	country_codes.csv
+KE	Kenya is a country in Sub-Saharan Africa; its capital is Nairobi.	country_codes.csv
+KG	Kyrgyzstan is a country in Central Asia; its capital is Bishkek.	country_codes.csv
+KH	Cambodia is a country in South-eastern Asia; its capital is Phnom Penh.	country_codes.csv
+KI	Kiribati is a country in Micronesia; its capital is Tarawa.	country_codes.csv
+KM	Comoros is a country in Sub-Saharan Africa; its capital is Moroni.	country_codes.csv
+KN	St. Kitts & Nevis is a country in Latin America and the Caribbean; its capital is Basseterre.	country_codes.csv
+KP	North Korea is a country in Eastern Asia; its capital is Pyongyang.	country_codes.csv
+KR	South Korea is a country in Eastern Asia; its capital is Seoul.	country_codes.csv
+KW	Kuwait is a country in Western Asia; its capital is Kuwait City.	country_codes.csv
+KZ	Kazakhstan is a country in Central Asia; its capital is Nur-Sultan.	country_codes.csv
+LA	Laos is a country in South-eastern Asia; its capital is Vientiane.	country_codes.csv
+LB	Lebanon is a country in Western Asia; its capital is Beirut.	country_codes.csv
+LC	St. Lucia is a country in Latin America and the Caribbean; its capital is Castries.	country_codes.csv
+LI	Liechtenstein is a country in Western Europe; its capital is Vaduz.	country_codes.csv
+LK	Sri Lanka is a country in Southern Asia; its capital is Colombo.	country_codes.csv
+LR	Liberia is a country in Sub-Saharan Africa; its capital is Monrovia.	country_codes.csv
+LS	Lesotho is a country in Sub-Saharan Africa; its capital is Maseru.	country_codes.csv
+LT	Lithuania is a country in Northern Europe; its capital is Vilnius.	country_codes.csv
+LU	Luxembourg is a country in Western Europe; its capital is Luxembourg.	country_codes.csv
+LV	Latvia is a country in Northern Europe; its capital is Riga.	country_codes.csv
+LY	Libya is a country in Northern Africa; its capital is Tripoli.	country_codes.csv
+MA	Morocco is a country in Northern Africa; its capital is Rabat.	country_codes.csv
+MC	Monaco is a country in Western Europe; its capital is Monaco.	country_codes.csv
+MD	Moldova is a country in Eastern Europe; its capital is Chisinau.	country_codes.csv
+ME	Montenegro is a country in Southern Europe; its capital is Podgorica.	country_codes.csv
+MG	Madagascar is a country in Sub-Saharan Africa; its capital is Antananarivo.	country_codes.csv
+MH	Marshall Islands is a country in Micronesia; its capital is Majuro.	country_codes.csv
+MK	North Macedonia is a country in Southern Europe; its capital is Skopje.	country_codes.csv
+ML	Mali is a country in Sub-Saharan Africa; its capital is Bamako.	country_codes.csv
+MM	Myanmar is a country in South-eastern Asia; its capital is Nay Pyi Taw.	country_codes.csv
+MN	Mongolia is a country in Eastern Asia; its capital is Ulaanbaatar.	country_codes.csv
+MR	Mauritania is a country in Sub-Saharan Africa; its capital is Nouakchott.	country_codes.csv
+MT	Malta is a country in Southern Europe; its capital is Valletta.	country_codes.csv
+MU	Mauritius is a country in Sub-Saharan Africa; its capital is Port Louis.	country_codes.csv
+MV	Maldives is a country in Southern Asia; its capital is Male.	country_codes.csv
+MW	Malawi is a country in Sub-Saharan Africa; its capital is Lilongwe.	country_codes.csv
+MX	Mexico is a country in Latin America and the Caribbean; its capital is Mexico City.	country_codes.csv
+MY	Malaysia is a country in South-eastern Asia; its capital is Kuala Lumpur.	country_codes.csv
+MZ	Mozambique is a country in Sub-Saharan Africa; its capital is Maputo.	country_codes.csv
+NA	Namibia is a country in Sub-Saharan Africa; its capital is Windhoek.	country_codes.csv
+NE	Niger is a country in Sub-Saharan Africa; its capital is Niamey.	country_codes.csv
+NG	Nigeria is a country in Sub-Saharan Africa; its capital is Abuja.	country_codes.csv
+NI	Nicaragua is a country in Latin America and the Caribbean; its capital is Managua.	country_codes.csv
+NL	Netherlands is a country in Western Europe; its capital is Amsterdam.	country_codes.csv
+NO	Norway is a country in Northern Europe; its capital is Oslo.	country_codes.csv
+NP	Nepal is a country in Southern Asia; its capital is Kathmandu.	country_codes.csv
+NR	Nauru is a country in Micronesia; its capital is Yaren.	country_codes.csv
+NZ	New Zealand is a country in Australia and New Zealand; its capital is Wellington.	country_codes.csv
+OM	Oman is a country in Western Asia; its capital is Muscat.	country_codes.csv
+PA	Panama is a country in Latin America and the Caribbean; its capital is Panama City.	country_codes.csv
+PE	Peru is a country in Latin America and the Caribbean; its capital is Lima.	country_codes.csv
+PG	Papua New Guinea is a country in Melanesia; its capital is Port Moresby.	country_codes.csv
+PH	Philippines is a country in South-eastern Asia; its capital is Manila.	country_codes.csv
+PK	Pakistan is a country in Southern Asia; its capital is Islamabad.	country_codes.csv
+PL	Poland is a country in Eastern Europe; its capital is Warsaw.	country_codes.csv
+PT	Portugal is a country in Southern Europe; its capital is Lisbon.	country_codes.csv
+PW	Palau is a country in Micronesia; its capital is Melekeok.	country_codes.csv
+PY	Paraguay is a country in Latin America and the Caribbean; its capital is Asuncion.	country_codes.csv
+QA	Qatar is a country in Western Asia; its capital is Doha.	country_codes.csv
+RO	Romania is a country in Eastern Europe; its capital is Bucharest.	country_codes.csv
+RS	Serbia is a country in Southern Europe; its capital is Belgrade.	country_codes.csv
+RU	Russia is a country in Eastern Europe; its capital is Moscow.	country_codes.csv
+RW	Rwanda is a country in Sub-Saharan Africa; its capital is Kigali.	country_codes.csv
+SA	Saudi Arabia is a country in Western Asia; its capital is Riyadh.	country_codes.csv
+SB	Solomon Islands is a country in Melanesia; its capital is Honiara.	country_codes.csv
+SC	Seychelles is a country in Sub-Saharan Africa; its capital is Victoria.	country_codes.csv
+SD	Sudan is a country in Northern Africa; its capital is Khartoum.	country_codes.csv
+SE	Sweden is a country in Northern Europe; its capital is Stockholm.	country_codes.csv
+SG	Singapore is a country in South-eastern Asia; its capital is Singapore.	country_codes.csv
+SI	Slovenia is a country in Southern Europe; its capital is Ljubljana.	country_codes.csv
+SK	Slovakia is a country in Eastern Europe; its capital is Bratislava.	country_codes.csv
+SL	Sierra Leone is a country in Sub-Saharan Africa; its capital is Freetown.	country_codes.csv
+SM	San Marino is a country in Southern Europe; its capital is San Marino.	country_codes.csv
+SN	Senegal is a country in Sub-Saharan Africa; its capital is Dakar.	country_codes.csv
+SO	Somalia is a country in Sub-Saharan Africa; its capital is Mogadishu.	country_codes.csv
+SR	Suriname is a country in Latin America and the Caribbean; its capital is Paramaribo.	country_codes.csv
+SS	South Sudan is a country in Sub-Saharan Africa; its capital is Juba.	country_codes.csv
+ST	Sao Tome & Principe is a country in Sub-Saharan Africa; its capital is Sao Tome.	country_codes.csv
+SV	El Salvador is a country in Latin America and the Caribbean; its capital is San Salvador.	country_codes.csv
+SY	Syria is a country in Western Asia; its capital is Damascus.	country_codes.csv
+SZ	Eswatini is a country in Sub-Saharan Africa; its capital is Mbabane.	country_codes.csv
+TD	Chad is a country in Sub-Saharan Africa; its capital is N'Djamena.	country_codes.csv
+TG	Togo is a country in Sub-Saharan Africa; its capital is Lome.	country_codes.csv
+TH	Thailand is a country in South-eastern Asia; its capital is Bangkok.	country_codes.csv
+TJ	Tajikistan is a country in Central Asia; its capital is Dushanbe.	country_codes.csv
+TL	Timor-Leste is a country in South-eastern Asia; its capital is Dili.	country_codes.csv
+TM	Turkmenistan is a country in Central Asia; its capital is Ashgabat.	country_codes.csv
+TN	Tunisia is a country in Northern Africa; its capital is Tunis.	country_codes.csv
+TO	Tonga is a country in Polynesia; its capital is Nuku'alofa.	country_codes.csv
+TR	Turkiye is a country in Western Asia; its capital is Ankara.	country_codes.csv
+TT	Trinidad & Tobago is a country in Latin America and the Caribbean; its capital is Port of Spain.	country_codes.csv
+TV	Tuvalu is a country in Polynesia; its capital is Funafuti.	country_codes.csv
+TW	Taiwan is a country in Eastern Asia; its capital is Taipei.	country_codes.csv
+TZ	Tanzania is a country in Sub-Saharan Africa; its capital is Dodoma.	country_codes.csv
+UA	Ukraine is a country in Eastern Europe; its capital is Kyiv.	country_codes.csv
+UG	Uganda is a country in Sub-Saharan Africa; its capital is Kampala.	country_codes.csv
+US	US is a country in Northern America; its capital is Washington.	country_codes.csv
+UY	Uruguay is a country in Latin America and the Caribbean; its capital is Montevideo.	country_codes.csv
+UZ	Uzbekistan is a country in Central Asia; its capital is Tashkent.	country_codes.csv
+VA	Vatican City is a country in Southern Europe; its capital is Vatican City.	country_codes.csv
+VC	St. Vincent & Grenadines is a country in Latin America and the Caribbean; its capital is Kingstown.	country_codes.csv
+VE	Venezuela is a country in Latin America and the Caribbean; its capital is Caracas.	country_codes.csv
+VN	Vietnam is a country in South-eastern Asia; its capital is Hanoi.	country_codes.csv
+VU	Vanuatu is a country in Melanesia; its capital is Port Vila.	country_codes.csv
+WS	Samoa is a country in Polynesia; its capital is Apia.	country_codes.csv
+YE	Yemen is a country in Western Asia; its capital is Sanaa.	country_codes.csv
+ZA	South Africa is a country in Sub-Saharan Africa; its capital is Pretoria.	country_codes.csv
+ZM	Zambia is a country in Sub-Saharan Africa; its capital is Lusaka.	country_codes.csv
+ZW	Zimbabwe is a country in Sub-Saharan Africa; its capital is Harare.	country_codes.csv

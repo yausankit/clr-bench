@@ -1,0 +1,41 @@
+A: National University of Singapore
+C: aun
+C_name: ASEAN University Network core members
+N_p: Central Institute of Agricultural Engineering
+N_t:
+- McMaster University
+- Australian National University
+- University of Copenhagen
+- Harbin Normal University
+- Turkish-German University
+- Free University of Brussels
+- Texas Christian University
+P_M:
+- Chiang Mai University
+- Universiti Sains Malaysia
+- University of Malta
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - apru
+    - iaru
+    - universitas_21
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- apru
+- asian_universities_alliance
+- iaru
+- universitas_21
+field: applications.university
+label: award record V-50
+salience: 14909.0
+universe: university

@@ -1,0 +1,45 @@
+A: DE
+C: g7_members
+C_name: G7 member states
+N_p: TR
+N_t:
+- LT
+- GR
+- CZ
+- NZ
+- BJ
+- TM
+- BH
+P_M:
+- JP
+- GB
+- US
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - eu_members
+    - eurozone_members
+    - nato_members
+    - oecd_members
+    - schengen_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- eu_members
+- eurozone_members
+- g20_members
+- nato_members
+- oecd_members
+- schengen_members
+field: lots.origin_country
+label: ledger mark P8
+salience: 802164.0
+universe: country

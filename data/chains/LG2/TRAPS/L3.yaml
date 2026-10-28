@@ -1,0 +1,40 @@
+A: '389'
+C: plaintext_protocol_ports
+C_name: Plaintext application protocol ports
+N_p: '22'
+N_t:
+- '1433'
+- '3269'
+- '455'
+- '5068'
+- '2493'
+- '9293'
+- '3341'
+P_M:
+- '143'
+- '21'
+- '43'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - directory_service_ports
+    - iana_system_ports
+    - microsoft_server_ports
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- directory_service_ports
+- iana_system_ports
+- microsoft_server_ports
+field: proxy_connections.port
+label: session tag A-70
+salience: 1134819.0
+universe: port

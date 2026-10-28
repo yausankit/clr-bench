@@ -1,0 +1,68 @@
+{
+ "proxy_connections.client_app": {
+  "MobaXterm.exe": {
+   "example": "WinSCP.exe",
+   "label": "gateway lane 93",
+   "level": 5,
+   "member": true
+  },
+  "Skype.exe": {
+   "example": "WINWORD.EXE",
+   "label": "event bucket 52",
+   "level": 2,
+   "member": false
+  },
+  "Teams.exe": {
+   "example": "WINWORD.EXE",
+   "label": "event bucket 52",
+   "level": 2,
+   "member": true
+  },
+  "putty.exe": {
+   "example": "WinSCP.exe",
+   "label": "gateway lane 93",
+   "level": 5,
+   "member": false
+  }
+ },
+ "proxy_connections.port": {
+  "143": {
+   "example": "389",
+   "label": "session tag A-70",
+   "level": 3,
+   "member": true
+  },
+  "22": {
+   "example": "389",
+   "label": "session tag A-70",
+   "level": 3,
+   "member": false
+  }
+ },
+ "proxy_connections.tld": {
+  "il": {
+   "example": "de",
+   "label": "access lane C2",
+   "level": 1,
+   "member": true
+  },
+  "jp": {
+   "example": "fr",
+   "label": "audit zone J6",
+   "level": 4,
+   "member": true
+  },
+  "my": {
+   "example": "de",
+   "label": "access lane C2",
+   "level": 1,
+   "member": false
+  },
+  "tr": {
+   "example": "fr",
+   "label": "audit zone J6",
+   "level": 4,
+   "member": false
+  }
+ }
+}

@@ -1,0 +1,45 @@
+A: IT
+C: g20_members
+C_name: G20 members
+N_p: MU
+N_t:
+- LU
+- FI
+- HR
+- BT
+- GT
+- TZ
+- MA
+P_M:
+- SA
+- IN
+- AR
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - eu_members
+    - eurozone_members
+    - nato_members
+    - oecd_members
+    - schengen_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- eu_members
+- eurozone_members
+- g7_members
+- nato_members
+- oecd_members
+- schengen_members
+field: lots.origin_country
+label: audit ribbon W2
+salience: 746828.0
+universe: country

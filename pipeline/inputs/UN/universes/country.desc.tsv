@@ -1,0 +1,250 @@
+value	description	source
+AD	Country or territory identified by ISO 3166-1 code AD; Andorra.	datasets/country-codes raw snapshot
+AE	Country or territory identified by ISO 3166-1 code AE; United Arab Emirates.	datasets/country-codes raw snapshot
+AF	Country or territory identified by ISO 3166-1 code AF; Afghanistan.	datasets/country-codes raw snapshot
+AG	Country or territory identified by ISO 3166-1 code AG; Antigua and Barbuda.	datasets/country-codes raw snapshot
+AI	Country or territory identified by ISO 3166-1 code AI; Anguilla.	datasets/country-codes raw snapshot
+AL	Country or territory identified by ISO 3166-1 code AL; Albania.	datasets/country-codes raw snapshot
+AM	Country or territory identified by ISO 3166-1 code AM; Armenia.	datasets/country-codes raw snapshot
+AO	Country or territory identified by ISO 3166-1 code AO; Angola.	datasets/country-codes raw snapshot
+AQ	Country or territory identified by ISO 3166-1 code AQ; Antarctica.	datasets/country-codes raw snapshot
+AR	Country or territory identified by ISO 3166-1 code AR; Argentina.	datasets/country-codes raw snapshot
+AS	Country or territory identified by ISO 3166-1 code AS; American Samoa.	datasets/country-codes raw snapshot
+AT	Country or territory identified by ISO 3166-1 code AT; Austria.	datasets/country-codes raw snapshot
+AU	Country or territory identified by ISO 3166-1 code AU; Australia.	datasets/country-codes raw snapshot
+AW	Country or territory identified by ISO 3166-1 code AW; Aruba.	datasets/country-codes raw snapshot
+AX	Country or territory identified by ISO 3166-1 code AX; Åland Islands.	datasets/country-codes raw snapshot
+AZ	Country or territory identified by ISO 3166-1 code AZ; Azerbaijan.	datasets/country-codes raw snapshot
+BA	Country or territory identified by ISO 3166-1 code BA; Bosnia and Herzegovina.	datasets/country-codes raw snapshot
+BB	Country or territory identified by ISO 3166-1 code BB; Barbados.	datasets/country-codes raw snapshot
+BD	Country or territory identified by ISO 3166-1 code BD; Bangladesh.	datasets/country-codes raw snapshot
+BE	Country or territory identified by ISO 3166-1 code BE; Belgium.	datasets/country-codes raw snapshot
+BF	Country or territory identified by ISO 3166-1 code BF; Burkina Faso.	datasets/country-codes raw snapshot
+BG	Country or territory identified by ISO 3166-1 code BG; Bulgaria.	datasets/country-codes raw snapshot
+BH	Country or territory identified by ISO 3166-1 code BH; Bahrain.	datasets/country-codes raw snapshot
+BI	Country or territory identified by ISO 3166-1 code BI; Burundi.	datasets/country-codes raw snapshot
+BJ	Country or territory identified by ISO 3166-1 code BJ; Benin.	datasets/country-codes raw snapshot
+BL	Country or territory identified by ISO 3166-1 code BL; Saint Barthélemy.	datasets/country-codes raw snapshot
+BM	Country or territory identified by ISO 3166-1 code BM; Bermuda.	datasets/country-codes raw snapshot
+BN	Country or territory identified by ISO 3166-1 code BN; Brunei Darussalam.	datasets/country-codes raw snapshot
+BO	Country or territory identified by ISO 3166-1 code BO; Bolivia (Plurinational State of).	datasets/country-codes raw snapshot
+BQ	Country or territory identified by ISO 3166-1 code BQ; Bonaire, Sint Eustatius and Saba.	datasets/country-codes raw snapshot
+BR	Country or territory identified by ISO 3166-1 code BR; Brazil.	datasets/country-codes raw snapshot
+BS	Country or territory identified by ISO 3166-1 code BS; Bahamas.	datasets/country-codes raw snapshot
+BT	Country or territory identified by ISO 3166-1 code BT; Bhutan.	datasets/country-codes raw snapshot
+BV	Country or territory identified by ISO 3166-1 code BV; Bouvet Island.	datasets/country-codes raw snapshot
+BW	Country or territory identified by ISO 3166-1 code BW; Botswana.	datasets/country-codes raw snapshot
+BY	Country or territory identified by ISO 3166-1 code BY; Belarus.	datasets/country-codes raw snapshot
+BZ	Country or territory identified by ISO 3166-1 code BZ; Belize.	datasets/country-codes raw snapshot
+CA	Country or territory identified by ISO 3166-1 code CA; Canada.	datasets/country-codes raw snapshot
+CC	Country or territory identified by ISO 3166-1 code CC; Cocos (Keeling) Islands.	datasets/country-codes raw snapshot
+CD	Country or territory identified by ISO 3166-1 code CD; Democratic Republic of the Congo.	datasets/country-codes raw snapshot
+CF	Country or territory identified by ISO 3166-1 code CF; Central African Republic.	datasets/country-codes raw snapshot
+CG	Country or territory identified by ISO 3166-1 code CG; Congo.	datasets/country-codes raw snapshot
+CH	Country or territory identified by ISO 3166-1 code CH; Switzerland.	datasets/country-codes raw snapshot
+CI	Country or territory identified by ISO 3166-1 code CI; Ivory Coast.	datasets/country-codes raw snapshot
+CK	Country or territory identified by ISO 3166-1 code CK; Cook Islands.	datasets/country-codes raw snapshot
+CL	Country or territory identified by ISO 3166-1 code CL; Chile.	datasets/country-codes raw snapshot
+CM	Country or territory identified by ISO 3166-1 code CM; Cameroon.	datasets/country-codes raw snapshot
+CN	Country or territory identified by ISO 3166-1 code CN; China.	datasets/country-codes raw snapshot
+CO	Country or territory identified by ISO 3166-1 code CO; Colombia.	datasets/country-codes raw snapshot
+CR	Country or territory identified by ISO 3166-1 code CR; Costa Rica.	datasets/country-codes raw snapshot
+CU	Country or territory identified by ISO 3166-1 code CU; Cuba.	datasets/country-codes raw snapshot
+CV	Country or territory identified by ISO 3166-1 code CV; Cabo Verde.	datasets/country-codes raw snapshot
+CW	Country or territory identified by ISO 3166-1 code CW; Curaçao.	datasets/country-codes raw snapshot
+CX	Country or territory identified by ISO 3166-1 code CX; Christmas Island.	datasets/country-codes raw snapshot
+CY	Country or territory identified by ISO 3166-1 code CY; Cyprus.	datasets/country-codes raw snapshot
+CZ	Country or territory identified by ISO 3166-1 code CZ; Czechia.	datasets/country-codes raw snapshot
+DE	Country or territory identified by ISO 3166-1 code DE; Germany.	datasets/country-codes raw snapshot
+DJ	Country or territory identified by ISO 3166-1 code DJ; Djibouti.	datasets/country-codes raw snapshot
+DK	Country or territory identified by ISO 3166-1 code DK; Denmark.	datasets/country-codes raw snapshot
+DM	Country or territory identified by ISO 3166-1 code DM; Dominica.	datasets/country-codes raw snapshot
+DO	Country or territory identified by ISO 3166-1 code DO; Dominican Republic.	datasets/country-codes raw snapshot
+DZ	Country or territory identified by ISO 3166-1 code DZ; Algeria.	datasets/country-codes raw snapshot
+EC	Country or territory identified by ISO 3166-1 code EC; Ecuador.	datasets/country-codes raw snapshot
+EE	Country or territory identified by ISO 3166-1 code EE; Estonia.	datasets/country-codes raw snapshot
+EG	Country or territory identified by ISO 3166-1 code EG; Egypt.	datasets/country-codes raw snapshot
+EH	Country or territory identified by ISO 3166-1 code EH; Western Sahara.	datasets/country-codes raw snapshot
+ER	Country or territory identified by ISO 3166-1 code ER; Eritrea.	datasets/country-codes raw snapshot
+ES	Country or territory identified by ISO 3166-1 code ES; Spain.	datasets/country-codes raw snapshot
+ET	Country or territory identified by ISO 3166-1 code ET; Ethiopia.	datasets/country-codes raw snapshot
+FI	Country or territory identified by ISO 3166-1 code FI; Finland.	datasets/country-codes raw snapshot
+FJ	Country or territory identified by ISO 3166-1 code FJ; Fiji.	datasets/country-codes raw snapshot
+FK	Country or territory identified by ISO 3166-1 code FK; Falkland Islands.	datasets/country-codes raw snapshot
+FM	Country or territory identified by ISO 3166-1 code FM; Micronesia (Federated States of).	datasets/country-codes raw snapshot
+FO	Country or territory identified by ISO 3166-1 code FO; Faroe Islands.	datasets/country-codes raw snapshot
+FR	Country or territory identified by ISO 3166-1 code FR; France.	datasets/country-codes raw snapshot
+GA	Country or territory identified by ISO 3166-1 code GA; Gabon.	datasets/country-codes raw snapshot
+GB	Country or territory identified by ISO 3166-1 code GB; United Kingdom of Great Britain and Northern Ireland.	datasets/country-codes raw snapshot
+GD	Country or territory identified by ISO 3166-1 code GD; Grenada.	datasets/country-codes raw snapshot
+GE	Country or territory identified by ISO 3166-1 code GE; Georgia.	datasets/country-codes raw snapshot
+GF	Country or territory identified by ISO 3166-1 code GF; French Guiana.	datasets/country-codes raw snapshot
+GG	Country or territory identified by ISO 3166-1 code GG; Guernsey.	datasets/country-codes raw snapshot
+GH	Country or territory identified by ISO 3166-1 code GH; Ghana.	datasets/country-codes raw snapshot
+GI	Country or territory identified by ISO 3166-1 code GI; Gibraltar.	datasets/country-codes raw snapshot
+GL	Country or territory identified by ISO 3166-1 code GL; Greenland.	datasets/country-codes raw snapshot
+GM	Country or territory identified by ISO 3166-1 code GM; Gambia.	datasets/country-codes raw snapshot
+GN	Country or territory identified by ISO 3166-1 code GN; Guinea.	datasets/country-codes raw snapshot
+GP	Country or territory identified by ISO 3166-1 code GP; Guadeloupe.	datasets/country-codes raw snapshot
+GQ	Country or territory identified by ISO 3166-1 code GQ; Equatorial Guinea.	datasets/country-codes raw snapshot
+GR	Country or territory identified by ISO 3166-1 code GR; Greece.	datasets/country-codes raw snapshot
+GS	Country or territory identified by ISO 3166-1 code GS; South Georgia and the South Sandwich Islands.	datasets/country-codes raw snapshot
+GT	Country or territory identified by ISO 3166-1 code GT; Guatemala.	datasets/country-codes raw snapshot
+GU	Country or territory identified by ISO 3166-1 code GU; Guam.	datasets/country-codes raw snapshot
+GW	Country or territory identified by ISO 3166-1 code GW; Guinea-Bissau.	datasets/country-codes raw snapshot
+GY	Country or territory identified by ISO 3166-1 code GY; Guyana.	datasets/country-codes raw snapshot
+HK	Country or territory identified by ISO 3166-1 code HK; China, Hong Kong Special Administrative Region.	datasets/country-codes raw snapshot
+HM	Country or territory identified by ISO 3166-1 code HM; Heard Island and McDonald Islands.	datasets/country-codes raw snapshot
+HN	Country or territory identified by ISO 3166-1 code HN; Honduras.	datasets/country-codes raw snapshot
+HR	Country or territory identified by ISO 3166-1 code HR; Croatia.	datasets/country-codes raw snapshot
+HT	Country or territory identified by ISO 3166-1 code HT; Haiti.	datasets/country-codes raw snapshot
+HU	Country or territory identified by ISO 3166-1 code HU; Hungary.	datasets/country-codes raw snapshot
+ID	Country or territory identified by ISO 3166-1 code ID; Indonesia.	datasets/country-codes raw snapshot
+IE	Country or territory identified by ISO 3166-1 code IE; Ireland.	datasets/country-codes raw snapshot
+IL	Country or territory identified by ISO 3166-1 code IL; Israel.	datasets/country-codes raw snapshot
+IM	Country or territory identified by ISO 3166-1 code IM; Isle of Man.	datasets/country-codes raw snapshot
+IN	Country or territory identified by ISO 3166-1 code IN; India.	datasets/country-codes raw snapshot
+IO	Country or territory identified by ISO 3166-1 code IO; British Indian Ocean Territory.	datasets/country-codes raw snapshot
+IQ	Country or territory identified by ISO 3166-1 code IQ; Iraq.	datasets/country-codes raw snapshot
+IR	Country or territory identified by ISO 3166-1 code IR; Iran (Islamic Republic of).	datasets/country-codes raw snapshot
+IS	Country or territory identified by ISO 3166-1 code IS; Iceland.	datasets/country-codes raw snapshot
+IT	Country or territory identified by ISO 3166-1 code IT; Italy.	datasets/country-codes raw snapshot
+JE	Country or territory identified by ISO 3166-1 code JE; Jersey.	datasets/country-codes raw snapshot
+JM	Country or territory identified by ISO 3166-1 code JM; Jamaica.	datasets/country-codes raw snapshot
+JO	Country or territory identified by ISO 3166-1 code JO; Jordan.	datasets/country-codes raw snapshot
+JP	Country or territory identified by ISO 3166-1 code JP; Japan.	datasets/country-codes raw snapshot
+KE	Country or territory identified by ISO 3166-1 code KE; Kenya.	datasets/country-codes raw snapshot
+KG	Country or territory identified by ISO 3166-1 code KG; Kyrgyzstan.	datasets/country-codes raw snapshot
+KH	Country or territory identified by ISO 3166-1 code KH; Cambodia.	datasets/country-codes raw snapshot
+KI	Country or territory identified by ISO 3166-1 code KI; Kiribati.	datasets/country-codes raw snapshot
+KM	Country or territory identified by ISO 3166-1 code KM; Comoros.	datasets/country-codes raw snapshot
+KN	Country or territory identified by ISO 3166-1 code KN; Saint Kitts and Nevis.	datasets/country-codes raw snapshot
+KP	Country or territory identified by ISO 3166-1 code KP; Democratic People's Republic of Korea.	datasets/country-codes raw snapshot
+KR	Country or territory identified by ISO 3166-1 code KR; Republic of Korea.	datasets/country-codes raw snapshot
+KW	Country or territory identified by ISO 3166-1 code KW; Kuwait.	datasets/country-codes raw snapshot
+KY	Country or territory identified by ISO 3166-1 code KY; Cayman Islands.	datasets/country-codes raw snapshot
+KZ	Country or territory identified by ISO 3166-1 code KZ; Kazakhstan.	datasets/country-codes raw snapshot
+LA	Country or territory identified by ISO 3166-1 code LA; Lao People's Democratic Republic.	datasets/country-codes raw snapshot
+LB	Country or territory identified by ISO 3166-1 code LB; Lebanon.	datasets/country-codes raw snapshot
+LC	Country or territory identified by ISO 3166-1 code LC; Saint Lucia.	datasets/country-codes raw snapshot
+LI	Country or territory identified by ISO 3166-1 code LI; Liechtenstein.	datasets/country-codes raw snapshot
+LK	Country or territory identified by ISO 3166-1 code LK; Sri Lanka.	datasets/country-codes raw snapshot
+LR	Country or territory identified by ISO 3166-1 code LR; Liberia.	datasets/country-codes raw snapshot
+LS	Country or territory identified by ISO 3166-1 code LS; Lesotho.	datasets/country-codes raw snapshot
+LT	Country or territory identified by ISO 3166-1 code LT; Lithuania.	datasets/country-codes raw snapshot
+LU	Country or territory identified by ISO 3166-1 code LU; Luxembourg.	datasets/country-codes raw snapshot
+LV	Country or territory identified by ISO 3166-1 code LV; Latvia.	datasets/country-codes raw snapshot
+LY	Country or territory identified by ISO 3166-1 code LY; Libya.	datasets/country-codes raw snapshot
+MA	Country or territory identified by ISO 3166-1 code MA; Morocco.	datasets/country-codes raw snapshot
+MC	Country or territory identified by ISO 3166-1 code MC; Monaco.	datasets/country-codes raw snapshot
+MD	Country or territory identified by ISO 3166-1 code MD; Republic of Moldova.	datasets/country-codes raw snapshot
+ME	Country or territory identified by ISO 3166-1 code ME; Montenegro.	datasets/country-codes raw snapshot
+MF	Country or territory identified by ISO 3166-1 code MF; Saint Martin (French Part).	datasets/country-codes raw snapshot
+MG	Country or territory identified by ISO 3166-1 code MG; Madagascar.	datasets/country-codes raw snapshot
+MH	Country or territory identified by ISO 3166-1 code MH; Marshall Islands.	datasets/country-codes raw snapshot
+MK	Country or territory identified by ISO 3166-1 code MK; North Macedonia.	datasets/country-codes raw snapshot
+ML	Country or territory identified by ISO 3166-1 code ML; Mali.	datasets/country-codes raw snapshot
+MM	Country or territory identified by ISO 3166-1 code MM; Myanmar.	datasets/country-codes raw snapshot
+MN	Country or territory identified by ISO 3166-1 code MN; Mongolia.	datasets/country-codes raw snapshot
+MO	Country or territory identified by ISO 3166-1 code MO; China, Macao Special Administrative Region.	datasets/country-codes raw snapshot
+MP	Country or territory identified by ISO 3166-1 code MP; Northern Mariana Islands.	datasets/country-codes raw snapshot
+MQ	Country or territory identified by ISO 3166-1 code MQ; Martinique.	datasets/country-codes raw snapshot
+MR	Country or territory identified by ISO 3166-1 code MR; Mauritania.	datasets/country-codes raw snapshot
+MS	Country or territory identified by ISO 3166-1 code MS; Montserrat.	datasets/country-codes raw snapshot
+MT	Country or territory identified by ISO 3166-1 code MT; Malta.	datasets/country-codes raw snapshot
+MU	Country or territory identified by ISO 3166-1 code MU; Mauritius.	datasets/country-codes raw snapshot
+MV	Country or territory identified by ISO 3166-1 code MV; Maldives.	datasets/country-codes raw snapshot
+MW	Country or territory identified by ISO 3166-1 code MW; Malawi.	datasets/country-codes raw snapshot
+MX	Country or territory identified by ISO 3166-1 code MX; Mexico.	datasets/country-codes raw snapshot
+MY	Country or territory identified by ISO 3166-1 code MY; Malaysia.	datasets/country-codes raw snapshot
+MZ	Country or territory identified by ISO 3166-1 code MZ; Mozambique.	datasets/country-codes raw snapshot
+NA	Country or territory identified by ISO 3166-1 code NA; Namibia.	datasets/country-codes raw snapshot
+NC	Country or territory identified by ISO 3166-1 code NC; New Caledonia.	datasets/country-codes raw snapshot
+NE	Country or territory identified by ISO 3166-1 code NE; Niger.	datasets/country-codes raw snapshot
+NF	Country or territory identified by ISO 3166-1 code NF; Norfolk Island.	datasets/country-codes raw snapshot
+NG	Country or territory identified by ISO 3166-1 code NG; Nigeria.	datasets/country-codes raw snapshot
+NI	Country or territory identified by ISO 3166-1 code NI; Nicaragua.	datasets/country-codes raw snapshot
+NL	Country or territory identified by ISO 3166-1 code NL; Netherlands.	datasets/country-codes raw snapshot
+NO	Country or territory identified by ISO 3166-1 code NO; Norway.	datasets/country-codes raw snapshot
+NP	Country or territory identified by ISO 3166-1 code NP; Nepal.	datasets/country-codes raw snapshot
+NR	Country or territory identified by ISO 3166-1 code NR; Nauru.	datasets/country-codes raw snapshot
+NU	Country or territory identified by ISO 3166-1 code NU; Niue.	datasets/country-codes raw snapshot
+NZ	Country or territory identified by ISO 3166-1 code NZ; New Zealand.	datasets/country-codes raw snapshot
+OM	Country or territory identified by ISO 3166-1 code OM; Oman.	datasets/country-codes raw snapshot
+PA	Country or territory identified by ISO 3166-1 code PA; Panama.	datasets/country-codes raw snapshot
+PE	Country or territory identified by ISO 3166-1 code PE; Peru.	datasets/country-codes raw snapshot
+PF	Country or territory identified by ISO 3166-1 code PF; French Polynesia.	datasets/country-codes raw snapshot
+PG	Country or territory identified by ISO 3166-1 code PG; Papua New Guinea.	datasets/country-codes raw snapshot
+PH	Country or territory identified by ISO 3166-1 code PH; Philippines.	datasets/country-codes raw snapshot
+PK	Country or territory identified by ISO 3166-1 code PK; Pakistan.	datasets/country-codes raw snapshot
+PL	Country or territory identified by ISO 3166-1 code PL; Poland.	datasets/country-codes raw snapshot
+PM	Country or territory identified by ISO 3166-1 code PM; Saint Pierre and Miquelon.	datasets/country-codes raw snapshot
+PN	Country or territory identified by ISO 3166-1 code PN; Pitcairn.	datasets/country-codes raw snapshot
+PR	Country or territory identified by ISO 3166-1 code PR; Puerto Rico.	datasets/country-codes raw snapshot
+PS	Country or territory identified by ISO 3166-1 code PS; State of Palestine.	datasets/country-codes raw snapshot
+PT	Country or territory identified by ISO 3166-1 code PT; Portugal.	datasets/country-codes raw snapshot
+PW	Country or territory identified by ISO 3166-1 code PW; Palau.	datasets/country-codes raw snapshot
+PY	Country or territory identified by ISO 3166-1 code PY; Paraguay.	datasets/country-codes raw snapshot
+QA	Country or territory identified by ISO 3166-1 code QA; Qatar.	datasets/country-codes raw snapshot
+RE	Country or territory identified by ISO 3166-1 code RE; Réunion.	datasets/country-codes raw snapshot
+RO	Country or territory identified by ISO 3166-1 code RO; Romania.	datasets/country-codes raw snapshot
+RS	Country or territory identified by ISO 3166-1 code RS; Serbia.	datasets/country-codes raw snapshot
+RU	Country or territory identified by ISO 3166-1 code RU; Russian Federation.	datasets/country-codes raw snapshot
+RW	Country or territory identified by ISO 3166-1 code RW; Rwanda.	datasets/country-codes raw snapshot
+SA	Country or territory identified by ISO 3166-1 code SA; Saudi Arabia.	datasets/country-codes raw snapshot
+SB	Country or territory identified by ISO 3166-1 code SB; Solomon Islands.	datasets/country-codes raw snapshot
+SC	Country or territory identified by ISO 3166-1 code SC; Seychelles.	datasets/country-codes raw snapshot
+SD	Country or territory identified by ISO 3166-1 code SD; Sudan.	datasets/country-codes raw snapshot
+SE	Country or territory identified by ISO 3166-1 code SE; Sweden.	datasets/country-codes raw snapshot
+SG	Country or territory identified by ISO 3166-1 code SG; Singapore.	datasets/country-codes raw snapshot
+SH	Country or territory identified by ISO 3166-1 code SH; Saint Helena.	datasets/country-codes raw snapshot
+SI	Country or territory identified by ISO 3166-1 code SI; Slovenia.	datasets/country-codes raw snapshot
+SJ	Country or territory identified by ISO 3166-1 code SJ; Svalbard and Jan Mayen Islands.	datasets/country-codes raw snapshot
+SK	Country or territory identified by ISO 3166-1 code SK; Slovakia.	datasets/country-codes raw snapshot
+SL	Country or territory identified by ISO 3166-1 code SL; Sierra Leone.	datasets/country-codes raw snapshot
+SM	Country or territory identified by ISO 3166-1 code SM; San Marino.	datasets/country-codes raw snapshot
+SN	Country or territory identified by ISO 3166-1 code SN; Senegal.	datasets/country-codes raw snapshot
+SO	Country or territory identified by ISO 3166-1 code SO; Somalia.	datasets/country-codes raw snapshot
+SR	Country or territory identified by ISO 3166-1 code SR; Suriname.	datasets/country-codes raw snapshot
+SS	Country or territory identified by ISO 3166-1 code SS; South Sudan.	datasets/country-codes raw snapshot
+ST	Country or territory identified by ISO 3166-1 code ST; Sao Tome and Principe.	datasets/country-codes raw snapshot
+SV	Country or territory identified by ISO 3166-1 code SV; El Salvador.	datasets/country-codes raw snapshot
+SX	Country or territory identified by ISO 3166-1 code SX; Sint Maarten (Dutch part).	datasets/country-codes raw snapshot
+SY	Country or territory identified by ISO 3166-1 code SY; Syrian Arab Republic.	datasets/country-codes raw snapshot
+SZ	Country or territory identified by ISO 3166-1 code SZ; Eswatini.	datasets/country-codes raw snapshot
+TC	Country or territory identified by ISO 3166-1 code TC; Turks and Caicos Islands.	datasets/country-codes raw snapshot
+TD	Country or territory identified by ISO 3166-1 code TD; Chad.	datasets/country-codes raw snapshot
+TF	Country or territory identified by ISO 3166-1 code TF; French Southern Territories.	datasets/country-codes raw snapshot
+TG	Country or territory identified by ISO 3166-1 code TG; Togo.	datasets/country-codes raw snapshot
+TH	Country or territory identified by ISO 3166-1 code TH; Thailand.	datasets/country-codes raw snapshot
+TJ	Country or territory identified by ISO 3166-1 code TJ; Tajikistan.	datasets/country-codes raw snapshot
+TK	Country or territory identified by ISO 3166-1 code TK; Tokelau.	datasets/country-codes raw snapshot
+TL	Country or territory identified by ISO 3166-1 code TL; Timor-Leste.	datasets/country-codes raw snapshot
+TM	Country or territory identified by ISO 3166-1 code TM; Turkmenistan.	datasets/country-codes raw snapshot
+TN	Country or territory identified by ISO 3166-1 code TN; Tunisia.	datasets/country-codes raw snapshot
+TO	Country or territory identified by ISO 3166-1 code TO; Tonga.	datasets/country-codes raw snapshot
+TR	Country or territory identified by ISO 3166-1 code TR; Türkiye.	datasets/country-codes raw snapshot
+TT	Country or territory identified by ISO 3166-1 code TT; Trinidad and Tobago.	datasets/country-codes raw snapshot
+TV	Country or territory identified by ISO 3166-1 code TV; Tuvalu.	datasets/country-codes raw snapshot
+TW	Country or territory identified by ISO 3166-1 code TW; Taiwan.	datasets/country-codes raw snapshot
+TZ	Country or territory identified by ISO 3166-1 code TZ; United Republic of Tanzania.	datasets/country-codes raw snapshot
+UA	Country or territory identified by ISO 3166-1 code UA; Ukraine.	datasets/country-codes raw snapshot
+UG	Country or territory identified by ISO 3166-1 code UG; Uganda.	datasets/country-codes raw snapshot
+UM	Country or territory identified by ISO 3166-1 code UM; United States Minor Outlying Islands.	datasets/country-codes raw snapshot
+US	Country or territory identified by ISO 3166-1 code US; United States of America.	datasets/country-codes raw snapshot
+UY	Country or territory identified by ISO 3166-1 code UY; Uruguay.	datasets/country-codes raw snapshot
+UZ	Country or territory identified by ISO 3166-1 code UZ; Uzbekistan.	datasets/country-codes raw snapshot
+VA	Country or territory identified by ISO 3166-1 code VA; Holy See.	datasets/country-codes raw snapshot
+VC	Country or territory identified by ISO 3166-1 code VC; Saint Vincent and the Grenadines.	datasets/country-codes raw snapshot
+VE	Country or territory identified by ISO 3166-1 code VE; Venezuela (Bolivarian Republic of).	datasets/country-codes raw snapshot
+VG	Country or territory identified by ISO 3166-1 code VG; British Virgin Islands.	datasets/country-codes raw snapshot
+VI	Country or territory identified by ISO 3166-1 code VI; United States Virgin Islands.	datasets/country-codes raw snapshot
+VN	Country or territory identified by ISO 3166-1 code VN; Viet Nam.	datasets/country-codes raw snapshot
+VU	Country or territory identified by ISO 3166-1 code VU; Vanuatu.	datasets/country-codes raw snapshot
+WF	Country or territory identified by ISO 3166-1 code WF; Wallis and Futuna Islands.	datasets/country-codes raw snapshot
+WS	Country or territory identified by ISO 3166-1 code WS; Samoa.	datasets/country-codes raw snapshot
+YE	Country or territory identified by ISO 3166-1 code YE; Yemen.	datasets/country-codes raw snapshot
+YT	Country or territory identified by ISO 3166-1 code YT; Mayotte.	datasets/country-codes raw snapshot
+ZA	Country or territory identified by ISO 3166-1 code ZA; South Africa.	datasets/country-codes raw snapshot
+ZM	Country or territory identified by ISO 3166-1 code ZM; Zambia.	datasets/country-codes raw snapshot
+ZW	Country or territory identified by ISO 3166-1 code ZW; Zimbabwe.	datasets/country-codes raw snapshot

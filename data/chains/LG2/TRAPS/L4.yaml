@@ -1,0 +1,48 @@
+A: fr
+C: g7_cctlds
+C_name: G7 member country-code top-level domains
+N_p: tr
+N_t:
+- lt
+- pt
+- 'no'
+- seven
+- compare
+- express
+- dds
+P_M:
+- jp
+- gb
+- us
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cctlds_all
+    - eu_member_cctlds
+    - eurozone_cctlds
+    - nato_cctlds
+    - oecd_cctlds
+    - schengen_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- cctlds_all
+- eu_member_cctlds
+- eurozone_cctlds
+- g20_cctlds
+- nato_cctlds
+- oecd_cctlds
+- oif_cctlds
+- schengen_cctlds
+field: proxy_connections.tld
+label: audit zone J6
+salience: 974084.0
+universe: tld

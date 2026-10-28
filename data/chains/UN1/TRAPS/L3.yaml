@@ -1,0 +1,43 @@
+A: Apple Inc.
+C: nasdaq_100
+C_name: Nasdaq-100 constituents
+N_p: Truist Financial
+N_t:
+- Chevron Corporation
+- Sherwin-Williams
+- ExxonMobil
+- Warehouses De Pauw
+- Acciona
+- United Parcel Service
+- 3M
+P_M:
+- Ferrovial
+- Constellation Energy
+- Paychex
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - dow_global_titans
+    - dow_jones
+    - fortune_global_500
+    - sp500
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- dow_global_titans
+- dow_jones
+- fortune_global_500
+- interbrand_top10_2025
+- sp500
+field: applications.sponsor_company
+label: award record V-50
+salience: 16238813.0
+universe: sponsor_company

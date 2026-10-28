@@ -1,0 +1,760 @@
+- id: eu_members
+  name: European Union member states
+  synonyms:
+  - European Union
+  - EU
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  changes: []
+  official_count: 27
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/european_union.html
+  salience: 2427987
+- id: schengen_members
+  name: Schengen Area member states
+  synonyms:
+  - Schengen Area
+  - Schengen
+  members:
+  - AT
+  - BE
+  - CH
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  disputed:
+  - BG
+  - RO
+  changes:
+  - value: BG
+    date: '2025-01-01'
+    event: full entry into Schengen Area
+  - value: RO
+    date: '2025-01-01'
+    event: full entry into Schengen Area
+  official_count: 29
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/schengen_area.html
+  salience: 1116871
+- id: nato_members
+  name: NATO member countries
+  synonyms:
+  - NATO
+  members:
+  - AL
+  - BE
+  - BG
+  - CA
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LT
+  - LU
+  - LV
+  - ME
+  - MK
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SI
+  - SK
+  - TR
+  - US
+  disputed:
+  - SE
+  changes:
+  - value: SE
+    date: '2024-03-07'
+    event: joined
+  official_count: 32
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/nato.html
+  salience: 2087661
+- id: oecd_members
+  name: OECD member countries
+  synonyms:
+  - OECD
+  members:
+  - AT
+  - AU
+  - BE
+  - CA
+  - CH
+  - CL
+  - CO
+  - CR
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HU
+  - IE
+  - IL
+  - IS
+  - IT
+  - JP
+  - KR
+  - LT
+  - LU
+  - LV
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  - TR
+  - US
+  disputed: []
+  changes: []
+  official_count: 38
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/oecd.html
+  salience: 579045
+- id: commonwealth_members
+  name: Commonwealth of Nations members
+  synonyms:
+  - Commonwealth
+  members:
+  - AG
+  - AU
+  - BB
+  - BD
+  - BN
+  - BS
+  - BW
+  - BZ
+  - CA
+  - CM
+  - CY
+  - DM
+  - FJ
+  - GA
+  - GB
+  - GD
+  - GH
+  - GM
+  - GY
+  - IN
+  - JM
+  - KE
+  - KI
+  - KN
+  - LC
+  - LK
+  - LS
+  - MT
+  - MU
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NR
+  - NZ
+  - PG
+  - PK
+  - RW
+  - SB
+  - SC
+  - SG
+  - SL
+  - TG
+  - TO
+  - TT
+  - TV
+  - TZ
+  - UG
+  - VC
+  - VU
+  - WS
+  - ZA
+  - ZM
+  disputed: []
+  changes: []
+  official_count: 55
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/commonwealth.html
+  salience: 1410547
+- id: african_union_members
+  name: African Union member states
+  synonyms:
+  - African Union
+  - AU
+  members:
+  - AO
+  - BF
+  - BI
+  - BJ
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - EH
+  - ER
+  - ET
+  - GA
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - KE
+  - KM
+  - LR
+  - LS
+  - LY
+  - MA
+  - MG
+  - ML
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - RW
+  - SC
+  - SD
+  - SL
+  - SN
+  - SO
+  - SS
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TN
+  - TZ
+  - UG
+  - ZA
+  - ZM
+  - ZW
+  disputed: []
+  changes: []
+  official_count: 55
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/african_union_official.html
+  salience: 378615
+- id: asean_members
+  name: ASEAN member states
+  synonyms:
+  - ASEAN
+  members:
+  - BN
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - PH
+  - SG
+  - TH
+  - VN
+  disputed:
+  - TL
+  changes:
+  - value: TL
+    date: '2025-10-26'
+    event: joined
+  official_count: 11
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/asean.html
+  salience: 933074
+- id: opec_members
+  name: OPEC member countries
+  synonyms:
+  - OPEC
+  members:
+  - CG
+  - DZ
+  - GA
+  - GQ
+  - IQ
+  - IR
+  - KW
+  - LY
+  - NG
+  - SA
+  - VE
+  disputed:
+  - AO
+  changes:
+  - value: AO
+    date: '2024-01-01'
+    event: left
+  official_count: 12
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/opec.html
+  salience: 880838
+- id: council_of_europe_members
+  name: Council of Europe member states
+  synonyms:
+  - Council of Europe
+  members:
+  - AD
+  - AL
+  - AM
+  - AT
+  - AZ
+  - BA
+  - BE
+  - BG
+  - CH
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IS
+  - IT
+  - LI
+  - LT
+  - LU
+  - LV
+  - MC
+  - MD
+  - ME
+  - MK
+  - MT
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - RS
+  - SE
+  - SI
+  - SK
+  - SM
+  - TR
+  - UA
+  disputed: []
+  changes: []
+  official_count: 46
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/council_of_europe_members.html
+  salience: 257063
+- id: un_members
+  name: United Nations member states
+  synonyms:
+  - United Nations
+  - UN
+  members:
+  - AD
+  - AE
+  - AF
+  - AG
+  - AL
+  - AM
+  - AO
+  - AR
+  - AT
+  - AU
+  - AZ
+  - BA
+  - BB
+  - BD
+  - BE
+  - BF
+  - BG
+  - BH
+  - BI
+  - BJ
+  - BN
+  - BO
+  - BR
+  - BS
+  - BT
+  - BW
+  - BY
+  - BZ
+  - CA
+  - CD
+  - CF
+  - CG
+  - CH
+  - CI
+  - CL
+  - CM
+  - CN
+  - CO
+  - CR
+  - CU
+  - CV
+  - CY
+  - CZ
+  - DE
+  - DJ
+  - DK
+  - DM
+  - DO
+  - DZ
+  - EC
+  - EE
+  - EG
+  - ER
+  - ES
+  - ET
+  - FI
+  - FJ
+  - FM
+  - FR
+  - GA
+  - GB
+  - GD
+  - GE
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GR
+  - GT
+  - GW
+  - GY
+  - HN
+  - HR
+  - HT
+  - HU
+  - ID
+  - IE
+  - IL
+  - IN
+  - IQ
+  - IR
+  - IS
+  - IT
+  - JM
+  - JO
+  - JP
+  - KE
+  - KG
+  - KH
+  - KI
+  - KM
+  - KN
+  - KP
+  - KR
+  - KW
+  - KZ
+  - LA
+  - LB
+  - LC
+  - LI
+  - LK
+  - LR
+  - LS
+  - LT
+  - LU
+  - LV
+  - LY
+  - MA
+  - MC
+  - MD
+  - ME
+  - MG
+  - MH
+  - MK
+  - ML
+  - MM
+  - MN
+  - MR
+  - MT
+  - MU
+  - MV
+  - MW
+  - MX
+  - MY
+  - MZ
+  - NA
+  - NE
+  - NG
+  - NI
+  - NL
+  - 'NO'
+  - NP
+  - NR
+  - NZ
+  - OM
+  - PA
+  - PE
+  - PG
+  - PH
+  - PK
+  - PL
+  - PT
+  - PW
+  - PY
+  - QA
+  - RO
+  - RS
+  - RU
+  - RW
+  - SA
+  - SB
+  - SC
+  - SD
+  - SE
+  - SG
+  - SI
+  - SK
+  - SL
+  - SM
+  - SN
+  - SO
+  - SR
+  - SS
+  - ST
+  - SV
+  - SY
+  - SZ
+  - TD
+  - TG
+  - TH
+  - TJ
+  - TL
+  - TM
+  - TN
+  - TO
+  - TR
+  - TT
+  - TV
+  - TZ
+  - UA
+  - UG
+  - US
+  - UY
+  - UZ
+  - VC
+  - VE
+  - VN
+  - VU
+  - WS
+  - YE
+  - ZA
+  - ZM
+  - ZW
+  disputed: []
+  changes: []
+  official_count: 193
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/un_members.html
+  salience: 499926
+- id: g20_members
+  name: G20 member countries
+  synonyms:
+  - G20
+  - Group of Twenty
+  members:
+  - AR
+  - AU
+  - BR
+  - CA
+  - CN
+  - DE
+  - FR
+  - GB
+  - ID
+  - IN
+  - IT
+  - JP
+  - KR
+  - MX
+  - RU
+  - SA
+  - TR
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  official_count: 21
+  out_of_universe:
+  - African Union
+  - European Union
+  source: Public member roster table; raw/country_sources/g20.html
+  salience: 741303
+- id: gcc_members
+  name: Gulf Cooperation Council member states
+  synonyms:
+  - Gulf Cooperation Council
+  - GCC
+  members:
+  - AE
+  - BH
+  - KW
+  - OM
+  - QA
+  - SA
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/gulf_cooperation_council.html
+  salience: 760907
+- id: pif_members
+  name: Pacific Islands Forum member countries
+  synonyms:
+  - Pacific Islands Forum
+  - PIF
+  members:
+  - AU
+  - CK
+  - FJ
+  - FM
+  - KI
+  - MH
+  - NC
+  - NR
+  - NU
+  - NZ
+  - PF
+  - PG
+  - PW
+  - SB
+  - TO
+  - TV
+  - VU
+  - WS
+  disputed: []
+  changes: []
+  official_count: 18
+  out_of_universe: []
+  source: Public member roster table; raw/country_sources/pacific_islands_forum.html
+  salience: 42517
+- id: arab_league_members
+  name: Arab League member states
+  synonyms:
+  - Arab League
+  members:
+  - AE
+  - BH
+  - DJ
+  - DZ
+  - EG
+  - IQ
+  - JO
+  - KM
+  - KW
+  - LB
+  - LY
+  - MA
+  - MR
+  - OM
+  - PS
+  - QA
+  - SA
+  - SD
+  - SO
+  - SY
+  - TN
+  - YE
+  disputed: []
+  changes: []
+  official_count: 22
+  out_of_universe: []
+  source: Wikidata P463 Q7172 membership snapshot; raw/target_org_memberships.json
+  salience: 379074
+- id: g7_members
+  name: Group of Seven members
+  synonyms:
+  - G7
+  - Group of Seven
+  members:
+  - CA
+  - DE
+  - FR
+  - GB
+  - IT
+  - JP
+  - US
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: Group of Seven member countries table; raw/country_sources/group_of_seven.html
+  salience: 808964

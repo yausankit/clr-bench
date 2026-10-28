@@ -1,0 +1,43 @@
+A: Lufthansa
+C: star_alliance_founders
+C_name: Five original Star Alliance member airlines
+N_p: All Nippon Airways
+N_t:
+- EgyptAir
+- Lucky Air
+- EVA Air
+- Air Calédonie
+- Stellar Airways
+- Transworld Aviation
+- LATAM Airlines Ecuador
+P_M:
+- Scandinavian Airlines
+- Thai Airways International
+- Air Canada
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - b787_operators
+    - iata_members
+    - star_alliance_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a380_operators
+- airlines_for_europe
+- b787_operators
+- iata_members
+- lufthansa_group_airlines
+- star_alliance_members
+field: trips.airline
+label: expense label 26
+salience: 630113.0
+universe: airline

@@ -1,0 +1,1116 @@
+A multinational's finance team audits employee travel expenses: every flight segment on a submitted claim is reimbursable and is counted once for the department of the employee who filed the claim.
+
+Write one Python 3 program in a single code block. Define solve(data), where data is the parsed JSON input (a dict), and return the answer as an int.
+
+Input:
+The input is one JSON object with four lists: departments (id, name, region), employees (id, name, department), claims (id, employee, submitted, currency, fare_amount, fare_display) and segments (id, claim, airline, departure_airport, arrival_airport, travel_date, route). employee.department and segment.claim are ids from the other lists.
+
+Each flight segment on a submitted expense claim counts once toward the total of the department of the employee who filed that claim.
+Return the largest total among the departments in the input, as an int.
+
+Field notes:
+- A segment whose airline is 'British Airways' is in desk label P5.
+- A segment whose arrival_airport is 'PEV' is in ledger code 35.
+Each label in the field notes stands for a real-world category of values; a note gives one member of that category, and the label's name does not say which category it is.
+
+Level rules:
+L1: From this level on, segments in desk label P5 are not counted.
+L2: From this level on, segments in ledger code 35 are not counted.
+
+Some hidden test inputs are the example input below with one or two field values changed; each is judged by the same rules.
+
+Value reference:
+segments.airline:
+- ABX Air — Airline based in US.
+- Alaska Airlines — Airline based in US.
+- American Airlines — Airline based in US.
+- Auric Air — Airline based in Tanzania.
+- Boutique Air — Airline based in San Fransisco, California.
+- British Airways — Airline based in UK.
+- Cabo Verde Airlines — Airline based in Cape Verde.
+- Cathay Pacific — Airline based in Hong Kong, PRC.
+- Caucasus Airlines — Airline based in Georgia.
+- DHL Aero Expreso — Airline based in Panama.
+- EL AL Israel Airlines Ltd. — Airline based in Israel.
+- HeavyLift Cargo Airlines — Airline based in Los Angeles, US.
+- InterCaribbean Airways — Airline based in Turks and Caicos.
+- Japan Airlines — Airline based in Japan.
+- MAYAir — Airline based in Mexico.
+- Oman Air — Airline based in Oman.
+- Orient Thai Airlines — Airline based in Thailand.
+- Pacific Coastal Airlines — Airline based in Canada.
+- Phoebus Apollo Aviation — Airline based in RSA.
+- Phoenix Air — Airline based in US.
+- Qantas Airways — Airline based in Australia.
+- Royal Air Maroc — Airline based in Morocco.
+- Royal Jordanian — Airline based in Jordan.
+- Safair — Airline based in RSA.
+- Sky Gates Airlines — Airline based in Russia.
+- Smartwings Hungary — Airline based in Hungary.
+- Somon Air — Airline based in Tajikistan.
+- Sunday Airlines — Airline based in Kazakhstan.
+- Urumqi Air — Airline based in PRC.
+- Vanilla Air — Airline based in Japan.
+- Virgin Australia Regional Airlines — Airline based in Perth, Australia.
+- Volaris — Airline based in Mexico.
+- Vueling — Airline based in Spain.
+- Wizz Air UK — Airline based in UK.
+segments.arrival_airport:
+- AOM — Adam Airport; Airport serving Adam, Oman.
+- BMQ — Bamburi Airport; Airport serving Bamburi, Kenya.
+- BXE — Bakel Airport; Airport in Senegal.
+- CHL — Challis Airport; Airport serving Idaho, US.
+- CYA — Antoine-Simon Airport; Airport in Haiti.
+- CZL — Mohamed Boudiaf International Airport; Airport serving Constantine Province, Algeria.
+- GAX — Gamba Airport; Airport serving Gamba, Gabon.
+- GVA — Geneva International Airport; Airport serving Meyrin, Switzerland.
+- HUD — Humboldt Municipal Airport; Airport serving Iowa, US.
+- HYF — Hayfields Airport; Airport serving East Sepik Province, Papua New Guinea.
+- KOZ — Ouzinkie Airport; Airport serving Kodiak Island Borough, US.
+- LTK — Latakia International Airport; Airport serving Gabala, Syria.
+- MJJ — Moki; Airport serving Madang Province, Papua New Guinea.
+- MKG — Muskegon County Airport; Airport serving Michigan, US.
+- NLF — Darnley Island Airport; Airport serving Torres Strait Island Region, Australia.
+- NNX — Nunukan Airport; Airport serving East Kalimantan, Indonesia.
+- PEV — Pécs-Pogány International Airport; Airport in Hungary.
+- PGK — Depati Amir Airport; Airport serving Pangkal Pinang, Indonesia.
+- PLF — Pala Airport; Airport serving Mayo-Kebbi Ouest Region, Chad.
+- PSI — Pasni Airport; Airport in Pakistan.
+- PUU — Tres de Mayo Airport; Airport serving Putumayo Department, Colombia.
+- SCT — Socotra Airport; Airport serving Socotra, Yemen.
+- SKD — Samarkand International Airport; Airport serving Samarkand, Uzbekistan.
+- SRL — Palo Verde Airport; Airport serving Mulege Municipality, Mexico.
+- SRP — Stord Airport; Airport serving Stord Municipality, Norway.
+- SWY — Sitiawan Airport; Airport serving Sitiawan, Malaysia.
+- SXL — Sligo Airport; Airport serving Strandhill, Ireland.
+- TCE — Tulcea Airport; Airport serving Danube Delta, Romania.
+- TRL — Terrell Municipal Airport; Airport serving Texas, US.
+- VLN — Arturo Michelena International Airport; Airport serving Carabobo, Venezuela.
+- YHA — Port Hope Simpson Airport; Airport serving Newfoundland and Labrador, Canada.
+- ZAJ — Zaranj Airport; Airport serving Zaranj District, Afghanistan.
+- ZBK — Žabljak Airport; Airport serving Zabljak, Montenegro.
+- ZRH — Zurich Airport; Airport serving Canton of Zurich, Switzerland.
+claims.currency:
+- BMD — Bermudian dollar; Money used in Bermuda.
+- CRC — Costa Rican colon; Money used in Costa Rica.
+- ERN — Eritrean nakfa; Money used in Eritrea.
+- GIP — Gibraltar pound; Money used in Gibraltar.
+- GNF — Guinean franc; Money used in Guinea.
+- GTQ — Guatemalan quetzal; Money used in Guatemala.
+- GYD — Guyanese dollar; Money used in Guyana.
+- HKD — Hong Kong dollar; Money used in Hong Kong.
+- HTG — Haitian gourde; Money used in Haiti.
+- IDR — Indonesian rupiah; Money used in Indonesia.
+- JPY — Japanese yen; Money used in Japan.
+- KZT — Kazakhstani tenge; Money used in Kazakhstan.
+- LKR — Sri Lankan rupee; Money used in Sri Lanka.
+- NIO — Nicaraguan córdoba; Money used in Nicaragua.
+- SBD — Solomon Islands dollar; Money used in Solomon.
+- SDG — Sudanese pound; Money used in Sudan.
+- SOS — Somali shilling; Money used in Somalia.
+- SRD — Surinamese dollar; Money used in Suriname.
+- SYP — Syrian pound; Money used in Syria.
+- VES — Venezuelan sovereign bolívar; Money used in Venezuela.
+- XAF — CFA franc BEAC; Money used in Cameroon and CAR.
+- ZWG — Zimbabwe Gold; Money used in Zimbabwe.
+
+Example input:
+{
+ "claims": [
+  {
+   "currency": "ERN",
+   "employee": "E0006",
+   "fare_amount": 494,
+   "fare_display": "ERN 494",
+   "id": "C00011",
+   "submitted": "2026-07-10"
+  },
+  {
+   "currency": "IDR",
+   "employee": "E0006",
+   "fare_amount": 3619,
+   "fare_display": "IDR 3,619",
+   "id": "C00012",
+   "submitted": "2026-01-04"
+  },
+  {
+   "currency": "ZWG",
+   "employee": "E0007",
+   "fare_amount": 1240,
+   "fare_display": "ZWG 1,240",
+   "id": "C00013",
+   "submitted": "2026-08-16"
+  },
+  {
+   "currency": "KZT",
+   "employee": "E0007",
+   "fare_amount": 1180,
+   "fare_display": "KZT 1,180",
+   "id": "C00014",
+   "submitted": "2026-07-07"
+  },
+  {
+   "currency": "KZT",
+   "employee": "E0008",
+   "fare_amount": 3672,
+   "fare_display": "KZT 3,672",
+   "id": "C00015",
+   "submitted": "2026-02-15"
+  },
+  {
+   "currency": "KZT",
+   "employee": "E0008",
+   "fare_amount": 2821,
+   "fare_display": "KZT 2,821",
+   "id": "C00016",
+   "submitted": "2026-08-22"
+  },
+  {
+   "currency": "GIP",
+   "employee": "E0009",
+   "fare_amount": 1003,
+   "fare_display": "GIP 1,003",
+   "id": "C00017",
+   "submitted": "2026-04-12"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0009",
+   "fare_amount": 950,
+   "fare_display": "HKD 950",
+   "id": "C00018",
+   "submitted": "2026-06-03"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0010",
+   "fare_amount": 428,
+   "fare_display": "HKD 428",
+   "id": "C00019",
+   "submitted": "2026-05-14"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0010",
+   "fare_amount": 3474,
+   "fare_display": "HKD 3,474",
+   "id": "C00020",
+   "submitted": "2026-06-23"
+  },
+  {
+   "currency": "IDR",
+   "employee": "E0051",
+   "fare_amount": 1574,
+   "fare_display": "IDR 1,574",
+   "id": "C00101",
+   "submitted": "2026-04-04"
+  },
+  {
+   "currency": "GIP",
+   "employee": "E0051",
+   "fare_amount": 3202,
+   "fare_display": "GIP 3,202",
+   "id": "C00102",
+   "submitted": "2026-05-28"
+  },
+  {
+   "currency": "GIP",
+   "employee": "E0052",
+   "fare_amount": 1526,
+   "fare_display": "GIP 1,526",
+   "id": "C00103",
+   "submitted": "2026-02-09"
+  },
+  {
+   "currency": "NIO",
+   "employee": "E0052",
+   "fare_amount": 1065,
+   "fare_display": "NIO 1,065",
+   "id": "C00104",
+   "submitted": "2026-01-09"
+  },
+  {
+   "currency": "KZT",
+   "employee": "E0053",
+   "fare_amount": 2225,
+   "fare_display": "KZT 2,225",
+   "id": "C00105",
+   "submitted": "2026-04-17"
+  },
+  {
+   "currency": "GNF",
+   "employee": "E0053",
+   "fare_amount": 805,
+   "fare_display": "GNF 805",
+   "id": "C00106",
+   "submitted": "2026-04-05"
+  },
+  {
+   "currency": "HTG",
+   "employee": "E0054",
+   "fare_amount": 1191,
+   "fare_display": "HTG 1,191",
+   "id": "C00107",
+   "submitted": "2026-04-13"
+  },
+  {
+   "currency": "IDR",
+   "employee": "E0054",
+   "fare_amount": 931,
+   "fare_display": "IDR 931",
+   "id": "C00108",
+   "submitted": "2026-06-16"
+  },
+  {
+   "currency": "ERN",
+   "employee": "E0055",
+   "fare_amount": 1931,
+   "fare_display": "ERN 1,931",
+   "id": "C00109",
+   "submitted": "2026-08-03"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0055",
+   "fare_amount": 238,
+   "fare_display": "HKD 238",
+   "id": "C00110",
+   "submitted": "2026-07-18"
+  },
+  {
+   "currency": "GNF",
+   "employee": "E0116",
+   "fare_amount": 2588,
+   "fare_display": "GNF 2,588",
+   "id": "C00231",
+   "submitted": "2026-02-22"
+  },
+  {
+   "currency": "IDR",
+   "employee": "E0116",
+   "fare_amount": 3826,
+   "fare_display": "IDR 3,826",
+   "id": "C00232",
+   "submitted": "2026-03-14"
+  },
+  {
+   "currency": "KZT",
+   "employee": "E0117",
+   "fare_amount": 2472,
+   "fare_display": "KZT 2,472",
+   "id": "C00233",
+   "submitted": "2026-07-12"
+  },
+  {
+   "currency": "SYP",
+   "employee": "E0117",
+   "fare_amount": 2659,
+   "fare_display": "SYP 2,659",
+   "id": "C00234",
+   "submitted": "2026-04-18"
+  },
+  {
+   "currency": "ZWG",
+   "employee": "E0118",
+   "fare_amount": 801,
+   "fare_display": "ZWG 801",
+   "id": "C00235",
+   "submitted": "2026-04-25"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0118",
+   "fare_amount": 662,
+   "fare_display": "HKD 662",
+   "id": "C00236",
+   "submitted": "2026-01-24"
+  },
+  {
+   "currency": "HTG",
+   "employee": "E0119",
+   "fare_amount": 414,
+   "fare_display": "HTG 414",
+   "id": "C00237",
+   "submitted": "2026-09-08"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0119",
+   "fare_amount": 272,
+   "fare_display": "HKD 272",
+   "id": "C00238",
+   "submitted": "2026-03-14"
+  },
+  {
+   "currency": "NIO",
+   "employee": "E0120",
+   "fare_amount": 2749,
+   "fare_display": "NIO 2,749",
+   "id": "C00239",
+   "submitted": "2026-08-17"
+  },
+  {
+   "currency": "GNF",
+   "employee": "E0120",
+   "fare_amount": 1181,
+   "fare_display": "GNF 1,181",
+   "id": "C00240",
+   "submitted": "2026-05-21"
+  },
+  {
+   "currency": "HTG",
+   "employee": "E0136",
+   "fare_amount": 904,
+   "fare_display": "HTG 904",
+   "id": "C00271",
+   "submitted": "2026-06-13"
+  },
+  {
+   "currency": "HTG",
+   "employee": "E0136",
+   "fare_amount": 3195,
+   "fare_display": "HTG 3,195",
+   "id": "C00272",
+   "submitted": "2026-08-27"
+  },
+  {
+   "currency": "ERN",
+   "employee": "E0137",
+   "fare_amount": 3131,
+   "fare_display": "ERN 3,131",
+   "id": "C00273",
+   "submitted": "2026-06-19"
+  },
+  {
+   "currency": "GIP",
+   "employee": "E0137",
+   "fare_amount": 1789,
+   "fare_display": "GIP 1,789",
+   "id": "C00274",
+   "submitted": "2026-09-19"
+  },
+  {
+   "currency": "ERN",
+   "employee": "E0138",
+   "fare_amount": 1351,
+   "fare_display": "ERN 1,351",
+   "id": "C00275",
+   "submitted": "2026-05-02"
+  },
+  {
+   "currency": "ZWG",
+   "employee": "E0138",
+   "fare_amount": 2960,
+   "fare_display": "ZWG 2,960",
+   "id": "C00276",
+   "submitted": "2026-08-08"
+  },
+  {
+   "currency": "HKD",
+   "employee": "E0139",
+   "fare_amount": 1565,
+   "fare_display": "HKD 1,565",
+   "id": "C00277",
+   "submitted": "2026-07-07"
+  },
+  {
+   "currency": "ZWG",
+   "employee": "E0139",
+   "fare_amount": 2991,
+   "fare_display": "ZWG 2,991",
+   "id": "C00278",
+   "submitted": "2026-05-22"
+  },
+  {
+   "currency": "GNF",
+   "employee": "E0140",
+   "fare_amount": 3625,
+   "fare_display": "GNF 3,625",
+   "id": "C00279",
+   "submitted": "2026-05-10"
+  },
+  {
+   "currency": "HTG",
+   "employee": "E0140",
+   "fare_amount": 2706,
+   "fare_display": "HTG 2,706",
+   "id": "C00280",
+   "submitted": "2026-07-04"
+  }
+ ],
+ "departments": [
+  {
+   "id": "D02",
+   "name": "Treasury",
+   "region": "APAC"
+  },
+  {
+   "id": "D11",
+   "name": "Investor Relations",
+   "region": "APAC"
+  },
+  {
+   "id": "D24",
+   "name": "Sales East",
+   "region": "AMER"
+  },
+  {
+   "id": "D28",
+   "name": "Billing",
+   "region": "EMEA"
+  }
+ ],
+ "employees": [
+  {
+   "department": "D02",
+   "id": "E0006",
+   "name": "Uma Ito"
+  },
+  {
+   "department": "D02",
+   "id": "E0007",
+   "name": "Jun Petrov"
+  },
+  {
+   "department": "D02",
+   "id": "E0008",
+   "name": "Ana Fischer"
+  },
+  {
+   "department": "D02",
+   "id": "E0009",
+   "name": "Ana Lindqvist"
+  },
+  {
+   "department": "D02",
+   "id": "E0010",
+   "name": "Gil Khan"
+  },
+  {
+   "department": "D11",
+   "id": "E0051",
+   "name": "Pia Petrov"
+  },
+  {
+   "department": "D11",
+   "id": "E0052",
+   "name": "Mira Eriksen"
+  },
+  {
+   "department": "D11",
+   "id": "E0053",
+   "name": "Vik Costa"
+  },
+  {
+   "department": "D11",
+   "id": "E0054",
+   "name": "Cleo Brandt"
+  },
+  {
+   "department": "D11",
+   "id": "E0055",
+   "name": "Quinn Fischer"
+  },
+  {
+   "department": "D24",
+   "id": "E0116",
+   "name": "Pia Sato"
+  },
+  {
+   "department": "D24",
+   "id": "E0117",
+   "name": "Quinn Khan"
+  },
+  {
+   "department": "D24",
+   "id": "E0118",
+   "name": "Dai Khan"
+  },
+  {
+   "department": "D24",
+   "id": "E0119",
+   "name": "Hana Okafor"
+  },
+  {
+   "department": "D24",
+   "id": "E0120",
+   "name": "Ola Khan"
+  },
+  {
+   "department": "D28",
+   "id": "E0136",
+   "name": "Rui Rossi"
+  },
+  {
+   "department": "D28",
+   "id": "E0137",
+   "name": "Ola Novak"
+  },
+  {
+   "department": "D28",
+   "id": "E0138",
+   "name": "Wen Petrov"
+  },
+  {
+   "department": "D28",
+   "id": "E0139",
+   "name": "Eli Okafor"
+  },
+  {
+   "department": "D28",
+   "id": "E0140",
+   "name": "Vik Jansen"
+  }
+ ],
+ "segments": [
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "BMQ",
+   "claim": "C00011",
+   "departure_airport": "HBQ",
+   "id": "S00019",
+   "route": "HBQ-BMQ",
+   "travel_date": "2026-07-05"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "PUU",
+   "claim": "C00012",
+   "departure_airport": "PSO",
+   "id": "S00020",
+   "route": "PSO-PUU",
+   "travel_date": "2026-01-03"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "BMQ",
+   "claim": "C00013",
+   "departure_airport": "WTP",
+   "id": "S00021",
+   "route": "WTP-BMQ",
+   "travel_date": "2026-08-15"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "MJJ",
+   "claim": "C00013",
+   "departure_airport": "PSO",
+   "id": "S00022",
+   "route": "PSO-MJJ",
+   "travel_date": "2026-08-11"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "YHA",
+   "claim": "C00014",
+   "departure_airport": "LOT",
+   "id": "S00023",
+   "route": "LOT-YHA",
+   "travel_date": "2026-07-05"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "YHA",
+   "claim": "C00015",
+   "departure_airport": "CQM",
+   "id": "S00024",
+   "route": "CQM-YHA",
+   "travel_date": "2026-02-12"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "MJJ",
+   "claim": "C00015",
+   "departure_airport": "ZTM",
+   "id": "S00025",
+   "route": "ZTM-MJJ",
+   "travel_date": "2026-02-15"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "HUD",
+   "claim": "C00016",
+   "departure_airport": "FEK",
+   "id": "S00026",
+   "route": "FEK-HUD",
+   "travel_date": "2026-08-19"
+  },
+  {
+   "airline": "Urumqi Air",
+   "arrival_airport": "BMQ",
+   "claim": "C00017",
+   "departure_airport": "KMQ",
+   "id": "S00027",
+   "route": "KMQ-BMQ",
+   "travel_date": "2026-04-12"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "MJJ",
+   "claim": "C00017",
+   "departure_airport": "WTP",
+   "id": "S00028",
+   "route": "WTP-MJJ",
+   "travel_date": "2026-04-11"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "MJJ",
+   "claim": "C00018",
+   "departure_airport": "YMO",
+   "id": "S00029",
+   "route": "YMO-MJJ",
+   "travel_date": "2026-06-02"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "TRL",
+   "claim": "C00019",
+   "departure_airport": "XBO",
+   "id": "S00030",
+   "route": "XBO-TRL",
+   "travel_date": "2026-05-14"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "TRL",
+   "claim": "C00020",
+   "departure_airport": "KET",
+   "id": "S00031",
+   "route": "KET-TRL",
+   "travel_date": "2026-06-19"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "MKG",
+   "claim": "C00020",
+   "departure_airport": "RBK",
+   "id": "S00032",
+   "route": "RBK-MKG",
+   "travel_date": "2026-06-23"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "YHA",
+   "claim": "C00101",
+   "departure_airport": "HBQ",
+   "id": "S00148",
+   "route": "HBQ-YHA",
+   "travel_date": "2026-04-01"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "HUD",
+   "claim": "C00101",
+   "departure_airport": "HBQ",
+   "id": "S00149",
+   "route": "HBQ-HUD",
+   "travel_date": "2026-04-03"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "CYA",
+   "claim": "C00102",
+   "departure_airport": "TEU",
+   "id": "S00150",
+   "route": "TEU-CYA",
+   "travel_date": "2026-05-28"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "HYF",
+   "claim": "C00102",
+   "departure_airport": "UBS",
+   "id": "S00151",
+   "route": "UBS-HYF",
+   "travel_date": "2026-05-28"
+  },
+  {
+   "airline": "MAYAir",
+   "arrival_airport": "HUD",
+   "claim": "C00103",
+   "departure_airport": "ZGR",
+   "id": "S00152",
+   "route": "ZGR-HUD",
+   "travel_date": "2026-02-08"
+  },
+  {
+   "airline": "MAYAir",
+   "arrival_airport": "MJJ",
+   "claim": "C00104",
+   "departure_airport": "HCM",
+   "id": "S00153",
+   "route": "HCM-MJJ",
+   "travel_date": "2026-01-09"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "PLF",
+   "claim": "C00104",
+   "departure_airport": "WNI",
+   "id": "S00154",
+   "route": "WNI-PLF",
+   "travel_date": "2026-01-07"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "YHA",
+   "claim": "C00105",
+   "departure_airport": "FEK",
+   "id": "S00155",
+   "route": "FEK-YHA",
+   "travel_date": "2026-04-14"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "MKG",
+   "claim": "C00105",
+   "departure_airport": "BEY",
+   "id": "S00156",
+   "route": "BEY-MKG",
+   "travel_date": "2026-04-13"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "CYA",
+   "claim": "C00106",
+   "departure_airport": "HMV",
+   "id": "S00157",
+   "route": "HMV-CYA",
+   "travel_date": "2026-04-02"
+  },
+  {
+   "airline": "Caucasus Airlines",
+   "arrival_airport": "MJJ",
+   "claim": "C00106",
+   "departure_airport": "ZTM",
+   "id": "S00158",
+   "route": "ZTM-MJJ",
+   "travel_date": "2026-04-03"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "CYA",
+   "claim": "C00107",
+   "departure_airport": "NTY",
+   "id": "S00159",
+   "route": "NTY-CYA",
+   "travel_date": "2026-04-13"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "TRL",
+   "claim": "C00107",
+   "departure_airport": "HCM",
+   "id": "S00160",
+   "route": "HCM-TRL",
+   "travel_date": "2026-04-10"
+  },
+  {
+   "airline": "Urumqi Air",
+   "arrival_airport": "MKG",
+   "claim": "C00108",
+   "departure_airport": "AXM",
+   "id": "S00161",
+   "route": "AXM-MKG",
+   "travel_date": "2026-06-12"
+  },
+  {
+   "airline": "Orient Thai Airlines",
+   "arrival_airport": "PUU",
+   "claim": "C00108",
+   "departure_airport": "FEK",
+   "id": "S00162",
+   "route": "FEK-PUU",
+   "travel_date": "2026-06-14"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "CYA",
+   "claim": "C00109",
+   "departure_airport": "MBD",
+   "id": "S00163",
+   "route": "MBD-CYA",
+   "travel_date": "2026-08-02"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "TRL",
+   "claim": "C00110",
+   "departure_airport": "ALL",
+   "id": "S00164",
+   "route": "ALL-TRL",
+   "travel_date": "2026-07-14"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "PLF",
+   "claim": "C00110",
+   "departure_airport": "HBQ",
+   "id": "S00165",
+   "route": "HBQ-PLF",
+   "travel_date": "2026-07-15"
+  },
+  {
+   "airline": "Caucasus Airlines",
+   "arrival_airport": "TRL",
+   "claim": "C00231",
+   "departure_airport": "BMF",
+   "id": "S00348",
+   "route": "BMF-TRL",
+   "travel_date": "2026-02-22"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "TRL",
+   "claim": "C00232",
+   "departure_airport": "BMF",
+   "id": "S00349",
+   "route": "BMF-TRL",
+   "travel_date": "2026-03-11"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "BMQ",
+   "claim": "C00232",
+   "departure_airport": "ALL",
+   "id": "S00350",
+   "route": "ALL-BMQ",
+   "travel_date": "2026-03-14"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "PUU",
+   "claim": "C00233",
+   "departure_airport": "KIW",
+   "id": "S00351",
+   "route": "KIW-PUU",
+   "travel_date": "2026-07-11"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "PUU",
+   "claim": "C00234",
+   "departure_airport": "PSO",
+   "id": "S00352",
+   "route": "PSO-PUU",
+   "travel_date": "2026-04-17"
+  },
+  {
+   "airline": "Orient Thai Airlines",
+   "arrival_airport": "BMQ",
+   "claim": "C00235",
+   "departure_airport": "RLG",
+   "id": "S00353",
+   "route": "RLG-BMQ",
+   "travel_date": "2026-04-21"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "YHA",
+   "claim": "C00235",
+   "departure_airport": "NTY",
+   "id": "S00354",
+   "route": "NTY-YHA",
+   "travel_date": "2026-04-21"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "MKG",
+   "claim": "C00236",
+   "departure_airport": "XBO",
+   "id": "S00355",
+   "route": "XBO-MKG",
+   "travel_date": "2026-01-23"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "PUU",
+   "claim": "C00237",
+   "departure_airport": "DTH",
+   "id": "S00356",
+   "route": "DTH-PUU",
+   "travel_date": "2026-09-07"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "PLF",
+   "claim": "C00238",
+   "departure_airport": "PSO",
+   "id": "S00357",
+   "route": "PSO-PLF",
+   "travel_date": "2026-03-09"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "PEV",
+   "claim": "C00238",
+   "departure_airport": "UBS",
+   "id": "S00358",
+   "route": "UBS-PEV",
+   "travel_date": "2026-03-14"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "CYA",
+   "claim": "C00239",
+   "departure_airport": "AXM",
+   "id": "S00359",
+   "route": "AXM-CYA",
+   "travel_date": "2026-08-17"
+  },
+  {
+   "airline": "Urumqi Air",
+   "arrival_airport": "CYA",
+   "claim": "C00239",
+   "departure_airport": "ZGR",
+   "id": "S00360",
+   "route": "ZGR-CYA",
+   "travel_date": "2026-08-13"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "PLF",
+   "claim": "C00240",
+   "departure_airport": "UBS",
+   "id": "S00361",
+   "route": "UBS-PLF",
+   "travel_date": "2026-05-20"
+  },
+  {
+   "airline": "Vanilla Air",
+   "arrival_airport": "MJJ",
+   "claim": "C00240",
+   "departure_airport": "YMO",
+   "id": "S00362",
+   "route": "YMO-MJJ",
+   "travel_date": "2026-05-18"
+  },
+  {
+   "airline": "Orient Thai Airlines",
+   "arrival_airport": "BMQ",
+   "claim": "C00271",
+   "departure_airport": "YMO",
+   "id": "S00406",
+   "route": "YMO-BMQ",
+   "travel_date": "2026-06-10"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "CYA",
+   "claim": "C00272",
+   "departure_airport": "MBD",
+   "id": "S00407",
+   "route": "MBD-CYA",
+   "travel_date": "2026-08-24"
+  },
+  {
+   "airline": "MAYAir",
+   "arrival_airport": "MKG",
+   "claim": "C00273",
+   "departure_airport": "HBQ",
+   "id": "S00408",
+   "route": "HBQ-MKG",
+   "travel_date": "2026-06-14"
+  },
+  {
+   "airline": "EL AL Israel Airlines Ltd.",
+   "arrival_airport": "PUU",
+   "claim": "C00273",
+   "departure_airport": "TUD",
+   "id": "S00409",
+   "route": "TUD-PUU",
+   "travel_date": "2026-06-14"
+  },
+  {
+   "airline": "Caucasus Airlines",
+   "arrival_airport": "BMQ",
+   "claim": "C00274",
+   "departure_airport": "ZGR",
+   "id": "S00410",
+   "route": "ZGR-BMQ",
+   "travel_date": "2026-09-16"
+  },
+  {
+   "airline": "British Airways",
+   "arrival_airport": "BMQ",
+   "claim": "C00275",
+   "departure_airport": "WNI",
+   "id": "S00411",
+   "route": "WNI-BMQ",
+   "travel_date": "2026-05-01"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "CYA",
+   "claim": "C00276",
+   "departure_airport": "KET",
+   "id": "S00412",
+   "route": "KET-CYA",
+   "travel_date": "2026-08-07"
+  },
+  {
+   "airline": "Urumqi Air",
+   "arrival_airport": "TRL",
+   "claim": "C00276",
+   "departure_airport": "FEK",
+   "id": "S00413",
+   "route": "FEK-TRL",
+   "travel_date": "2026-08-07"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "PLF",
+   "claim": "C00277",
+   "departure_airport": "WTP",
+   "id": "S00414",
+   "route": "WTP-PLF",
+   "travel_date": "2026-07-06"
+  },
+  {
+   "airline": "Somon Air",
+   "arrival_airport": "HUD",
+   "claim": "C00277",
+   "departure_airport": "PSO",
+   "id": "S00415",
+   "route": "PSO-HUD",
+   "travel_date": "2026-07-02"
+  },
+  {
+   "airline": "ABX Air",
+   "arrival_airport": "CYA",
+   "claim": "C00278",
+   "departure_airport": "ZTM",
+   "id": "S00416",
+   "route": "ZTM-CYA",
+   "travel_date": "2026-05-22"
+  },
+  {
+   "airline": "Volaris",
+   "arrival_airport": "HUD",
+   "claim": "C00279",
+   "departure_airport": "KIW",
+   "id": "S00417",
+   "route": "KIW-HUD",
+   "travel_date": "2026-05-10"
+  },
+  {
+   "airline": "Boutique Air",
+   "arrival_airport": "MKG",
+   "claim": "C00280",
+   "departure_airport": "KET",
+   "id": "S00418",
+   "route": "KET-MKG",
+   "travel_date": "2026-07-01"
+  },
+  {
+   "airline": "Urumqi Air",
+   "arrival_airport": "HUD",
+   "claim": "C00280",
+   "departure_airport": "HBQ",
+   "id": "S00419",
+   "route": "HBQ-HUD",
+   "travel_date": "2026-07-02"
+  }
+ ]
+}

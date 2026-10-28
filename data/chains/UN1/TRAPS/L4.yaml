@@ -1,0 +1,46 @@
+A: CA
+C: g20
+C_name: G20 members
+N_p: TD
+N_t:
+- IS
+- GH
+- CZ
+- IM
+- CX
+- MQ
+- HR
+P_M:
+- BR
+- SA
+- AR
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - arctic_council
+    - commonwealth
+    - nato
+    - oecd
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 24
+    pass: true
+comp_A:
+- arctic_council
+- commonwealth
+- cptpp
+- five_eyes
+- francophonie
+- g7
+- nato
+- oecd
+field: applicants.nationality
+label: audit pass T6
+salience: 995333.0
+universe: country

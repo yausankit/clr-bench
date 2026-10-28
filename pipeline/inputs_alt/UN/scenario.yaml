@@ -1,0 +1,140 @@
+business_process: An international education foundation reviews scholarship applications
+  and totals cases for follow-up by funding programme.
+fields:
+  applications.university:
+    universe: university
+    value_form: self_describing
+  applicants.nationality:
+    universe: country
+    value_form: code
+  applications.sponsor_company:
+    universe: sponsor_company
+    value_form: self_describing
+rule_templates:
+- id: university_rule_1
+  field: applications.university
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications when the applicant''s university
+    is listed by a named university association or historical set.'
+  rule: Exclude an application if the applicant's university is listed by a named
+    university association or historical set.
+  plausible: &id001
+  - russell_group
+  - ivy_league
+  - c9_league
+  - group_of_eight
+  - u15_canada
+  - leru
+  - coimbra_group
+  - aau
+  - universitas_21
+  - cesaer
+  - apru
+  - idea_league
+  - golden_triangle
+  - ancient_universities
+  - public_ivies
+  - big_ten
+  - utrecht_network
+  - matariki
+  - worldwide_universities_network
+  - aearu
+  - iaru
+  - asian_universities_alliance
+  - aun
+- id: university_rule_2
+  field: applications.university
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications when the applicant''s university
+    is listed by a named university association or historical set.'
+  rule: Exclude an application if the applicant's university is listed by a named
+    university association or historical set.
+  plausible: *id001
+- id: university_rule_3
+  field: applications.university
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications when the applicant''s university
+    is listed by a named university association or historical set.'
+  rule: Exclude an application if the applicant's university is listed by a named
+    university association or historical set.
+  plausible: *id001
+- id: country_rule_1
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications whose applicant nationality appears
+    on a named international body or programme roster.'
+  rule: Exclude an application if its applicant's nationality appears on a named international
+    body or programme roster.
+  plausible: &id002
+  - ehea
+  - erasmus_countries
+  - commonwealth
+  - asean
+  - pacific_islands_forum
+  - francophonie
+  - african_union
+  - oic
+  - arab_league
+  - g20
+  - g7
+  - caricom
+  - cplp
+  - nato
+  - oecd
+- id: country_rule_2
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications whose applicant nationality appears
+    on a named international body or programme roster.'
+  rule: Exclude an application if its applicant's nationality appears on a named international
+    body or programme roster.
+  plausible: *id002
+- id: country_rule_3
+  field: applicants.nationality
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications whose applicant nationality appears
+    on a named international body or programme roster.'
+  rule: Exclude an application if its applicant's nationality appears on a named international
+    body or programme roster.
+  plausible: *id002
+- id: sponsor_company_rule_1
+  field: applications.sponsor_company
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications sponsored by a company appearing
+    in a named equity index, company ranking or financial-stability roster.'
+  rule: Exclude an application if its sponsoring company appears in a named equity
+    index, company ranking or financial-stability roster.
+  plausible: &id003
+  - euro_stoxx_50
+  - stoxx_europe_600
+  - euronext_100
+  - ftse_100
+  - dow_jones
+  - omx_nordic_40
+  - sp500
+  - nasdaq_100
+  - dow_global_titans
+  - g_sib
+  - fortune_global_500
+  - interbrand_top10_2025
+- id: sponsor_company_rule_2
+  field: applications.sponsor_company
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications sponsored by a company appearing
+    in a named equity index, company ranking or financial-stability roster.'
+  rule: Exclude an application if its sponsoring company appears in a named equity
+    index, company ranking or financial-stability roster.
+  plausible: *id003
+- id: sponsor_company_rule_3
+  field: applications.sponsor_company
+  effect: exclude_record
+  source: 'Supplement: Review excludes applications sponsored by a company appearing
+    in a named equity index, company ranking or financial-stability roster.'
+  rule: Exclude an application if its sponsoring company appears in a named equity
+    index, company ranking or financial-stability roster.
+  plausible: *id003
+label_nouns:
+- award record
+- review docket
+- settlement note
+- audit pass

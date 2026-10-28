@@ -1,0 +1,44 @@
+A: Real Madrid
+C: ucl_winners
+C_name: European Cup and UEFA Champions League winners
+N_p: Dinamo Zagreb
+N_t:
+- VfB Stuttgart
+- Boca Juniors
+- Ipswich Town
+- Galatasaray
+- Zaragoza
+- Dynamo Kyiv
+- Sparta Prague
+P_M:
+- Steaua București
+- Nottingham Forest
+- Hamburger SV
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - club_world_cup_2025_participants
+    - ucl_2024_25_league_phase
+    - uel_winners
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- club_world_cup_2025_participants
+- club_world_cup_winners
+- g14_members
+- laliga_1929
+- super_league_founders
+- ucl_2024_25_league_phase
+- uel_winners
+field: activations.club
+label: handling class P8
+salience: 2868927.0
+universe: club

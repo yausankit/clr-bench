@@ -1,0 +1,396 @@
+- id: eu_members
+  name: European Union member states
+  synonyms:
+  - EU member states
+  members:
+  - AT
+  - BE
+  - BG
+  - CY
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GR
+  - HR
+  - HU
+  - IE
+  - IT
+  - LT
+  - LU
+  - LV
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 27
+  source: https://www.wikidata.org/wiki/Q458
+  salience: 678362
+- id: nato_members
+  name: NATO member states
+  synonyms:
+  - North Atlantic Treaty Organization members
+  members:
+  - AL
+  - BE
+  - BG
+  - CA
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IS
+  - IT
+  - LT
+  - LU
+  - LV
+  - ME
+  - MK
+  - NL
+  - 'NO'
+  - PL
+  - PT
+  - RO
+  - SE
+  - SI
+  - SK
+  - TR
+  - US
+  disputed: []
+  changes:
+  - value: FI
+    date: '2023-04-04'
+    event: joined
+  - value: SE
+    date: '2024-03-07'
+    event: joined
+  out_of_universe: []
+  official_count: 32
+  source: https://www.wikidata.org/wiki/Q7184
+  salience: 2129009
+- id: g7_members
+  name: Group of Seven member states
+  synonyms:
+  - G7 members
+  members:
+  - CA
+  - DE
+  - FR
+  - GB
+  - IT
+  - JP
+  - US
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 7
+  source: https://www.wikidata.org/wiki/Q1764511
+  salience: 802164
+- id: g20_members
+  name: G20 member states
+  synonyms:
+  - Group of Twenty members
+  members:
+  - AR
+  - AU
+  - BR
+  - CA
+  - CN
+  - DE
+  - FR
+  - GB
+  - ID
+  - IN
+  - IT
+  - JP
+  - KR
+  - MX
+  - RU
+  - SA
+  - TR
+  - US
+  - ZA
+  disputed: []
+  changes: []
+  out_of_universe:
+  - African Union
+  - European Union
+  official_count: 21
+  source: https://www.wikidata.org/wiki/Q19771
+  salience: 746828
+- id: oecd_members
+  name: OECD member states
+  synonyms:
+  - Organisation for Economic Co-operation and Development members
+  members:
+  - AT
+  - AU
+  - BE
+  - CA
+  - CH
+  - CL
+  - CO
+  - CR
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GR
+  - HU
+  - IE
+  - IL
+  - IS
+  - IT
+  - JP
+  - KR
+  - LT
+  - LU
+  - LV
+  - MX
+  - NL
+  - 'NO'
+  - NZ
+  - PL
+  - PT
+  - SE
+  - SI
+  - SK
+  - TR
+  - US
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 38
+  source: https://www.wikidata.org/wiki/Q41550
+  salience: 583168
+- id: opec_members
+  name: OPEC member states
+  synonyms:
+  - Organization of the Petroleum Exporting Countries members
+  members:
+  - AE
+  - AO
+  - CG
+  - DZ
+  - GA
+  - GQ
+  - IQ
+  - IR
+  - KW
+  - LY
+  - NG
+  - SA
+  - VE
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 13
+  source: https://www.wikidata.org/wiki/Q7795
+  salience: 891426
+- id: asean_members
+  name: ASEAN member states
+  synonyms:
+  - Association of Southeast Asian Nations members
+  members:
+  - BN
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - PH
+  - SG
+  - TH
+  - VN
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 10
+  source: https://www.wikidata.org/wiki/Q7768
+  salience: 946505
+- id: african_union_members
+  name: African Union member states
+  synonyms:
+  - AU member states
+  members:
+  - AO
+  - BF
+  - BI
+  - BJ
+  - BW
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - CV
+  - DJ
+  - DZ
+  - EG
+  - ER
+  - ET
+  - GA
+  - GH
+  - GM
+  - GN
+  - GQ
+  - GW
+  - KE
+  - KM
+  - LR
+  - LS
+  - LY
+  - MA
+  - MG
+  - ML
+  - MR
+  - MU
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - RW
+  - SC
+  - SD
+  - SL
+  - SN
+  - SO
+  - SS
+  - ST
+  - SZ
+  - TD
+  - TG
+  - TN
+  - TZ
+  - UG
+  - ZA
+  - ZM
+  - ZW
+  disputed: []
+  changes: []
+  out_of_universe:
+  - Sahrawi Arab Democratic Republic
+  official_count: 55
+  source: https://www.wikidata.org/wiki/Q7159
+  salience: 382745
+- id: commonwealth_members
+  name: Commonwealth of Nations member states
+  synonyms:
+  - Commonwealth members
+  members:
+  - AG
+  - AU
+  - BB
+  - BD
+  - BN
+  - BS
+  - BW
+  - BZ
+  - CA
+  - CM
+  - CY
+  - DM
+  - FJ
+  - GA
+  - GB
+  - GD
+  - GH
+  - GM
+  - GY
+  - IN
+  - JM
+  - KE
+  - KI
+  - KN
+  - LC
+  - LK
+  - LS
+  - MT
+  - MU
+  - MV
+  - MW
+  - MY
+  - MZ
+  - NA
+  - NG
+  - NR
+  - NZ
+  - PG
+  - PK
+  - RW
+  - SB
+  - SC
+  - SG
+  - SL
+  - SZ
+  - TG
+  - TO
+  - TT
+  - TV
+  - TZ
+  - UG
+  - VC
+  - VU
+  - WS
+  - ZA
+  - ZM
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 56
+  source: https://www.wikidata.org/wiki/Q7785
+  salience: 1422475
+- id: apec_members
+  name: APEC member economies
+  synonyms:
+  - Asia-Pacific Economic Cooperation members
+  members:
+  - AU
+  - BN
+  - CA
+  - CL
+  - CN
+  - HK
+  - ID
+  - JP
+  - KR
+  - MX
+  - MY
+  - NZ
+  - PE
+  - PG
+  - PH
+  - RU
+  - SG
+  - TH
+  - TW
+  - US
+  - VN
+  disputed: []
+  changes: []
+  out_of_universe: []
+  official_count: 21
+  source: https://www.wikidata.org/wiki/Q170481
+  salience: 215960

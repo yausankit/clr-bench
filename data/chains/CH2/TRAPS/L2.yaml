@@ -1,0 +1,50 @@
+A: FR
+C: g7
+C_name: Group of Seven member countries
+N_p: PL
+N_t:
+- CZ
+- LT
+- BE
+- BB
+- SG
+- MM
+- EG
+P_M:
+- JP
+- US
+- GB
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - australia_group
+    - eu
+    - eu_1958
+    - mtcr
+    - nato
+    - nsg
+    - schengen
+    - wassenaar
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- australia_group
+- eu
+- eu_1958
+- mtcr
+- nato
+- nsg
+- schengen
+- wassenaar
+field: declarations.exporter_country
+label: review batch 71
+salience: 808964.0
+universe: country

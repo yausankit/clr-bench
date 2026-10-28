@@ -1,0 +1,54 @@
+A: DE
+C: european_economic_area
+C_name: European Economic Area
+N_p: ME
+N_t:
+- TR
+- CH
+- CA
+- AX
+- BT
+- MG
+- MS
+P_M:
+- LI
+- BG
+- CY
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe
+    - g20
+    - g7
+    - international_hydrographic_organization
+    - nato
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - schengen_area
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 24
+    pass: true
+comp_A:
+- council_of_europe
+- council_of_the_baltic_sea_states
+- european_union
+- g20
+- g7
+- international_hydrographic_organization
+- nato
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- schengen_area
+- world_trade_organization
+field: ships.flag_state
+label: review ledger M7
+salience: 322322.0
+universe: flag

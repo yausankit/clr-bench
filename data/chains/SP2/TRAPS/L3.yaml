@@ -1,0 +1,42 @@
+A: DE
+C: eu_members
+C_name: European Union member states
+N_p: CO
+N_t:
+- MK
+- JP
+- BR
+- MD
+- GN
+- GB
+- KN
+P_M:
+- CY
+- MT
+- AT
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - g20_members
+    - g7_members
+    - nato_members
+    - oecd_members
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- g20_members
+- g7_members
+- nato_members
+- oecd_members
+field: activations.market_country
+label: review tag Y-25
+salience: 678362.0
+universe: market_country

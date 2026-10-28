@@ -1,0 +1,135 @@
+{
+ "L1": {
+  "C": "oecd",
+  "competitors": [
+   {
+    "id": "commonwealth",
+    "name": "Commonwealth member countries"
+   },
+   {
+    "id": "francophonie",
+    "name": "Francophonie member states and governments"
+   },
+   {
+    "id": "g20",
+    "name": "G20 members"
+   },
+   {
+    "id": "g7",
+    "name": "G7 members"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member states"
+   }
+  ],
+  "name": "OECD member countries",
+  "synonyms": []
+ },
+ "L2": {
+  "C": "nasdaq_100",
+  "competitors": [
+   {
+    "id": "dow_global_titans",
+    "name": "Dow Jones Global Titans 50"
+   },
+   {
+    "id": "dow_jones",
+    "name": "Dow Jones Industrial Average"
+   },
+   {
+    "id": "fortune_global_500",
+    "name": "Fortune Global 500"
+   },
+   {
+    "id": "interbrand_top10_2025",
+    "name": "Interbrand Best Global Brands top 10 (2025)"
+   },
+   {
+    "id": "sp500",
+    "name": "S&P 500 constituents"
+   }
+  ],
+  "name": "Nasdaq-100 constituents",
+  "synonyms": []
+ },
+ "L3": {
+  "C": "aun",
+  "competitors": [
+   {
+    "id": "apru",
+    "name": "Association of Pacific Rim Universities"
+   },
+   {
+    "id": "asian_universities_alliance",
+    "name": "Asian Universities Alliance"
+   },
+   {
+    "id": "iaru",
+    "name": "International Alliance of Research Universities"
+   },
+   {
+    "id": "universitas_21",
+    "name": "Universitas 21"
+   }
+  ],
+  "name": "ASEAN University Network core members",
+  "synonyms": []
+ },
+ "L4": {
+  "C": "g20",
+  "competitors": [
+   {
+    "id": "ehea",
+    "name": "European Higher Education Area members"
+   },
+   {
+    "id": "erasmus_countries",
+    "name": "Erasmus+ programme countries"
+   },
+   {
+    "id": "francophonie",
+    "name": "Francophonie member states and governments"
+   },
+   {
+    "id": "g7",
+    "name": "G7 members"
+   },
+   {
+    "id": "nato",
+    "name": "NATO member states"
+   },
+   {
+    "id": "oecd",
+    "name": "OECD member countries"
+   }
+  ],
+  "name": "G20 members",
+  "synonyms": []
+ },
+ "L5": {
+  "C": "g_sib",
+  "competitors": [
+   {
+    "id": "euro_stoxx_50",
+    "name": "EURO STOXX 50"
+   },
+   {
+    "id": "euronext_100",
+    "name": "Euronext 100"
+   },
+   {
+    "id": "fortune_global_500",
+    "name": "Fortune Global 500"
+   },
+   {
+    "id": "stoxx_europe_600",
+    "name": "STOXX Europe 600"
+   }
+  ],
+  "name": "2025 Financial Stability Board global systemically important banks",
+  "synonyms": [
+   "G-SIBs"
+  ]
+ }
+}

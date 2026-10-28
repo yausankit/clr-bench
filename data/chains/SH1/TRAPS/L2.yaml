@@ -1,0 +1,54 @@
+A: DE
+C: nato
+C_name: NATO
+N_p: CY
+N_t:
+- AT
+- LI
+- MX
+- LS
+- BN
+- TG
+- UY
+P_M:
+- AL
+- MK
+- ME
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - council_of_europe
+    - european_economic_area
+    - european_union
+    - g20
+    - international_hydrographic_organization
+    - organization_for_economic_cooperation_and_development
+    - organization_for_security_and_co_operation_in_europe
+    - schengen_area
+    - world_trade_organization
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- council_of_europe
+- council_of_the_baltic_sea_states
+- european_economic_area
+- european_union
+- g20
+- g7
+- international_hydrographic_organization
+- organization_for_economic_cooperation_and_development
+- organization_for_security_and_co_operation_in_europe
+- schengen_area
+- world_trade_organization
+field: ships.owner_country
+label: review ledger 71
+salience: 2129009.0
+universe: flag

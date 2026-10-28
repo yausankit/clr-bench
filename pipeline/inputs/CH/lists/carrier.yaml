@@ -1,0 +1,200 @@
+- id: star_alliance
+  name: Star Alliance member airlines
+  synonyms: []
+  members:
+  - Aegean Airlines
+  - Air Canada
+  - Air China
+  - Air India
+  - Air New Zealand
+  - All Nippon Airways
+  - Asiana Airlines
+  - Austrian Airlines
+  - Avianca
+  - Brussels Airlines
+  - Copa Airlines
+  - Croatia Airlines
+  - EVA Air
+  - EgyptAir
+  - Ethiopian Airlines
+  - ITA Airways
+  - LOT Polish Airlines
+  - Lufthansa
+  - Shenzhen Airlines
+  - Singapore Airlines
+  - South African Airways
+  - Swiss International Air Lines
+  - TAP Air Portugal
+  - Thai Airways
+  - Turkish Airlines
+  - United Airlines
+  disputed: []
+  changes:
+  - value: Scandinavian Airlines
+    date: '2024-08-31'
+    change: withdrawn
+  official_count: 26
+  out_of_universe: []
+  salience: 630113
+  source: staralliance_members.html member airline keywords (26)
+- id: oneworld
+  name: oneworld member airlines
+  synonyms: []
+  members:
+  - Alaska Airlines
+  - American Airlines
+  - British Airways
+  - Cathay Pacific
+  - Fiji Airways
+  - Finnair
+  - Iberia
+  - Japan Airlines
+  - Malaysia Airlines
+  - Oman Air
+  - Qantas Airways
+  - Qatar Airways
+  - Royal Air Maroc
+  - Royal Jordanian
+  - SriLankan Airlines
+  disputed:
+  - Philippine Airlines
+  changes:
+  - value: Philippine Airlines
+    date: '2025-01-01'
+    change: future member
+  official_count: 16
+  out_of_universe: []
+  salience: 467145
+  source: oneworld_members.html member and future-member cards (16)
+- id: skyteam
+  name: SkyTeam member airlines
+  synonyms: []
+  members:
+  - Aerolineas Argentinas
+  - Aeromexico
+  - Air Europa
+  - Air France
+  - China Airlines
+  - China Eastern Airlines
+  - Delta Air Lines
+  - Garuda Indonesia
+  - KLM
+  - Kenya Airways
+  - Korean Air
+  - Middle East Airlines - Air Liban
+  - Saudia
+  - TAROM
+  - Vietnam Airlines
+  - Virgin Atlantic
+  - Xiamen Airlines
+  disputed:
+  - Scandinavian Airlines
+  changes:
+  - value: Scandinavian Airlines
+    date: '2024-08-31'
+    change: withdrawn
+  official_count: 18
+  out_of_universe: []
+  salience: 430553
+  source: skyteam_members.html member airline list (18)
+- id: alta_full
+  name: ALTA full member airlines
+  synonyms: []
+  members:
+  - Aerolineas Argentinas
+  - Aeromexico
+  - Aeromexico Connect
+  - Arajet
+  - Avianca
+  - Azul
+  - Bahamasair
+  - Boliviana de Aviacion
+  - Caribbean Airlines
+  - Copa Airlines
+  - Cubana de Aviacion
+  - DHL Aero Expreso
+  - Gol Transportes Aereos
+  - JetSMART
+  - LATAM Airlines
+  - SANSA
+  - Sky Airline
+  - Star Peru
+  - Sunrise Airways
+  - TAG Airlines
+  - Total Linhas Aereas
+  - Tropic Air
+  - Wingo
+  - interCaribbean Airways
+  disputed: []
+  changes: []
+  official_count: 24
+  out_of_universe: []
+  salience: 0
+  source: alta_members.html FULL MEMBERS tab
+- id: alta_associate
+  name: ALTA associate member airlines
+  synonyms: []
+  members:
+  - Air Canada
+  - Air Europa
+  - American Airlines
+  - Avion Express
+  - Delta Air Lines
+  - Emirates
+  - Iberia
+  - JetBlue Airways
+  - TAAG Angola Airlines
+  - TAP Air Portugal
+  - Turkish Airlines
+  disputed: []
+  changes: []
+  official_count: 11
+  out_of_universe: []
+  salience: 0
+  source: alta_members.html ASSOCIATE MEMBERS tab
+- id: a4a
+  name: Airlines for America member airlines
+  synonyms: []
+  members:
+  - Air Canada
+  - Alaska Airlines
+  - American Airlines
+  - Atlas Air
+  - Delta Air Lines
+  - FedEx Express
+  - JetBlue Airways
+  - Southwest Airlines
+  - UPS Airlines
+  - United Airlines
+  disputed: []
+  changes: []
+  official_count: 10
+  out_of_universe: []
+  salience: 15028
+  source: airlines_for_america_members.html member airline logos (10)
+- id: a4e
+  name: Airlines for Europe member groups and airlines
+  synonyms: []
+  members:
+  - Aegean Airlines
+  - AirBaltic
+  - Cargolux
+  - Finnair
+  - Icelandair
+  - Jet2.com
+  - Smartwings
+  - TAP Air Portugal
+  - Volotea
+  - easyJet
+  disputed: []
+  changes: []
+  official_count: 16
+  out_of_universe:
+  - Air France-KLM Group
+  - International Airlines Group (IAG)
+  - Lufthansa Group
+  - Norwegian
+  - Ryanair Holdings
+  - TUI
+  salience: 3587
+  source: a4e_our_members.html member logo labels (16)

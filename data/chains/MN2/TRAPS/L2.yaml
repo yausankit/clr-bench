@@ -1,0 +1,40 @@
+A: Air France
+C: skyteam
+C_name: SkyTeam member airlines
+N_p: Heston Airlines
+N_t:
+- MasAir
+- Air France-KLM Cargo
+- Transavia
+- Bahamasair
+- Southwind Airlines
+- PAS
+- Ruili Airlines
+P_M:
+- Aeroméxico
+- XiamenAir
+- SAS Link
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - a4e_airlines
+    - air_france_klm_airlines
+    - iata_airlines
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 0
+    pass: true
+comp_A:
+- a4e_airlines
+- air_france_klm_airlines
+- iata_airlines
+field: lots.carrier
+label: review tag 70
+salience: 434984.0
+universe: carrier

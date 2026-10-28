@@ -1,0 +1,50 @@
+A: de
+C: oecd_cctlds
+C_name: OECD member country country-code top-level domains
+N_p: my
+N_t:
+- bg
+- hr
+- mt
+- xn--ses554g
+- bike
+- industries
+- tj
+P_M:
+- il
+- cl
+- cr
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cctlds_all
+    - danube_commission_cctlds
+    - eu_member_cctlds
+    - eurozone_cctlds
+    - nato_cctlds
+    - schengen_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- cbss_cctlds
+- cctlds_all
+- danube_commission_cctlds
+- eu_member_cctlds
+- eurozone_cctlds
+- g20_cctlds
+- g7_cctlds
+- helcom_cctlds
+- nato_cctlds
+- schengen_cctlds
+field: proxy_connections.tld
+label: access lane C2
+salience: 807032.0
+universe: tld

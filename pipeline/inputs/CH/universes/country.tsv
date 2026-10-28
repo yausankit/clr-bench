@@ -1,0 +1,196 @@
+value	entity	qid	attr:region	attr:subregion	attr:continent
+AD	Andorra	https://www.wikidata.org/wiki/Q228	Europe	Southern Europe	EU
+AE	United Arab Emirates	https://www.wikidata.org/wiki/Q878	Asia	Western Asia	AS
+AF	Afghanistan	https://www.wikidata.org/wiki/Q889	Asia	Southern Asia	AS
+AG	Antigua & Barbuda	https://www.wikidata.org/wiki/Q781	Americas	Latin America and the Caribbean	NA
+AL	Albania	https://www.wikidata.org/wiki/Q222	Europe	Southern Europe	EU
+AM	Armenia	https://www.wikidata.org/wiki/Q399	Asia	Western Asia	AS
+AO	Angola	https://www.wikidata.org/wiki/Q916	Africa	Sub-Saharan Africa	AF
+AR	Argentina	https://www.wikidata.org/wiki/Q414	Americas	Latin America and the Caribbean	SA
+AT	Austria	https://www.wikidata.org/wiki/Q40	Europe	Western Europe	EU
+AU	Australia	https://www.wikidata.org/wiki/Q408	Oceania	Australia and New Zealand	OC
+AZ	Azerbaijan	https://www.wikidata.org/wiki/Q227	Asia	Western Asia	AS
+BA	Bosnia	https://www.wikidata.org/wiki/Q225	Europe	Southern Europe	EU
+BB	Barbados	https://www.wikidata.org/wiki/Q244	Americas	Latin America and the Caribbean	NA
+BD	Bangladesh	https://www.wikidata.org/wiki/Q902	Asia	Southern Asia	AS
+BE	Belgium	https://www.wikidata.org/wiki/Q31	Europe	Western Europe	EU
+BF	Burkina Faso	https://www.wikidata.org/wiki/Q965	Africa	Sub-Saharan Africa	AF
+BG	Bulgaria	https://www.wikidata.org/wiki/Q219	Europe	Eastern Europe	EU
+BH	Bahrain	https://www.wikidata.org/wiki/Q398	Asia	Western Asia	AS
+BI	Burundi	https://www.wikidata.org/wiki/Q967	Africa	Sub-Saharan Africa	AF
+BJ	Benin	https://www.wikidata.org/wiki/Q962	Africa	Sub-Saharan Africa	AF
+BN	Brunei	https://www.wikidata.org/wiki/Q921	Asia	South-eastern Asia	AS
+BO	Bolivia	https://www.wikidata.org/wiki/Q750	Americas	Latin America and the Caribbean	SA
+BR	Brazil	https://www.wikidata.org/wiki/Q155	Americas	Latin America and the Caribbean	SA
+BS	Bahamas	https://www.wikidata.org/wiki/Q778	Americas	Latin America and the Caribbean	NA
+BT	Bhutan	https://www.wikidata.org/wiki/Q917	Asia	Southern Asia	AS
+BW	Botswana	https://www.wikidata.org/wiki/Q963	Africa	Sub-Saharan Africa	AF
+BY	Belarus	https://www.wikidata.org/wiki/Q184	Europe	Eastern Europe	EU
+BZ	Belize	https://www.wikidata.org/wiki/Q242	Americas	Latin America and the Caribbean	NA
+CA	Canada	https://www.wikidata.org/wiki/Q16	Americas	Northern America	NA
+CD	Congo - Kinshasa	https://www.wikidata.org/wiki/Q974	Africa	Sub-Saharan Africa	AF
+CF	Central African Republic	https://www.wikidata.org/wiki/Q929	Africa	Sub-Saharan Africa	AF
+CG	Congo - Brazzaville	https://www.wikidata.org/wiki/Q971	Africa	Sub-Saharan Africa	AF
+CH	Switzerland	https://www.wikidata.org/wiki/Q39	Europe	Western Europe	EU
+CI	Cote dIvoire	https://www.wikidata.org/wiki/Q1008	Africa	Sub-Saharan Africa	AF
+CL	Chile	https://www.wikidata.org/wiki/Q298	Americas	Latin America and the Caribbean	SA
+CM	Cameroon	https://www.wikidata.org/wiki/Q1009	Africa	Sub-Saharan Africa	AF
+CN	China	https://www.wikidata.org/wiki/Q148	Asia	Eastern Asia	AS
+CO	Colombia	https://www.wikidata.org/wiki/Q739	Americas	Latin America and the Caribbean	SA
+CR	Costa Rica	https://www.wikidata.org/wiki/Q800	Americas	Latin America and the Caribbean	NA
+CU	Cuba	https://www.wikidata.org/wiki/Q241	Americas	Latin America and the Caribbean	NA
+CV	Cape Verde	https://www.wikidata.org/wiki/Q1011	Africa	Sub-Saharan Africa	AF
+CY	Cyprus	https://www.wikidata.org/wiki/Q229	Asia	Western Asia	EU
+CZ	Czechia	https://www.wikidata.org/wiki/Q213	Europe	Eastern Europe	EU
+DE	Germany	https://www.wikidata.org/wiki/Q183	Europe	Western Europe	EU
+DJ	Djibouti	https://www.wikidata.org/wiki/Q977	Africa	Sub-Saharan Africa	AF
+DK	Denmark	https://www.wikidata.org/wiki/Q35	Europe	Northern Europe	EU
+DM	Dominica	https://www.wikidata.org/wiki/Q784	Americas	Latin America and the Caribbean	NA
+DO	Dominican Republic	https://www.wikidata.org/wiki/Q786	Americas	Latin America and the Caribbean	NA
+DZ	Algeria	https://www.wikidata.org/wiki/Q262	Africa	Northern Africa	AF
+EC	Ecuador	https://www.wikidata.org/wiki/Q736	Americas	Latin America and the Caribbean	SA
+EE	Estonia	https://www.wikidata.org/wiki/Q191	Europe	Northern Europe	EU
+EG	Egypt	https://www.wikidata.org/wiki/Q79	Africa	Northern Africa	AF
+ER	Eritrea	https://www.wikidata.org/wiki/Q986	Africa	Sub-Saharan Africa	AF
+ES	Spain	https://www.wikidata.org/wiki/Q29	Europe	Southern Europe	EU
+ET	Ethiopia	https://www.wikidata.org/wiki/Q115	Africa	Sub-Saharan Africa	AF
+FI	Finland	https://www.wikidata.org/wiki/Q33	Europe	Northern Europe	EU
+FJ	Fiji	https://www.wikidata.org/wiki/Q712	Oceania	Melanesia	OC
+FM	Micronesia	https://www.wikidata.org/wiki/Q702	Oceania	Micronesia	OC
+FR	France	https://www.wikidata.org/wiki/Q142	Europe	Western Europe	EU
+GA	Gabon	https://www.wikidata.org/wiki/Q1000	Africa	Sub-Saharan Africa	AF
+GB	UK	https://www.wikidata.org/wiki/Q145	Europe	Northern Europe	EU
+GD	Grenada	https://www.wikidata.org/wiki/Q769	Americas	Latin America and the Caribbean	NA
+GE	Georgia	https://www.wikidata.org/wiki/Q230	Asia	Western Asia	AS
+GH	Ghana	https://www.wikidata.org/wiki/Q117	Africa	Sub-Saharan Africa	AF
+GM	Gambia	https://www.wikidata.org/wiki/Q1005	Africa	Sub-Saharan Africa	AF
+GN	Guinea	https://www.wikidata.org/wiki/Q1006	Africa	Sub-Saharan Africa	AF
+GQ	Equatorial Guinea	https://www.wikidata.org/wiki/Q983	Africa	Sub-Saharan Africa	AF
+GR	Greece	https://www.wikidata.org/wiki/Q41	Europe	Southern Europe	EU
+GT	Guatemala	https://www.wikidata.org/wiki/Q774	Americas	Latin America and the Caribbean	NA
+GW	Guinea-Bissau	https://www.wikidata.org/wiki/Q1007	Africa	Sub-Saharan Africa	AF
+GY	Guyana	https://www.wikidata.org/wiki/Q734	Americas	Latin America and the Caribbean	SA
+HN	Honduras	https://www.wikidata.org/wiki/Q783	Americas	Latin America and the Caribbean	NA
+HR	Croatia	https://www.wikidata.org/wiki/Q224	Europe	Southern Europe	EU
+HT	Haiti	https://www.wikidata.org/wiki/Q790	Americas	Latin America and the Caribbean	NA
+HU	Hungary	https://www.wikidata.org/wiki/Q28	Europe	Eastern Europe	EU
+ID	Indonesia	https://www.wikidata.org/wiki/Q252	Asia	South-eastern Asia	AS
+IE	Ireland	https://www.wikidata.org/wiki/Q27	Europe	Northern Europe	EU
+IL	Israel	https://www.wikidata.org/wiki/Q801	Asia	Western Asia	AS
+IN	India	https://www.wikidata.org/wiki/Q668	Asia	Southern Asia	AS
+IQ	Iraq	https://www.wikidata.org/wiki/Q796	Asia	Western Asia	AS
+IR	Iran	https://www.wikidata.org/wiki/Q794	Asia	Southern Asia	AS
+IS	Iceland	https://www.wikidata.org/wiki/Q189	Europe	Northern Europe	EU
+IT	Italy	https://www.wikidata.org/wiki/Q38	Europe	Southern Europe	EU
+JM	Jamaica	https://www.wikidata.org/wiki/Q766	Americas	Latin America and the Caribbean	NA
+JO	Jordan	https://www.wikidata.org/wiki/Q810	Asia	Western Asia	AS
+JP	Japan	https://www.wikidata.org/wiki/Q17	Asia	Eastern Asia	AS
+KE	Kenya	https://www.wikidata.org/wiki/Q114	Africa	Sub-Saharan Africa	AF
+KG	Kyrgyzstan	https://www.wikidata.org/wiki/Q813	Asia	Central Asia	AS
+KH	Cambodia	https://www.wikidata.org/wiki/Q424	Asia	South-eastern Asia	AS
+KI	Kiribati	https://www.wikidata.org/wiki/Q710	Oceania	Micronesia	OC
+KM	Comoros	https://www.wikidata.org/wiki/Q970	Africa	Sub-Saharan Africa	AF
+KN	St. Kitts & Nevis	https://www.wikidata.org/wiki/Q763	Americas	Latin America and the Caribbean	NA
+KP	North Korea	https://www.wikidata.org/wiki/Q423	Asia	Eastern Asia	AS
+KR	South Korea	https://www.wikidata.org/wiki/Q884	Asia	Eastern Asia	AS
+KW	Kuwait	https://www.wikidata.org/wiki/Q817	Asia	Western Asia	AS
+KZ	Kazakhstan	https://www.wikidata.org/wiki/Q232	Asia	Central Asia	AS
+LA	Laos	https://www.wikidata.org/wiki/Q819	Asia	South-eastern Asia	AS
+LB	Lebanon	https://www.wikidata.org/wiki/Q822	Asia	Western Asia	AS
+LC	St. Lucia	https://www.wikidata.org/wiki/Q760	Americas	Latin America and the Caribbean	NA
+LI	Liechtenstein	https://www.wikidata.org/wiki/Q347	Europe	Western Europe	EU
+LK	Sri Lanka	https://www.wikidata.org/wiki/Q854	Asia	Southern Asia	AS
+LR	Liberia	https://www.wikidata.org/wiki/Q1014	Africa	Sub-Saharan Africa	AF
+LS	Lesotho	https://www.wikidata.org/wiki/Q1013	Africa	Sub-Saharan Africa	AF
+LT	Lithuania	https://www.wikidata.org/wiki/Q37	Europe	Northern Europe	EU
+LU	Luxembourg	https://www.wikidata.org/wiki/Q32	Europe	Western Europe	EU
+LV	Latvia	https://www.wikidata.org/wiki/Q211	Europe	Northern Europe	EU
+LY	Libya	https://www.wikidata.org/wiki/Q1016	Africa	Northern Africa	AF
+MA	Morocco	https://www.wikidata.org/wiki/Q1028	Africa	Northern Africa	AF
+MC	Monaco	https://www.wikidata.org/wiki/Q235	Europe	Western Europe	EU
+MD	Moldova	https://www.wikidata.org/wiki/Q217	Europe	Eastern Europe	EU
+ME	Montenegro	https://www.wikidata.org/wiki/Q236	Europe	Southern Europe	EU
+MG	Madagascar	https://www.wikidata.org/wiki/Q1019	Africa	Sub-Saharan Africa	AF
+MH	Marshall Islands	https://www.wikidata.org/wiki/Q709	Oceania	Micronesia	OC
+MK	North Macedonia	https://www.wikidata.org/wiki/Q221	Europe	Southern Europe	EU
+ML	Mali	https://www.wikidata.org/wiki/Q912	Africa	Sub-Saharan Africa	AF
+MM	Myanmar	https://www.wikidata.org/wiki/Q836	Asia	South-eastern Asia	AS
+MN	Mongolia	https://www.wikidata.org/wiki/Q711	Asia	Eastern Asia	AS
+MR	Mauritania	https://www.wikidata.org/wiki/Q1025	Africa	Sub-Saharan Africa	AF
+MT	Malta	https://www.wikidata.org/wiki/Q233	Europe	Southern Europe	EU
+MU	Mauritius	https://www.wikidata.org/wiki/Q1027	Africa	Sub-Saharan Africa	AF
+MV	Maldives	https://www.wikidata.org/wiki/Q826	Asia	Southern Asia	AS
+MW	Malawi	https://www.wikidata.org/wiki/Q1020	Africa	Sub-Saharan Africa	AF
+MX	Mexico	https://www.wikidata.org/wiki/Q96	Americas	Latin America and the Caribbean	NA
+MY	Malaysia	https://www.wikidata.org/wiki/Q833	Asia	South-eastern Asia	AS
+MZ	Mozambique	https://www.wikidata.org/wiki/Q1029	Africa	Sub-Saharan Africa	AF
+NA	Namibia		Africa	Sub-Saharan Africa	AF
+NE	Niger	https://www.wikidata.org/wiki/Q1032	Africa	Sub-Saharan Africa	AF
+NG	Nigeria	https://www.wikidata.org/wiki/Q1033	Africa	Sub-Saharan Africa	AF
+NI	Nicaragua	https://www.wikidata.org/wiki/Q811	Americas	Latin America and the Caribbean	NA
+NL	Netherlands	https://www.wikidata.org/wiki/Q55	Europe	Western Europe	EU
+NO	Norway	https://www.wikidata.org/wiki/Q20	Europe	Northern Europe	EU
+NP	Nepal	https://www.wikidata.org/wiki/Q837	Asia	Southern Asia	AS
+NR	Nauru	https://www.wikidata.org/wiki/Q697	Oceania	Micronesia	OC
+NZ	New Zealand	https://www.wikidata.org/wiki/Q664	Oceania	Australia and New Zealand	OC
+OM	Oman	https://www.wikidata.org/wiki/Q842	Asia	Western Asia	AS
+PA	Panama	https://www.wikidata.org/wiki/Q804	Americas	Latin America and the Caribbean	NA
+PE	Peru	https://www.wikidata.org/wiki/Q419	Americas	Latin America and the Caribbean	SA
+PG	Papua New Guinea	https://www.wikidata.org/wiki/Q691	Oceania	Melanesia	OC
+PH	Philippines	https://www.wikidata.org/wiki/Q928	Asia	South-eastern Asia	AS
+PK	Pakistan	https://www.wikidata.org/wiki/Q843	Asia	Southern Asia	AS
+PL	Poland	https://www.wikidata.org/wiki/Q36	Europe	Eastern Europe	EU
+PT	Portugal	https://www.wikidata.org/wiki/Q45	Europe	Southern Europe	EU
+PW	Palau	https://www.wikidata.org/wiki/Q695	Oceania	Micronesia	OC
+PY	Paraguay	https://www.wikidata.org/wiki/Q733	Americas	Latin America and the Caribbean	SA
+QA	Qatar	https://www.wikidata.org/wiki/Q846	Asia	Western Asia	AS
+RO	Romania	https://www.wikidata.org/wiki/Q218	Europe	Eastern Europe	EU
+RS	Serbia	https://www.wikidata.org/wiki/Q403	Europe	Southern Europe	EU
+RU	Russia	https://www.wikidata.org/wiki/Q159	Europe	Eastern Europe	EU
+RW	Rwanda	https://www.wikidata.org/wiki/Q1037	Africa	Sub-Saharan Africa	AF
+SA	Saudi Arabia	https://www.wikidata.org/wiki/Q851	Asia	Western Asia	AS
+SB	Solomon Islands	https://www.wikidata.org/wiki/Q685	Oceania	Melanesia	OC
+SC	Seychelles	https://www.wikidata.org/wiki/Q1042	Africa	Sub-Saharan Africa	AF
+SD	Sudan	https://www.wikidata.org/wiki/Q1049	Africa	Northern Africa	AF
+SE	Sweden	https://www.wikidata.org/wiki/Q34	Europe	Northern Europe	EU
+SG	Singapore	https://www.wikidata.org/wiki/Q334	Asia	South-eastern Asia	AS
+SI	Slovenia	https://www.wikidata.org/wiki/Q215	Europe	Southern Europe	EU
+SK	Slovakia	https://www.wikidata.org/wiki/Q214	Europe	Eastern Europe	EU
+SL	Sierra Leone	https://www.wikidata.org/wiki/Q1044	Africa	Sub-Saharan Africa	AF
+SM	San Marino	https://www.wikidata.org/wiki/Q238	Europe	Southern Europe	EU
+SN	Senegal	https://www.wikidata.org/wiki/Q1041	Africa	Sub-Saharan Africa	AF
+SO	Somalia	https://www.wikidata.org/wiki/Q1045	Africa	Sub-Saharan Africa	AF
+SR	Suriname	https://www.wikidata.org/wiki/Q730	Americas	Latin America and the Caribbean	SA
+SS	South Sudan	https://www.wikidata.org/wiki/Q958	Africa	Sub-Saharan Africa	AF
+ST	Sao Tome & Principe	https://www.wikidata.org/wiki/Q1039	Africa	Sub-Saharan Africa	AF
+SV	El Salvador	https://www.wikidata.org/wiki/Q792	Americas	Latin America and the Caribbean	NA
+SY	Syria	https://www.wikidata.org/wiki/Q858	Asia	Western Asia	AS
+SZ	Eswatini	https://www.wikidata.org/wiki/Q1050	Africa	Sub-Saharan Africa	AF
+TD	Chad	https://www.wikidata.org/wiki/Q657	Africa	Sub-Saharan Africa	AF
+TG	Togo	https://www.wikidata.org/wiki/Q945	Africa	Sub-Saharan Africa	AF
+TH	Thailand	https://www.wikidata.org/wiki/Q869	Asia	South-eastern Asia	AS
+TJ	Tajikistan	https://www.wikidata.org/wiki/Q863	Asia	Central Asia	AS
+TL	Timor-Leste	https://www.wikidata.org/wiki/Q574	Asia	South-eastern Asia	OC
+TM	Turkmenistan	https://www.wikidata.org/wiki/Q874	Asia	Central Asia	AS
+TN	Tunisia	https://www.wikidata.org/wiki/Q948	Africa	Northern Africa	AF
+TO	Tonga	https://www.wikidata.org/wiki/Q678	Oceania	Polynesia	OC
+TR	Turkiye	https://www.wikidata.org/wiki/Q43	Asia	Western Asia	AS
+TT	Trinidad & Tobago	https://www.wikidata.org/wiki/Q754	Americas	Latin America and the Caribbean	NA
+TV	Tuvalu	https://www.wikidata.org/wiki/Q672	Oceania	Polynesia	OC
+TW	Taiwan	https://www.wikidata.org/wiki/Q865	Asia	Eastern Asia	AS
+TZ	Tanzania	https://www.wikidata.org/wiki/Q924	Africa	Sub-Saharan Africa	AF
+UA	Ukraine	https://www.wikidata.org/wiki/Q212	Europe	Eastern Europe	EU
+UG	Uganda	https://www.wikidata.org/wiki/Q1036	Africa	Sub-Saharan Africa	AF
+US	US	https://www.wikidata.org/wiki/Q30	Americas	Northern America	NA
+UY	Uruguay	https://www.wikidata.org/wiki/Q77	Americas	Latin America and the Caribbean	SA
+UZ	Uzbekistan	https://www.wikidata.org/wiki/Q265	Asia	Central Asia	AS
+VA	Vatican City	https://www.wikidata.org/wiki/Q237	Europe	Southern Europe	EU
+VC	St. Vincent & Grenadines	https://www.wikidata.org/wiki/Q757	Americas	Latin America and the Caribbean	NA
+VE	Venezuela	https://www.wikidata.org/wiki/Q717	Americas	Latin America and the Caribbean	SA
+VN	Vietnam	https://www.wikidata.org/wiki/Q881	Asia	South-eastern Asia	AS
+VU	Vanuatu	https://www.wikidata.org/wiki/Q686	Oceania	Melanesia	OC
+WS	Samoa	https://www.wikidata.org/wiki/Q683	Oceania	Polynesia	OC
+YE	Yemen	https://www.wikidata.org/wiki/Q805	Asia	Western Asia	AS
+ZA	South Africa	https://www.wikidata.org/wiki/Q258	Africa	Sub-Saharan Africa	AF
+ZM	Zambia	https://www.wikidata.org/wiki/Q953	Africa	Sub-Saharan Africa	AF
+ZW	Zimbabwe	https://www.wikidata.org/wiki/Q954	Africa	Sub-Saharan Africa	AF

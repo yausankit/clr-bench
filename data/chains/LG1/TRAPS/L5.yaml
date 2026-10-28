@@ -1,0 +1,43 @@
+A: WINWORD.EXE
+C: office_suites
+C_name: Office suites
+N_p: Teams.exe
+N_t:
+- OneDrive.exe
+- FoxitReader.exe
+- vlc.exe
+- 360chrome.exe
+- nginx.exe
+- java.exe
+- QQLive.exe
+P_M:
+- et.exe
+- wps.exe
+- POWERPNT.EXE
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - microsoft_products
+    - office_document_apps
+    - uptodown_top_downloads
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- microsoft_productivity_apps
+- microsoft_products
+- office_document_apps
+- office_ltsc_2021_apps
+- office_ltsc_2024_apps
+- uptodown_top_downloads
+field: proxy_connections.client_app
+label: audit zone 83
+salience: 49919.0
+universe: client_app

@@ -1,0 +1,68 @@
+{
+ "applicants.nationality": {
+  "BD": {
+   "example": "GB",
+   "label": "travel note X5",
+   "level": 1,
+   "member": true
+  },
+  "ME": {
+   "example": "IT",
+   "label": "routing code D3",
+   "level": 4,
+   "member": true
+  },
+  "MT": {
+   "example": "IT",
+   "label": "routing code D3",
+   "level": 4,
+   "member": false
+  },
+  "SI": {
+   "example": "GB",
+   "label": "travel note X5",
+   "level": 1,
+   "member": false
+  }
+ },
+ "applicants.university": {
+  "Open University of the Netherlands": {
+   "example": "University of Edinburgh",
+   "label": "review notation Y-25",
+   "level": 3,
+   "member": false
+  },
+  "University of Copenhagen": {
+   "example": "University of Edinburgh",
+   "label": "review notation Y-25",
+   "level": 3,
+   "member": true
+  }
+ },
+ "trips.airline": {
+  "Edelweiss Air": {
+   "example": "Lufthansa",
+   "label": "audit marker 55",
+   "level": 2,
+   "member": false
+  },
+  "Fiji Airways": {
+   "example": "Qatar Airways",
+   "label": "expense label 20",
+   "level": 5,
+   "member": true
+  },
+  "Fly2Sky": {
+   "example": "Qatar Airways",
+   "label": "expense label 20",
+   "level": 5,
+   "member": false
+  },
+  "Thai Airways": {
+   "example": "Lufthansa",
+   "label": "audit marker 55",
+   "level": 2,
+   "member": true
+  }
+ }
+}

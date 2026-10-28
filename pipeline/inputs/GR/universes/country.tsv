@@ -1,0 +1,250 @@
+value	entity	qid	aliases	attr:continent
+AD	Andorra	Q228		Europe
+AE	United Arab Emirates	Q878		Asia
+AF	Afghanistan	Q889		Asia
+AG	Antigua and Barbuda	Q781		North America
+AI	Anguilla	Q25228		North America
+AL	Albania	Q222		Europe
+AM	Armenia	Q399		Asia
+AO	Angola	Q916		Africa
+AQ	Antarctica	Q10372207		Antarctica
+AR	Argentina	Q414		South America
+AS	American Samoa	Q16641		Insular Oceania
+AT	Austria	Q40		Europe
+AU	Australia	Q408		Oceania
+AW	Aruba	Q21203		North America
+AX	Åland Islands			?
+AZ	Azerbaijan	Q227		Asia
+BA	Bosnia and Herzegovina	Q225		Europe
+BB	Barbados	Q244		North America
+BD	Bangladesh	Q902		Asia
+BE	Belgium	Q31		Europe
+BF	Burkina Faso	Q965		Africa
+BG	Bulgaria	Q219		Europe
+BH	Bahrain	Q398		Asia
+BI	Burundi	Q967		Africa
+BJ	Benin	Q962		Africa
+BL	Saint Barthélemy	Q25362		North America
+BM	Bermuda	Q23635		North America
+BN	Brunei Darussalam	Q921		Asia
+BO	Bolivia, Plurinational State of	Q750		South America
+BQ	Bonaire, Sint Eustatius and Saba	Q27561		North America
+BR	Brazil	Q155		South America
+BS	Bahamas	Q778		North America
+BT	Bhutan	Q917		Asia
+BV	Bouvet Island	Q23408		Antarctica
+BW	Botswana	Q963		Africa
+BY	Belarus	Q184		Europe
+BZ	Belize	Q242		North America
+CA	Canada	Q16		North America
+CC	Cocos (Keeling) Islands	Q36004		Oceania
+CD	Congo, The Democratic Republic of the	Q974		Africa
+CF	Central African Republic	Q929		Africa
+CG	Congo	Q971		Africa
+CH	Switzerland	Q39		Europe
+CI	Côte d'Ivoire	Q1008		Africa
+CK	Cook Islands	Q26988		Insular Oceania
+CL	Chile	Q298		South America
+CM	Cameroon	Q1009		Africa
+CN	China	Q148		Asia
+CO	Colombia	Q739		South America
+CR	Costa Rica	Q800		North America
+CU	Cuba	Q241		North America
+CV	Cabo Verde	Q1011		Africa
+CW	Curaçao	Q25279		North America
+CX	Christmas Island	Q31063		Asia
+CY	Cyprus	Q229		Asia
+CZ	Czechia	Q213		Europe
+DE	Germany	Q183		Europe
+DJ	Djibouti	Q977		Africa
+DK	Denmark	Q35		Europe
+DM	Dominica	Q784		North America
+DO	Dominican Republic	Q786		North America
+DZ	Algeria	Q262		Africa
+EC	Ecuador	Q736		South America
+EE	Estonia	Q191		Europe
+EG	Egypt	Q79		Africa
+EH	Western Sahara	Q6250		Africa
+ER	Eritrea	Q986		Africa
+ES	Spain	Q29		Europe
+ET	Ethiopia	Q115		Africa
+FI	Finland	Q33		Europe
+FJ	Fiji	Q712		Insular Oceania
+FK	Falkland Islands (Malvinas)	Q9648		South America
+FM	Micronesia, Federated States of	Q702		Oceania
+FO	Faroe Islands	Q4628		Europe
+FR	France	Q142		Europe
+GA	Gabon	Q1000		Africa
+GB	United Kingdom	Q145		Europe
+GD	Grenada	Q769		North America
+GE	Georgia	Q230		Europe
+GF	French Guiana	Q3769		South America
+GG	Guernsey	Q25230		Europe
+GH	Ghana	Q117		Africa
+GI	Gibraltar	Q1410		Europe
+GL	Greenland	Q223		North America
+GM	Gambia	Q1005		Africa
+GN	Guinea	Q1006		Africa
+GP	Guadeloupe	Q17012		North America
+GQ	Equatorial Guinea	Q983		Africa
+GR	Greece	Q41		Europe
+GS	South Georgia and the South Sandwich Islands	Q35086		South America
+GT	Guatemala	Q774		North America
+GU	Guam	Q16635		Oceania
+GW	Guinea-Bissau	Q1007		Africa
+GY	Guyana	Q734		South America
+HK	Hong Kong	Q8646		Asia
+HM	Heard Island and McDonald Islands	Q131198		Antarctica
+HN	Honduras	Q783		North America
+HR	Croatia	Q224		Europe
+HT	Haiti	Q790		North America
+HU	Hungary	Q28		Europe
+ID	Indonesia	Q252		Asia
+IE	Ireland	Q27		Europe
+IL	Israel	Q801		Asia
+IM	Isle of Man	Q9676		Europe
+IN	India	Q668		Asia
+IO	British Indian Ocean Territory	Q43448		Africa
+IQ	Iraq	Q796		Asia
+IR	Iran, Islamic Republic of	Q794		Asia
+IS	Iceland	Q189		Europe
+IT	Italy	Q38		Europe
+JE	Jersey	Q785		Europe
+JM	Jamaica	Q766		North America
+JO	Jordan	Q810		Asia
+JP	Japan	Q17		Asia
+KE	Kenya	Q114		Africa
+KG	Kyrgyzstan	Q813		Asia
+KH	Cambodia	Q424		Asia
+KI	Kiribati	Q710		Oceania
+KM	Comoros	Q970		Africa
+KN	Saint Kitts and Nevis	Q763		North America
+KP	Korea, Democratic People's Republic of	Q423		Asia
+KR	Korea, Republic of	Q884		Asia
+KW	Kuwait	Q817		Asia
+KY	Cayman Islands	Q5785		North America
+KZ	Kazakhstan	Q232		Asia
+LA	Lao People's Democratic Republic	Q819		Asia
+LB	Lebanon	Q822		Asia
+LC	Saint Lucia	Q760		North America
+LI	Liechtenstein	Q347		Europe
+LK	Sri Lanka	Q854		Asia
+LR	Liberia	Q1014		Africa
+LS	Lesotho	Q1013		Africa
+LT	Lithuania	Q37		Europe
+LU	Luxembourg	Q32		Europe
+LV	Latvia	Q211		Europe
+LY	Libya	Q1016		Africa
+MA	Morocco	Q1028		Africa
+MC	Monaco	Q235		Europe
+MD	Moldova, Republic of	Q217		Europe
+ME	Montenegro	Q236		Europe
+MF	Saint Martin (French part)	Q126125		North America
+MG	Madagascar	Q1019		Africa
+MH	Marshall Islands	Q709		Oceania
+MK	North Macedonia	Q221		Europe
+ML	Mali	Q912		Africa
+MM	Myanmar	Q836		Asia
+MN	Mongolia	Q711		Asia
+MO	Macao	Q14773		Asia
+MP	Northern Mariana Islands	Q16644		Insular Oceania
+MQ	Martinique	Q17054		North America
+MR	Mauritania	Q1025		Africa
+MS	Montserrat	Q13353		North America
+MT	Malta	Q233		Europe
+MU	Mauritius	Q1027		Africa
+MV	Maldives	Q826		Asia
+MW	Malawi	Q1020		Africa
+MX	Mexico	Q96		North America
+MY	Malaysia	Q833		Asia
+MZ	Mozambique	Q1029		Africa
+NA	Namibia	Q1030		Africa
+NC	New Caledonia	Q33788		Insular Oceania
+NE	Niger	Q1032		Africa
+NF	Norfolk Island	Q31057		Insular Oceania
+NG	Nigeria	Q1033		Africa
+NI	Nicaragua	Q811		North America
+NL	Netherlands	Q29999		Europe
+NO	Norway	Q20		Europe
+NP	Nepal	Q837		Asia
+NR	Nauru	Q697		Oceania
+NU	Niue	Q34020		Insular Oceania
+NZ	New Zealand	Q664		Oceania
+OM	Oman	Q842		Asia
+PA	Panama	Q804		North America
+PE	Peru	Q419		South America
+PF	French Polynesia	Q30971		Insular Oceania
+PG	Papua New Guinea	Q691		Oceania
+PH	Philippines	Q928		Asia
+PK	Pakistan	Q843		Asia
+PL	Poland	Q36		Europe
+PM	Saint Pierre and Miquelon	Q34617		North America
+PN	Pitcairn	Q35672		Insular Oceania
+PR	Puerto Rico	Q1183		North America
+PS	Palestine, State of	Q219060		Asia
+PT	Portugal	Q45		Europe
+PW	Palau	Q695		Oceania
+PY	Paraguay	Q733		South America
+QA	Qatar	Q846		Asia
+RE	Réunion	Q17070		Africa
+RO	Romania	Q218		Europe
+RS	Serbia	Q403		Europe
+RU	Russian Federation	Q159		Eurasia
+RW	Rwanda	Q1037		Africa
+SA	Saudi Arabia	Q851		Asia
+SB	Solomon Islands	Q685		Oceania
+SC	Seychelles	Q1042		Africa
+SD	Sudan	Q1049		Africa
+SE	Sweden	Q34		Europe
+SG	Singapore	Q334		Asia
+SH	Saint Helena, Ascension and Tristan da Cunha	Q192184		Africa
+SI	Slovenia	Q215		Europe
+SJ	Svalbard and Jan Mayen	Q842829		Europe
+SK	Slovakia	Q214		Europe
+SL	Sierra Leone	Q1044		Africa
+SM	San Marino	Q238		Europe
+SN	Senegal	Q1041		Africa
+SO	Somalia	Q1045		Africa
+SR	Suriname	Q730		South America
+SS	South Sudan	Q958		Africa
+ST	Sao Tome and Principe	Q1039		Africa
+SV	El Salvador	Q792		North America
+SX	Sint Maarten (Dutch part)	Q26273		North America
+SY	Syrian Arab Republic	Q858		Asia
+SZ	Eswatini	Q1050		Africa
+TC	Turks and Caicos Islands	Q18221		North America
+TD	Chad	Q657		Africa
+TF	French Southern Territories	Q129003		Antarctica
+TG	Togo	Q945		Africa
+TH	Thailand	Q869		Asia
+TJ	Tajikistan	Q863		Asia
+TK	Tokelau	Q36823		Insular Oceania
+TL	Timor-Leste	Q574		Asia
+TM	Turkmenistan	Q874		Asia
+TN	Tunisia	Q948		Africa
+TO	Tonga	Q678		Oceania
+TR	Türkiye	Q43		Asia
+TT	Trinidad and Tobago	Q754		North America
+TV	Tuvalu	Q672		Oceania
+TW	Taiwan, Province of China	Q865		Asia
+TZ	Tanzania, United Republic of	Q924		Africa
+UA	Ukraine	Q212		Europe
+UG	Uganda	Q1036		Africa
+UM	United States Minor Outlying Islands	Q16645		Insular Oceania
+US	United States	Q30		North America
+UY	Uruguay	Q77		South America
+UZ	Uzbekistan	Q265		Asia
+VA	Holy See (Vatican City State)	Q237		Europe
+VC	Saint Vincent and the Grenadines	Q757		North America
+VE	Venezuela, Bolivarian Republic of	Q717		South America
+VG	Virgin Islands, British	Q25305		North America
+VI	Virgin Islands, U.S.	Q11703		North America
+VN	Viet Nam	Q881		Asia
+VU	Vanuatu	Q686		Insular Oceania
+WF	Wallis and Futuna	Q35555		Insular Oceania
+WS	Samoa	Q683		Oceania
+YE	Yemen	Q805		Asia
+YT	Mayotte	Q17063		Africa
+ZA	South Africa	Q258		Africa
+ZM	Zambia	Q953		Africa
+ZW	Zimbabwe	Q954		Africa

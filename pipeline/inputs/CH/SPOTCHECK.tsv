@@ -1,0 +1,391 @@
+list_id	universe	value	role	evidence
+star_alliance	carrier	Aegean Airlines	member	staralliance_members.html:L172 contains 'Aegean Airlines'
+star_alliance	carrier	Air Canada	member	staralliance_members.html:L172 contains 'Air Canada'
+star_alliance	carrier	Air China	member	staralliance_members.html:L172 contains 'Air China'
+star_alliance	carrier	Air India	member	staralliance_members.html:L172 contains 'Air India'
+star_alliance	carrier	Air New Zealand	member	staralliance_members.html:L172 contains 'Air New Zealand'
+star_alliance	carrier	Aer Lingus	nonmember	staralliance_members.html:lines 1-3773, member table records=26; Aer Lingus absent
+star_alliance	carrier	Aeroflot	nonmember	staralliance_members.html:lines 1-3773, member table records=26; Aeroflot absent
+star_alliance	carrier	Aerolineas Argentinas	nonmember	staralliance_members.html:lines 1-3773, member table records=26; Aerolineas Argentinas absent
+star_alliance	carrier	Aeromexico	nonmember	staralliance_members.html:lines 1-3773, member table records=26; Aeromexico absent
+star_alliance	carrier	Aeromexico Connect	nonmember	staralliance_members.html:lines 1-3773, member table records=26; Aeromexico Connect absent
+oneworld	carrier	Alaska Airlines	member	oneworld_members.html:L8 contains 'Alaska Airlines'
+oneworld	carrier	American Airlines	member	oneworld_members.html:L8 contains 'American Airlines'
+oneworld	carrier	British Airways	member	oneworld_members.html:L8 contains 'British Airways'
+oneworld	carrier	Cathay Pacific	member	oneworld_members.html:L8 contains 'Cathay Pacific'
+oneworld	carrier	Fiji Airways	member	oneworld_members.html:L512 contains 'Fiji Airways'
+oneworld	carrier	Aegean Airlines	nonmember	oneworld_members.html:lines 1-1210, member table records=16; Aegean Airlines absent
+oneworld	carrier	Aer Lingus	nonmember	oneworld_members.html:lines 1-1210, member table records=16; Aer Lingus absent
+oneworld	carrier	Aeroflot	nonmember	oneworld_members.html:lines 1-1210, member table records=16; Aeroflot absent
+oneworld	carrier	Aerolineas Argentinas	nonmember	oneworld_members.html:lines 1-1210, member table records=16; Aerolineas Argentinas absent
+oneworld	carrier	Aeromexico	nonmember	oneworld_members.html:lines 1-1210, member table records=16; Aeromexico absent
+skyteam	carrier	Aerolineas Argentinas	member	skyteam_members.html:L38 contains 'Aerolineas Argentinas'
+skyteam	carrier	Aeromexico	member	skyteam_members.html:L38 contains 'Aeromexico'
+skyteam	carrier	Air Europa	member	skyteam_members.html:L38 contains 'Air Europa'
+skyteam	carrier	Air France	member	skyteam_members.html:L38 contains 'Air France'
+skyteam	carrier	China Airlines	member	skyteam_members.html:L38 contains 'China Airlines'
+skyteam	carrier	Aegean Airlines	nonmember	skyteam_members.html:lines 1-93, member table records=18; Aegean Airlines absent
+skyteam	carrier	Aer Lingus	nonmember	skyteam_members.html:lines 1-93, member table records=18; Aer Lingus absent
+skyteam	carrier	Aeroflot	nonmember	skyteam_members.html:lines 1-93, member table records=18; Aeroflot absent
+skyteam	carrier	Aeromexico Connect	nonmember	skyteam_members.html:lines 1-93, member table records=18; Aeromexico Connect absent
+skyteam	carrier	Air Albania	nonmember	skyteam_members.html:lines 1-93, member table records=18; Air Albania absent
+alta_full	carrier	Aerolineas Argentinas	member	alta_members.html:L542 contains 'Aerolineas Argentinas'
+alta_full	carrier	Aeromexico	member	alta_members.html:L544 contains 'Aeromexico'
+alta_full	carrier	Aeromexico Connect	member	alta_members.html:L546 contains 'Aeromexico Connect'
+alta_full	carrier	Arajet	member	alta_members.html:L548 contains 'Arajet S.A'
+alta_full	carrier	Avianca	member	alta_members.html:L550 contains 'Avianca'
+alta_full	carrier	Aegean Airlines	nonmember	alta_members.html:lines 1-1288, member table records=24; Aegean Airlines absent
+alta_full	carrier	Aer Lingus	nonmember	alta_members.html:lines 1-1288, member table records=24; Aer Lingus absent
+alta_full	carrier	Aeroflot	nonmember	alta_members.html:lines 1-1288, member table records=24; Aeroflot absent
+alta_full	carrier	Air Albania	nonmember	alta_members.html:lines 1-1288, member table records=24; Air Albania absent
+alta_full	carrier	Air Algerie	nonmember	alta_members.html:lines 1-1288, member table records=24; Air Algerie absent
+alta_associate	carrier	Air Canada	member	alta_members.html:L607 contains 'Air Canada'
+alta_associate	carrier	Air Europa	member	alta_members.html:L609 contains 'Air Europa'
+alta_associate	carrier	American Airlines	member	alta_members.html:L611 contains 'American Airlines'
+alta_associate	carrier	Avion Express	member	alta_members.html:L613 contains 'Avion Express'
+alta_associate	carrier	Delta Air Lines	member	alta_members.html:L615 contains 'Delta Air Lines'
+alta_associate	carrier	Aegean Airlines	nonmember	alta_members.html:lines 1-1288, member table records=11; Aegean Airlines absent
+alta_associate	carrier	Aer Lingus	nonmember	alta_members.html:lines 1-1288, member table records=11; Aer Lingus absent
+alta_associate	carrier	Aeroflot	nonmember	alta_members.html:lines 1-1288, member table records=11; Aeroflot absent
+alta_associate	carrier	Aerolineas Argentinas	nonmember	alta_members.html:lines 1-1288, member table records=11; Aerolineas Argentinas absent
+alta_associate	carrier	Aeromexico	nonmember	alta_members.html:lines 1-1288, member table records=11; Aeromexico absent
+a4a	carrier	Air Canada	member	airlines_for_america_members.html:L631 contains 'Air Canada'
+a4a	carrier	Alaska Airlines	member	airlines_for_america_members.html:L631 contains 'Alaska Airlines'
+a4a	carrier	American Airlines	member	airlines_for_america_members.html:L631 contains 'American Airlines'
+a4a	carrier	Atlas Air	member	airlines_for_america_members.html:L631 contains 'Atlas Air'
+a4a	carrier	Delta Air Lines	member	airlines_for_america_members.html:L631 contains 'Delta Air Lines'
+a4a	carrier	Aegean Airlines	nonmember	airlines_for_america_members.html:lines 1-2048, member table records=10; Aegean Airlines absent
+a4a	carrier	Aer Lingus	nonmember	airlines_for_america_members.html:lines 1-2048, member table records=10; Aer Lingus absent
+a4a	carrier	Aeroflot	nonmember	airlines_for_america_members.html:lines 1-2048, member table records=10; Aeroflot absent
+a4a	carrier	Aerolineas Argentinas	nonmember	airlines_for_america_members.html:lines 1-2048, member table records=10; Aerolineas Argentinas absent
+a4a	carrier	Aeromexico	nonmember	airlines_for_america_members.html:lines 1-2048, member table records=10; Aeromexico absent
+a4e	carrier	Aegean Airlines	member	a4e_our_members.html:L1317 contains 'Aegean Airlines'
+a4e	carrier	AirBaltic	member	a4e_our_members.html:L1319 contains 'airBaltic'
+a4e	carrier	Cargolux	member	a4e_our_members.html:L1323 contains 'Cargolux'
+a4e	carrier	Finnair	member	a4e_our_members.html:L1327 contains 'Finnair'
+a4e	carrier	Icelandair	member	a4e_our_members.html:L1329 contains 'Icelandair'
+a4e	carrier	Aer Lingus	nonmember	a4e_our_members.html:lines 1-1854, member table records=16; Aer Lingus absent
+a4e	carrier	Aeroflot	nonmember	a4e_our_members.html:lines 1-1854, member table records=16; Aeroflot absent
+a4e	carrier	Aerolineas Argentinas	nonmember	a4e_our_members.html:lines 1-1854, member table records=16; Aerolineas Argentinas absent
+a4e	carrier	Aeromexico	nonmember	a4e_our_members.html:lines 1-1854, member table records=16; Aeromexico absent
+a4e	carrier	Aeromexico Connect	nonmember	a4e_our_members.html:lines 1-1854, member table records=16; Aeromexico Connect absent
+stockholm_annex_a	chemical	Aldrin	member	stockholm_convention_text_2025.pdf:p33 contains 'Aldrin'
+stockholm_annex_a	chemical	Alpha-hexachlorocyclohexane	member	stockholm_convention_text_2025.pdf:p33 contains 'Alpha-hexachlorocyclohexane'
+stockholm_annex_a	chemical	Beta-hexachlorocyclohexane	member	stockholm_convention_text_2025.pdf:p33 contains 'Beta-hexachlorocyclohexane'
+stockholm_annex_a	chemical	Brominated diphenyl ethers	member	stockholm_convention_text_2025.pdf:p44 contains 'Pentabromodiphenyl ether'
+stockholm_annex_a	chemical	C10-13 Chloroalkanes	member	stockholm_convention_text_2025.pdf:p43 contains 'Short-chain chlorinated paraffins'
+stockholm_annex_a	chemical	1,1,1,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=35; 1,1,1,2-Tetrachloroethane absent
+stockholm_annex_a	chemical	1,1,1-Trichloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=35; 1,1,1-Trichloroethane absent
+stockholm_annex_a	chemical	1,1,2,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=35; 1,1,2,2-Tetrachloroethane absent
+stockholm_annex_a	chemical	1,1-Dimethylhydrazine	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=35; 1,1-Dimethylhydrazine absent
+stockholm_annex_a	chemical	1,2,3-Trichloropropane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=35; 1,2,3-Trichloropropane absent
+stockholm_annex_c	chemical	2,3,7,8-Tetrachlorodibenzo-p-dioxin	member	stockholm_convention_text_2025.pdf:p69 contains '2,3,7,8-Tetrachlorodibenzo-p-dioxin'
+stockholm_annex_c	chemical	Hexachlorobenzene	member	stockholm_convention_text_2025.pdf:p36 contains 'Hexachlorobenzene'
+stockholm_annex_c	chemical	Hexachlorobutadiene	member	stockholm_convention_text_2025.pdf:p36 contains 'Hexachlorobutadiene'
+stockholm_annex_c	chemical	Pentachlorobenzene	member	stockholm_convention_text_2025.pdf:p40 contains 'Pentachlorobenzene'
+stockholm_annex_c	chemical	Polychlorinated biphenyls	member	stockholm_convention_text_2025.pdf:p43 contains 'Polychlorinated biphenyls'
+stockholm_annex_c	chemical	1,1,1,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=6; 1,1,1,2-Tetrachloroethane absent
+stockholm_annex_c	chemical	1,1,1-Trichloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=6; 1,1,1-Trichloroethane absent
+stockholm_annex_c	chemical	1,1,2,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=6; 1,1,2,2-Tetrachloroethane absent
+stockholm_annex_c	chemical	1,1-Dimethylhydrazine	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=6; 1,1-Dimethylhydrazine absent
+stockholm_annex_c	chemical	1,2,3-Trichloropropane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=6; 1,2,3-Trichloropropane absent
+rotterdam_pesticides	chemical	1,2-Dibromoethane	member	rotterdam_convention_text_2025.pdf:p32 contains '1,2-Dibromoethane (EDB)'
+rotterdam_pesticides	chemical	1,2-Dichloroethane	member	rotterdam_convention_text_2025.pdf:p32 contains 'Ethylene dichloride'
+rotterdam_pesticides	chemical	2,4,5-T	member	rotterdam_convention_text_2025.pdf:p31 contains '2,4,5-T'
+rotterdam_pesticides	chemical	Alachlor	member	rotterdam_convention_text_2025.pdf:p31 contains 'Alachlor'
+rotterdam_pesticides	chemical	Aldicarb	member	rotterdam_convention_text_2025.pdf:p31 contains 'Aldicarb'
+rotterdam_pesticides	chemical	1,1,1,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=38; 1,1,1,2-Tetrachloroethane absent
+rotterdam_pesticides	chemical	1,1,1-Trichloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=38; 1,1,1-Trichloroethane absent
+rotterdam_pesticides	chemical	1,1,2,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=38; 1,1,2,2-Tetrachloroethane absent
+rotterdam_pesticides	chemical	1,1-Dimethylhydrazine	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=38; 1,1-Dimethylhydrazine absent
+rotterdam_pesticides	chemical	1,2,3-Trichloropropane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=38; 1,2,3-Trichloropropane absent
+rotterdam_industrial	chemical	Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile, crocidolite, tremolite)	member	rotterdam_convention_text_2025.pdf:p33 contains 'Asbestos (all forms, including actinolite, amosite, anthophyllite, chrysotile, crocidolite, tremolite)'
+rotterdam_industrial	chemical	C10-13 Chloroalkanes	member	rotterdam_convention_text_2025.pdf:p34 contains 'Short-chain chlorinated paraffins'
+rotterdam_industrial	chemical	Commercial octabromodiphenyl ether	member	rotterdam_convention_text_2025.pdf:p33 contains 'Commercial octabromodiphenyl ether'
+rotterdam_industrial	chemical	Commercial pentabromodiphenyl ether	member	rotterdam_convention_text_2025.pdf:p33 contains 'Commercial pentabromodiphenyl ether'
+rotterdam_industrial	chemical	Decabromodiphenyl ether	member	rotterdam_convention_text_2025.pdf:p33 contains 'Decabromodiphenyl ether'
+rotterdam_industrial	chemical	1,1,1,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=15; 1,1,1,2-Tetrachloroethane absent
+rotterdam_industrial	chemical	1,1,1-Trichloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=15; 1,1,1-Trichloroethane absent
+rotterdam_industrial	chemical	1,1,2,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=15; 1,1,2,2-Tetrachloroethane absent
+rotterdam_industrial	chemical	1,1-Dimethylhydrazine	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=15; 1,1-Dimethylhydrazine absent
+rotterdam_industrial	chemical	1,2,3-Trichloropropane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=15; 1,2,3-Trichloropropane absent
+rotterdam_annex_iii	chemical	1,2-Dibromoethane	member	rotterdam_convention_text_2025.pdf:p32 contains '1,2-Dibromoethane (EDB)'
+rotterdam_annex_iii	chemical	1,2-Dichloroethane	member	rotterdam_convention_text_2025.pdf:p32 contains 'Ethylene dichloride'
+rotterdam_annex_iii	chemical	2,4,5-T	member	rotterdam_convention_text_2025.pdf:p31 contains '2,4,5-T'
+rotterdam_annex_iii	chemical	Alachlor	member	rotterdam_convention_text_2025.pdf:p31 contains 'Alachlor'
+rotterdam_annex_iii	chemical	Aldicarb	member	rotterdam_convention_text_2025.pdf:p31 contains 'Aldicarb'
+rotterdam_annex_iii	chemical	1,1,1,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=53; 1,1,1,2-Tetrachloroethane absent
+rotterdam_annex_iii	chemical	1,1,1-Trichloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=53; 1,1,1-Trichloroethane absent
+rotterdam_annex_iii	chemical	1,1,2,2-Tetrachloroethane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=53; 1,1,2,2-Tetrachloroethane absent
+rotterdam_annex_iii	chemical	1,1-Dimethylhydrazine	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=53; 1,1-Dimethylhydrazine absent
+rotterdam_annex_iii	chemical	1,2,3-Trichloropropane	nonmember	rotterdam_convention_text_2025.pdf:pages 1-51, member table records=53; 1,2,3-Trichloropropane absent
+opcw_schedule_1	chemical	Chlorosarin	member	cwc_schedule_1.html:L1237 contains 'Chlorosarin: O-Isopropyl methylphosphonochloridate [CAS 1445-76-7]'
+opcw_schedule_1	chemical	Chlorosoman	member	cwc_schedule_1.html:L1242 contains 'Chlorosoman: O-Pinacolyl methylphosphonochloridate [CAS 7040-57-5]'
+opcw_schedule_1	chemical	DF	member	cwc_schedule_1.html:L1222 contains 'CAS 676-99-3 [CAS 676-99-3]'
+opcw_schedule_1	chemical	HN1	member	cwc_schedule_1.html:L1103 contains 'HN1: Bis(2-chloroethyl)ethylamine [CAS 538-07-8]'
+opcw_schedule_1	chemical	HN2	member	cwc_schedule_1.html:L1108 contains 'HN2: Bis(2-chloroethyl)methylamine [CAS 51-75-2]'
+opcw_schedule_1	chemical	1,1,1,2-Tetrachloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=33; 1,1,1,2-Tetrachloroethane absent
+opcw_schedule_1	chemical	1,1,1-Trichloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=33; 1,1,1-Trichloroethane absent
+opcw_schedule_1	chemical	1,1,2,2-Tetrachloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=33; 1,1,2,2-Tetrachloroethane absent
+opcw_schedule_1	chemical	1,1-Dimethylhydrazine	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=33; 1,1-Dimethylhydrazine absent
+opcw_schedule_1	chemical	1,2,3-Trichloropropane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=33; 1,2,3-Trichloropropane absent
+opcw_schedule_2	chemical	2,2-Diphenyl-2-hydroxyacetic acid	member	cwc_schedule_2.html:L1061 contains '2,2-Diphenyl-2-hydroxyacetic acid [CAS 76-93-7]'
+opcw_schedule_2	chemical	Amiton	member	cwc_schedule_2.html:L993 contains 'Amiton: O,O-Diethyl S-[2-(diethylamino)ethyl] phosphorothiolate [CAS 78-53-5]'
+opcw_schedule_2	chemical	Arsenic trichloride	member	cwc_schedule_2.html:L1056 contains 'Arsenic trichloride [CAS 7784-34-1]'
+opcw_schedule_2	chemical	BZ	member	cwc_schedule_2.html:L1008 contains 'BZ: 3-Quinuclidinyl benzilate (*) [CAS 6581-06-2]'
+opcw_schedule_2	chemical	Dimethyl methylphosphonate	member	cwc_schedule_2.html:L1036 contains 'Dimethyl methylphosphonate [CAS 756-79-6]'
+opcw_schedule_2	chemical	1,1,1,2-Tetrachloroethane	nonmember	cwc_schedule_2.html:lines 1-1235, member table records=13; 1,1,1,2-Tetrachloroethane absent
+opcw_schedule_2	chemical	1,1,1-Trichloroethane	nonmember	cwc_schedule_2.html:lines 1-1235, member table records=13; 1,1,1-Trichloroethane absent
+opcw_schedule_2	chemical	1,1,2,2-Tetrachloroethane	nonmember	cwc_schedule_2.html:lines 1-1235, member table records=13; 1,1,2,2-Tetrachloroethane absent
+opcw_schedule_2	chemical	1,1-Dimethylhydrazine	nonmember	cwc_schedule_2.html:lines 1-1235, member table records=13; 1,1-Dimethylhydrazine absent
+opcw_schedule_2	chemical	1,2,3-Trichloropropane	nonmember	cwc_schedule_2.html:lines 1-1235, member table records=13; 1,2,3-Trichloropropane absent
+opcw_schedule_3	chemical	Chloropicrin	member	cwc_schedule_3.html:L1009 contains 'Chloropicrin: Trichloronitromethane [CAS 76-06-2]'
+opcw_schedule_3	chemical	Cyanogen chloride	member	cwc_schedule_3.html:L999 contains 'Cyanogen chloride [CAS 506-77-4]'
+opcw_schedule_3	chemical	Diethyl phosphite	member	cwc_schedule_3.html:L1056 contains 'Diethyl phosphite [CAS 762-04-9]'
+opcw_schedule_3	chemical	Dimethyl hydrogen phosphite	member	cwc_schedule_3.html:L1051 contains 'Dimethyl phosphite [CAS 868-85-9]'
+opcw_schedule_3	chemical	Ethyldiethanolamine	member	cwc_schedule_3.html:L1076 contains 'Ethyldiethanolamine [CAS 139-87-7]'
+opcw_schedule_3	chemical	1,1,1,2-Tetrachloroethane	nonmember	cwc_schedule_3.html:lines 1-1210, member table records=17; 1,1,1,2-Tetrachloroethane absent
+opcw_schedule_3	chemical	1,1,1-Trichloroethane	nonmember	cwc_schedule_3.html:lines 1-1210, member table records=17; 1,1,1-Trichloroethane absent
+opcw_schedule_3	chemical	1,1,2,2-Tetrachloroethane	nonmember	cwc_schedule_3.html:lines 1-1210, member table records=17; 1,1,2,2-Tetrachloroethane absent
+opcw_schedule_3	chemical	1,1-Dimethylhydrazine	nonmember	cwc_schedule_3.html:lines 1-1210, member table records=17; 1,1-Dimethylhydrazine absent
+opcw_schedule_3	chemical	1,2,3-Trichloropropane	nonmember	cwc_schedule_3.html:lines 1-1210, member table records=17; 1,2,3-Trichloropropane absent
+opcw_all_schedules	chemical	2,2-Diphenyl-2-hydroxyacetic acid	member	cwc_schedule_2.html:L1061 contains '2,2-Diphenyl-2-hydroxyacetic acid [CAS 76-93-7]'
+opcw_all_schedules	chemical	Amiton	member	cwc_schedule_2.html:L993 contains 'Amiton: O,O-Diethyl S-[2-(diethylamino)ethyl] phosphorothiolate [CAS 78-53-5]'
+opcw_all_schedules	chemical	Arsenic trichloride	member	cwc_schedule_2.html:L1056 contains 'Arsenic trichloride [CAS 7784-34-1]'
+opcw_all_schedules	chemical	BZ	member	cwc_schedule_2.html:L1008 contains 'BZ: 3-Quinuclidinyl benzilate (*) [CAS 6581-06-2]'
+opcw_all_schedules	chemical	Chloropicrin	member	cwc_schedule_3.html:L1009 contains 'Chloropicrin: Trichloronitromethane [CAS 76-06-2]'
+opcw_all_schedules	chemical	1,1,1,2-Tetrachloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=63; 1,1,1,2-Tetrachloroethane absent
+opcw_all_schedules	chemical	1,1,1-Trichloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=63; 1,1,1-Trichloroethane absent
+opcw_all_schedules	chemical	1,1,2,2-Tetrachloroethane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=63; 1,1,2,2-Tetrachloroethane absent
+opcw_all_schedules	chemical	1,1-Dimethylhydrazine	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=63; 1,1-Dimethylhydrazine absent
+opcw_all_schedules	chemical	1,2,3-Trichloropropane	nonmember	cwc_schedule_1.html:lines 1-1393, member table records=63; 1,2,3-Trichloropropane absent
+montreal_all_controlled_substances	chemical	Bromochloromethane	member	montreal_handbook_2020.pdf:p7 contains 'Bromochloromethane'
+montreal_all_controlled_substances	chemical	CFC-11	member	montreal_handbook_2020.pdf:p8 contains 'CFC-11'
+montreal_all_controlled_substances	chemical	CFC-111	member	montreal_handbook_2020.pdf:p8 contains 'CFC-111'
+montreal_all_controlled_substances	chemical	CFC-112	member	montreal_handbook_2020.pdf:p8 contains 'CFC-112'
+montreal_all_controlled_substances	chemical	CFC-113	member	montreal_handbook_2020.pdf:p8 contains 'CFC-113'
+montreal_all_controlled_substances	chemical	1,1,1,2-Tetrachloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=79; 1,1,1,2-Tetrachloroethane absent
+montreal_all_controlled_substances	chemical	1,1,1-Trichloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=79; 1,1,1-Trichloroethane absent
+montreal_all_controlled_substances	chemical	1,1,2,2-Tetrachloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=79; 1,1,2,2-Tetrachloroethane absent
+montreal_all_controlled_substances	chemical	1,1-Dimethylhydrazine	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=79; 1,1-Dimethylhydrazine absent
+montreal_all_controlled_substances	chemical	1,2,3-Trichloropropane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=79; 1,2,3-Trichloropropane absent
+iarc_group_1	chemical	1,2-Dichloropropane	member	iarc_loc_app.js:L1 contains '1,2-Dichloropropane'
+iarc_group_1	chemical	1,3-Butadiene	member	iarc_loc_app.js:L1 contains '1,3-Butadiene'
+iarc_group_1	chemical	1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU) (Semustine)	member	iarc_loc_app.js:L1 contains '1-(2-Chloroethyl)-3-(4-methylcyclohexyl)-1-nitrosourea (Methyl-CCNU) (Semustine)'
+iarc_group_1	chemical	2,3,4,7,8-Pentachlorodibenzofuran	member	iarc_loc_app.js:L1 contains '2,3,4,7,8-Pentachlorodibenzofuran'
+iarc_group_1	chemical	2,3,7,8-Tetrachlorodibenzo-p-dioxin	member	iarc_loc_app.js:L1 contains '2,3,7,8-Tetrachlorodibenzo-para-dioxin'
+iarc_group_1	chemical	1,1,1,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=64; 1,1,1,2-Tetrachloroethane absent
+iarc_group_1	chemical	1,1,1-Trichloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=64; 1,1,1-Trichloroethane absent
+iarc_group_1	chemical	1,1,2,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=64; 1,1,2,2-Tetrachloroethane absent
+iarc_group_1	chemical	1,1-Dimethylhydrazine	nonmember	iarc_loc_app.js:lines 1-1, member table records=64; 1,1-Dimethylhydrazine absent
+iarc_group_1	chemical	1,2,3-Trichloropropane	nonmember	iarc_loc_app.js:lines 1-1, member table records=64; 1,2,3-Trichloropropane absent
+iarc_group_2a	chemical	1,1,1-Trichloroethane	member	iarc_loc_app.js:L1 contains '1,1,1-Trichloroethane'
+iarc_group_2a	chemical	1,2,3-Trichloropropane	member	iarc_loc_app.js:L1 contains '1,2,3-Trichloropropane'
+iarc_group_2a	chemical	1,2-Dibromoethane	member	iarc_loc_app.js:L1 contains 'Ethylene dibromide'
+iarc_group_2a	chemical	1,2-Dimethylhydrazine	member	iarc_loc_app.js:L1 contains '1,2-Dimethylhydrazine'
+iarc_group_2a	chemical	1,3-Propane sultone	member	iarc_loc_app.js:L1 contains '1,3-Propane sultone'
+iarc_group_2a	chemical	1,1,1,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=80; 1,1,1,2-Tetrachloroethane absent
+iarc_group_2a	chemical	1,1,2,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=80; 1,1,2,2-Tetrachloroethane absent
+iarc_group_2a	chemical	1,1-Dimethylhydrazine	nonmember	iarc_loc_app.js:lines 1-1, member table records=80; 1,1-Dimethylhydrazine absent
+iarc_group_2a	chemical	1,2-Dibromo-3-chloropropane	nonmember	iarc_loc_app.js:lines 1-1, member table records=80; 1,2-Dibromo-3-chloropropane absent
+iarc_group_2a	chemical	1,2-Dichloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=80; 1,2-Dichloroethane absent
+iarc_group_2b	chemical	1,1,1,2-Tetrachloroethane	member	iarc_loc_app.js:L1 contains '1,1,1,2-Tetrachloroethane'
+iarc_group_2b	chemical	1,1,2,2-Tetrachloroethane	member	iarc_loc_app.js:L1 contains '1,1,2,2-Tetrachloroethane'
+iarc_group_2b	chemical	1,1-Dimethylhydrazine	member	iarc_loc_app.js:L1 contains '1,1-Dimethylhydrazine'
+iarc_group_2b	chemical	1,2-Dibromo-3-chloropropane	member	iarc_loc_app.js:L1 contains '1,2-Dibromo-3-chloropropane'
+iarc_group_2b	chemical	1,2-Dichloroethane	member	iarc_loc_app.js:L1 contains '1,2-Dichloroethane'
+iarc_group_2b	chemical	1,1,1-Trichloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=291; 1,1,1-Trichloroethane absent
+iarc_group_2b	chemical	1,2,3-Trichloropropane	nonmember	iarc_loc_app.js:lines 1-1, member table records=291; 1,2,3-Trichloropropane absent
+iarc_group_2b	chemical	1,2-Dibromoethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=291; 1,2-Dibromoethane absent
+iarc_group_2b	chemical	1,2-Dichloropropane	nonmember	iarc_loc_app.js:lines 1-1, member table records=291; 1,2-Dichloropropane absent
+iarc_group_2b	chemical	1,2-Dimethylhydrazine	nonmember	iarc_loc_app.js:lines 1-1, member table records=291; 1,2-Dimethylhydrazine absent
+iarc_group_3	chemical	Aldicarb	member	iarc_loc_app.js:L1 contains 'Aldicarb'
+iarc_group_3	chemical	Anthranilic acid	member	iarc_loc_app.js:L1 contains 'Anthranilic acid'
+iarc_group_3	chemical	Benzo(g,h,i)perylene	member	iarc_loc_app.js:L1 contains 'Benzo[ghi]perylene'
+iarc_group_3	chemical	Carbon nanotubes, multiwalled MWCNT-7	member	iarc_loc_app.js:L1 contains 'Carbon nanotubes, multiwalled, other than MWCNT-7'
+iarc_group_3	chemical	Chlordimeform	member	iarc_loc_app.js:L1 contains 'Chlordimeform'
+iarc_group_3	chemical	1,1,1,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=438; 1,1,1,2-Tetrachloroethane absent
+iarc_group_3	chemical	1,1,1-Trichloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=438; 1,1,1-Trichloroethane absent
+iarc_group_3	chemical	1,1,2,2-Tetrachloroethane	nonmember	iarc_loc_app.js:lines 1-1, member table records=438; 1,1,2,2-Tetrachloroethane absent
+iarc_group_3	chemical	1,1-Dimethylhydrazine	nonmember	iarc_loc_app.js:lines 1-1, member table records=438; 1,1-Dimethylhydrazine absent
+iarc_group_3	chemical	1,2,3-Trichloropropane	nonmember	iarc_loc_app.js:lines 1-1, member table records=438; 1,2,3-Trichloropropane absent
+wfd_priority	chemical	1,2-Dichloroethane	member	eu_wfd_directive_2013_39.html:L1692 contains '1,2-dichloroethane'
+wfd_priority	chemical	Aclonifen	member	eu_wfd_directive_2013_39.html:L2178 contains 'Aclonifen'
+wfd_priority	chemical	Alachlor	member	eu_wfd_directive_2013_39.html:L1536 contains 'Alachlor'
+wfd_priority	chemical	Anthracene	member	eu_wfd_directive_2013_39.html:L1553 contains 'Anthracene'
+wfd_priority	chemical	Atrazine	member	eu_wfd_directive_2013_39.html:L1570 contains 'Atrazine'
+wfd_priority	chemical	1,1,1,2-Tetrachloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=45; 1,1,1,2-Tetrachloroethane absent
+wfd_priority	chemical	1,1,1-Trichloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=45; 1,1,1-Trichloroethane absent
+wfd_priority	chemical	1,1,2,2-Tetrachloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=45; 1,1,2,2-Tetrachloroethane absent
+wfd_priority	chemical	1,1-Dimethylhydrazine	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=45; 1,1-Dimethylhydrazine absent
+wfd_priority	chemical	1,2,3-Trichloropropane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=45; 1,2,3-Trichloropropane absent
+wfd_hazardous	chemical	Anthracene	member	eu_wfd_directive_2013_39.html:L1553 contains 'Anthracene'
+wfd_hazardous	chemical	Brominated diphenyl ethers	member	eu_wfd_directive_2013_39.html:L1610 contains 'Brominated diphenylethers'
+wfd_hazardous	chemical	C10-13 Chloroalkanes	member	eu_wfd_directive_2013_39.html:L1640 contains 'Chloroalkanes, C 10-13'
+wfd_hazardous	chemical	Cadmium and cadmium compounds	member	eu_wfd_directive_2013_39.html:L1623 contains 'Cadmium and its compounds'
+wfd_hazardous	chemical	Di(2-ethylhexyl) phthalate	member	eu_wfd_directive_2013_39.html:L1726 contains 'Di(2-ethylhexyl)phthalate (DEHP)'
+wfd_hazardous	chemical	1,1,1,2-Tetrachloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=21; 1,1,1,2-Tetrachloroethane absent
+wfd_hazardous	chemical	1,1,1-Trichloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=21; 1,1,1-Trichloroethane absent
+wfd_hazardous	chemical	1,1,2,2-Tetrachloroethane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=21; 1,1,2,2-Tetrachloroethane absent
+wfd_hazardous	chemical	1,1-Dimethylhydrazine	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=21; 1,1-Dimethylhydrazine absent
+wfd_hazardous	chemical	1,2,3-Trichloropropane	nonmember	eu_wfd_directive_2013_39.html:lines 1-4147, member table records=21; 1,2,3-Trichloropropane absent
+montreal_annex_a_group_i	chemical	CFC-11	member	montreal_handbook_2020.pdf:p8 contains 'CFC-11'
+montreal_annex_a_group_i	chemical	CFC-113	member	montreal_handbook_2020.pdf:p8 contains 'CFC-113'
+montreal_annex_a_group_i	chemical	CFC-114	member	montreal_handbook_2020.pdf:p8 contains 'CFC-114'
+montreal_annex_a_group_i	chemical	CFC-115	member	montreal_handbook_2020.pdf:p8 contains 'CFC-115'
+montreal_annex_a_group_i	chemical	CFC-12	member	montreal_handbook_2020.pdf:p8 contains 'CFC-12'
+montreal_annex_a_group_i	chemical	1,1,1,2-Tetrachloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=5; 1,1,1,2-Tetrachloroethane absent
+montreal_annex_a_group_i	chemical	1,1,1-Trichloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=5; 1,1,1-Trichloroethane absent
+montreal_annex_a_group_i	chemical	1,1,2,2-Tetrachloroethane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=5; 1,1,2,2-Tetrachloroethane absent
+montreal_annex_a_group_i	chemical	1,1-Dimethylhydrazine	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=5; 1,1-Dimethylhydrazine absent
+montreal_annex_a_group_i	chemical	1,2,3-Trichloropropane	nonmember	montreal_handbook_2020.pdf:pages 1-960, member table records=5; 1,2,3-Trichloropropane absent
+stockholm_all_pops	chemical	2,3,7,8-Tetrachlorodibenzo-p-dioxin	member	stockholm_convention_text_2025.pdf:p69 contains '2,3,7,8-Tetrachlorodibenzo-p-dioxin'
+stockholm_all_pops	chemical	Aldrin	member	stockholm_convention_text_2025.pdf:p33 contains 'Aldrin'
+stockholm_all_pops	chemical	Alpha-hexachlorocyclohexane	member	stockholm_convention_text_2025.pdf:p33 contains 'Alpha-hexachlorocyclohexane'
+stockholm_all_pops	chemical	Beta-hexachlorocyclohexane	member	stockholm_convention_text_2025.pdf:p33 contains 'Beta-hexachlorocyclohexane'
+stockholm_all_pops	chemical	Brominated diphenyl ethers	member	stockholm_convention_text_2025.pdf:p44 contains 'Pentabromodiphenyl ether'
+stockholm_all_pops	chemical	1,1,1,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=36; 1,1,1,2-Tetrachloroethane absent
+stockholm_all_pops	chemical	1,1,1-Trichloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=36; 1,1,1-Trichloroethane absent
+stockholm_all_pops	chemical	1,1,2,2-Tetrachloroethane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=36; 1,1,2,2-Tetrachloroethane absent
+stockholm_all_pops	chemical	1,1-Dimethylhydrazine	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=36; 1,1-Dimethylhydrazine absent
+stockholm_all_pops	chemical	1,2,3-Trichloropropane	nonmember	stockholm_convention_text_2025.pdf:pages 1-81, member table records=36; 1,2,3-Trichloropropane absent
+eu	country	AT	member	eu_member_states.html:L1208 contains 'Austria'
+eu	country	BE	member	eu_member_states.html:L1226 contains 'Belgium'
+eu	country	BG	member	eu_member_states.html:L1244 contains 'Bulgaria'
+eu	country	CY	member	eu_member_states.html:L1280 contains 'Cyprus'
+eu	country	CZ	member	eu_member_states.html:L1298 contains 'Czechia'
+eu	country	AD	nonmember	eu_member_states.html:lines 1-1697, member table records=27; Andorra absent
+eu	country	AE	nonmember	eu_member_states.html:lines 1-1697, member table records=27; United Arab Emirates absent
+eu	country	AF	nonmember	eu_member_states.html:lines 1-1697, member table records=27; Afghanistan absent
+eu	country	AG	nonmember	eu_member_states.html:lines 1-1697, member table records=27; Antigua & Barbuda absent
+eu	country	AL	nonmember	eu_member_states.html:lines 1-1697, member table records=27; Albania absent
+eu_1958	country	BE	member	eu_member_states.html:L1226 contains 'Belgium'
+eu_1958	country	DE	member	eu_member_states.html:L1388 contains 'Germany'
+eu_1958	country	FR	member	eu_member_states.html:L1370 contains 'France'
+eu_1958	country	IT	member	eu_member_states.html:L1460 contains 'Italy'
+eu_1958	country	LU	member	eu_member_states.html:L1514 contains 'Luxembourg'
+eu_1958	country	AD	nonmember	eu_member_states.html:lines 1-1697, member table records=6; Andorra absent
+eu_1958	country	AE	nonmember	eu_member_states.html:lines 1-1697, member table records=6; United Arab Emirates absent
+eu_1958	country	AF	nonmember	eu_member_states.html:lines 1-1697, member table records=6; Afghanistan absent
+eu_1958	country	AG	nonmember	eu_member_states.html:lines 1-1697, member table records=6; Antigua & Barbuda absent
+eu_1958	country	AL	nonmember	eu_member_states.html:lines 1-1697, member table records=6; Albania absent
+nato	country	AL	member	nato_member_states.html:L1003 contains 'Albania'
+nato	country	BE	member	nato_member_states.html:L1035 contains 'Belgium'
+nato	country	BG	member	nato_member_states.html:L1051 contains 'Bulgaria'
+nato	country	CA	member	nato_member_states.html:L1019 contains 'Canada'
+nato	country	CZ	member	nato_member_states.html:L1083 contains 'Czechia'
+nato	country	AD	nonmember	nato_member_states.html:lines 1-9223, member table records=32; Andorra absent
+nato	country	AE	nonmember	nato_member_states.html:lines 1-9223, member table records=32; United Arab Emirates absent
+nato	country	AF	nonmember	nato_member_states.html:lines 1-9223, member table records=32; Afghanistan absent
+nato	country	AG	nonmember	nato_member_states.html:lines 1-9223, member table records=32; Antigua & Barbuda absent
+nato	country	AM	nonmember	nato_member_states.html:lines 1-9223, member table records=32; Armenia absent
+commonwealth	country	AG	member	commonwealth_member_countries.html:L24 contains 'Antigua & Barbuda'
+commonwealth	country	AU	member	commonwealth_member_countries.html:L24 contains 'Australia'
+commonwealth	country	BB	member	commonwealth_member_countries.html:L24 contains 'Barbados'
+commonwealth	country	BD	member	commonwealth_member_countries.html:L24 contains 'Bangladesh'
+commonwealth	country	BN	member	commonwealth_member_countries.html:L24 contains 'Brunei'
+commonwealth	country	AD	nonmember	commonwealth_member_countries.html:lines 1-24, member table records=55; Andorra absent
+commonwealth	country	AE	nonmember	commonwealth_member_countries.html:lines 1-24, member table records=55; United Arab Emirates absent
+commonwealth	country	AF	nonmember	commonwealth_member_countries.html:lines 1-24, member table records=55; Afghanistan absent
+commonwealth	country	AL	nonmember	commonwealth_member_countries.html:lines 1-24, member table records=55; Albania absent
+commonwealth	country	AM	nonmember	commonwealth_member_countries.html:lines 1-24, member table records=55; Armenia absent
+g7	country	CA	member	wikipedia_g7.txt:L34 contains 'Canada'
+g7	country	DE	member	wikipedia_g7.txt:L38 contains 'Germany'
+g7	country	FR	member	wikipedia_g7.txt:L16 contains 'France'
+g7	country	GB	member	wikipedia_g7.txt:L44 contains 'United Kingdom'
+g7	country	IT	member	wikipedia_g7.txt:L40 contains 'Italy'
+g7	country	AD	nonmember	wikipedia_g7.txt:lines 1-757, member table records=7; Andorra absent
+g7	country	AE	nonmember	wikipedia_g7.txt:lines 1-757, member table records=7; United Arab Emirates absent
+g7	country	AF	nonmember	wikipedia_g7.txt:lines 1-757, member table records=7; Afghanistan absent
+g7	country	AG	nonmember	wikipedia_g7.txt:lines 1-757, member table records=7; Antigua & Barbuda absent
+g7	country	AL	nonmember	wikipedia_g7.txt:lines 1-757, member table records=7; Albania absent
+gcc	country	AE	member	wikipedia_gcc.txt:L16 contains 'United Arab Emirates'
+gcc	country	BH	member	wikipedia_gcc.txt:L15 contains 'Bahrain'
+gcc	country	KW	member	wikipedia_gcc.txt:L15 contains 'Kuwait'
+gcc	country	OM	member	wikipedia_gcc.txt:L15 contains 'Oman'
+gcc	country	QA	member	wikipedia_gcc.txt:L16 contains 'Qatar'
+gcc	country	AD	nonmember	wikipedia_gcc.txt:lines 1-642, member table records=6; Andorra absent
+gcc	country	AF	nonmember	wikipedia_gcc.txt:lines 1-642, member table records=6; Afghanistan absent
+gcc	country	AG	nonmember	wikipedia_gcc.txt:lines 1-642, member table records=6; Antigua & Barbuda absent
+gcc	country	AL	nonmember	wikipedia_gcc.txt:lines 1-642, member table records=6; Albania absent
+gcc	country	AM	nonmember	wikipedia_gcc.txt:lines 1-642, member table records=6; Armenia absent
+asean	country	BN	member	wikidata_country_group_members.json:L5807 contains 'Brunei'
+asean	country	ID	member	wikidata_country_group_members.json:L5532 contains 'Indonesia'
+asean	country	KH	member	wikidata_country_group_members.json:L5611 contains 'Cambodia'
+asean	country	LA	member	wikidata_country_group_members.json:L5667 contains 'Laos'
+asean	country	MM	member	wikidata_country_group_members.json:L5723 contains 'Myanmar'
+asean	country	AD	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=12; Andorra absent
+asean	country	AE	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=12; United Arab Emirates absent
+asean	country	AF	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=12; Afghanistan absent
+asean	country	AG	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=12; Antigua & Barbuda absent
+asean	country	AL	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=12; Albania absent
+arab_league	country	AE	member	wikidata_country_group_members.json:L4580 contains 'United Arab Emirates'
+arab_league	country	BH	member	wikidata_country_group_members.json:L2121 contains 'Bahrain'
+arab_league	country	DJ	member	wikidata_country_group_members.json:L4664 contains 'Djibouti'
+arab_league	country	DZ	member	wikidata_country_group_members.json:L4272 contains 'Algeria'
+arab_league	country	EG	member	wikidata_country_group_members.json:L4081 contains 'Egypt'
+arab_league	country	AD	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=22; Andorra absent
+arab_league	country	AF	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=22; Afghanistan absent
+arab_league	country	AG	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=22; Antigua & Barbuda absent
+arab_league	country	AL	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=22; Albania absent
+arab_league	country	AM	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=22; Armenia absent
+mtcr	country	AR	member	mtcr_partners.html:L1 contains 'Argentina'
+mtcr	country	AT	member	mtcr_partners.html:L77 contains 'Austria'
+mtcr	country	AU	member	mtcr_partners.html:L50 contains 'Australia'
+mtcr	country	BE	member	mtcr_partners.html:L77 contains 'Belgium'
+mtcr	country	BG	member	mtcr_partners.html:L77 contains 'Bulgaria'
+mtcr	country	AD	nonmember	mtcr_partners.html:lines 1-108, member table records=35; Andorra absent
+mtcr	country	AE	nonmember	mtcr_partners.html:lines 1-108, member table records=35; United Arab Emirates absent
+mtcr	country	AF	nonmember	mtcr_partners.html:lines 1-108, member table records=35; Afghanistan absent
+mtcr	country	AG	nonmember	mtcr_partners.html:lines 1-108, member table records=35; Antigua & Barbuda absent
+mtcr	country	AL	nonmember	mtcr_partners.html:lines 1-108, member table records=35; Albania absent
+nsg	country	AR	member	wikidata_country_group_members.json:L895 contains 'Argentina'
+nsg	country	AT	member	wikidata_country_group_members.json:L699 contains 'Austria'
+nsg	country	AU	member	wikidata_country_group_members.json:L867 contains 'Australia'
+nsg	country	BE	member	wikidata_country_group_members.json:L475 contains 'Belgium'
+nsg	country	BG	member	wikidata_country_group_members.json:L335 contains 'Bulgaria'
+nsg	country	AD	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=48; Andorra absent
+nsg	country	AE	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=48; United Arab Emirates absent
+nsg	country	AF	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=48; Afghanistan absent
+nsg	country	AG	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=48; Antigua & Barbuda absent
+nsg	country	AL	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=48; Albania absent
+australia_group	country	AR	member	wikidata_country_group_members.json:L895 contains 'Argentina'
+australia_group	country	AT	member	wikidata_country_group_members.json:L699 contains 'Austria'
+australia_group	country	AU	member	wikidata_country_group_members.json:L867 contains 'Australia'
+australia_group	country	BE	member	wikidata_country_group_members.json:L475 contains 'Belgium'
+australia_group	country	BG	member	wikidata_country_group_members.json:L335 contains 'Bulgaria'
+australia_group	country	AD	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=40; Andorra absent
+australia_group	country	AE	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=40; United Arab Emirates absent
+australia_group	country	AF	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=40; Afghanistan absent
+australia_group	country	AG	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=40; Antigua & Barbuda absent
+australia_group	country	AL	nonmember	wikidata_country_group_members.json:lines 1-7648, member table records=40; Albania absent
+wassenaar	country	AR	member	wassenaar_home.html:L288 contains 'Argentina'
+wassenaar	country	AT	member	wassenaar_home.html:L259 contains 'Austria'
+wassenaar	country	AU	member	wassenaar_home.html:L288 contains 'Australia'
+wassenaar	country	BE	member	wassenaar_home.html:L288 contains 'Belgium'
+wassenaar	country	BG	member	wassenaar_home.html:L288 contains 'Bulgaria'
+wassenaar	country	AD	nonmember	wassenaar_home.html:lines 1-417, member table records=42; Andorra absent
+wassenaar	country	AE	nonmember	wassenaar_home.html:lines 1-417, member table records=42; United Arab Emirates absent
+wassenaar	country	AF	nonmember	wassenaar_home.html:lines 1-417, member table records=42; Afghanistan absent
+wassenaar	country	AG	nonmember	wassenaar_home.html:lines 1-417, member table records=42; Antigua & Barbuda absent
+wassenaar	country	AL	nonmember	wassenaar_home.html:lines 1-417, member table records=42; Albania absent
+schengen	country	AT	member	schengen_area.html:L665 contains 'Austria'
+schengen	country	BE	member	schengen_area.html:L938 contains 'Belgium'
+schengen	country	CH	member	schengen_area.html:L4198 contains 'Switzerland'
+schengen	country	CZ	member	schengen_area.html:L973 contains 'Czechia'
+schengen	country	DE	member	schengen_area.html:L1001 contains 'Germany'
+schengen	country	AD	nonmember	schengen_area.html:lines 1-4522, member table records=29; Andorra absent
+schengen	country	AE	nonmember	schengen_area.html:lines 1-4522, member table records=29; United Arab Emirates absent
+schengen	country	AF	nonmember	schengen_area.html:lines 1-4522, member table records=29; Afghanistan absent
+schengen	country	AG	nonmember	schengen_area.html:lines 1-4522, member table records=29; Antigua & Barbuda absent
+schengen	country	AL	nonmember	schengen_area.html:lines 1-4522, member table records=29; Albania absent
+opec	country	AE	member	wikidata_opec_members.json:L376 contains 'United Arab Emirates'
+opec	country	AO	member	wikidata_opec_members.json:L42 contains 'Angola'
+opec	country	CG	member	wikidata_opec_members.json:L338 contains 'Congo - Brazzaville'
+opec	country	DZ	member	wikidata_opec_members.json:L23 contains 'Algeria'
+opec	country	GQ	member	wikidata_opec_members.json:L109 contains 'Equatorial Guinea'
+opec	country	AD	nonmember	wikidata_opec_members.json:lines 1-409, member table records=13; Andorra absent
+opec	country	AF	nonmember	wikidata_opec_members.json:lines 1-409, member table records=13; Afghanistan absent
+opec	country	AG	nonmember	wikidata_opec_members.json:lines 1-409, member table records=13; Antigua & Barbuda absent
+opec	country	AL	nonmember	wikidata_opec_members.json:lines 1-409, member table records=13; Albania absent
+opec	country	AM	nonmember	wikidata_opec_members.json:lines 1-409, member table records=13; Armenia absent

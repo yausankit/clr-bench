@@ -1,0 +1,46 @@
+A: '195662009'
+C: snomed_363180009
+C_name: Inflammatory disorder of the respiratory tract
+N_p: '67782005'
+N_t:
+- '36955009'
+- '68235000'
+- '840539006'
+- '203082005'
+- '33737001'
+- '68962001'
+- '267060006'
+P_M:
+- '185086009'
+- '233604007'
+- '10509002'
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - snomed_297268004
+    - snomed_301186004
+    - snomed_386617003
+    - snomed_40733004
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- snomed_111273006
+- snomed_129134004
+- snomed_2704003
+- snomed_275498002
+- snomed_297268004
+- snomed_301186004
+- snomed_386617003
+- snomed_40733004
+field: conditions.code
+label: batch lane Z3
+salience: 49280.0
+universe: condition

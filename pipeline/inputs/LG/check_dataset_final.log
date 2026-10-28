@@ -1,0 +1,29 @@
+PASS base_world deterministic
+PASS different seed gives a different world
+PASS entities >= 30
+PASS proxy_connections.tld: every entity has >= 3 positions
+PASS proxy_connections.port: every entity has >= 3 positions
+PASS proxy_connections.client_app: every entity has >= 3 positions
+PASS ssh_logins.user: every entity has >= 3 positions
+PASS proxy_connections.tld: set_value appears in render()
+PASS proxy_connections.tld: values() count of the new value
+PASS proxy_connections.tld: total() int with empty and non-empty excluded
+PASS proxy_connections.tld: excluding one position lowers the total
+PASS proxy_connections.tld: reference matches total
+PASS proxy_connections.port: set_value appears in render()
+PASS proxy_connections.port: values() count of the new value
+PASS proxy_connections.port: total() int with empty and non-empty excluded
+PASS proxy_connections.port: excluding one position lowers the total
+PASS proxy_connections.port: reference matches total
+PASS proxy_connections.client_app: set_value appears in render()
+PASS proxy_connections.client_app: values() count of the new value
+PASS proxy_connections.client_app: total() int with empty and non-empty excluded
+PASS proxy_connections.client_app: excluding one position lowers the total
+PASS proxy_connections.client_app: reference matches total
+PASS ssh_logins.user: set_value appears in render()
+PASS ssh_logins.user: values() count of the new value
+PASS ssh_logins.user: total() int with empty and non-empty excluded
+PASS ssh_logins.user: excluding one position lowers the total
+PASS ssh_logins.user: reference matches total
+
+RESULT: OK

@@ -1,0 +1,828 @@
+{
+ "_path": "../run/out/SY/SY1/STATE.json",
+ "history": [
+  {
+   "round": 1,
+   "verdicts": {
+    "1": {
+     "C": "snomed_74627003",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 1.0
+    },
+    "2": {
+     "C": "snomed_118675001",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9259
+    },
+    "3": {
+     "C": "dea_schedule_ii",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.963
+    },
+    "4": {
+     "C": "snomed_40733004",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9259
+    },
+    "5": {
+     "C": "snomed_74943008",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.4167,
+     "soft": 0.7222
+    }
+   }
+  },
+  {
+   "round": 2,
+   "verdicts": {
+    "1": {
+     "C": "snomed_55342001",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.9815
+    },
+    "5": {
+     "C": "snomed_392089008",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 1.0,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 3,
+   "verdicts": {
+    "1": {
+     "C": "snomed_27624003",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.963
+    },
+    "5": {
+     "C": "snomed_16310003",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 4,
+   "verdicts": {
+    "1": {
+     "C": "snomed_118940003",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8519
+    },
+    "5": {
+     "C": "snomed_118669005",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.3333,
+     "soft": 0.7778
+    }
+   }
+  },
+  {
+   "round": 5,
+   "verdicts": {
+    "1": {
+     "C": "snomed_82423001",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 0.8519
+    },
+    "5": {
+     "C": "snomed_118696008",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.4167,
+     "soft": 0.7963
+    }
+   }
+  },
+  {
+   "round": 6,
+   "verdicts": {
+    "1": {
+     "C": "snomed_129134004",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.3333,
+     "soft": 0.8333
+    },
+    "5": {
+     "C": "snomed_19838004",
+     "P0": true,
+     "P1": false,
+     "P1H": true,
+     "g": 0.8333,
+     "soft": 0.963
+    }
+   }
+  },
+  {
+   "round": 7,
+   "verdicts": {
+    "5": {
+     "C": "snomed_118674002",
+     "P0": true,
+     "P1": true,
+     "P1H": false,
+     "g": 0.1667,
+     "soft": 0.7037
+    }
+   }
+  },
+  {
+   "round": 8,
+   "verdicts": {
+    "5": {
+     "C": "snomed_386637004",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5,
+     "soft": 0.9259
+    }
+   }
+  },
+  {
+   "round": 9,
+   "verdicts": {
+    "5": {
+     "C": "snomed_108252007",
+     "P0": false,
+     "P1": true,
+     "P1H": true,
+     "g": 0.6667,
+     "soft": 0.8519
+    }
+   }
+  },
+  {
+   "round": 10,
+   "verdicts": {
+    "5": {
+     "C": "snomed_128303001",
+     "P0": true,
+     "P1": true,
+     "P1H": true,
+     "g": 0.5833,
+     "soft": 0.8704
+    }
+   }
+  }
+ ],
+ "requests": 258,
+ "rounds": 10,
+ "runs": 1,
+ "slots": [
+  {
+   "current": {
+    "A": "75498004",
+    "C": "snomed_129134004",
+    "C_name": "Inflammatory disorder of upper respiratory tract",
+    "N_p": "233604007",
+    "N_t": [
+     "267102003",
+     "45816000",
+     "68235000",
+     "57676002",
+     "80583007",
+     "423315002",
+     "126906006"
+    ],
+    "P_M": [
+     "36971009",
+     "40055000",
+     "43878008"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_297268004",
+       "snomed_301186004",
+       "snomed_40733004"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_111273006",
+     "snomed_2704003",
+     "snomed_275498002",
+     "snomed_297268004",
+     "snomed_301186004",
+     "snomed_363176004",
+     "snomed_363180009",
+     "snomed_40733004"
+    ],
+    "field": "conditions.code",
+    "salience": 58622.0,
+    "universe": "condition"
+   },
+   "field": "conditions.code",
+   "level": 1,
+   "pinned": {
+    "A": "75498004",
+    "C": "snomed_129134004",
+    "C_name": "Inflammatory disorder of upper respiratory tract",
+    "N_p": "233604007",
+    "N_t": [
+     "267102003",
+     "45816000",
+     "68235000",
+     "57676002",
+     "80583007",
+     "423315002",
+     "126906006"
+    ],
+    "P_M": [
+     "36971009",
+     "40055000",
+     "43878008"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_297268004",
+       "snomed_301186004",
+       "snomed_40733004"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_111273006",
+     "snomed_2704003",
+     "snomed_275498002",
+     "snomed_297268004",
+     "snomed_301186004",
+     "snomed_363176004",
+     "snomed_363180009",
+     "snomed_40733004"
+    ],
+    "field": "conditions.code",
+    "salience": 58622.0,
+    "universe": "condition"
+   },
+   "tried": [
+    "snomed_74627003",
+    "snomed_55342001",
+    "snomed_27624003",
+    "snomed_118940003",
+    "snomed_82423001"
+   ]
+  },
+  {
+   "current": {
+    "A": "11466000",
+    "C": "snomed_118675001",
+    "C_name": "Procedure on female genital system",
+    "N_p": "65575008",
+    "N_t": [
+     "45595009",
+     "429609002",
+     "90470006",
+     "60027007",
+     "313191000",
+     "22523008",
+     "432231006"
+    ],
+    "P_M": [
+     "35025007",
+     "236931002",
+     "65200003"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "mesh_e_e04_surgical_procedures_operative",
+       "snomed_118674002",
+       "snomed_118698009",
+       "snomed_609637006",
+       "snomed_74943008"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "mesh_e_e04_520_obstetric_surgical_procedures",
+     "mesh_e_e04_surgical_procedures_operative",
+     "snomed_118674002",
+     "snomed_118698009",
+     "snomed_118864003",
+     "snomed_386637004",
+     "snomed_386811000",
+     "snomed_609637006",
+     "snomed_74943008"
+    ],
+    "field": "procedures.code",
+    "salience": 309647.0,
+    "universe": "procedure"
+   },
+   "field": "procedures.code",
+   "level": 2,
+   "pinned": {
+    "A": "11466000",
+    "C": "snomed_118675001",
+    "C_name": "Procedure on female genital system",
+    "N_p": "65575008",
+    "N_t": [
+     "45595009",
+     "429609002",
+     "90470006",
+     "60027007",
+     "313191000",
+     "22523008",
+     "432231006"
+    ],
+    "P_M": [
+     "35025007",
+     "236931002",
+     "65200003"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "mesh_e_e04_surgical_procedures_operative",
+       "snomed_118674002",
+       "snomed_118698009",
+       "snomed_609637006",
+       "snomed_74943008"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "mesh_e_e04_520_obstetric_surgical_procedures",
+     "mesh_e_e04_surgical_procedures_operative",
+     "snomed_118674002",
+     "snomed_118698009",
+     "snomed_118864003",
+     "snomed_386637004",
+     "snomed_386811000",
+     "snomed_609637006",
+     "snomed_74943008"
+    ],
+    "field": "procedures.code",
+    "salience": 309647.0,
+    "universe": "procedure"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "Morphine",
+    "C": "dea_schedule_ii",
+    "C_name": "Schedule II controlled substances",
+    "N_p": "Tramadol",
+    "N_t": [
+     "Pregabalin",
+     "Galantamine",
+     "Simvastatin",
+     "Vancomycin",
+     "Metformin",
+     "Naproxen",
+     "Doxycycline"
+    ],
+    "P_M": [
+     "Methylphenidate",
+     "Remifentanil",
+     "Meperidine"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "atc_n02",
+       "mesh_d_d03_132_alkaloids",
+       "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+       "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+       "mesh_d_d04_polycyclic_compounds",
+       "stopp_start_v3_section_l"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "atc_n02",
+     "atc_n02a",
+     "mesh_d_d03_132_alkaloids",
+     "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+     "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+     "mesh_d_d04_polycyclic_compounds",
+     "mesh_pa_analgesics_opioid",
+     "mesh_pa_narcotics",
+     "stopp_start_v3_section_l",
+     "who_eml_2023_s1_anaesthetics"
+    ],
+    "field": "medications.ingredient",
+    "salience": 328386.0,
+    "universe": "medicine"
+   },
+   "field": "medications.ingredient",
+   "level": 3,
+   "pinned": {
+    "A": "Morphine",
+    "C": "dea_schedule_ii",
+    "C_name": "Schedule II controlled substances",
+    "N_p": "Tramadol",
+    "N_t": [
+     "Pregabalin",
+     "Galantamine",
+     "Simvastatin",
+     "Vancomycin",
+     "Metformin",
+     "Naproxen",
+     "Doxycycline"
+    ],
+    "P_M": [
+     "Methylphenidate",
+     "Remifentanil",
+     "Meperidine"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "atc_n02",
+       "mesh_d_d03_132_alkaloids",
+       "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+       "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+       "mesh_d_d04_polycyclic_compounds",
+       "stopp_start_v3_section_l"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 0,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "atc_n02",
+     "atc_n02a",
+     "mesh_d_d03_132_alkaloids",
+     "mesh_d_d03_633_heterocyclic_compounds_fused_ring",
+     "mesh_d_d04_615_polycyclic_aromatic_hydrocarbons",
+     "mesh_d_d04_polycyclic_compounds",
+     "mesh_pa_analgesics_opioid",
+     "mesh_pa_narcotics",
+     "stopp_start_v3_section_l",
+     "who_eml_2023_s1_anaesthetics"
+    ],
+    "field": "medications.ingredient",
+    "salience": 328386.0,
+    "universe": "medicine"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "195662009",
+    "C": "snomed_40733004",
+    "C_name": "Infection",
+    "N_p": "24079001",
+    "N_t": [
+     "249497008",
+     "367498001",
+     "446096008",
+     "424132000",
+     "55822004",
+     "44054006",
+     "62564004"
+    ],
+    "P_M": [
+     "840539006",
+     "301011002",
+     "11218009"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_129134004",
+       "snomed_297268004",
+       "snomed_301186004",
+       "snomed_363180009",
+       "snomed_386617003"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_111273006",
+     "snomed_129134004",
+     "snomed_2704003",
+     "snomed_275498002",
+     "snomed_297268004",
+     "snomed_301186004",
+     "snomed_363180009",
+     "snomed_386617003"
+    ],
+    "field": "conditions.code",
+    "salience": 187496.0,
+    "universe": "condition"
+   },
+   "field": "conditions.code",
+   "level": 4,
+   "pinned": {
+    "A": "195662009",
+    "C": "snomed_40733004",
+    "C_name": "Infection",
+    "N_p": "24079001",
+    "N_t": [
+     "249497008",
+     "367498001",
+     "446096008",
+     "424132000",
+     "55822004",
+     "44054006",
+     "62564004"
+    ],
+    "P_M": [
+     "840539006",
+     "301011002",
+     "11218009"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_129134004",
+       "snomed_297268004",
+       "snomed_301186004",
+       "snomed_363180009",
+       "snomed_386617003"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_111273006",
+     "snomed_129134004",
+     "snomed_2704003",
+     "snomed_275498002",
+     "snomed_297268004",
+     "snomed_301186004",
+     "snomed_363180009",
+     "snomed_386617003"
+    ],
+    "field": "conditions.code",
+    "salience": 187496.0,
+    "universe": "condition"
+   },
+   "tried": []
+  },
+  {
+   "current": {
+    "A": "445912000",
+    "C": "snomed_128303001",
+    "C_name": "Surgical removal",
+    "N_p": "232717009",
+    "N_t": [
+     "287664005",
+     "76164006",
+     "85548006",
+     "290045001",
+     "47758006",
+     "385798007",
+     "29303009"
+    ],
+    "P_M": [
+     "443497002",
+     "234262008",
+     "392021009"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_118674002",
+       "snomed_118675001",
+       "snomed_118698009",
+       "snomed_386637004",
+       "snomed_609637006",
+       "snomed_74943008"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_108189003",
+     "snomed_118674002",
+     "snomed_118675001",
+     "snomed_118698009",
+     "snomed_386637004",
+     "snomed_609637006",
+     "snomed_74943008"
+    ],
+    "field": "procedures.code",
+    "salience": 16518.0,
+    "universe": "procedure"
+   },
+   "field": "procedures.code",
+   "level": 5,
+   "pinned": {
+    "A": "445912000",
+    "C": "snomed_128303001",
+    "C_name": "Surgical removal",
+    "N_p": "232717009",
+    "N_t": [
+     "287664005",
+     "76164006",
+     "85548006",
+     "290045001",
+     "47758006",
+     "385798007",
+     "29303009"
+    ],
+    "P_M": [
+     "443497002",
+     "234262008",
+     "392021009"
+    ],
+    "checks": {
+     "H1": {
+      "bad": [],
+      "pass": true
+     },
+     "H2": {
+      "lists": [
+       "snomed_118674002",
+       "snomed_118675001",
+       "snomed_118698009",
+       "snomed_386637004",
+       "snomed_609637006",
+       "snomed_74943008"
+      ],
+      "pass": true
+     },
+     "H4": {
+      "pass": true,
+      "repaired": []
+     },
+     "H6": {
+      "excluded": 12,
+      "pass": true
+     }
+    },
+    "comp_A": [
+     "snomed_108189003",
+     "snomed_118674002",
+     "snomed_118675001",
+     "snomed_118698009",
+     "snomed_386637004",
+     "snomed_609637006",
+     "snomed_74943008"
+    ],
+    "field": "procedures.code",
+    "salience": 16518.0,
+    "universe": "procedure"
+   },
+   "tried": [
+    "snomed_74943008",
+    "snomed_392089008",
+    "snomed_16310003",
+    "snomed_118669005",
+    "snomed_118696008",
+    "snomed_19838004",
+    "snomed_118674002",
+    "snomed_386637004",
+    "snomed_108252007"
+   ]
+  }
+ ],
+ "stage": "done"
+}

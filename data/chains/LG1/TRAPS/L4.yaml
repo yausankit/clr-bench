@@ -1,0 +1,51 @@
+A: de
+C: schengen_cctlds
+C_name: Schengen Area member state country-code top-level domains
+N_p: ie
+N_t:
+- cy
+- ca
+- kr
+- office
+- komatsu
+- parts
+- gop
+P_M:
+- li
+- ch
+- mt
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - cctlds_all
+    - eu_member_cctlds
+    - eurozone_cctlds
+    - g20_cctlds
+    - g7_cctlds
+    - nato_cctlds
+    - oecd_cctlds
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- cbss_cctlds
+- cctlds_all
+- danube_commission_cctlds
+- eu_member_cctlds
+- eurozone_cctlds
+- g20_cctlds
+- g7_cctlds
+- helcom_cctlds
+- nato_cctlds
+- oecd_cctlds
+field: proxy_connections.tld
+label: access lane D5
+salience: 1383644.0
+universe: tld

@@ -1,0 +1,251 @@
+value	description	source
+AD	Country or territory in ?; capital Andorra la Vella.	countries.json
+AE	Country or territory in ?; capital Abu Dhabi.	countries.json
+AF	Country or territory in ?; capital Kabul.	countries.json
+AG	Country or territory in ?; capital Saint John's.	countries.json
+AI	Country or territory in ?; capital The Valley.	countries.json
+AL	Country or territory in ?; capital Tirana.	countries.json
+AM	Country or territory in ?; capital Yerevan.	countries.json
+AO	Country or territory in ?; capital Luanda.	countries.json
+AQ	Country or territory in ?.	countries.json
+AR	Country or territory in ?; capital Buenos Aires.	countries.json
+AS	Country or territory in ?; capital Pago Pago.	countries.json
+AT	Country or territory in ?; capital Vienna.	countries.json
+AU	Country or territory in ?; capital Canberra.	countries.json
+AW	Country or territory in ?; capital Oranjestad.	countries.json
+AX	Country or territory in ?; capital Mariehamn.	countries.json
+AZ	Country or territory in ?; capital Baku.	countries.json
+BA	Country or territory in ?; capital Sarajevo.	countries.json
+BB	Country or territory in ?; capital Bridgetown.	countries.json
+BD	Country or territory in ?; capital Dhaka.	countries.json
+BE	Country or territory in ?; capital Brussels.	countries.json
+BF	Country or territory in ?; capital Ouagadougou.	countries.json
+BG	Country or territory in ?; capital Sofia.	countries.json
+BH	Country or territory in ?; capital Manama.	countries.json
+BI	Country or territory in ?; capital Gitega.	countries.json
+BJ	Country or territory in ?; capital Porto-Novo.	countries.json
+BL	Country or territory in ?; capital Gustavia.	countries.json
+BM	Country or territory in ?; capital Hamilton.	countries.json
+BN	Country or territory in ?; capital Bandar Seri Begawan.	countries.json
+BO	Country or territory in ?; capital Sucre.	countries.json
+BQ	Country or territory in ?; capital Kralendijk.	countries.json
+BR	Country or territory in ?; capital Brasília.	countries.json
+BS	Country or territory in ?; capital Nassau.	countries.json
+BT	Country or territory in ?; capital Thimphu.	countries.json
+BV	Country or territory in ?.	countries.json
+BW	Country or territory in ?; capital Gaborone.	countries.json
+BY	Country or territory in ?; capital Minsk.	countries.json
+BZ	Country or territory in ?; capital Belmopan.	countries.json
+CA	Country or territory in ?; capital Ottawa.	countries.json
+CC	Country or territory in ?; capital West Island.	countries.json
+CD	Country or territory in ?; capital Kinshasa.	countries.json
+CF	Country or territory in ?; capital Bangui.	countries.json
+CG	Country or territory in ?; capital Brazzaville.	countries.json
+CH	Country or territory in ?; capital Bern.	countries.json
+CI	Country or territory in ?; capital Yamoussoukro.	countries.json
+CK	Country or territory in ?; capital Avarua.	countries.json
+CL	Country or territory in ?; capital Santiago.	countries.json
+CM	Country or territory in ?; capital Yaoundé.	countries.json
+CN	Country or territory in ?; capital Beijing.	countries.json
+CO	Country or territory in ?; capital Bogotá.	countries.json
+CR	Country or territory in ?; capital San José.	countries.json
+CU	Country or territory in ?; capital Havana.	countries.json
+CV	Country or territory in ?; capital Praia.	countries.json
+CW	Country or territory in ?; capital Willemstad.	countries.json
+CX	Country or territory in ?; capital Flying Fish Cove.	countries.json
+CY	Country or territory in ?; capital Nicosia.	countries.json
+CZ	Country or territory in ?; capital Prague.	countries.json
+DE	Country or territory in ?; capital Berlin.	countries.json
+DJ	Country or territory in ?; capital Djibouti.	countries.json
+DK	Country or territory in ?; capital Copenhagen.	countries.json
+DM	Country or territory in ?; capital Roseau.	countries.json
+DO	Country or territory in ?; capital Santo Domingo.	countries.json
+DZ	Country or territory in ?; capital Algiers.	countries.json
+EC	Country or territory in ?; capital Quito.	countries.json
+EE	Country or territory in ?; capital Tallinn.	countries.json
+EG	Country or territory in ?; capital Cairo.	countries.json
+EH	Country or territory in ?; capital El Aaiún.	countries.json
+ER	Country or territory in ?; capital Asmara.	countries.json
+ES	Country or territory in ?; capital Madrid.	countries.json
+ET	Country or territory in ?; capital Addis Ababa.	countries.json
+FI	Country or territory in ?; capital Helsinki.	countries.json
+FJ	Country or territory in ?; capital Suva.	countries.json
+FK	Country or territory in ?; capital Stanley.	countries.json
+FM	Country or territory in ?; capital Palikir.	countries.json
+FO	Country or territory in ?; capital Tórshavn.	countries.json
+FR	Country or territory in ?; capital Paris.	countries.json
+GA	Country or territory in ?; capital Libreville.	countries.json
+GB	Country or territory in ?; capital London.	countries.json
+GD	Country or territory in ?; capital St. George's.	countries.json
+GE	Country or territory in ?; capital Tbilisi.	countries.json
+GF	Country or territory in ?; capital Cayenne.	countries.json
+GG	Country or territory in ?; capital St. Peter Port.	countries.json
+GH	Country or territory in ?; capital Accra.	countries.json
+GI	Country or territory in ?; capital Gibraltar.	countries.json
+GL	Country or territory in ?; capital Nuuk.	countries.json
+GM	Country or territory in ?; capital Banjul.	countries.json
+GN	Country or territory in ?; capital Conakry.	countries.json
+GP	Country or territory in ?; capital Basse-Terre.	countries.json
+GQ	Country or territory in ?; capital Ciudad de la Paz.	countries.json
+GR	Country or territory in ?; capital Athens.	countries.json
+GS	Country or territory in ?; capital King Edward Point.	countries.json
+GT	Country or territory in ?; capital Guatemala City.	countries.json
+GU	Country or territory in ?; capital Hagåtña.	countries.json
+GW	Country or territory in ?; capital Bissau.	countries.json
+GY	Country or territory in ?; capital Georgetown.	countries.json
+HK	Country or territory in ?; capital City of Victoria.	countries.json
+HM	Country or territory in ?.	countries.json
+HN	Country or territory in ?; capital Tegucigalpa.	countries.json
+HR	Country or territory in ?; capital Zagreb.	countries.json
+HT	Country or territory in ?; capital Port-au-Prince.	countries.json
+HU	Country or territory in ?; capital Budapest.	countries.json
+ID	Country or territory in ?; capital Jakarta.	countries.json
+IE	Country or territory in ?; capital Dublin.	countries.json
+IL	Country or territory in ?; capital Jerusalem.	countries.json
+IM	Country or territory in ?; capital Douglas.	countries.json
+IN	Country or territory in ?; capital New Delhi.	countries.json
+IO	Country or territory in ?; capital Diego Garcia.	countries.json
+IQ	Country or territory in ?; capital Baghdad.	countries.json
+IR	Country or territory in ?; capital Tehran.	countries.json
+IS	Country or territory in ?; capital Reykjavik.	countries.json
+IT	Country or territory in ?; capital Rome.	countries.json
+JE	Country or territory in ?; capital Saint Helier.	countries.json
+JM	Country or territory in ?; capital Kingston.	countries.json
+JO	Country or territory in ?; capital Amman.	countries.json
+JP	Country or territory in ?; capital Tokyo.	countries.json
+KE	Country or territory in ?; capital Nairobi.	countries.json
+KG	Country or territory in ?; capital Bishkek.	countries.json
+KH	Country or territory in ?; capital Phnom Penh.	countries.json
+KI	Country or territory in ?; capital South Tarawa.	countries.json
+KM	Country or territory in ?; capital Moroni.	countries.json
+KN	Country or territory in ?; capital Basseterre.	countries.json
+KP	Country or territory in ?; capital Pyongyang.	countries.json
+KR	Country or territory in ?; capital Seoul.	countries.json
+KW	Country or territory in ?; capital Kuwait City.	countries.json
+KY	Country or territory in ?; capital George Town.	countries.json
+KZ	Country or territory in ?; capital Astana.	countries.json
+LA	Country or territory in ?; capital Vientiane.	countries.json
+LB	Country or territory in ?; capital Beirut.	countries.json
+LC	Country or territory in ?; capital Castries.	countries.json
+LI	Country or territory in ?; capital Vaduz.	countries.json
+LK	Country or territory in ?; capital Colombo.	countries.json
+LR	Country or territory in ?; capital Monrovia.	countries.json
+LS	Country or territory in ?; capital Maseru.	countries.json
+LT	Country or territory in ?; capital Vilnius.	countries.json
+LU	Country or territory in ?; capital Luxembourg.	countries.json
+LV	Country or territory in ?; capital Riga.	countries.json
+LY	Country or territory in ?; capital Tripoli.	countries.json
+MA	Country or territory in ?; capital Rabat.	countries.json
+MC	Country or territory in ?; capital Monaco.	countries.json
+MD	Country or territory in ?; capital Chișinău.	countries.json
+ME	Country or territory in ?; capital Podgorica.	countries.json
+MF	Country or territory in ?; capital Marigot.	countries.json
+MG	Country or territory in ?; capital Antananarivo.	countries.json
+MH	Country or territory in ?; capital Majuro.	countries.json
+MK	Country or territory in ?; capital Skopje.	countries.json
+ML	Country or territory in ?; capital Bamako.	countries.json
+MM	Country or territory in ?; capital Naypyidaw.	countries.json
+MN	Country or territory in ?; capital Ulan Bator.	countries.json
+MO	Country or territory in ?.	countries.json
+MP	Country or territory in ?; capital Saipan.	countries.json
+MQ	Country or territory in ?; capital Fort-de-France.	countries.json
+MR	Country or territory in ?; capital Nouakchott.	countries.json
+MS	Country or territory in ?; capital Plymouth.	countries.json
+MT	Country or territory in ?; capital Valletta.	countries.json
+MU	Country or territory in ?; capital Port Louis.	countries.json
+MV	Country or territory in ?; capital Malé.	countries.json
+MW	Country or territory in ?; capital Lilongwe.	countries.json
+MX	Country or territory in ?; capital Mexico City.	countries.json
+MY	Country or territory in ?; capital Kuala Lumpur.	countries.json
+MZ	Country or territory in ?; capital Maputo.	countries.json
+NA	Country or territory in ?; capital Windhoek.	countries.json
+NC	Country or territory in ?; capital Nouméa.	countries.json
+NE	Country or territory in ?; capital Niamey.	countries.json
+NF	Country or territory in ?; capital Kingston.	countries.json
+NG	Country or territory in ?; capital Abuja.	countries.json
+NI	Country or territory in ?; capital Managua.	countries.json
+NL	Country or territory in ?; capital Amsterdam.	countries.json
+NO	Country or territory in ?; capital Oslo.	countries.json
+NP	Country or territory in ?; capital Kathmandu.	countries.json
+NR	Country or territory in ?; capital Yaren.	countries.json
+NU	Country or territory in ?; capital Alofi.	countries.json
+NZ	Country or territory in ?; capital Wellington.	countries.json
+OM	Country or territory in ?; capital Muscat.	countries.json
+PA	Country or territory in ?; capital Panama City.	countries.json
+PE	Country or territory in ?; capital Lima.	countries.json
+PF	Country or territory in ?; capital Papeetē.	countries.json
+PG	Country or territory in ?; capital Port Moresby.	countries.json
+PH	Country or territory in ?; capital Manila.	countries.json
+PK	Country or territory in ?; capital Islamabad.	countries.json
+PL	Country or territory in ?; capital Warsaw.	countries.json
+PM	Country or territory in ?; capital Saint-Pierre.	countries.json
+PN	Country or territory in ?; capital Adamstown.	countries.json
+PR	Country or territory in ?; capital San Juan.	countries.json
+PS	Country or territory in ?; capital Ramallah.	countries.json
+PT	Country or territory in ?; capital Lisbon.	countries.json
+PW	Country or territory in ?; capital Ngerulmud.	countries.json
+PY	Country or territory in ?; capital Asunción.	countries.json
+QA	Country or territory in ?; capital Doha.	countries.json
+RE	Country or territory in ?; capital Saint-Denis.	countries.json
+RO	Country or territory in ?; capital Bucharest.	countries.json
+RS	Country or territory in ?; capital Belgrade.	countries.json
+RU	Country or territory in ?; capital Moscow.	countries.json
+RW	Country or territory in ?; capital Kigali.	countries.json
+SA	Country or territory in ?; capital Riyadh.	countries.json
+SB	Country or territory in ?; capital Honiara.	countries.json
+SC	Country or territory in ?; capital Victoria.	countries.json
+SD	Country or territory in ?; capital Khartoum.	countries.json
+SE	Country or territory in ?; capital Stockholm.	countries.json
+SG	Country or territory in ?; capital Singapore.	countries.json
+SH	Country or territory in ?; capital Jamestown.	countries.json
+SI	Country or territory in ?; capital Ljubljana.	countries.json
+SJ	Country or territory in ?; capital Longyearbyen.	countries.json
+SK	Country or territory in ?; capital Bratislava.	countries.json
+SL	Country or territory in ?; capital Freetown.	countries.json
+SM	Country or territory in ?; capital City of San Marino.	countries.json
+SN	Country or territory in ?; capital Dakar.	countries.json
+SO	Country or territory in ?; capital Mogadishu.	countries.json
+SR	Country or territory in ?; capital Paramaribo.	countries.json
+SS	Country or territory in ?; capital Juba.	countries.json
+ST	Country or territory in ?; capital São Tomé.	countries.json
+SV	Country or territory in ?; capital San Salvador.	countries.json
+SX	Country or territory in ?; capital Philipsburg.	countries.json
+SY	Country or territory in ?; capital Damascus.	countries.json
+SZ	Country or territory in ?; capital Lobamba.	countries.json
+TC	Country or territory in ?; capital Cockburn Town.	countries.json
+TD	Country or territory in ?; capital N'Djamena.	countries.json
+TF	Country or territory in ?; capital Port-aux-Français.	countries.json
+TG	Country or territory in ?; capital Lomé.	countries.json
+TH	Country or territory in ?; capital Bangkok.	countries.json
+TJ	Country or territory in ?; capital Dushanbe.	countries.json
+TK	Country or territory in ?; capital Fakaofo.	countries.json
+TL	Country or territory in ?; capital Dili.	countries.json
+TM	Country or territory in ?; capital Ashgabat.	countries.json
+TN	Country or territory in ?; capital Tunis.	countries.json
+TO	Country or territory in ?; capital Nuku'alofa.	countries.json
+TR	Country or territory in ?; capital Ankara.	countries.json
+TT	Country or territory in ?; capital Port of Spain.	countries.json
+TV	Country or territory in ?; capital Funafuti.	countries.json
+TW	Country or territory in ?; capital Taipei.	countries.json
+TZ	Country or territory in ?; capital Dodoma.	countries.json
+UA	Country or territory in ?; capital Kyiv.	countries.json
+UG	Country or territory in ?; capital Kampala.	countries.json
+UM	Country or territory in ?.	countries.json
+US	Country or territory in ?; capital Washington D.C..	countries.json
+UY	Country or territory in ?; capital Montevideo.	countries.json
+UZ	Country or territory in ?; capital Tashkent.	countries.json
+VA	Country or territory in ?; capital Vatican City.	countries.json
+VC	Country or territory in ?; capital Kingstown.	countries.json
+VE	Country or territory in ?; capital Caracas.	countries.json
+VG	Country or territory in ?; capital Road Town.	countries.json
+VI	Country or territory in ?; capital Charlotte Amalie.	countries.json
+VN	Country or territory in ?; capital Hanoi.	countries.json
+VU	Country or territory in ?; capital Port Vila.	countries.json
+WF	Country or territory in ?; capital Mata-Utu.	countries.json
+WS	Country or territory in ?; capital Apia.	countries.json
+XK	Country or territory in ?; capital Pristina.	countries.json
+YE	Country or territory in ?; capital Sana'a.	countries.json
+YT	Country or territory in ?; capital Mamoudzou.	countries.json
+ZA	Country or territory in ?; capital Pretoria.	countries.json
+ZM	Country or territory in ?; capital Lusaka.	countries.json
+ZW	Country or territory in ?; capital Harare.	countries.json

@@ -1,0 +1,5 @@
+access lane C2 stands for: OECD member country country-code top-level domains
+event bucket 52 stands for: Microsoft productivity applications
+session tag A-70 stands for: Plaintext application protocol ports
+audit zone J6 stands for: G7 member country-code top-level domains
+gateway lane 93 stands for: FTP clients

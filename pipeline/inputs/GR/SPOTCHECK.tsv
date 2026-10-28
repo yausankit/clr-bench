@@ -1,0 +1,481 @@
+field	list_id	status	value	evidence
+applicants.nationality	eu_members	member	AT	raw/country_sources/european_union.html#table 3, member-state table; member cell for AT
+applicants.nationality	eu_members	member	BE	raw/country_sources/european_union.html#table 3, member-state table; member cell for BE
+applicants.nationality	eu_members	member	BG	raw/country_sources/european_union.html#table 3, member-state table; member cell for BG
+applicants.nationality	eu_members	member	CY	raw/country_sources/european_union.html#table 3, member-state table; member cell for CY
+applicants.nationality	eu_members	member	CZ	raw/country_sources/european_union.html#table 3, member-state table; member cell for CZ
+applicants.nationality	eu_members	nonmember	AD	raw/country_sources/european_union.html#table 3, member-state table; complete roster searched; AD absent
+applicants.nationality	eu_members	nonmember	AE	raw/country_sources/european_union.html#table 3, member-state table; complete roster searched; AE absent
+applicants.nationality	eu_members	nonmember	AF	raw/country_sources/european_union.html#table 3, member-state table; complete roster searched; AF absent
+applicants.nationality	eu_members	nonmember	AG	raw/country_sources/european_union.html#table 3, member-state table; complete roster searched; AG absent
+applicants.nationality	eu_members	nonmember	AI	raw/country_sources/european_union.html#table 3, member-state table; complete roster searched; AI absent
+applicants.nationality	schengen_members	member	AT	raw/country_sources/schengen_area.html#table 3, member-state table; member cell for AT
+applicants.nationality	schengen_members	member	BE	raw/country_sources/schengen_area.html#table 3, member-state table; member cell for BE
+applicants.nationality	schengen_members	member	CH	raw/country_sources/schengen_area.html#table 3, member-state table; member cell for CH
+applicants.nationality	schengen_members	member	CZ	raw/country_sources/schengen_area.html#table 3, member-state table; member cell for CZ
+applicants.nationality	schengen_members	member	DE	raw/country_sources/schengen_area.html#table 3, member-state table; member cell for DE
+applicants.nationality	schengen_members	nonmember	AD	raw/country_sources/schengen_area.html#table 3, member-state table; complete roster searched; AD absent
+applicants.nationality	schengen_members	nonmember	AE	raw/country_sources/schengen_area.html#table 3, member-state table; complete roster searched; AE absent
+applicants.nationality	schengen_members	nonmember	AF	raw/country_sources/schengen_area.html#table 3, member-state table; complete roster searched; AF absent
+applicants.nationality	schengen_members	nonmember	AG	raw/country_sources/schengen_area.html#table 3, member-state table; complete roster searched; AG absent
+applicants.nationality	schengen_members	nonmember	AI	raw/country_sources/schengen_area.html#table 3, member-state table; complete roster searched; AI absent
+applicants.nationality	nato_members	member	AL	raw/country_sources/nato.html#table 3, membership roster cell; member cell for AL
+applicants.nationality	nato_members	member	BE	raw/country_sources/nato.html#table 3, membership roster cell; member cell for BE
+applicants.nationality	nato_members	member	BG	raw/country_sources/nato.html#table 3, membership roster cell; member cell for BG
+applicants.nationality	nato_members	member	CA	raw/country_sources/nato.html#table 3, membership roster cell; member cell for CA
+applicants.nationality	nato_members	member	CZ	raw/country_sources/nato.html#table 3, membership roster cell; member cell for CZ
+applicants.nationality	nato_members	nonmember	AD	raw/country_sources/nato.html#table 3, membership roster cell; complete roster searched; AD absent
+applicants.nationality	nato_members	nonmember	AE	raw/country_sources/nato.html#table 3, membership roster cell; complete roster searched; AE absent
+applicants.nationality	nato_members	nonmember	AF	raw/country_sources/nato.html#table 3, membership roster cell; complete roster searched; AF absent
+applicants.nationality	nato_members	nonmember	AG	raw/country_sources/nato.html#table 3, membership roster cell; complete roster searched; AG absent
+applicants.nationality	nato_members	nonmember	AI	raw/country_sources/nato.html#table 3, membership roster cell; complete roster searched; AI absent
+applicants.nationality	oecd_members	member	AT	raw/country_sources/oecd.html#table 7, members table; member cell for AT
+applicants.nationality	oecd_members	member	AU	raw/country_sources/oecd.html#table 7, members table; member cell for AU
+applicants.nationality	oecd_members	member	BE	raw/country_sources/oecd.html#table 7, members table; member cell for BE
+applicants.nationality	oecd_members	member	CA	raw/country_sources/oecd.html#table 7, members table; member cell for CA
+applicants.nationality	oecd_members	member	CH	raw/country_sources/oecd.html#table 7, members table; member cell for CH
+applicants.nationality	oecd_members	nonmember	AD	raw/country_sources/oecd.html#table 7, members table; complete roster searched; AD absent
+applicants.nationality	oecd_members	nonmember	AE	raw/country_sources/oecd.html#table 7, members table; complete roster searched; AE absent
+applicants.nationality	oecd_members	nonmember	AF	raw/country_sources/oecd.html#table 7, members table; complete roster searched; AF absent
+applicants.nationality	oecd_members	nonmember	AG	raw/country_sources/oecd.html#table 7, members table; complete roster searched; AG absent
+applicants.nationality	oecd_members	nonmember	AI	raw/country_sources/oecd.html#table 7, members table; complete roster searched; AI absent
+applicants.nationality	commonwealth_members	member	AG	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; member cell for AG
+applicants.nationality	commonwealth_members	member	AU	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; member cell for AU
+applicants.nationality	commonwealth_members	member	BB	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; member cell for BB
+applicants.nationality	commonwealth_members	member	BD	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; member cell for BD
+applicants.nationality	commonwealth_members	member	BN	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; member cell for BN
+applicants.nationality	commonwealth_members	nonmember	AD	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; complete roster searched; AD absent
+applicants.nationality	commonwealth_members	nonmember	AE	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; complete roster searched; AE absent
+applicants.nationality	commonwealth_members	nonmember	AF	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; complete roster searched; AF absent
+applicants.nationality	commonwealth_members	nonmember	AI	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; complete roster searched; AI absent
+applicants.nationality	commonwealth_members	nonmember	AL	raw/country_sources/commonwealth.html#table 7, sovereign states (members) row; complete roster searched; AL absent
+applicants.nationality	african_union_members	member	AO	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; member cell for AO
+applicants.nationality	african_union_members	member	BF	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; member cell for BF
+applicants.nationality	african_union_members	member	BI	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; member cell for BI
+applicants.nationality	african_union_members	member	BJ	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; member cell for BJ
+applicants.nationality	african_union_members	member	BW	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; member cell for BW
+applicants.nationality	african_union_members	nonmember	AD	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; complete roster searched; AD absent
+applicants.nationality	african_union_members	nonmember	AE	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; complete roster searched; AE absent
+applicants.nationality	african_union_members	nonmember	AF	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; complete roster searched; AF absent
+applicants.nationality	african_union_members	nonmember	AG	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; complete roster searched; AG absent
+applicants.nationality	african_union_members	nonmember	AI	raw/country_sources/african_union_official.html#member-state tables 2-5, abbreviation cells; complete roster searched; AI absent
+applicants.nationality	asean_members	member	BN	raw/country_sources/asean.html#table 4, member-state table; member cell for BN
+applicants.nationality	asean_members	member	ID	raw/country_sources/asean.html#table 4, member-state table; member cell for ID
+applicants.nationality	asean_members	member	KH	raw/country_sources/asean.html#table 4, member-state table; member cell for KH
+applicants.nationality	asean_members	member	LA	raw/country_sources/asean.html#table 4, member-state table; member cell for LA
+applicants.nationality	asean_members	member	MM	raw/country_sources/asean.html#table 4, member-state table; member cell for MM
+applicants.nationality	asean_members	nonmember	AD	raw/country_sources/asean.html#table 4, member-state table; complete roster searched; AD absent
+applicants.nationality	asean_members	nonmember	AE	raw/country_sources/asean.html#table 4, member-state table; complete roster searched; AE absent
+applicants.nationality	asean_members	nonmember	AF	raw/country_sources/asean.html#table 4, member-state table; complete roster searched; AF absent
+applicants.nationality	asean_members	nonmember	AG	raw/country_sources/asean.html#table 4, member-state table; complete roster searched; AG absent
+applicants.nationality	asean_members	nonmember	AI	raw/country_sources/asean.html#table 4, member-state table; complete roster searched; AI absent
+applicants.nationality	opec_members	member	CG	raw/country_sources/opec.html#table 3, members table; member cell for CG
+applicants.nationality	opec_members	member	DZ	raw/country_sources/opec.html#table 3, members table; member cell for DZ
+applicants.nationality	opec_members	member	GA	raw/country_sources/opec.html#table 3, members table; member cell for GA
+applicants.nationality	opec_members	member	GQ	raw/country_sources/opec.html#table 3, members table; member cell for GQ
+applicants.nationality	opec_members	member	IQ	raw/country_sources/opec.html#table 3, members table; member cell for IQ
+applicants.nationality	opec_members	nonmember	AD	raw/country_sources/opec.html#table 3, members table; complete roster searched; AD absent
+applicants.nationality	opec_members	nonmember	AE	raw/country_sources/opec.html#table 3, members table; complete roster searched; AE absent
+applicants.nationality	opec_members	nonmember	AF	raw/country_sources/opec.html#table 3, members table; complete roster searched; AF absent
+applicants.nationality	opec_members	nonmember	AG	raw/country_sources/opec.html#table 3, members table; complete roster searched; AG absent
+applicants.nationality	opec_members	nonmember	AI	raw/country_sources/opec.html#table 3, members table; complete roster searched; AI absent
+applicants.nationality	council_of_europe_members	member	AD	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; member cell for AD
+applicants.nationality	council_of_europe_members	member	AL	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; member cell for AL
+applicants.nationality	council_of_europe_members	member	AM	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; member cell for AM
+applicants.nationality	council_of_europe_members	member	AT	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; member cell for AT
+applicants.nationality	council_of_europe_members	member	AZ	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; member cell for AZ
+applicants.nationality	council_of_europe_members	nonmember	AE	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; complete roster searched; AE absent
+applicants.nationality	council_of_europe_members	nonmember	AF	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; complete roster searched; AF absent
+applicants.nationality	council_of_europe_members	nonmember	AG	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; complete roster searched; AG absent
+applicants.nationality	council_of_europe_members	nonmember	AI	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; complete roster searched; AI absent
+applicants.nationality	council_of_europe_members	nonmember	AO	raw/country_sources/council_of_europe_members.html#table 1, member-state rows; complete roster searched; AO absent
+applicants.nationality	un_members	member	AD	raw/country_sources/un_members.html#table 2, member-state rows; member cell for AD
+applicants.nationality	un_members	member	AE	raw/country_sources/un_members.html#table 2, member-state rows; member cell for AE
+applicants.nationality	un_members	member	AF	raw/country_sources/un_members.html#table 2, member-state rows; member cell for AF
+applicants.nationality	un_members	member	AG	raw/country_sources/un_members.html#table 2, member-state rows; member cell for AG
+applicants.nationality	un_members	member	AL	raw/country_sources/un_members.html#table 2, member-state rows; member cell for AL
+applicants.nationality	un_members	nonmember	AI	raw/country_sources/un_members.html#table 2, member-state rows; complete roster searched; AI absent
+applicants.nationality	un_members	nonmember	AQ	raw/country_sources/un_members.html#table 2, member-state rows; complete roster searched; AQ absent
+applicants.nationality	un_members	nonmember	AS	raw/country_sources/un_members.html#table 2, member-state rows; complete roster searched; AS absent
+applicants.nationality	un_members	nonmember	AW	raw/country_sources/un_members.html#table 2, member-state rows; complete roster searched; AW absent
+applicants.nationality	un_members	nonmember	AX	raw/country_sources/un_members.html#table 2, member-state rows; complete roster searched; AX absent
+applicants.nationality	g20_members	member	AR	raw/country_sources/g20.html#table 3, member column; member cell for AR
+applicants.nationality	g20_members	member	AU	raw/country_sources/g20.html#table 3, member column; member cell for AU
+applicants.nationality	g20_members	member	BR	raw/country_sources/g20.html#table 3, member column; member cell for BR
+applicants.nationality	g20_members	member	CA	raw/country_sources/g20.html#table 3, member column; member cell for CA
+applicants.nationality	g20_members	member	CN	raw/country_sources/g20.html#table 3, member column; member cell for CN
+applicants.nationality	g20_members	nonmember	AD	raw/country_sources/g20.html#table 3, member column; complete roster searched; AD absent
+applicants.nationality	g20_members	nonmember	AE	raw/country_sources/g20.html#table 3, member column; complete roster searched; AE absent
+applicants.nationality	g20_members	nonmember	AF	raw/country_sources/g20.html#table 3, member column; complete roster searched; AF absent
+applicants.nationality	g20_members	nonmember	AG	raw/country_sources/g20.html#table 3, member column; complete roster searched; AG absent
+applicants.nationality	g20_members	nonmember	AI	raw/country_sources/g20.html#table 3, member column; complete roster searched; AI absent
+applicants.nationality	gcc_members	member	AE	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; member cell for AE
+applicants.nationality	gcc_members	member	BH	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; member cell for BH
+applicants.nationality	gcc_members	member	KW	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; member cell for KW
+applicants.nationality	gcc_members	member	OM	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; member cell for OM
+applicants.nationality	gcc_members	member	QA	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; member cell for QA
+applicants.nationality	gcc_members	nonmember	AD	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; complete roster searched; AD absent
+applicants.nationality	gcc_members	nonmember	AF	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; complete roster searched; AF absent
+applicants.nationality	gcc_members	nonmember	AG	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; complete roster searched; AG absent
+applicants.nationality	gcc_members	nonmember	AI	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; complete roster searched; AI absent
+applicants.nationality	gcc_members	nonmember	AL	raw/country_sources/gulf_cooperation_council.html#table 4, member-country rows; complete roster searched; AL absent
+applicants.nationality	pif_members	member	AU	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; member cell for AU
+applicants.nationality	pif_members	member	CK	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; member cell for CK
+applicants.nationality	pif_members	member	FJ	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; member cell for FJ
+applicants.nationality	pif_members	member	FM	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; member cell for FM
+applicants.nationality	pif_members	member	KI	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; member cell for KI
+applicants.nationality	pif_members	nonmember	AD	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; complete roster searched; AD absent
+applicants.nationality	pif_members	nonmember	AE	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; complete roster searched; AE absent
+applicants.nationality	pif_members	nonmember	AF	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; complete roster searched; AF absent
+applicants.nationality	pif_members	nonmember	AG	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; complete roster searched; AG absent
+applicants.nationality	pif_members	nonmember	AI	raw/country_sources/pacific_islands_forum.html#table 2, member-nations rows and ISO codes; complete roster searched; AI absent
+applicants.nationality	arab_league_members	member	AE	raw/target_org_memberships.json#results.bindings[262]
+applicants.nationality	arab_league_members	member	BH	raw/target_org_memberships.json#results.bindings[244]
+applicants.nationality	arab_league_members	member	DJ	raw/target_org_memberships.json#results.bindings[268]
+applicants.nationality	arab_league_members	member	DZ	raw/target_org_memberships.json#results.bindings[241]
+applicants.nationality	arab_league_members	member	EG	raw/target_org_memberships.json#results.bindings[218]
+applicants.nationality	arab_league_members	nonmember	AD	raw/target_org_memberships.json#complete roster for Arab League member states; AD absent, parser checked
+applicants.nationality	arab_league_members	nonmember	AF	raw/target_org_memberships.json#complete roster for Arab League member states; AF absent, parser checked
+applicants.nationality	arab_league_members	nonmember	AG	raw/target_org_memberships.json#complete roster for Arab League member states; AG absent, parser checked
+applicants.nationality	arab_league_members	nonmember	AI	raw/target_org_memberships.json#complete roster for Arab League member states; AI absent, parser checked
+applicants.nationality	arab_league_members	nonmember	AL	raw/target_org_memberships.json#complete roster for Arab League member states; AL absent, parser checked
+applicants.nationality	g7_members	member	CA	raw/country_sources/group_of_seven.html#table 3, member-country rows; member cell for CA
+applicants.nationality	g7_members	member	DE	raw/country_sources/group_of_seven.html#table 3, member-country rows; member cell for DE
+applicants.nationality	g7_members	member	FR	raw/country_sources/group_of_seven.html#table 3, member-country rows; member cell for FR
+applicants.nationality	g7_members	member	GB	raw/country_sources/group_of_seven.html#table 3, member-country rows; member cell for GB
+applicants.nationality	g7_members	member	IT	raw/country_sources/group_of_seven.html#table 3, member-country rows; member cell for IT
+applicants.nationality	g7_members	nonmember	AD	raw/country_sources/group_of_seven.html#table 3, member-country rows; complete roster searched; AD absent
+applicants.nationality	g7_members	nonmember	AE	raw/country_sources/group_of_seven.html#table 3, member-country rows; complete roster searched; AE absent
+applicants.nationality	g7_members	nonmember	AF	raw/country_sources/group_of_seven.html#table 3, member-country rows; complete roster searched; AF absent
+applicants.nationality	g7_members	nonmember	AG	raw/country_sources/group_of_seven.html#table 3, member-country rows; complete roster searched; AG absent
+applicants.nationality	g7_members	nonmember	AI	raw/country_sources/group_of_seven.html#table 3, member-country rows; complete roster searched; AI absent
+trips.airline	star_alliance_members	member	Aegean Airlines	raw/airline_sources/star_alliance.html#complete member roster; Aegean Airlines present, parser checked
+trips.airline	star_alliance_members	member	Air Canada	raw/airline_sources/star_alliance.html#complete member roster; Air Canada present, parser checked
+trips.airline	star_alliance_members	member	Air China	raw/airline_sources/star_alliance.html#complete member roster; Air China present, parser checked
+trips.airline	star_alliance_members	member	Air India	raw/airline_sources/star_alliance.html#complete member roster; Air India present, parser checked
+trips.airline	star_alliance_members	member	Air New Zealand	raw/airline_sources/star_alliance.html#complete member roster; Air New Zealand present, parser checked
+trips.airline	star_alliance_members	nonmember	2GO Air	raw/airline_sources/star_alliance.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	star_alliance_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/star_alliance.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	star_alliance_members	nonmember	40-Mile Air	raw/airline_sources/star_alliance.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	star_alliance_members	nonmember	9 Air	raw/airline_sources/star_alliance.html#complete member roster; 9 Air absent, parser checked
+trips.airline	star_alliance_members	nonmember	A/S Aero	raw/airline_sources/star_alliance.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	skyteam_members	member	Aerolíneas Argentinas	raw/airline_sources/skyteam.html#complete member roster; Aerolíneas Argentinas present, parser checked
+trips.airline	skyteam_members	member	Aeroméxico	raw/airline_sources/skyteam.html#complete member roster; Aeroméxico present, parser checked
+trips.airline	skyteam_members	member	Air Europa	raw/airline_sources/skyteam.html#complete member roster; Air Europa present, parser checked
+trips.airline	skyteam_members	member	Air France	raw/airline_sources/skyteam.html#complete member roster; Air France present, parser checked
+trips.airline	skyteam_members	member	China Airlines	raw/airline_sources/skyteam.html#complete member roster; China Airlines present, parser checked
+trips.airline	skyteam_members	nonmember	2GO Air	raw/airline_sources/skyteam.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	skyteam_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/skyteam.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	skyteam_members	nonmember	40-Mile Air	raw/airline_sources/skyteam.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	skyteam_members	nonmember	9 Air	raw/airline_sources/skyteam.html#complete member roster; 9 Air absent, parser checked
+trips.airline	skyteam_members	nonmember	A/S Aero	raw/airline_sources/skyteam.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	oneworld_members	member	Alaska Airlines	raw/airline_sources/oneworld.html#complete member roster; Alaska Airlines present, parser checked
+trips.airline	oneworld_members	member	American Airlines	raw/airline_sources/oneworld.html#complete member roster; American Airlines present, parser checked
+trips.airline	oneworld_members	member	British Airways	raw/airline_sources/oneworld.html#complete member roster; British Airways present, parser checked
+trips.airline	oneworld_members	member	Cathay Pacific	raw/airline_sources/oneworld.html#complete member roster; Cathay Pacific present, parser checked
+trips.airline	oneworld_members	member	Fiji Airways	raw/airline_sources/oneworld.html#complete member roster; Fiji Airways present, parser checked
+trips.airline	oneworld_members	nonmember	2GO Air	raw/airline_sources/oneworld.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	oneworld_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/oneworld.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	oneworld_members	nonmember	40-Mile Air	raw/airline_sources/oneworld.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	oneworld_members	nonmember	9 Air	raw/airline_sources/oneworld.html#complete member roster; 9 Air absent, parser checked
+trips.airline	oneworld_members	nonmember	A/S Aero	raw/airline_sources/oneworld.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	iata_members	member	ABX Air	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for ABX Air; full 39-page directory
+trips.airline	iata_members	member	AIRZETA	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for AIRZETA; full 39-page directory
+trips.airline	iata_members	member	AJet	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for AJet; full 39-page directory
+trips.airline	iata_members	member	APG Airlines	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for APG Airlines; full 39-page directory
+trips.airline	iata_members	member	ASKY	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for ASKY; full 39-page directory
+trips.airline	iata_members	nonmember	2GO Air	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for 2GO Air; full 39-page directory
+trips.airline	iata_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for 2nd Arkhangelsk United Aviation Division; full 39-page directory
+trips.airline	iata_members	nonmember	40-Mile Air	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for 40-Mile Air; full 39-page directory
+trips.airline	iata_members	nonmember	9 Air	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for 9 Air; full 39-page directory
+trips.airline	iata_members	nonmember	A/S Aero	raw/airline_sources/iata_airline_list.html + raw/airline_sources/iata_pages/page_*.html#carrier detail link for A/S Aero; full 39-page directory
+trips.airline	a4a_members	member	Air Canada	raw/airline_sources/a4a_home.html#complete member roster; Air Canada present, parser checked
+trips.airline	a4a_members	member	Alaska Airlines	raw/airline_sources/a4a_home.html#complete member roster; Alaska Airlines present, parser checked
+trips.airline	a4a_members	member	American Airlines	raw/airline_sources/a4a_home.html#complete member roster; American Airlines present, parser checked
+trips.airline	a4a_members	member	Atlas Air	raw/airline_sources/a4a_home.html#complete member roster; Atlas Air present, parser checked
+trips.airline	a4a_members	member	Delta Air Lines	raw/airline_sources/a4a_home.html#complete member roster; Delta Air Lines present, parser checked
+trips.airline	a4a_members	nonmember	2GO Air	raw/airline_sources/a4a_home.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	a4a_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/a4a_home.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	a4a_members	nonmember	40-Mile Air	raw/airline_sources/a4a_home.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	a4a_members	nonmember	9 Air	raw/airline_sources/a4a_home.html#complete member roster; 9 Air absent, parser checked
+trips.airline	a4a_members	nonmember	A/S Aero	raw/airline_sources/a4a_home.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	alta_full_members	member	Aerolíneas Argentinas	raw/airline_sources/alta_members_v2.html#complete member roster; Aerolíneas Argentinas present, parser checked
+trips.airline	alta_full_members	member	Aeroméxico	raw/airline_sources/alta_members_v2.html#complete member roster; Aeroméxico present, parser checked
+trips.airline	alta_full_members	member	Aeroméxico Connect	raw/airline_sources/alta_members_v2.html#complete member roster; Aeroméxico Connect present, parser checked
+trips.airline	alta_full_members	member	Arajet S.A	raw/airline_sources/alta_members_v2.html#complete member roster; Arajet S.A present, parser checked
+trips.airline	alta_full_members	member	Avianca	raw/airline_sources/alta_members_v2.html#complete member roster; Avianca present, parser checked
+trips.airline	alta_full_members	nonmember	2GO Air	raw/airline_sources/alta_members_v2.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	alta_full_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/alta_members_v2.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	alta_full_members	nonmember	40-Mile Air	raw/airline_sources/alta_members_v2.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	alta_full_members	nonmember	9 Air	raw/airline_sources/alta_members_v2.html#complete member roster; 9 Air absent, parser checked
+trips.airline	alta_full_members	nonmember	A/S Aero	raw/airline_sources/alta_members_v2.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	aaco_members	member	Air Algérie	raw/airline_sources/aaco_members_current.html#complete member roster; Air Algérie present, parser checked
+trips.airline	aaco_members	member	Air Arabia	raw/airline_sources/aaco_members_current.html#complete member roster; Air Arabia present, parser checked
+trips.airline	aaco_members	member	Air Cairo	raw/airline_sources/aaco_members_current.html#complete member roster; Air Cairo present, parser checked
+trips.airline	aaco_members	member	AlMasria Universal Airlines	raw/airline_sources/aaco_members_current.html#complete member roster; AlMasria Universal Airlines present, parser checked
+trips.airline	aaco_members	member	Badr Airlines	raw/airline_sources/aaco_members_current.html#complete member roster; Badr Airlines present, parser checked
+trips.airline	aaco_members	nonmember	2GO Air	raw/airline_sources/aaco_members_current.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	aaco_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/aaco_members_current.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	aaco_members	nonmember	40-Mile Air	raw/airline_sources/aaco_members_current.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	aaco_members	nonmember	9 Air	raw/airline_sources/aaco_members_current.html#complete member roster; 9 Air absent, parser checked
+trips.airline	aaco_members	nonmember	A/S Aero	raw/airline_sources/aaco_members_current.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	afraa_members	member	Air Algérie	raw/airline_affiliations_wikidata.json#results.bindings[5]
+trips.airline	afraa_members	member	Air Botswana	raw/airline_affiliations_wikidata.json#results.bindings[6]
+trips.airline	afraa_members	member	Air Burkina	raw/airline_affiliations_wikidata.json#results.bindings[7]
+trips.airline	afraa_members	member	Air Djibouti	raw/airline_affiliations_wikidata.json#results.bindings[86]
+trips.airline	afraa_members	member	Air Madagascar	raw/airline_affiliations_wikidata.json#results.bindings[27]
+trips.airline	afraa_members	nonmember	2GO Air	raw/airline_affiliations_wikidata.json#complete roster for afraa_members; 2GO Air absent, parser checked
+trips.airline	afraa_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_affiliations_wikidata.json#complete roster for afraa_members; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	afraa_members	nonmember	40-Mile Air	raw/airline_affiliations_wikidata.json#complete roster for afraa_members; 40-Mile Air absent, parser checked
+trips.airline	afraa_members	nonmember	9 Air	raw/airline_affiliations_wikidata.json#complete roster for afraa_members; 9 Air absent, parser checked
+trips.airline	afraa_members	nonmember	A/S Aero	raw/airline_affiliations_wikidata.json#complete roster for afraa_members; A/S Aero absent, parser checked
+trips.airline	airlines_for_europe	member	Aegean Airlines	raw/airline_affiliations_wikidata.json#results.bindings[2]
+trips.airline	airlines_for_europe	member	AirBaltic	raw/airline_affiliations_wikidata.json#results.bindings[28]
+trips.airline	airlines_for_europe	member	Cargolux	raw/airline_affiliations_wikidata.json#results.bindings[96]
+trips.airline	airlines_for_europe	member	Finnair	raw/airline_affiliations_wikidata.json#results.bindings[17]
+trips.airline	airlines_for_europe	member	Icelandair	raw/airline_affiliations_wikidata.json#results.bindings[24]
+trips.airline	airlines_for_europe	nonmember	2GO Air	raw/airline_affiliations_wikidata.json#complete roster for airlines_for_europe; 2GO Air absent, parser checked
+trips.airline	airlines_for_europe	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_affiliations_wikidata.json#complete roster for airlines_for_europe; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	airlines_for_europe	nonmember	40-Mile Air	raw/airline_affiliations_wikidata.json#complete roster for airlines_for_europe; 40-Mile Air absent, parser checked
+trips.airline	airlines_for_europe	nonmember	9 Air	raw/airline_affiliations_wikidata.json#complete roster for airlines_for_europe; 9 Air absent, parser checked
+trips.airline	airlines_for_europe	nonmember	A/S Aero	raw/airline_affiliations_wikidata.json#complete roster for airlines_for_europe; A/S Aero absent, parser checked
+trips.airline	aapa_members	member	Air Astana	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; Air Astana present, parser checked
+trips.airline	aapa_members	member	Air India	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; Air India present, parser checked
+trips.airline	aapa_members	member	Air New Zealand	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; Air New Zealand present, parser checked
+trips.airline	aapa_members	member	All Nippon Airways	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; All Nippon Airways present, parser checked
+trips.airline	aapa_members	member	Bangkok Airways	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; Bangkok Airways present, parser checked
+trips.airline	aapa_members	nonmember	2GO Air	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; 2GO Air absent, parser checked
+trips.airline	aapa_members	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	aapa_members	nonmember	40-Mile Air	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	aapa_members	nonmember	9 Air	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; 9 Air absent, parser checked
+trips.airline	aapa_members	nonmember	A/S Aero	raw/airline_sources/aapa_pages_search.json#who-we-are member-airlines cell#complete member roster; A/S Aero absent, parser checked
+trips.airline	air_france_klm_airlines	member	Air France	raw/airline_sources/air_france_klm.html#complete member roster; Air France present, parser checked
+trips.airline	air_france_klm_airlines	member	Air France Hop	raw/airline_sources/air_france_klm.html#complete member roster; Air France Hop present, parser checked
+trips.airline	air_france_klm_airlines	member	KLM	raw/airline_sources/air_france_klm.html#complete member roster; KLM present, parser checked
+trips.airline	air_france_klm_airlines	member	KLM Cityhopper	raw/airline_sources/air_france_klm.html#complete member roster; KLM Cityhopper present, parser checked
+trips.airline	air_france_klm_airlines	member	Martinair	raw/airline_sources/air_france_klm.html#complete member roster; Martinair present, parser checked
+trips.airline	air_france_klm_airlines	nonmember	2GO Air	raw/airline_sources/air_france_klm.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	air_france_klm_airlines	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/air_france_klm.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	air_france_klm_airlines	nonmember	40-Mile Air	raw/airline_sources/air_france_klm.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	air_france_klm_airlines	nonmember	9 Air	raw/airline_sources/air_france_klm.html#complete member roster; 9 Air absent, parser checked
+trips.airline	air_france_klm_airlines	nonmember	A/S Aero	raw/airline_sources/air_france_klm.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	qantas_group_airlines	member	Express Freighters Australia	raw/airline_sources/qantas_group.html#complete member roster; Express Freighters Australia present, parser checked
+trips.airline	qantas_group_airlines	member	Jetstar	raw/airline_sources/qantas_group.html#complete member roster; Jetstar present, parser checked
+trips.airline	qantas_group_airlines	member	National Jet Systems	raw/airline_sources/qantas_group.html#complete member roster; National Jet Systems present, parser checked
+trips.airline	qantas_group_airlines	member	Network Aviation	raw/airline_sources/qantas_group.html#complete member roster; Network Aviation present, parser checked
+trips.airline	qantas_group_airlines	member	Qantas	raw/airline_sources/qantas_group.html#complete member roster; Qantas present, parser checked
+trips.airline	qantas_group_airlines	nonmember	2GO Air	raw/airline_sources/qantas_group.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	qantas_group_airlines	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/qantas_group.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	qantas_group_airlines	nonmember	40-Mile Air	raw/airline_sources/qantas_group.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	qantas_group_airlines	nonmember	9 Air	raw/airline_sources/qantas_group.html#complete member roster; 9 Air absent, parser checked
+trips.airline	qantas_group_airlines	nonmember	A/S Aero	raw/airline_sources/qantas_group.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	b787_operators	member	Aeroméxico	raw/airline_sources/b787_operators.html#complete member roster; Aeroméxico present, parser checked
+trips.airline	b787_operators	member	Air Austral	raw/airline_sources/b787_operators.html#complete member roster; Air Austral present, parser checked
+trips.airline	b787_operators	member	Air Canada	raw/airline_sources/b787_operators.html#complete member roster; Air Canada present, parser checked
+trips.airline	b787_operators	member	Air China	raw/airline_sources/b787_operators.html#complete member roster; Air China present, parser checked
+trips.airline	b787_operators	member	Air Europa	raw/airline_sources/b787_operators.html#complete member roster; Air Europa present, parser checked
+trips.airline	b787_operators	nonmember	2GO Air	raw/airline_sources/b787_operators.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	b787_operators	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/b787_operators.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	b787_operators	nonmember	40-Mile Air	raw/airline_sources/b787_operators.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	b787_operators	nonmember	9 Air	raw/airline_sources/b787_operators.html#complete member roster; 9 Air absent, parser checked
+trips.airline	b787_operators	nonmember	A/S Aero	raw/airline_sources/b787_operators.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	skytrax_five_star	member	All Nippon Airways	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; All Nippon Airways present, parser checked
+trips.airline	skytrax_five_star	member	Cathay Pacific	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; Cathay Pacific present, parser checked
+trips.airline	skytrax_five_star	member	EVA Air	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; EVA Air present, parser checked
+trips.airline	skytrax_five_star	member	Hainan Airlines	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; Hainan Airlines present, parser checked
+trips.airline	skytrax_five_star	member	Japan Airlines	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; Japan Airlines present, parser checked
+trips.airline	skytrax_five_star	nonmember	2GO Air	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; 2GO Air absent, parser checked
+trips.airline	skytrax_five_star	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	skytrax_five_star	nonmember	40-Mile Air	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	skytrax_five_star	nonmember	9 Air	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; 9 Air absent, parser checked
+trips.airline	skytrax_five_star	nonmember	A/S Aero	raw/airline_sources/skytrax_five_star.html#five-star list#complete member roster; A/S Aero absent, parser checked
+trips.airline	star_alliance_founders	member	Air Canada	raw/airline_sources/star_alliance_article.html#complete member roster; Air Canada present, parser checked
+trips.airline	star_alliance_founders	member	Lufthansa	raw/airline_sources/star_alliance_article.html#complete member roster; Lufthansa present, parser checked
+trips.airline	star_alliance_founders	member	Scandinavian Airlines	raw/airline_sources/star_alliance_article.html#complete member roster; Scandinavian Airlines present, parser checked
+trips.airline	star_alliance_founders	member	Thai Airways International	raw/airline_sources/star_alliance_article.html#complete member roster; Thai Airways International present, parser checked
+trips.airline	star_alliance_founders	member	United Airlines	raw/airline_sources/star_alliance_article.html#complete member roster; United Airlines present, parser checked
+trips.airline	star_alliance_founders	nonmember	2GO Air	raw/airline_sources/star_alliance_article.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	star_alliance_founders	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/star_alliance_article.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	star_alliance_founders	nonmember	40-Mile Air	raw/airline_sources/star_alliance_article.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	star_alliance_founders	nonmember	9 Air	raw/airline_sources/star_alliance_article.html#complete member roster; 9 Air absent, parser checked
+trips.airline	star_alliance_founders	nonmember	A/S Aero	raw/airline_sources/star_alliance_article.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	a380_operators	member	Air France	raw/airline_sources/a380_orders_deliveries.html#complete member roster; Air France present, parser checked
+trips.airline	a380_operators	member	All Nippon Airways	raw/airline_sources/a380_orders_deliveries.html#complete member roster; All Nippon Airways present, parser checked
+trips.airline	a380_operators	member	British Airways	raw/airline_sources/a380_orders_deliveries.html#complete member roster; British Airways present, parser checked
+trips.airline	a380_operators	member	China Southern Airlines	raw/airline_sources/a380_orders_deliveries.html#complete member roster; China Southern Airlines present, parser checked
+trips.airline	a380_operators	member	Emirates	raw/airline_sources/a380_orders_deliveries.html#complete member roster; Emirates present, parser checked
+trips.airline	a380_operators	nonmember	2GO Air	raw/airline_sources/a380_orders_deliveries.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	a380_operators	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/a380_orders_deliveries.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	a380_operators	nonmember	40-Mile Air	raw/airline_sources/a380_orders_deliveries.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	a380_operators	nonmember	9 Air	raw/airline_sources/a380_orders_deliveries.html#complete member roster; 9 Air absent, parser checked
+trips.airline	a380_operators	nonmember	A/S Aero	raw/airline_sources/a380_orders_deliveries.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	lufthansa_group_airlines	member	Air Dolomiti	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; Air Dolomiti present, parser checked
+trips.airline	lufthansa_group_airlines	member	Austrian Airlines	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; Austrian Airlines present, parser checked
+trips.airline	lufthansa_group_airlines	member	Brussels Airlines	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; Brussels Airlines present, parser checked
+trips.airline	lufthansa_group_airlines	member	Discover Airlines	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; Discover Airlines present, parser checked
+trips.airline	lufthansa_group_airlines	member	Edelweiss Air	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; Edelweiss Air present, parser checked
+trips.airline	lufthansa_group_airlines	nonmember	2GO Air	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	lufthansa_group_airlines	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	lufthansa_group_airlines	nonmember	40-Mile Air	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	lufthansa_group_airlines	nonmember	9 Air	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; 9 Air absent, parser checked
+trips.airline	lufthansa_group_airlines	nonmember	A/S Aero	raw/airline_sources/wiki_lufthansa_group.html#complete member roster; A/S Aero absent, parser checked
+trips.airline	iag_airlines	member	Aer Lingus	raw/airline_sources/wiki_iag.html#complete member roster; Aer Lingus present, parser checked
+trips.airline	iag_airlines	member	BA CityFlyer	raw/airline_sources/wiki_iag.html#complete member roster; BA CityFlyer present, parser checked
+trips.airline	iag_airlines	member	BA EuroFlyer	raw/airline_sources/wiki_iag.html#complete member roster; BA EuroFlyer present, parser checked
+trips.airline	iag_airlines	member	British Airways	raw/airline_sources/wiki_iag.html#complete member roster; British Airways present, parser checked
+trips.airline	iag_airlines	member	Iberia	raw/airline_sources/wiki_iag.html#complete member roster; Iberia present, parser checked
+trips.airline	iag_airlines	nonmember	2GO Air	raw/airline_sources/wiki_iag.html#complete member roster; 2GO Air absent, parser checked
+trips.airline	iag_airlines	nonmember	2nd Arkhangelsk United Aviation Division	raw/airline_sources/wiki_iag.html#complete member roster; 2nd Arkhangelsk United Aviation Division absent, parser checked
+trips.airline	iag_airlines	nonmember	40-Mile Air	raw/airline_sources/wiki_iag.html#complete member roster; 40-Mile Air absent, parser checked
+trips.airline	iag_airlines	nonmember	9 Air	raw/airline_sources/wiki_iag.html#complete member roster; 9 Air absent, parser checked
+trips.airline	iag_airlines	nonmember	A/S Aero	raw/airline_sources/wiki_iag.html#complete member roster; A/S Aero absent, parser checked
+applicants.university	ivy_league	member	Brown University	raw/university_affiliations_wikidata.json#results.bindings[15612]
+applicants.university	ivy_league	member	Columbia University	raw/university_affiliations_wikidata.json#results.bindings[15474]
+applicants.university	ivy_league	member	Cornell University	raw/university_affiliations_wikidata.json#results.bindings[10588]
+applicants.university	ivy_league	member	Dartmouth College	raw/university_affiliations_wikidata.json#results.bindings[15643]
+applicants.university	ivy_league	member	Harvard University	raw/university_affiliations_wikidata.json#results.bindings[15867]
+applicants.university	ivy_league	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Ivy League universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	ivy_league	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Ivy League universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	ivy_league	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Ivy League universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	ivy_league	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Ivy League universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	ivy_league	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Ivy League universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	group_of_eight	member	Australian National University	raw/university_affiliations_wikidata.json#results.bindings[11135]
+applicants.university	group_of_eight	member	Monash University	raw/university_affiliations_wikidata.json#results.bindings[12896]
+applicants.university	group_of_eight	member	University of Melbourne	raw/university_affiliations_wikidata.json#results.bindings[12448]
+applicants.university	group_of_eight	member	University of New South Wales	raw/university_affiliations_wikidata.json#results.bindings[7551]
+applicants.university	group_of_eight	member	University of Queensland	raw/university_affiliations_wikidata.json#results.bindings[7912]
+applicants.university	group_of_eight	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Australian Group of Eight universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	group_of_eight	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Australian Group of Eight universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	group_of_eight	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Australian Group of Eight universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	group_of_eight	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Australian Group of Eight universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	group_of_eight	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Australian Group of Eight universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	c9_universities	member	Fudan University	raw/university_affiliations_wikidata.json#results.bindings[6397]
+applicants.university	c9_universities	member	Harbin Institute of Technology	raw/university_affiliations_wikidata.json#results.bindings[4013]
+applicants.university	c9_universities	member	Nanjing University	raw/university_affiliations_wikidata.json#results.bindings[7026]
+applicants.university	c9_universities	member	Peking University	raw/university_affiliations_wikidata.json#results.bindings[6357]
+applicants.university	c9_universities	member	Shanghai Jiao Tong University	raw/university_affiliations_wikidata.json#results.bindings[3618]
+applicants.university	c9_universities	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for C9 League universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	c9_universities	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for C9 League universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	c9_universities	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for C9 League universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	c9_universities	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for C9 League universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	c9_universities	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for C9 League universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	leru_members	member	Heidelberg University	raw/university_affiliations_wikidata.json#results.bindings[6278]
+applicants.university	leru_members	member	Imperial College London	raw/university_affiliations_wikidata.json#results.bindings[1350]
+applicants.university	leru_members	member	Karolinska Institutet	raw/university_affiliations_wikidata.json#results.bindings[1636]
+applicants.university	leru_members	member	Katholieke Universiteit Leuven	raw/university_affiliations_wikidata.json#results.bindings[207]
+applicants.university	leru_members	member	LMU Munich	raw/university_affiliations_wikidata.json#results.bindings[6250]
+applicants.university	leru_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for League of European Research Universities members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	leru_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for League of European Research Universities members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	leru_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for League of European Research Universities members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	leru_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for League of European Research Universities members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	leru_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for League of European Research Universities members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	apru_members	member	Australian National University	raw/university_affiliations_wikidata.json#results.bindings[11133]
+applicants.university	apru_members	member	Chulalongkorn University	raw/university_affiliations_wikidata.json#results.bindings[7752]
+applicants.university	apru_members	member	Far Eastern Federal University	raw/university_affiliations_wikidata.json#results.bindings[2776]
+applicants.university	apru_members	member	Fudan University	raw/university_affiliations_wikidata.json#results.bindings[6395]
+applicants.university	apru_members	member	Harbin Institute of Technology	raw/university_affiliations_wikidata.json#results.bindings[4012]
+applicants.university	apru_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Association of Pacific Rim Universities members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	apru_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Association of Pacific Rim Universities members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	apru_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Association of Pacific Rim Universities members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	apru_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Association of Pacific Rim Universities members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	apru_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Association of Pacific Rim Universities members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	aun_members	member	Adventist International Institute of Advanced Studies	raw/university_affiliations_wikidata.json#results.bindings[2583]
+applicants.university	aun_members	member	Ahmad Dahlan University	raw/university_affiliations_wikidata.json#results.bindings[10164]
+applicants.university	aun_members	member	Airlangga University	raw/university_affiliations_wikidata.json#results.bindings[2959]
+applicants.university	aun_members	member	Andalas University	raw/university_affiliations_wikidata.json#results.bindings[3011]
+applicants.university	aun_members	member	Asia Pacific University College of Technology & Innovation	raw/university_affiliations_wikidata.json#results.bindings[6428]
+applicants.university	aun_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for ASEAN University Network members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	aun_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for ASEAN University Network members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	aun_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for ASEAN University Network members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	aun_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for ASEAN University Network members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	aun_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for ASEAN University Network members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	n8_members	member	Durham University	raw/university_affiliations_wikidata.json#results.bindings[7234]
+applicants.university	n8_members	member	Newcastle University	raw/university_affiliations_wikidata.json#results.bindings[1829]
+applicants.university	n8_members	member	University of Lancaster	raw/university_affiliations_wikidata.json#results.bindings[2983]
+applicants.university	n8_members	member	University of Leeds	raw/university_affiliations_wikidata.json#results.bindings[7304]
+applicants.university	n8_members	member	University of Liverpool	raw/university_affiliations_wikidata.json#results.bindings[12654]
+applicants.university	n8_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for N8 Research Partnership universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	n8_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for N8 Research Partnership universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	n8_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for N8 Research Partnership universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	n8_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for N8 Research Partnership universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	n8_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for N8 Research Partnership universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	iaru_members	member	Australian National University	raw/university_affiliations_wikidata.json#results.bindings[11134]
+applicants.university	iaru_members	member	ETH Zurich	raw/university_affiliations_wikidata.json#results.bindings[506]
+applicants.university	iaru_members	member	National University of Singapore	raw/university_affiliations_wikidata.json#results.bindings[19303]
+applicants.university	iaru_members	member	Peking University	raw/university_affiliations_wikidata.json#results.bindings[6356]
+applicants.university	iaru_members	member	University of California, Berkeley	raw/university_affiliations_wikidata.json#results.bindings[6606]
+applicants.university	iaru_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for International Alliance of Research Universities members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	iaru_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for International Alliance of Research Universities members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	iaru_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for International Alliance of Research Universities members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	iaru_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for International Alliance of Research Universities members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	iaru_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for International Alliance of Research Universities members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	coimbra_members	member	Aarhus University	raw/university_affiliations_wikidata.json#results.bindings[14164]
+applicants.university	coimbra_members	member	Alexandru Ioan Cuza University	raw/university_affiliations_wikidata.json#results.bindings[4109]
+applicants.university	coimbra_members	member	Charles University	raw/university_affiliations_wikidata.json#results.bindings[193]
+applicants.university	coimbra_members	member	Claude Bernard University Lyon 1	raw/university_affiliations_wikidata.json#results.bindings[18591]
+applicants.university	coimbra_members	member	Eötvös Loránd University	raw/university_affiliations_wikidata.json#results.bindings[7161]
+applicants.university	coimbra_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Coimbra Group universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	coimbra_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Coimbra Group universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	coimbra_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Coimbra Group universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	coimbra_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Coimbra Group universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	coimbra_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Coimbra Group universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	aau_members	member	Arizona State University	raw/university_affiliations_wikidata.json#results.bindings[4221]
+applicants.university	aau_members	member	Boston University	raw/university_affiliations_wikidata.json#results.bindings[19650]
+applicants.university	aau_members	member	Brandeis University	raw/university_affiliations_wikidata.json#results.bindings[360]
+applicants.university	aau_members	member	Brown University	raw/university_affiliations_wikidata.json#results.bindings[15614]
+applicants.university	aau_members	member	California Institute of Technology	raw/university_affiliations_wikidata.json#results.bindings[660]
+applicants.university	aau_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Association of American Universities members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	aau_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Association of American Universities members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	aau_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Association of American Universities members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	aau_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Association of American Universities members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	aau_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Association of American Universities members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	acu_members	member	Ashesi University	raw/university_affiliations_wikidata.json#results.bindings[16710]
+applicants.university	acu_members	member	Asian University for Women	raw/university_affiliations_wikidata.json#results.bindings[19420]
+applicants.university	acu_members	member	Athabasca University	raw/university_affiliations_wikidata.json#results.bindings[7811]
+applicants.university	acu_members	member	B.S. Abdur Rahman Crescent Institute of Science and Technology	raw/university_affiliations_wikidata.json#results.bindings[18469]
+applicants.university	acu_members	member	BGMEA University of Fashion & Technology	raw/university_affiliations_wikidata.json#results.bindings[17270]
+applicants.university	acu_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Association of Commonwealth Universities members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	acu_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Association of Commonwealth Universities members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	acu_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Association of Commonwealth Universities members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	acu_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Association of Commonwealth Universities members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	acu_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Association of Commonwealth Universities members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	u21_members	member	Monterrey Institute of Technology and Higher Education	raw/university_affiliations_wikidata.json#results.bindings[15213]
+applicants.university	u21_members	member	Shanghai Jiao Tong University	raw/university_affiliations_wikidata.json#results.bindings[3615]
+applicants.university	u21_members	member	University of Auckland	raw/university_affiliations_wikidata.json#results.bindings[12625]
+applicants.university	u21_members	member	University of Connecticut	raw/university_affiliations_wikidata.json#results.bindings[6096]
+applicants.university	u21_members	member	University of Hong Kong	raw/university_affiliations_wikidata.json#results.bindings[6042]
+applicants.university	u21_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Universitas 21 member universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	u21_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Universitas 21 member universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	u21_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Universitas 21 member universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	u21_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Universitas 21 member universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	u21_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Universitas 21 member universities; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	wun_members	member	Eötvös Loránd University	raw/university_affiliations_wikidata.json#results.bindings[7163]
+applicants.university	wun_members	member	Federal University of Minas Gerais	raw/university_affiliations_wikidata.json#results.bindings[11164]
+applicants.university	wun_members	member	Griffith University	raw/university_affiliations_wikidata.json#results.bindings[15344]
+applicants.university	wun_members	member	Maastricht University	raw/university_affiliations_wikidata.json#results.bindings[4613]
+applicants.university	wun_members	member	Mahidol University	raw/university_affiliations_wikidata.json#results.bindings[3988]
+applicants.university	wun_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Worldwide Universities Network members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	wun_members	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Worldwide Universities Network members; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	wun_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Worldwide Universities Network members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	wun_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Worldwide Universities Network members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	wun_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Worldwide Universities Network members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	eua_members	member	"""Aurel Vlaicu"" University of Arad"	raw/university_affiliations_wikidata.json#results.bindings[6432]
+applicants.university	eua_members	member	AGH University of Science and Technology	raw/university_affiliations_wikidata.json#results.bindings[12530]
+applicants.university	eua_members	member	Aalborg University	raw/university_affiliations_wikidata.json#results.bindings[3865]
+applicants.university	eua_members	member	Aalen University of Applied Sciences	raw/university_affiliations_wikidata.json#results.bindings[1085]
+applicants.university	eua_members	member	Aalto University	raw/university_affiliations_wikidata.json#results.bindings[12212]
+applicants.university	eua_members	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for European University Association members; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	eua_members	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for European University Association members; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	eua_members	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for European University Association members; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	eua_members	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for European University Association members; A. V. Parekh Technical Institute absent, parser checked
+applicants.university	eua_members	nonmember	AISSMS College of Polytechnic	raw/university_affiliations_wikidata.json#complete roster for European University Association members; AISSMS College of Polytechnic absent, parser checked
+applicants.university	russell_group	member	Cardiff University	raw/university_affiliations_wikidata.json#results.bindings[7973]
+applicants.university	russell_group	member	Durham University	raw/university_affiliations_wikidata.json#results.bindings[7225]
+applicants.university	russell_group	member	Imperial College London	raw/university_affiliations_wikidata.json#results.bindings[1347]
+applicants.university	russell_group	member	King's College London	raw/university_affiliations_wikidata.json#results.bindings[6865]
+applicants.university	russell_group	member	London School of Economics and Political Science	raw/university_affiliations_wikidata.json#results.bindings[6719]
+applicants.university	russell_group	nonmember	"""Alexandru cel Bun"" Military Academy"	"raw/university_affiliations_wikidata.json#complete roster for Russell Group universities; ""Alexandru cel Bun"" Military Academy absent, parser checked"
+applicants.university	russell_group	nonmember	"""Aurel Vlaicu"" University of Arad"	"raw/university_affiliations_wikidata.json#complete roster for Russell Group universities; ""Aurel Vlaicu"" University of Arad absent, parser checked"
+applicants.university	russell_group	nonmember	"""Prof. Dr. Assen Zlatarov"" University"	"raw/university_affiliations_wikidata.json#complete roster for Russell Group universities; ""Prof. Dr. Assen Zlatarov"" University absent, parser checked"
+applicants.university	russell_group	nonmember	1 Decembrie 1918 University, Alba Iulia	raw/university_affiliations_wikidata.json#complete roster for Russell Group universities; 1 Decembrie 1918 University, Alba Iulia absent, parser checked
+applicants.university	russell_group	nonmember	A. V. Parekh Technical Institute	raw/university_affiliations_wikidata.json#complete roster for Russell Group universities; A. V. Parekh Technical Institute absent, parser checked

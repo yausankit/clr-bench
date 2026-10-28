@@ -1,0 +1,336 @@
+{
+ "answer_format": "json",
+ "background": {
+  "claims.currency": [
+   "BAM",
+   "BND",
+   "CDF",
+   "JPY",
+   "MDL",
+   "MZN",
+   "SAR",
+   "SVC",
+   "WST",
+   "XAF"
+  ],
+  "segments.airline": [
+   "ALROSA Air Company",
+   "Air Burkina",
+   "Air Dabia",
+   "Auric Air",
+   "Kyrgyz Trans Avia",
+   "Lanexang Airways International",
+   "Mann Yatanarpon Airlines",
+   "Med Airways",
+   "Sun Air",
+   "Thai AirAsia"
+  ],
+  "segments.arrival_airport": [
+   "EAR",
+   "EPT",
+   "HVB",
+   "KDT",
+   "LCQ",
+   "MJJ",
+   "RMN",
+   "WUS",
+   "WUU",
+   "YMA"
+  ]
+ },
+ "course_id": "CLR_TR1",
+ "dataset": "TR",
+ "fields": [
+  "segments.airline",
+  "segments.arrival_airport",
+  "claims.currency"
+ ],
+ "id": "TR1",
+ "seed": 20266093,
+ "slots": [
+  {
+   "A": "Lufthansa",
+   "C": "star_alliance_founding",
+   "C_name": "Founding member airlines of Star Alliance",
+   "N_p": "ITA Airways",
+   "N_t": [
+    "Air Caraïbes",
+    "Norse Atlantic UK",
+    "Joy Air",
+    "Skyward Airlines",
+    "MyTravelLite Airlines",
+    "Air Tahiti Nui",
+    "Blue Dart Aviation"
+   ],
+   "P_M": [
+    "Thai Airways",
+    "Scandinavian Airlines",
+    "United Airlines"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "eu_airlines",
+      "flag_carrier_airlines",
+      "g20_airlines",
+      "nato_airlines",
+      "oecd_airlines"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "a4e_members",
+    "eu_airlines",
+    "flag_carrier_airlines",
+    "g20_airlines",
+    "lufthansa_group",
+    "nato_airlines",
+    "oecd_airlines",
+    "star_alliance_members"
+   ],
+   "field": "segments.airline",
+   "label": "review queue B8",
+   "level": 1,
+   "salience": 633554.0,
+   "universe": "airline"
+  },
+  {
+   "A": "TMR",
+   "C": "opec_airports",
+   "C_name": "Airports in OPEC member states",
+   "N_p": "SAL",
+   "N_t": [
+    "UAR",
+    "FIG",
+    "SEY",
+    "BUA",
+    "GRD",
+    "GIL",
+    "PAZ"
+   ],
+   "P_M": [
+    "PMV",
+    "CUP",
+    "GDO"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_union_airports",
+      "amu_airports",
+      "arab_league_airports",
+      "oic_airports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_union_airports",
+    "amu_airports",
+    "arab_league_airports",
+    "oic_airports"
+   ],
+   "field": "segments.arrival_airport",
+   "label": "routing bucket 18",
+   "level": 2,
+   "salience": 891426.0,
+   "universe": "airport"
+  },
+  {
+   "A": "ZAR",
+   "C": "brics_currencies",
+   "C_name": "Currencies of BRICS member states",
+   "N_p": "MXN",
+   "N_t": [
+    "NAD",
+    "GBP",
+    "SOS",
+    "PLN",
+    "FJD",
+    "MOP",
+    "UYU"
+   ],
+   "P_M": [
+    "IRR",
+    "AED",
+    "BRL"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "african_union_currencies",
+      "commonwealth_currencies",
+      "g20_currencies",
+      "sacu_currencies",
+      "sadc_currencies"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 0,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "african_union_currencies",
+    "commonwealth_currencies",
+    "currency_union_currencies",
+    "g20_currencies",
+    "sacu_currencies",
+    "sadc_currencies"
+   ],
+   "field": "claims.currency",
+   "label": "queue tag X-63",
+   "level": 3,
+   "salience": 1491124.0,
+   "universe": "currency"
+  },
+  {
+   "A": "Air Canada",
+   "C": "nato_airlines",
+   "C_name": "Airlines of NATO member states",
+   "N_p": "LATAM Airlines",
+   "N_t": [
+    "Jetstar Airways",
+    "Akasa Air",
+    "Singapore Airlines",
+    "KLM Asia",
+    "Interair South Africa",
+    "Pakistan International Airlines",
+    "Maldivian"
+   ],
+   "P_M": [
+    "Fly Lili",
+    "ETF Airways",
+    "Air Albania"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "apec_airlines",
+      "commonwealth_airlines",
+      "flag_carrier_airlines",
+      "g20_airlines",
+      "oecd_airlines",
+      "star_alliance_members"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "apec_airlines",
+    "commonwealth_airlines",
+    "flag_carrier_airlines",
+    "g20_airlines",
+    "oas_airlines",
+    "oecd_airlines",
+    "star_alliance_founding",
+    "star_alliance_members"
+   ],
+   "field": "segments.airline",
+   "label": "settlement lane H9",
+   "level": 4,
+   "salience": 2129009.0,
+   "universe": "airline"
+  },
+  {
+   "A": "SOB",
+   "C": "schengen_airports",
+   "C_name": "Airports in the Schengen Area",
+   "N_p": "MDS",
+   "N_t": [
+    "SXL",
+    "IIA",
+    "VLY",
+    "WBU",
+    "DAU",
+    "KMZ",
+    "KNZ"
+   ],
+   "P_M": [
+    "LUG",
+    "ZHI",
+    "ZRH"
+   ],
+   "checks": {
+    "H1": {
+     "bad": [],
+     "pass": true
+    },
+    "H2": {
+     "lists": [
+      "coe_airports",
+      "eea_airports",
+      "eu_airports"
+     ],
+     "pass": true
+    },
+    "H4": {
+     "pass": true,
+     "repaired": []
+    },
+    "H6": {
+     "excluded": 12,
+     "pass": true
+    }
+   },
+   "comp_A": [
+    "coe_airports",
+    "eea_airports",
+    "eu_airports",
+    "turkic_airports",
+    "visegrad_airports"
+   ],
+   "field": "segments.arrival_airport",
+   "label": "desk label 11",
+   "level": 5,
+   "salience": 1141441.0,
+   "universe": "airport"
+  }
+ ]
+}

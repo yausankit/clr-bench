@@ -1,0 +1,1457 @@
+- id: ivy_league
+  name: Ivy League universities
+  synonyms:
+  - Ivy League
+  - the Ivies
+  members:
+  - Brown University
+  - Columbia University
+  - Cornell University
+  - Dartmouth College
+  - Harvard University
+  - Princeton University
+  - University of Pennsylvania
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: Wikidata P463 Q49113; raw/university_affiliations_wikidata.json
+  salience: 1460567
+- id: group_of_eight
+  name: Australian Group of Eight universities
+  synonyms:
+  - Group of Eight
+  - Go8
+  members:
+  - Australian National University
+  - Monash University
+  - University of Melbourne
+  - University of New South Wales
+  - University of Queensland
+  - University of Sydney
+  - University of Western Australia
+  disputed: []
+  changes: []
+  official_count: 7
+  out_of_universe: []
+  source: Wikidata P463 Q1377311; raw/university_affiliations_wikidata.json
+  salience: 48584
+- id: c9_universities
+  name: C9 League universities
+  synonyms:
+  - C9 League
+  - C9
+  members:
+  - Fudan University
+  - Harbin Institute of Technology
+  - Nanjing University
+  - Peking University
+  - Shanghai Jiao Tong University
+  - Tsinghua University
+  - University of Science and Technology of China
+  - Xi'an Jiaotong University
+  - Zhejiang University
+  disputed: []
+  changes: []
+  official_count: 9
+  out_of_universe: []
+  source: Wikidata P463 Q2634906; raw/university_affiliations_wikidata.json
+  salience: 103065
+- id: leru_members
+  name: League of European Research Universities members
+  synonyms:
+  - LERU
+  members:
+  - Heidelberg University
+  - Imperial College London
+  - Karolinska Institutet
+  - Katholieke Universiteit Leuven
+  - LMU Munich
+  - Leiden University
+  - Lund University
+  - Pierre and Marie Curie University
+  - Sorbonne University
+  - Trinity College, Dublin
+  - University of Amsterdam
+  - University of Barcelona
+  - University of Cambridge
+  - University of Copenhagen
+  - University of Edinburgh
+  - University of Freiburg
+  - University of Geneva
+  - University of Helsinki
+  - University of Milan
+  - University of Oxford
+  - University of Paris-Sud
+  - University of Strasbourg
+  - University of Zurich
+  - Utrecht University
+  disputed: []
+  changes: []
+  official_count: 24
+  out_of_universe: []
+  source: Wikidata P463 Q1152269; raw/university_affiliations_wikidata.json
+  salience: 10924
+- id: apru_members
+  name: Association of Pacific Rim Universities members
+  synonyms:
+  - APRU
+  members:
+  - Australian National University
+  - Chulalongkorn University
+  - Far Eastern Federal University
+  - Fudan University
+  - Harbin Institute of Technology
+  - Hong Kong University of Science and Technology
+  - KAIST
+  - Keio University
+  - Korea University
+  - Kyushu University
+  - Monash University
+  - Monterrey Institute of Technology and Higher Education
+  - Nagoya University
+  - Nanjing University
+  - Nanyang Technological University
+  - National Taiwan University
+  - National University of Singapore
+  - Peking University
+  - Pohang University of Science and Technology
+  - Pusan National University
+  - Seoul National University
+  - Simon Fraser University
+  - Sun Yat-sen University
+  - The Chinese University of Hong Kong
+  - Tohoku University
+  - Tongji University
+  - Tsinghua University
+  - Universidad San Francisco de Quito
+  - Universiti Malaya
+  - University of Auckland
+  - University of British Columbia
+  - University of California, Davis
+  - University of California, Los Angeles
+  - University of California, Riverside
+  - University of California, San Diego
+  - University of California, Santa Barbara
+  - University of California, Santa Cruz
+  - University of Chile
+  - University of Chinese Academy of Sciences
+  - University of Hawaiʻi at Mānoa
+  - University of Hong Kong
+  - University of Indonesia
+  - University of Melbourne
+  - University of New South Wales
+  - University of Oregon
+  - University of Osaka
+  - University of Queensland
+  - University of Science and Technology of China
+  - University of Southern California
+  - University of Sydney
+  - University of the Andes
+  - University of the Philippines
+  - Waseda University
+  - Xi'an Jiaotong University
+  - Yonsei University
+  - Zhejiang University
+  disputed: []
+  changes: []
+  official_count: 57
+  out_of_universe:
+  - Q219563
+  source: Wikidata P463 Q1074688; raw/university_affiliations_wikidata.json
+  salience: 12209
+- id: aun_members
+  name: ASEAN University Network members
+  synonyms:
+  - ASEAN University Network
+  - AUN
+  members:
+  - Adventist International Institute of Advanced Studies
+  - Ahmad Dahlan University
+  - Airlangga University
+  - Andalas University
+  - Asia Pacific University College of Technology & Innovation
+  - Assumption University
+  - Ateneo de Manila University
+  - Atma Jaya Catholic University of Indonesia
+  - Baliuag University
+  - Bandung Institute of Technology
+  - Banking University of Ho Chi Minh City
+  - Bataan Peninsula State University
+  - Bina Nusantara University
+  - Brawijaya University
+  - Build Bright University
+  - Burapha University
+  - Cagayan State University
+  - Can Tho University
+  - Cebu Technological University
+  - Central Luzon State University
+  - Centro Escolar University
+  - Chiang Mai University
+  - Chulalongkorn University
+  - Dalat University
+  - De La Salle University
+  - Diponegoro University
+  - Dong Thap University
+  - Eastern Visayas State University
+  - FPT University
+  - Far Eastern University
+  - Far Eastern University – Institute of Technology
+  - Foreign Trade University
+  - Gadjah Mada University
+  - Gunadarma University
+  - Hanoi Architectural University
+  - Hanoi University Of Public Health
+  - Hanoi University of Agriculture
+  - Hanoi University of Mining and Geology
+  - Hanoi University of Science and Technology
+  - Hasanuddin University
+  - Ho Chi Minh City Architecture University
+  - Ho Chi Minh City Open University
+  - Ho Chi Minh City University of Technology and Engineering
+  - Ho Chi Minh City University of Transportation
+  - Ho Chi Minh University of Education
+  - Hoa Sen University
+  - Holy Angel University
+  - Hong Bang University
+  - Hue University
+  - IMU University
+  - IPB University
+  - Indonesia University of Education
+  - Industrial University of Ho Chi Minh City
+  - Institute of Technology of Cambodia
+  - International Islamic University Malaysia
+  - Islamic University of Indonesia
+  - Jakarta State Islamic University
+  - Kalasin University
+  - Kasetsart University
+  - King Mongkut's University of Technology North Bangkok
+  - King Mongkut's University of Technology Thonburi
+  - Lac Hong University
+  - Lampang Rajabhat University
+  - Lampung University
+  - Limkokwing University of Creative Technology
+  - Lincoln University College, Malaysia
+  - Lyceum of the Philippines University
+  - Lyceum of the Philippines University-Laguna
+  - Lyceum of the Philippines University–Batangas
+  - Mae Fah Luang University
+  - Maejo University
+  - Mahasarakham University
+  - Mahidol University
+  - Management and Science University
+  - Mandalay Technological University
+  - Mandalay University
+  - Manuel S. Enverga University Foundation
+  - Mapúa University
+  - Mindanao State University – Iligan Institute of Technology
+  - Muhammadiyah University of Malang
+  - Muhammadiyah University of Surakarta
+  - Muhammadiyah University of Yogyakarta
+  - Multimedia Nusantara University
+  - Myanmar Aerospace Engineering University
+  - Myanmar Maritime University
+  - Nanyang Technological University
+  - National Development University "Veteran" Jakarta
+  - National University of Laos
+  - National University of Malaysia
+  - National University of Management
+  - National University of Singapore
+  - Nguyen Tat Thanh University
+  - Nilai University
+  - Nong Lam University
+  - Notre Dame of Marbel University
+  - Nueva Ecija University of Science and Technology
+  - Open University Malaysia
+  - Padang State University
+  - Parahyangan Catholic University
+  - Petra Christian University
+  - Prince of Songkla University
+  - Rajamangala University of Technology Thanyaburi
+  - Royal University of Law and Economics
+  - Royal University of Phnom Penh
+  - Saigon Technology University
+  - Saigon University
+  - Sam Ratulangi University
+  - Sanata Dharma University
+  - Sebelas Maret University
+  - Sepuluh Nopember Institute of Technology
+  - Silpakorn University
+  - Singapore Management University
+  - Singapore University of Technology and Design
+  - Srinakharinwirot University
+  - St. Michael's College, Iligan City
+  - State University of Malang
+  - State University of Semarang
+  - Sultan Ageng Tirtayasa University
+  - Sultan Idris Education University
+  - Sultan Sharif Ali Islamic University
+  - Sunan Gunung Djati State Islamic University Bandung
+  - Sunan Kalijaga Islamic University
+  - Suranaree University of Technology
+  - Syiah Kuala University
+  - Tay Nguyen University
+  - Technological University(Hmawbi)
+  - Technological University, Kyaukse
+  - Technological University, Thanlyin
+  - Telkom University
+  - Thai Nguyen University
+  - Thammasat University
+  - Thu Dau Mot University
+  - Thuongmai University
+  - Thuyloi University
+  - Tra Vinh University
+  - Trinity University of Asia
+  - Trisakti University
+  - Tun Hussein Onn University of Malaysia
+  - Tôn Đức Thắng University
+  - Udayana University
+  - Universitas Islam Negeri Maulana Malik Ibrahim
+  - Universitas Islam Negeri Walisongo
+  - Universitas Jember
+  - Universitas Respublica
+  - Universiti Brunei Darussalam
+  - Universiti Malaya
+  - Universiti Malaya-Wales
+  - Universiti Malaysia Kelantan
+  - Universiti Malaysia Pahang Al-Sultan Abdullah
+  - Universiti Malaysia Perlis
+  - Universiti Malaysia Sabah
+  - Universiti Sains Malaysia
+  - Universiti Teknologi MARA
+  - Universiti Utara Malaysia
+  - University Malaysia Sarawak
+  - University of 19 November Kolaka
+  - University of Civil Engineering of Vietnam
+  - University of Da Nang
+  - University of Economics, Ho Chi Minh City
+  - University of Indonesia
+  - University of Kuala Lumpur
+  - University of Mindanao
+  - University of North Sumatra
+  - University of Nottingham Malaysia Campus
+  - University of Putra Malaysia
+  - University of San Jose–Recoletos
+  - University of Santo Tomas
+  - University of Social Sciences and Humanities, VNU Hanoi
+  - University of South-East Asia
+  - University of Southeastern Philippines
+  - University of St. La Salle
+  - University of Technology Brunei
+  - University of Technology Malaysia
+  - University of Technology and Education
+  - University of Transport and Communications
+  - University of Yangon
+  - University of the Immaculate Conception
+  - University of the Philippines
+  - Van Hien University
+  - Van Lang University
+  - Vietnam Maritime University
+  - Vietnam National University
+  - Vietnamese-German University
+  - Vinh University
+  - Visayas State University
+  - Walailak University
+  - West Yangon Technological University
+  - Widya Mandala Catholic University
+  - Xavier University – Ateneo de Cagayan
+  - Yangon Technological University
+  - Yogyakarta State University
+  disputed: []
+  changes: []
+  official_count: 191
+  out_of_universe: []
+  source: Wikidata P463 Q297575; raw/university_affiliations_wikidata.json
+  salience: 7660
+- id: n8_members
+  name: N8 Research Partnership universities
+  synonyms:
+  - N8 Research Partnership
+  - N8
+  members:
+  - Durham University
+  - Newcastle University
+  - University of Lancaster
+  - University of Leeds
+  - University of Liverpool
+  - University of Manchester
+  - University of Sheffield
+  - University of York
+  disputed: []
+  changes: []
+  official_count: 8
+  out_of_universe: []
+  source: Wikidata P463 Q5463432; raw/university_affiliations_wikidata.json
+  salience: 2860
+- id: iaru_members
+  name: International Alliance of Research Universities members
+  synonyms:
+  - IARU
+  members:
+  - Australian National University
+  - ETH Zurich
+  - National University of Singapore
+  - Peking University
+  - University of California, Berkeley
+  - University of Cambridge
+  - University of Cape Town
+  - University of Copenhagen
+  - University of Oxford
+  - University of Tokyo
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 11
+  out_of_universe: []
+  source: Wikidata P463 Q1140056; raw/university_affiliations_wikidata.json
+  salience: 5858
+- id: coimbra_members
+  name: Coimbra Group universities
+  synonyms:
+  - Coimbra Group
+  members:
+  - Aarhus University
+  - Alexandru Ioan Cuza University
+  - Charles University
+  - Claude Bernard University Lyon 1
+  - Eötvös Loránd University
+  - Heidelberg University
+  - Istanbul University
+  - Jagiellonian University
+  - Jean Moulin University - Lyon 3
+  - Katholieke Universiteit Leuven
+  - Leiden University
+  - Lumière University Lyon 2
+  - Newcastle University
+  - Paul-Valéry University (Montpellier, 1970-2024)
+  - Trinity College, Dublin
+  - UCLouvain
+  - University of Barcelona
+  - University of Bergen
+  - University of Bologna
+  - University of Bristol
+  - University of Coimbra
+  - University of Edinburgh
+  - University of Galway
+  - University of Geneva
+  - University of Granada
+  - University of Graz
+  - University of Groningen
+  - University of Göttingen
+  - University of Jena
+  - University of Leeds
+  - University of Lyon
+  - University of Montpellier
+  - University of Padua
+  - University of Pavia
+  - University of Poitiers
+  - University of Salamanca
+  - University of Siena
+  - University of Tartu
+  - University of Turku
+  - University of Wrocław
+  - University of Würzburg
+  - Uppsala University
+  - Åbo Akademi University
+  disputed: []
+  changes: []
+  official_count: 43
+  out_of_universe: []
+  source: Wikidata P463 Q211620; raw/university_affiliations_wikidata.json
+  salience: 19051
+- id: aau_members
+  name: Association of American Universities members
+  synonyms:
+  - AAU
+  members:
+  - Arizona State University
+  - Boston University
+  - Brandeis University
+  - Brown University
+  - California Institute of Technology
+  - Carnegie Mellon University
+  - Case Western Reserve University
+  - Columbia University
+  - Cornell University
+  - Dartmouth College
+  - Duke University
+  - Emory University
+  - George Washington University
+  - Georgia Tech
+  - Harvard University
+  - Indiana University Bloomington
+  - Johns Hopkins University
+  - Massachusetts Institute of Technology
+  - McGill University
+  - Michigan State University
+  - New York University
+  - Northwestern University
+  - Ohio State University
+  - Pennsylvania State University
+  - Princeton University
+  - Purdue University
+  - Rice University
+  - Rutgers University–New Brunswick
+  - Stanford University
+  - Stony Brook University
+  - Syracuse University
+  - Texas A&M University
+  - Tufts University
+  - Tulane University
+  - University at Buffalo
+  - University of Arizona
+  - University of California, Berkeley
+  - University of California, Davis
+  - University of California, Irvine
+  - University of California, Los Angeles
+  - University of California, Riverside
+  - University of California, San Diego
+  - University of California, Santa Barbara
+  - University of California, Santa Cruz
+  - University of Chicago
+  - University of Colorado Boulder
+  - University of Florida
+  - University of Illinois Urbana-Champaign
+  - University of Iowa
+  - University of Kansas
+  - University of Maryland
+  - University of Miami
+  - University of Michigan
+  - University of Minnesota
+  - University of Missouri
+  - University of North Carolina at Chapel Hill
+  - University of Notre Dame
+  - University of Oregon
+  - University of Pennsylvania
+  - University of Pittsburgh
+  - University of Rochester
+  - University of South Florida
+  - University of Southern California
+  - University of Texas at Austin
+  - University of Toronto
+  - University of Utah
+  - University of Virginia
+  - University of Wisconsin–Madison
+  - Vanderbilt University
+  - Washington University in St. Louis
+  - Yale University
+  disputed: []
+  changes: []
+  official_count: 72
+  out_of_universe:
+  - Q219563
+  source: Wikidata P463 Q743812; raw/university_affiliations_wikidata.json
+  salience: 116271
+- id: acu_members
+  name: Association of Commonwealth Universities members
+  synonyms:
+  - ACU
+  members:
+  - Ashesi University
+  - Asian University for Women
+  - Athabasca University
+  - B.S. Abdur Rahman Crescent Institute of Science and Technology
+  - BGMEA University of Fashion & Technology
+  - BRAC University
+  - Bangladesh Agricultural University
+  - Bangladesh Open University
+  - Bangladesh University of Business and Technology
+  - Bangladesh University of Engineering and Technology
+  - Daffodil International University
+  - Dalhousie University
+  - Durham University
+  - Gombe State University
+  - International Islamic University Chittagong
+  - International University of Business Agriculture and Technology
+  - Jahangirnagar University
+  - McGill University
+  - McMaster University
+  - Memorial University of Newfoundland
+  - Metropolitan University
+  - Netaji Subhas Open University
+  - North South University
+  - Obafemi Awolowo University
+  - Queen's University
+  - Rashtrasant Tukadoji Maharaj Nagpur University
+  - Shahjalal University of Science and Technology
+  - The Chinese University of Hong Kong
+  - University of Asia Pacific
+  - University of British Columbia
+  - University of Calgary
+  - University of Cape Town
+  - University of Chittagong
+  - University of Dhaka
+  - University of Hong Kong
+  - University of Jos
+  - University of Lagos
+  - University of Liberal Arts Bangladesh
+  - University of Manchester
+  - University of Ottawa
+  - University of Papua New Guinea
+  - University of Saskatchewan
+  - University of South Africa
+  - University of Toronto
+  - University of Victoria
+  - University of Waterloo
+  - University of Western Ontario
+  - University of Westminster
+  - University of the West Indies
+  - World University of Bangladesh
+  - York University
+  disputed: []
+  changes: []
+  official_count: 51
+  out_of_universe: []
+  source: Wikidata P463 Q593768; raw/university_affiliations_wikidata.json
+  salience: 33582
+- id: u21_members
+  name: Universitas 21 member universities
+  synonyms:
+  - Universitas 21
+  - U21
+  members:
+  - Monterrey Institute of Technology and Higher Education
+  - Shanghai Jiao Tong University
+  - University of Auckland
+  - University of Connecticut
+  - University of Hong Kong
+  - University of Virginia
+  disputed: []
+  changes: []
+  official_count: 6
+  out_of_universe: []
+  source: Wikidata P463 Q1202548; raw/university_affiliations_wikidata.json
+  salience: 15103
+- id: wun_members
+  name: Worldwide Universities Network members
+  synonyms:
+  - Worldwide Universities Network
+  - WUN
+  members:
+  - Eötvös Loránd University
+  - Federal University of Minas Gerais
+  - Griffith University
+  - Maastricht University
+  - Mahidol University
+  - Makerere University
+  - National Cheng Kung University
+  - Ruhr University Bochum
+  - The Chinese University of Hong Kong
+  - University of Alberta
+  - University of Auckland
+  - University of Bristol
+  - University of Cape Town
+  - University of Exeter
+  - University of Ghana
+  - University of Lausanne
+  - University of Leeds
+  - University of Pretoria
+  - University of Queensland
+  - University of Rochester
+  - University of Sheffield
+  - University of Tsukuba
+  - University of York
+  disputed: []
+  changes: []
+  official_count: 23
+  out_of_universe: []
+  source: Wikidata P463 Q1047645; raw/university_affiliations_wikidata.json
+  salience: 3713
+- id: eua_members
+  name: European University Association members
+  synonyms:
+  - European University Association
+  - EUA
+  members:
+  - '"Aurel Vlaicu" University of Arad'
+  - AGH University of Science and Technology
+  - Aalborg University
+  - Aalen University of Applied Sciences
+  - Aalto University
+  - Aarhus University
+  - Abant Izzet Baysal University
+  - Abat Oliba CEU University
+  - Academy of Performing Arts
+  - Adam Mickiewicz University in Poznań
+  - Afyon Kocatepe University
+  - Agricultural University of Athens
+  - Agricultural University of Kraków
+  - Aix-Marseille University
+  - Akdeniz University
+  - Al-Farabi Kazakh National University
+  - Aleksandër Moisiu University of Durrës
+  - Alexander Dubcek University in Trencin
+  - Alexandru Ioan Cuza University
+  - Alice Salomon University
+  - Anadolu University
+  - Anglia Ruskin University
+  - Ankara University
+  - Aristotle University of Thessaloniki
+  - Aston University
+  - Athens University of Economics and Business
+  - Atlantic Technological University
+  - Augsburg Technical University of Applied Sciences
+  - Autonomous University of Barcelona
+  - Autonomous University of Madrid
+  - Avignon University
+  - Aydın Adnan Menderes University
+  - Azerbaijan State Oil and Industrial University
+  - Azerbaijan State University of Economics
+  - Babeș-Bolyai University
+  - Baku State University
+  - Bangor University
+  - Bartın University
+  - Belarusian National Technical University
+  - Belarusian State University
+  - Berlin School of Economics and Law
+  - Bialystok University of Technology
+  - Bielefeld University
+  - Bilkent University
+  - Birkbeck, University of London
+  - Blaise Pascal University (Clermont II)
+  - Bochum University of Applied Sciences
+  - Bonn-Rhein-Sieg University of Applied Sciences
+  - Bordeaux Montaigne University
+  - Bordeaux Segalen University
+  - Bournemouth University
+  - Brandenburg University of Technology Cottbus-Senftenberg
+  - Bremen University of Applied Sciences
+  - Brno University of Technology
+  - Bucharest University of Economic Studies
+  - Budapest Business University
+  - Bukovinian State Medical University
+  - Burdur Mehmet Akif Ersoy University
+  - Bursa Uludağ University
+  - CEU San Pablo University
+  - Ca' Foscari University of Venice
+  - Cardiff Metropolitan University
+  - Cardiff University
+  - Cardinal Stefan Wyszynski University in Warsaw
+  - Carol Davila University of Medicine and Pharmacy
+  - Catholic University of Eichstätt-Ingolstadt
+  - Catholic University of Portugal
+  - Catholic University of the Sacred Heart
+  - Central European University
+  - Central University of Europe
+  - Cergy-Pontoise University
+  - Chalmers University of Technology
+  - Charles University
+  - Claude Bernard University Lyon 1
+  - Clausthal University of Technology
+  - Comenius University
+  - Comillas Pontifical University
+  - Community Grenoble Alpes University
+  - Complutense University of Madrid
+  - Constance University of Applied Sciences
+  - Copenhagen Business School
+  - Corvinus University of Budapest
+  - Coventry University
+  - Cyprus University of Technology
+  - Czech Technical University in Prague
+  - Czech University of Life Sciences Prague
+  - D'Annunzio University of Chieti–Pescara
+  - Daugavpils University
+  - David Tvildiani Medical University
+  - De Montfort University
+  - Deggendorf Institute of Technology
+  - Delft University of Technology
+  - Democritus University of Thrace
+  - Dokuz Eylül University
+  - Donetsk National University of Economics and Trade
+  - Dortmund University of Applied Sciences and Arts
+  - Doğuş University
+  - Dublin City University
+  - Durham University
+  - Düzce University
+  - Džemal Bijedić University of Mostar
+  - ETH Zurich
+  - East Kazakhstan State University
+  - East Kazakhstan Technical University
+  - Eastern Mediterranean University
+  - Edinburgh Napier University
+  - Ege University
+  - Eindhoven University of Technology
+  - Epoka University
+  - Erasmus University Rotterdam
+  - Erciyes University
+  - Erzincan Binali Yıldırım University
+  - European Humanities University
+  - European University Cyprus
+  - European University Institute
+  - Eötvös Loránd University
+  - FH Aachen
+  - FH Münster
+  - FernUniversität in Hagen
+  - Frankfurt University of Applied Sciences
+  - Free University of Bozen-Bolzano
+  - Freie Universität Berlin
+  - Fulda University of Applied Sciences
+  - Fırat University
+  - Gaziantep University
+  - Gdańsk University of Technology
+  - Georgian Technical University
+  - German Sport University Cologne
+  - Ghent University
+  - Glasgow Caledonian University
+  - Goethe University Frankfurt
+  - Grenoble Alpes University
+  - Gubkin University
+  - HTW Berlin
+  - Hacettepe University
+  - Hamburg University of Applied Sciences
+  - Hanken School of Economics
+  - Hannover Medical School
+  - Hasselt University
+  - Heidelberg University
+  - Hellenic Open University
+  - Hochschule Bielefeld - University of Applied Sciences and Arts
+  - Hochschule Düsseldorf
+  - Hochschule Stralsund
+  - Holy Spirit University of Kaslik
+  - Humboldt-Universität zu Berlin
+  - IUAV University of Venice
+  - IULM University of Milan
+  - Iași University of Life Sciences
+  - Ilia State University
+  - Immanuel Kant Baltic Federal University
+  - Imperial College London
+  - International Balkan University
+  - International University of Catalonia
+  - International University of Struga
+  - Istanbul Aydın University
+  - Istanbul Beykent University
+  - Istanbul Bilgi University
+  - Istanbul Kültür University
+  - Istanbul Technical University
+  - Istanbul University
+  - Iuliu Hațieganu University of Medicine and Pharmacy
+  - Işık University
+  - Jean Monnet University
+  - Jean Moulin University - Lyon 3
+  - Jesuit University of Philosophy and Education Ignatianum
+  - Johannes Gutenberg University Mainz
+  - Johannes Kepler University Linz
+  - Joseph Fourier University
+  - Kadir Has University
+  - Karadeniz Technical University
+  - Karaganda State Technical University
+  - Karlsruhe Institute of Technology
+  - Karlsruhe University of Applied Sciences
+  - Karlstad University
+  - Karolinska Institutet
+  - Katholieke Universiteit Leuven
+  - Kazakh National Agrarian Research University
+  - Kazan Federal University
+  - Keele University
+  - Kharkiv National University of Economics
+  - Kharkiv Polytechnic Institute
+  - Kiel University
+  - King Juan Carlos University
+  - King's College London
+  - Kingston University
+  - Kocaeli University
+  - Koszalin University of Technology
+  - Koç University
+  - Krakow University of Economics
+  - Kırıkkale University
+  - LMU Munich
+  - Lappeenranta-Lahti University of Technology LUT
+  - Le Mans Université
+  - Leeds Beckett University
+  - Leibniz University Hannover
+  - Leiden University
+  - Leipzig University
+  - Leipzig University of Applied Sciences
+  - Leuphana University of Lüneburg
+  - Libera Università Maria SS. Assunta
+  - Lille University of Science and Technology
+  - Linköping University
+  - Linnaeus University
+  - Lithuanian University of Health Sciences
+  - Liverpool John Moores University
+  - London School of Economics and Political Science
+  - London South Bank University
+  - Luiss University
+  - Luleå University of Technology
+  - Lumière University Lyon 2
+  - Lund University
+  - Lusíada University
+  - Lviv Polytechnic
+  - Maastricht University
+  - Magdeburg-Stendal University of Applied Sciences
+  - Malmö University
+  - Maltepe University
+  - Mannheim Technical University of Applied Sciences
+  - Maria Curie-Skłodowska University
+  - Marie and Louis Pasteur University
+  - Marmara University
+  - Masaryk University
+  - Matej Bel University
+  - Maynooth University
+  - Medical University of Graz
+  - Medical University of Vienna
+  - Medical University of Warsaw
+  - Mediterranea University of Reggio Calabria
+  - Mendel University in Brno
+  - Mersin University
+  - Mid Sweden University
+  - Middle East Technical University
+  - Middlesex University
+  - Military University of Technology
+  - Mimar Sinan Fine Arts University
+  - Montesquieu University – Bordeaux IV
+  - Montpellier 2 University
+  - Moscow Institute of Physics and Technology
+  - Moscow State Institute of International Relations
+  - Mozarteum University Salzburg
+  - Munich University of Applied Sciences
+  - Muğla Sıtkı Koçman University
+  - Mykolas Romeris University
+  - N. I. Lobachevsky State University of Nizhny Novgorod
+  - NOVA University Lisbon
+  - Namık Kemal University
+  - Nantes University
+  - Naples Eastern University
+  - National Pedagogical Dragomanov University
+  - National Polytechnic University of Armenia
+  - National Research University – Higher School of Economics
+  - National University "Odesa Law Academy"
+  - National University of Distance Education
+  - National University of Ireland
+  - National University of Kyiv-Mohyla Academy
+  - National University of Public Service
+  - National University “Yaroslav the Wise Law Academy of Ukraine”
+  - National and Kapodistrian University of Athens
+  - Near East University
+  - Neubrandenburg University of Applied Sciences
+  - Newcastle University
+  - Nicolaus Copernicus University in Toruń
+  - Nord University
+  - Norwegian University of Life Sciences
+  - Norwegian University of Science and Technology
+  - Odesa National Academy of Food Technologies
+  - Odesa National Maritime University
+  - Odesa Polytechnic National University
+  - Okan University
+  - Ondokuz Mayıs University
+  - Open University of Catalonia
+  - Open University of Cyprus
+  - Open University of the Netherlands
+  - Opole University of Technology
+  - Oslo Metropolitan University
+  - Osnabrück University
+  - Osnabrück University of Applied Sciences
+  - Palacký University Olomouc
+  - Pamukkale University
+  - Panthéon-Assas University Paris
+  - Paris 12 University
+  - Paris Dauphine University
+  - Paris Descartes University
+  - Paris Diderot University
+  - Paris Nanterre University
+  - Paris-Sorbonne University - Paris IV
+  - Paul-Valéry University (Montpellier, 1970-2024)
+  - Pavol Jozef Šafárik University in Košice
+  - Peoples' Friendship University of Russia
+  - Pierre Mendès-France University
+  - Pierre and Marie Curie University
+  - Plekhanov Russian Economic University
+  - Plovdiv Medical University
+  - Politehnica University of Bucharest
+  - Poltava State Medical University
+  - Polytechnic University of Catalonia
+  - Polytechnic University of Hauts-de-France
+  - Polytechnic University of the Marches
+  - Pompeu Fabra University
+  - Poznań University of Economics
+  - Prague University of Economics and Business
+  - Public University of Navarre
+  - Pázmány Péter Catholic University
+  - Queen Mary University of London
+  - Queen's University Belfast
+  - RWTH Aachen University
+  - Radboud University
+  - Regensburg University of Applied Sciences
+  - Reutlingen University
+  - Reykjavík University
+  - Rheinische Hochschule Köln
+  - Riga Stradiņš University
+  - Riga Technical University
+  - Roskilde University
+  - Rovira i Virgili University
+  - Royal Institute of Technology
+  - Ruhr University Bochum
+  - Russian State University for the Humanities
+  - Rzeszów University
+  - Rzeszów University of Technology
+  - SGH Warsaw School of Economics
+  - SWPS University
+  - Saarland University
+  - Sabancı University
+  - Saint Petersburg State University of Information Technologies, Mechanics and Optics
+  - Sakarya University
+  - Sapienza University of Rome
+  - Savoy Mont Blanc University
+  - Selçuk University
+  - Semmelweis University
+  - Sheffield Hallam University
+  - Silesian University in Opava
+  - Slovak Medical University
+  - Slovak University of Agriculture
+  - Slovak University of Technology in Bratislava
+  - Sorbonne Nouvelle-Paris 3
+  - Sorbonne Paris North University
+  - Sorbonne University
+  - South East European University
+  - Southern Federal University
+  - Spiru Haret University
+  - Ss. Cyril and Methodius University of Skopje
+  - State University of Trade and Economics
+  - Stendhal University
+  - Stockholm University
+  - Sumy State University
+  - Swansea University
+  - Swedish University of Agricultural Sciences
+  - Széchenyi István University
+  - Süleyman Demirel University
+  - TH Köln – University of Applied Sciences
+  - THI - Technical University of Applied Sciences in Ingolstadt
+  - TU Braunschweig
+  - TU Dresden
+  - TU Wien
+  - Tallinn University
+  - Tallinn University of Technology
+  - Tampere University
+  - Taras Shevchenko National University of Kyiv
+  - Tbilisi State Medical University
+  - Tbilisi State University
+  - Technical University in Zvolen
+  - Technical University of Cluj-Napoca
+  - Technical University of Darmstadt
+  - Technical University of Denmark
+  - Technical University of Dortmund
+  - Technical University of Gabrovo
+  - Technical University of Košice
+  - Technical University of Leoben
+  - Technical University of Liberec
+  - Technical University of Madrid
+  - Technical University of Moldova
+  - Technical University of Munich
+  - Technical University of Valencia
+  - Technical University of Varna
+  - Technische Hochschule Nuremberg Georg Simon Ohm
+  - Technische Hochschule OWL
+  - Technische Universität Berlin
+  - Technological University Dublin
+  - Ternopil Ivan Puluj National Technical University
+  - The Open University
+  - Tilburg University
+  - Titu Maiorescu University
+  - Tokat Gaziosmanpaşa University
+  - Tomas Baťa University in Zlín
+  - Tomsk Polytechnic University
+  - Tomsk State University
+  - Toraighyrov University
+  - Toulouse Capitole University
+  - Toulouse III - Paul Sabatier University
+  - Tours University
+  - Trakia University
+  - Trakya University
+  - Trier University
+  - Trinity College, Dublin
+  - Trnava University in Trnava
+  - UCLouvain
+  - UCLouvain Saint-Louis – Bruxelles
+  - Ulster University
+  - Umeå University
+  - Universidad Carlos III de Madrid
+  - Universidad Europea de Madrid
+  - Universidad de Castilla-La Mancha
+  - Universidad de Málaga
+  - Universidade Autónoma de Lisboa
+  - Universidade Lusófona
+  - Universitat d'Andorra
+  - University CEU Cardenal Herrera
+  - University Camilo José Cela
+  - University Carlo Cattaneo
+  - University College Cork
+  - University College Dublin
+  - University Lille-II
+  - University Lille-III
+  - University Ramon Llull
+  - University Toulouse - Jean Jaurès
+  - University of Aberdeen
+  - University of Abertay Dundee
+  - University of Agder
+  - University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca
+  - University of Akureyri
+  - University of Alcalá
+  - University of Algarve
+  - University of Alicante
+  - University of Almería
+  - University of Amsterdam
+  - University of Angers
+  - University of Antwerp
+  - University of Applied Arts Vienna
+  - University of Applied Sciences Berlin
+  - University of Applied Sciences Northwestern Switzerland
+  - University of Applied Sciences Offenburg
+  - University of Applied Sciences Trier
+  - University of Applied Sciences Western Switzerland - Valais
+  - University of Augsburg
+  - University of Auvergne - Clermont I
+  - University of Aveiro
+  - University of Bamberg
+  - University of Banja Luka
+  - University of Barcelona
+  - University of Bari
+  - University of Basel
+  - University of Bath
+  - University of Bayreuth
+  - University of Beira Interior
+  - University of Belgrade
+  - University of Bergamo
+  - University of Bergen
+  - University of Bern
+  - University of Bihać
+  - University of Birmingham
+  - University of Bologna
+  - University of Bonn
+  - University of Bordeaux
+  - University of Bordeaux 1
+  - University of Bremen
+  - University of Brescia
+  - University of Bristol
+  - University of Bucharest
+  - University of Burgundy Europe
+  - University of Caen Normandy
+  - University of Cagliari
+  - University of Calabria
+  - University of Camerino
+  - University of Cantabria
+  - University of Cassino
+  - University of Catania
+  - University of Chemistry and Technology
+  - University of Coimbra
+  - University of Cologne
+  - University of Constantine the Philosopher
+  - University of Corsica Pasquale Paoli
+  - University of Craiova
+  - University of Crete
+  - University of Cyprus
+  - University of Cádiz
+  - University of Debrecen
+  - University of Deusto
+  - University of Duisburg-Essen
+  - University of Düsseldorf
+  - University of East London
+  - University of East Sarajevo
+  - University of Eastern Finland
+  - University of Eastern Piedmont
+  - University of Economics in Bratislava
+  - University of Edinburgh
+  - University of Erlangen–Nuremberg
+  - University of Exeter
+  - University of Florence
+  - University of Freiburg
+  - University of French Polynesia
+  - University of Fribourg
+  - University of Galway
+  - University of Geneva
+  - University of Genoa
+  - University of Giessen
+  - University of Girona
+  - University of Gothenburg
+  - University of Granada
+  - University of Graz
+  - University of Greenwich
+  - University of Greifswald
+  - University of Groningen
+  - University of Göttingen
+  - University of Hamburg
+  - University of Health Sciences
+  - University of Helsinki
+  - University of Hertfordshire
+  - University of Hradec Králové
+  - University of Huelva
+  - University of Hull
+  - University of Iceland
+  - University of Inland Norway
+  - University of Innsbruck
+  - University of Jaén
+  - University of Jena
+  - University of Jyväskylä
+  - University of Kaiserslautern
+  - University of Kassel
+  - University of Kent
+  - University of Konstanz
+  - University of Kragujevac
+  - University of La Laguna
+  - University of La Rioja
+  - University of La Rochelle
+  - University of La Réunion
+  - University of Lancaster
+  - University of Lapland
+  - University of Las Palmas de Gran Canaria
+  - University of Latvia
+  - University of Lausanne
+  - University of Le Havre
+  - University of Leeds
+  - University of Leicester
+  - University of Liechtenstein
+  - University of Lille
+  - University of Limerick
+  - University of Limoges
+  - University of Lisbon
+  - University of Liverpool
+  - University of Liège
+  - University of Ljubljana
+  - University of Lleida
+  - University of London
+  - University of Lorraine
+  - University of Lucerne
+  - University of Luxembourg
+  - University of Lübeck
+  - University of Macedonia
+  - University of Macerata
+  - University of Madeira
+  - University of Magdeburg
+  - University of Malta
+  - University of Manchester
+  - University of Marburg
+  - University of Maribor
+  - University of Messina
+  - University of Milan
+  - University of Milan-Bicocca
+  - University of Minho
+  - University of Modena and Reggio Emilia
+  - University of Molise
+  - University of Mondragón
+  - University of Mons
+  - University of Montenegro
+  - University of Montpellier
+  - University of Montpellier 1
+  - University of Mostar
+  - University of Murcia
+  - University of Music and Performing Arts Graz
+  - University of Münster
+  - University of Namur
+  - University of Naples Federico II
+  - University of Natural Resources and Life Sciences, Vienna
+  - University of Navarre
+  - University of Neuchâtel
+  - University of New Caledonia
+  - University of New York Tirana
+  - University of Nice Sophia Antipolis
+  - University of Nicosia
+  - University of Nottingham
+  - University of Nova Gorica
+  - University of Novi Sad
+  - University of Nîmes
+  - University of Oldenburg
+  - University of Orléans
+  - University of Osijek
+  - University of Oslo
+  - University of Ostrava
+  - University of Oulu
+  - University of Oviedo
+  - University of Paderborn
+  - University of Padua
+  - University of Pardubice
+  - University of Paris 1 Pantheon-Sorbonne
+  - University of Paris-Est Marne-la-Vallée
+  - University of Paris-Sud
+  - University of Parma
+  - University of Passau
+  - University of Patras
+  - University of Pau and Pays de l'Adour
+  - University of Pavia
+  - University of Perpignan
+  - University of Pisa
+  - University of Pitești
+  - University of Plymouth
+  - University of Poitiers
+  - University of Porto
+  - University of Prešov
+  - University of Primorska
+  - University of Pristina
+  - University of Pécs
+  - University of Regensburg
+  - University of Reims
+  - University of Rennes
+  - University of Rennes 1
+  - University of Rennes 2 – Upper Brittany
+  - University of Rijeka
+  - University of Roehampton
+  - University of Rouen-Normandy
+  - University of Salamanca
+  - University of Salento
+  - University of Salzburg
+  - University of Santiago de Compostela
+  - University of Sarajevo
+  - University of Sassari
+  - University of Seville
+  - University of Sheffield
+  - University of Siegen
+  - University of Siena
+  - University of Silesia in Katowice
+  - University of Southampton
+  - University of Southern Brittany
+  - University of Southern Denmark
+  - University of Split
+  - University of St Andrews
+  - University of Stavanger
+  - University of Stirling
+  - University of Strasbourg
+  - University of Strathclyde
+  - University of Stuttgart
+  - University of Surrey
+  - University of Szczecin
+  - University of Szeged
+  - University of Tartu
+  - University of Teramo
+  - University of Thessaly
+  - University of Tirana
+  - University of Toulon
+  - University of Trento
+  - University of Trieste
+  - University of Tromsø – The Arctic University of Norway
+  - University of Trás-os-Montes and Alto Douro
+  - University of Turin
+  - University of Turku
+  - University of Tuscia
+  - University of Tuzla
+  - University of Twente
+  - University of Tübingen
+  - University of Udine
+  - University of Urbino
+  - University of Vaasa
+  - University of Valencia
+  - University of Vechta
+  - University of Verona
+  - University of Veterinary Medicine Vienna
+  - University of Veterinary Medicine and Pharmacy in Košice
+  - University of Veterinary Sciences Brno
+  - University of Vic - Central University of Catalonia
+  - University of Vienna
+  - University of Warmia and Mazury in Olsztyn
+  - University of Warsaw
+  - University of Warwick
+  - University of West Bohemia
+  - University of Western Macedonia
+  - University of Westminster
+  - University of Wrocław
+  - University of Wuppertal
+  - University of Würzburg
+  - University of York
+  - University of Zadar
+  - University of Zagreb
+  - University of Zaragoza
+  - University of Zielona Góra
+  - University of Zurich
+  - University of the Aegean
+  - University of the Arts Helsinki
+  - University of the Balearic Islands
+  - University of the Basque Country
+  - University of the French West Indies and Guiana
+  - University of the West of Scotland
+  - University of Évora
+  - University of Évry Val d'Essonne
+  - University of Łódź
+  - University of Žilina
+  - Università degli Studi Roma Tre
+  - Università della Svizzera italiana
+  - Université de Bretagne Occidentale
+  - Université de Versailles Saint-Quentin-en-Yvelines
+  - Université libre de Bruxelles
+  - Upper Alsace University
+  - Uppsala University
+  - Utrecht University
+  - VSB – Technical University of Ostrava
+  - Valencian International University
+  - Van Yüzüncü Yıl University
+  - Varna Free University
+  - Vasile Goldiș West University
+  - Vasyl' Stus Donetsk National University
+  - Veliko Tarnovo University
+  - Victor Babeș University of Medicine and Pharmacy
+  - Vienna University of Economics and Business
+  - Vigo University
+  - Vilnius Gediminas Technical University
+  - Vilnius University
+  - Vilnius University Šiauliai Academy
+  - Vinnytsia National Technical University
+  - Vistula University
+  - Vrije Universiteit Amsterdam
+  - Vrije Universiteit Brussel
+  - Vytautas Magnus University
+  - WSB University
+  - Wageningen University & Research
+  - Warsaw University of Life Sciences
+  - Warsaw University of Technology
+  - West Ukrainian National University
+  - West University of Timișoara
+  - World Maritime University
+  - Wrocław University of Science and Technology
+  - Yanka Kupala State University of Grodno
+  - Yaşar University
+  - Yeditepe University
+  - Yerevan State University
+  - Yıldız Technical University
+  - Zhetysu University
+  - Zonguldak Bülent Ecevit University
+  - Zurich University of the Arts
+  - htw saar | Saarland University of Applied Sciences
+  - Åbo Akademi University
+  - Çanakkale Onsekiz Mart University
+  - Çankaya University
+  - Çağ University
+  - Çukurova University
+  - École polytechnique fédérale de Lausanne
+  - Óbuda University
+  - Örebro University
+  - İnönü University
+  - İzmir Institute of Technology
+  - İzmir University of Economics
+  - Łódź University of Technology
+  disputed: []
+  changes: []
+  official_count: 751
+  out_of_universe: []
+  source: Wikidata P463 Q868940; raw/university_affiliations_wikidata.json
+  salience: 20206
+- id: russell_group
+  name: Russell Group universities
+  synonyms:
+  - Russell Group
+  members:
+  - Cardiff University
+  - Durham University
+  - Imperial College London
+  - King's College London
+  - London School of Economics and Political Science
+  - Newcastle University
+  - Queen Mary University of London
+  - Queen's University Belfast
+  - University of Birmingham
+  - University of Bristol
+  - University of Cambridge
+  - University of Edinburgh
+  - University of Exeter
+  - University of Glasgow
+  - University of Leeds
+  - University of Liverpool
+  - University of Manchester
+  - University of Nottingham
+  - University of Oxford
+  - University of Sheffield
+  - University of Southampton
+  - University of Warwick
+  - University of York
+  disputed: []
+  changes: []
+  official_count: 23
+  out_of_universe: []
+  source: Wikidata P463 Q590631; raw/university_affiliations_wikidata.json
+  salience: 240472

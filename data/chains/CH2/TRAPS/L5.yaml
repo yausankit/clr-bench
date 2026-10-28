@@ -1,0 +1,48 @@
+A: DE
+C: mtcr
+C_name: Missile Technology Control Regime partners
+N_p: EE
+N_t:
+- RO
+- ME
+- SK
+- SR
+- LS
+- NI
+- DJ
+P_M:
+- IN
+- BR
+- RU
+checks:
+  H1:
+    bad: []
+    pass: true
+  H2:
+    lists:
+    - australia_group
+    - eu
+    - nato
+    - nsg
+    - schengen
+    - wassenaar
+    pass: true
+  H4:
+    pass: true
+    repaired: []
+  H6:
+    excluded: 12
+    pass: true
+comp_A:
+- australia_group
+- eu
+- eu_1958
+- g7
+- nato
+- nsg
+- schengen
+- wassenaar
+field: declarations.exporter_country
+label: intake folder 11
+salience: 42351.0
+universe: country
