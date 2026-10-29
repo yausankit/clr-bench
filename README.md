@@ -1,28 +1,98 @@
-# CLR-Bench: Curriculum of Latent Rules
+<div align="center">
 
-CLR-Bench tests whether self-evolving LLM agents learn hidden rules from corrective feedback. Each of its 20 chains
-(10 data domains, two chains each) has four levels. Level *k* adds a rule over a field with an opaque label ("segments
-in review queue B8 are not counted"); behind each label is a hidden class, a named grouping published on the Web
-(for example, founding member airlines of Star Alliance). The task gives one example member and a factual
-description of every value, but never names the class.
+# CLR-Bench
 
-At every level the agent first **practices**: it writes a program for a related task (largest entity total), may
-submit up to three programs, and receives every failing hidden input back as a counterexample that says whether each
-changed value belongs to the label like the example. A self-evolving method updates its state after every attempt.
-The state then writes the **test** program (sum of entity totals), scored on five hidden cells: clean cells with only
-example values, and one single cell per rule with its unseen members and test non-members. Applying each rule only to
-its example gives the frozen staircase 80/60/40/20%; gains above it come from generalizing a rule to unseen members
-while keeping non-members. Value-level diagnostics report inc_u (unseen members treated as members) and exc
-(non-members treated as non-members).
+### More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum
 
-The chains are built by **CLR-Synth**, a pipeline that turns a domain (entities, value universes with descriptions,
-and libraries of published lists) into a certified chain. Each candidate class is probed with the evaluated model
-in the context of the full chain: Hidden (`P0`: not recovered from the label and example alone), Learnable (`P1`:
-practice feedback alone assigns 1/6 to 2/3 of the unseen members) and Solvable (`P1H`: feedback plus the lesson gives
-a soft score of at least 0.8); see `pipeline/clrsynth/probe.py` and `makechain.py`. `clrsynth screen` pre-screens
-candidate lists before chains are built.
+**C**urriculum of **L**atent **R**ules
 
-Paper: arXiv link TBD.
+[![Paper](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](#citation)
+[![Python](https://img.shields.io/badge/python-3.12-3776ab.svg)](requirements.txt)
+[![Chains](https://img.shields.io/badge/chains-20%20%C2%B7%2010%20domains-1f4e8c.svg)](data/CHAINS.tsv)
+[![License](https://img.shields.io/badge/license-TBD-lightgrey.svg)](LICENSE)
+
+**English** | [中文](README_zh.md)
+
+</div>
+
+<p align="center">
+  <img src="assets/main_figure.png" width="100%" alt="Overview of CLR-Bench">
+</p>
+
+## Overview
+
+Self-evolving agents rewrite a persistent state (a playbook, a prompt, a skill library, a memory bank) from feedback.
+Do they learn a rule nobody told them, or do they only write down each correction as an exception?
+
+CLR-Bench answers this with **curriculum chains**. Each level adds a hidden rule on top of the earlier ones, for example
+*"segments in review queue B8 are not counted."* Behind every opaque label is a **named grouping published on the
+Web**, such as the founding member airlines of Star Alliance. The task shows one example (*Lufthansa*); practice
+feedback reveals one more member (*Thai Airways*) and one non-member (*ITA Airways*); the test checks members the
+agent never saw (*United Airlines*) and look-alike non-members.
+
+- **Practice can be passed by an exception list**, but only an agent that infers the category handles the test.
+- **Probe-certified**: the base model knows each grouping by name, cannot guess it without feedback, and can identify
+  it from the evidence once labels are read as named groupings.
+- **Diagnostic**: single-cell accuracy and value-level diagnostics separate under-generalization (unseen members left
+  in the count) from over-generalization (non-members removed).
+- **Extensible**: the CLR-Synth pipeline builds and certifies chains from a new data domain.
+
+## Benchmark at a glance
+
+<p align="center">
+  <img src="assets/composition.png" width="85%" alt="Composition of CLR-Bench">
+</p>
+
+| | |
+|---|---|
+| Chains | 20 (two per domain) |
+| Domains | travel audit, pharmacy review, web security, system logs, sponsorship, chemical imports, raw materials, port inspections, scholarships, travel grants |
+| Levels per chain | 4 (rules accumulate) |
+| Hidden rules / practice tasks / test tasks | 80 / 80 / 80 |
+| Hidden classes | intergovernmental memberships, standards, airline alliances, stock indices, sports clubs, ... |
+| Methods evaluated | ACE, GEPA, Dynamic Cheatsheet, Training-Free GRPO, EvoSkill, ReasoningBank |
+| References | frozen agent, raw practice history, + lesson |
+
+## Main results
+
+<p align="center">
+  <img src="assets/main_levels.png" width="100%" alt="Test accuracy per level">
+</p>
+
+Average test accuracy (%, levels 1-4, 20 chains). *Self*: learning from feedback alone. *+ lesson*: a fixed text in the
+update step that states the named-grouping convention without naming any class.
+
+| Method | GPT-6-Luna self | GPT-6-Luna + lesson | GPT-6-Sol self | GPT-6-Sol + lesson |
+|---|---:|---:|---:|---:|
+| Frozen agent | 47.8 | - | 32.5 | - |
+| History (raw practice) | 52.3 | 63.5 | 70.3 | 83.8 |
+| ACE | 52.5 | 67.0 | 78.3 | 81.3 |
+| Dynamic Cheatsheet | 52.8 | **68.3** | **78.5** | **84.0** |
+| GEPA | 49.5 | 66.0 | 58.8 | 64.8 |
+| Training-Free GRPO | 48.0 | 49.5 | 35.8 | 31.2 |
+| EvoSkill | 46.0 | 42.0 | 52.3 | 70.5 |
+| ReasoningBank | 33.5 | 30.0 | 24.8 | 20.8 |
+
+**Findings.**
+1. With GPT-6-Luna, the methods barely learn: the best gain at most 5 points over the frozen agent and exclude only
+   6-12% of the unseen members, fewer than the raw history (20%). The lesson lifts them by 14.5-16.5 points.
+2. Their states record corrections as exceptions: the revealed member appears in 75-98% of the final states, the
+   class name almost never.
+3. Learning grows with the base model: with GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone (78%)
+   and surpass the raw history.
+
+<p align="center">
+  <img src="assets/state_content.png" width="95%" alt="What the state records">
+</p>
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+python data/unpack_chains.py TR1                     # unpack one chain (or all: no argument)
+cd data/chains/TR1
+python score_k1_v3.py --version 0 --program L1=controls/reference_L1.py --diagnostics
+```
 
 ## Repository layout
 
@@ -147,6 +217,17 @@ python figures/build_main_figure.py && sh figures/make_main_figure.sh   # overvi
 
 The scripts read `paper_figures/data/*.json`, the aggregated results of the paper's runs. Some table captions were
 edited by hand in the paper, so regenerated captions can differ from the published ones; the numbers are the same.
+
+## Citation
+
+```bibtex
+@article{qiu2026clrbench,
+  title  = {More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum},
+  author = {Qiu, Chenjie and Xu, Boyan and Shi, Shaobin and Chen, Bingfeng and Cai, Ruichu and Luo, Dongsheng},
+  year   = {2026},
+  note   = {arXiv link coming soon}
+}
+```
 
 ## License
 
