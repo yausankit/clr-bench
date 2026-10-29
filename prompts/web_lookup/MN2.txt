@@ -1,5 +1,0 @@
-- ledger mark P8 (example 'DE'): named groupings that include 'DE': European Union member states; NATO member states; Schengen Area member states; G7 member states; G20 members; Eurozone member states; OECD member states
-- review tag 70 (example 'Air France'): named groupings that include 'Air France': SkyTeam member airlines; IATA member airlines; Air France-KLM Group airlines; Airlines participating in Airlines for Europe member groups
-- compliance lane N-59 (example 'holmium'): named groupings that include 'holmium': Heavy rare-earth elements; Rare-earth elements; Yttrium-group rare-earth elements; Lanthanides; Period 6 elements; Lanthanides and actinides
-- audit ribbon W2 (example 'IT'): named groupings that include 'IT': European Union member states; NATO member states; Schengen Area member states; G7 member states; G20 members; Eurozone member states; OECD member states
-- ledger mark 60 (example 'British Airways'): named groupings that include 'British Airways': Oneworld member airlines; International Airlines Group airlines; IATA member airlines; Airlines participating in Airlines for Europe member groups

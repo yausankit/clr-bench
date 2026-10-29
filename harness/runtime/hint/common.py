@@ -13,7 +13,7 @@ def _methods_root():
  except (OSError,ValueError):pass
  return next((p/'methods' for p in ROOT.parents if (p/'methods'/'upstream').is_dir()),ROOT.parents[2]/'methods')
 OLD=_methods_root()
-METHODS=['frozen','ace','gepa','evoskill','dc','rb','tfgrpo','hist','oracle','nameoracle','histhint','nameproc','histconv','histproc','webonly','histweb','histwebng']
+METHODS=['frozen','ace','gepa','evoskill','dc','rb','tfgrpo','hist','nameoracle','histhint','histconv','histproc']
 EMPTY='\n'.join('## '+s for s in ['STRATEGIES & INSIGHTS','FORMULAS & CALCULATIONS','CODE SNIPPETS & TEMPLATES','COMMON MISTAKES TO AVOID','PROBLEM-SOLVING HEURISTICS','CONTEXT CLUES & INDICATORS','OTHERS'])
 def read(p):return json.loads(Path(p).read_text())
 def dump(p,v):
@@ -27,7 +27,6 @@ def initial(method):
  if method=='evoskill':return dict(files={})
  if method=='rb':return dict(experiences=[],next_global_id=1)
  if method=='tfgrpo':return dict(experiences={},next_global_id=0)
- if method=='oracle':return dict(text=(ROOT.parent/'HINT_NC100.txt').read_text().strip())
  return dict(text='')
 def persona(task,method,state):
  text=task['system']
@@ -44,25 +43,14 @@ def persona(task,method,state):
   body='\n'.join(f'[{key}]. {value}' for key,value in state['experiences'].items())
   text+='\n\nWhen solving problems, you MUST first carefully read and understand the helpful instructions and experiences:\n'+body
  if method=='hist' and state.get('text'):text+='\nYour earlier practice attempts and the feedback they received:\n'+state['text']
- if method=='oracle' and state.get('text'):text+='\nVERIFIED LESSON (correct, from the task designers):\n'+state['text']
  if method=='histhint':
   text+='\nVERIFIED LESSON (correct, from the task designers):\n'+(ROOT.parent/'HINT_NC100.txt').read_text().strip()
   if state.get('text'):text+='\nYour earlier practice attempts and the feedback they received:\n'+state['text']
  if method=='nameoracle':
   text+='\nLABEL MEANINGS (correct, from the task designers):\n'+(ROOT.parent/'CLASS_NAMES.txt').read_text().strip()
   text+='\nApply each rule to every described value that belongs to the named grouping, and to no other value.'
- if method=='nameproc':
-  text+='\nLABEL MEANINGS (correct, from the task designers):\n'+(ROOT.parent/'CLASS_NAMES.txt').read_text().strip()
-  text+='\nApply each rule to every described value that belongs to the named grouping, and to no other value. '
-  text+='Before coding, go through every described value, decide membership in the named grouping for each one, and hard-code the complete member set.'
  if method in ('histconv','histproc'):
   f='LESSON_CONV.txt' if method=='histconv' else 'LESSON_PROC.txt'
   text+='\nVERIFIED LESSON (correct, from the task designers):\n'+(ROOT.parent/f).read_text().strip()
-  if state.get('text'):text+='\nYour earlier practice attempts and the feedback they received:\n'+state['text']
- if method in ('webonly','histweb'):
-  text+='\nWEB LOOKUP (named groupings published on the Web that include each label\'s example value):\n'+(ROOT.parent/'SEARCH.txt').read_text().strip()
-  if method=='histweb' and state.get('text'):text+='\nYour earlier practice attempts and the feedback they received:\n'+state['text']
- if method=='histwebng':
-  text+='\nWEB LOOKUP (named groupings published on the Web that include each label\'s example value):\n'+(ROOT.parent/'SEARCH_NOGOLD.txt').read_text().strip()
   if state.get('text'):text+='\nYour earlier practice attempts and the feedback they received:\n'+state['text']
  return text

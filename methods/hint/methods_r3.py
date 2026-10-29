@@ -25,18 +25,6 @@ from evo_methods import dc_update, rb_update, tfgrpo_update
 HINT_TEXT = (Path(__file__).resolve().parents[1] / "HINT_NC100.txt").read_text().rstrip("\n")
 
 
-AFLOW_INTEGRATION = """Use a fresh prepared AFlow source tree and the native container runner.
-Call aflow_entry.py with cfg={environment_url, course, level, history, parent?}.
-history contains exactly this method's released public records. Search
-loads all and only their task IDs from the scoped public service; it reevaluates
-the inherited graph, then makes two native graph proposals. Copy SELECTED into
-the next stage. Cold cfg uses mode='cold', the CURRENT level, and parent; no
-history is needed for cold solving. No hidden grade enters the container.
-The container must import this experiment's transport and Client implementation.
-Training and candidate selection reuse the same tiny historical task set, so
-these scores are not independent validation. Own history is appended to the
-native optimizer prompt as public evidence.
-"""
 
 
 def compact(value):
@@ -423,8 +411,6 @@ def update(method, native, sid, level, state, history, folder):
     Path(folder).mkdir(parents=True, exist_ok=True)
     released_ids(sid, level, history)
     dump(Path(folder) / "OWN_HISTORY.json", history)
-    if method == "aflow":
-        raise ValueError("AFlow uses its native container entry. " + AFLOW_INTEGRATION)
     return {"ace": ace_update, "gepa": gepa_update, "evoskill": evoskill_update,
             "dc": dc_update, "rb": rb_update, "tfgrpo": tfgrpo_update}[
         method](native, sid, level, copy.deepcopy(state), copy.deepcopy(history), Path(folder))

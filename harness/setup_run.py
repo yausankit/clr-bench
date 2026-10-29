@@ -8,12 +8,12 @@ usage: python harness/setup_run.py CHAIN [--out runs/CHAIN] [--gateway-url http:
 The run directory gets
   CONFIG.json, AUDIT.json, REPLAY_PLAN_K1_FROZEN.json         from data/chains/CHAIN/run_kit (paths filled in)
   HINT_NC100.txt, LESSON_CONV.txt, LESSON_PROC.txt            the lesson and its parts (prompts/)
-  CLASS_NAMES.txt, SEARCH.txt, SEARCH_NOGOLD.txt              class-name oracle and web-lookup texts (prompts/)
+  CLASS_NAMES.txt                                             class names behind the labels, for the class-name oracle (prompts/)
   bundle_k1_v0/, bundle_k1_v0_rg/                             task files (rewarded practice: practice files replaced)
   harness_self_v0/   practice harness, learning from feedback alone (self)
   harness_hint_v0/   practice harness, lesson appended to every update input (+lesson)
   harness_k1_test/   test harness (frozen agent and replay of learned states on the test task)
-  run_stage_a.py, build_replay_plan.py, run_stage_b.py, score_all.py, run_frozen.sh and the *_extra* drivers.
+  run_stage_a.py, build_replay_plan.py, run_stage_b.py, score_all.py, and run_frozen.sh.
 Each harness copy is harness/runtime/<arm> plus the method adapters in methods/<arm> and methods/shared.
 """
 import argparse
@@ -69,9 +69,7 @@ def main():
         shutil.copy(kit / f, out / f)
     texts = {"HINT_NC100.txt": "prompts/lesson.txt", "LESSON_CONV.txt": "prompts/lesson_convention.txt",
              "LESSON_PROC.txt": "prompts/lesson_procedure.txt",
-             "CLASS_NAMES.txt": f"prompts/class_names/{a.chain}.txt",
-             "SEARCH.txt": f"prompts/web_lookup/{a.chain}.txt",
-             "SEARCH_NOGOLD.txt": f"prompts/web_lookup/{a.chain}.nogold.txt"}
+             "CLASS_NAMES.txt": f"prompts/class_names/{a.chain}.txt"}
     for dst, src in texts.items():
         shutil.copy(REPO / src, out / dst)
 

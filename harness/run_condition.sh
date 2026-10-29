@@ -1,15 +1,20 @@
 #!/bin/bash
-# Run learning conditions for one chain, levels 1-4, scored on version 0 (the protocol of the paper):
-#   setup run dir -> stage A (practice, every method updates its state) -> replay plan -> stage B (test replay of each
-#   learned state) -> scoring with the chain's score_k1_v3.py (writes SCORES_ALL.json).
+# Run learning conditions on one chain with the paper's protocol (levels 1-4, instance version 0):
+#   setup_run.py -> stage A (practice: up to three attempts per level, the method updates its state after every
+#   attempt) -> replay plan -> stage B (each learned state writes the level's test program) -> scoring with the chain's
+#   scorer (level accuracy, single cells, value-level diagnostics; written to SCORES_ALL.json).
 # Usage: harness/run_condition.sh <chain> <out root> "<python list of (mode, method) pairs>" [setup_run.py options]
-#   mode:   self (learning from feedback alone) or hint (+lesson appended to every update input)
-#   method: ace gepa dc tfgrpo evoskill rb, or the method-free references hist (history), oracle, histhint
-#           (history + lesson), histconv, histproc, nameoracle, nameproc, webonly, histweb, histwebng
+#   mode:   self (learning from feedback alone) or hint (+ lesson: the lesson is appended to every update input)
+#   method: ace gepa dc tfgrpo evoskill rb, or the method-free references
+#           hist (raw practice history), histhint (history + lesson), histconv / histproc (history + one part of the
+#           lesson), nameoracle (class-name oracle)
 # Example: harness/run_condition.sh TR1 runs/luna "[('self','ace'),('hint','ace'),('self','hist')]" \
 #            --gateway-url http://localhost:42802/CLR --model gpt-6-luna
-# Environment: CLRBENCH_GEPA_NOTE=neutral|explicit|none (default neutral); CLR_BUNDLE=bundle_k1_v0_rg for rewarded
-# practice (stage A only). Start harness/gateway.py first. Re-entrant: finished sessions are reused.
+# Environment:
+#   CLRBENCH_GEPA_NOTE=neutral|explicit|none   GEPA format note (default neutral, as in the main results)
+#   CLR_BUNDLE=bundle_k1_v0_rg                 rewarded practice: m1 also appears in practice from the second attempt
+#   CLR_VARIANT=lessn|convn|procn|namem|convl1 text added to the update step (harness/variants.py), with hint pairs
+# Start harness/gateway.py first. The script is re-entrant: finished sessions are reused.
 set -e
 C=$1; ROOT=$2; Q=$3; shift 3
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
@@ -32,6 +37,7 @@ for f in ('build_replay_plan.py', 'score_all.py'):
     assert a in s, f
     Path(f).write_text(s.replace(a, "for mode, method in " + Q + ":\n if True:"))
 PY
+  if [ -n "$CLR_VARIANT" ]; then "$PY" "$REPO/harness/variants.py" "$B" "$CLR_VARIANT"; fi
   touch LEARN_READY
 fi
 cd "$B"
