@@ -25,7 +25,7 @@
 CLR-Bench 用**课程链**来回答这个问题。每一级在前面规则的基础上再加一条隐藏规则，例如 *"review queue B8 中的航段不计入"*。每个不透明标签背后都是一个**发布在 Web 上的命名分组**，比如星空联盟的创始成员航空公司。任务只给出一个示例（*Lufthansa*）；练习反馈再揭示一个成员（*Thai Airways*）和一个非成员（*ITA Airways*）；测试则检查智能体从未见过的成员（*United Airlines*）和看起来相似的非成员。
 
 - **练习可以靠例外清单通过**，但只有推断出类别的智能体才能通过测试。
-- **经探针认证**：底座模型能按名字知道每个分组，没有反馈时猜不出它，而在"标签代表命名分组"这一约定下能从证据中确定它。
+- **经探针认证**：底座模型知道每个分组的成员，没有反馈时猜不出它，而在"标签代表命名分组"这一约定下能从证据中确定它。
 - **可诊断**：单值格准确率和值级诊断把推广不足（未见成员仍被计数）和推广过度（非成员被删掉）区分开。
 - **可扩展**：CLR-Synth 流水线能从新的数据领域构建并认证新的链。
 
@@ -131,10 +131,12 @@ export CLRSYNTH_MODEL=gpt-6-luna CLRSYNTH_REASONING=high
 export CLRSYNTH_API_KEY_CMD='cat ~/.secrets/key'      # 或 CLRSYNTH_API_KEY；密钥只保存在内存中
 cd pipeline
 python -m clrsynth lint TR                            # 输入检查
-python -m clrsynth screen inputs/TR/chains/TR1.yaml       # 可选：在 make-chain 之前预筛候选列表
+python -m clrsynth screen inputs/TR/chains/TR1.yaml       # 在 make-chain 之前对每个候选名单跑 Known 探针
 python -m clrsynth make-chain inputs/TR/chains/TR1.yaml   # 槽位 -> 候选 -> 探针 -> 构建 -> 检查 -> 复现验证
 python tools/frozen.py out/TR/TR1                         # 在三个版本上做冻结智能体校准
 ```
+
+论文中的四个探针与代码的对应关系：Known 是 `clrsynth screen`；Hidden、Learnable、Solvable 分别是 `pipeline/clrsynth/probe.py` 中的 `P0`、`P1`、`P1H`，由 `make-chain` 在整条链的上下文中运行。
 
 `make-chain` 可以断点续跑（已确定的槽位保存在 `out/<dataset>/<chain>/STATE.json`）。SY 领域需要 Synthea 样本：`tar -xzf inputs/SY/sources/synthea.tar.gz -C inputs/SY/sources`。原始数据快照（`raw/`）没有随仓库发布；`inputs/<domain>/sources/FETCH.md` 记录了每个数据源的获取方式，派生出的取值全集、列表库和显著度文件已包含在内，因此不需要原始快照也能构建链。
 

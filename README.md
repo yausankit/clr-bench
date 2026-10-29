@@ -30,8 +30,8 @@ feedback reveals one more member (*Thai Airways*) and one non-member (*ITA Airwa
 agent never saw (*United Airlines*) and look-alike non-members.
 
 - **Practice can be passed by an exception list**, but only an agent that infers the category handles the test.
-- **Probe-certified**: the base model knows each grouping by name, cannot guess it without feedback, and can identify
-  it from the evidence once labels are read as named groupings.
+- **Probe-certified**: the base model knows the members of each grouping, cannot guess it without feedback, and can
+  identify it from the evidence once labels are read as named groupings.
 - **Diagnostic**: single-cell accuracy and value-level diagnostics separate under-generalization (unseen members left
   in the count) from over-generalization (non-members removed).
 - **Extensible**: the CLR-Synth pipeline builds and certifies chains from a new data domain.
@@ -146,10 +146,13 @@ export CLRSYNTH_MODEL=gpt-6-luna CLRSYNTH_REASONING=high
 export CLRSYNTH_API_KEY_CMD='cat ~/.secrets/key'      # or CLRSYNTH_API_KEY; the key is kept in memory only
 cd pipeline
 python -m clrsynth lint TR                            # input checks
-python -m clrsynth screen inputs/TR/chains/TR1.yaml       # optional pre-screen of candidate lists (run before make-chain)
+python -m clrsynth screen inputs/TR/chains/TR1.yaml       # Known probe on every candidate list (run before make-chain)
 python -m clrsynth make-chain inputs/TR/chains/TR1.yaml   # slots -> candidates -> probes -> build -> check -> verify-repro
 python tools/frozen.py out/TR/TR1                         # frozen-agent calibration on the three versions
 ```
+
+The paper's four probes map to the code as follows: Known is `clrsynth screen`, and Hidden, Learnable and Solvable
+are `P0`, `P1` and `P1H` in `pipeline/clrsynth/probe.py`, run by `make-chain` in the context of the full chain.
 
 `make-chain` is resumable (pinned slots are kept in `out/<dataset>/<chain>/STATE.json`). The SY domain needs the
 Synthea sample: `tar -xzf inputs/SY/sources/synthea.tar.gz -C inputs/SY/sources`. Raw source snapshots (`raw/`) are
