@@ -8,7 +8,6 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg)](#引用)
 [![Python](https://img.shields.io/badge/python-3.12-3776ab.svg)](requirements.txt)
-[![Chains](https://img.shields.io/badge/chains-20%20%C2%B7%2010%20domains-1f4e8c.svg)](data/CHAINS.tsv)
 [![License](https://img.shields.io/badge/license-TBD-lightgrey.svg)](LICENSE)
 
 [English](README.md) | **中文**
