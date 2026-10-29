@@ -135,8 +135,7 @@ every candidate program in a Docker container without network (`python:3.12-slim
 python data/unpack_chains.py            # all chains; or: python data/unpack_chains.py TR1 UN2
 ```
 
-The paper uses levels 1-4 and instance version 0 of every chain. Each chain directory also contains L5, which the
-pipeline builds and certifies but the paper does not use.
+The paper uses levels 1-4 and instance version 0 of every chain.
 
 ## Build chains
 
@@ -215,8 +214,7 @@ for f in figures/make_*.py; do python "$f"; done            # PDFs into figures/
 python figures/build_main_figure.py && sh figures/make_main_figure.sh   # overview figure (headless Chrome, pdfcrop)
 ```
 
-The scripts read `paper_figures/data/*.json`, the aggregated results of the paper's runs. Some table captions were
-edited by hand in the paper, so regenerated captions can differ from the published ones; the numbers are the same.
+The scripts read `paper_figures/data/*.json`, the aggregated results of the paper's runs.
 
 ## Citation
 

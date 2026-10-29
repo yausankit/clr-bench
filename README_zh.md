@@ -120,7 +120,7 @@ Python 3.12（`pip install -r requirements.txt`）。评分和构建链只需要
 python data/unpack_chains.py            # 全部链；或：python data/unpack_chains.py TR1 UN2
 ```
 
-论文使用每条链的第 1–4 级和实例版本 0。每个链目录还包含第 5 级，流水线会构建并认证它，但论文没有使用。
+论文使用每条链的第 1–4 级和实例版本 0。
 
 ## 构建链
 
@@ -187,7 +187,7 @@ for f in figures/make_*.py; do python "$f"; done            # PDF 输出到 figu
 python figures/build_main_figure.py && sh figures/make_main_figure.sh   # 概览图（需要 headless Chrome、pdfcrop）
 ```
 
-脚本读取 `paper_figures/data/*.json`，即论文实验汇总后的结果。论文中部分表格的标题经过手工修改，因此重新生成的标题可能和发表版不同，数字是一致的。
+脚本读取 `paper_figures/data/*.json`，即论文实验汇总后的结果。
 
 ## 引用
 
