@@ -1,3 +1,11 @@
+"""Runs a submitted program on a level's inputs and grades it.
+
+In practice, a program is run on the public example and on the 2k+1 hidden practice inputs of level k: one that
+moves the example values to other records and, for each rule j <= k, one that inserts the revealed member m0 and one
+that inserts m0 and the practice non-member n_p. With rewarded practice (CLR_BUNDLE=bundle_k1_v0_rg), inputs that
+also insert the unseen member m1 join from the second attempt. In the test, the same code grades the five cells.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import ast,copy,json,math,os,re,shutil,subprocess,threading,time,uuid
 from pathlib import Path
 from common import ROOT,dump,read

@@ -1,4 +1,8 @@
-"""Probe requests (OpenAI-compatible chat completions) and P0 / P1H / P1 judging (K1 v4 section 4)."""
+"""Probe requests (OpenAI-compatible chat completions) and judging of the three in-chain probes:
+  Hidden (P0): label and example only; no sample may recover the class.
+  Learnable (P1): practice feedback alone; the model must assign between 1/6 and 2/3 of the unseen members.
+  Solvable (P1H): feedback and the lesson; soft score of at least 0.8 on average and 0.6 in every rotation.
+The soft score is the share of pool values whose membership the model gets right."""
 import json
 import os
 import re

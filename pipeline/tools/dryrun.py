@@ -1,5 +1,5 @@
-"""Dry run without probes: take each slot's first candidate, build every instance, print a summary.
-usage: python tools/dryrun.py <inputs-root> <dataset>"""
+"""Dry run without probes: take each slot's first candidate, build every instance, and print a summary, to check a
+domain's inputs before spending model calls."""
 import sys
 import time
 from pathlib import Path

@@ -1,4 +1,7 @@
-"""DC-Cu, ReasoningBank, and Training-Free GRPO adapters for the CLR harness."""
+"""Adapters for Dynamic Cheatsheet (cumulative variant), ReasoningBank, and Training-Free GRPO, learning from feedback
+alone. Dynamic Cheatsheet rewrites its cheatsheet after every attempt, ReasoningBank distills memory items and
+retrieves the top items by embedding similarity, and Training-Free GRPO extracts experiences from groups of rollouts
+with mixed outcomes."""
 import copy
 import json
 import os

@@ -1,15 +1,5 @@
-"""clrsynth certify <dataset>: certify a pool of candidates before any chain is built.
-
-Each candidate (a list C with one choice of A, P_M, N_p, N_t) is probed in two stages. Stage 1 probes it alone, in a
-one-slot chain (P0, then P1, then P1H; a failure stops the sequence). Stage 2 places each stage-1 survivor in a mock
-five-level chain laid out like the dataset's chains, its other four levels filled with stage-1 survivors of the other
-fields, and probes it again: the other levels' examples tell the model what kind of category the labels are, which
-makes classes easier to guess and to generalize (10-21 TR: P1 rose by about 0.5 and half failed P0 once in a chain).
-Only stage-2 passes count. A list with many members gets more variants with disjoint A and P_M, so sibling
-chains can share C without sharing a trap value. Results go to out/<dataset>/POOL.json; make-chain then draws only
-certified variants and still runs the full-chain probes as a final check. The command reports, per field, how many
-certified variants there are against how many the dataset's chains need, so missing lists are found before any
-chain is built."""
+"""clrsynth certify <dataset>: certify a pool of candidates before any chain is built. Runs the Known probe (screen)
+on every list, then Hidden, Learnable, and Solvable on each passing candidate, and records the certified candidates."""
 import json
 import sys
 from collections import Counter

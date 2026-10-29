@@ -1,3 +1,6 @@
+"""Build the stage-B replay plan: one session per (mode, method, level), each reading the state saved at the end of
+practice on that level (runs_nc100_<mode>_v0/.../L<k>/STATE.json) and writing the level's test program.
+harness/run_condition.sh replaces the loop over modes and methods with the requested queue."""
 import json,sys
 from pathlib import Path
 D=Path(__file__).resolve().parent

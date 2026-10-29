@@ -1,3 +1,5 @@
+"""Stage B: test replay. Runs every session of the replay plan: the state learned on level k writes the level-k test
+program, which is graded on the test task's five cells."""
 import concurrent.futures,json,os,subprocess,sys,time
 from pathlib import Path
 D=Path(__file__).resolve().parent

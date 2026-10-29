@@ -1,11 +1,10 @@
-"""clrsynth screen <chain>: a cheap pre-screen of every candidate list before any chain runs.
+"""clrsynth screen <chain>: the Known probe, run on every candidate list before any chain is built.
 
-For each list C that can be a candidate, show the model the candidate's 12 values (with their meanings), the
-feedback of one version (A and m_v are in the class, N_p is not) and the verified lesson H, and ask for the
-category and its members. Three versions, one sample each. A list passes when the soft score (as in P1H) has a
-mean >= 0.8 and every version >= 0.6. Failing lists are written to out/<dataset>/SCREEN.json; make-chain skips
-them in every chain of the dataset. Screening several chains of one dataset merges into the same file; lists
-already screened are not asked again."""
+The model sees the list's pool values with their descriptions, one round of feedback (the example A and a revealed
+member are in the class, the practice non-member n_p is not), and the lesson, and is asked to name the grouping and
+mark which values belong to it. A list passes when the soft score is at least 0.8 on average over the three rotations
+of the revealed member and at least 0.6 in each, which requires both identifying the grouping and knowing its members.
+Failing lists are written to out/<dataset>/SCREEN.json and skipped by make-chain in every chain of the domain."""
 import json
 from pathlib import Path
 

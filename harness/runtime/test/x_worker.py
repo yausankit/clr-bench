@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""stdin: {"code": ..., "data": ...}; stdout: run_candidate result."""
+"""Worker process for x_runner.py: reads {"code": ..., "data": ...} on stdin and prints the run result on stdout.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import json
 import sys
 from pathlib import Path

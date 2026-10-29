@@ -1,3 +1,8 @@
+"""Practice loop for Training-Free GRPO (stage A). Within each attempt it samples a group of four rollouts; as in the
+official method, experiences are extracted only from groups with mixed outcomes. Otherwise the loop matches run_pb1.py:
+up to three attempts per level, an update after every attempt, and the level's final state saved for stage B.
+
+Part of harness/runtime/hint: the practice harness with the lesson appended to every update input (+ lesson)."""
 import concurrent.futures,copy,os,subprocess,sys,threading,traceback,time
 from pathlib import Path
 from common import *
@@ -36,6 +41,7 @@ class Environment:
         threading.Thread(target=self.server.serve_forever,daemon=True).start()
     def close(self):self.server.shutdown();self.server.server_close()
 def course(method,sid,replicate,start_level=1):
+    """Practice Training-Free GRPO on one chain from start_level on; returns the course status."""
     output=ROOT.parent/'runs_nc100_hint_v0'/f'rep{replicate}'/method/sid;output.mkdir(parents=True,exist_ok=True)
     state=initial(method);history=[];status=dict(method=method,course=sid,replicate=replicate,status='running',completed_levels=[],attempts=[])
     if start_level>1:

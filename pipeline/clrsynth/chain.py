@@ -1,5 +1,5 @@
-"""A chain under construction: slots with candidates, labels, background values,
-instance placement over the dataset interface, and prompt rendering."""
+"""A chain under construction: its slots (one per level), their candidates, the opaque labels, the background values,
+and the lesson text used by the Known and Solvable probes."""
 import copy
 import json
 from itertools import product

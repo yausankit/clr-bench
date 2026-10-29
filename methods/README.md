@@ -16,9 +16,7 @@ appended, under "VERIFIED LESSON (correct, from the task designers):", to every 
 | Frozen agent | `frozen` | none (empty state, same solver prompt) | `harness/run_dir/run_frozen.sh` |
 | History reference | `hist` | `hist_update`: every earlier practice program with its feedback, verbatim in the solver prompt | `self/methods_r3.py`, `harness/runtime/*/common.py` |
 | History + lesson / convention / procedure | `histhint`, `histconv`, `histproc` | `hist_update` plus a fixed text in the solver prompt | same |
-| Lesson in the solver prompt | `oracle` | `oracle_update` (fixed) | same |
-| Class-name oracle | `nameoracle`, `nameproc` | `oracle_update`; one line per label from `prompts/class_names/<chain>.txt` | same |
-| Web-lookup references | `webonly`, `histweb`, `histwebng` | lookup text from `prompts/web_lookup/` | same |
+| Class-name oracle | `nameoracle` | `oracle_update`; one line per label from `prompts/class_names/<chain>.txt` | same |
 
 How the learned state enters the solver prompt is in `persona()` of `harness/runtime/*/common.py`.
 The GEPA format note is selected with `CLRBENCH_GEPA_NOTE` (`neutral`, the paper's main results; `explicit`; `none`,

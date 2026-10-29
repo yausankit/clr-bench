@@ -1,4 +1,7 @@
-"""Candidate construction (v2 spec section 2): one candidate per natural list C."""
+"""Candidate construction: one candidate per published list C that can fill a slot. A candidate fixes the example A,
+the members m0, m1, m2, the practice non-member n_p, and the seven test non-members N_t, under the constraints that block
+shortcuts (the example lies in at least two other lists, no single attribute separates members from non-members,
+non-members come preferentially from competing lists that contain the example)."""
 from dataclasses import dataclass, asdict
 
 from .inputs import seeded_order, period_bounds
@@ -274,7 +277,7 @@ def candidates_for_slot(fc, excluded, level, tried=(), limit=8, avoid=None):
 
 
 def allocate_slots(dataset, cfg):
-    """v2 spec 2.4: round-robin over fields in config order, cap 2 per field (1 if <100 values)."""
+    """Round-robin over fields in config order, at most 2 candidates per field (1 if the field has <100 values)."""
     caps = {}
     order = []
     for spec in cfg["fields"]:

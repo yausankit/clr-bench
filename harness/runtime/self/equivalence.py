@@ -1,4 +1,7 @@
-"""Predeclared coupling of exactly identical generic solver policies."""
+"""Detect solver policies that are exactly identical across methods, so that identical programs are treated
+consistently when states are compared.
+
+Part of harness/runtime/self: the practice harness for learning from feedback alone (self)."""
 import copy, shutil, time
 from pathlib import Path
 from common import ROOT, dump, read, persona

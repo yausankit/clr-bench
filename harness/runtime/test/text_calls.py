@@ -1,4 +1,6 @@
-"""C4 exact text-call grammar, atomic recognition, no recovery heuristics."""
+"""Exact grammar for the solver's text tool calls; a call is recognized only when it matches completely.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import json,re
 BLOCK=re.compile(r'<(function-call|tool_call)>(.*?)</\1>',re.S)
 def parse_text_calls(content,allowed,start=0):

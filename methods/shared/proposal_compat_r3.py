@@ -1,11 +1,5 @@
-"""Deterministic transport compatibility for the adapted EvoSkill proposer.
-
-The upstream implementation uses a structured-output schema; it does not have
-this XML/key-value parser. This module preserves proposal values from one full
-JSON object, one JSON code block, or one explicit <proposal> block. It never
-repairs a proposal's meaning or invokes a model. Official optional defaults are
-validated but not inserted into the returned mapping.
-"""
+"""Parsing of EvoSkill proposals returned as text: reads the first complete JSON object against the upstream schema
+without guessing missing fields. Proposals that do not parse count as malformed."""
 from functools import lru_cache
 import json
 from pathlib import Path
@@ -78,7 +72,7 @@ def _extract(text):
     if not isinstance(text, str) or not text.strip():
         raise ProposalFormatError("Proposal response must be nonempty text")
     text = re.sub(r"```(?:json)?[ \t]*\r?\n?|```", "", text.strip())
-    # R3: first complete JSON object; original supplied field values are unchanged.
+    # Take the first complete JSON object and keep the supplied field values unchanged.
     for match in re.finditer(r"\{", text):
         try:
             value, end = DECODER.raw_decode(text[match.start():])

@@ -1,4 +1,4 @@
-"""Export the fixed, already qualified pilot, without regenerating any tasks."""
+"""Export tasks from a chain's task files into the format the task service serves; it does not regenerate tasks."""
 import ast
 import json
 import shutil

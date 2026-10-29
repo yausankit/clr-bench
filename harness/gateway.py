@@ -1,12 +1,6 @@
-"""Local model gateway used by the harness (transport.py posts jobs to $RSI_GATEWAY/jobs/<id> and polls them).
-
-It forwards each job to an OpenAI-compatible chat-completions endpoint, sets the model and reasoning effort for every
-request, retries transport errors, HTTP 408 and other upstream errors with exponential backoff, and keeps an audit
-record per request (GET <base-path>/audit). Configure the endpoint with environment variables:
-  CLRBENCH_API_BASE   base URL of the OpenAI-compatible API, e.g. https://api.openai.com/v1
-  CLRBENCH_API_KEY    API key (read from the environment only; never written to disk or logs)
-Usage: python gateway.py --model gpt-6-luna --port 42802 --base-path /CLR
-"""
+"""Local model gateway used by the harness. transport.py posts jobs to it; it forwards them to an OpenAI-compatible
+endpoint (CLRBENCH_API_BASE, CLRBENCH_API_KEY) with the configured model and reasoning effort, retries transient
+errors, and writes an audit log. The paper used GPT-6-Luna and GPT-6-Sol with high reasoning effort."""
 import argparse, json, os, shutil, threading, time, urllib.error, urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 

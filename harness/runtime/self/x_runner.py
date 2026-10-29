@@ -1,5 +1,6 @@
-"""Run one candidate program on one input (answer format: json).
-Contract: the program defines solve(<input>) and returns an int."""
+"""Run one candidate program on one input in an isolated container and return its answer (answer format: json).
+
+Part of harness/runtime/self: the practice harness for learning from feedback alone (self)."""
 import json
 import re
 import subprocess

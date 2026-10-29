@@ -1,7 +1,5 @@
-"""Frozen calibration: a non-learning model answers each level's test prompt once (up to 2 rounds of execution
-feedback on the prompt's example input, no counterexamples); the final program is scored on all three versions.
-usage: python tools/frozen.py <chain out dir> [--levels 1,2,3,4,5]
-Endpoint settings come from the same CLRSYNTH_* environment variables as make-chain."""
+"""Frozen-agent calibration: a model with an empty state answers each level's test prompt once; its scores should
+follow the designed staircase (0.80, 0.60, 0.40, 0.20) because it applies each rule only to the example."""
 import argparse
 import json
 import sys

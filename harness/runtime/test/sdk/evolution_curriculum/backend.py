@@ -1,3 +1,4 @@
+"""Docker executor that runs candidate programs without network access."""
 import json
 import os
 import shutil

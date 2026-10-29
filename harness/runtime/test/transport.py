@@ -1,5 +1,7 @@
-"""Shared model transport, not an agent loop. Requests go to the local gateway (harness/gateway.py) at $RSI_GATEWAY;
-the gateway holds the provider credentials."""
+"""Model transport: posts chat requests to the local gateway (harness/gateway.py) and returns replies. It holds no
+agent logic.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import copy
 import json
 import os
@@ -14,7 +16,7 @@ class ModelTransportError(RuntimeError):
 
 def estimate(messages):
     import tiktoken
-    # An explicitly approximate counter, NOT Qwen's unpublished tokenizer.
+    # Approximate token counter, used only to decide when to compact the context.
     return len(tiktoken.get_encoding('cl100k_base').encode(json.dumps(messages, ensure_ascii=False)))
 
 
@@ -52,7 +54,7 @@ def raw(messages, *, temperature=0, label='solve', tools=None, response_format=N
 def compact_history(messages, *, threshold=180000):
     """Summarize complete OLD turns; preserve system, first task and latest 2 user turns.
 
-    The estimate triggers compaction, not a claim of actual Qwen context exhaustion.
+    The estimate only triggers compaction of the solver's context.
     One huge immutable task is never truncated. Its provider outcome is preserved.
     """
     messages = copy.deepcopy(messages)

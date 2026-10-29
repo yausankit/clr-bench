@@ -1,3 +1,6 @@
+"""Stage A: practice. Runs every (mode, method) pair of the queue on this chain, levels 1-4, in parallel, resuming
+from the last completed level. mode is self (learning from feedback alone) or hint (+ lesson).
+harness/run_condition.sh sets the queue."""
 import concurrent.futures,json,os,random,subprocess,sys,time
 from pathlib import Path
 D=Path(__file__).resolve().parent

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Score every phase-B program on its own level with the chain's score_k1_v3.py."""
+"""Score every stage-B program on its level with the chain's scorer (score_k1_v3.py), on instance version 0: level
+accuracy (correct cells out of five), the result of each clean and single cell, and the value-level diagnostics
+(inc, inc_u, exc). Writes SCORES_ALL.json."""
 import json,re,subprocess,sys,time
 from pathlib import Path
 D=Path(__file__).resolve().parent

@@ -1,4 +1,4 @@
-"""Load a dataset's frozen inputs: universes, lists, scenario, chain configs, dataset.py."""
+"""Load a domain's frozen inputs: value universes, lists, scenario, chain configs, and dataset.py."""
 import csv
 import hashlib
 import importlib.util

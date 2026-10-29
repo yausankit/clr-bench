@@ -1,4 +1,5 @@
-"""clrsynth salience <dataset>: merge salience/<U>.tsv (concept_id, pageviews_12m) into lists/<U>.yaml."""
+"""clrsynth salience <dataset>: merge salience/<U>.tsv (concept id, pageviews over 12 months) into the lists, so that
+better-known groupings are tried first."""
 import csv
 from pathlib import Path
 

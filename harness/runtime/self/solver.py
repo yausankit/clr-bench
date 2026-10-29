@@ -1,4 +1,7 @@
-"""Portable tool-using solver for memory/prompt/skill adapters. No DSH dependency."""
+"""Tool-using solver shared by all methods. It reads the task prompt, the system prompt built from the learned state
+(common.persona), and returns one program; the same solver writes practice and test programs.
+
+Part of harness/runtime/self: the practice harness for learning from feedback alone (self)."""
 import copy
 import json
 import os

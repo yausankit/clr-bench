@@ -1,4 +1,5 @@
-"""clrsynth lint <dataset>: check a dataset's inputs against the guide (CLRSYNTH_ADD_DATASET)."""
+"""clrsynth lint <dataset>: check a domain's inputs before chains are built (lists differ from single-attribute
+groupings, members are not recognizable from their names, descriptions are well formed, and so on)."""
 import json
 import re
 ROMAN = re.compile(r"[IVXLC]+")   # Roman numerals in list names are not acronyms
@@ -81,7 +82,7 @@ def lint_dataset(ds):
         if long_:
             e(f"universes/{uname}.desc.tsv: descriptions longer than 200 characters: {long_[:3]}")
         # a description must not name a list: its full name, a synonym, its id read as words, or an acronym from
-        # its name (GCC, EU, OPEC); ordinary descriptive words (database, monitoring) are fine, P0 judges guessing
+        # its name (GCC, EU, OPEC); ordinary descriptive words (database, monitoring) are fine; the Hidden probe (P0) judges guessing
         names = {}
         for l in ds.lists.get(uname, []):
             phrases = {l.name, l.id.replace("_", " "), *l.synonyms}
@@ -178,7 +179,7 @@ def lint_dataset(ds):
             for spec in cfg["fields"]:
                 f = spec["field"]
                 need = sum(1 for s in slots if s["field"] == f)
-                # chains of a dataset never share a C, and about half of the candidates fail P1H
+                # chains of a domain never share a class C, and about half of the candidates fail the Solvable probe (P1H)
                 want = 2 * need * n_chains + 1
                 cands, reasons = candidates_for_slot(FieldContext(ds, cfg, f), set(), 1, limit=want)
                 if len(cands) < want:

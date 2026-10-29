@@ -1,4 +1,7 @@
-"""Runs inside the network-free candidate container; host RPC provides audited APIs."""
+"""Worker that runs inside the network-free candidate container and forwards declared API calls to the host
+through bridge.py.
+
+Part of harness/runtime/hint: the practice harness with the lesson appended to every update input (+ lesson)."""
 import contextlib,importlib.util,io,json,sys,traceback
 protocol_out=sys.stdout
 def emit(v):protocol_out.write('@@BENCH_RPC@@'+json.dumps(v,ensure_ascii=False,allow_nan=False)+'\n');protocol_out.flush()

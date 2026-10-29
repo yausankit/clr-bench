@@ -1,3 +1,12 @@
+"""Shared state handling for every method and reference.
+
+initial() gives a method's empty state, and persona() builds the solver's system prompt from the learned state:
+the ACE playbook, the GEPA guidance, EvoSkill skills, the Dynamic Cheatsheet, retrieved ReasoningBank memories,
+Training-Free GRPO experiences, or, for the method-free references, the raw practice history (hist), the history
+plus the lesson or one of its parts (histhint, histconv, histproc), and the class names behind the labels
+(nameoracle, the class-name oracle).
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import ast
 import json
 from pathlib import Path
@@ -23,12 +32,14 @@ def compact(v):return json.dumps(v,ensure_ascii=False,separators=(',',':'),allow
 def materialize(folder,files):
  for n,c in files.items():p=Path(folder)/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(c)
 def initial(method):
+ """Empty state of a method before level 1 (the frozen agent keeps this state)."""
  if method=='ace':return dict(memory=EMPTY,next_global_id=1)
  if method=='evoskill':return dict(files={})
  if method=='rb':return dict(experiences=[],next_global_id=1)
  if method=='tfgrpo':return dict(experiences={},next_global_id=0)
  return dict(text='')
 def persona(task,method,state):
+ """System prompt for the solver: the task's system text plus what the learned state contributes."""
  text=task['system']
  if method=='gepa' and state.get('text'):text+='\nLearned guidance:\n'+state['text']
  if method=='ace' and state['memory'].strip()!=EMPTY.strip():text+='\nLearned playbook:\n'+state['memory']

@@ -1,4 +1,5 @@
-"""DC-Cu, ReasoningBank, and Training-Free GRPO adapters for the CLR harness."""
+"""Dynamic Cheatsheet, ReasoningBank, and Training-Free GRPO helpers used by the test harness to put a learned state
+into the solver prompt (for example ReasoningBank's retrieval)."""
 import copy
 import json
 import os

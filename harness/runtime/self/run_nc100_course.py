@@ -1,3 +1,6 @@
+"""Entry point used by stage A: run one method's practice on one chain from a given level, through run_pb1.course().
+
+Part of harness/runtime/self: the practice harness for learning from feedback alone (self)."""
 import sys
 from run_pb1 import course
 rep,method,cid,start=sys.argv[1:]

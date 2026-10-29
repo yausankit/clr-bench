@@ -1,3 +1,12 @@
+"""Practice loop of one method on one chain (stage A).
+
+For each level the solver writes a program from the current state, the evaluator grades it on the public example
+and the hidden practice inputs, and failing inputs come back as counterexamples. The method's update step runs after
+every attempt; practice at a level ends at the first passing attempt or after three. The state reached at the end of
+level k is saved as L<k>/STATE.json and later writes the level-k test program in stage B. The state carries over to
+the next level, and the history passed to updates accumulates across levels.
+
+Part of harness/runtime/hint: the practice harness with the lesson appended to every update input (+ lesson)."""
 import concurrent.futures,copy,os,subprocess,sys,threading,traceback,time
 from pathlib import Path
 from common import *
@@ -35,6 +44,7 @@ class Environment:
         threading.Thread(target=self.server.serve_forever,daemon=True).start()
     def close(self):self.server.shutdown();self.server.server_close()
 def course(method,sid,replicate,start_level=1):
+    """Practice one method on one chain from start_level on; returns the course status."""
     output=ROOT.parent/'runs_nc100_hint_v0'/f'rep{replicate}'/method/sid;output.mkdir(parents=True,exist_ok=True)
     state=initial(method);history=[];status=dict(method=method,course=sid,replicate=replicate,status='running',completed_levels=[],attempts=[])
     if start_level>1:

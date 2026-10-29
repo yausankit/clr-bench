@@ -1,3 +1,4 @@
+"""Local HTTP task service: serves task prompts, runs submissions through the executor, and records grades."""
 import json
 import threading
 import time

@@ -1,3 +1,10 @@
+"""Adapters for ACE, GEPA, and EvoSkill (learning from feedback alone), plus the update functions of the method-free
+references (history and class-name oracle).
+
+Each adapter calls the official prompts and algorithms with the task-specific placeholders filled in: ACE runs its
+Reflector and Curator, GEPA proposes one candidate per practice attempt with the format note appended to its
+reflection input, and EvoSkill runs its proposer and builder. update() dispatches on the method key and runs after
+every practice attempt."""
 from concurrent.futures import ThreadPoolExecutor
 """Small-budget evolution from own public history, never hidden test feedback.
 
@@ -418,6 +425,7 @@ def _history_text(history):
 
 
 def hist_update(native, sid, level, state, history, folder):
+    """History reference: append the attempt's program and feedback verbatim; no model call."""
     new = {"text": _history_text(history)}
     dump(Path(folder) / "UPDATE.json", dict(method="hist", changed=new != state, mechanism="verbatim_history",
                                             reflection_calls=0))
@@ -425,12 +433,14 @@ def hist_update(native, sid, level, state, history, folder):
 
 
 def oracle_update(native, sid, level, state, history, folder):
+    """Fixed state (used by the class-name oracle): nothing is learned."""
     dump(Path(folder) / "UPDATE.json", dict(method="oracle", changed=False, mechanism="fixed_lesson",
                                             reflection_calls=0))
     return copy.deepcopy(state)
 
 
 def update(method, native, sid, level, state, history, folder):
+    """Run the update step of `method` after one practice attempt and return the new state."""
     Path(folder).mkdir(parents=True, exist_ok=True)
     released_ids(sid, level, history)
     dump(Path(folder) / "OWN_HISTORY.json", history)

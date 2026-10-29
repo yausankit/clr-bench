@@ -1,3 +1,7 @@
+"""Stage B: one replay session. Loads a learned state (or the empty state for the frozen agent), lets the solver
+write the level's test program from it, and grades the program on the test task's five cells.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import sys,os,copy,traceback,json
 from pathlib import Path
 H=Path(__file__).resolve().parent;P=H.parent

@@ -1,4 +1,5 @@
-"""clrsynth make-chain: lint -> slots -> candidates -> probe rounds -> build -> check -> verify-repro."""
+"""clrsynth make-chain: lint -> slots -> candidates -> probes (Hidden, Learnable, Solvable, in the context of the full
+chain) -> build -> check -> reproducibility check. Resumable: pinned slots are kept in STATE.json."""
 import json
 import os
 import signal

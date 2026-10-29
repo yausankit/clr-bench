@@ -1,4 +1,5 @@
-"""DC-Cu, ReasoningBank, and Training-Free GRPO adapters for the CLR harness."""
+"""Adapters for Dynamic Cheatsheet, ReasoningBank, and Training-Free GRPO in the + lesson condition: the lesson
+(HINT_NC100.txt) is appended to every update input."""
 import copy
 import json
 import os

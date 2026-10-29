@@ -1,4 +1,7 @@
-"""Network-free executable agent/skill with host mediated calls; no grader files mounted."""
+"""Host side of the bridge between the solver and a candidate program running in a network-free container.
+The container sees no grader files; calls it needs (for example a skill's helper) go through audited host RPC.
+
+Part of harness/runtime/hint: the practice harness with the lesson appended to every update input (+ lesson)."""
 import json,os,subprocess,uuid,traceback
 from pathlib import Path
 from common import ROOT,dump,compact,materialize

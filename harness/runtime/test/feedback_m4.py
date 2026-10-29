@@ -1,8 +1,14 @@
+"""Practice feedback. Every failing input comes back as a counterexample that shows the input, the expected and the
+returned result, the values changed from the example, and, for each changed value, whether it belongs to the label
+like the example (its records are not counted) or not (its records are still counted).
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 from common import compact
 
 CORRECT='Verdict: correct. The answer passed all tests, including hidden tests.'
 
 def counterexample(g,task,case=None):
+    """One failing input as a counterexample, with the membership statement for each changed value."""
     if case is None: case=next(c for c in sorted(g['cases'],key=lambda c:c['input']) if not c['pass_'])
     i=case['input']
     data=task['public'] if i==0 else task['hidden'][i-1].get('data',task['hidden'][i-1].get('fixture'))
@@ -24,6 +30,7 @@ def counterexample(g,task,case=None):
     return dict(view_index=i,input=data,expected=expected,actual=actual,where=where,text=text)
 
 def strict_feedback(g,task):
+    """Feedback on one attempt: all hidden inputs must pass; every failing input is reported."""
     pub=g['cases'][0];ok=all(c['pass_'] for c in g['cases'])
     fb=dict(status='scored',pass_=ok,score=float(ok),actual=pub['actual'],expected=g['expected'],checks=pub['checks'],shape_ok=pub['shape_ok'],feedback_scope='one counterexample per failing view; strict binary score',verdict=CORRECT)
     if not ok:

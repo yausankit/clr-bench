@@ -1,4 +1,4 @@
-"""Command line: python -m clrsynth <command> ..."""
+"""Command line: python -m clrsynth <command> ... (lint, screen, certify, make-chain, salience)."""
 import argparse
 import json
 import sys

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""stdin: {"code": ..., "data": ...}; stdout: run_candidate result."""
+"""Worker process for x_runner.py: reads {"code": ..., "data": ...} on stdin and prints the run result on stdout.
+
+Part of harness/runtime/self: the practice harness for learning from feedback alone (self)."""
 import json
 import sys
 from pathlib import Path

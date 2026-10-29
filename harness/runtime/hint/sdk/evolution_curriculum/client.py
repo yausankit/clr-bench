@@ -1,4 +1,4 @@
-"""Harness-side SDK. Contains no gold loading, model calls, retry or compression policy."""
+"""Client side of the local task service. It never loads hidden answers and makes no model calls."""
 import json
 import urllib.error
 import urllib.request

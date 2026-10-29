@@ -1,4 +1,6 @@
-"""Server wrapper shared by replay sessions; no dataset or method logic here."""
+"""Local task server shared by replay sessions; it serves the test task to the solver and holds no method logic.
+
+Part of harness/runtime/test: the test harness: replay of learned states on the test task, and the frozen agent."""
 import threading
 from common import read,dump
 from evaluator import Evaluator

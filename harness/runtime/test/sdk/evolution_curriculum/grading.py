@@ -1,4 +1,4 @@
-"""Historical output parsing and scalar grading, independent of any harness."""
+"""Output parsing and scalar grading of program answers, independent of any method."""
 import ast
 import math
 import re

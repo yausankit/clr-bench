@@ -1,4 +1,6 @@
-"""Build the K1 v3 deliverables of a chain from its pinned slots (v1 spec section 6, K1 v3 sections 2-4)."""
+"""Build a chain's deliverables from its pinned slots: for every level the practice task (largest entity total; the
+public example and its 2k+1 hidden inputs) and the test task (sum of entity totals; 5-k clean cells and k single
+cells), the scorer, controls, and the instance versions."""
 import hashlib
 import json
 import shutil

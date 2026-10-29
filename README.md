@@ -114,10 +114,10 @@ harness/         evaluation harness
   run_condition.sh run a queue of (mode, method) pairs on one chain, end to end
   gateway.py       local gateway to an OpenAI-compatible endpoint (model, reasoning effort, retries, audit)
   summarize.py     aggregate scores over chains (accuracy per level, single cells, inc_u, exc)
-  experiment_scripts/  the scripts and patches as run for the paper (reference)
+  variants.py      update-text variants (lesson parts under a neutral heading, convention at level 1 only, class names)
 methods/         adapters for ACE, GEPA, EvoSkill, Dynamic Cheatsheet, ReasoningBank, Training-Free GRPO and the
                  method-free references; UPSTREAM.md, fetch_upstream.sh
-prompts/         lesson and its parts, GEPA notes, class-name oracle texts, web-lookup texts
+prompts/         lesson and its parts, GEPA notes, class-name oracle texts
 paper_figures/   plotting and table scripts with the data files they read
 ```
 
@@ -179,14 +179,16 @@ harness/run_condition.sh TR1 runs/luna "[('self','ace'),('hint','ace'),('self','
 
 `mode` is `self` (learning from feedback alone) or `hint` (+lesson: `prompts/lesson.txt` appended to every update
 input). Methods: `ace`, `gepa`, `evoskill`, `dc` (Dynamic Cheatsheet), `rb` (ReasoningBank), `tfgrpo` (Training-Free
-GRPO); method-free references: `hist` (history), `histhint`, `histconv`, `histproc`, `oracle`, `nameoracle`
-(class-name oracle), `nameproc`, `webonly`, `histweb`, `histwebng` (see `methods/README.md`). The frozen agent runs
+GRPO); method-free references: `hist` (raw practice history), `histhint` (history + lesson), `histconv` and `histproc`
+(history + one part of the lesson), `nameoracle` (class-name oracle); see `methods/README.md`. The frozen agent runs
 with `runs/luna/TR1/run_frozen.sh 1 2 3 4`. Other settings:
 
 * `CLRBENCH_GEPA_NOTE=neutral|explicit|none` selects the GEPA format note (default `neutral`, as in the main results).
 * Rewarded practice: `CLR_BUNDLE=bundle_k1_v0_rg` (applied to stage A only by `run_condition.sh`).
-* Variants of the update text (lesson parts under a neutral heading, convention at level 1 only, class names in the
-  update step) are documented by the scripts in `harness/experiment_scripts/`.
+* Update-text variants: `CLR_VARIANT=lessn|convn|procn|namem|convl1` with the pairs `('hint','ace')` and
+  `('hint','dc')` (whole lesson, convention, or procedure under the neutral heading "UPDATE NOTE:"; class names;
+  convention at level 1 only). See `harness/variants.py`.
+* Other base models: pass `--model` to `run_condition.sh` and the gateway, for example `gpt-6-sol`.
 
 A run directory follows the layout of the paper's runs: stage A writes per-level states to
 `runs_nc100_<mode>_v0/rep1/<method>/<course>/L<k>/STATE.json`, stage B replays each state on the test task into

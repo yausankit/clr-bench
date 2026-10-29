@@ -1,7 +1,5 @@
-"""Zero checks over the delivered files (K1 v3 section 7, NC97 sections 12 and 14, v1 spec section 7).
-
-Expected answers were computed at build time from the world with dataset.total(); here they are recomputed
-from the rendered data with dataset.reference(), which reads the input the way a solver does."""
+"""Consistency checks over a built chain's files, for example that the practice and test tasks share records and
+rules, that value pools of different levels are disjoint, and that every expected answer is reproduced."""
 import json
 import os
 import re

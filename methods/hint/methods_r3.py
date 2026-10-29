@@ -1,3 +1,6 @@
+"""Adapters for ACE, GEPA, and EvoSkill in the + lesson condition: identical to methods/self/methods_r3.py except that
+the lesson (HINT_NC100.txt) is appended, under "VERIFIED LESSON (correct, from the task designers):", to every update
+input. harness/variants.py swaps this text and heading for the update-text variants."""
 from concurrent.futures import ThreadPoolExecutor
 """Small-budget evolution from own public history, never hidden test feedback.
 
@@ -408,6 +411,7 @@ public answers. Wrong submissions receive every failing input, each with its exp
 
 
 def update(method, native, sid, level, state, history, folder):
+    """Run the update step of `method` after one practice attempt and return the new state."""
     Path(folder).mkdir(parents=True, exist_ok=True)
     released_ids(sid, level, history)
     dump(Path(folder) / "OWN_HISTORY.json", history)

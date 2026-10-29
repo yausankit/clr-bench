@@ -102,10 +102,10 @@ harness/         评测框架
   run_condition.sh 在一条链上端到端运行一组 (mode, method)
   gateway.py       连接 OpenAI 兼容接口的本地网关（模型、推理强度、重试、审计）
   summarize.py     跨链汇总分数（各级准确率、单值格、inc_u、exc）
-  experiment_scripts/  论文实际运行时用的脚本和补丁（供参考）
+  variants.py      更新文本的变体（中性标题下的 lesson 拆分、只在第 1 级给出约定、类名）
 methods/         ACE、GEPA、EvoSkill、Dynamic Cheatsheet、ReasoningBank、Training-Free GRPO 的适配代码和不使用方法的参照；
                  UPSTREAM.md、fetch_upstream.sh
-prompts/         lesson 及其拆分、GEPA 说明、类名先知文本、Web 检索文本
+prompts/         lesson 及其拆分、GEPA 说明、类名先知文本
 paper_figures/   画图和制表脚本，以及它们读取的数据文件
 ```
 
@@ -157,11 +157,12 @@ harness/run_condition.sh TR1 runs/luna "[('self','ace'),('hint','ace'),('self','
     --gateway-url http://localhost:42802/CLR --model gpt-6-luna
 ```
 
-`mode` 为 `self`（只靠反馈学习）或 `hint`（加 lesson：把 `prompts/lesson.txt` 附加到每次更新的输入）。方法：`ace`、`gepa`、`evoskill`、`dc`（Dynamic Cheatsheet）、`rb`（ReasoningBank）、`tfgrpo`（Training-Free GRPO）；不使用方法的参照：`hist`（原始记录）、`histhint`、`histconv`、`histproc`、`oracle`、`nameoracle`（类名先知）、`nameproc`、`webonly`、`histweb`、`histwebng`（见 `methods/README.md`）。冻结智能体用 `runs/luna/TR1/run_frozen.sh 1 2 3 4` 运行。其他设置：
+`mode` 为 `self`（只靠反馈学习）或 `hint`（加 lesson：把 `prompts/lesson.txt` 附加到每次更新的输入）。方法：`ace`、`gepa`、`evoskill`、`dc`（Dynamic Cheatsheet）、`rb`（ReasoningBank）、`tfgrpo`（Training-Free GRPO）；不使用方法的参照：`hist`（原始练习记录）、`histhint`（原始记录 + lesson）、`histconv` 和 `histproc`（原始记录 + lesson 的一部分）、`nameoracle`（类名先知），见 `methods/README.md`。冻结智能体用 `runs/luna/TR1/run_frozen.sh 1 2 3 4` 运行。其他设置：
 
 * `CLRBENCH_GEPA_NOTE=neutral|explicit|none` 选择 GEPA 的格式说明（默认 `neutral`，与主结果一致）。
 * 有奖励的练习：`CLR_BUNDLE=bundle_k1_v0_rg`（`run_condition.sh` 只在阶段 A 应用）。
-* 更新文本的变体（中性标题下的 lesson 拆分、只在第 1 级给出约定、在更新步骤中给出类名）见 `harness/experiment_scripts/` 中的脚本。
+* 更新文本的变体：设置 `CLR_VARIANT=lessn|convn|procn|namem|convl1`，配合 `('hint','ace')` 和 `('hint','dc')`（中性标题 "UPDATE NOTE:" 下的完整 lesson、约定或步骤；类名；只在第 1 级给出约定），见 `harness/variants.py`。
+* 其他底座模型：给 `run_condition.sh` 和网关传 `--model`，例如 `gpt-6-sol`。
 
 运行目录沿用论文实验的结构：阶段 A 把每级的状态写到 `runs_nc100_<mode>_v0/rep1/<method>/<course>/L<k>/STATE.json`，阶段 B 在测试任务上回放每个状态，写到 `runs_nc100_test/<mode>/<method>/L<k>/`，`score_all.py` 生成 `SCORES_ALL.json`。
 
